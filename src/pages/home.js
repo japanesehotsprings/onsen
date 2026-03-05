@@ -41,7 +41,7 @@ export function renderHome() {
             <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
             </svg>
-            <input type="text" id="search-input" class="search-input" placeholder="温泉地・泉質・宿名を検索（例：草津、硫黄泉、秘湯）" autocomplete="off">
+            <input type="text" id="search-input" class="search-input" placeholder="温泉地・泉質・宿名を検索" autocomplete="off">
           </div>
           <button class="search-btn" id="search-btn">検索</button>
         </div>
