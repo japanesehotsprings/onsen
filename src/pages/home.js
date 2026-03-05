@@ -35,7 +35,7 @@ export function renderHome() {
           <span class="hero-title-sub">日本全国</span>
           名湯を巡る旅
         </h1>
-        <p class="hero-subtitle">♨ 47都道府県の温泉地・温泉宿を泉質・地域・雰囲気で探そう</p>
+        <p class="hero-subtitle">♨ 47都道府県の温泉地・温泉宿を探す</p>
         <div class="search-box" id="hero-search">
           <div class="search-input-wrapper">
             <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -59,7 +59,7 @@ export function renderHome() {
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">地域から探す</h2>
-          <p class="section-desc">全国8つの地域から、あなたの行きたい温泉地を見つけよう</p>
+          <p class="section-desc">全国8つの地域から行きたい温泉地を見つける</p>
         </div>
         <div class="region-grid">
           ${regions.map(region => {
