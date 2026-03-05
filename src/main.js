@@ -3,7 +3,6 @@
  * ルーターの初期化とページの切り替えを管理する
  */
 
-import './style.css';
 import { addRoute, initRouter, navigateTo } from './router.js';
 import { renderHome } from './pages/home.js';
 import { renderPrefectureList } from './pages/prefectureList.js';
