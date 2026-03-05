@@ -13,51 +13,37 @@ import { getPrefectureById } from '../data/prefectures.js';
  * @returns {Array} 予約サイトの情報配列
  */
 function buildBookingLinks(hotelName) {
-    const encoded = encodeURIComponent(hotelName);
-    return [
-        {
-            name: 'じゃらん',
-            icon: '🟠',
-            color: '#e85c24',
-            url: `https://www.jalan.net/00/search/?keyword=${encoded}`,
-            desc: 'ポイントが貯まる・使える旅行予約サイト'
-        },
-        {
-            name: '楽天トラベル',
-            icon: '🔴',
-            color: '#bf0000',
-            url: `https://travel.rakuten.co.jp/yado/search/?f_keyword=${encoded}`,
-            desc: '楽天ポイントで宿泊予約'
-        },
-        {
-            name: '一休.com',
-            icon: '🌸',
-            color: '#ba2636',
-            url: `https://www.ikyu.com/search/?keyword=${encoded}`,
-            desc: '厳選高級旅館・ホテルの宿泊予約'
-        },
-        {
-            name: 'るるぶトラベル',
-            icon: '🟢',
-            color: '#00a862',
-            url: `https://rurubu.travel/hotel/search?q=${encoded}`,
-            desc: 'お得なプランを探す旅行予約サービス'
-        },
-        {
-            name: 'Relux',
-            icon: '⚫',
-            color: '#2c2c2c',
-            url: `https://relux.com/search/?q=${encoded}`,
-            desc: '厳選旅館・ホテルの宿泊予約サービス'
-        },
-        {
-            name: 'Yahoo!トラベル',
-            icon: '🟣',
-            color: '#6a00cc',
-            url: `https://travel.yahoo.co.jp/search/?term=${encoded}`,
-            desc: 'ヤフーのポイントで旅行予約'
-        },
-    ];
+  const encoded = encodeURIComponent(hotelName);
+  return [
+    {
+      name: 'じゃらん',
+      icon: '🟠',
+      color: '#e85c24',
+      url: `https://www.jalan.net/00/search/?keyword=${encoded}`,
+      desc: 'ポイントが貯まる・使える旅行予約サイト'
+    },
+    {
+      name: '楽天トラベル',
+      icon: '🔴',
+      color: '#bf0000',
+      url: `https://travel.rakuten.co.jp/yado/search/?f_keyword=${encoded}`,
+      desc: '楽天ポイントで宿泊予約'
+    },
+    {
+      name: '一休.com',
+      icon: '🌸',
+      color: '#ba2636',
+      url: `https://www.ikyu.com/search/?keyword=${encoded}`,
+      desc: '厳選高級旅館・ホテルの宿泊予約'
+    },
+    {
+      name: 'Yahoo!トラベル',
+      icon: '🟣',
+      color: '#6a00cc',
+      url: `https://travel.yahoo.co.jp/search/?term=${encoded}`,
+      desc: 'ヤフーのポイントで旅行予約'
+    },
+  ];
 }
 
 /**
@@ -65,11 +51,11 @@ function buildBookingLinks(hotelName) {
  * @param {object} context - ルーターから渡されるコンテキスト
  */
 export function renderHotelDetail({ params }) {
-    const app = document.getElementById('app');
-    const hotel = getHotelById(params.id);
+  const app = document.getElementById('app');
+  const hotel = getHotelById(params.id);
 
-    if (!hotel) {
-        app.innerHTML = `
+  if (!hotel) {
+    app.innerHTML = `
       <div class="page-header">
         <div class="container">
           <h1 class="page-title">ページが見つかりません</h1>
@@ -77,14 +63,14 @@ export function renderHotelDetail({ params }) {
         </div>
       </div>
     `;
-        return;
-    }
+    return;
+  }
 
-    const onsen = onsenList.find(o => o.id === hotel.onsen_id);
-    const prefecture = onsen ? getPrefectureById(onsen.prefecture) : null;
-    const bookingLinks = buildBookingLinks(hotel.name);
+  const onsen = onsenList.find(o => o.id === hotel.onsen_id);
+  const prefecture = onsen ? getPrefectureById(onsen.prefecture) : null;
+  const bookingLinks = buildBookingLinks(hotel.name);
 
-    app.innerHTML = `
+  app.innerHTML = `
     <div class="hotel-detail-hero">
       <img src="${hotel.image}" alt="${hotel.name}" class="hotel-detail-hero-bg">
       <div class="hotel-detail-hero-overlay"></div>
@@ -243,24 +229,24 @@ export function renderHotelDetail({ params }) {
     </section>
   `;
 
-    // アニメーション設定
-    setupAnimations();
-    // ページトップへスクロール
-    window.scrollTo(0, 0);
+  // アニメーション設定
+  setupAnimations();
+  // ページトップへスクロール
+  window.scrollTo(0, 0);
 }
 
 /**
  * フェードインアニメーション設定
  */
 function setupAnimations() {
-    const cards = document.querySelectorAll('.hotel-detail-card, .booking-card, .hotel-price-card');
-    cards.forEach((card, i) => {
-        card.style.opacity = '0';
-        card.style.transform = 'translateY(16px)';
-        setTimeout(() => {
-            card.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
-            card.style.opacity = '1';
-            card.style.transform = 'translateY(0)';
-        }, i * 100);
-    });
+  const cards = document.querySelectorAll('.hotel-detail-card, .booking-card, .hotel-price-card');
+  cards.forEach((card, i) => {
+    card.style.opacity = '0';
+    card.style.transform = 'translateY(16px)';
+    setTimeout(() => {
+      card.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+      card.style.opacity = '1';
+      card.style.transform = 'translateY(0)';
+    }, i * 100);
+  });
 }
