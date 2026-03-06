@@ -12,7 +12,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '硫黄泉・食塩泉など9種',
         description: '日本屈指の温泉地。地獄谷の迫力ある噴気孔と多様な泉質が魅力。クマ牧場でも有名。',
-        image: '../assets/onsen/noboribetsu.png',
+        image: './onsen/noboribetsu.png',
         tags: ['硫黄泉', '地獄谷', '名湯', '北海道']
     },
     {
@@ -22,7 +22,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉',
         description: '洞爺湖畔に広がるリゾート温泉。湖面に映る有珠山と花火大会が絵になる景勝地。',
-        image: '/src/assets/onsen/toyako.png',
+        image: './onsen/toyako.png',
         tags: ['湖畔', '花火', 'リゾート', '北海道']
     },
     {
@@ -32,7 +32,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: 'ナトリウム塩化物泉',
         description: '札幌から約1時間の秘境温泉。豊平川渓谷沿いに旅館が立ち並ぶ「札幌の奥座敷」。',
-        image: '/src/assets/onsen/zyozankei.png',
+        image: './onsen/zyozankei.png',
         tags: ['渓谷', '秘境', '札幌近郊', '北海道']
     },
     {
@@ -42,7 +42,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '硫黄泉・重曹泉',
         description: 'マリモで有名な阿寒湖畔の温泉。アイヌ文化に触れられる民芸品の街も魅力。',
-        image: '../../public/onsen/akan.png',
+        image: './onsen/akan.png',
         tags: ['湖畔', 'アイヌ', 'マリモ', '北海道']
     },
     {
@@ -52,7 +52,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉・塩化物泉など',
         description: '大雪山国立公園の峡谷に広がる温泉地。断崖絶壁と滝、紅葉・氷瀑の景色が名物。',
-        image: '../../public/onsen/sounkyo.png',
+        image: './onsen/sounkyo.png',
         tags: ['峡谷', '大雪山', '紅葉', '北海道']
     },
     {
@@ -62,7 +62,7 @@ export const onsenList = [
         category: '重曹泉',
         spring_type: '植物性モール泉（ナトリウム-塩化物・炭酸水素塩泉）',
         description: '植物由来のモール泉で有名。とろみのある湯と広い空、十勝の食がセットで楽しめる。',
-        image: '../../public/onsen/tokachigawa.png',
+        image: './onsen/tokachigawa.png',
         tags: ['モール泉', '美肌', '十勝', '北海道']
     },
     {
@@ -72,7 +72,7 @@ export const onsenList = [
         category: '炭酸水素塩泉',
         spring_type: '炭酸水素塩泉',
         description: '透明度の高い支笏湖畔の温泉。湖と森の静けさに包まれる大人のリゾート。',
-        image: '../../public/onsen/shikotsu.png',
+        image: './onsen/shikotsu.png',
         tags: ['湖畔', '静寂', '森林', '北海道']
     },
     {
@@ -82,7 +82,7 @@ export const onsenList = [
         category: '酸性泉',
         spring_type: '酸性明礬泉',
         description: '硫黄山の麓に広がる強めの酸性泉。湯治文化と摩周・屈斜路観光の拠点。',
-        image: '../../public/onsen/kawayu.png',
+        image: './onsen/kawayu.png',
         tags: ['硫黄山', '湯治', '道東', '北海道']
     },
     {
@@ -92,7 +92,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '硫黄泉・塩化物泉など',
         description: '世界的スキーリゾートの温泉。羊蹄山を望む露天風呂や秘湯感のある野湯が点在。',
-        image: '../../public/onsen/niseko.png',
+        image: './onsen/niseko.png',
         tags: ['スキー', '羊蹄山', 'リゾート', '北海道']
     },
 
@@ -104,7 +104,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '酸性硫黄泉',
         description: '八甲田山の秘湯。千人風呂と呼ばれる巨大な混浴ヒバ千人風呂が有名。国民保養温泉。',
-        image: '../public/onsen/sukayu.png',
+        image: './onsen/sukayu.png',
         tags: ['秘湯', '混浴', 'ヒバ千人風呂', '青森']
     },
     {
@@ -114,7 +114,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: 'ナトリウム塩化物泉',
         description: '陸奥湾を望む温泉地。新鮮な海の幸と温泉を一緒に楽しめる「津軽の奥座敷」。',
-        image: '../public/onsen/asamushi.png',
+        image: './onsen/asamushi.png',
         tags: ['海の幸', '海岸', '青森']
     },
     {
@@ -124,7 +124,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉',
         description: '弘前近郊の温泉地。長い歴史をもち、津軽観光の宿泊拠点として人気。',
-        image: '../public/onsen/oowani.png',
+        image: './onsen/oowani.png',
         tags: ['津軽', '弘前', '歴史', '青森']
     },
     {
@@ -134,7 +134,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: 'ナトリウム-塩化物強塩泉',
         description: '日本海を目の前に望む露天風呂が名物。夕日と波音を浴びるように楽しめる。',
-        image: '../public/onsen/hurouhushi.png',
+        image: './onsen/hurouhushi.png',
         tags: ['日本海', '夕日', '絶景露天', '青森']
     },
     {
@@ -144,7 +144,7 @@ export const onsenList = [
         category: '酸性泉',
         spring_type: '酸性硫黄泉',
         description: '岩木山の麓に湧く湯治場風情の温泉。素朴な宿と山の空気が心地いい。',
-        image: '../public/onsen/dake.png',
+        image: './onsen/dake.png',
         tags: ['岩木山', '湯治', '素朴', '青森']
     },
 
@@ -156,7 +156,7 @@ export const onsenList = [
         category: '重曹泉',
         spring_type: 'ナトリウム炭酸水素塩泉',
         description: '宮沢賢治ゆかりの温泉地。大沢温泉・鉛温泉など趣の異なる名湯が点在する温泉天国。',
-        image: '../public/onsen/hanamaki.png',
+        image: './onsen/hanamaki.png',
         tags: ['秘湯', '宮沢賢治', '名湯', '岩手']
     },
     {
@@ -166,7 +166,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '含硫黄単純泉',
         description: '岩手山麓に位置する自噴する硫黄泉の秘湯。こけし作りの里としても知られる。',
-        image: '../public/onsen/matsukawa.png',
+        image: './onsen/matsukawa.png',
         tags: ['硫黄泉', '秘湯', '自噴', '岩手']
     },
     {
@@ -176,7 +176,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: 'ナトリウム塩化物泉',
         description: '御所湖のほとりの温泉地。盛岡から近く、湖畔の景色と合わせて楽しめる。',
-        image: '../public/onsen/tsunagi.png',
+        image: './onsen/tsunagi.png',
         tags: ['湖畔', '盛岡近郊', '岩手']
     },
     {
@@ -186,7 +186,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '硫黄泉・塩化物泉など',
         description: '山深い秘湯で、川沿いの露天風呂が有名。湯量豊富で温泉好きの聖地。',
-        image: '../public/onsen/getou.png',
+        image: './onsen/getou.png',
         tags: ['秘湯', '露天風呂', '湯量', '岩手']
     },
     {
@@ -196,7 +196,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '硫黄泉・単純泉など',
         description: '八幡平の高原に点在する温泉群。トレッキングや紅葉、雪景色と相性抜群。',
-        image: '../public/onsen/hachimantai.png',
+        image: './onsen/hachimantai.png',
         tags: ['高原', '紅葉', '自然', '岩手']
     },
 
@@ -208,7 +208,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '硫黄泉・重曹泉など9種',
         description: '日本の泉質11種のうち9種が集まる「温泉の宝庫」。こけしの発祥地としても有名。',
-        image: '../public/onsen/naruko.png',
+        image: './onsen/naruko.png',
         tags: ['9種の泉質', 'こけし', '秘湯', '宮城']
     },
     {
@@ -218,7 +218,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純泉',
         description: '広瀬川渓谷沿いの温泉地。仙台から近く「仙台の奥座敷」として親しまれる。',
-        image: '../public/onsen/sakunami.png',
+        image: './onsen/sakunami.png',
         tags: ['渓谷', '仙台近郊', '宮城']
     },
     {
@@ -228,7 +228,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: 'ナトリウム-カルシウム塩化物泉',
         description: '仙台近郊の人気温泉地。名取川渓谷や滝の景観と合わせて楽しめる「仙台の奥座敷」。',
-        image: '../public/onsen/akiu.png',
+        image: './onsen/akiu.png',
         tags: ['仙台近郊', '渓谷', '滝', '宮城']
     },
     {
@@ -238,7 +238,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '日本三景・松島エリアで楽しめる温泉。島々の景色と海の幸が魅力。',
-        image: '../public/onsen/matsushima.png',
+        image: './onsen/matsushima.png',
         tags: ['日本三景', '海の幸', '観光', '宮城']
     },
     {
@@ -248,7 +248,7 @@ export const onsenList = [
         category: '硫酸塩泉',
         spring_type: '硫酸塩泉・塩化物泉など',
         description: '蔵王連峰の麓にある温泉地。蔵王観光の拠点として人気で、落ち着いた温泉街が広がる。',
-        image: '../public/onsen/toogatta.png',
+        image: './onsen/toogatta.png',
         tags: ['蔵王', '山麓', '温泉街', '宮城']
     },
 
@@ -260,7 +260,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '硫黄泉・重曹泉など各宿異なる',
         description: '秘湯の宝庫。7つの温泉宿からなる山奥の温泉郷。鶴の湯の茅葺き旅館と露天風呂は絶景。',
-        image: '../public/onsen/nyuto.png',
+        image: './onsen/nyuto.png',
         tags: ['秘湯', '鶴の湯', '露天風呂', '秋田']
     },
     {
@@ -270,7 +270,7 @@ export const onsenList = [
         category: '酸性泉',
         spring_type: '強酸性含二酸化炭素塩化物泉',
         description: '日本一の酸性度を誇る温泉。pH1.2の強酸性の湯は難病にも効くと言われ全国から湯治客が訪れる。',
-        image: '../public/onsen/tamagawa.png',
+        image: './onsen/tamagawa.png',
         tags: ['強酸性', '湯治', '秘湯', '秋田']
     },
     {
@@ -280,7 +280,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '男鹿半島の温泉。なまはげ文化と日本海の景色、海の幸がセットで楽しめる。',
-        image: '../public/onsen/oga.png',
+        image: './onsen/oga.png',
         tags: ['日本海', 'なまはげ', '海の幸', '秋田']
     },
     {
@@ -290,7 +290,7 @@ export const onsenList = [
         category: '硫酸塩泉',
         spring_type: '硫酸塩泉',
         description: '十和田エリアの温泉。渓流沿いの景色と落ち着いた湯治場の雰囲気が魅力。',
-        image: '../public/onsen/oyu.png',
+        image: './onsen/oyu.png',
         tags: ['渓流', '湯治', '静けさ', '秋田']
     },
     {
@@ -300,7 +300,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉・硫黄泉など',
         description: '田沢湖やスキー場に近い高原の温泉。四季のアクティビティと相性がいい。',
-        image: '../public/onsen/tazawako.png',
+        image: './onsen/tazawako.png',
         tags: ['高原', '田沢湖', 'スキー', '秋田']
     },
 
@@ -312,7 +312,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: 'ナトリウム塩化物泉',
         description: '大正ロマン漂う温泉街。ガス灯に照らされた木造多層建築の旅館が立ち並ぶ幻想的な夜景が有名。',
-        image: '../public/onsen/ginzan.png',
+        image: './onsen/ginzan.png',
         tags: ['大正ロマン', '木造旅館', '冬景色', '山形']
     },
     {
@@ -322,7 +322,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '強酸性硫黄泉',
         description: '国内有数の強酸性硫黄泉。冬のスキーと温泉を同時に楽しめるリゾート。樹氷鑑賞の拠点にも。',
-        image: '../public/onsen/zao.png',
+        image: './onsen/zao.png',
         tags: ['硫黄泉', 'スキー', '樹氷', '山形']
     },
     {
@@ -332,7 +332,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉・硫酸塩泉など',
         description: '城下町の風情が残る温泉地。武家屋敷やワイナリー観光と合わせて楽しめる。',
-        image: '../public/onsen/kaminoyama.png',
+        image: './onsen/kaminoyama.png',
         tags: ['城下町', '歴史', '山形']
     },
     {
@@ -342,7 +342,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉',
         description: '将棋駒の産地で知られる天童の温泉。さくらんぼ観光の拠点としても便利。',
-        image: '../public/onsen/tendou.png',
+        image: './onsen/tendou.png',
         tags: ['将棋', 'さくらんぼ', '山形']
     },
     {
@@ -352,7 +352,7 @@ export const onsenList = [
         category: '硫酸塩泉',
         spring_type: '硫酸塩泉',
         description: '開湯伝説が残る古湯。ぶどう畑やワイン文化と合わせて楽しめる落ち着いた温泉地。',
-        image: '../public/onsen/akayu.png',
+        image: './onsen/akayu.png',
         tags: ['古湯', 'ワイン', '山形']
     },
     {
@@ -362,7 +362,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '日本海側に近い温泉地。川沿いの温泉街と海の幸が魅力。',
-        image: '../public/onsen/atsumi.png',
+        image: './onsen/atsumi.png',
         tags: ['温泉街', '海の幸', '山形']
     },
 
@@ -374,7 +374,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: 'ナトリウム塩化物泉',
         description: '会津若松の奥座敷。七日町通りや鶴ヶ城観光の後に訪れる温泉地として人気。',
-        image: '../public/onsen/higashiyama.png',
+        image: './onsen/higashiyama.png',
         tags: ['会津', '歴史', '福島']
     },
     {
@@ -384,7 +384,7 @@ export const onsenList = [
         category: '重曹泉',
         spring_type: 'ナトリウム-カルシウム塩化物泉',
         description: '安積山麓の温泉地。五色沼や磐梯山観光の宿泊拠点。アルカリ性のとろみある湯が特徴。',
-        image: '../public/onsen/bandaiatami.png',
+        image: './onsen/bandaiatami.png',
         tags: ['磐梯山', '紅葉', '福島']
     },
     {
@@ -394,7 +394,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉',
         description: '松尾芭蕉も訪れたとされる歴史ある温泉。共同浴場めぐりが楽しい温泉街。',
-        image: '../public/onsen/iizaka.png',
+        image: './onsen/iizaka.png',
         tags: ['共同浴場', '温泉街', '歴史', '福島']
     },
     {
@@ -404,7 +404,7 @@ export const onsenList = [
         category: '硫酸塩泉',
         spring_type: '硫酸塩泉・炭酸水素塩泉など',
         description: '荒川沿いの渓谷温泉。こけし文化でも知られ、落ち着いた湯の町。',
-        image: '../public/onsen/tsuchiyu.png',
+        image: './onsen/tsuchiyu.png',
         tags: ['渓谷', 'こけし', '福島']
     },
     {
@@ -414,7 +414,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉',
         description: '会津の渓谷沿いに広がる温泉地。絶景の露天風呂と鉄道旅の相性が良い。',
-        image: '../public/onsen/ashinomaki.png',
+        image: './onsen/ashinomaki.png',
         tags: ['渓谷', '露天風呂', '会津', '福島']
     },
     {
@@ -424,7 +424,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '硫黄泉',
         description: '吾妻連峰の山中にある白濁の硫黄泉。雪景色の露天風呂が人気の秘湯。',
-        image: '../public/onsen/takayu.png',
+        image: './onsen/takayu.png',
         tags: ['白濁', '秘湯', '山中', '福島']
     },
 
@@ -436,7 +436,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: 'ナトリウム塩化物泉',
         description: '日本三名瀑・袋田の滝のそばに湧く温泉。紅葉と氷瀑の季節は特に人気が高い。',
-        image: '../public/onsen/fukuroda.png',
+        image: './onsen/fukuroda.png',
         tags: ['袋田の滝', '紅葉', '茨城']
     },
     {
@@ -446,7 +446,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '太平洋を望む海辺の温泉。絶景と海の幸を楽しめる北茨城の名湯。',
-        image: '../public/onsen/itsura.png',
+        image: './onsen/itsura.png',
         tags: ['太平洋', '海の幸', '絶景', '茨城']
     },
     {
@@ -456,7 +456,7 @@ export const onsenList = [
         category: '重曹泉',
         spring_type: 'ナトリウム炭酸水素塩泉',
         description: '奥久慈の自然に囲まれた温泉地。川沿いの景色と里山の空気が魅力。',
-        image: '../public/onsen/daigo.png',
+        image: './onsen/daigo.png',
         tags: ['奥久慈', '里山', '渓流', '茨城']
     },
     {
@@ -466,7 +466,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉',
         description: '筑波山の麓にある温泉。関東平野の夜景を望む展望風呂が人気。',
-        image: '../public/onsen/tsukubasan.png',
+        image: './onsen/tsukubasan.png',
         tags: ['夜景', '山麓', '茨城']
     },
 
@@ -478,7 +478,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '酸性硫黄泉・単純泉など',
         description: '御用邸でも知られる那須高原の温泉群。那須岳山麓に大小多数の旅館・ホテルが点在。',
-        image: '../public/onsen/nasu.png',
+        image: './onsen/nasu.png',
         tags: ['那須高原', '御用邸', '栃木']
     },
     {
@@ -488,7 +488,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '含硫黄カルシウム炭酸水素塩泉',
         description: '奥日光の温泉地。中禅寺湖や戦場ヶ原の自然と世界遺産観光の拠点として知られる。',
-        image: '../public/onsen/nikko.png',
+        image: './onsen/nikko.png',
         tags: ['奥日光', '世界遺産', '栃木']
     },
     {
@@ -498,7 +498,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉',
         description: '鬼怒川渓谷沿いの大型温泉地。テーマパークや日光観光と相性が良い。',
-        image: '../public/onsen/kinugawa.png',
+        image: './onsen/kinugawa.png',
         tags: ['渓谷', '観光拠点', '栃木']
     },
     {
@@ -508,7 +508,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉・炭酸水素塩泉など',
         description: '渓谷美が魅力の温泉郷。紅葉シーズンの散策と温泉が定番。',
-        image: '../public/onsen/shiobara.png',
+        image: './onsen/shiobara.png',
         tags: ['渓谷', '紅葉', '温泉郷', '栃木']
     },
     {
@@ -518,7 +518,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉',
         description: '平家落人伝説が残る山里の温泉。かまくら祭りなど冬の風情も人気。',
-        image: '../public/onsen/yunishigawa.png',
+        image: './onsen/yunishigawa.png',
         tags: ['山里', '雪景色', '秘湯', '栃木']
     },
 
@@ -530,7 +530,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '酸性硫黄泉（含石膏）',
         description: '日本を代表する名湯。街の中心にある湯畑と時間湯が草津のシンボル。日本三名泉の一つ。',
-        image: '../public/onsen/kusatsu.png',
+        image: './onsen/kusatsu.png',
         tags: ['湯畑', '時間湯', '日本三名泉', '群馬']
     },
     {
@@ -540,7 +540,7 @@ export const onsenList = [
         category: '硫酸塩泉',
         spring_type: '硫酸塩泉（黄金の湯）・単純泉（白銀の湯）',
         description: '365段の石段が名物のレトロな温泉街。黄金の湯と白銀の湯の2種を楽しめる人気温泉。',
-        image: '../public/onsen/ikaho.png',
+        image: './onsen/ikaho.png',
         tags: ['石段街', '昭和レトロ', '黄金の湯', '群馬']
     },
     {
@@ -550,7 +550,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '含硫黄マグネシウム硫酸塩泉',
         description: '標高1,800mに位置する高地温泉。白濁した硫黄泉の露天風呂からの眺望が絶品。',
-        image: '../public/onsen/manza.png',
+        image: './onsen/manza.png',
         tags: ['高山温泉', '白濁', '露天風呂', '群馬']
     },
     {
@@ -560,7 +560,7 @@ export const onsenList = [
         category: '硫酸塩泉',
         spring_type: '硫酸塩泉・塩化物泉など',
         description: '「四万の病を癒す」と伝わる湯治の里。川沿いの静けさと積善館の雰囲気が人気。',
-        image: '../public/onsen/shiman.png',
+        image: './onsen/shiman.png',
         tags: ['湯治', 'レトロ', '川沿い', '群馬']
     },
     {
@@ -570,7 +570,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉・塩化物泉など',
         description: '利根川上流の自然に囲まれた温泉郷。ラフティングやスキーと一緒に楽しめる。',
-        image: '../public/onsen/minakami.png',
+        image: './onsen/minakami.png',
         tags: ['自然', 'アクティビティ', '温泉郷', '群馬']
     },
     {
@@ -580,7 +580,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉',
         description: '尾瀬観光の拠点として便利な温泉地。山の景色と静かな温泉街が魅力。',
-        image: '../public/onsen/oigami.png',
+        image: './onsen/oigami.png',
         tags: ['尾瀬', '温泉街', '群馬']
     },
 
@@ -592,7 +592,7 @@ export const onsenList = [
         category: '重曹泉',
         spring_type: 'ナトリウム炭酸水素塩泉',
         description: '荒川沿いの温泉地。関東平野を見渡せる高台の露天風呂が人気の日帰り温泉施設。',
-        image: '../public/onsen/yorii.png',
+        image: './onsen/yorii.png',
         tags: ['日帰り温泉', '露天風呂', '埼玉']
     },
     {
@@ -602,7 +602,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉',
         description: '秩父の自然と祭り文化を楽しめる温泉エリア。渓谷や神社巡りと相性が良い。',
-        image: '../public/onsen/chichibu.png',
+        image: './onsen/chichibu.png',
         tags: ['秩父', '自然', '観光', '埼玉']
     },
     {
@@ -612,7 +612,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '長瀞渓谷のライン下りと合わせて楽しめる温泉。川と岩畳の景観が魅力。',
-        image: '../public/onsen/nagatoro.png',
+        image: './onsen/nagatoro.png',
         tags: ['渓谷', '岩畳', '川', '埼玉']
     },
 
@@ -624,7 +624,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: 'ナトリウム塩化物泉',
         description: '日本で最も早く初日の出が見られる犬吠埼周辺の温泉。太平洋の絶景を望む露天風呂が自慢。',
-        image: '../public/onsen/inubosaki.png',
+        image: './onsen/inubosaki.png',
         tags: ['初日の出', '太平洋', '海岸', '千葉']
     },
     {
@@ -634,7 +634,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '房総の海を楽しむ温泉地。海辺のリゾート感と新鮮な海の幸が魅力。',
-        image: '../public/onsen/kamogawa.png',
+        image: './onsen/kamogawa.png',
         tags: ['房総', '海の幸', 'リゾート', '千葉']
     },
     {
@@ -644,7 +644,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '太平洋に面した温泉。朝市や港町の雰囲気とセットで楽しめる。',
-        image: '../public/onsen/katsuura.png',
+        image: './onsen/katsuura.png',
         tags: ['港町', '朝市', '太平洋', '千葉']
     },
     {
@@ -654,7 +654,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '南房総の海辺温泉。夕日と海の景色を満喫できるリゾート感が人気。',
-        image: '../public/onsen/tateyama.png',
+        image: './onsen/tateyama.png',
         tags: ['南房総', '夕日', '海', '千葉']
     },
 
@@ -666,7 +666,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: 'アルカリ性単純泉',
         description: '東京唯一の村・奥多摩町の温泉。秋川渓谷や多摩川上流の自然に囲まれた都会の秘湯。',
-        image: '../public/onsen/okutama.png',
+        image: './onsen/okutama.png',
         tags: ['都会の秘湯', '渓谷', 'おこもり', '東京']
     },
     {
@@ -676,7 +676,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '伊豆大島で楽しめる島の温泉。火山島ならではの景色と合わせて楽しめる。',
-        image: '../public/onsen/oshima.png',
+        image: './onsen/oshima.png',
         tags: ['島', '火山', 'リゾート', '東京']
     },
     {
@@ -686,7 +686,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '南国ムードの八丈島で楽しめる温泉。海と緑に囲まれた開放感が魅力。',
-        image: '../public/onsen/hachijojima.png',
+        image: './onsen/hachijojima.png',
         tags: ['島', '南国', '海', '東京']
     },
 
@@ -698,7 +698,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '硫黄泉・塩化物泉など多様',
         description: '富士山を望む日本最大級の温泉リゾート。17の温泉地からなり泉質も多様。芦ノ湖や大涌谷も楽しめる。',
-        image: '../public/onsen/hakone.png',
+        image: './onsen/hakone.png',
         tags: ['リゾート', '富士山', '芦ノ湖', '神奈川']
     },
     {
@@ -708,7 +708,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: 'カルシウム・ナトリウム塩化物泉',
         description: '万葉集にも詠まれた歴史ある温泉地。文豪や政財界人に愛された「癒やしの里」。',
-        image: '../public/onsen/yugawara.png',
+        image: './onsen/yugawara.png',
         tags: ['歴史', '文豪', '万葉集', '神奈川']
     },
     {
@@ -718,7 +718,7 @@ export const onsenList = [
         category: '硫酸塩泉',
         spring_type: '硫酸塩泉・塩化物泉など',
         description: '箱根の高台に広がる温泉地。美術館巡りやケーブルカー観光と相性が良い。',
-        image: '../public/onsen/gora.png',
+        image: './onsen/gora.png',
         tags: ['箱根', '美術館', '高台', '神奈川']
     },
     {
@@ -728,7 +728,7 @@ export const onsenList = [
         category: '重曹泉',
         spring_type: 'ナトリウム炭酸水素塩泉',
         description: '都心からアクセスしやすい温泉。とろみのある湯で日帰り利用にも人気。',
-        image: '../public/onsen/tsurumaki.png',
+        image: './onsen/tsurumaki.png',
         tags: ['日帰り', '美肌', '神奈川']
     },
 
@@ -740,7 +740,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: 'ナトリウム塩化物泉',
         description: '川端康成「雪国」の舞台。豪雪地帯のスキーリゾートと温泉、日本酒を一度に楽しめる。',
-        image: '../public/onsen/echigoyuzawa.png',
+        image: './onsen/echigoyuzawa.png',
         tags: ['スキー', '雪国', '日本酒', '新潟']
     },
     {
@@ -750,7 +750,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '含硫黄ナトリウム塩化物泉',
         description: '美肌の湯として知られる硫黄泉。エメラルドグリーンの湯色が特徴で県内屈指の温泉地。',
-        image: '../public/onsen/tsukioka.png',
+        image: './onsen/tsukioka.png',
         tags: ['美肌の湯', '硫黄泉', '新潟']
     },
     {
@@ -760,7 +760,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '日本海に沈む夕日が名物の海辺温泉。海の幸と温泉を満喫できる。',
-        image: '../public/onsen/sewa.png',
+        image: './onsen/sewa.png',
         tags: ['日本海', '夕日', '海の幸', '新潟']
     },
     {
@@ -770,7 +770,7 @@ export const onsenList = [
         category: '硫酸塩泉',
         spring_type: '硫酸塩泉',
         description: '弥彦山の麓の温泉地。寺社巡りやワイナリー観光と合わせて楽しめる。',
-        image: '../public/onsen/iwafuro.png',
+        image: './onsen/iwafuro.png',
         tags: ['弥彦', '山麓', '新潟']
     },
     {
@@ -780,7 +780,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '硫黄泉・炭酸水素塩泉など',
         description: '妙高山麓の温泉。スキーや高原散策と相性がよく、四季で楽しめる。',
-        image: '../public/onsen/myoko.png',
+        image: './onsen/myoko.png',
         tags: ['高原', 'スキー', '妙高', '新潟']
     },
 
@@ -792,7 +792,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: 'アルカリ性単純泉',
         description: '黒部峡谷の入口に広がる温泉地。トロッコ列車で渓谷美を楽しめる北陸随一のリゾート。',
-        image: '../public/onsen/unazuki.png',
+        image: './onsen/unazuki.png',
         tags: ['黒部峡谷', 'トロッコ列車', 'リゾート', '富山']
     },
     {
@@ -802,7 +802,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '庄川沿いに点在する温泉郷。渓谷の景色と落ち着いた旅館が魅力。',
-        image: '../public/onsen/shogawa.png',
+        image: './onsen/shogawa.png',
         tags: ['渓谷', '温泉郷', '富山']
     },
     {
@@ -812,7 +812,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '富山湾の海の幸が魅力の温泉。寒ブリの季節は特に人気。',
-        image: '../public/onsen/himi.png',
+        image: './onsen/himi.png',
         tags: ['富山湾', '海の幸', '氷見', '富山']
     },
 
@@ -824,7 +824,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: 'ナトリウム・カルシウム塩化物泉',
         description: '1,300年の歴史を誇る加賀温泉郷の雄。独自の総湯文化が今も息づく名湯の里。',
-        image: '../public/onsen/yamashiro.png',
+        image: './onsen/yamashiro.png',
         tags: ['1300年の歴史', '総湯', '加賀', '石川']
     },
     {
@@ -834,7 +834,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: 'ナトリウム・カルシウム塩化物泉',
         description: '能登半島の七尾湾に面した海の温泉。金沢の名旅館「加賀屋」が道内随一の豪華旅館として有名。',
-        image: '../public/onsen/wakura.png',
+        image: './onsen/wakura.png',
         tags: ['海の温泉', '能登', '加賀屋', '石川']
     },
     {
