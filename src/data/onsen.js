@@ -12,7 +12,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '硫黄泉・食塩泉など9種',
         description: '日本屈指の温泉地。地獄谷の迫力ある噴気孔と多様な泉質が魅力。クマ牧場でも有名。',
-        image: '/onsen/noboribetsu.png',
+        image: '${import.meta.env.BASE_URL}onsen/noboribetsu.png',
         tags: ['硫黄泉', '地獄谷', '名湯', '北海道']
     },
     {
