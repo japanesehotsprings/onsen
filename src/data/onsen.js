@@ -12,7 +12,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '硫黄泉・食塩泉など9種',
         description: '日本屈指の温泉地。地獄谷の迫力ある噴気孔と多様な泉質が魅力。クマ牧場でも有名。',
-        image: '/src/assets/onsen/noboribetsu.png',
+        image: '../../src/assets/onsen/noboribetsu.png',
         tags: ['硫黄泉', '地獄谷', '名湯', '北海道']
     },
     {
@@ -22,7 +22,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉',
         description: '洞爺湖畔に広がるリゾート温泉。湖面に映る有珠山と花火大会が絵になる景勝地。',
-        image: './onsen/toyako.png',
+        image: '/src/assets/onsen/toyako.png',
         tags: ['湖畔', '花火', 'リゾート', '北海道']
     },
     {
@@ -32,7 +32,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: 'ナトリウム塩化物泉',
         description: '札幌から約1時間の秘境温泉。豊平川渓谷沿いに旅館が立ち並ぶ「札幌の奥座敷」。',
-        image: '../../public/onsen/zyozankei.png',
+        image: '/src/assets/onsen/zyozankei.png',
         tags: ['渓谷', '秘境', '札幌近郊', '北海道']
     },
     {
