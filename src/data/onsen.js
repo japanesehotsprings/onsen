@@ -12,7 +12,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '硫黄泉・食塩泉など9種',
         description: '日本屈指の温泉地。地獄谷の迫力ある噴気孔と多様な泉質が魅力。クマ牧場でも有名。',
-        image: 'https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=600&auto=format',
+        image: '../public/onsen/noboribetsu.png',
         tags: ['硫黄泉', '地獄谷', '名湯', '北海道']
     },
     {
@@ -22,7 +22,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉',
         description: '洞爺湖畔に広がるリゾート温泉。湖面に映る有珠山と花火大会が絵になる景勝地。',
-        image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&auto=format',
+        image: '../public/onsen/toyako.png',
         tags: ['湖畔', '花火', 'リゾート', '北海道']
     },
     {
@@ -32,7 +32,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: 'ナトリウム塩化物泉',
         description: '札幌から約1時間の秘境温泉。豊平川渓谷沿いに旅館が立ち並ぶ「札幌の奥座敷」。',
-        image: 'https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&auto=format',
+        image: '../public/onsen/zyozankei.png',
         tags: ['渓谷', '秘境', '札幌近郊', '北海道']
     },
     {
@@ -42,7 +42,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '硫黄泉・重曹泉',
         description: 'マリモで有名な阿寒湖畔の温泉。アイヌ文化に触れられる民芸品の街も魅力。',
-        image: 'https://images.unsplash.com/photo-1506260408121-e353d10b87c7?w=600&auto=format',
+        image: '../public/onsen/akan.png',
         tags: ['湖畔', 'アイヌ', 'マリモ', '北海道']
     },
     {
@@ -52,7 +52,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉・塩化物泉など',
         description: '大雪山国立公園の峡谷に広がる温泉地。断崖絶壁と滝、紅葉・氷瀑の景色が名物。',
-        image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&auto=format',
+        image: '../public/onsen/sounkyo.png',
         tags: ['峡谷', '大雪山', '紅葉', '北海道']
     },
     {
@@ -62,7 +62,7 @@ export const onsenList = [
         category: '重曹泉',
         spring_type: '植物性モール泉（ナトリウム-塩化物・炭酸水素塩泉）',
         description: '植物由来のモール泉で有名。とろみのある湯と広い空、十勝の食がセットで楽しめる。',
-        image: 'https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?w=600&auto=format',
+        image: '../public/onsen/tokachigawa.png',
         tags: ['モール泉', '美肌', '十勝', '北海道']
     },
     {
@@ -72,7 +72,7 @@ export const onsenList = [
         category: '炭酸水素塩泉',
         spring_type: '炭酸水素塩泉',
         description: '透明度の高い支笏湖畔の温泉。湖と森の静けさに包まれる大人のリゾート。',
-        image: 'https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=600&auto=format',
+        image: '../public/onsen/shikotsu.png',
         tags: ['湖畔', '静寂', '森林', '北海道']
     },
     {
@@ -82,7 +82,7 @@ export const onsenList = [
         category: '酸性泉',
         spring_type: '酸性明礬泉',
         description: '硫黄山の麓に広がる強めの酸性泉。湯治文化と摩周・屈斜路観光の拠点。',
-        image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&auto=format',
+        image: '../public/onsen/kawayu.png',
         tags: ['硫黄山', '湯治', '道東', '北海道']
     },
     {
@@ -92,7 +92,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '硫黄泉・塩化物泉など',
         description: '世界的スキーリゾートの温泉。羊蹄山を望む露天風呂や秘湯感のある野湯が点在。',
-        image: 'https://images.unsplash.com/photo-1542640244-7e672d6cef4e?w=600&auto=format',
+        image: '../public/onsen/niseko.png',
         tags: ['スキー', '羊蹄山', 'リゾート', '北海道']
     },
 
