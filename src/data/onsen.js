@@ -12,7 +12,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '硫黄泉・食塩泉など9種',
         description: '日本屈指の温泉地。地獄谷の迫力ある噴気孔と多様な泉質が魅力。クマ牧場でも有名。',
-        image: './onsen/noboribetsu.png',
+        image: '/onsen/noboribetsu.png',
         tags: ['硫黄泉', '地獄谷', '名湯', '北海道']
     },
     {
@@ -22,7 +22,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉',
         description: '洞爺湖畔に広がるリゾート温泉。湖面に映る有珠山と花火大会が絵になる景勝地。',
-        image: '../../public/onsen/toyako.png',
+        image: './onsen/toyako.png',
         tags: ['湖畔', '花火', 'リゾート', '北海道']
     },
     {
