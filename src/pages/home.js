@@ -112,13 +112,6 @@ export function renderHome() {
       </div>
     </section>
 
-    <!-- [広告枠] トップページ横長バナー -->
-    <div class="container" style="padding: 0 var(--spacing-md);">
-      <div class="ad-slot ad-slot-horizontal">
-        <span class="ad-label">広告 (728x90)</span>
-      </div>
-    </div>
-
     <section class="section hotel-feature-section" id="featured-hotels">
       <div class="container">
         <div class="section-header">
