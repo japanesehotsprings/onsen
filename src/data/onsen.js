@@ -1488,7 +1488,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純泉',
         description: '日本最後の清流・四万十川近くの温泉。川漁師文化と大自然の中でのんびりと湯に浸かれる秘湯。',
-        image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600&auto=format',
+        image: './onsen/shimanto.png',
         tags: ['四万十川', '清流', '秘湯', '高知']
     },
     {
@@ -1498,7 +1498,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '足摺岬エリアで楽しめる温泉。太平洋の景色と海風が最高。',
-        image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format',
+        image: './onsen/ashizuri.png',
         tags: ['太平洋', '岬', '絶景', '高知']
     },
 
@@ -1510,7 +1510,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: 'アルカリ性単純泉',
         description: '太宰府天満宮近くの温泉。博多のリゾート温泉として遠くからも多くの湯治客が通う九州最古の温泉。',
-        image: 'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=600&auto=format',
+        image: './onsen/futsukaichi.png',
         tags: ['太宰府', '九州最古', '福岡']
     },
     {
@@ -1520,7 +1520,7 @@ export const onsenList = [
         category: '重曹泉',
         spring_type: '炭酸水素塩泉',
         description: '筑後川沿いの温泉地。やわらかな湯と果物の里の雰囲気が魅力。',
-        image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600&auto=format',
+        image: './onsen/harazuru.png',
         tags: ['筑後川', '美肌', '福岡']
     },
     {
@@ -1530,7 +1530,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉',
         description: '犬鳴川の上流にある静かな温泉。自然の中で日帰りでも泊まりでも楽しめる。',
-        image: 'https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=600&auto=format',
+        image: './onsen/wakita.png',
         tags: ['自然', '静寂', '福岡']
     },
 
@@ -1542,7 +1542,7 @@ export const onsenList = [
         category: '重曹泉',
         spring_type: 'ナトリウム炭酸水素塩泉',
         description: '日本三大美肌の湯の一つ。肌がつるつるになる美肌効果で有名で全国から女性客が訪れる。嬉野茶が名物。',
-        image: 'https://images.unsplash.com/photo-1553653924-39b70295f8da?w=600&auto=format',
+        image: './onsen/ureshino.png',
         tags: ['美肌の湯', '日本三大美肌', '嬉野茶', '佐賀']
     },
     {
@@ -1552,7 +1552,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉',
         description: '楼門がシンボルの歴史ある温泉。市街地に近く、観光と合わせやすい。',
-        image: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&auto=format',
+        image: './onsen/takeo.png',
         tags: ['歴史', '楼門', '温泉街', '佐賀']
     },
 
@@ -1564,7 +1564,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '酸性硫黄泉',
         description: '雲仙岳の噴気地帯に湧く温泉。日本最初の国立公園に指定された地に広がる噴煙と温泉の幻想的な景観。',
-        image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600&auto=format',
+        image: './onsen/unzen.png',
         tags: ['国立公園', '噴気地帯', '硫黄泉', '長崎']
     },
     {
@@ -1574,7 +1574,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '海辺の温泉地。足湯や湯けむりの景色が楽しく、散策もおすすめ。',
-        image: 'https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=600&auto=format',
+        image: './onsen/obama.png',
         tags: ['海辺', '足湯', '湯けむり', '長崎']
     },
     {
@@ -1584,7 +1584,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '城下町の雰囲気が残る温泉。湧水のまち散策と合わせて楽しめる。',
-        image: 'https://images.unsplash.com/photo-1445308394109-4ec2920981b1?w=600&auto=format',
+        image: './onsen/shimabara.png',
         tags: ['城下町', '湧水', '長崎']
     },
 
@@ -1596,7 +1596,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '硫黄泉・炭酸水素塩泉など',
         description: '九州中央山地の秘湯。入湯手形で30以上の旅館の露天風呂を巡れる。ミシュランガイド掲載の名湯。',
-        image: 'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=600&auto=format',
+        image: './onsen/kurokawa.png',
         tags: ['露天風呂めぐり', '秘湯', 'ミシュラン', '熊本']
     },
     {
@@ -1606,7 +1606,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: 'アルカリ性単純泉',
         description: '球磨川のほとりに湧く温泉。城下町の風情と清流、温泉を合わせて楽しめる「日本のチロル」。',
-        image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600&auto=format',
+        image: './onsen/hitoyoshi.png',
         tags: ['球磨川', '城下町', '熊本']
     },
     {
@@ -1616,7 +1616,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '谷あいに湯けむりが立ちのぼる温泉街。昭和レトロな雰囲気も魅力。',
-        image: 'https://images.unsplash.com/photo-1445308394109-4ec2920981b1?w=600&auto=format',
+        image: './onsen/tsuedate.png',
         tags: ['湯けむり', '温泉街', 'レトロ', '熊本']
     },
     {
@@ -1626,7 +1626,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉',
         description: '阿蘇観光の中心地にある温泉。広大なカルデラの景色と一緒に楽しめる。',
-        image: 'https://images.unsplash.com/photo-1542640244-7e672d6cef4e?w=600&auto=format',
+        image: './onsen/asou.png',
         tags: ['阿蘇', '観光拠点', '熊本']
     },
 
@@ -1638,7 +1638,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '硫黄泉・食塩泉・単純泉など多様',
         description: '日本一の源泉数と湧出量を誇る温泉都市。カラフルな地獄めぐりと多彩な泉質が楽しめる世界的温泉地。',
-        image: 'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=600&auto=format',
+        image: './onsen/beppu.png',
         tags: ['日本一の源泉数', '地獄めぐり', '大分']
     },
     {
@@ -1648,7 +1648,7 @@ export const onsenList = [
         category: '重曹泉',
         spring_type: '単純泉・炭酸水素塩泉',
         description: '由布岳を望む風光明媚な温泉地。アート・カフェ・おしゃれな雑貨店が立ち並び若い世代にも人気。',
-        image: 'https://images.unsplash.com/photo-1553653924-39b70295f8da?w=600&auto=format',
+        image: './onsen/yufuin.png',
         tags: ['由布岳', 'アート', 'おしゃれ', '大分']
     },
     {
@@ -1658,7 +1658,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '別府の高台にある温泉。市街と海を見下ろす眺望が魅力。',
-        image: 'https://images.unsplash.com/photo-1448375240586-882707db888b?w=600&auto=format',
+        image: './onsen/kankaiji.png',
         tags: ['眺望', '高台', '別府', '大分']
     },
     {
@@ -1668,7 +1668,7 @@ export const onsenList = [
         category: '炭酸泉',
         spring_type: '炭酸水素塩泉（炭酸泉）',
         description: '炭酸ガスが豊富な湯で知られる温泉。湯あがりのさっぱり感が特徴。',
-        image: 'https://images.unsplash.com/photo-1524413840807-0c3cb6fa808d?w=600&auto=format',
+        image: './onsen/nagayu.png',
         tags: ['炭酸泉', '湯治', '大分']
     },
 
@@ -1680,7 +1680,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '硫黄泉・炭酸水素塩泉・硫酸塩泉',
         description: '霧島山麓に点在する温泉群。多様な泉質と豊かな自然が魅力で、坂本龍馬が新婚旅行で訪れた地として知られる。',
-        image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&auto=format',
+        image: './onsen/kirishima.png',
         tags: ['霧島山麓', '坂本龍馬', '新婚旅行', '宮崎']
     },
     {
@@ -1690,7 +1690,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '海辺のリゾート温泉。南国の雰囲気と海の景色が魅力。',
-        image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format',
+        image: './onsen/aoshima.png',
         tags: ['南国', '海', 'リゾート', '宮崎']
     },
 
@@ -1702,7 +1702,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: 'ナトリウム塩化物泉',
         description: '世界的に珍しい天然の砂むし温泉が有名。温かい砂に全身を埋める砂蒸し体験は一生の思い出に。',
-        image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format',
+        image: './onsen/ibusuki.png',
         tags: ['砂むし温泉', '珍しい体験', 'リゾート', '鹿児島']
     },
     {
@@ -1712,7 +1712,7 @@ export const onsenList = [
         category: '硫黄泉',
         spring_type: '硫黄泉・炭酸水素塩泉',
         description: '霧島神宮のそばに湧く古湯。龍馬とお龍が訪れた日本最初の新婚旅行地として名高い歴史の温泉。',
-        image: 'https://images.unsplash.com/photo-1445308394109-4ec2920981b1?w=600&auto=format',
+        image: './onsen/kirishima.png',
         tags: ['霧島神宮', '坂本龍馬', '歴史', '鹿児島']
     },
     {
@@ -1722,7 +1722,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '活火山を間近に望む温泉。ダイナミックな景色が非日常感たっぷり。',
-        image: 'https://images.unsplash.com/photo-1542640244-7e672d6cef4e?w=600&auto=format',
+        image: './onsen/sakurajima.png',
         tags: ['火山', '絶景', '鹿児島']
     },
     {
@@ -1732,7 +1732,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉',
         description: '世界自然遺産の島で楽しめる温泉。森と海の空気に包まれる癒やし体験。',
-        image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&auto=format',
+        image: './onsen/yakushima.png',
         tags: ['世界自然遺産', '森', '島', '鹿児島']
     },
 
@@ -1744,7 +1744,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: 'ナトリウム塩化物泉',
         description: '沖縄本島中部の天然温泉。エメラルドグリーンの海を望みながら天然温泉に浸かれる南国リゾートの温泉。',
-        image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format',
+        image: './onsen/costa.png',
         tags: ['南国リゾート', '海の温泉', '沖縄']
     },
     {
@@ -1754,7 +1754,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '空港近くの海辺温泉。飛行機の離発着を眺めながら入れる展望風呂が人気。',
-        image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&auto=format',
+        image: './onsen/senagajima.png',
         tags: ['海', '展望', 'リゾート', '沖縄']
     },
 ];
