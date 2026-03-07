@@ -1290,7 +1290,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '那智の滝や熊野観光の拠点。港町の活気と温泉、マグロが名物。',
-        image: './onsen/katsuura.png',
+        image: './onsen/nankikatsuura.png',
         tags: ['那智', '港町', 'マグロ', '和歌山']
     },
     {
