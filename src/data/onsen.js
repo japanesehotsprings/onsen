@@ -1675,13 +1675,13 @@ export const onsenList = [
     // ===== 宮崎県 =====
     {
         id: 'o-miyazaki-1',
-        name: '霧島温泉郷',
+        name: '京町温泉',
         prefecture: 'miyazaki',
-        category: '硫黄泉',
-        spring_type: '硫黄泉・炭酸水素塩泉・硫酸塩泉',
-        description: '霧島山麓に点在する温泉群。多様な泉質と豊かな自然が魅力で、坂本龍馬が新婚旅行で訪れた地として知られる。',
-        image: './onsen/kirishima.png',
-        tags: ['霧島山麓', '坂本龍馬', '新婚旅行', '宮崎']
+        category: '単純温泉',
+        spring_type: '単純温泉',
+        description: 'えびの市の川沿いに広がる、大正時代から続く情緒豊かな温泉郷。レトロな雰囲気と美肌効果のある湯が魅力。',
+        image: './onsen/kyomachi.png',
+        tags: ['レトロ', 'えびの', '美肌の湯', '宮崎']
     },
     {
         id: 'o-miyazaki-2',
