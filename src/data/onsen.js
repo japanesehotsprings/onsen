@@ -1454,7 +1454,7 @@ export const onsenList = [
         category: '塩化物泉',
         spring_type: '塩化物泉',
         description: '金刀比羅宮参拝の拠点で楽しめる温泉。門前町の散策と相性が良い。',
-        image: 'https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&auto=format',
+        image: './onsen/konpira.png',
         tags: ['金刀比羅宮', '門前町', '香川']
     },
 
@@ -1466,7 +1466,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: 'アルカリ性単純泉',
         description: '日本最古の温泉の一つ。夏目漱石「坊っちゃん」の舞台になった道後温泉本館は国の重要文化財。',
-        image: 'https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=600&auto=format',
+        image: './onsen/otogo.png',
         tags: ['日本最古', '坊っちゃん', '国重要文化財', '愛媛']
     },
     {
@@ -1476,7 +1476,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: '単純温泉',
         description: '森に囲まれた静かな温泉。ぬめりのある湯と自然の癒やしが魅力。',
-        image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&auto=format',
+        image: './onsen/otogo.png',
         tags: ['森林', '静寂', '愛媛']
     },
 
