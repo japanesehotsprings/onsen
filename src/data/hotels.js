@@ -63,6 +63,41 @@ export const hotelList = [
         tags: ['湖畔', '花火鑑賞', 'リゾート']
     },
 
+        // ===== 定山渓温泉（北海道）=====
+    {
+        id: 'h-hokkaido-3-1',
+        onsen_id: 'o-hokkaido-3',
+        name: '定山渓万世閣ホテルミリオーネ',
+        prefecture: 'hokkaido',
+        type: '温泉リゾート',
+        description: '定山渓温泉の中心部に位置する大型温泉ホテル。大浴場には露天風呂やサウナ、寝湯など多彩な湯船があり、リラックスできる。',
+        price: '2食付き 20,000円〜',
+        image: './hotels/jyouzankeimilione.png',
+        tags: ['温泉リゾート', '露天風呂', 'サウナ', '寝湯']
+    },
+    {
+        id: 'h-hokkaido-3-2',
+        onsen_id: 'o-hokkaido-3',
+        name: '定山渓鶴雅リゾートスパ森の謌',
+        prefecture: 'hokkaido',
+        type: '温泉リゾート',
+        description: '定山渓温泉の自然に囲まれた静かな場所に佇む、上質な温泉リゾート。露天風呂やサウナ、寝湯など多彩な湯船があり、リラックスできる。',
+        price: '2食付き 25,000円〜',
+        image: './hotels/jyouzankeimorinouta.png',
+        tags: ['温泉リゾート', '露天風呂', 'サウナ', '寝湯']
+    },
+        {
+        id: 'h-hokkaido-3-3',
+        onsen_id: 'o-hokkaido-3',
+        name: '奥定山渓温泉 佳松御苑',
+        prefecture: 'hokkaido',
+        type: '温泉リゾート',
+        description: '国立公園の原生林に抱かれた、全室に展望温泉を備えた森のオーベルジュ。四季折々の自然美と洗練された美食を堪能できる。',
+        price: '2食付き 35,000円〜',
+        image: './hotels/jyouzankeikashoumatsugyoen.png',
+        tags: ['全室温泉', 'オーベルジュ', '美食']
+    },
+
     // ===== 草津温泉（群馬）=====
     {
         id: 'h-gunma-1-1',
