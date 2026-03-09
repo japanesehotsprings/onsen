@@ -25,23 +25,23 @@ function buildBookingLinks(hotelName) {
     {
       name: '楽天トラベル',
       icon: '🔴',
-      color: '#bf0000',
+      color: '#01B902',
       url: `https://travel.rakuten.co.jp/yado/search/?f_keyword=${encoded}`,
       desc: '楽天ポイントで宿泊予約'
     },
     {
       name: '一休.com',
       icon: '🌸',
-      color: '#ba2636',
+      color: '#1A4679',
       url: `https://www.ikyu.com/search/?keyword=${encoded}`,
       desc: '厳選高級旅館・ホテルの宿泊予約'
     },
     {
       name: 'Yahoo!トラベル',
-      icon: '🟣',
-      color: '#6a00cc',
+      icon: '',
+      color: '#FF0034',
       url: `https://travel.yahoo.co.jp/search/?term=${encoded}`,
-      desc: 'ヤフーのポイントで旅行予約'
+      desc: 'PayPayポイントで旅行予約'
     },
   ];
 }
@@ -188,7 +188,6 @@ export function renderHotelDetail({ params }) {
               <div class="booking-links">
                 ${bookingLinks.map(link => `
                   <a href="${link.url}" target="_blank" rel="noopener noreferrer" class="booking-link-btn" style="--booking-color: ${link.color};">
-                    <span class="booking-link-icon">${link.icon}</span>
                     <div class="booking-link-info">
                       <span class="booking-link-name">${link.name}</span>
                       <span class="booking-link-desc">${link.desc}</span>
