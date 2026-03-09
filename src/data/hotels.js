@@ -218,13 +218,13 @@ export const hotelList = [
     {
         id: 'h-yamagata-1-1',
         onsen_id: 'o-yamagata-1',
-        name: '能登屋旅館',
+        name: '旅館藤屋',
         prefecture: 'yamagata',
         type: '大正ロマン旅館',
-        description: '銀山温泉のシンボル的存在。大正時代の木造建築で国の登録有形文化財。ガス灯に照らされた中を流れる銀山川沿いの宿は幻想的。',
-        price: '2食付き 35,000円〜',
-        image: './hotels/ginzanonsennotoya.png',
-        tags: ['登録有形文化財', '大正ロマン', '銀山川沿い']
+        description: '銀山温泉の街並みに溶け込む隈研吾設計のモダンな宿。趣の異なる5つの貸切風呂で、洗練された空間と名湯をプライベートに堪能できる。',
+        price: '2食付き 51,000円〜',
+        image: './hotels/ginzanonsenfujiya.png',
+        tags: ['モダン建築', '大正ロマン', '銀山川沿い']
     },
     {
         id: 'h-yamagata-1-2',
@@ -328,7 +328,7 @@ export const hotelList = [
         type: 'ラグジュアリー旅館',
         description: '由布院温泉の代名詞的存在。広大な敷地に点在する離れの客室と由布岳を一望する開放的な露天風呂、地元食材の会席が揃う名旅館。',
         price: '2食付き 60,000円〜',
-        image: './hotels/kamenoi.png',
+        image: './hotels/kamenoibessou.png',
         tags: ['由布院の名旅館', '離れ客室', '由布岳眺望', '会席料理']
     },
     {
@@ -339,7 +339,7 @@ export const hotelList = [
         type: 'デザイン旅館',
         description: '由布院温泉のおしゃれな旅館。アートと木の温もりを融合させた内装に全棟専用露天風呂付き。隣接のブランジェリーとバーも人気。',
         price: '2食付き 50,000円〜',
-        image: 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=600&auto=format',
+        image: './hotels/sanmuryotou.png',
         tags: ['全棟露天付き', 'デザイン', 'アート', 'ブランジェリー']
     },
     {
@@ -350,7 +350,7 @@ export const hotelList = [
         type: '高級旅館',
         description: '由布院温泉の草分け的な旅館。自然美と建築美が調和した敷地内を散策しながら、由布岳を眺める露天風呂と大分の美食が楽しめる。',
         price: '2食付き 55,000円〜',
-        image: 'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=600&auto=format',
+        image: './hotels/yufuintamanoyu.png',
         tags: ['草分け旅館', '自然美', '露天風呂', '大分美食']
     },
 
@@ -363,7 +363,7 @@ export const hotelList = [
         type: '大型温泉旅館',
         description: '道後温泉本館まで徒歩1分の好立地。坊っちゃん列車のジオラマが展示された趣ある旅館。空中露天風呂からの夜景が美しい。',
         price: '2食付き 28,000円〜',
-        image: 'https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=600&auto=format',
+        image: './hotels/dogokan.png',
         tags: ['本館徒歩1分', '空中露天風呂', '夜景', '好立地']
     },
     {
@@ -374,7 +374,7 @@ export const hotelList = [
         type: 'プレミアム旅館',
         description: '元禄末期創業、松山藩主が湯治に使用した由緒ある旅館。道後温泉の自家源泉を引いた庭園露天風呂と松山の食材を活かした会席が評判。',
         price: '2食付き 45,000円〜',
-        image: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600&auto=format',
+        image: './hotels/funaya.png',
         tags: ['元禄創業', '藩主御用達', '自家源泉', '庭園露天']
     },
     {
@@ -385,7 +385,7 @@ export const hotelList = [
         type: '純和風旅館',
         description: '道後温泉街にある老舗純和風旅館。全客室に障子と縁側を設け、昔ながらの温泉旅館の風情を大切にしている。旬の食材を使った懐石料理が自慢。',
         price: '2食付き 32,000円〜',
-        image: 'https://images.unsplash.com/photo-1540541338537-71a4a2db4e08?w=600&auto=format',
+        image: './hotels/yamatoya.png',
         tags: ['老舗純和風', '障子縁側', '懐石料理']
     },
 
@@ -398,7 +398,7 @@ export const hotelList = [
         type: '温泉旅館',
         description: '黒川温泉街の中心に位置する旅館。入湯手形が使える自慢の露天風呂を含む多彩な湯と、地元食材を活かした料理が人気。',
         price: '2食付き 25,000円〜',
-        image: 'https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=600&auto=format',
+        image: './hotels/onoshino.png',
         tags: ['黒川温泉街', '露天風呂', '地元食材']
     },
     {
@@ -409,7 +409,7 @@ export const hotelList = [
         type: '高評価温泉旅館',
         description: '黒川温泉の隠れ家的宿。山の斜面を活かした複数の源泉掛け流し露天風呂と、阿蘇の食材を使った丁寧な料理が好評。',
         price: '2食付き 30,000円〜',
-        image: 'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=600&auto=format',
+        image: './hotels/kounoyu.png',
         tags: ['源泉掛け流し', '隠れ家', '阿蘇食材']
     },
     {
@@ -420,7 +420,7 @@ export const hotelList = [
         type: 'ラグジュアリー旅館',
         description: '黒川を代表する高級旅館。全室に露天風呂を完備し、庭園を眺めながらの湯浴みと九州の恵みを詰め込んだ懐石コースが充実。',
         price: '2食付き 45,000円〜',
-        image: 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=600&auto=format',
+        image: './hotels/yamamizuki.png',
         tags: ['全室露天付き', 'ラグジュアリー', '庭園', '九州懐石']
     },
 
@@ -433,7 +433,7 @@ export const hotelList = [
         type: '大型温泉旅館',
         description: '飛騨川沿いに建つ下呂温泉のシンボル的大旅館。美肌効果で名高い無色透明の源泉を引いた大浴場と展望露天風呂が自慢。',
         price: '2食付き 25,000円〜',
-        image: 'https://images.unsplash.com/photo-1540541338537-71a4a2db4e08?w=600&auto=format',
+        image: './hotels/suimeikan.png',
         tags: ['飛騨川沿い', '展望露天', '美肌の湯', '大型旅館']
     },
     {
@@ -444,7 +444,7 @@ export const hotelList = [
         type: '純和風旅館',
         description: '下呂温泉の中心部にある純和風の温泉旅館。ひのき造りの浴室で下呂の名湯に浸かり、飛騨牛をたっぷり使った会席料理を楽しめる。',
         price: '2食付き 22,000円〜',
-        image: 'https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=600&auto=format',
+        image: './hotels/miyako.png',
         tags: ['ひのき浴室', '飛騨牛', '純和風']
     },
 
@@ -457,7 +457,7 @@ export const hotelList = [
         type: 'ラグジュアリー旅館',
         description: '熱海の山中に建つ洗練された高級旅館。全室に源泉掛け流しの露天風呂を完備し、相模灘を一望するプライベート空間が魅力。',
         price: '2食付き 60,000円〜',
-        image: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600&auto=format',
+        image: './hotels/atami-fufu.png',
         tags: ['全室露天付き', '相模灘眺望', 'プライベート', '最高級']
     },
     {
@@ -468,7 +468,7 @@ export const hotelList = [
         type: '大型リゾートホテル',
         description: '相模湾を一望する断崖の上の大型温泉リゾート。地下1,000mから自噴する源泉を引いた絶景の展望大浴場が人気。',
         price: '2食付き 20,000円〜',
-        image: 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=600&auto=format',
+        image: './hotels/newakao.png',
         tags: ['自噴源泉', '相模湾眺望', '大型リゾート']
     },
     {
@@ -479,7 +479,7 @@ export const hotelList = [
         type: '老舗旅館',
         description: '熱海温泉で最も古い旅館のひとつ。萩、夏目漱石、山本有三ら文人に愛され続けた風情ある木造旅館。',
         price: '2食付き 30,000円〜',
-        image: 'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=600&auto=format',
+        image: './hotels/furuya.png',
         tags: ['文人ゆかり', '老舗', '木造建築']
     },
 ];
