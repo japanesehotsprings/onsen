@@ -10,6 +10,8 @@ import { renderPrefectureDetail } from './pages/prefectureDetail.js';
 import { renderSearchResults } from './pages/searchResults.js';
 import { renderOnsenDetail } from './pages/onsenDetail.js';
 import { renderHotelDetail } from './pages/hotelDetail.js';
+import { renderOnsenList } from './pages/onsenList.js';
+import { renderHotelList } from './pages/hotelList.js';
 
 // DOMの準備完了後に初期化
 document.addEventListener('DOMContentLoaded', () => {
@@ -21,6 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
     addRoute('/prefecture/:id', renderPrefectureDetail);
     addRoute('/onsen/:id', renderOnsenDetail);
     addRoute('/hotel/:id', renderHotelDetail);
+    addRoute('/onsens', renderOnsenList);
+    addRoute('/hotels', renderHotelList);
     addRoute('/search', renderSearchResults);
 
     // ルーター初期化
