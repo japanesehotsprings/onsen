@@ -223,10 +223,6 @@ export function renderHotelDetail({ params }) {
             </div>
             ` : ''}
 
-            <!-- [広告枠] サイドバー下部レクタングル -->
-            <div class="ad-slot ad-slot-rectangle" style="margin: var(--spacing-lg) auto 0;">
-              <span class="ad-label">広告 (300x250)</span>
-            </div>
           </aside>
 
         </div>
