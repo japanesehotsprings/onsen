@@ -8,39 +8,40 @@ import { onsenList } from '../data/onsen.js';
 import { getPrefectureById } from '../data/prefectures.js';
 
 /**
- * 予約サイトの検索URLを生成する
- * @param {string} hotelName - 宿名
+ * 予約サイトのURLを生成する
+ * @param {object} hotel - 宿データ
  * @returns {Array} 予約サイトの情報配列
  */
-function buildBookingLinks(hotelName) {
-  const encoded = encodeURIComponent(hotelName);
+function buildBookingLinks(hotel) {
+  const encoded = encodeURIComponent(hotel.name);
+  const urls = hotel.bookingUrls || {};
   return [
     {
       name: 'じゃらん',
       icon: '🟠',
       color: '#e85c24',
-      url: `https://www.jalan.net/00/search/?keyword=${encoded}`,
+      url: urls.jalan || `https://www.jalan.net/00/search/?keyword=${encoded}`,
       desc: 'ポイントが貯まる・使える旅行予約サイト'
     },
     {
       name: '楽天トラベル',
       icon: '🔴',
       color: '#01B902',
-      url: `https://travel.rakuten.co.jp/yado/search/?f_keyword=${encoded}`,
+      url: urls.rakuten || `https://travel.rakuten.co.jp/yado/search/?f_keyword=${encoded}`,
       desc: '楽天ポイントで宿泊予約'
     },
     {
       name: '一休.com',
       icon: '🌸',
       color: '#1A4679',
-      url: `https://www.ikyu.com/search/?keyword=${encoded}`,
+      url: urls.ikyu || `https://www.ikyu.com/search/?keyword=${encoded}`,
       desc: '厳選高級旅館・ホテルの宿泊予約'
     },
     {
       name: 'Yahoo!トラベル',
       icon: '',
       color: '#FF0034',
-      url: `https://travel.yahoo.co.jp/search/?term=${encoded}`,
+      url: urls.yahoo || `https://travel.yahoo.co.jp/search/?term=${encoded}`,
       desc: 'PayPayポイントで旅行予約'
     },
   ];
@@ -68,7 +69,7 @@ export function renderHotelDetail({ params }) {
 
   const onsen = onsenList.find(o => o.id === hotel.onsen_id);
   const prefecture = onsen ? getPrefectureById(onsen.prefecture) : null;
-  const bookingLinks = buildBookingLinks(hotel.name);
+  const bookingLinks = buildBookingLinks(hotel);
 
   app.innerHTML = `
     <div class="hotel-detail-hero">

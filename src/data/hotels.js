@@ -14,7 +14,8 @@ export const hotelList = [
         description: '登別温泉のシンボル的存在。3,500坪の広大な敷地に源泉掛け流しの露天風呂を含む多彩な湯が楽しめる。地獄谷も目の前。',
         price: '2食付き 22,000円〜',
         image: './hotels/daiichitaki.png',
-        tags: ['源泉掛け流し', '露天風呂', '大型旅館', '地獄谷徒歩圏']
+        tags: ['源泉掛け流し', '露天風呂', '大型旅館', '地獄谷徒歩圏'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad364904%2F', rakuten: 'https://a.r10.to/hkkqqH', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000587%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000587%252F' }
     },
     {
         id: 'h-hokkaido-1-2',
@@ -25,7 +26,8 @@ export const hotelList = [
         description: '山の中腹に位置する絶景の温泉宿。硫黄泉・食塩泉など5種の浴槽と展望露天風呂からの眺めが自慢。',
         price: '2食付き 18,000円〜',
         image: './hotels/noboribetsugrand.png',
-        tags: ['展望露天', '5種の湯', 'リゾート']
+        tags: ['展望露天', '5種の湯', 'リゾート'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad331184%2F', rakuten: 'https://a.r10.to/hPp6LH', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000583%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000583%252F' }
     },
     {
         id: 'h-hokkaido-1-3',
@@ -36,7 +38,8 @@ export const hotelList = [
         description: '創業100年を超える老舗旅館。こじんまりとした純和風の宿で、行き届いたおもてなしと上質な料理が評判。',
         price: '2食付き 28,000円〜',
         image: './hotels/takinoya.png',
-        tags: ['老舗旅館', '純和風', '美食', 'おもてなし']
+        tags: ['老舗旅館', '純和風', '美食', 'おもてなし'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad320864%2F', rakuten: 'https://a.r10.to/h5yL0p', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001424', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001424' }
     },
 
     // ===== 洞爺湖温泉（北海道）=====
@@ -49,7 +52,8 @@ export const hotelList = [
         description: 'G8サミット会場にもなった世界的な高級リゾート。洞爺湖と有珠山を望む絶景の露天風呂と一流レストランが揃う。',
         price: '2食付き 70,000円〜',
         image: './hotels/thewindsorhoteldoya.png',
-        tags: ['G8サミット', 'ラグジュアリー', '絶景', '世界級']
+        tags: ['G8サミット', 'ラグジュアリー', '絶景', '世界級'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-hokkaido-2-2',
@@ -60,7 +64,8 @@ export const hotelList = [
         description: '洞爺湖畔に建つ眺望自慢の温泉ホテル。季節ごとに開催される花火を湯船から堪能できる特別な体験が人気。',
         price: '2食付き 25,000円〜',
         image: './hotels/toyokomanseikakuhotellakesideterrace.png',
-        tags: ['湖畔', '花火鑑賞', 'リゾート']
+        tags: ['湖畔', '花火鑑賞', 'リゾート'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
 
         // ===== 定山渓温泉（北海道）=====
@@ -73,7 +78,8 @@ export const hotelList = [
         description: '定山渓温泉の中心部に位置する大型温泉ホテル。大浴場には露天風呂やサウナ、寝湯など多彩な湯船があり、リラックスできる。',
         price: '2食付き 20,000円〜',
         image: './hotels/jyouzankeimilione.png',
-        tags: ['温泉リゾート', '露天風呂', 'サウナ', '寝湯']
+        tags: ['温泉リゾート', '露天風呂', 'サウナ', '寝湯'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad319724%2F', rakuten: 'https://a.r10.to/h5Q5z3', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030433%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030433%252F' }
     },
     {
         id: 'h-hokkaido-3-2',
@@ -84,7 +90,8 @@ export const hotelList = [
         description: '定山渓温泉の自然に囲まれた静かな場所に佇む、上質な温泉リゾート。露天風呂やサウナ、寝湯など多彩な湯船があり、リラックスできる。',
         price: '2食付き 25,000円〜',
         image: './hotels/jyouzankeimorinouta.png',
-        tags: ['温泉リゾート', '露天風呂', 'サウナ', '寝湯']
+        tags: ['温泉リゾート', '露天風呂', 'サウナ', '寝湯'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad352535%2F', rakuten: 'https://a.r10.to/h5seya', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001659%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001659%252F' }
     },
         {
         id: 'h-hokkaido-3-3',
@@ -95,7 +102,8 @@ export const hotelList = [
         description: '国立公園の原生林に抱かれた、全室に展望温泉を備えた森のオーベルジュ。四季折々の自然美と洗練された美食を堪能できる。',
         price: '2食付き 35,000円〜',
         image: './hotels/jyouzankeikashoumatsugyoen.png',
-        tags: ['全室温泉', 'オーベルジュ', '美食']
+        tags: ['全室温泉', 'オーベルジュ', '美食'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad327601%2F', rakuten: 'https://a.r10.to/h5Jkno', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002589%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002589%252F' }
     },
 
     // ===== 草津温泉（群馬）=====
@@ -108,7 +116,8 @@ export const hotelList = [
         description: '湯畑から徒歩圏内のリゾートホテル。草津温泉の硫黄泉を楽しめる大浴場と露天風呂を完備。',
         price: '2食付き 20,000円〜',
         image: './hotels/kusatsuhotelvillage.png',
-        tags: ['湯畑近く', 'リゾート', '露天風呂']
+        tags: ['湯畑近く', 'リゾート', '露天風呂'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-gunma-1-2',
@@ -119,7 +128,8 @@ export const hotelList = [
         description: '創業400年以上の草津を代表する老舗旅館。源泉の湯畑を眼下に望む露天風呂と懐石料理が圧倒的な満足感を提供。',
         price: '2食付き 50,000円〜',
         image: './hotels/naraya.png',
-        tags: ['老舗400年', '湯畑眺望', '懐石料理', '源泉掛け流し']
+        tags: ['老舗400年', '湯畑眺望', '懐石料理', '源泉掛け流し'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-gunma-1-3',
@@ -130,7 +140,8 @@ export const hotelList = [
         description: '湯畑の賑わいからすぐの場所に佇む、草津では稀少な自家源泉を保有しており、木の温もりに包まれた情緒豊かな大浴場で、本物の草津の湯を贅沢に堪能。',
         price: '2食付き 15,000円〜',
         image: './hotels/kusatsuhotelsakurai.png',
-        tags: ['自家源泉', '木造浴室', 'リーズナブル']
+        tags: ['自家源泉', '木造浴室', 'リーズナブル'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-gunma-1-4',
@@ -141,7 +152,8 @@ export const hotelList = [
         description: '草津の伝統美を体現する格式ある旅館。四季の草津の自然を楽しめる絶景の露天風呂と、厳選された郷土料理が魅力。',
         price: '2食付き 45,000円〜',
         image: './hotels/kusatsubouun.png',
-        tags: ['格式', '絶景露天', '郷土料理', '高級旅館']
+        tags: ['格式', '絶景露天', '郷土料理', '高級旅館'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
 
     // ===== 伊香保温泉（群馬）=====
@@ -154,7 +166,8 @@ export const hotelList = [
         description: '石段から徒歩すぐの老舗旅館。黄金の湯（茶褐色の温泉）と白銀の湯の2種を楽しめる。絶品の群馬和牛料理が評判。',
         price: '2食付き 25,000円〜',
         image: './hotels/ikahofukuichi.png',
-        tags: ['石段近く', '2種の湯', '群馬和牛', '老舗']
+        tags: ['石段近く', '2種の湯', '群馬和牛', '老舗'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-gunma-2-2',
@@ -165,7 +178,8 @@ export const hotelList = [
         description: '伊香保最大の温泉ホテル。関東最大級の屋内温泉テーマパーク「天坊」を併設しファミリーにも人気。',
         price: '2食付き 18,000円〜',
         image: './hotels/ikahotennbo.png',
-        tags: ['関東最大級', '温泉施設', 'ファミリー']
+        tags: ['関東最大級', '温泉施設', 'ファミリー'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
 
     // ===== 箱根温泉（神奈川）=====
@@ -178,7 +192,8 @@ export const hotelList = [
         description: '強羅山腹に位置する日本屈指の高級旅館。枯山水庭園と富士山を一望する露天風呂、最高峰の懐石料理が揃う。ミシュラン一つ星も獲得。',
         price: '2食付き 80,000円〜',
         image: './hotels/gouraka.png',
-        tags: ['ミシュラン一つ星', '富士山眺望', '枯山水庭園', '最高級']
+        tags: ['ミシュラン一つ星', '富士山眺望', '枯山水庭園', '最高級'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-kanagawa-1-2',
@@ -189,7 +204,8 @@ export const hotelList = [
         description: '箱根湯本川沿いの純和風旅館。川のせせらぎを聞きながら楽しめる露天風呂と、季節の食材を活かした料理が人気。',
         price: '2食付き 30,000円〜',
         image: './hotels/washiinteigetsuki.png',
-        tags: ['川沿い', '純和風', '季節料理']
+        tags: ['川沿い', '純和風', '季節料理'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-kanagawa-1-3',
@@ -200,7 +216,8 @@ export const hotelList = [
         description: '芦ノ湖を見渡す丘の上の国際的ラグジュアリーリゾート。個室スパと箱根温泉を引いた温浴施設が融合した上質の体験。',
         price: '2食付き 60,000円〜',
         image: './hotels/hyattregencyhakone.png',
-        tags: ['ラグジュアリー', '芦ノ湖', 'スパ', 'インターナショナル']
+        tags: ['ラグジュアリー', '芦ノ湖', 'スパ', 'インターナショナル'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-kanagawa-1-4',
@@ -211,7 +228,8 @@ export const hotelList = [
         description: '現代のデザインと日本の伝統美が融合した旅館。全室に露天風呂を完備し、特産品を活かした創作料理が楽しめる。',
         price: '2食付き 40,000円〜',
         image: './hotels/hakonekamon.png',
-        tags: ['全室露天風呂', 'デザイン旅館', '創作料理']
+        tags: ['全室露天風呂', 'デザイン旅館', '創作料理'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
 
     // ===== 乳頭温泉郷（秋田）=====
@@ -224,7 +242,8 @@ export const hotelList = [
         description: '乳頭温泉郷で最古の宿。江戸時代の茅葺き屋根の本陣と混浴の野天風呂が有名。白濁した乳頭の湯が絶品。全国の秘湯マニアが訪れる聖地。',
         price: '2食付き 16,000円〜',
         image: './hotels/tsurunoyuonsen.png',
-        tags: ['日本屈指の秘湯', '茅葺き本陣', '混浴野天風呂', '白濁湯']
+        tags: ['日本屈指の秘湯', '茅葺き本陣', '混浴野天風呂', '白濁湯'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-akita-1-2',
@@ -235,7 +254,8 @@ export const hotelList = [
         description: '乳頭川沿いの情緒ある宿。「金の湯・銀の湯」と呼ばれる2種の自家源泉を持ち、川のせせらぎが聞こえる露天風呂が人気。',
         price: '2食付き 22,000円〜',
         image: './hotels/taenoyu.png',
-        tags: ['2種の源泉', '川沿い露天', '秘湯']
+        tags: ['2種の源泉', '川沿い露天', '秘湯'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-akita-1-3',
@@ -246,7 +266,8 @@ export const hotelList = [
         description: 'ブナの原生林に抱かれた静かな宿。希少な2種類の源泉を一度に堪能でき、乳白色の露天風呂で四季折々の自然と秘湯の情緒に浸れる。',
         price: '2食付き 18,000円〜',
         image: './hotels/kyukamura.png',
-        tags: ['国立公園', '2種の源泉', '乳白色の露天風呂']
+        tags: ['国立公園', '2種の源泉', '乳白色の露天風呂'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
 
     // ===== 銀山温泉（山形）=====
@@ -259,7 +280,8 @@ export const hotelList = [
         description: '銀山温泉の街並みに溶け込む隈研吾設計のモダンな宿。趣の異なる5つの貸切風呂で、洗練された空間と名湯をプライベートに堪能できる。',
         price: '2食付き 51,000円〜',
         image: './hotels/ginzanonsenfujiya.png',
-        tags: ['モダン建築', '大正ロマン', '銀山川沿い']
+        tags: ['モダン建築', '大正ロマン', '銀山川沿い'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-yamagata-1-2',
@@ -270,7 +292,8 @@ export const hotelList = [
         description: '銀山温泉街の中心にある老舗旅館。和室と洋室を組み合わせた多彩な客室と、銀山温泉の名湯を堪能できる。',
         price: '2食付き 28,000円〜',
         image: './hotels/ginzanonsenfuruyukaku.png',
-        tags: ['老舗', '多彩な客室', '温泉街中心']
+        tags: ['老舗', '多彩な客室', '温泉街中心'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-yamagata-1-3',
@@ -281,7 +304,8 @@ export const hotelList = [
         description: '銀山温泉の上部に位置する静かな旅館。絶景の露天風呂と山形の郷土料理が人気。冬の雪景色の中の温泉体験が忘れられない思い出に。',
         price: '2食付き 22,000円〜',
         image: './hotels/ginzansou.png',
-        tags: ['静かな立地', '雪見露天', '郷土料理']
+        tags: ['静かな立地', '雪見露天', '郷土料理'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
 
     // ===== 有馬温泉（兵庫）=====
@@ -294,7 +318,8 @@ export const hotelList = [
         description: '有馬温泉最古の旅館。800年以上の歴史を誇り、豊臣秀吉も逗留した記録が残る。金泉・銀泉を両方持つ数少ない宿の一つ。',
         price: '2食付き 50,000円〜',
         image: './hotels/gosyobou.png',
-        tags: ['800年の歴史', '金泉銀泉', '豊臣秀吉ゆかり', '最古の宿']
+        tags: ['800年の歴史', '金泉銀泉', '豊臣秀吉ゆかり', '最古の宿'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-hyogo-1-2',
@@ -305,7 +330,8 @@ export const hotelList = [
         description: '有馬温泉街に位置するモダンな旅館。金泉・銀泉を両方引いた洗練された浴室と、創作会席料理が評判。',
         price: '2食付き 35,000円〜',
         image: './hotels/hyoeikoyokaku.png',
-        tags: ['金泉銀泉', 'モダン', '創作会席']
+        tags: ['金泉銀泉', 'モダン', '創作会席'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-hyogo-1-3',
@@ -316,7 +342,8 @@ export const hotelList = [
         description: '有馬温泉の高台にある純和風旅館。金泉の露天風呂からの眺望と、京都・兵庫の食材を活かした料理が自慢。',
         price: '2食付き 40,000円〜',
         image: './hotels/negiya.png',
-        tags: ['金泉露天', '高台の絶景', '京兵庫食材']
+        tags: ['金泉露天', '高台の絶景', '京兵庫食材'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
 
     // ===== 別府温泉（大分）=====
@@ -329,7 +356,8 @@ export const hotelList = [
         description: '別府湾を一望する大分最大の温泉リゾート。螺旋状の温泉「棚湯」や食事・エンタメが揃う日本最大級の温泉ホテル。',
         price: '2食付き 25,000円〜',
         image: './hotels/suginoihotel.png',
-        tags: ['別府湾眺望', '最大級リゾート', '棚湯', 'エンタメ充実']
+        tags: ['別府湾眺望', '最大級リゾート', '棚湯', 'エンタメ充実'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-oita-1-2',
@@ -340,7 +368,8 @@ export const hotelList = [
         description: '昭和初期に建てられた旧別荘を旅館として公開。国登録有形文化財の重厚な木造建築と昔ながらの別府温泉が体験できる。',
         price: '素泊まり 3,500円〜',
         image: './hotels/beppuyamada.png',
-        tags: ['国登録有形文化財', '昭和建築', 'リーズナブル', '雰囲気満点']
+        tags: ['国登録有形文化財', '昭和建築', 'リーズナブル', '雰囲気満点'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-oita-1-3',
@@ -351,7 +380,8 @@ export const hotelList = [
         description: '1901年創業の別府を代表する名門ホテル。地獄めぐりの拠点として知られ、広大な庭園と多彩な浴槽が魅力。',
         price: '2食付き 20,000円〜',
         image: './hotels/kamenoi.png',
-        tags: ['1901年創業', '名門ホテル', '庭園', '多彩な浴槽']
+        tags: ['1901年創業', '名門ホテル', '庭園', '多彩な浴槽'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
 
     // ===== 由布院温泉（大分）=====
@@ -364,7 +394,8 @@ export const hotelList = [
         description: '由布院温泉の代名詞的存在。広大な敷地に点在する離れの客室と由布岳を一望する開放的な露天風呂、地元食材の会席が揃う名旅館。',
         price: '2食付き 60,000円〜',
         image: './hotels/kamenoibessou.png',
-        tags: ['由布院の名旅館', '離れ客室', '由布岳眺望', '会席料理']
+        tags: ['由布院の名旅館', '離れ客室', '由布岳眺望', '会席料理'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-oita-2-2',
@@ -375,7 +406,8 @@ export const hotelList = [
         description: '由布院温泉のおしゃれな旅館。アートと木の温もりを融合させた内装に全棟専用露天風呂付き。隣接のブランジェリーとバーも人気。',
         price: '2食付き 50,000円〜',
         image: './hotels/sanmuryotou.png',
-        tags: ['全棟露天付き', 'デザイン', 'アート', 'ブランジェリー']
+        tags: ['全棟露天付き', 'デザイン', 'アート', 'ブランジェリー'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-oita-2-3',
@@ -386,7 +418,8 @@ export const hotelList = [
         description: '由布院温泉の草分け的な旅館。自然美と建築美が調和した敷地内を散策しながら、由布岳を眺める露天風呂と大分の美食が楽しめる。',
         price: '2食付き 55,000円〜',
         image: './hotels/yufuintamanoyu.png',
-        tags: ['草分け旅館', '自然美', '露天風呂', '大分美食']
+        tags: ['草分け旅館', '自然美', '露天風呂', '大分美食'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
 
     // ===== 道後温泉（愛媛）=====
@@ -399,7 +432,8 @@ export const hotelList = [
         description: '道後温泉本館まで徒歩1分の好立地。坊っちゃん列車のジオラマが展示された趣ある旅館。空中露天風呂からの夜景が美しい。',
         price: '2食付き 28,000円〜',
         image: './hotels/dogokan.png',
-        tags: ['本館徒歩1分', '空中露天風呂', '夜景', '好立地']
+        tags: ['本館徒歩1分', '空中露天風呂', '夜景', '好立地'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-ehime-1-2',
@@ -410,7 +444,8 @@ export const hotelList = [
         description: '元禄末期創業、松山藩主が湯治に使用した由緒ある旅館。道後温泉の自家源泉を引いた庭園露天風呂と松山の食材を活かした会席が評判。',
         price: '2食付き 45,000円〜',
         image: './hotels/funaya.png',
-        tags: ['元禄創業', '藩主御用達', '自家源泉', '庭園露天']
+        tags: ['元禄創業', '藩主御用達', '自家源泉', '庭園露天'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-ehime-1-3',
@@ -421,7 +456,8 @@ export const hotelList = [
         description: '道後温泉街にある老舗純和風旅館。全客室に障子と縁側を設け、昔ながらの温泉旅館の風情を大切にしている。旬の食材を使った懐石料理が自慢。',
         price: '2食付き 32,000円〜',
         image: './hotels/yamatoya.png',
-        tags: ['老舗純和風', '障子縁側', '懐石料理']
+        tags: ['老舗純和風', '障子縁側', '懐石料理'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
 
     // ===== 黒川温泉（熊本）=====
@@ -434,7 +470,8 @@ export const hotelList = [
         description: '黒川温泉街の中心に位置する旅館。入湯手形が使える自慢の露天風呂を含む多彩な湯と、地元食材を活かした料理が人気。',
         price: '2食付き 25,000円〜',
         image: './hotels/onoshino.png',
-        tags: ['黒川温泉街', '露天風呂', '地元食材']
+        tags: ['黒川温泉街', '露天風呂', '地元食材'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-kumamoto-1-2',
@@ -445,7 +482,8 @@ export const hotelList = [
         description: '黒川温泉の隠れ家的宿。山の斜面を活かした複数の源泉掛け流し露天風呂と、阿蘇の食材を使った丁寧な料理が好評。',
         price: '2食付き 30,000円〜',
         image: './hotels/kounoyu.png',
-        tags: ['源泉掛け流し', '隠れ家', '阿蘇食材']
+        tags: ['源泉掛け流し', '隠れ家', '阿蘇食材'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-kumamoto-1-3',
@@ -456,7 +494,8 @@ export const hotelList = [
         description: '黒川を代表する高級旅館。全室に露天風呂を完備し、庭園を眺めながらの湯浴みと九州の恵みを詰め込んだ懐石コースが充実。',
         price: '2食付き 45,000円〜',
         image: './hotels/yamamizuki.png',
-        tags: ['全室露天付き', 'ラグジュアリー', '庭園', '九州懐石']
+        tags: ['全室露天付き', 'ラグジュアリー', '庭園', '九州懐石'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
 
     // ===== 下呂温泉（岐阜）=====
@@ -469,7 +508,8 @@ export const hotelList = [
         description: '飛騨川沿いに建つ下呂温泉のシンボル的大旅館。美肌効果で名高い無色透明の源泉を引いた大浴場と展望露天風呂が自慢。',
         price: '2食付き 25,000円〜',
         image: './hotels/suimeikan.png',
-        tags: ['飛騨川沿い', '展望露天', '美肌の湯', '大型旅館']
+        tags: ['飛騨川沿い', '展望露天', '美肌の湯', '大型旅館'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-gifu-1-2',
@@ -480,7 +520,8 @@ export const hotelList = [
         description: '下呂温泉の中心部にある純和風の温泉旅館。ひのき造りの浴室で下呂の名湯に浸かり、飛騨牛をたっぷり使った会席料理を楽しめる。',
         price: '2食付き 22,000円〜',
         image: './hotels/miyako.png',
-        tags: ['ひのき浴室', '飛騨牛', '純和風']
+        tags: ['ひのき浴室', '飛騨牛', '純和風'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
 
     // ===== 熱海温泉（静岡）=====
@@ -493,7 +534,8 @@ export const hotelList = [
         description: '熱海の山中に建つ洗練された高級旅館。全室に源泉掛け流しの露天風呂を完備し、相模灘を一望するプライベート空間が魅力。',
         price: '2食付き 60,000円〜',
         image: './hotels/atami-fufu.png',
-        tags: ['全室露天付き', '相模灘眺望', 'プライベート', '最高級']
+        tags: ['全室露天付き', '相模灘眺望', 'プライベート', '最高級'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-shizuoka-1-2',
@@ -504,7 +546,8 @@ export const hotelList = [
         description: '相模湾を一望する断崖の上の大型温泉リゾート。地下1,000mから自噴する源泉を引いた絶景の展望大浴場が人気。',
         price: '2食付き 20,000円〜',
         image: './hotels/newakao.png',
-        tags: ['自噴源泉', '相模湾眺望', '大型リゾート']
+        tags: ['自噴源泉', '相模湾眺望', '大型リゾート'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
     {
         id: 'h-shizuoka-1-3',
@@ -515,7 +558,8 @@ export const hotelList = [
         description: '熱海温泉で最も古い旅館のひとつ。萩、夏目漱石、山本有三ら文人に愛され続けた風情ある木造旅館。',
         price: '2食付き 30,000円〜',
         image: './hotels/furuya.png',
-        tags: ['文人ゆかり', '老舗', '木造建築']
+        tags: ['文人ゆかり', '老舗', '木造建築'],
+        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
 ];
 
