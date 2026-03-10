@@ -186,14 +186,14 @@ export const hotelList = [
     {
         id: 'h-kanagawa-1-1',
         onsen_id: 'o-kanagawa-1',
-        name: '強羅花壇',
+        name: '箱根・芦ノ湖 はなをり',
         prefecture: 'kanagawa',
-        type: 'プレミアム旅館',
-        description: '強羅山腹に位置する日本屈指の高級旅館。枯山水庭園と富士山を一望する露天風呂、最高峰の懐石料理が揃う。ミシュラン一つ星も獲得。',
+        type: '温泉旅館',
+        description: '芦ノ湖のほとりに佇む、モダンで洗練された温泉旅館。全室レイクビューの客室と、開放的な大浴場、多彩なダイニングが魅力。',
         price: '2食付き 80,000円〜',
-        image: './hotels/gouraka.png',
-        tags: ['ミシュラン一つ星', '富士山眺望', '枯山水庭園', '最高級'],
-        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
+        image: './hotels/ashinokohanawori.png',
+        tags: ['レイクビュー', 'モダン', '多彩なダイニング'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad369086%2F', rakuten: 'https://a.r10.to/h5rdic', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002449%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002449%252F' }
     },
     {
         id: 'h-kanagawa-1-2',
@@ -232,18 +232,32 @@ export const hotelList = [
         bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
     },
 
+      // ===== 強羅温泉（神奈川）=====
+    {
+        id: 'h-kanagawa-3-1',
+        onsen_id: 'o-kanagawa-3',
+        name: '強羅花壇',
+        prefecture: 'kanagawa',
+        type: 'プレミアム旅館',
+        description: '強羅山腹に位置する日本屈指の高級旅館。枯山水庭園と富士山を一望する露天風呂、最高峰の懐石料理が揃う。ミシュラン一つ星も獲得。',
+        price: '2食付き 80,000円〜',
+        image: './hotels/gourakadan.png',
+        tags: ['ミシュラン一つ星', '富士山眺望', '枯山水庭園', '最高級'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001935%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001935%252F' }
+    },
+
     // ===== 乳頭温泉郷（秋田）=====
     {
         id: 'h-akita-1-1',
         onsen_id: 'o-akita-1',
-        name: '鶴の湯温泉',
+        name: '鶴の湯別館 山の宿',
         prefecture: 'akita',
         type: '秘湯の一軒宿',
         description: '乳頭温泉郷で最古の宿。江戸時代の茅葺き屋根の本陣と混浴の野天風呂が有名。白濁した乳頭の湯が絶品。全国の秘湯マニアが訪れる聖地。',
         price: '2食付き 16,000円〜',
         image: './hotels/tsurunoyuonsen.png',
         tags: ['日本屈指の秘湯', '茅葺き本陣', '混浴野天風呂', '白濁湯'],
-        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad330512%2F', rakuten: 'https://a.r10.to/hP1jAQ', ikyu: '#', yahoo: '#' }
     },
     {
         id: 'h-akita-1-2',
@@ -255,7 +269,7 @@ export const hotelList = [
         price: '2食付き 22,000円〜',
         image: './hotels/taenoyu.png',
         tags: ['2種の源泉', '川沿い露天', '秘湯'],
-        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001101%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001101%252F' }
     },
     {
         id: 'h-akita-1-3',
@@ -267,7 +281,7 @@ export const hotelList = [
         price: '2食付き 18,000円〜',
         image: './hotels/kyukamura.png',
         tags: ['国立公園', '2種の源泉', '乳白色の露天風呂'],
-        bookingUrls: { jalan: '', rakuten: '', ikyu: '', yahoo: '' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad322452%2F"', rakuten: 'https://a.r10.to/h5ibyZ', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00900792%252F' }
     },
 
     // ===== 銀山温泉（山形）=====

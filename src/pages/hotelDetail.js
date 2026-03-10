@@ -184,7 +184,7 @@ export function renderHotelDetail({ params }) {
             <div class="booking-card">
               <div class="booking-card-header">
                 <h2 class="booking-card-title">予約サイトで確認</h2>
-                <p class="booking-card-desc">下記の予約サイトから空室状況・最新料金・プランをご確認ください</p>
+                <p class="booking-card-desc">下記の予約サイトから空室状況・最新料金・プランをご確認ください（掲載がない場合はリンクなし）</p>
               </div>
               <div class="booking-links">
                 ${bookingLinks.map(link => `
