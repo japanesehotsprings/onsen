@@ -32,8 +32,8 @@ export function renderHome() {
       <div class="hero-overlay"></div>
       <div class="hero-content">
         <h1 class="hero-title">
-          <span class="hero-title-sub">日本全国</span>
-          名湯を巡る旅
+          <span class="hero-title-sub"></span>
+          日本温泉
         </h1>
         <p class="hero-subtitle">♨ 47都道府県の温泉地・温泉宿を探す</p>
         <div class="search-box" id="hero-search">

@@ -2095,6 +2095,10 @@ ul {
     grid-template-columns: repeat(2, 1fr);
     gap: var(--spacing-md);
   }
+
+  .hero-content {
+    margin-top: 100px;
+  }
 }
 
 @media (max-width: 600px) {
