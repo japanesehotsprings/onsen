@@ -5,6 +5,7 @@
 
 import { prefectures } from '../data/prefectures.js';
 import { searchOnsen, getOnsenCategories, onsenList } from '../data/onsen.js';
+import { searchHotels } from '../data/hotels.js';
 import { navigateTo } from '../router.js';
 
 /**
@@ -15,9 +16,13 @@ export function renderSearchResults({ query }) {
   const app = document.getElementById('app');
   const searchQuery = query.q || '';
 
-  // 温泉検索実行
-  const onsenResults = searchQuery ? searchOnsen(searchQuery) : [];
-  const totalResults = onsenResults.length;
+  // 温泉と宿の両方を検索
+  const onsenResults = searchQuery ? searchOnsen(searchQuery).map(o => ({ ...o, itemType: 'onsen' })) : [];
+  const hotelResults = searchQuery ? searchHotels(searchQuery).map(h => ({ ...h, itemType: 'hotel' })) : [];
+  
+  // 結果を統合
+  const allResults = [...onsenResults, ...hotelResults];
+  const totalResults = allResults.length;
 
   // 泉質カテゴリ一覧（フィルター用）
   const categories = getOnsenCategories();
@@ -49,7 +54,7 @@ export function renderSearchResults({ query }) {
         <div class="search-filter" id="search-filter">
           <button class="filter-btn active" data-filter="all">すべて <span class="filter-count">${totalResults}</span></button>
           ${categories.map(cat => {
-    const count = onsenResults.filter(o => o.category === cat).length;
+    const count = allResults.filter(r => r.category === cat || (r.itemType === 'hotel' && r.tags.includes(cat))).length;
     if (count === 0) return '';
     return `<button class="filter-btn" data-filter="${cat}">${cat} <span class="filter-count">${count}</span></button>`;
   }).join('')}
@@ -79,7 +84,7 @@ export function renderSearchResults({ query }) {
         <div class="search-results" id="search-results">
           ${totalResults > 0 ? `
             <div class="card-grid" id="onsen-results">
-              ${onsenResults.map(onsen => renderSearchCard(onsen)).join('')}
+              ${allResults.map(item => renderSearchCard(item)).join('')}
             </div>
           ` : ''}
         </div>
@@ -97,30 +102,35 @@ export function renderSearchResults({ query }) {
 
 /**
  * 検索カードのHTMLを生成
- * @param {object} onsen - 温泉データ
+ * @param {object} item - 温泉または宿データ
  * @returns {string} カードのHTML文字列
  */
-function renderSearchCard(onsen) {
-  const prefName = prefectures.find(p => p.id === onsen.prefecture)?.name || '';
+function renderSearchCard(item) {
+  const isHotel = item.itemType === 'hotel';
+  const prefName = prefectures.find(p => p.id === item.prefecture)?.name || '';
+  const detailUrl = isHotel ? `#/hotel/${item.id}` : `#/onsen/${item.id}`;
+  const categoryLabel = isHotel ? item.type : item.category;
+  const badgeClass = isHotel ? 'hotel' : 'onsen';
+
   return `
-    <article class="card" data-category="${onsen.category}">
-      <div class="card-image">
-        <img src="${onsen.image}" alt="${onsen.name}" loading="lazy">
-        <span class="card-badge onsen">${onsen.category}</span>
-      </div>
-      <div class="card-content">
-        <div class="card-meta">
-          <span class="card-prefecture">
-            <a href="#/prefecture/${onsen.prefecture}">${prefName}</a>
-          </span>
-          <span class="spring-type-badge">♨ ${onsen.spring_type}</span>
+    <article class="card" data-category="${item.category || ''}" data-type="${item.itemType}">
+      <a href="${detailUrl}" class="card-link">
+        <div class="card-image">
+          <img src="${item.image}" alt="${item.name}" loading="lazy">
+          <span class="card-badge ${badgeClass}">${categoryLabel}</span>
         </div>
-        <h3 class="card-title">${onsen.name}</h3>
-        <p class="card-desc">${onsen.description}</p>
-        <div class="card-tags">
-          ${onsen.tags.map(t => `<span class="tag">${t}</span>`).join('')}
+        <div class="card-content">
+          <div class="card-meta">
+            <span class="card-prefecture">${prefName}</span>
+            ${!isHotel ? `<span class="spring-type-badge">♨ ${item.spring_type}</span>` : `<span class="price-badge">${item.price}</span>`}
+          </div>
+          <h3 class="card-title">${item.name}</h3>
+          <p class="card-desc">${item.description}</p>
+          <div class="card-tags">
+            ${item.tags.map(t => `<span class="tag">${t}</span>`).join('')}
+          </div>
         </div>
-      </div>
+      </a>
     </article>
   `;
 }

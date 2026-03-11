@@ -616,6 +616,21 @@ export const hotelList = [
 ];
 
 /**
+ * 宿のテキスト検索
+ * @param {string} query - 検索クエリ
+ * @returns {Array} 検索結果の配列
+ */
+export function searchHotels(query) {
+    const q = query.toLowerCase();
+    return hotelList.filter(h =>
+        h.name.toLowerCase().includes(q) ||
+        h.description.toLowerCase().includes(q) ||
+        h.type.toLowerCase().includes(q) ||
+        h.tags.some(t => t.toLowerCase().includes(q))
+    );
+}
+
+/**
  * 温泉地IDから宿一覧を取得
  * @param {string} onsenId - 温泉地ID
  * @returns {Array} 宿データの配列
