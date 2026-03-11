@@ -144,6 +144,44 @@ export const hotelList = [
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad334472%2F', rakuten: 'https://a.r10.to/hkQXOl', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000900%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000900%252F' }
     },
 
+      // ===== 層雲峡温泉（北海道）=====
+    {
+        id: 'h-hokkaido-5-1',
+        onsen_id: 'o-hokkaido-5',
+        name: 'ホテル大雪 ONSEN & CANYON RESORT',
+        prefecture: 'hokkaido',
+        type: '温泉リゾート',
+        description: '大雪山国立公園の絶景を見渡す、層雲峡で最も高台に位置する温泉リゾート。趣の異なる3つの大浴場を巡り、ダイナミックな峡谷美と源泉掛け流しの名湯を存分に堪能できる。',
+        price: '2食付き 20,000円〜',
+        image: './hotels/hoteltaisetsu.png',
+        tags: ['温泉リゾート', '露天風呂', '渓谷美', 'ビュッフェ'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad308034%2F', rakuten: 'https://a.r10.to/hgA9IV', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001617%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001617%252F' }
+    },
+    {
+        id: 'h-hokkaido-5-2',
+        onsen_id: 'o-hokkaido-5',
+        name: '朝陽リゾートホテル',
+        prefecture: 'hokkaido',
+        type: '温泉リゾート',
+        description: '層雲峡の森に包まれた、北欧風のモダンな雰囲気が漂う癒しの温泉リゾート。2つの異なる源泉を贅沢に掛け流しで楽しみ、地元の旬を味わうビュッフェで心身ともに満たされる。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/choyo.png',
+        tags: ['源泉掛け流し', '北欧スタイル', '癒しの空間', 'ビュッフェ'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad351084%2F', rakuten: 'https://a.r10.to/h5IblS', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00913201%252F' }
+    },
+    {
+        id: 'h-hokkaido-5-3',
+        onsen_id: 'o-hokkaido-5',
+        name: '層雲閣',
+        prefecture: 'hokkaido',
+        type: '温泉リゾート',
+        description: '断崖絶壁が迫る峡谷の特等席に佇む、創業百年の歴史を誇る老舗温泉リゾート。大迫力のパノラマ露天と共に、ラウンジや夕食時のフリードリンクを含むオールインクルーシブで層雲峡の自然を堪能できる。',
+        price: '2食付き 18,000円〜',
+        image: './hotels/sounkaku.png',
+        tags: ['老舗旅館', '絶景露天風呂', '峡谷美', '源泉掛け流し', 'オールインクルーシブ'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad328745%2F', rakuten: 'https://a.r10.to/hPa4ul', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00901931%252F' }
+    },
+
     // ===== 草津温泉（群馬）=====
     {
         id: 'h-gunma-1-1',
@@ -358,6 +396,20 @@ export const hotelList = [
         image: './hotels/ginzansou.png',
         tags: ['静かな立地', '雪見露天', '郷土料理'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad314994%2F', rakuten: 'https://a.r10.to/hP9Ohi', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002061%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002061%252F' }
+    },
+
+    // ===== 妙高温泉（新潟）=====
+    {
+        id: 'h-niigata-5-1',
+        onsen_id: 'o-niigata-5',
+        name: '赤倉観光ホテル',
+        prefecture: 'niigata',
+        type: '温泉リゾート',
+        description: '標高1,000mの絶景に浮かぶ、雲海を望むクラシックリゾート。源泉掛け流しの露天風呂から妙高高原のパノラマを眺め、歴史ある品格と至福の開放感に浸れる。',
+        price: '2食付き 51,000円〜',
+        image: './hotels/akakurakankohotel.png',
+        tags: ['絶景露天', '雲海', 'クラシックリゾート'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad312850%2F', rakuten: 'https://a.r10.to/hkbVhb', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000547%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000547%252F' }
     },
 
     // ===== 有馬温泉（兵庫）=====
