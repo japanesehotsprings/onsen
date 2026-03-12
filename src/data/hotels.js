@@ -268,6 +268,92 @@ export const hotelList = [
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad348167%2F', rakuten: 'https://a.r10.to/hkQF0p', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00003001%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00003001%252F' }
     },
 
+    // ===== 支笏湖温泉（北海道）=====
+    {
+        id: 'h-hokkaido-7-1',
+        onsen_id: 'o-hokkaido-7',
+        name: 'レイクサイドヴィラ翠明閣',
+        prefecture: 'hokkaido',
+        type: '高級温泉ホテル',
+        description: '支笏湖の湖畔に最も近く、全8室すべてから美しい湖を一望できる高級温泉ホテル。名湯・支笏湖温泉を全室に備えられた展望風呂で独り占めし、北海道の厳選食材が彩るイタリアン懐石を心ゆくまで堪能できる。',
+        price: '2食付き 35,000円〜',
+        image: './hotels/suimeikaku.png',
+        tags: ['レイクビュー', '全室温泉付', 'イタリアン懐石', '全8室の隠れ宿'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad303828%2F', rakuten: 'https://a.r10.to/h5S374', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001596%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001596%252F' }
+    },
+    {
+        id: 'h-hokkaido-7-2',
+        onsen_id: 'o-hokkaido-7',
+        name: '支笏湖第一寶亭留・翠山亭',
+        prefecture: 'hokkaido',
+        type: '高級温泉旅館',
+        description: '支笏湖の深い森に抱かれた、静寂とプライベート感を大切にする大人向けの高級温泉旅館。支笏湖の「美肌の湯」を、贅沢な造りの大浴場や客室露天風呂で心ゆくまで堪能し、北海道の厳選食材を用いた繊細な会席料理に舌鼓を打つ至福のひとときを過ごせる。',
+        price: '2食付き 25,000円〜',
+        image: './hotels/suizantei.png',
+        tags: ['美肌の湯', '客室露天風呂', '旬の会席料理', '大人の隠れ宿'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad317358%2F', rakuten: 'https://a.r10.to/hFfOqT', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001011%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001011%252F' }
+    },
+    {
+        id: 'h-hokkaido-7-3',
+        onsen_id: 'o-hokkaido-7',
+        name: '休暇村 支笏湖',
+        prefecture: 'hokkaido',
+        type: '温泉ホテル',
+        description: '支笏湖を望む高台の森に囲まれた、豊かな自然とふれあえる温泉ホテル。「美肌の湯」として知られる柔らかなお湯を楽しみ、夕食には北海道の旬を詰め込んだこだわりのビュッフェを心ゆくまで満喫できる。',
+        price: '2食付き 16,000円〜',
+        image: './hotels/kyukamurashikotsuko.png',
+        tags: ['自然体験', '美肌の湯', '森の散策路', 'ビュッフェ'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad337480%2F', rakuten: 'https://a.r10.to/hPfvzS', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030878%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030878%252F' }
+    },
+    {
+        id: 'h-hokkaido-7-4',
+        onsen_id: 'o-hokkaido-7',
+        name: '雨ノ日と夕やけ',
+        prefecture: 'hokkaido',
+        type: '温泉宿',
+        description: '支笏湖の深い森に溶け込むように佇む、部屋にジャグジーバスやミニシアターを備えた静かな温泉宿。「雨の日には雨の日の、夕焼けには夕焼けの良さがある」というコンセプトのもと、日常を離れて自分を取り戻す穏やかな時間と、旬の食材を活かした創作料理を堪能できる。',
+        price: '2食付き 19,000円〜',
+        image: './hotels/amenohi.png',
+        tags: ['森の隠れ宿', 'ジャグジーバス', '静寂の空間', '創作料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad309086%2F', rakuten: 'https://a.r10.to/hPMRap', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001280%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001280%252F' }
+    },
+    {
+        id: 'h-hokkaido-7-5',
+        onsen_id: 'o-hokkaido-7',
+        name: '丸駒温泉旅館',
+        prefecture: 'hokkaido',
+        type: '温泉旅館',
+        description: '支笏湖の北岸、手付かずの自然に囲まれた場所に佇む大正4年創業の老舗温泉旅館。全国でも珍しい足元湧出の「天然露天風呂」を誇り、支笏湖の湖水と連動して深さが変わる神秘的な湯浴みと、地元の旬を味わう囲炉裏会席などを堪能できる。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/marukoma.png',
+        tags: ['天然露天風呂', '老舗温泉旅館', '旬の会席料理', '静寂の空間'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad341087%2F', rakuten: 'https://a.r10.to/hXQPY7', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030323%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030323%252F' }
+    },
+    {
+        id: 'h-hokkaido-7-6',
+        onsen_id: 'o-hokkaido-7',
+        name: 'しこつ湖 鶴雅リゾートスパ 水の謌',
+        prefecture: 'hokkaido',
+        type: '温泉リゾート',
+        description: '「水の力」をテーマに、支笏湖の豊かな自然と融合した上質な癒しを提供するラグジュアリーな温泉リゾート。心地よい水の音に包まれながら、趣向を凝らした露天風呂やスパ、道産食材を活かした「ヘルシービュッフェ」を楽しみ、心身ともにリフレッシュする特別な休日を過ごせる。',
+        price: '2食付き 29,000円〜',
+        image: './hotels/mizunouta.png',
+        tags: ['水の癒やし', 'ヘルシービュッフェ', '露天風呂付客室', 'ピローギャラリー'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad395279%2F', rakuten: 'https://a.r10.to/hYj6jK', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001526%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001526%252F' }
+    },
+    {
+        id: 'h-hokkaido-7-7',
+        onsen_id: 'o-hokkaido-7',
+        name: 'しこつ湖 鶴雅別荘 碧の座',
+        prefecture: 'hokkaido',
+        type: '高級温泉旅館',
+        description: '支笏湖の青に染まる空と湖を望む、鶴雅グループ最高峰のラグジュアリーを体現した高級温泉旅館。全25室が100平米以上のプライベートスイートであり、全室に完備された支笏湖を望む露天風呂と、北海道の至高の食材をプライベートな空間で味わう懐石料理が、究極の非日常を演出する。',
+        price: '2食付き 66,000円〜',
+        image: './hotels/aonoza.png',
+        tags: ['全室露天風呂付', 'レイクビュー', 'オールインクルーシブ', '全室100平米超'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad367212%2F', rakuten: 'https://a.r10.to/h5T067', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002593%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002593%252F' }
+    },
+
     // ===== 草津温泉（群馬）=====
     {
         id: 'h-gunma-1-1',
