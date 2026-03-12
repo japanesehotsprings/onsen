@@ -182,6 +182,92 @@ export const hotelList = [
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad328745%2F', rakuten: 'https://a.r10.to/hPa4ul', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00901931%252F' }
     },
 
+    // ===== 十勝川温泉（北海道）=====
+    {
+        id: 'h-hokkaido-6-1',
+        onsen_id: 'o-hokkaido-6',
+        name: '笹井ホテル',
+        prefecture: 'hokkaido',
+        type: '温泉リゾート',
+        description: '十勝平野の豊かな恵みに包まれた、植物性の「モール温泉」を堪能できる老舗の温泉リゾート。美肌の湯として名高い琥珀色の源泉を源泉掛け流しで楽しみ、地元の旬が並ぶ豪華ビュッフェを存分に満喫できる。',
+        price: '2食付き 12,000円〜',
+        image: './hotels/sasaihotel.png',
+        tags: ['モール温泉', '源泉掛け流し', '十勝グルメ', 'ビュッフェ'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad310011%2F', rakuten: 'https://a.r10.to/hPVP7b', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00907849%252F' }
+    },
+    {
+        id: 'h-hokkaido-6-2',
+        onsen_id: 'o-hokkaido-6',
+        name: '十勝幕別温泉グランヴィリオホテル',
+        prefecture: 'hokkaido',
+        type: '温泉リゾート',
+        description: '十勝平野の高台に佇む、モール温泉と多彩なリラクゼーションが魅力の温泉リゾート。源泉掛け流しの琥珀色の湯に浸かり、地元の山海の幸を揃えた豪華ビュッフェを心ゆくまで堪能できる。',
+        price: '2食付き 12,000円〜',
+        image: './hotels/tokachigawagranvirio.png',
+        tags: ['モール温泉', '源泉掛け流し', 'パノラマビュー', 'ビュッフェ'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad366268%2F', rakuten: 'https://a.r10.to/hg4Ust', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00080441%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00080441%252F' }
+    },
+    {
+        id: 'h-hokkaido-6-3',
+        onsen_id: 'o-hokkaido-6',
+        name: '観月苑',
+        prefecture: 'hokkaido',
+        type: '温泉旅館',
+        description: '十勝川のほとりに佇む、木の温もりと和の情緒が溢れる老舗の温泉旅館。美肌成分が豊富な琥珀色のモール温泉を源泉掛け流しで楽しみ、十勝の豊かな山海の幸を活かした美食を堪能できる。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/kangetsuen.png',
+        tags: ['モール温泉', '源泉掛け流し', '十勝グルメ', '庭園露天風呂'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad334418%2F', rakuten: 'https://a.r10.to/h5aos4', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000844%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000844%252F' }
+    },
+    {
+        id: 'h-hokkaido-6-4',
+        onsen_id: 'o-hokkaido-6',
+        name: '第一ホテル',
+        prefecture: 'hokkaido',
+        type: '温泉リゾート',
+        description: '十勝川の雄大な流れを望む、洗練された寛ぎと十勝の恵みを五感で愉しむ温泉リゾート。植物性の「モール温泉」を多彩な湯殿で堪能し、オープンキッチンの活気あふれるビュッフェや上質な空間で至福の休日を過ごせる。',
+        price: '2食付き 18,000円〜',
+        image: './hotels/tokachigawadaiichi.png',
+        tags: ['モール温泉', '絶景露天風呂', 'ガーデンスパ', 'ビュッフェ'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad342509%2F', rakuten: 'https://a.r10.to/hNqZvR', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000877%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000877%252F' }
+    },
+    {
+        id: 'h-hokkaido-6-5',
+        onsen_id: 'o-hokkaido-6',
+        name: '富士ホテル',
+        prefecture: 'hokkaido',
+        type: '温泉旅館',
+        description: '十勝川温泉の原点ともいえる、家庭的な温もりと源泉へのこだわりが息づく温泉旅館。加水・加温を一切行わない「純粋なモール温泉」を源泉掛け流しで堪能でき、十勝の家庭料理のような優しさと旬の味覚を心ゆくまで楽しめる。',
+        price: '2食付き 9,900円〜',
+        image: './hotels/tokachigawafuji.png',
+        tags: ['純源泉掛け流し', 'モール温泉', 'アットホーム', '十勝の味覚'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad311115%2F', rakuten: 'https://a.r10.to/hgIlg2', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00915362%252F' }
+    },
+    {
+        id: 'h-hokkaido-6-6',
+        onsen_id: 'o-hokkaido-6',
+        name: '三余庵',
+        prefecture: 'hokkaido',
+        type: '高級温泉旅館',
+        description: '十勝の豊かな自然と文学の薫りに包まれた、全13室のプライベートな時間を大切にする高級温泉旅館。五感を癒やすモール温泉を贅沢に源泉掛け流しで楽しみ、厳選された十勝の旬素材が彩る独創的な創作懐石を心ゆくまで堪能できる。',
+        price: '2食付き 49,000円〜',
+        image: './hotels/sanyoan.png',
+        tags: ['モール温泉', '全室露天風呂付', '創作懐石', '全13室の隠れ宿'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad310650%2F', rakuten: 'https://a.r10.to/hPyvrg', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000857%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000857%252F' }
+    },
+    {
+        id: 'h-hokkaido-6-7',
+        onsen_id: 'o-hokkaido-6',
+        name: '清寂房',
+        prefecture: 'hokkaido',
+        type: '高級温泉旅館',
+        description: '十勝の広大な森に溶け込むように佇む、全室に源泉掛け流しの露天風呂を完備した高級温泉旅館。「清らかで静かな房（部屋）」の名が示す通り、日常を忘れる静寂の中でモール温泉を独り占めし、十勝の旬を五感で味わう創作懐石を堪能できる。',
+        price: '2食付き 43,000円〜',
+        image: './hotels/seijakubou.png',
+        tags: ['モール温泉', '全室露天風呂付', '創作懐石', '森の隠れ宿'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad348167%2F', rakuten: 'https://a.r10.to/hkQF0p', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00003001%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00003001%252F' }
+    },
+
     // ===== 草津温泉（群馬）=====
     {
         id: 'h-gunma-1-1',
