@@ -358,38 +358,50 @@ export const hotelList = [
     {
         id: 'h-hokkaido-8-1',
         onsen_id: 'o-hokkaido-8',
-        name: '川湯温泉観光ホテル',
+        name: 'お宿欣喜湯 別邸 すいかずら',
         prefecture: 'hokkaido',
-        type: '温泉ホテル',
-        description: 'のどかな景色に包まれた、川湯温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
-        price: '2食付き 15,000円〜',
-        image: './hotels/sample.png',
-        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉旅館',
+        description: '摩周湖や屈斜路湖へのアクセスも良く、川湯温泉の伝統を受け継ぎながら2021年にリブランディングされた温泉旅館。日本でも稀有なpH1.7の強酸性硫黄泉を、加温・加水一切なしの100%源泉掛け流しで堪能でき、地元の旬を活かした創作懐石や多彩なビュッフェをフリードリンクと共に心ゆくまで楽しめる。',
+        price: '2食付き 14,000円〜',
+        image: './hotels/kinkiyu-suikazura.png',
+        tags: ['全室露天風呂付', '創作会席', 'インクルーシブ', '強酸性硫黄泉', '源泉掛け流し'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad310100%2F', rakuten: 'https://a.r10.to/hPLAkO', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00912985%252F' }
     },
     {
         id: 'h-hokkaido-8-2',
         onsen_id: 'o-hokkaido-8',
-        name: '川湯温泉旅館 碧水苑',
+        name: '川湯観光ホテル',
         prefecture: 'hokkaido',
         type: '温泉旅館',
-        description: '静寂に包まれた離れ風の客室が魅力の宿。川湯温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/sample.png',
-        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '川湯温泉の入り口に位置し、川湯唯一の展望大浴場から硫黄山の荒々しい絶景を望める歴史ある温泉旅館。名湯・強酸性硫黄泉を、加温・加水を一切行わない100%源泉掛け流しで守り続け、低温・中温・高温の3つの湯船で心ゆくまで堪能した後は、地元の旬が彩る季節の和食膳を味わえる。',
+        price: '2食付き 9,500円〜',
+        image: './hotels/kawayu-kanko-hotel.png',
+        tags: ['源泉100%掛け流し', '強酸性硫黄泉', '展望大浴場'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad337273%2F', rakuten: 'https://a.r10.to/h5ATwJ', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00900050%252F' }
     },
     {
         id: 'h-hokkaido-8-3',
         onsen_id: 'o-hokkaido-8',
-        name: '川湯温泉スパリゾート',
+        name: '川湯温泉 ＫＫＲかわゆ',
         prefecture: 'hokkaido',
-        type: 'リゾート施設',
-        description: '現代的なデザインと温泉が融合したリゾート。川湯温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
-        price: '2食付き 18,500円〜',
-        image: './hotels/sample.png',
-        tags: ['モダン', '絶景露天', 'アクティビティ'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉保養所',
+        description: '川湯温泉の高台に位置し、硫黄山のエネルギーを感じながら名湯を心ゆくまで堪能できる、国家公務員共済組合連合会の温泉保養所（旅館）。川湯特有の強酸性硫黄泉を、加温・加水なしの源泉100%掛け流しで楽しみながら、オホーツクの海鮮や道東の山の幸を盛り込んだボリュームたっぷりの和食膳をリーズナブルに味わえる。',
+        price: '朝食付き 6,000円〜',
+        image: './hotels/kkr-kawayu.png',
+        tags: ['源泉100%掛け流し', '強酸性硫黄泉', '展望大浴場'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad301574%2F', rakuten: 'https://a.r10.to/hPnGDK', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00903566%252F' }
+    },
+    {
+        id: 'h-hokkaido-8-4',
+        onsen_id: 'o-hokkaido-8',
+        name: '川湯温泉 HOTEL PARKWAY',
+        prefecture: 'hokkaido',
+        type: '温泉ホテル',
+        description: '川湯温泉駅から徒歩圏内に位置し、摩周・屈斜路観光の拠点として親しまれているアットホームな温泉ホテル。川湯でも希少な「重曹泉（炭酸水素塩泉）」を自家源泉100%掛け流しで堪能できる開放的な庭園露天風呂が自慢で、摩周産そば粉を使った手打ちそばや、地元の味覚が並ぶ手作り料理を心ゆくまで楽しめる。',
+        price: '2食付き 6,000円〜',
+        image: './hotels/hotel-parkway.png',
+        tags: ['自家源泉掛け流し', 'コスパ', '庭園露天風呂'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad325285%2F', rakuten: 'https://a.r10.to/hkzDnC', ikyu: '#', yahoo: '#' }
     },
 
     // ===== ニセコ温泉郷（北海道）=====
