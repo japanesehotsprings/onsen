@@ -68,7 +68,7 @@ export const hotelList = [
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad324102%2F', rakuten: 'https://a.r10.to/h5CKEk', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030990%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030990%252F' }
     },
 
-        // ===== 定山渓温泉（北海道）=====
+    // ===== 定山渓温泉（北海道）=====
     {
         id: 'h-hokkaido-3-1',
         onsen_id: 'o-hokkaido-3',
@@ -93,7 +93,7 @@ export const hotelList = [
         tags: ['温泉リゾート', '露天風呂', 'サウナ', '寝湯'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad352535%2F', rakuten: 'https://a.r10.to/h5seya', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001659%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001659%252F' }
     },
-        {
+    {
         id: 'h-hokkaido-3-3',
         onsen_id: 'o-hokkaido-3',
         name: '奥定山渓温泉 佳松御苑',
@@ -106,7 +106,7 @@ export const hotelList = [
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad327601%2F', rakuten: 'https://a.r10.to/h5Jkno', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002589%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002589%252F' }
     },
 
-         // ===== 阿寒湖温泉（北海道）=====
+    // ===== 阿寒湖温泉（北海道）=====
     {
         id: 'h-hokkaido-4-1',
         onsen_id: 'o-hokkaido-4',
@@ -131,7 +131,7 @@ export const hotelList = [
         tags: ['温泉リゾート', '露天風呂', 'アイヌ', 'ビュッフェ'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad332582%2F', rakuten: 'https://a.r10.to/hXQb4J', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000872%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000872%252F' }
     },
-        {
+    {
         id: 'h-hokkaido-4-3',
         onsen_id: 'o-hokkaido-4',
         name: 'あかん鶴雅別荘鄙の座',
@@ -144,7 +144,7 @@ export const hotelList = [
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad334472%2F', rakuten: 'https://a.r10.to/hkQXOl', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000900%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000900%252F' }
     },
 
-      // ===== 層雲峡温泉（北海道）=====
+    // ===== 層雲峡温泉（北海道）=====
     {
         id: 'h-hokkaido-5-1',
         onsen_id: 'o-hokkaido-5',
@@ -354,6 +354,1640 @@ export const hotelList = [
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad367212%2F', rakuten: 'https://a.r10.to/h5T067', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002593%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002593%252F' }
     },
 
+    // ===== 川湯温泉（北海道）=====
+    {
+        id: 'h-hokkaido-8-1',
+        onsen_id: 'o-hokkaido-8',
+        name: '川湯温泉観光ホテル',
+        prefecture: 'hokkaido',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、川湯温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-hokkaido-8-2',
+        onsen_id: 'o-hokkaido-8',
+        name: '川湯温泉旅館 碧水苑',
+        prefecture: 'hokkaido',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。川湯温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-hokkaido-8-3',
+        onsen_id: 'o-hokkaido-8',
+        name: '川湯温泉スパリゾート',
+        prefecture: 'hokkaido',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。川湯温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== ニセコ温泉郷（北海道）=====
+    {
+        id: 'h-hokkaido-9-1',
+        onsen_id: 'o-hokkaido-9',
+        name: 'ニセコ温泉郷観光ホテル',
+        prefecture: 'hokkaido',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、ニセコ温泉郷を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-hokkaido-9-2',
+        onsen_id: 'o-hokkaido-9',
+        name: 'ニセコ温泉郷旅館 碧水苑',
+        prefecture: 'hokkaido',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。ニセコ温泉郷の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-hokkaido-9-3',
+        onsen_id: 'o-hokkaido-9',
+        name: 'ニセコ温泉郷スパリゾート',
+        prefecture: 'hokkaido',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。ニセコ温泉郷の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 酸ヶ湯温泉（青森）=====
+    {
+        id: 'h-aomori-1-1',
+        onsen_id: 'o-aomori-1',
+        name: '酸ヶ湯温泉観光ホテル',
+        prefecture: 'aomori',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、酸ヶ湯温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-aomori-1-2',
+        onsen_id: 'o-aomori-1',
+        name: '酸ヶ湯温泉旅館 碧水苑',
+        prefecture: 'aomori',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。酸ヶ湯温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-aomori-1-3',
+        onsen_id: 'o-aomori-1',
+        name: '酸ヶ湯温泉スパリゾート',
+        prefecture: 'aomori',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。酸ヶ湯温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 浅虫温泉（青森）=====
+    {
+        id: 'h-aomori-2-1',
+        onsen_id: 'o-aomori-2',
+        name: '浅虫温泉観光ホテル',
+        prefecture: 'aomori',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、浅虫温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-aomori-2-2',
+        onsen_id: 'o-aomori-2',
+        name: '浅虫温泉旅館 碧水苑',
+        prefecture: 'aomori',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。浅虫温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-aomori-2-3',
+        onsen_id: 'o-aomori-2',
+        name: '浅虫温泉スパリゾート',
+        prefecture: 'aomori',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。浅虫温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 大鰐温泉（青森）=====
+    {
+        id: 'h-aomori-3-1',
+        onsen_id: 'o-aomori-3',
+        name: '大鰐温泉観光ホテル',
+        prefecture: 'aomori',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、大鰐温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-aomori-3-2',
+        onsen_id: 'o-aomori-3',
+        name: '大鰐温泉旅館 碧水苑',
+        prefecture: 'aomori',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。大鰐温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-aomori-3-3',
+        onsen_id: 'o-aomori-3',
+        name: '大鰐温泉スパリゾート',
+        prefecture: 'aomori',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。大鰐温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 不老ふ死温泉（青森）=====
+    {
+        id: 'h-aomori-4-1',
+        onsen_id: 'o-aomori-4',
+        name: '不老ふ死温泉観光ホテル',
+        prefecture: 'aomori',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、不老ふ死温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-aomori-4-2',
+        onsen_id: 'o-aomori-4',
+        name: '不老ふ死温泉旅館 碧水苑',
+        prefecture: 'aomori',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。不老ふ死温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-aomori-4-3',
+        onsen_id: 'o-aomori-4',
+        name: '不老ふ死温泉スパリゾート',
+        prefecture: 'aomori',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。不老ふ死温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 嶽温泉（青森）=====
+    {
+        id: 'h-aomori-5-1',
+        onsen_id: 'o-aomori-5',
+        name: '嶽温泉観光ホテル',
+        prefecture: 'aomori',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、嶽温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-aomori-5-2',
+        onsen_id: 'o-aomori-5',
+        name: '嶽温泉旅館 碧水苑',
+        prefecture: 'aomori',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。嶽温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-aomori-5-3',
+        onsen_id: 'o-aomori-5',
+        name: '嶽温泉スパリゾート',
+        prefecture: 'aomori',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。嶽温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 花巻温泉郷（岩手）=====
+    {
+        id: 'h-iwate-1-1',
+        onsen_id: 'o-iwate-1',
+        name: '花巻温泉郷観光ホテル',
+        prefecture: 'iwate',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、花巻温泉郷を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-iwate-1-2',
+        onsen_id: 'o-iwate-1',
+        name: '花巻温泉郷旅館 碧水苑',
+        prefecture: 'iwate',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。花巻温泉郷の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-iwate-1-3',
+        onsen_id: 'o-iwate-1',
+        name: '花巻温泉郷スパリゾート',
+        prefecture: 'iwate',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。花巻温泉郷の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 松川温泉（岩手）=====
+    {
+        id: 'h-iwate-2-1',
+        onsen_id: 'o-iwate-2',
+        name: '松川温泉観光ホテル',
+        prefecture: 'iwate',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、松川温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-iwate-2-2',
+        onsen_id: 'o-iwate-2',
+        name: '松川温泉旅館 碧水苑',
+        prefecture: 'iwate',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。松川温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-iwate-2-3',
+        onsen_id: 'o-iwate-2',
+        name: '松川温泉スパリゾート',
+        prefecture: 'iwate',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。松川温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== つなぎ温泉（岩手）=====
+    {
+        id: 'h-iwate-3-1',
+        onsen_id: 'o-iwate-3',
+        name: 'つなぎ温泉観光ホテル',
+        prefecture: 'iwate',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、つなぎ温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-iwate-3-2',
+        onsen_id: 'o-iwate-3',
+        name: 'つなぎ温泉旅館 碧水苑',
+        prefecture: 'iwate',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。つなぎ温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-iwate-3-3',
+        onsen_id: 'o-iwate-3',
+        name: 'つなぎ温泉スパリゾート',
+        prefecture: 'iwate',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。つなぎ温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 夏油温泉（岩手）=====
+    {
+        id: 'h-iwate-4-1',
+        onsen_id: 'o-iwate-4',
+        name: '夏油温泉観光ホテル',
+        prefecture: 'iwate',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、夏油温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-iwate-4-2',
+        onsen_id: 'o-iwate-4',
+        name: '夏油温泉旅館 碧水苑',
+        prefecture: 'iwate',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。夏油温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-iwate-4-3',
+        onsen_id: 'o-iwate-4',
+        name: '夏油温泉スパリゾート',
+        prefecture: 'iwate',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。夏油温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 八幡平温泉郷（岩手）=====
+    {
+        id: 'h-iwate-5-1',
+        onsen_id: 'o-iwate-5',
+        name: '八幡平温泉郷観光ホテル',
+        prefecture: 'iwate',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、八幡平温泉郷を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-iwate-5-2',
+        onsen_id: 'o-iwate-5',
+        name: '八幡平温泉郷旅館 碧水苑',
+        prefecture: 'iwate',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。八幡平温泉郷の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-iwate-5-3',
+        onsen_id: 'o-iwate-5',
+        name: '八幡平温泉郷スパリゾート',
+        prefecture: 'iwate',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。八幡平温泉郷の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 鳴子温泉郷（宮城）=====
+    {
+        id: 'h-miyagi-1-1',
+        onsen_id: 'o-miyagi-1',
+        name: '鳴子温泉郷観光ホテル',
+        prefecture: 'miyagi',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、鳴子温泉郷を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-miyagi-1-2',
+        onsen_id: 'o-miyagi-1',
+        name: '鳴子温泉郷旅館 碧水苑',
+        prefecture: 'miyagi',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。鳴子温泉郷の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-miyagi-1-3',
+        onsen_id: 'o-miyagi-1',
+        name: '鳴子温泉郷スパリゾート',
+        prefecture: 'miyagi',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。鳴子温泉郷の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 作並温泉（宮城）=====
+    {
+        id: 'h-miyagi-2-1',
+        onsen_id: 'o-miyagi-2',
+        name: '作並温泉観光ホテル',
+        prefecture: 'miyagi',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、作並温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-miyagi-2-2',
+        onsen_id: 'o-miyagi-2',
+        name: '作並温泉旅館 碧水苑',
+        prefecture: 'miyagi',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。作並温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-miyagi-2-3',
+        onsen_id: 'o-miyagi-2',
+        name: '作並温泉スパリゾート',
+        prefecture: 'miyagi',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。作並温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 秋保温泉（宮城）=====
+    {
+        id: 'h-miyagi-3-1',
+        onsen_id: 'o-miyagi-3',
+        name: '秋保温泉観光ホテル',
+        prefecture: 'miyagi',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、秋保温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-miyagi-3-2',
+        onsen_id: 'o-miyagi-3',
+        name: '秋保温泉旅館 碧水苑',
+        prefecture: 'miyagi',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。秋保温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-miyagi-3-3',
+        onsen_id: 'o-miyagi-3',
+        name: '秋保温泉スパリゾート',
+        prefecture: 'miyagi',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。秋保温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 松島温泉（宮城）=====
+    {
+        id: 'h-miyagi-4-1',
+        onsen_id: 'o-miyagi-4',
+        name: '松島温泉観光ホテル',
+        prefecture: 'miyagi',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、松島温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-miyagi-4-2',
+        onsen_id: 'o-miyagi-4',
+        name: '松島温泉旅館 碧水苑',
+        prefecture: 'miyagi',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。松島温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-miyagi-4-3',
+        onsen_id: 'o-miyagi-4',
+        name: '松島温泉スパリゾート',
+        prefecture: 'miyagi',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。松島温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 遠刈田温泉（宮城）=====
+    {
+        id: 'h-miyagi-5-1',
+        onsen_id: 'o-miyagi-5',
+        name: '遠刈田温泉観光ホテル',
+        prefecture: 'miyagi',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、遠刈田温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-miyagi-5-2',
+        onsen_id: 'o-miyagi-5',
+        name: '遠刈田温泉旅館 碧水苑',
+        prefecture: 'miyagi',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。遠刈田温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-miyagi-5-3',
+        onsen_id: 'o-miyagi-5',
+        name: '遠刈田温泉スパリゾート',
+        prefecture: 'miyagi',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。遠刈田温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 乳頭温泉郷（秋田）=====
+    {
+        id: 'h-akita-1-1',
+        onsen_id: 'o-akita-1',
+        name: '鶴の湯別館 山の宿',
+        prefecture: 'akita',
+        type: '秘湯の一軒宿',
+        description: '乳頭温泉郷で最古の宿。江戸時代の茅葺き屋根の本陣と混浴の野天風呂が有名。白濁した乳頭の湯が絶品。全国の秘湯マニアが訪れる聖地。',
+        price: '2食付き 16,000円〜',
+        image: './hotels/tsurunoyuonsen.png',
+        tags: ['日本屈指の秘湯', '茅葺き本陣', '混浴野天風呂', '白濁湯'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad330512%2F', rakuten: 'https://a.r10.to/hP1jAQ', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-akita-1-2',
+        onsen_id: 'o-akita-1',
+        name: '妙乃湯',
+        prefecture: 'akita',
+        type: '温泉旅館',
+        description: '乳頭川沿いの情緒ある宿。「金の湯・銀の湯」と呼ばれる2種の自家源泉を持ち、川のせせらぎが聞こえる露天風呂が人気。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/taenoyu.png',
+        tags: ['2種の源泉', '川沿い露天', '秘湯'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001101%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001101%252F' }
+    },
+    {
+        id: 'h-akita-1-3',
+        onsen_id: 'o-akita-1',
+        name: '休暇村 乳頭温泉郷',
+        prefecture: 'akita',
+        type: '国立公園の宿',
+        description: 'ブナの原生林に抱かれた静かな宿。希少な2種類の源泉を一度に堪能でき、乳白色の露天風呂で四季折々の自然と秘湯の情緒に浸れる。',
+        price: '2食付き 18,000円〜',
+        image: './hotels/kyukamura.png',
+        tags: ['国立公園', '2種の源泉', '乳白色の露天風呂'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad322452%2F"', rakuten: 'https://a.r10.to/h5ibyZ', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00900792%252F' }
+    },
+
+    // ===== 玉川温泉（秋田）=====
+    {
+        id: 'h-akita-2-1',
+        onsen_id: 'o-akita-2',
+        name: '玉川温泉観光ホテル',
+        prefecture: 'akita',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、玉川温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-akita-2-2',
+        onsen_id: 'o-akita-2',
+        name: '玉川温泉旅館 碧水苑',
+        prefecture: 'akita',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。玉川温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-akita-2-3',
+        onsen_id: 'o-akita-2',
+        name: '玉川温泉スパリゾート',
+        prefecture: 'akita',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。玉川温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 男鹿温泉郷（秋田）=====
+    {
+        id: 'h-akita-3-1',
+        onsen_id: 'o-akita-3',
+        name: '男鹿温泉郷観光ホテル',
+        prefecture: 'akita',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、男鹿温泉郷を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-akita-3-2',
+        onsen_id: 'o-akita-3',
+        name: '男鹿温泉郷旅館 碧水苑',
+        prefecture: 'akita',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。男鹿温泉郷の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-akita-3-3',
+        onsen_id: 'o-akita-3',
+        name: '男鹿温泉郷スパリゾート',
+        prefecture: 'akita',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。男鹿温泉郷の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 大湯温泉（秋田）=====
+    {
+        id: 'h-akita-4-1',
+        onsen_id: 'o-akita-4',
+        name: '大湯温泉観光ホテル',
+        prefecture: 'akita',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、大湯温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-akita-4-2',
+        onsen_id: 'o-akita-4',
+        name: '大湯温泉旅館 碧水苑',
+        prefecture: 'akita',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。大湯温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-akita-4-3',
+        onsen_id: 'o-akita-4',
+        name: '大湯温泉スパリゾート',
+        prefecture: 'akita',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。大湯温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 田沢湖高原温泉郷（秋田）=====
+    {
+        id: 'h-akita-5-1',
+        onsen_id: 'o-akita-5',
+        name: '田沢湖高原温泉郷観光ホテル',
+        prefecture: 'akita',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、田沢湖高原温泉郷を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-akita-5-2',
+        onsen_id: 'o-akita-5',
+        name: '田沢湖高原温泉郷旅館 碧水苑',
+        prefecture: 'akita',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。田沢湖高原温泉郷の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-akita-5-3',
+        onsen_id: 'o-akita-5',
+        name: '田沢湖高原温泉郷スパリゾート',
+        prefecture: 'akita',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。田沢湖高原温泉郷の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 銀山温泉（山形）=====
+    {
+        id: 'h-yamagata-1-1',
+        onsen_id: 'o-yamagata-1',
+        name: '旅館藤屋',
+        prefecture: 'yamagata',
+        type: '大正ロマン旅館',
+        description: '銀山温泉の街並みに溶け込む隈研吾設計のモダンな宿。趣の異なる5つの貸切風呂で、洗練された空間と名湯をプライベートに堪能できる。',
+        price: '2食付き 51,000円〜',
+        image: './hotels/ginzanonsenfujiya.png',
+        tags: ['モダン建築', '大正ロマン', '銀山川沿い'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad311571%2F', rakuten: 'https://a.r10.to/hFtbfL', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001357%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001357%252F' }
+    },
+    {
+        id: 'h-yamagata-1-2',
+        onsen_id: 'o-yamagata-1',
+        name: '古山閣',
+        prefecture: 'yamagata',
+        type: '温泉旅館',
+        description: '銀山温泉街の中心にある老舗旅館。和室と洋室を組み合わせた多彩な客室と、銀山温泉の名湯を堪能できる。',
+        price: '2食付き 28,000円〜',
+        image: './hotels/ginzanonsenfuruyukaku.png',
+        tags: ['老舗', '多彩な客室', '温泉街中心'],
+        bookingUrls: { jalan: '#', rakuten: 'https://a.r10.to/hky5nS', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamagata-1-3',
+        onsen_id: 'o-yamagata-1',
+        name: '銀山荘',
+        prefecture: 'yamagata',
+        type: '温泉旅館',
+        description: '銀山温泉の上部に位置する静かな旅館。絶景の露天風呂と山形の郷土料理が人気。冬の雪景色の中の温泉体験が忘れられない思い出に。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/ginzansou.png',
+        tags: ['静かな立地', '雪見露天', '郷土料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad314994%2F', rakuten: 'https://a.r10.to/hP9Ohi', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002061%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002061%252F' }
+    },
+
+    // ===== 蔵王温泉（山形）=====
+    {
+        id: 'h-yamagata-2-1',
+        onsen_id: 'o-yamagata-2',
+        name: '蔵王温泉観光ホテル',
+        prefecture: 'yamagata',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、蔵王温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamagata-2-2',
+        onsen_id: 'o-yamagata-2',
+        name: '蔵王温泉旅館 碧水苑',
+        prefecture: 'yamagata',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。蔵王温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamagata-2-3',
+        onsen_id: 'o-yamagata-2',
+        name: '蔵王温泉スパリゾート',
+        prefecture: 'yamagata',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。蔵王温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== かみのやま温泉（山形）=====
+    {
+        id: 'h-yamagata-3-1',
+        onsen_id: 'o-yamagata-3',
+        name: 'かみのやま温泉観光ホテル',
+        prefecture: 'yamagata',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、かみのやま温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamagata-3-2',
+        onsen_id: 'o-yamagata-3',
+        name: 'かみのやま温泉旅館 碧水苑',
+        prefecture: 'yamagata',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。かみのやま温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamagata-3-3',
+        onsen_id: 'o-yamagata-3',
+        name: 'かみのやま温泉スパリゾート',
+        prefecture: 'yamagata',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。かみのやま温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 天童温泉（山形）=====
+    {
+        id: 'h-yamagata-4-1',
+        onsen_id: 'o-yamagata-4',
+        name: '天童温泉観光ホテル',
+        prefecture: 'yamagata',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、天童温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamagata-4-2',
+        onsen_id: 'o-yamagata-4',
+        name: '天童温泉旅館 碧水苑',
+        prefecture: 'yamagata',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。天童温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamagata-4-3',
+        onsen_id: 'o-yamagata-4',
+        name: '天童温泉スパリゾート',
+        prefecture: 'yamagata',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。天童温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 赤湯温泉（山形）=====
+    {
+        id: 'h-yamagata-5-1',
+        onsen_id: 'o-yamagata-5',
+        name: '赤湯温泉観光ホテル',
+        prefecture: 'yamagata',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、赤湯温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamagata-5-2',
+        onsen_id: 'o-yamagata-5',
+        name: '赤湯温泉旅館 碧水苑',
+        prefecture: 'yamagata',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。赤湯温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamagata-5-3',
+        onsen_id: 'o-yamagata-5',
+        name: '赤湯温泉スパリゾート',
+        prefecture: 'yamagata',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。赤湯温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== あつみ温泉（山形）=====
+    {
+        id: 'h-yamagata-6-1',
+        onsen_id: 'o-yamagata-6',
+        name: 'あつみ温泉観光ホテル',
+        prefecture: 'yamagata',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、あつみ温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamagata-6-2',
+        onsen_id: 'o-yamagata-6',
+        name: 'あつみ温泉旅館 碧水苑',
+        prefecture: 'yamagata',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。あつみ温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamagata-6-3',
+        onsen_id: 'o-yamagata-6',
+        name: 'あつみ温泉スパリゾート',
+        prefecture: 'yamagata',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。あつみ温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 東山温泉（福島）=====
+    {
+        id: 'h-fukushima-1-1',
+        onsen_id: 'o-fukushima-1',
+        name: '東山温泉観光ホテル',
+        prefecture: 'fukushima',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、東山温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukushima-1-2',
+        onsen_id: 'o-fukushima-1',
+        name: '東山温泉旅館 碧水苑',
+        prefecture: 'fukushima',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。東山温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukushima-1-3',
+        onsen_id: 'o-fukushima-1',
+        name: '東山温泉スパリゾート',
+        prefecture: 'fukushima',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。東山温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 磐梯熱海温泉（福島）=====
+    {
+        id: 'h-fukushima-2-1',
+        onsen_id: 'o-fukushima-2',
+        name: '磐梯熱海温泉観光ホテル',
+        prefecture: 'fukushima',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、磐梯熱海温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukushima-2-2',
+        onsen_id: 'o-fukushima-2',
+        name: '磐梯熱海温泉旅館 碧水苑',
+        prefecture: 'fukushima',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。磐梯熱海温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukushima-2-3',
+        onsen_id: 'o-fukushima-2',
+        name: '磐梯熱海温泉スパリゾート',
+        prefecture: 'fukushima',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。磐梯熱海温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 飯坂温泉（福島）=====
+    {
+        id: 'h-fukushima-3-1',
+        onsen_id: 'o-fukushima-3',
+        name: '飯坂温泉観光ホテル',
+        prefecture: 'fukushima',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、飯坂温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukushima-3-2',
+        onsen_id: 'o-fukushima-3',
+        name: '飯坂温泉旅館 碧水苑',
+        prefecture: 'fukushima',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。飯坂温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukushima-3-3',
+        onsen_id: 'o-fukushima-3',
+        name: '飯坂温泉スパリゾート',
+        prefecture: 'fukushima',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。飯坂温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 土湯温泉（福島）=====
+    {
+        id: 'h-fukushima-4-1',
+        onsen_id: 'o-fukushima-4',
+        name: '土湯温泉観光ホテル',
+        prefecture: 'fukushima',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、土湯温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukushima-4-2',
+        onsen_id: 'o-fukushima-4',
+        name: '土湯温泉旅館 碧水苑',
+        prefecture: 'fukushima',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。土湯温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukushima-4-3',
+        onsen_id: 'o-fukushima-4',
+        name: '土湯温泉スパリゾート',
+        prefecture: 'fukushima',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。土湯温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 芦ノ牧温泉（福島）=====
+    {
+        id: 'h-fukushima-5-1',
+        onsen_id: 'o-fukushima-5',
+        name: '芦ノ牧温泉観光ホテル',
+        prefecture: 'fukushima',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、芦ノ牧温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukushima-5-2',
+        onsen_id: 'o-fukushima-5',
+        name: '芦ノ牧温泉旅館 碧水苑',
+        prefecture: 'fukushima',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。芦ノ牧温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukushima-5-3',
+        onsen_id: 'o-fukushima-5',
+        name: '芦ノ牧温泉スパリゾート',
+        prefecture: 'fukushima',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。芦ノ牧温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 高湯温泉（福島）=====
+    {
+        id: 'h-fukushima-6-1',
+        onsen_id: 'o-fukushima-6',
+        name: '高湯温泉観光ホテル',
+        prefecture: 'fukushima',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、高湯温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukushima-6-2',
+        onsen_id: 'o-fukushima-6',
+        name: '高湯温泉旅館 碧水苑',
+        prefecture: 'fukushima',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。高湯温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukushima-6-3',
+        onsen_id: 'o-fukushima-6',
+        name: '高湯温泉スパリゾート',
+        prefecture: 'fukushima',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。高湯温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 袋田温泉（茨城）=====
+    {
+        id: 'h-ibaraki-1-1',
+        onsen_id: 'o-ibaraki-1',
+        name: '袋田温泉観光ホテル',
+        prefecture: 'ibaraki',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、袋田温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-ibaraki-1-2',
+        onsen_id: 'o-ibaraki-1',
+        name: '袋田温泉旅館 碧水苑',
+        prefecture: 'ibaraki',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。袋田温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-ibaraki-1-3',
+        onsen_id: 'o-ibaraki-1',
+        name: '袋田温泉スパリゾート',
+        prefecture: 'ibaraki',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。袋田温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 五浦温泉（茨城）=====
+    {
+        id: 'h-ibaraki-2-1',
+        onsen_id: 'o-ibaraki-2',
+        name: '五浦温泉観光ホテル',
+        prefecture: 'ibaraki',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、五浦温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-ibaraki-2-2',
+        onsen_id: 'o-ibaraki-2',
+        name: '五浦温泉旅館 碧水苑',
+        prefecture: 'ibaraki',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。五浦温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-ibaraki-2-3',
+        onsen_id: 'o-ibaraki-2',
+        name: '五浦温泉スパリゾート',
+        prefecture: 'ibaraki',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。五浦温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 大子温泉（茨城）=====
+    {
+        id: 'h-ibaraki-3-1',
+        onsen_id: 'o-ibaraki-3',
+        name: '大子温泉観光ホテル',
+        prefecture: 'ibaraki',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、大子温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-ibaraki-3-2',
+        onsen_id: 'o-ibaraki-3',
+        name: '大子温泉旅館 碧水苑',
+        prefecture: 'ibaraki',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。大子温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-ibaraki-3-3',
+        onsen_id: 'o-ibaraki-3',
+        name: '大子温泉スパリゾート',
+        prefecture: 'ibaraki',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。大子温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 筑波山温泉（茨城）=====
+    {
+        id: 'h-ibaraki-4-1',
+        onsen_id: 'o-ibaraki-4',
+        name: '筑波山温泉観光ホテル',
+        prefecture: 'ibaraki',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、筑波山温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-ibaraki-4-2',
+        onsen_id: 'o-ibaraki-4',
+        name: '筑波山温泉旅館 碧水苑',
+        prefecture: 'ibaraki',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。筑波山温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-ibaraki-4-3',
+        onsen_id: 'o-ibaraki-4',
+        name: '筑波山温泉スパリゾート',
+        prefecture: 'ibaraki',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。筑波山温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 那須温泉郷（栃木）=====
+    {
+        id: 'h-tochigi-1-1',
+        onsen_id: 'o-tochigi-1',
+        name: '那須温泉郷観光ホテル',
+        prefecture: 'tochigi',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、那須温泉郷を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tochigi-1-2',
+        onsen_id: 'o-tochigi-1',
+        name: '那須温泉郷旅館 碧水苑',
+        prefecture: 'tochigi',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。那須温泉郷の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tochigi-1-3',
+        onsen_id: 'o-tochigi-1',
+        name: '那須温泉郷スパリゾート',
+        prefecture: 'tochigi',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。那須温泉郷の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 日光湯元温泉（栃木）=====
+    {
+        id: 'h-tochigi-2-1',
+        onsen_id: 'o-tochigi-2',
+        name: '日光湯元温泉観光ホテル',
+        prefecture: 'tochigi',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、日光湯元温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tochigi-2-2',
+        onsen_id: 'o-tochigi-2',
+        name: '日光湯元温泉旅館 碧水苑',
+        prefecture: 'tochigi',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。日光湯元温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tochigi-2-3',
+        onsen_id: 'o-tochigi-2',
+        name: '日光湯元温泉スパリゾート',
+        prefecture: 'tochigi',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。日光湯元温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 鬼怒川温泉（栃木）=====
+    {
+        id: 'h-tochigi-3-1',
+        onsen_id: 'o-tochigi-3',
+        name: '鬼怒川温泉観光ホテル',
+        prefecture: 'tochigi',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、鬼怒川温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tochigi-3-2',
+        onsen_id: 'o-tochigi-3',
+        name: '鬼怒川温泉旅館 碧水苑',
+        prefecture: 'tochigi',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。鬼怒川温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tochigi-3-3',
+        onsen_id: 'o-tochigi-3',
+        name: '鬼怒川温泉スパリゾート',
+        prefecture: 'tochigi',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。鬼怒川温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 塩原温泉郷（栃木）=====
+    {
+        id: 'h-tochigi-4-1',
+        onsen_id: 'o-tochigi-4',
+        name: '塩原温泉郷観光ホテル',
+        prefecture: 'tochigi',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、塩原温泉郷を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tochigi-4-2',
+        onsen_id: 'o-tochigi-4',
+        name: '塩原温泉郷旅館 碧水苑',
+        prefecture: 'tochigi',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。塩原温泉郷の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tochigi-4-3',
+        onsen_id: 'o-tochigi-4',
+        name: '塩原温泉郷スパリゾート',
+        prefecture: 'tochigi',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。塩原温泉郷の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 湯西川温泉（栃木）=====
+    {
+        id: 'h-tochigi-5-1',
+        onsen_id: 'o-tochigi-5',
+        name: '湯西川温泉観光ホテル',
+        prefecture: 'tochigi',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、湯西川温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tochigi-5-2',
+        onsen_id: 'o-tochigi-5',
+        name: '湯西川温泉旅館 碧水苑',
+        prefecture: 'tochigi',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。湯西川温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tochigi-5-3',
+        onsen_id: 'o-tochigi-5',
+        name: '湯西川温泉スパリゾート',
+        prefecture: 'tochigi',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。湯西川温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
     // ===== 草津温泉（群馬）=====
     {
         id: 'h-gunma-1-1',
@@ -430,6 +2064,538 @@ export const hotelList = [
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad324552%2F', rakuten: 'https://a.r10.to/h52Z9q', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030812%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030812%252F' }
     },
 
+    // ===== 万座温泉（群馬）=====
+    {
+        id: 'h-gunma-3-1',
+        onsen_id: 'o-gunma-3',
+        name: '万座温泉観光ホテル',
+        prefecture: 'gunma',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、万座温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-gunma-3-2',
+        onsen_id: 'o-gunma-3',
+        name: '万座温泉旅館 碧水苑',
+        prefecture: 'gunma',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。万座温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-gunma-3-3',
+        onsen_id: 'o-gunma-3',
+        name: '万座温泉スパリゾート',
+        prefecture: 'gunma',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。万座温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 四万温泉（群馬）=====
+    {
+        id: 'h-gunma-4-1',
+        onsen_id: 'o-gunma-4',
+        name: '四万温泉観光ホテル',
+        prefecture: 'gunma',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、四万温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-gunma-4-2',
+        onsen_id: 'o-gunma-4',
+        name: '四万温泉旅館 碧水苑',
+        prefecture: 'gunma',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。四万温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-gunma-4-3',
+        onsen_id: 'o-gunma-4',
+        name: '四万温泉スパリゾート',
+        prefecture: 'gunma',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。四万温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== みなかみ温泉郷（群馬）=====
+    {
+        id: 'h-gunma-5-1',
+        onsen_id: 'o-gunma-5',
+        name: 'みなかみ温泉郷観光ホテル',
+        prefecture: 'gunma',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、みなかみ温泉郷を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-gunma-5-2',
+        onsen_id: 'o-gunma-5',
+        name: 'みなかみ温泉郷旅館 碧水苑',
+        prefecture: 'gunma',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。みなかみ温泉郷の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-gunma-5-3',
+        onsen_id: 'o-gunma-5',
+        name: 'みなかみ温泉郷スパリゾート',
+        prefecture: 'gunma',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。みなかみ温泉郷の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 老神温泉（群馬）=====
+    {
+        id: 'h-gunma-6-1',
+        onsen_id: 'o-gunma-6',
+        name: '老神温泉観光ホテル',
+        prefecture: 'gunma',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、老神温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-gunma-6-2',
+        onsen_id: 'o-gunma-6',
+        name: '老神温泉旅館 碧水苑',
+        prefecture: 'gunma',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。老神温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-gunma-6-3',
+        onsen_id: 'o-gunma-6',
+        name: '老神温泉スパリゾート',
+        prefecture: 'gunma',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。老神温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 寄居温泉（埼玉）=====
+    {
+        id: 'h-saitama-1-1',
+        onsen_id: 'o-saitama-1',
+        name: '寄居温泉観光ホテル',
+        prefecture: 'saitama',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、寄居温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-saitama-1-2',
+        onsen_id: 'o-saitama-1',
+        name: '寄居温泉旅館 碧水苑',
+        prefecture: 'saitama',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。寄居温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-saitama-1-3',
+        onsen_id: 'o-saitama-1',
+        name: '寄居温泉スパリゾート',
+        prefecture: 'saitama',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。寄居温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 秩父温泉（埼玉）=====
+    {
+        id: 'h-saitama-2-1',
+        onsen_id: 'o-saitama-2',
+        name: '秩父温泉観光ホテル',
+        prefecture: 'saitama',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、秩父温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-saitama-2-2',
+        onsen_id: 'o-saitama-2',
+        name: '秩父温泉旅館 碧水苑',
+        prefecture: 'saitama',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。秩父温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-saitama-2-3',
+        onsen_id: 'o-saitama-2',
+        name: '秩父温泉スパリゾート',
+        prefecture: 'saitama',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。秩父温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 長瀞温泉（埼玉）=====
+    {
+        id: 'h-saitama-3-1',
+        onsen_id: 'o-saitama-3',
+        name: '長瀞温泉観光ホテル',
+        prefecture: 'saitama',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、長瀞温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-saitama-3-2',
+        onsen_id: 'o-saitama-3',
+        name: '長瀞温泉旅館 碧水苑',
+        prefecture: 'saitama',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。長瀞温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-saitama-3-3',
+        onsen_id: 'o-saitama-3',
+        name: '長瀞温泉スパリゾート',
+        prefecture: 'saitama',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。長瀞温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 犬吠埼温泉（千葉）=====
+    {
+        id: 'h-chiba-1-1',
+        onsen_id: 'o-chiba-1',
+        name: '犬吠埼温泉観光ホテル',
+        prefecture: 'chiba',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、犬吠埼温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-chiba-1-2',
+        onsen_id: 'o-chiba-1',
+        name: '犬吠埼温泉旅館 碧水苑',
+        prefecture: 'chiba',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。犬吠埼温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-chiba-1-3',
+        onsen_id: 'o-chiba-1',
+        name: '犬吠埼温泉スパリゾート',
+        prefecture: 'chiba',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。犬吠埼温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 鴨川温泉（千葉）=====
+    {
+        id: 'h-chiba-2-1',
+        onsen_id: 'o-chiba-2',
+        name: '鴨川温泉観光ホテル',
+        prefecture: 'chiba',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、鴨川温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-chiba-2-2',
+        onsen_id: 'o-chiba-2',
+        name: '鴨川温泉旅館 碧水苑',
+        prefecture: 'chiba',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。鴨川温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-chiba-2-3',
+        onsen_id: 'o-chiba-2',
+        name: '鴨川温泉スパリゾート',
+        prefecture: 'chiba',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。鴨川温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 勝浦温泉（千葉）=====
+    {
+        id: 'h-chiba-3-1',
+        onsen_id: 'o-chiba-3',
+        name: '勝浦温泉観光ホテル',
+        prefecture: 'chiba',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、勝浦温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-chiba-3-2',
+        onsen_id: 'o-chiba-3',
+        name: '勝浦温泉旅館 碧水苑',
+        prefecture: 'chiba',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。勝浦温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-chiba-3-3',
+        onsen_id: 'o-chiba-3',
+        name: '勝浦温泉スパリゾート',
+        prefecture: 'chiba',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。勝浦温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 館山温泉（千葉）=====
+    {
+        id: 'h-chiba-4-1',
+        onsen_id: 'o-chiba-4',
+        name: '館山温泉観光ホテル',
+        prefecture: 'chiba',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、館山温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-chiba-4-2',
+        onsen_id: 'o-chiba-4',
+        name: '館山温泉旅館 碧水苑',
+        prefecture: 'chiba',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。館山温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-chiba-4-3',
+        onsen_id: 'o-chiba-4',
+        name: '館山温泉スパリゾート',
+        prefecture: 'chiba',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。館山温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 奥多摩温泉（東京）=====
+    {
+        id: 'h-tokyo-1-1',
+        onsen_id: 'o-tokyo-1',
+        name: '奥多摩温泉観光ホテル',
+        prefecture: 'tokyo',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、奥多摩温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tokyo-1-2',
+        onsen_id: 'o-tokyo-1',
+        name: '奥多摩温泉旅館 碧水苑',
+        prefecture: 'tokyo',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。奥多摩温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tokyo-1-3',
+        onsen_id: 'o-tokyo-1',
+        name: '奥多摩温泉スパリゾート',
+        prefecture: 'tokyo',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。奥多摩温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 大島温泉（東京）=====
+    {
+        id: 'h-tokyo-2-1',
+        onsen_id: 'o-tokyo-2',
+        name: '大島温泉観光ホテル',
+        prefecture: 'tokyo',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、大島温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tokyo-2-2',
+        onsen_id: 'o-tokyo-2',
+        name: '大島温泉旅館 碧水苑',
+        prefecture: 'tokyo',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。大島温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tokyo-2-3',
+        onsen_id: 'o-tokyo-2',
+        name: '大島温泉スパリゾート',
+        prefecture: 'tokyo',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。大島温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 八丈島温泉（東京）=====
+    {
+        id: 'h-tokyo-3-1',
+        onsen_id: 'o-tokyo-3',
+        name: '八丈島温泉観光ホテル',
+        prefecture: 'tokyo',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、八丈島温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tokyo-3-2',
+        onsen_id: 'o-tokyo-3',
+        name: '八丈島温泉旅館 碧水苑',
+        prefecture: 'tokyo',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。八丈島温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tokyo-3-3',
+        onsen_id: 'o-tokyo-3',
+        name: '八丈島温泉スパリゾート',
+        prefecture: 'tokyo',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。八丈島温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
     // ===== 箱根温泉（神奈川）=====
     {
         id: 'h-kanagawa-1-1',
@@ -480,7 +2646,45 @@ export const hotelList = [
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad322211%2F', rakuten: 'https://a.r10.to/hPsuXZ', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001670%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001670%252F' }
     },
 
-      // ===== 強羅温泉（神奈川）=====
+    // ===== 湯河原温泉（神奈川）=====
+    {
+        id: 'h-kanagawa-2-1',
+        onsen_id: 'o-kanagawa-2',
+        name: '湯河原温泉観光ホテル',
+        prefecture: 'kanagawa',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、湯河原温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kanagawa-2-2',
+        onsen_id: 'o-kanagawa-2',
+        name: '湯河原温泉旅館 碧水苑',
+        prefecture: 'kanagawa',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。湯河原温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kanagawa-2-3',
+        onsen_id: 'o-kanagawa-2',
+        name: '湯河原温泉スパリゾート',
+        prefecture: 'kanagawa',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。湯河原温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 強羅温泉（神奈川）=====
     {
         id: 'h-kanagawa-3-1',
         onsen_id: 'o-kanagawa-3',
@@ -494,80 +2698,194 @@ export const hotelList = [
         bookingUrls: { jalan: '#', rakuten: '#', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001935%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001935%252F' }
     },
 
-    // ===== 乳頭温泉郷（秋田）=====
+    // ===== 鶴巻温泉（神奈川）=====
     {
-        id: 'h-akita-1-1',
-        onsen_id: 'o-akita-1',
-        name: '鶴の湯別館 山の宿',
-        prefecture: 'akita',
-        type: '秘湯の一軒宿',
-        description: '乳頭温泉郷で最古の宿。江戸時代の茅葺き屋根の本陣と混浴の野天風呂が有名。白濁した乳頭の湯が絶品。全国の秘湯マニアが訪れる聖地。',
-        price: '2食付き 16,000円〜',
-        image: './hotels/tsurunoyuonsen.png',
-        tags: ['日本屈指の秘湯', '茅葺き本陣', '混浴野天風呂', '白濁湯'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad330512%2F', rakuten: 'https://a.r10.to/hP1jAQ', ikyu: '#', yahoo: '#' }
+        id: 'h-kanagawa-4-1',
+        onsen_id: 'o-kanagawa-4',
+        name: '鶴巻温泉観光ホテル',
+        prefecture: 'kanagawa',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、鶴巻温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
     },
     {
-        id: 'h-akita-1-2',
-        onsen_id: 'o-akita-1',
-        name: '妙乃湯',
-        prefecture: 'akita',
+        id: 'h-kanagawa-4-2',
+        onsen_id: 'o-kanagawa-4',
+        name: '鶴巻温泉旅館 碧水苑',
+        prefecture: 'kanagawa',
         type: '温泉旅館',
-        description: '乳頭川沿いの情緒ある宿。「金の湯・銀の湯」と呼ばれる2種の自家源泉を持ち、川のせせらぎが聞こえる露天風呂が人気。',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。鶴巻温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
         price: '2食付き 22,000円〜',
-        image: './hotels/taenoyu.png',
-        tags: ['2種の源泉', '川沿い露天', '秘湯'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001101%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001101%252F' }
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
     },
     {
-        id: 'h-akita-1-3',
-        onsen_id: 'o-akita-1',
-        name: '休暇村 乳頭温泉郷',
-        prefecture: 'akita',
-        type: '国立公園の宿',
-        description: 'ブナの原生林に抱かれた静かな宿。希少な2種類の源泉を一度に堪能でき、乳白色の露天風呂で四季折々の自然と秘湯の情緒に浸れる。',
-        price: '2食付き 18,000円〜',
-        image: './hotels/kyukamura.png',
-        tags: ['国立公園', '2種の源泉', '乳白色の露天風呂'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad322452%2F"', rakuten: 'https://a.r10.to/h5ibyZ', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00900792%252F' }
+        id: 'h-kanagawa-4-3',
+        onsen_id: 'o-kanagawa-4',
+        name: '鶴巻温泉スパリゾート',
+        prefecture: 'kanagawa',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。鶴巻温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
     },
 
-    // ===== 銀山温泉（山形）=====
+    // ===== 越後湯沢温泉（新潟）=====
     {
-        id: 'h-yamagata-1-1',
-        onsen_id: 'o-yamagata-1',
-        name: '旅館藤屋',
-        prefecture: 'yamagata',
-        type: '大正ロマン旅館',
-        description: '銀山温泉の街並みに溶け込む隈研吾設計のモダンな宿。趣の異なる5つの貸切風呂で、洗練された空間と名湯をプライベートに堪能できる。',
-        price: '2食付き 51,000円〜',
-        image: './hotels/ginzanonsenfujiya.png',
-        tags: ['モダン建築', '大正ロマン', '銀山川沿い'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad311571%2F', rakuten: 'https://a.r10.to/hFtbfL', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001357%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001357%252F' }
+        id: 'h-niigata-1-1',
+        onsen_id: 'o-niigata-1',
+        name: '越後湯沢温泉観光ホテル',
+        prefecture: 'niigata',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、越後湯沢温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
     },
     {
-        id: 'h-yamagata-1-2',
-        onsen_id: 'o-yamagata-1',
-        name: '古山閣',
-        prefecture: 'yamagata',
+        id: 'h-niigata-1-2',
+        onsen_id: 'o-niigata-1',
+        name: '越後湯沢温泉旅館 碧水苑',
+        prefecture: 'niigata',
         type: '温泉旅館',
-        description: '銀山温泉街の中心にある老舗旅館。和室と洋室を組み合わせた多彩な客室と、銀山温泉の名湯を堪能できる。',
-        price: '2食付き 28,000円〜',
-        image: './hotels/ginzanonsenfuruyukaku.png',
-        tags: ['老舗', '多彩な客室', '温泉街中心'],
-        bookingUrls: { jalan: '#', rakuten: 'https://a.r10.to/hky5nS', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-yamagata-1-3',
-        onsen_id: 'o-yamagata-1',
-        name: '銀山荘',
-        prefecture: 'yamagata',
-        type: '温泉旅館',
-        description: '銀山温泉の上部に位置する静かな旅館。絶景の露天風呂と山形の郷土料理が人気。冬の雪景色の中の温泉体験が忘れられない思い出に。',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。越後湯沢温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
         price: '2食付き 22,000円〜',
-        image: './hotels/ginzansou.png',
-        tags: ['静かな立地', '雪見露天', '郷土料理'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad314994%2F', rakuten: 'https://a.r10.to/hP9Ohi', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002061%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002061%252F' }
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-niigata-1-3',
+        onsen_id: 'o-niigata-1',
+        name: '越後湯沢温泉スパリゾート',
+        prefecture: 'niigata',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。越後湯沢温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 月岡温泉（新潟）=====
+    {
+        id: 'h-niigata-2-1',
+        onsen_id: 'o-niigata-2',
+        name: '月岡温泉観光ホテル',
+        prefecture: 'niigata',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、月岡温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-niigata-2-2',
+        onsen_id: 'o-niigata-2',
+        name: '月岡温泉旅館 碧水苑',
+        prefecture: 'niigata',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。月岡温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-niigata-2-3',
+        onsen_id: 'o-niigata-2',
+        name: '月岡温泉スパリゾート',
+        prefecture: 'niigata',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。月岡温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 瀬波温泉（新潟）=====
+    {
+        id: 'h-niigata-3-1',
+        onsen_id: 'o-niigata-3',
+        name: '瀬波温泉観光ホテル',
+        prefecture: 'niigata',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、瀬波温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-niigata-3-2',
+        onsen_id: 'o-niigata-3',
+        name: '瀬波温泉旅館 碧水苑',
+        prefecture: 'niigata',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。瀬波温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-niigata-3-3',
+        onsen_id: 'o-niigata-3',
+        name: '瀬波温泉スパリゾート',
+        prefecture: 'niigata',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。瀬波温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 岩室温泉（新潟）=====
+    {
+        id: 'h-niigata-4-1',
+        onsen_id: 'o-niigata-4',
+        name: '岩室温泉観光ホテル',
+        prefecture: 'niigata',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、岩室温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-niigata-4-2',
+        onsen_id: 'o-niigata-4',
+        name: '岩室温泉旅館 碧水苑',
+        prefecture: 'niigata',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。岩室温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-niigata-4-3',
+        onsen_id: 'o-niigata-4',
+        name: '岩室温泉スパリゾート',
+        prefecture: 'niigata',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。岩室温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
     },
 
     // ===== 妙高温泉（新潟）=====
@@ -582,6 +2900,1476 @@ export const hotelList = [
         image: './hotels/akakurakankohotel.png',
         tags: ['絶景露天', '雲海', 'クラシックリゾート'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad312850%2F', rakuten: 'https://a.r10.to/hkbVhb', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000547%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000547%252F' }
+    },
+
+    // ===== 宇奈月温泉（富山）=====
+    {
+        id: 'h-toyama-1-1',
+        onsen_id: 'o-toyama-1',
+        name: '宇奈月温泉観光ホテル',
+        prefecture: 'toyama',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、宇奈月温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-toyama-1-2',
+        onsen_id: 'o-toyama-1',
+        name: '宇奈月温泉旅館 碧水苑',
+        prefecture: 'toyama',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。宇奈月温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-toyama-1-3',
+        onsen_id: 'o-toyama-1',
+        name: '宇奈月温泉スパリゾート',
+        prefecture: 'toyama',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。宇奈月温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 庄川温泉郷（富山）=====
+    {
+        id: 'h-toyama-2-1',
+        onsen_id: 'o-toyama-2',
+        name: '庄川温泉郷観光ホテル',
+        prefecture: 'toyama',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、庄川温泉郷を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-toyama-2-2',
+        onsen_id: 'o-toyama-2',
+        name: '庄川温泉郷旅館 碧水苑',
+        prefecture: 'toyama',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。庄川温泉郷の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-toyama-2-3',
+        onsen_id: 'o-toyama-2',
+        name: '庄川温泉郷スパリゾート',
+        prefecture: 'toyama',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。庄川温泉郷の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 氷見温泉郷（富山）=====
+    {
+        id: 'h-toyama-3-1',
+        onsen_id: 'o-toyama-3',
+        name: '氷見温泉郷観光ホテル',
+        prefecture: 'toyama',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、氷見温泉郷を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-toyama-3-2',
+        onsen_id: 'o-toyama-3',
+        name: '氷見温泉郷旅館 碧水苑',
+        prefecture: 'toyama',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。氷見温泉郷の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-toyama-3-3',
+        onsen_id: 'o-toyama-3',
+        name: '氷見温泉郷スパリゾート',
+        prefecture: 'toyama',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。氷見温泉郷の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 山代温泉（石川）=====
+    {
+        id: 'h-ishikawa-1-1',
+        onsen_id: 'o-ishikawa-1',
+        name: '山代温泉観光ホテル',
+        prefecture: 'ishikawa',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、山代温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-ishikawa-1-2',
+        onsen_id: 'o-ishikawa-1',
+        name: '山代温泉旅館 碧水苑',
+        prefecture: 'ishikawa',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。山代温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-ishikawa-1-3',
+        onsen_id: 'o-ishikawa-1',
+        name: '山代温泉スパリゾート',
+        prefecture: 'ishikawa',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。山代温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 和倉温泉（石川）=====
+    {
+        id: 'h-ishikawa-2-1',
+        onsen_id: 'o-ishikawa-2',
+        name: '和倉温泉観光ホテル',
+        prefecture: 'ishikawa',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、和倉温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-ishikawa-2-2',
+        onsen_id: 'o-ishikawa-2',
+        name: '和倉温泉旅館 碧水苑',
+        prefecture: 'ishikawa',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。和倉温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-ishikawa-2-3',
+        onsen_id: 'o-ishikawa-2',
+        name: '和倉温泉スパリゾート',
+        prefecture: 'ishikawa',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。和倉温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 山中温泉（石川）=====
+    {
+        id: 'h-ishikawa-3-1',
+        onsen_id: 'o-ishikawa-3',
+        name: '山中温泉観光ホテル',
+        prefecture: 'ishikawa',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、山中温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-ishikawa-3-2',
+        onsen_id: 'o-ishikawa-3',
+        name: '山中温泉旅館 碧水苑',
+        prefecture: 'ishikawa',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。山中温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-ishikawa-3-3',
+        onsen_id: 'o-ishikawa-3',
+        name: '山中温泉スパリゾート',
+        prefecture: 'ishikawa',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。山中温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 片山津温泉（石川）=====
+    {
+        id: 'h-ishikawa-4-1',
+        onsen_id: 'o-ishikawa-4',
+        name: '片山津温泉観光ホテル',
+        prefecture: 'ishikawa',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、片山津温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-ishikawa-4-2',
+        onsen_id: 'o-ishikawa-4',
+        name: '片山津温泉旅館 碧水苑',
+        prefecture: 'ishikawa',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。片山津温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-ishikawa-4-3',
+        onsen_id: 'o-ishikawa-4',
+        name: '片山津温泉スパリゾート',
+        prefecture: 'ishikawa',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。片山津温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== あわら温泉（福井）=====
+    {
+        id: 'h-fukui-1-1',
+        onsen_id: 'o-fukui-1',
+        name: 'あわら温泉観光ホテル',
+        prefecture: 'fukui',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、あわら温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukui-1-2',
+        onsen_id: 'o-fukui-1',
+        name: 'あわら温泉旅館 碧水苑',
+        prefecture: 'fukui',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。あわら温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukui-1-3',
+        onsen_id: 'o-fukui-1',
+        name: 'あわら温泉スパリゾート',
+        prefecture: 'fukui',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。あわら温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 越前温泉（福井）=====
+    {
+        id: 'h-fukui-2-1',
+        onsen_id: 'o-fukui-2',
+        name: '越前温泉観光ホテル',
+        prefecture: 'fukui',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、越前温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukui-2-2',
+        onsen_id: 'o-fukui-2',
+        name: '越前温泉旅館 碧水苑',
+        prefecture: 'fukui',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。越前温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukui-2-3',
+        onsen_id: 'o-fukui-2',
+        name: '越前温泉スパリゾート',
+        prefecture: 'fukui',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。越前温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 三国温泉（福井）=====
+    {
+        id: 'h-fukui-3-1',
+        onsen_id: 'o-fukui-3',
+        name: '三国温泉観光ホテル',
+        prefecture: 'fukui',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、三国温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukui-3-2',
+        onsen_id: 'o-fukui-3',
+        name: '三国温泉旅館 碧水苑',
+        prefecture: 'fukui',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。三国温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukui-3-3',
+        onsen_id: 'o-fukui-3',
+        name: '三国温泉スパリゾート',
+        prefecture: 'fukui',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。三国温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 石和温泉（山梨）=====
+    {
+        id: 'h-yamanashi-1-1',
+        onsen_id: 'o-yamanashi-1',
+        name: '石和温泉観光ホテル',
+        prefecture: 'yamanashi',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、石和温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamanashi-1-2',
+        onsen_id: 'o-yamanashi-1',
+        name: '石和温泉旅館 碧水苑',
+        prefecture: 'yamanashi',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。石和温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamanashi-1-3',
+        onsen_id: 'o-yamanashi-1',
+        name: '石和温泉スパリゾート',
+        prefecture: 'yamanashi',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。石和温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 下部温泉（山梨）=====
+    {
+        id: 'h-yamanashi-2-1',
+        onsen_id: 'o-yamanashi-2',
+        name: '下部温泉観光ホテル',
+        prefecture: 'yamanashi',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、下部温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamanashi-2-2',
+        onsen_id: 'o-yamanashi-2',
+        name: '下部温泉旅館 碧水苑',
+        prefecture: 'yamanashi',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。下部温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamanashi-2-3',
+        onsen_id: 'o-yamanashi-2',
+        name: '下部温泉スパリゾート',
+        prefecture: 'yamanashi',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。下部温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 西山温泉（山梨）=====
+    {
+        id: 'h-yamanashi-3-1',
+        onsen_id: 'o-yamanashi-3',
+        name: '西山温泉観光ホテル',
+        prefecture: 'yamanashi',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、西山温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamanashi-3-2',
+        onsen_id: 'o-yamanashi-3',
+        name: '西山温泉旅館 碧水苑',
+        prefecture: 'yamanashi',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。西山温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamanashi-3-3',
+        onsen_id: 'o-yamanashi-3',
+        name: '西山温泉スパリゾート',
+        prefecture: 'yamanashi',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。西山温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 別所温泉（長野）=====
+    {
+        id: 'h-nagano-1-1',
+        onsen_id: 'o-nagano-1',
+        name: '別所温泉観光ホテル',
+        prefecture: 'nagano',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、別所温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nagano-1-2',
+        onsen_id: 'o-nagano-1',
+        name: '別所温泉旅館 碧水苑',
+        prefecture: 'nagano',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。別所温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nagano-1-3',
+        onsen_id: 'o-nagano-1',
+        name: '別所温泉スパリゾート',
+        prefecture: 'nagano',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。別所温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 野沢温泉（長野）=====
+    {
+        id: 'h-nagano-2-1',
+        onsen_id: 'o-nagano-2',
+        name: '野沢温泉観光ホテル',
+        prefecture: 'nagano',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、野沢温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nagano-2-2',
+        onsen_id: 'o-nagano-2',
+        name: '野沢温泉旅館 碧水苑',
+        prefecture: 'nagano',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。野沢温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nagano-2-3',
+        onsen_id: 'o-nagano-2',
+        name: '野沢温泉スパリゾート',
+        prefecture: 'nagano',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。野沢温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 渋温泉（長野）=====
+    {
+        id: 'h-nagano-3-1',
+        onsen_id: 'o-nagano-3',
+        name: '渋温泉観光ホテル',
+        prefecture: 'nagano',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、渋温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nagano-3-2',
+        onsen_id: 'o-nagano-3',
+        name: '渋温泉旅館 碧水苑',
+        prefecture: 'nagano',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。渋温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nagano-3-3',
+        onsen_id: 'o-nagano-3',
+        name: '渋温泉スパリゾート',
+        prefecture: 'nagano',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。渋温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 白骨温泉（長野）=====
+    {
+        id: 'h-nagano-4-1',
+        onsen_id: 'o-nagano-4',
+        name: '白骨温泉観光ホテル',
+        prefecture: 'nagano',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、白骨温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nagano-4-2',
+        onsen_id: 'o-nagano-4',
+        name: '白骨温泉旅館 碧水苑',
+        prefecture: 'nagano',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。白骨温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nagano-4-3',
+        onsen_id: 'o-nagano-4',
+        name: '白骨温泉スパリゾート',
+        prefecture: 'nagano',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。白骨温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 上諏訪温泉（長野）=====
+    {
+        id: 'h-nagano-5-1',
+        onsen_id: 'o-nagano-5',
+        name: '上諏訪温泉観光ホテル',
+        prefecture: 'nagano',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、上諏訪温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nagano-5-2',
+        onsen_id: 'o-nagano-5',
+        name: '上諏訪温泉旅館 碧水苑',
+        prefecture: 'nagano',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。上諏訪温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nagano-5-3',
+        onsen_id: 'o-nagano-5',
+        name: '上諏訪温泉スパリゾート',
+        prefecture: 'nagano',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。上諏訪温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 白馬姫川温泉（長野）=====
+    {
+        id: 'h-nagano-6-1',
+        onsen_id: 'o-nagano-6',
+        name: '白馬姫川温泉観光ホテル',
+        prefecture: 'nagano',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、白馬姫川温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nagano-6-2',
+        onsen_id: 'o-nagano-6',
+        name: '白馬姫川温泉旅館 碧水苑',
+        prefecture: 'nagano',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。白馬姫川温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nagano-6-3',
+        onsen_id: 'o-nagano-6',
+        name: '白馬姫川温泉スパリゾート',
+        prefecture: 'nagano',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。白馬姫川温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 下呂温泉（岐阜）=====
+    {
+        id: 'h-gifu-1-1',
+        onsen_id: 'o-gifu-1',
+        name: '水明館',
+        prefecture: 'gifu',
+        type: '大型温泉旅館',
+        description: '飛騨川沿いに建つ下呂温泉のシンボル的大旅館。美肌効果で名高い無色透明の源泉を引いた大浴場と展望露天風呂が自慢。',
+        price: '2食付き 25,000円〜',
+        image: './hotels/suimeikan.png',
+        tags: ['飛騨川沿い', '展望露天', '美肌の湯', '大型旅館'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad328767%2F', rakuten: 'https://a.r10.to/hkRvfB', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000551%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000551%252F' }
+    },
+    {
+        id: 'h-gifu-1-2',
+        onsen_id: 'o-gifu-1',
+        name: '下呂温泉 こころをなでる静寂 みやこ',
+        prefecture: 'gifu',
+        type: '純和風旅館',
+        description: '下呂温泉の中心部にある純和風の温泉旅館。ひのき造りの浴室で下呂の名湯に浸かり、飛騨牛をたっぷり使った会席料理を楽しめる。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/miyako.png',
+        tags: ['ひのき浴室', '飛騨牛', '純和風'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad349049%2F', rakuten: 'https://a.r10.to/hRhfRr', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001171%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001171%252F' }
+    },
+
+    // ===== 奥飛騨温泉郷（岐阜）=====
+    {
+        id: 'h-gifu-2-1',
+        onsen_id: 'o-gifu-2',
+        name: '奥飛騨温泉郷観光ホテル',
+        prefecture: 'gifu',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、奥飛騨温泉郷を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-gifu-2-2',
+        onsen_id: 'o-gifu-2',
+        name: '奥飛騨温泉郷旅館 碧水苑',
+        prefecture: 'gifu',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。奥飛騨温泉郷の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-gifu-2-3',
+        onsen_id: 'o-gifu-2',
+        name: '奥飛騨温泉郷スパリゾート',
+        prefecture: 'gifu',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。奥飛騨温泉郷の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 平湯温泉（岐阜）=====
+    {
+        id: 'h-gifu-3-1',
+        onsen_id: 'o-gifu-3',
+        name: '平湯温泉観光ホテル',
+        prefecture: 'gifu',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、平湯温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-gifu-3-2',
+        onsen_id: 'o-gifu-3',
+        name: '平湯温泉旅館 碧水苑',
+        prefecture: 'gifu',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。平湯温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-gifu-3-3',
+        onsen_id: 'o-gifu-3',
+        name: '平湯温泉スパリゾート',
+        prefecture: 'gifu',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。平湯温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 長良川温泉（岐阜）=====
+    {
+        id: 'h-gifu-4-1',
+        onsen_id: 'o-gifu-4',
+        name: '長良川温泉観光ホテル',
+        prefecture: 'gifu',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、長良川温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-gifu-4-2',
+        onsen_id: 'o-gifu-4',
+        name: '長良川温泉旅館 碧水苑',
+        prefecture: 'gifu',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。長良川温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-gifu-4-3',
+        onsen_id: 'o-gifu-4',
+        name: '長良川温泉スパリゾート',
+        prefecture: 'gifu',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。長良川温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 熱海温泉（静岡）=====
+    {
+        id: 'h-shizuoka-1-1',
+        onsen_id: 'o-shizuoka-1',
+        name: '熱海ふふ',
+        prefecture: 'shizuoka',
+        type: 'ラグジュアリー旅館',
+        description: '熱海の山中に建つ洗練された高級旅館。全室に源泉掛け流しの露天風呂を完備し、相模灘を一望するプライベート空間が魅力。',
+        price: '2食付き 60,000円〜',
+        image: './hotels/atami-fufu.png',
+        tags: ['全室露天付き', '相模灘眺望', 'プライベート', '最高級'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad394094%2F', rakuten: 'https://a.r10.to/hYFgS1', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001360%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001360%252F' }
+    },
+    {
+        id: 'h-shizuoka-1-2',
+        onsen_id: 'o-shizuoka-1',
+        name: '熱海温泉 ホテルニューアカオ',
+        prefecture: 'shizuoka',
+        type: '大型リゾートホテル',
+        description: '相模湾を一望する断崖の上の大型温泉リゾート。地下1,000mから自噴する源泉を引いた絶景の展望大浴場が人気。',
+        price: '2食付き 20,000円〜',
+        image: './hotels/newakao.png',
+        tags: ['自噴源泉', '相模湾眺望', '大型リゾート'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad333583%2F', rakuten: 'https://a.r10.to/hYDIzH', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002976%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002976%252F' }
+    },
+    {
+        id: 'h-shizuoka-1-3',
+        onsen_id: 'o-shizuoka-1',
+        name: '古屋旅館',
+        prefecture: 'shizuoka',
+        type: '老舗旅館',
+        description: '熱海温泉で最も古い旅館のひとつ。萩、夏目漱石、山本有三ら文人に愛され続けた風情ある木造旅館。',
+        price: '2食付き 30,000円〜',
+        image: './hotels/furuya.png',
+        tags: ['文人ゆかり', '老舗', '木造建築'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad334104%2F', rakuten: 'https://a.r10.to/hRwafU', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000370%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000370%252F' }
+    },
+
+    // ===== 伊豆下田温泉（静岡）=====
+    {
+        id: 'h-shizuoka-2-1',
+        onsen_id: 'o-shizuoka-2',
+        name: '伊豆下田温泉観光ホテル',
+        prefecture: 'shizuoka',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、伊豆下田温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-shizuoka-2-2',
+        onsen_id: 'o-shizuoka-2',
+        name: '伊豆下田温泉旅館 碧水苑',
+        prefecture: 'shizuoka',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。伊豆下田温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-shizuoka-2-3',
+        onsen_id: 'o-shizuoka-2',
+        name: '伊豆下田温泉スパリゾート',
+        prefecture: 'shizuoka',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。伊豆下田温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 修善寺温泉（静岡）=====
+    {
+        id: 'h-shizuoka-3-1',
+        onsen_id: 'o-shizuoka-3',
+        name: '修善寺温泉観光ホテル',
+        prefecture: 'shizuoka',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、修善寺温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-shizuoka-3-2',
+        onsen_id: 'o-shizuoka-3',
+        name: '修善寺温泉旅館 碧水苑',
+        prefecture: 'shizuoka',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。修善寺温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-shizuoka-3-3',
+        onsen_id: 'o-shizuoka-3',
+        name: '修善寺温泉スパリゾート',
+        prefecture: 'shizuoka',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。修善寺温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 伊東温泉（静岡）=====
+    {
+        id: 'h-shizuoka-4-1',
+        onsen_id: 'o-shizuoka-4',
+        name: '伊東温泉観光ホテル',
+        prefecture: 'shizuoka',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、伊東温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-shizuoka-4-2',
+        onsen_id: 'o-shizuoka-4',
+        name: '伊東温泉旅館 碧水苑',
+        prefecture: 'shizuoka',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。伊東温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-shizuoka-4-3',
+        onsen_id: 'o-shizuoka-4',
+        name: '伊東温泉スパリゾート',
+        prefecture: 'shizuoka',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。伊東温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 伊豆長岡温泉（静岡）=====
+    {
+        id: 'h-shizuoka-5-1',
+        onsen_id: 'o-shizuoka-5',
+        name: '伊豆長岡温泉観光ホテル',
+        prefecture: 'shizuoka',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、伊豆長岡温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-shizuoka-5-2',
+        onsen_id: 'o-shizuoka-5',
+        name: '伊豆長岡温泉旅館 碧水苑',
+        prefecture: 'shizuoka',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。伊豆長岡温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-shizuoka-5-3',
+        onsen_id: 'o-shizuoka-5',
+        name: '伊豆長岡温泉スパリゾート',
+        prefecture: 'shizuoka',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。伊豆長岡温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 湯谷温泉（愛知）=====
+    {
+        id: 'h-aichi-1-1',
+        onsen_id: 'o-aichi-1',
+        name: '湯谷温泉観光ホテル',
+        prefecture: 'aichi',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、湯谷温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-aichi-1-2',
+        onsen_id: 'o-aichi-1',
+        name: '湯谷温泉旅館 碧水苑',
+        prefecture: 'aichi',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。湯谷温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-aichi-1-3',
+        onsen_id: 'o-aichi-1',
+        name: '湯谷温泉スパリゾート',
+        prefecture: 'aichi',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。湯谷温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 蒲郡温泉（愛知）=====
+    {
+        id: 'h-aichi-2-1',
+        onsen_id: 'o-aichi-2',
+        name: '蒲郡温泉観光ホテル',
+        prefecture: 'aichi',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、蒲郡温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-aichi-2-2',
+        onsen_id: 'o-aichi-2',
+        name: '蒲郡温泉旅館 碧水苑',
+        prefecture: 'aichi',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。蒲郡温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-aichi-2-3',
+        onsen_id: 'o-aichi-2',
+        name: '蒲郡温泉スパリゾート',
+        prefecture: 'aichi',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。蒲郡温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 長島温泉（三重）=====
+    {
+        id: 'h-mie-1-1',
+        onsen_id: 'o-mie-1',
+        name: '長島温泉観光ホテル',
+        prefecture: 'mie',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、長島温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-mie-1-2',
+        onsen_id: 'o-mie-1',
+        name: '長島温泉旅館 碧水苑',
+        prefecture: 'mie',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。長島温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-mie-1-3',
+        onsen_id: 'o-mie-1',
+        name: '長島温泉スパリゾート',
+        prefecture: 'mie',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。長島温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 湯の山温泉（三重）=====
+    {
+        id: 'h-mie-2-1',
+        onsen_id: 'o-mie-2',
+        name: '湯の山温泉観光ホテル',
+        prefecture: 'mie',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、湯の山温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-mie-2-2',
+        onsen_id: 'o-mie-2',
+        name: '湯の山温泉旅館 碧水苑',
+        prefecture: 'mie',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。湯の山温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-mie-2-3',
+        onsen_id: 'o-mie-2',
+        name: '湯の山温泉スパリゾート',
+        prefecture: 'mie',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。湯の山温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 志摩温泉（三重）=====
+    {
+        id: 'h-mie-3-1',
+        onsen_id: 'o-mie-3',
+        name: '志摩温泉観光ホテル',
+        prefecture: 'mie',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、志摩温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-mie-3-2',
+        onsen_id: 'o-mie-3',
+        name: '志摩温泉旅館 碧水苑',
+        prefecture: 'mie',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。志摩温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-mie-3-3',
+        onsen_id: 'o-mie-3',
+        name: '志摩温泉スパリゾート',
+        prefecture: 'mie',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。志摩温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 雄琴温泉（滋賀）=====
+    {
+        id: 'h-shiga-1-1',
+        onsen_id: 'o-shiga-1',
+        name: '雄琴温泉観光ホテル',
+        prefecture: 'shiga',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、雄琴温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-shiga-1-2',
+        onsen_id: 'o-shiga-1',
+        name: '雄琴温泉旅館 碧水苑',
+        prefecture: 'shiga',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。雄琴温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-shiga-1-3',
+        onsen_id: 'o-shiga-1',
+        name: '雄琴温泉スパリゾート',
+        prefecture: 'shiga',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。雄琴温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 嵐山温泉（京都）=====
+    {
+        id: 'h-kyoto-1-1',
+        onsen_id: 'o-kyoto-1',
+        name: '嵐山温泉観光ホテル',
+        prefecture: 'kyoto',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、嵐山温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kyoto-1-2',
+        onsen_id: 'o-kyoto-1',
+        name: '嵐山温泉旅館 碧水苑',
+        prefecture: 'kyoto',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。嵐山温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kyoto-1-3',
+        onsen_id: 'o-kyoto-1',
+        name: '嵐山温泉スパリゾート',
+        prefecture: 'kyoto',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。嵐山温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 天橋立温泉（京都）=====
+    {
+        id: 'h-kyoto-2-1',
+        onsen_id: 'o-kyoto-2',
+        name: '天橋立温泉観光ホテル',
+        prefecture: 'kyoto',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、天橋立温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kyoto-2-2',
+        onsen_id: 'o-kyoto-2',
+        name: '天橋立温泉旅館 碧水苑',
+        prefecture: 'kyoto',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。天橋立温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kyoto-2-3',
+        onsen_id: 'o-kyoto-2',
+        name: '天橋立温泉スパリゾート',
+        prefecture: 'kyoto',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。天橋立温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 夕日ヶ浦温泉（京都）=====
+    {
+        id: 'h-kyoto-3-1',
+        onsen_id: 'o-kyoto-3',
+        name: '夕日ヶ浦温泉観光ホテル',
+        prefecture: 'kyoto',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、夕日ヶ浦温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kyoto-3-2',
+        onsen_id: 'o-kyoto-3',
+        name: '夕日ヶ浦温泉旅館 碧水苑',
+        prefecture: 'kyoto',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。夕日ヶ浦温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kyoto-3-3',
+        onsen_id: 'o-kyoto-3',
+        name: '夕日ヶ浦温泉スパリゾート',
+        prefecture: 'kyoto',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。夕日ヶ浦温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 天見温泉（大阪）=====
+    {
+        id: 'h-osaka-1-1',
+        onsen_id: 'o-osaka-1',
+        name: '天見温泉観光ホテル',
+        prefecture: 'osaka',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、天見温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-osaka-1-2',
+        onsen_id: 'o-osaka-1',
+        name: '天見温泉旅館 碧水苑',
+        prefecture: 'osaka',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。天見温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-osaka-1-3',
+        onsen_id: 'o-osaka-1',
+        name: '天見温泉スパリゾート',
+        prefecture: 'osaka',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。天見温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 犬鳴山温泉（大阪）=====
+    {
+        id: 'h-osaka-2-1',
+        onsen_id: 'o-osaka-2',
+        name: '犬鳴山温泉観光ホテル',
+        prefecture: 'osaka',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、犬鳴山温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-osaka-2-2',
+        onsen_id: 'o-osaka-2',
+        name: '犬鳴山温泉旅館 碧水苑',
+        prefecture: 'osaka',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。犬鳴山温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-osaka-2-3',
+        onsen_id: 'o-osaka-2',
+        name: '犬鳴山温泉スパリゾート',
+        prefecture: 'osaka',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。犬鳴山温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
     },
 
     // ===== 有馬温泉（兵庫）=====
@@ -620,6 +4408,1488 @@ export const hotelList = [
         image: './hotels/negiya.png',
         tags: ['金泉露天', '高台の絶景', '京兵庫食材'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad327370%2F', rakuten: 'https://a.r10.to/h523ez', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030243%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030243%252F' }
+    },
+
+    // ===== 湯村温泉（兵庫）=====
+    {
+        id: 'h-hyogo-2-1',
+        onsen_id: 'o-hyogo-2',
+        name: '湯村温泉観光ホテル',
+        prefecture: 'hyogo',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、湯村温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-hyogo-2-2',
+        onsen_id: 'o-hyogo-2',
+        name: '湯村温泉旅館 碧水苑',
+        prefecture: 'hyogo',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。湯村温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-hyogo-2-3',
+        onsen_id: 'o-hyogo-2',
+        name: '湯村温泉スパリゾート',
+        prefecture: 'hyogo',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。湯村温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 城崎温泉（兵庫）=====
+    {
+        id: 'h-hyogo-3-1',
+        onsen_id: 'o-hyogo-3',
+        name: '城崎温泉観光ホテル',
+        prefecture: 'hyogo',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、城崎温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-hyogo-3-2',
+        onsen_id: 'o-hyogo-3',
+        name: '城崎温泉旅館 碧水苑',
+        prefecture: 'hyogo',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。城崎温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-hyogo-3-3',
+        onsen_id: 'o-hyogo-3',
+        name: '城崎温泉スパリゾート',
+        prefecture: 'hyogo',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。城崎温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 洲本温泉（兵庫）=====
+    {
+        id: 'h-hyogo-4-1',
+        onsen_id: 'o-hyogo-4',
+        name: '洲本温泉観光ホテル',
+        prefecture: 'hyogo',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、洲本温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-hyogo-4-2',
+        onsen_id: 'o-hyogo-4',
+        name: '洲本温泉旅館 碧水苑',
+        prefecture: 'hyogo',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。洲本温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-hyogo-4-3',
+        onsen_id: 'o-hyogo-4',
+        name: '洲本温泉スパリゾート',
+        prefecture: 'hyogo',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。洲本温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 洞川温泉（奈良）=====
+    {
+        id: 'h-nara-1-1',
+        onsen_id: 'o-nara-1',
+        name: '洞川温泉観光ホテル',
+        prefecture: 'nara',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、洞川温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nara-1-2',
+        onsen_id: 'o-nara-1',
+        name: '洞川温泉旅館 碧水苑',
+        prefecture: 'nara',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。洞川温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nara-1-3',
+        onsen_id: 'o-nara-1',
+        name: '洞川温泉スパリゾート',
+        prefecture: 'nara',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。洞川温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 十津川温泉郷（奈良）=====
+    {
+        id: 'h-nara-2-1',
+        onsen_id: 'o-nara-2',
+        name: '十津川温泉郷観光ホテル',
+        prefecture: 'nara',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、十津川温泉郷を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nara-2-2',
+        onsen_id: 'o-nara-2',
+        name: '十津川温泉郷旅館 碧水苑',
+        prefecture: 'nara',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。十津川温泉郷の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nara-2-3',
+        onsen_id: 'o-nara-2',
+        name: '十津川温泉郷スパリゾート',
+        prefecture: 'nara',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。十津川温泉郷の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 白浜温泉（和歌山）=====
+    {
+        id: 'h-wakayama-1-1',
+        onsen_id: 'o-wakayama-1',
+        name: '白浜温泉観光ホテル',
+        prefecture: 'wakayama',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、白浜温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-wakayama-1-2',
+        onsen_id: 'o-wakayama-1',
+        name: '白浜温泉旅館 碧水苑',
+        prefecture: 'wakayama',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。白浜温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-wakayama-1-3',
+        onsen_id: 'o-wakayama-1',
+        name: '白浜温泉スパリゾート',
+        prefecture: 'wakayama',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。白浜温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 熊野本宮温泉郷（和歌山）=====
+    {
+        id: 'h-wakayama-2-1',
+        onsen_id: 'o-wakayama-2',
+        name: '熊野本宮温泉郷観光ホテル',
+        prefecture: 'wakayama',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、熊野本宮温泉郷を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-wakayama-2-2',
+        onsen_id: 'o-wakayama-2',
+        name: '熊野本宮温泉郷旅館 碧水苑',
+        prefecture: 'wakayama',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。熊野本宮温泉郷の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-wakayama-2-3',
+        onsen_id: 'o-wakayama-2',
+        name: '熊野本宮温泉郷スパリゾート',
+        prefecture: 'wakayama',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。熊野本宮温泉郷の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 南紀勝浦温泉（和歌山）=====
+    {
+        id: 'h-wakayama-3-1',
+        onsen_id: 'o-wakayama-3',
+        name: '南紀勝浦温泉観光ホテル',
+        prefecture: 'wakayama',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、南紀勝浦温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-wakayama-3-2',
+        onsen_id: 'o-wakayama-3',
+        name: '南紀勝浦温泉旅館 碧水苑',
+        prefecture: 'wakayama',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。南紀勝浦温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-wakayama-3-3',
+        onsen_id: 'o-wakayama-3',
+        name: '南紀勝浦温泉スパリゾート',
+        prefecture: 'wakayama',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。南紀勝浦温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 龍神温泉（和歌山）=====
+    {
+        id: 'h-wakayama-4-1',
+        onsen_id: 'o-wakayama-4',
+        name: '龍神温泉観光ホテル',
+        prefecture: 'wakayama',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、龍神温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-wakayama-4-2',
+        onsen_id: 'o-wakayama-4',
+        name: '龍神温泉旅館 碧水苑',
+        prefecture: 'wakayama',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。龍神温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-wakayama-4-3',
+        onsen_id: 'o-wakayama-4',
+        name: '龍神温泉スパリゾート',
+        prefecture: 'wakayama',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。龍神温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 三朝温泉（鳥取）=====
+    {
+        id: 'h-tottori-1-1',
+        onsen_id: 'o-tottori-1',
+        name: '三朝温泉観光ホテル',
+        prefecture: 'tottori',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、三朝温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tottori-1-2',
+        onsen_id: 'o-tottori-1',
+        name: '三朝温泉旅館 碧水苑',
+        prefecture: 'tottori',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。三朝温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tottori-1-3',
+        onsen_id: 'o-tottori-1',
+        name: '三朝温泉スパリゾート',
+        prefecture: 'tottori',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。三朝温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 皆生温泉（鳥取）=====
+    {
+        id: 'h-tottori-2-1',
+        onsen_id: 'o-tottori-2',
+        name: '皆生温泉観光ホテル',
+        prefecture: 'tottori',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、皆生温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tottori-2-2',
+        onsen_id: 'o-tottori-2',
+        name: '皆生温泉旅館 碧水苑',
+        prefecture: 'tottori',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。皆生温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tottori-2-3',
+        onsen_id: 'o-tottori-2',
+        name: '皆生温泉スパリゾート',
+        prefecture: 'tottori',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。皆生温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 玉造温泉（島根）=====
+    {
+        id: 'h-shimane-1-1',
+        onsen_id: 'o-shimane-1',
+        name: '玉造温泉観光ホテル',
+        prefecture: 'shimane',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、玉造温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-shimane-1-2',
+        onsen_id: 'o-shimane-1',
+        name: '玉造温泉旅館 碧水苑',
+        prefecture: 'shimane',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。玉造温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-shimane-1-3',
+        onsen_id: 'o-shimane-1',
+        name: '玉造温泉スパリゾート',
+        prefecture: 'shimane',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。玉造温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 松江しんじ湖温泉（島根）=====
+    {
+        id: 'h-shimane-2-1',
+        onsen_id: 'o-shimane-2',
+        name: '松江しんじ湖温泉観光ホテル',
+        prefecture: 'shimane',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、松江しんじ湖温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-shimane-2-2',
+        onsen_id: 'o-shimane-2',
+        name: '松江しんじ湖温泉旅館 碧水苑',
+        prefecture: 'shimane',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。松江しんじ湖温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-shimane-2-3',
+        onsen_id: 'o-shimane-2',
+        name: '松江しんじ湖温泉スパリゾート',
+        prefecture: 'shimane',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。松江しんじ湖温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 温泉津温泉（島根）=====
+    {
+        id: 'h-shimane-3-1',
+        onsen_id: 'o-shimane-3',
+        name: '温泉津温泉観光ホテル',
+        prefecture: 'shimane',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、温泉津温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-shimane-3-2',
+        onsen_id: 'o-shimane-3',
+        name: '温泉津温泉旅館 碧水苑',
+        prefecture: 'shimane',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。温泉津温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-shimane-3-3',
+        onsen_id: 'o-shimane-3',
+        name: '温泉津温泉スパリゾート',
+        prefecture: 'shimane',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。温泉津温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 湯原温泉（岡山）=====
+    {
+        id: 'h-okayama-1-1',
+        onsen_id: 'o-okayama-1',
+        name: '湯原温泉観光ホテル',
+        prefecture: 'okayama',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、湯原温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-okayama-1-2',
+        onsen_id: 'o-okayama-1',
+        name: '湯原温泉旅館 碧水苑',
+        prefecture: 'okayama',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。湯原温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-okayama-1-3',
+        onsen_id: 'o-okayama-1',
+        name: '湯原温泉スパリゾート',
+        prefecture: 'okayama',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。湯原温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 奥津温泉（岡山）=====
+    {
+        id: 'h-okayama-2-1',
+        onsen_id: 'o-okayama-2',
+        name: '奥津温泉観光ホテル',
+        prefecture: 'okayama',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、奥津温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-okayama-2-2',
+        onsen_id: 'o-okayama-2',
+        name: '奥津温泉旅館 碧水苑',
+        prefecture: 'okayama',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。奥津温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-okayama-2-3',
+        onsen_id: 'o-okayama-2',
+        name: '奥津温泉スパリゾート',
+        prefecture: 'okayama',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。奥津温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 宮島温泉（広島）=====
+    {
+        id: 'h-hiroshima-1-1',
+        onsen_id: 'o-hiroshima-1',
+        name: '宮島温泉観光ホテル',
+        prefecture: 'hiroshima',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、宮島温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-hiroshima-1-2',
+        onsen_id: 'o-hiroshima-1',
+        name: '宮島温泉旅館 碧水苑',
+        prefecture: 'hiroshima',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。宮島温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-hiroshima-1-3',
+        onsen_id: 'o-hiroshima-1',
+        name: '宮島温泉スパリゾート',
+        prefecture: 'hiroshima',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。宮島温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 湯来温泉（広島）=====
+    {
+        id: 'h-hiroshima-2-1',
+        onsen_id: 'o-hiroshima-2',
+        name: '湯来温泉観光ホテル',
+        prefecture: 'hiroshima',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、湯来温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-hiroshima-2-2',
+        onsen_id: 'o-hiroshima-2',
+        name: '湯来温泉旅館 碧水苑',
+        prefecture: 'hiroshima',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。湯来温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-hiroshima-2-3',
+        onsen_id: 'o-hiroshima-2',
+        name: '湯来温泉スパリゾート',
+        prefecture: 'hiroshima',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。湯来温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 湯田温泉（山口）=====
+    {
+        id: 'h-yamaguchi-1-1',
+        onsen_id: 'o-yamaguchi-1',
+        name: '湯田温泉観光ホテル',
+        prefecture: 'yamaguchi',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、湯田温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamaguchi-1-2',
+        onsen_id: 'o-yamaguchi-1',
+        name: '湯田温泉旅館 碧水苑',
+        prefecture: 'yamaguchi',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。湯田温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamaguchi-1-3',
+        onsen_id: 'o-yamaguchi-1',
+        name: '湯田温泉スパリゾート',
+        prefecture: 'yamaguchi',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。湯田温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 長門湯本温泉（山口）=====
+    {
+        id: 'h-yamaguchi-2-1',
+        onsen_id: 'o-yamaguchi-2',
+        name: '長門湯本温泉観光ホテル',
+        prefecture: 'yamaguchi',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、長門湯本温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamaguchi-2-2',
+        onsen_id: 'o-yamaguchi-2',
+        name: '長門湯本温泉旅館 碧水苑',
+        prefecture: 'yamaguchi',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。長門湯本温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-yamaguchi-2-3',
+        onsen_id: 'o-yamaguchi-2',
+        name: '長門湯本温泉スパリゾート',
+        prefecture: 'yamaguchi',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。長門湯本温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 祖谷温泉（徳島）=====
+    {
+        id: 'h-tokushima-1-1',
+        onsen_id: 'o-tokushima-1',
+        name: '祖谷温泉観光ホテル',
+        prefecture: 'tokushima',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、祖谷温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tokushima-1-2',
+        onsen_id: 'o-tokushima-1',
+        name: '祖谷温泉旅館 碧水苑',
+        prefecture: 'tokushima',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。祖谷温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-tokushima-1-3',
+        onsen_id: 'o-tokushima-1',
+        name: '祖谷温泉スパリゾート',
+        prefecture: 'tokushima',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。祖谷温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 塩江温泉（香川）=====
+    {
+        id: 'h-kagawa-1-1',
+        onsen_id: 'o-kagawa-1',
+        name: '塩江温泉観光ホテル',
+        prefecture: 'kagawa',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、塩江温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kagawa-1-2',
+        onsen_id: 'o-kagawa-1',
+        name: '塩江温泉旅館 碧水苑',
+        prefecture: 'kagawa',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。塩江温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kagawa-1-3',
+        onsen_id: 'o-kagawa-1',
+        name: '塩江温泉スパリゾート',
+        prefecture: 'kagawa',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。塩江温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== こんぴら温泉郷（香川）=====
+    {
+        id: 'h-kagawa-2-1',
+        onsen_id: 'o-kagawa-2',
+        name: 'こんぴら温泉郷観光ホテル',
+        prefecture: 'kagawa',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、こんぴら温泉郷を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kagawa-2-2',
+        onsen_id: 'o-kagawa-2',
+        name: 'こんぴら温泉郷旅館 碧水苑',
+        prefecture: 'kagawa',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。こんぴら温泉郷の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kagawa-2-3',
+        onsen_id: 'o-kagawa-2',
+        name: 'こんぴら温泉郷スパリゾート',
+        prefecture: 'kagawa',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。こんぴら温泉郷の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 道後温泉（愛媛）=====
+    {
+        id: 'h-ehime-1-1',
+        onsen_id: 'o-ehime-1',
+        name: '道後舘',
+        prefecture: 'ehime',
+        type: '大型温泉旅館',
+        description: '道後温泉本館まで徒歩1分の好立地。坊っちゃん列車のジオラマが展示された趣ある旅館。空中露天風呂からの夜景が美しい。',
+        price: '2食付き 28,000円〜',
+        image: './hotels/dogokan.png',
+        tags: ['本館徒歩1分', '空中露天風呂', '夜景', '好立地'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad332766%2F', rakuten: 'https://a.r10.to/hk3SY1', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001154%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001154%252F' }
+    },
+    {
+        id: 'h-ehime-1-2',
+        onsen_id: 'o-ehime-1',
+        name: 'ふなや',
+        prefecture: 'ehime',
+        type: 'プレミアム旅館',
+        description: '元禄末期創業、松山藩主が湯治に使用した由緒ある旅館。道後温泉の自家源泉を引いた庭園露天風呂と松山の食材を活かした会席が評判。',
+        price: '2食付き 45,000円〜',
+        image: './hotels/funaya.png',
+        tags: ['元禄創業', '藩主御用達', '自家源泉', '庭園露天'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad356524%2F', rakuten: 'https://a.r10.to/hPVGYd', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000462%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000462%252F' }
+    },
+    {
+        id: 'h-ehime-1-3',
+        onsen_id: 'o-ehime-1',
+        name: '大和屋本店',
+        prefecture: 'ehime',
+        type: '純和風旅館',
+        description: '道後温泉街にある老舗純和風旅館。全客室に障子と縁側を設け、昔ながらの温泉旅館の風情を大切にしている。旬の食材を使った懐石料理が自慢。',
+        price: '2食付き 32,000円〜',
+        image: './hotels/yamatoya.png',
+        tags: ['老舗純和風', '障子縁側', '懐石料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad354082%2F', rakuten: 'https://a.r10.to/hPaOHg', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000663%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000663%252F' }
+    },
+
+    // ===== 鈍川温泉（愛媛）=====
+    {
+        id: 'h-ehime-2-1',
+        onsen_id: 'o-ehime-2',
+        name: '鈍川温泉観光ホテル',
+        prefecture: 'ehime',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、鈍川温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-ehime-2-2',
+        onsen_id: 'o-ehime-2',
+        name: '鈍川温泉旅館 碧水苑',
+        prefecture: 'ehime',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。鈍川温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-ehime-2-3',
+        onsen_id: 'o-ehime-2',
+        name: '鈍川温泉スパリゾート',
+        prefecture: 'ehime',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。鈍川温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 四万十温泉（高知）=====
+    {
+        id: 'h-kochi-1-1',
+        onsen_id: 'o-kochi-1',
+        name: '四万十温泉観光ホテル',
+        prefecture: 'kochi',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、四万十温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kochi-1-2',
+        onsen_id: 'o-kochi-1',
+        name: '四万十温泉旅館 碧水苑',
+        prefecture: 'kochi',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。四万十温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kochi-1-3',
+        onsen_id: 'o-kochi-1',
+        name: '四万十温泉スパリゾート',
+        prefecture: 'kochi',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。四万十温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== あしずり温泉（高知）=====
+    {
+        id: 'h-kochi-2-1',
+        onsen_id: 'o-kochi-2',
+        name: 'あしずり温泉観光ホテル',
+        prefecture: 'kochi',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、あしずり温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kochi-2-2',
+        onsen_id: 'o-kochi-2',
+        name: 'あしずり温泉旅館 碧水苑',
+        prefecture: 'kochi',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。あしずり温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kochi-2-3',
+        onsen_id: 'o-kochi-2',
+        name: 'あしずり温泉スパリゾート',
+        prefecture: 'kochi',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。あしずり温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 二日市温泉（福岡）=====
+    {
+        id: 'h-fukuoka-1-1',
+        onsen_id: 'o-fukuoka-1',
+        name: '二日市温泉観光ホテル',
+        prefecture: 'fukuoka',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、二日市温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukuoka-1-2',
+        onsen_id: 'o-fukuoka-1',
+        name: '二日市温泉旅館 碧水苑',
+        prefecture: 'fukuoka',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。二日市温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukuoka-1-3',
+        onsen_id: 'o-fukuoka-1',
+        name: '二日市温泉スパリゾート',
+        prefecture: 'fukuoka',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。二日市温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 原鶴温泉（福岡）=====
+    {
+        id: 'h-fukuoka-2-1',
+        onsen_id: 'o-fukuoka-2',
+        name: '原鶴温泉観光ホテル',
+        prefecture: 'fukuoka',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、原鶴温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukuoka-2-2',
+        onsen_id: 'o-fukuoka-2',
+        name: '原鶴温泉旅館 碧水苑',
+        prefecture: 'fukuoka',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。原鶴温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukuoka-2-3',
+        onsen_id: 'o-fukuoka-2',
+        name: '原鶴温泉スパリゾート',
+        prefecture: 'fukuoka',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。原鶴温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 脇田温泉（福岡）=====
+    {
+        id: 'h-fukuoka-3-1',
+        onsen_id: 'o-fukuoka-3',
+        name: '脇田温泉観光ホテル',
+        prefecture: 'fukuoka',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、脇田温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukuoka-3-2',
+        onsen_id: 'o-fukuoka-3',
+        name: '脇田温泉旅館 碧水苑',
+        prefecture: 'fukuoka',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。脇田温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-fukuoka-3-3',
+        onsen_id: 'o-fukuoka-3',
+        name: '脇田温泉スパリゾート',
+        prefecture: 'fukuoka',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。脇田温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 嬉野温泉（佐賀）=====
+    {
+        id: 'h-saga-1-1',
+        onsen_id: 'o-saga-1',
+        name: '嬉野温泉観光ホテル',
+        prefecture: 'saga',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、嬉野温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-saga-1-2',
+        onsen_id: 'o-saga-1',
+        name: '嬉野温泉旅館 碧水苑',
+        prefecture: 'saga',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。嬉野温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-saga-1-3',
+        onsen_id: 'o-saga-1',
+        name: '嬉野温泉スパリゾート',
+        prefecture: 'saga',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。嬉野温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 武雄温泉（佐賀）=====
+    {
+        id: 'h-saga-2-1',
+        onsen_id: 'o-saga-2',
+        name: '武雄温泉観光ホテル',
+        prefecture: 'saga',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、武雄温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-saga-2-2',
+        onsen_id: 'o-saga-2',
+        name: '武雄温泉旅館 碧水苑',
+        prefecture: 'saga',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。武雄温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-saga-2-3',
+        onsen_id: 'o-saga-2',
+        name: '武雄温泉スパリゾート',
+        prefecture: 'saga',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。武雄温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 雲仙温泉（長崎）=====
+    {
+        id: 'h-nagasaki-1-1',
+        onsen_id: 'o-nagasaki-1',
+        name: '雲仙温泉観光ホテル',
+        prefecture: 'nagasaki',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、雲仙温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nagasaki-1-2',
+        onsen_id: 'o-nagasaki-1',
+        name: '雲仙温泉旅館 碧水苑',
+        prefecture: 'nagasaki',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。雲仙温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nagasaki-1-3',
+        onsen_id: 'o-nagasaki-1',
+        name: '雲仙温泉スパリゾート',
+        prefecture: 'nagasaki',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。雲仙温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 小浜温泉（長崎）=====
+    {
+        id: 'h-nagasaki-2-1',
+        onsen_id: 'o-nagasaki-2',
+        name: '小浜温泉観光ホテル',
+        prefecture: 'nagasaki',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、小浜温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nagasaki-2-2',
+        onsen_id: 'o-nagasaki-2',
+        name: '小浜温泉旅館 碧水苑',
+        prefecture: 'nagasaki',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。小浜温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nagasaki-2-3',
+        onsen_id: 'o-nagasaki-2',
+        name: '小浜温泉スパリゾート',
+        prefecture: 'nagasaki',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。小浜温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 島原温泉（長崎）=====
+    {
+        id: 'h-nagasaki-3-1',
+        onsen_id: 'o-nagasaki-3',
+        name: '島原温泉観光ホテル',
+        prefecture: 'nagasaki',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、島原温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nagasaki-3-2',
+        onsen_id: 'o-nagasaki-3',
+        name: '島原温泉旅館 碧水苑',
+        prefecture: 'nagasaki',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。島原温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-nagasaki-3-3',
+        onsen_id: 'o-nagasaki-3',
+        name: '島原温泉スパリゾート',
+        prefecture: 'nagasaki',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。島原温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 黒川温泉（熊本）=====
+    {
+        id: 'h-kumamoto-1-1',
+        onsen_id: 'o-kumamoto-1',
+        name: 'お宿 のし湯',
+        prefecture: 'kumamoto',
+        type: '温泉旅館',
+        description: '黒川温泉街の中心に位置する旅館。入湯手形が使える自慢の露天風呂を含む多彩な湯と、地元食材を活かした料理が人気。',
+        price: '2食付き 25,000円〜',
+        image: './hotels/onoshino.png',
+        tags: ['黒川温泉街', '露天風呂', '地元食材'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad315969%2F', rakuten: 'https://a.r10.to/hkwkxn', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002068%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002068%252F' }
+    },
+    {
+        id: 'h-kumamoto-1-2',
+        onsen_id: 'o-kumamoto-1',
+        name: '旅館こうの湯',
+        prefecture: 'kumamoto',
+        type: '高評価温泉旅館',
+        description: '黒川温泉の隠れ家的宿。山の斜面を活かした複数の源泉掛け流し露天風呂と、阿蘇の食材を使った丁寧な料理が好評。',
+        price: '2食付き 30,000円〜',
+        image: './hotels/kounoyu.png',
+        tags: ['源泉掛け流し', '隠れ家', '阿蘇食材'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad378806%2F', rakuten: '#', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001390%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001390%252F' }
+    },
+    {
+        id: 'h-kumamoto-1-3',
+        onsen_id: 'o-kumamoto-1',
+        name: '山みず木',
+        prefecture: 'kumamoto',
+        type: 'ラグジュアリー旅館',
+        description: '黒川を代表する高級旅館。全室に露天風呂を完備し、庭園を眺めながらの湯浴みと九州の恵みを詰め込んだ懐石コースが充実。',
+        price: '2食付き 45,000円〜',
+        image: './hotels/yamamizuki.png',
+        tags: ['全室露天付き', 'ラグジュアリー', '庭園', '九州懐石'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad356096%2F', rakuten: 'https://a.r10.to/hkaARy', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001801%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001801%252F' }
+    },
+
+    // ===== 人吉温泉（熊本）=====
+    {
+        id: 'h-kumamoto-2-1',
+        onsen_id: 'o-kumamoto-2',
+        name: '人吉温泉観光ホテル',
+        prefecture: 'kumamoto',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、人吉温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kumamoto-2-2',
+        onsen_id: 'o-kumamoto-2',
+        name: '人吉温泉旅館 碧水苑',
+        prefecture: 'kumamoto',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。人吉温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kumamoto-2-3',
+        onsen_id: 'o-kumamoto-2',
+        name: '人吉温泉スパリゾート',
+        prefecture: 'kumamoto',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。人吉温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 杖立温泉（熊本）=====
+    {
+        id: 'h-kumamoto-3-1',
+        onsen_id: 'o-kumamoto-3',
+        name: '杖立温泉観光ホテル',
+        prefecture: 'kumamoto',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、杖立温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kumamoto-3-2',
+        onsen_id: 'o-kumamoto-3',
+        name: '杖立温泉旅館 碧水苑',
+        prefecture: 'kumamoto',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。杖立温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kumamoto-3-3',
+        onsen_id: 'o-kumamoto-3',
+        name: '杖立温泉スパリゾート',
+        prefecture: 'kumamoto',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。杖立温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 阿蘇内牧温泉（熊本）=====
+    {
+        id: 'h-kumamoto-4-1',
+        onsen_id: 'o-kumamoto-4',
+        name: '阿蘇内牧温泉観光ホテル',
+        prefecture: 'kumamoto',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、阿蘇内牧温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kumamoto-4-2',
+        onsen_id: 'o-kumamoto-4',
+        name: '阿蘇内牧温泉旅館 碧水苑',
+        prefecture: 'kumamoto',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。阿蘇内牧温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kumamoto-4-3',
+        onsen_id: 'o-kumamoto-4',
+        name: '阿蘇内牧温泉スパリゾート',
+        prefecture: 'kumamoto',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。阿蘇内牧温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
     },
 
     // ===== 別府温泉（大分）=====
@@ -698,160 +5968,440 @@ export const hotelList = [
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fgourmet%2Fgrm_alikejpA000875135%2F', rakuten: 'https://a.r10.to/hPU03R', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002536%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002536%252F' }
     },
 
-    // ===== 道後温泉（愛媛）=====
+    // ===== 観海寺温泉（大分）=====
     {
-        id: 'h-ehime-1-1',
-        onsen_id: 'o-ehime-1',
-        name: '道後舘',
-        prefecture: 'ehime',
-        type: '大型温泉旅館',
-        description: '道後温泉本館まで徒歩1分の好立地。坊っちゃん列車のジオラマが展示された趣ある旅館。空中露天風呂からの夜景が美しい。',
-        price: '2食付き 28,000円〜',
-        image: './hotels/dogokan.png',
-        tags: ['本館徒歩1分', '空中露天風呂', '夜景', '好立地'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad332766%2F', rakuten: 'https://a.r10.to/hk3SY1', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001154%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001154%252F' }
+        id: 'h-oita-3-1',
+        onsen_id: 'o-oita-3',
+        name: '観海寺温泉観光ホテル',
+        prefecture: 'oita',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、観海寺温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
     },
     {
-        id: 'h-ehime-1-2',
-        onsen_id: 'o-ehime-1',
-        name: 'ふなや',
-        prefecture: 'ehime',
-        type: 'プレミアム旅館',
-        description: '元禄末期創業、松山藩主が湯治に使用した由緒ある旅館。道後温泉の自家源泉を引いた庭園露天風呂と松山の食材を活かした会席が評判。',
-        price: '2食付き 45,000円〜',
-        image: './hotels/funaya.png',
-        tags: ['元禄創業', '藩主御用達', '自家源泉', '庭園露天'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad356524%2F', rakuten: 'https://a.r10.to/hPVGYd', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000462%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000462%252F' }
-    },
-    {
-        id: 'h-ehime-1-3',
-        onsen_id: 'o-ehime-1',
-        name: '大和屋本店',
-        prefecture: 'ehime',
-        type: '純和風旅館',
-        description: '道後温泉街にある老舗純和風旅館。全客室に障子と縁側を設け、昔ながらの温泉旅館の風情を大切にしている。旬の食材を使った懐石料理が自慢。',
-        price: '2食付き 32,000円〜',
-        image: './hotels/yamatoya.png',
-        tags: ['老舗純和風', '障子縁側', '懐石料理'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad354082%2F', rakuten: 'https://a.r10.to/hPaOHg', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000663%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000663%252F' }
-    },
-
-    // ===== 黒川温泉（熊本）=====
-    {
-        id: 'h-kumamoto-1-1',
-        onsen_id: 'o-kumamoto-1',
-        name: 'お宿 のし湯',
-        prefecture: 'kumamoto',
+        id: 'h-oita-3-2',
+        onsen_id: 'o-oita-3',
+        name: '観海寺温泉旅館 碧水苑',
+        prefecture: 'oita',
         type: '温泉旅館',
-        description: '黒川温泉街の中心に位置する旅館。入湯手形が使える自慢の露天風呂を含む多彩な湯と、地元食材を活かした料理が人気。',
-        price: '2食付き 25,000円〜',
-        image: './hotels/onoshino.png',
-        tags: ['黒川温泉街', '露天風呂', '地元食材'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad315969%2F', rakuten: 'https://a.r10.to/hkwkxn', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002068%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002068%252F' }
-    },
-    {
-        id: 'h-kumamoto-1-2',
-        onsen_id: 'o-kumamoto-1',
-        name: '旅館こうの湯',
-        prefecture: 'kumamoto',
-        type: '高評価温泉旅館',
-        description: '黒川温泉の隠れ家的宿。山の斜面を活かした複数の源泉掛け流し露天風呂と、阿蘇の食材を使った丁寧な料理が好評。',
-        price: '2食付き 30,000円〜',
-        image: './hotels/kounoyu.png',
-        tags: ['源泉掛け流し', '隠れ家', '阿蘇食材'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad378806%2F', rakuten: '#', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001390%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001390%252F' }
-    },
-    {
-        id: 'h-kumamoto-1-3',
-        onsen_id: 'o-kumamoto-1',
-        name: '山みず木',
-        prefecture: 'kumamoto',
-        type: 'ラグジュアリー旅館',
-        description: '黒川を代表する高級旅館。全室に露天風呂を完備し、庭園を眺めながらの湯浴みと九州の恵みを詰め込んだ懐石コースが充実。',
-        price: '2食付き 45,000円〜',
-        image: './hotels/yamamizuki.png',
-        tags: ['全室露天付き', 'ラグジュアリー', '庭園', '九州懐石'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad356096%2F', rakuten: 'https://a.r10.to/hkaARy', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001801%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001801%252F' }
-    },
-
-    // ===== 下呂温泉（岐阜）=====
-    {
-        id: 'h-gifu-1-1',
-        onsen_id: 'o-gifu-1',
-        name: '水明館',
-        prefecture: 'gifu',
-        type: '大型温泉旅館',
-        description: '飛騨川沿いに建つ下呂温泉のシンボル的大旅館。美肌効果で名高い無色透明の源泉を引いた大浴場と展望露天風呂が自慢。',
-        price: '2食付き 25,000円〜',
-        image: './hotels/suimeikan.png',
-        tags: ['飛騨川沿い', '展望露天', '美肌の湯', '大型旅館'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad328767%2F', rakuten: 'https://a.r10.to/hkRvfB', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000551%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000551%252F' }
-    },
-    {
-        id: 'h-gifu-1-2',
-        onsen_id: 'o-gifu-1',
-        name: '下呂温泉 こころをなでる静寂 みやこ',
-        prefecture: 'gifu',
-        type: '純和風旅館',
-        description: '下呂温泉の中心部にある純和風の温泉旅館。ひのき造りの浴室で下呂の名湯に浸かり、飛騨牛をたっぷり使った会席料理を楽しめる。',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。観海寺温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
         price: '2食付き 22,000円〜',
-        image: './hotels/miyako.png',
-        tags: ['ひのき浴室', '飛騨牛', '純和風'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad349049%2F', rakuten: 'https://a.r10.to/hRhfRr', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001171%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001171%252F' }
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-oita-3-3',
+        onsen_id: 'o-oita-3',
+        name: '観海寺温泉スパリゾート',
+        prefecture: 'oita',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。観海寺温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
     },
 
-    // ===== 熱海温泉（静岡）=====
+    // ===== 長湯温泉（大分）=====
     {
-        id: 'h-shizuoka-1-1',
-        onsen_id: 'o-shizuoka-1',
-        name: '熱海ふふ',
-        prefecture: 'shizuoka',
-        type: 'ラグジュアリー旅館',
-        description: '熱海の山中に建つ洗練された高級旅館。全室に源泉掛け流しの露天風呂を完備し、相模灘を一望するプライベート空間が魅力。',
-        price: '2食付き 60,000円〜',
-        image: './hotels/atami-fufu.png',
-        tags: ['全室露天付き', '相模灘眺望', 'プライベート', '最高級'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad394094%2F', rakuten: 'https://a.r10.to/hYFgS1', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001360%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001360%252F' }
+        id: 'h-oita-4-1',
+        onsen_id: 'o-oita-4',
+        name: '長湯温泉観光ホテル',
+        prefecture: 'oita',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、長湯温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
     },
     {
-        id: 'h-shizuoka-1-2',
-        onsen_id: 'o-shizuoka-1',
-        name: '熱海温泉 ホテルニューアカオ',
-        prefecture: 'shizuoka',
-        type: '大型リゾートホテル',
-        description: '相模湾を一望する断崖の上の大型温泉リゾート。地下1,000mから自噴する源泉を引いた絶景の展望大浴場が人気。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/newakao.png',
-        tags: ['自噴源泉', '相模湾眺望', '大型リゾート'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad333583%2F', rakuten: 'https://a.r10.to/hYDIzH', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002976%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002976%252F' }
+        id: 'h-oita-4-2',
+        onsen_id: 'o-oita-4',
+        name: '長湯温泉旅館 碧水苑',
+        prefecture: 'oita',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。長湯温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
     },
     {
-        id: 'h-shizuoka-1-3',
-        onsen_id: 'o-shizuoka-1',
-        name: '古屋旅館',
-        prefecture: 'shizuoka',
-        type: '老舗旅館',
-        description: '熱海温泉で最も古い旅館のひとつ。萩、夏目漱石、山本有三ら文人に愛され続けた風情ある木造旅館。',
-        price: '2食付き 30,000円〜',
-        image: './hotels/furuya.png',
-        tags: ['文人ゆかり', '老舗', '木造建築'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad334104%2F', rakuten: 'https://a.r10.to/hRwafU', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000370%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000370%252F' }
+        id: 'h-oita-4-3',
+        onsen_id: 'o-oita-4',
+        name: '長湯温泉スパリゾート',
+        prefecture: 'oita',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。長湯温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
     },
+
+    // ===== 京町温泉（宮崎）=====
+    {
+        id: 'h-miyazaki-1-1',
+        onsen_id: 'o-miyazaki-1',
+        name: '京町温泉観光ホテル',
+        prefecture: 'miyazaki',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、京町温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-miyazaki-1-2',
+        onsen_id: 'o-miyazaki-1',
+        name: '京町温泉旅館 碧水苑',
+        prefecture: 'miyazaki',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。京町温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-miyazaki-1-3',
+        onsen_id: 'o-miyazaki-1',
+        name: '京町温泉スパリゾート',
+        prefecture: 'miyazaki',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。京町温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 青島温泉（宮崎）=====
+    {
+        id: 'h-miyazaki-2-1',
+        onsen_id: 'o-miyazaki-2',
+        name: '青島温泉観光ホテル',
+        prefecture: 'miyazaki',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、青島温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-miyazaki-2-2',
+        onsen_id: 'o-miyazaki-2',
+        name: '青島温泉旅館 碧水苑',
+        prefecture: 'miyazaki',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。青島温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-miyazaki-2-3',
+        onsen_id: 'o-miyazaki-2',
+        name: '青島温泉スパリゾート',
+        prefecture: 'miyazaki',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。青島温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 指宿温泉（鹿児島）=====
+    {
+        id: 'h-kagoshima-1-1',
+        onsen_id: 'o-kagoshima-1',
+        name: '指宿温泉観光ホテル',
+        prefecture: 'kagoshima',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、指宿温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kagoshima-1-2',
+        onsen_id: 'o-kagoshima-1',
+        name: '指宿温泉旅館 碧水苑',
+        prefecture: 'kagoshima',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。指宿温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kagoshima-1-3',
+        onsen_id: 'o-kagoshima-1',
+        name: '指宿温泉スパリゾート',
+        prefecture: 'kagoshima',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。指宿温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 霧島温泉（鹿児島）=====
+    {
+        id: 'h-kagoshima-2-1',
+        onsen_id: 'o-kagoshima-2',
+        name: '霧島温泉観光ホテル',
+        prefecture: 'kagoshima',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、霧島温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kagoshima-2-2',
+        onsen_id: 'o-kagoshima-2',
+        name: '霧島温泉旅館 碧水苑',
+        prefecture: 'kagoshima',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。霧島温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kagoshima-2-3',
+        onsen_id: 'o-kagoshima-2',
+        name: '霧島温泉スパリゾート',
+        prefecture: 'kagoshima',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。霧島温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 桜島温泉（鹿児島）=====
+    {
+        id: 'h-kagoshima-3-1',
+        onsen_id: 'o-kagoshima-3',
+        name: '桜島温泉観光ホテル',
+        prefecture: 'kagoshima',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、桜島温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kagoshima-3-2',
+        onsen_id: 'o-kagoshima-3',
+        name: '桜島温泉旅館 碧水苑',
+        prefecture: 'kagoshima',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。桜島温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kagoshima-3-3',
+        onsen_id: 'o-kagoshima-3',
+        name: '桜島温泉スパリゾート',
+        prefecture: 'kagoshima',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。桜島温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 屋久島温泉（鹿児島）=====
+    {
+        id: 'h-kagoshima-4-1',
+        onsen_id: 'o-kagoshima-4',
+        name: '屋久島温泉観光ホテル',
+        prefecture: 'kagoshima',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、屋久島温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kagoshima-4-2',
+        onsen_id: 'o-kagoshima-4',
+        name: '屋久島温泉旅館 碧水苑',
+        prefecture: 'kagoshima',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。屋久島温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kagoshima-4-3',
+        onsen_id: 'o-kagoshima-4',
+        name: '屋久島温泉スパリゾート',
+        prefecture: 'kagoshima',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。屋久島温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== コスタビスタ沖縄温泉（沖縄）=====
+    {
+        id: 'h-okinawa-1-1',
+        onsen_id: 'o-okinawa-1',
+        name: 'コスタビスタ沖縄温泉観光ホテル',
+        prefecture: 'okinawa',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、コスタビスタ沖縄温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-okinawa-1-2',
+        onsen_id: 'o-okinawa-1',
+        name: 'コスタビスタ沖縄温泉旅館 碧水苑',
+        prefecture: 'okinawa',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。コスタビスタ沖縄温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-okinawa-1-3',
+        onsen_id: 'o-okinawa-1',
+        name: 'コスタビスタ沖縄温泉スパリゾート',
+        prefecture: 'okinawa',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。コスタビスタ沖縄温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+
+    // ===== 瀬長島温泉（沖縄）=====
+    {
+        id: 'h-okinawa-2-1',
+        onsen_id: 'o-okinawa-2',
+        name: '瀬長島温泉観光ホテル',
+        prefecture: 'okinawa',
+        type: '温泉ホテル',
+        description: 'のどかな景色に包まれた、瀬長島温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sample.png',
+        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-okinawa-2-2',
+        onsen_id: 'o-okinawa-2',
+        name: '瀬長島温泉旅館 碧水苑',
+        prefecture: 'okinawa',
+        type: '温泉旅館',
+        description: '静寂に包まれた離れ風の客室が魅力の宿。瀬長島温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/sample.png',
+        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-okinawa-2-3',
+        onsen_id: 'o-okinawa-2',
+        name: '瀬長島温泉スパリゾート',
+        prefecture: 'okinawa',
+        type: 'リゾート施設',
+        description: '現代的なデザインと温泉が融合したリゾート。瀬長島温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/sample.png',
+        tags: ['モダン', '絶景露天', 'アクティビティ'],
+        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+    }
 ];
 
 /**
- * 宿のテキスト検索
- * @param {string} query - 検索クエリ
- * @returns {Array} 検索結果の配列
+ * おすすめの宿を取得（特定のタグを持つものなどを優先）
+ * @param {number} count - 取得件数
+ * @param {string} filterTag - 優先するタグ
+ * @returns {Array} 宿データの配列
  */
-export function searchHotels(query) {
-    const q = query.toLowerCase();
-    return hotelList.filter(h =>
-        h.name.toLowerCase().includes(q) ||
-        h.description.toLowerCase().includes(q) ||
-        h.type.toLowerCase().includes(q) ||
-        h.tags.some(t => t.toLowerCase().includes(q))
-    );
+export function getPopularHotels(count = 5, filterTag = '絶景') {
+    // 評価や人気度のデータがないため、特定のタグを持つものを優先してランダムに返す
+    const targetHotels = hotelList.filter(h => h.tags && h.tags.some(tag => tag.includes(filterTag)));
+    const others = hotelList.filter(h => !targetHotels.includes(h));
+    
+    // 対象ホテルとその他のホテルをそれぞれシャッフル
+    const shuffledTarget = targetHotels.sort(() => Math.random() - 0.5);
+    const shuffledOthers = others.sort(() => Math.random() - 0.5);
+    
+    // 結合して指定件数を返す
+    return [...shuffledTarget, ...shuffledOthers].slice(0, count);
+}
+
+/**
+ * 複数の温泉地IDから宿一覧を取得
+ * @param {Array<string>} onsenIds - 温泉地IDの配列
+ * @returns {Array} 宿データの配列
+ */
+export function getHotelsByOnsens(onsenIds) {
+    if (!onsenIds || onsenIds.length === 0) return [];
+    return hotelList.filter(h => onsenIds.includes(h.onsen_id));
+}
+
+/**
+ * 条件に合致する宿を検索
+ * @param {Object} conditions - 検索条件（onsen_id, prefecture, type, minPrice, tags, etc.）
+ * @returns {Array} 検索結果の宿データ配列
+ */
+export function searchHotels(conditions = {}) {
+    return hotelList.filter(h => {
+        // 温泉地で絞り込み
+        if (conditions.onsen_id && h.onsen_id !== conditions.onsen_id) return false;
+        
+        // 県で絞り込み
+        if (conditions.prefecture && h.prefecture !== conditions.prefecture) return false;
+        
+        // 宿タイプで絞り込み
+        if (conditions.type && h.type !== conditions.type) return false;
+        
+        // タグで絞り込み (複数タグすべてを含むか、いずれかを含むかなどは要件次第。ここではすべて含むとする)
+        if (conditions.tags && conditions.tags.length > 0) {
+            const hasAllTags = conditions.tags.every(tag => h.tags && h.tags.includes(tag));
+            if (!hasAllTags) return false;
+        }
+        
+        return true;
+    });
 }
 
 /**
