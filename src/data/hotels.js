@@ -656,76 +656,40 @@ export const hotelList = [
     {
         id: 'h-aomori-4-1',
         onsen_id: 'o-aomori-4',
-        name: '不老ふ死温泉観光ホテル',
+        name: '黄金崎不老ふ死温泉',
         prefecture: 'aomori',
         type: '温泉ホテル',
-        description: 'のどかな景色に包まれた、不老ふ死温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
-        price: '2食付き 15,000円〜',
-        image: './hotels/sample.png',
-        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-aomori-4-2',
-        onsen_id: 'o-aomori-4',
-        name: '不老ふ死温泉旅館 碧水苑',
-        prefecture: 'aomori',
-        type: '温泉旅館',
-        description: '静寂に包まれた離れ風の客室が魅力の宿。不老ふ死温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/sample.png',
-        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-aomori-4-3',
-        onsen_id: 'o-aomori-4',
-        name: '不老ふ死温泉スパリゾート',
-        prefecture: 'aomori',
-        type: 'リゾート施設',
-        description: '現代的なデザインと温泉が融合したリゾート。不老ふ死温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
-        price: '2食付き 18,500円〜',
-        image: './hotels/sample.png',
-        tags: ['モダン', '絶景露天', 'アクティビティ'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '日本海の波打ち際に位置し、海に溶け込むような「海辺の露天風呂」で知られる、青森を代表する絶景温泉旅館。空と海が黄金色に染まる夕景を、鉄分を豊富に含んだ赤褐色の名湯に浸かりながら堪能でき、地元深浦産の新鮮なアワビやサザエなど、日本海が育んだ豪快な磯料理を心ゆくまで楽しめる。',
+        price: '2食付き 16,000円〜',
+        image: './hotels/furoufushi.png',
+        tags: ['海辺の露天風呂', '鉄分豊富', '磯料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad323694%2F', rakuten: 'https://a.r10.to/hPNGCK', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00031057%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00031057%252F' }
     },
 
     // ===== 嶽温泉（青森）=====
     {
         id: 'h-aomori-5-1',
         onsen_id: 'o-aomori-5',
-        name: '嶽温泉観光ホテル',
+        name: '嶽ホテル',
         prefecture: 'aomori',
         type: '温泉ホテル',
-        description: 'のどかな景色に包まれた、嶽温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
-        price: '2食付き 15,000円〜',
-        image: './hotels/sample.png',
-        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '岩木山の麓、標高450mに位置する「嶽温泉」の歴史とともに歩む、家族的な温もりが心地よい温泉宿。岩木山の恩恵を受けた白濁した酸性硫黄泉を、加温・加水なしの源泉100%掛け流しで堪能でき、青森の郷土料理や、季節限定の「嶽きみ（トウモロコシ）」など、山の幸をふんだんに使った素朴で滋味深い料理を楽しめる。',
+        price: '2食付き 12,000円〜',
+        image: './hotels/dakehotel.png',
+        tags: ['源泉掛け流し', '山の幸', '家族的な温もり'],
+        bookingUrls: { jalan: '#', rakuten: 'https://a.r10.to/h5KrZe', ikyu: '#', yahoo: '#' }
     },
     {
         id: 'h-aomori-5-2',
         onsen_id: 'o-aomori-5',
-        name: '嶽温泉旅館 碧水苑',
+        name: '小島旅館',
         prefecture: 'aomori',
         type: '温泉旅館',
-        description: '静寂に包まれた離れ風の客室が魅力の宿。嶽温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/sample.png',
-        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-aomori-5-3',
-        onsen_id: 'o-aomori-5',
-        name: '嶽温泉スパリゾート',
-        prefecture: 'aomori',
-        type: 'リゾート施設',
-        description: '現代的なデザインと温泉が融合したリゾート。嶽温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
-        price: '2食付き 18,500円〜',
-        image: './hotels/sample.png',
-        tags: ['モダン', '絶景露天', 'アクティビティ'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '岩木山の麓、嶽温泉で300年以上の歴史を紡ぎ、多くの湯治客に親しまれてきた老舗温泉旅館。総ヒバ造りの情緒ある浴槽には、江戸時代から湧き続ける白濁した硫黄泉が源泉100%掛け流しで注がれ、青森の豊かな山の幸や岩木山麓の郷土料理を、歴史の息吹を感じる空間でゆっくりと堪能できる。',
+        price: '2食付き 12,500円〜',
+        image: './hotels/kojima.png',
+        tags: ['源泉掛け流し', '老舗', '山の幸'],
+        bookingUrls: { jalan: '#', rakuten: 'https://a.r10.to/h5VGHo', ikyu: '#', yahoo: '#' }
     },
 
     // ===== 花巻温泉郷（岩手）=====
