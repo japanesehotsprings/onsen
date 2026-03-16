@@ -618,38 +618,38 @@ export const hotelList = [
     {
         id: 'h-aomori-3-1',
         onsen_id: 'o-aomori-3',
-        name: '大鰐温泉観光ホテル',
+        name: 'ヤマニ仙遊館',
         prefecture: 'aomori',
-        type: '温泉ホテル',
-        description: 'のどかな景色に包まれた、大鰐温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
-        price: '2食付き 15,000円〜',
-        image: './hotels/sample.png',
-        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '老舗旅館',
+        description: '明治時代から続く歴史を感じさせる建物が魅力の、登録有形文化財に指定された歴史ある宿。太宰治など多くの文人に愛された当時の面影を残す空間で、源泉100%掛け流しの柔らかな湯を楽しみ、創業当時から受け継がれるおもてなしの心とともに、地元の旬の食材を活かした素朴ながらも味わい深い料理をゆっくりと堪能できる。',
+        price: '2食付き 14,500円〜',
+        image: './hotels/yamani.png',
+        tags: ['登録有形文化財', '太宰治ゆかりの宿', '源泉掛け流し', '老舗の味'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad316808%2F', rakuten: 'https://a.r10.to/h5YgDd', ikyu: '#', yahoo: '#' }
     },
     {
         id: 'h-aomori-3-2',
         onsen_id: 'o-aomori-3',
-        name: '大鰐温泉旅館 碧水苑',
+        name: '不二やホテル',
         prefecture: 'aomori',
-        type: '温泉旅館',
-        description: '静寂に包まれた離れ風の客室が魅力の宿。大鰐温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/sample.png',
-        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉ホテル',
+        description: '四季折々の表情を見せる美しい日本庭園に囲まれた、静寂の中に佇む老舗温泉ホテル。開湯800年の歴史を誇る名湯を、開放感あふれる露天風呂や広々とした大浴場で心ゆくまで楽しみ、地元の名産「大鰐温泉もやし」をはじめ、津軽の豊かな大地と海が育んだ旬の味覚をふんだんに盛り込んだ和食膳を堪能できる。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/wanifujiya.png',
+        tags: ['日本庭園', '大鰐温泉もやし料理', '広々とした大浴場', '静かな環境'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad322350%2F', rakuten: 'https://a.r10.to/h58nI1', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00906820%252F' }
     },
     {
         id: 'h-aomori-3-3',
         onsen_id: 'o-aomori-3',
-        name: '大鰐温泉スパリゾート',
+        name: '青森ワイナリーホテル',
         prefecture: 'aomori',
-        type: 'リゾート施設',
-        description: '現代的なデザインと温泉が融合したリゾート。大鰐温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
-        price: '2食付き 18,500円〜',
-        image: './hotels/sample.png',
-        tags: ['モダン', '絶景露天', 'アクティビティ'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: 'リゾートホテル',
+        description: '標高550mの大鰐山頂に位置し、津軽平野を一望する絶景と、自社ワイナリー直送のワインを心ゆくまで楽しめるマウンテンリゾートホテル。広大な雲海や夜景を望む開放感あふれる空間で、六花（りっか）をイメージした大浴場や天然温泉に癒やされ、地元青森の厳選食材とホテル自慢のワインが織りなす極上のマリアージュを堪能できる。',
+        price: '2食付き 13,500円〜',
+        image: './hotels/aomoriwineryhotel.png',
+        tags: ['絶景', 'ワイン', '温泉'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad303354%2F', rakuten: 'https://a.r10.to/hg73lX', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00905849%252F' }
     },
 
     // ===== 不老ふ死温泉（青森）=====
