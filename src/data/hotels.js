@@ -534,12 +534,12 @@ export const hotelList = [
         onsen_id: 'o-aomori-2',
         name: '宿屋つばき',
         prefecture: 'aomori',
-        type: '温泉ホテル',
-        description: 'のどかな景色に包まれた、浅虫温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
-        price: '2食付き 15,000円〜',
-        image: './hotels/hoteltsubaki.png',
-        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉旅館',
+        description: '浅虫温泉駅から徒歩わずか、アットホームな温もりと現代的なセンスが調和した温泉旅館。趣の異なる複数の貸切風呂でプライベートに温泉を楽しみ、持ち込みフリーで気軽に過ごせる。静かな時間が流れる隠れ家のような滞在を満喫できる。',
+        price: '素泊まり 6,000円〜',
+        image: './hotels/yadoyatsubaki.png',
+        tags: ['駅近', '貸切風呂', '持ち込みフリー'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad324328%2F', rakuten: 'https://a.r10.to/hgLwnI', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00906678%252F' }
     },
     {
         id: 'h-aomori-2-2',
@@ -547,11 +547,11 @@ export const hotelList = [
         name: '割烹旅館さつき',
         prefecture: 'aomori',
         type: '温泉旅館',
-        description: '静寂に包まれた離れ風の客室が魅力の宿。浅虫温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/hotelsttsuki.png',
-        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '全8室の静寂に包まれた空間で、板前が腕を振るう繊細な料理を心ゆくまで味わえる美食の宿。「割烹」の名にふさわしく、青森の旬を極限まで引き出した芸術的な創作料理をお部屋食で楽しみ、ペットと一緒にプライベートを重視した贅沢なひとときを過ごせる。',
+        price: '2食付き 20,000円〜',
+        image: './hotels/kapporyokansatsuki.png',
+        tags: ['全8室', 'お部屋食', '創作和食', 'ペット可'],
+        bookingUrls: { jalan: '#', rakuten: 'https://a.r10.to/h56GhX', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001692%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001692%252F' }
     },
     {
         id: 'h-aomori-2-3',
@@ -559,11 +559,11 @@ export const hotelList = [
         name: '旅館柳の湯',
         prefecture: 'aomori',
         type: '温泉旅館',
-        description: '',
-        price: '2食付き 18,500円〜',
-        image: './hotels/hotelkyonoyu.png',
-        tags: ['モダン', '絶景露天', 'アクティビティ'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '創業160年余、江戸時代から続く伝統を守り続ける、浅虫温泉でも数少ない自家源泉を持つ老舗宿。総ヒバ造りの情緒あふれる大浴場や、緑豊かな庭園を望む露天風呂で上質な温泉を楽しみ、地元の漁師から仕入れる新鮮な魚介類をふんだんに使った、彩り豊かな本格和食会席をゆったりと堪能できる。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/ryokanuyanoyu.png',
+        tags: ['創業160年', '自家源泉', '総ヒバ造り', '庭園露天風呂'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad333379%2F', rakuten: 'https://a.r10.to/hPArld', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030735%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030735%252F' }
     },
     {
         id: 'h-aomori-2-4',
@@ -571,11 +571,11 @@ export const hotelList = [
         name: '椿館',
         prefecture: 'aomori',
         type: '温泉旅館',
-        description: '',
-        price: '2食付き 18,500円〜',
-        image: './hotels/hotelkyonoyu.png',
-        tags: ['モダン', '絶景露天', 'アクティビティ'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '創業400年の歴史を誇り、版画家・棟方志功も愛した、古き良き風格が漂う老舗宿。9本の自家源泉から湧き出る豊富な湯を、重厚な雰囲気の「明治の湯」などで堪能し、ライトアップされた美しい庭園を眺めながら、津軽の郷土料理を盛り込んだ滋味深い味わいの膳をゆっくりと楽しめる。',
+        price: '2食付き 18,000円〜',
+        image: './hotels/tsubakikan.png',
+        tags: ['創業400年', '棟方志功ゆかりの宿', '自家源泉', '庭園'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad380010%2F', rakuten: 'https://a.r10.to/h5Opth', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00906673%252F' }
     },
     {
         id: 'h-aomori-2-5',
@@ -583,35 +583,35 @@ export const hotelList = [
         name: '辰巳館',
         prefecture: 'aomori',
         type: '温泉旅館',
-        description: '',
-        price: '2食付き 18,500円〜',
-        image: './hotels/hotelkyonoyu.png',
-        tags: ['モダン', '絶景露天', 'アクティビティ'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '浅虫温泉駅からすぐ、100%源泉掛け流しの湯を贅沢に楽しめる、昔ながらの温かみを大切にした温泉旅館。柔らかな肌触りの名湯を、落ち着いた雰囲気の大浴場や露天風呂で心ゆくまで堪能でき、青森の海の幸を中心としたボリューム満点の家庭的な和食膳を、リーズナブルに味わえるのが魅力。',
+        price: '2食付き 14,500円〜',
+        image: './hotels/tatsumikan.png',
+        tags: ['源泉掛け流し', '駅近', '庭園露天風呂', 'リーズナブル'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad344450%2F', rakuten: 'https://a.r10.to/hPTXpI', ikyu: '#', yahoo: '#' }
     },
     {
         id: 'h-aomori-2-6',
         onsen_id: 'o-aomori-2',
         name: 'さくら観光ホテル',
         prefecture: 'aomori',
-        type: '温泉旅館',
-        description: '',
-        price: '2食付き 18,500円〜',
-        image: './hotels/hotelkyonoyu.png',
-        tags: ['モダン', '絶景露天', 'アクティビティ'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉ホテル',
+        description: '全客室がオーシャンビュー、浅虫で唯一「海の上に建つ」ような感覚を味わえる絶景の温泉ホテル。波打ち際にあるかのような開放感あふれる展望風呂で、穏やかな陸奥湾の波音に包まれながら癒やされ、アワビや青森県産牛など、地元の厳選素材にこだわった華やかな磯料理を堪能できる。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/sakurakankohotel.png',
+        tags: ['オーシャンビュー', '絶景露天風呂', '磯料理', '海辺のロケーション'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad323677%2F', rakuten: 'https://a.r10.to/h53Qps', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00900453%252F' }
     },
     {
         id: 'h-aomori-2-7',
         onsen_id: 'o-aomori-2',
         name: '南部屋海扇閣',
         prefecture: 'aomori',
-        type: '温泉旅館',
-        description: '',
-        price: '2食付き 18,500円〜',
-        image: './hotels/hotelkyonoyu.png',
-        tags: ['モダン', '絶景露天', 'アクティビティ'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '大型温泉旅館',
+        description: '陸奥湾を一望する絶好のロケーションに建つ、浅虫温泉を代表する大型老舗旅館。最上階の展望大浴場からは、夕日に染まる湯の島と陸奥湾のパノラマを堪能でき、毎夜開催される迫力の「津軽三味線ライブ」とともに、青森の旬を贅沢に取り入れたビュッフェや会席料理を心ゆくまで楽しめる。',
+        price: '2食付き 27,000円〜',
+        image: './hotels/nanbuyakaisenkaku.png',
+        tags: ['展望露天風呂', '津軽三味線ライブ', '陸奥湾オーシャンビュー', 'ライブキッチン'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad325111%2F', rakuten: 'https://a.r10.to/h5ZXng', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001631%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001631%252F' }
     },
 
     // ===== 大鰐温泉（青森）=====
