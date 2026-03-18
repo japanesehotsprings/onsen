@@ -1789,7 +1789,7 @@ export function searchOnsen(query) {
         o.description.toLowerCase().includes(q) ||
         o.spring_type.toLowerCase().includes(q) ||
         o.category.toLowerCase().includes(q) ||
-        o.tags.some(t => t.toLowerCase().includes(q))
+        o.tags.some(t => t.toLowerCase() === q)
     );
 }
 

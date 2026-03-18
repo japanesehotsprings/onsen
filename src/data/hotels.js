@@ -6504,6 +6504,17 @@ export function getHotelsByOnsens(onsenIds) {
  * @returns {Array} 検索結果の宿データ配列
  */
 export function searchHotels(conditions = {}) {
+    // 文字列での検索（全体検索などからの呼び出し）
+    if (typeof conditions === 'string') {
+        const q = conditions.toLowerCase();
+        return hotelList.filter(h =>
+            h.name.toLowerCase().includes(q) ||
+            h.description.toLowerCase().includes(q) ||
+            h.type.toLowerCase().includes(q) ||
+            (h.tags && h.tags.some(t => t.toLowerCase() === q)) // タグは完全一致
+        );
+    }
+
     return hotelList.filter(h => {
         // 温泉地で絞り込み
         if (conditions.onsen_id && h.onsen_id !== conditions.onsen_id) return false;
