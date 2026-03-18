@@ -782,76 +782,76 @@ export const hotelList = [
     {
         id: 'h-iwate-2-1',
         onsen_id: 'o-iwate-2',
-        name: '松川温泉観光ホテル',
+        name: '松川温泉 松川荘',
         prefecture: 'iwate',
-        type: '温泉ホテル',
-        description: 'のどかな景色に包まれた、松川温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
-        price: '2食付き 15,000円〜',
-        image: './hotels/sample.png',
-        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉旅館',
+        description: '岩手山を望む標高800mの森に佇む、大自然に抱かれた秘湯情緒あふれる温泉宿。白濁した100%源泉掛け流しの硫黄泉が自慢で、特に女性専用を含む広々とした4つの露天風呂では四季折々の景色を眺めながら極上の癒やしを体験でき、地元の山の幸をふんだんに使った手作り料理と共に心温まるひとときを過ごせる。',
+        price: '2食付き 13,500円〜',
+        image: './hotels/matsukawaso.png',
+        tags: ['源泉100%掛け流し', '露天風呂', '山の幸'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad350880%2F', rakuten: 'https://a.r10.to/h5WYqj', ikyu: '#', yahoo: '#' }
     },
     {
         id: 'h-iwate-2-2',
         onsen_id: 'o-iwate-2',
-        name: '松川温泉旅館 碧水苑',
+        name: '松川温泉 峡雲荘',
         prefecture: 'iwate',
         type: '温泉旅館',
-        description: '静寂に包まれた離れ風の客室が魅力の宿。松川温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/sample.png',
-        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-iwate-2-3',
-        onsen_id: 'o-iwate-2',
-        name: '松川温泉スパリゾート',
-        prefecture: 'iwate',
-        type: 'リゾート施設',
-        description: '現代的なデザインと温泉が融合したリゾート。松川温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
-        price: '2食付き 18,500円〜',
-        image: './hotels/sample.png',
-        tags: ['モダン', '絶景露天', 'アクティビティ'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '十和田八幡平国立公園のブナやナラの原生林に抱かれた、標高800mの静寂の中に佇む秘湯の宿。八幡平の豊かな自然に溶け込むような露天風呂では、源泉100％掛け流しの濃厚な白濁硫黄泉を心ゆくまで堪能でき、夕食には八幡平特産の「杜仲茶ポーク」や岩手県産牛、地元の山菜など、岩手の山の恵みが詰まった滋味深い料理をゆっくりと味わえる。',
+        price: '2食付き 14,500円〜',
+        image: './hotels/kyounso.png',
+        tags: ['源泉掛け流し', '露天風呂', '山の幸'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad347228%2F', rakuten: 'https://a.r10.to/hFYEwa', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00909154%252F' }
     },
 
     // ===== つなぎ温泉（岩手）=====
     {
         id: 'h-iwate-3-1',
         onsen_id: 'o-iwate-3',
-        name: 'つなぎ温泉観光ホテル',
+        name: '盛岡つなぎ温泉 四季亭',
         prefecture: 'iwate',
-        type: '温泉ホテル',
-        description: 'のどかな景色に包まれた、つなぎ温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
-        price: '2食付き 15,000円〜',
-        image: './hotels/sample.png',
-        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '高級温泉旅館',
+        description: '数寄屋造りの贅沢な空間で、静かな時の流れと上質なおもてなしに浸る純和風の温泉旅館。硫黄の香りがほのかに漂う源泉掛け流しの湯を、木の温もりに包まれた大浴場や露天風呂で楽しみ、三陸の新鮮な魚介や岩手の里山の恵みを熟練の技で仕上げた本格的な京風会席料理を、プライバシーを重視したお部屋食でゆっくりと堪能できる。',
+        price: '2食付き 20,000円〜',
+        image: './hotels/shikitei.png',
+        tags: ['数寄屋造り', '源泉掛け流し', '京風会席料理', 'お部屋食'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad355716%2F', rakuten: 'https://a.r10.to/hPDoBS', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001341%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001341%252F' }
     },
     {
         id: 'h-iwate-3-2',
         onsen_id: 'o-iwate-3',
-        name: 'つなぎ温泉旅館 碧水苑',
+        name: '盛岡つなぎ温泉 ホテル紫苑',
         prefecture: 'iwate',
-        type: '温泉旅館',
-        description: '静寂に包まれた離れ風の客室が魅力の宿。つなぎ温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/sample.png',
-        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉ホテル',
+        description: '御所湖を望む全室レイクビューの開放感あふれる大型温泉ホテル。源泉100%掛け流しの「南部曲り家の湯」や御所湖を一望する露天風呂でとろりとした美肌の湯を堪能でき、ライブキッチンで岩手県産牛のステーキや揚げたて天ぷらを楽しめるビュッフェや、地元の旬が詰まった和食会席を心ゆくまで味わえる。',
+        price: '2食付き 12,500円〜',
+        image: './hotels/shion.png',
+        tags: ['全室レイクビュー', '源泉掛け流し', 'ビュッフェ'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad346304%2F', rakuten: 'https://a.r10.to/h5HQdk', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001197%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001197%252F' }
     },
     {
         id: 'h-iwate-3-3',
         onsen_id: 'o-iwate-3',
-        name: 'つなぎ温泉スパリゾート',
+        name: '盛岡つなぎ温泉 旅染屋 山いち',
         prefecture: 'iwate',
-        type: 'リゾート施設',
-        description: '現代的なデザインと温泉が融合したリゾート。つなぎ温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
-        price: '2食付き 18,500円〜',
-        image: './hotels/sample.png',
-        tags: ['モダン', '絶景露天', 'アクティビティ'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉旅館',
+        description: '女性の一人旅やカップルに人気の、温かなおもてなしと民芸調の落ち着いた雰囲気が心地よい温泉旅館。つなぎ温泉特有のとろりとした「美肌の湯」を、青森ヒバの香り漂う内湯や季節の風を感じる露天風呂で源泉掛け流しのまま堪能でき、前沢牛の石焼きや三陸の海の幸など、岩手県産の厳選食材をふんだんに盛り込んだ手作りの創作料理をゆっくりと味わえる。',
+        price: '2食付き 9,800円〜',
+        image: './hotels/yamaiichi.png',
+        tags: ['民芸調', '源泉掛け流し', '創作料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad334220%2F', rakuten: 'https://a.r10.to/hgJ2Su', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00916720%252F' }
+    },
+    {
+        id: 'h-iwate-3-4',
+        onsen_id: 'o-iwate-3',
+        name: '盛岡つなぎ温泉 愛真館',
+        prefecture: 'iwate',
+        type: '温泉旅館',
+        description: '「十八の湯めぐり」が自慢の、個性豊かな多彩なお風呂を一度に楽しめるエンターテインメント温泉旅館。庭園の中に広がる岩風呂や檜風呂、薬湯など趣の異なる湯処を巡りながら、前沢牛や岩手県産ブランド豚の石焼、地元の山菜や海の幸を盛り込んだボリュームたっぷりの和食膳をファミリーやグループで賑やかに楽しめる。',
+        price: '2食付き 12,100円〜',
+        image: './hotels/aishinkan.png',
+        tags: ['十八の湯めぐり', '前沢牛', '岩手県産ブランド豚', 'インクルーシブ'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad320890%2F', rakuten: 'https://a.r10.to/h5AGyq', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00901938%252F' }
     },
 
     // ===== 夏油温泉（岩手）=====
