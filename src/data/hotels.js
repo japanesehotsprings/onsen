@@ -1330,38 +1330,26 @@ export const hotelList = [
     {
         id: 'h-akita-2-1',
         onsen_id: 'o-akita-2',
-        name: '玉川温泉観光ホテル',
+        name: '玉川温泉',
         prefecture: 'akita',
-        type: '温泉ホテル',
-        description: 'のどかな景色に包まれた、玉川温泉を代表する大型温泉ホテル。広々とした大浴場と地元の旬を味わうビュッフェが自慢。',
-        price: '2食付き 15,000円〜',
-        image: './hotels/sample.png',
-        tags: ['大型ホテル', 'ビュッフェ', '展望風呂'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉旅館',
+        description: '日本一の酸性度と湧出量を誇り、全国から多くの療養客が訪れる「湯治の聖地」として知られる歴史ある一軒宿。古くからの湯治場の雰囲気を色濃く残す木造の大浴場では、強酸性の源泉がもたらす圧倒的な生命力を肌で感じることができ、名物の「天然岩盤浴」では地熱を利用してじっくりと体を温め、滋味豊かな地元の山菜や野菜を中心とした体に優しい食事と共に心身の根本的な再生を目指せる。',
+        price: '2食付き 9,000円〜',
+        image: './hotels/tamagawaonsen.png',
+        tags: ['日本一の酸性度', '湯治の聖地', '天然岩盤浴'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad353360%2F', rakuten: 'https://a.r10.to/hY88zN', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00900408%252F' }
     },
     {
         id: 'h-akita-2-2',
         onsen_id: 'o-akita-2',
-        name: '玉川温泉旅館 碧水苑',
+        name: '新玉川温泉',
         prefecture: 'akita',
         type: '温泉旅館',
-        description: '静寂に包まれた離れ風の客室が魅力の宿。玉川温泉の名湯を源泉掛け流しで楽しみ、季節の懐石料理に舌鼓。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/sample.png',
-        tags: ['源泉掛け流し', '隠れ家', '懐石料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-akita-2-3',
-        onsen_id: 'o-akita-2',
-        name: '玉川温泉スパリゾート',
-        prefecture: 'akita',
-        type: 'リゾート施設',
-        description: '現代的なデザインと温泉が融合したリゾート。玉川温泉の自然を一望できる露天風呂と充実のアメニティで至福のひとときを。',
-        price: '2食付き 18,500円〜',
-        image: './hotels/sample.png',
-        tags: ['モダン', '絶景露天', 'アクティビティ'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '十和田八幡平国立公園の標高800mに位置する、世界でも稀な塩酸を主成分としたpH1.2の強酸性泉を快適な施設で堪能できる温泉リゾート。広大な大浴場は温もりのある総檜造りで、源泉100%の「ぶっ飛ぶ」刺激の湯から50%の柔らかな湯、寝湯やサウナなど多彩な入浴法を体験でき、夕食には秋田の旬食材を活かした和洋中ビュッフェを清潔感あふれるモダンな空間でゆっくりと楽しめる。',
+        price: '2食付き 13,000円〜',
+        image: './hotels/shintamagawaonsen.png',
+        tags: ['世界でも稀な強酸性泉', '総檜造りの大浴場', '和洋中ビュッフェ'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad354300%2F', rakuten: 'https://a.r10.to/hYL8fw', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00900409%252F' }
     },
 
     // ===== 男鹿温泉郷（秋田）=====
