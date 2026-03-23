@@ -1394,38 +1394,38 @@ export const hotelList = [
     {
         id: 'h-akita-4-1',
         onsen_id: 'o-akita-4',
-        name: '割烹旅館 湯の宿 たかの',
+        name: '和風宿 岡部荘',
         prefecture: 'akita',
         type: '割烹旅館',
-        description: '大湯温泉の老舗割烹旅館。豊富な湯量を誇るナトリウム・カルシウム塩化物泉を源泉掛け流しで楽しめ、大湯川沿いの露天風呂では四季の渓谷美が堪能できる。夕食は鹿角産の食材を活かした会席料理が中心で、比内地鶏の炭火焼と地元野菜のきりたんぽ鍋が絶品。',
-        price: '2食付き 17,000円〜',
-        image: './hotels/kappouryokanyunoyadotakano.png',
-        tags: ['源泉掛け流し', '渓谷露天', '比内地鶏料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '八幡平の麓、大湯温泉に位置し、四千坪の広大な日本庭園を囲むように建つ情緒あふれる老舗温泉旅館。庭園の四季折々の表情を眺めながら、さらりとした肌触りの名湯を大きな岩を配した開放的な露天風呂や大浴場で心ゆくまで楽しみ、夕食には秋田の名産「比内鶏」のきりたんぽ鍋や、地元の山菜や川魚を熟練の職人が丁寧に仕上げた滋味豊かな秋田の郷土会席を堪能できる。',
+        price: '2食付き 13,500円〜',
+        image: './hotels/okabesou.png',
+        tags: ['源泉掛け流し', '全18室の落ち着いた空間', '美肌の湯'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad338650%2F', rakuten: 'https://a.r10.to/hYDdLU', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00902363%252F' }
     },
     {
         id: 'h-akita-4-2',
         onsen_id: 'o-akita-4',
-        name: 'ゆたか旅館',
+        name: '龍門亭 千葉旅館',
         prefecture: 'akita',
         type: '温泉旅館',
         description: '大湯温泉で長年愛される家族経営の温泉旅館。内湯と露天風呂はいずれも源泉掛け流しで、湯の花漂う塩化物泉が旅の疲れを芯から癒す。主人自らが仕入れる秋田の山の幸と近隣農家直送の野菜を使った家庭的な夕食が評判で、リピーターも多い素朴な宿。',
-        price: '2食付き 12,000円〜',
-        image: './hotels/yutakaryokan.png',
-        tags: ['源泉掛け流し', '家庭的なもてなし', '山の幸料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        price: '2食付き 15,500円〜',
+        image: './hotels/chibaryokan.png',
+        tags: ['四千坪の日本庭園', '大湯温泉の開湯800年', '静かな離れ風客室'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad300539%2F', rakuten: 'https://a.r10.to/hgxKc2', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00907624%252F' }
     },
     {
         id: 'h-akita-4-3',
         onsen_id: 'o-akita-4',
-        name: '森の宿 大湯リバーハウス',
+        name: '縄文のふる里 大湯温泉 ホテル鹿角',
         prefecture: 'akita',
         type: '温泉ロッジ',
-        description: 'ブナ林と大湯川に囲まれた自然派ロッジ。大湯環状列石（ストーンサークル）の近くに位置し、縄文の里を探索する拠点として人気。木の香り漂うログハウス風の内装と気取らない温泉でくつろぎ、秋田の郷土鍋で体を温める素朴な滞在が楽しめる。',
+        description: '開湯800年の歴史を誇る大湯温泉の中心に位置し、縄文のロマンを感じさせる広々とした空間が自慢の温泉ホテル。秋田県内最大級の広さを誇る大浴場や開放感あふれる露天風呂で、古くから名湯として親しまれる柔らかな湯を心ゆくまで堪能でき、夕食には最高級の「秋田牛」や、三陸・日本海から届く新鮮な魚介をふんだんに盛り込んだ豪華な和食会席を心ゆくまで楽しめる。',
         price: '2食付き 11,000円〜',
-        image: './hotels/morinoyadoooyuribaahausu.png',
-        tags: ['ストーンサークル観光', 'ブナ林', '郷土鍋'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        image: './hotels/hotelkazuno.png',
+        tags: ['県内最大級の大浴場', '十和田湖観光の拠点', '秋田牛'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad347591%2F', rakuten: 'https://a.r10.to/h5I2Yt', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001604%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001604%252F' }
     },
 
     // ===== 田沢湖高原温泉郷（秋田）=====
