@@ -1432,38 +1432,38 @@ export const hotelList = [
     {
         id: 'h-akita-5-1',
         onsen_id: 'o-akita-5',
-        name: 'プラザホテル山麓苑',
+        name: 'ホテルグランド天空',
         prefecture: 'akita',
-        type: '高原リゾートホテル',
-        description: '秋田駒ヶ岳の麓、標高700mに位置する高原リゾート。乳白色に濁る硫黄泉は秋田駒ヶ岳の自然が生み出した恵みで、内湯・露天ともに源泉掛け流し。田沢湖を一望できる展望露天風呂は格別の眺め。夕食は秋田牛と高原野菜を中心とした会席料理が揃い、地酒との相性も抜群。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/purazahoterusanrokuen.png',
+        type: '温泉ホテル',
+        description: '田沢湖を眼下に望む高台に位置し、北欧のプチホテルを思わせる温かみのある空間と絶景が魅力の温泉ホテル。全客室から四季折々に表情を変える田沢湖のパノラマを一望でき、乳白色の天然温泉が注がれる露天風呂や大浴場で「美肌の湯」を心ゆくまで堪能した後は、秋田名物の「きりたんぽ鍋」や「稲庭うどん」、新鮮な山の幸を盛り込んだ手作りの和食膳をゆっくりと味わえる。',
+        price: '2食付き 13,500円〜',
+        image: './hotels/hotelgrandtenkuu.png',
         tags: ['硫黄泉', '田沢湖展望', '秋田牛料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad396598%2F', rakuten: 'https://a.r10.to/hPN19j', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00918705%252F' }
     },
     {
         id: 'h-akita-5-2',
         onsen_id: 'o-akita-5',
-        name: 'アルパこまくさ',
+        name: '田沢湖水沢温泉郷セルリアンリゾートAONI',
         prefecture: 'akita',
-        type: '高原温泉旅館',
-        description: '秋田駒ヶ岳の登山口近くに立つ山岳派御用達の温泉宿。弱酸性の単純硫黄泉は肌に優しく、登山後の疲れた体を包み込む。野趣あふれる露天風呂から望む早池峰山の眺めは感動的。山菜や地元野菜をふんだんに使った山里料理は素朴ながら奥深い滋味に満ちている。',
-        price: '2食付き 14,000円〜',
-        image: './hotels/arupakomakusa.png',
-        tags: ['登山拠点', '硫黄泉', '山里料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉リゾート',
+        description: '「青」をテーマにしたモダンで洗練されたデザインが随所に光る、水沢温泉郷に佇むスタイリッシュな温泉リゾート。深さ1メートルの「立ち湯」で名物の乳白色の硫黄泉を源泉掛け流しで楽しみ、心身を深く癒やした後は、ライブキッチンを備えた開放的なレストランで、秋田牛のステーキや地元の厳選食材を五感で楽しむ創作和洋ビュッフェを心ゆくまで堪能できる。',
+        price: '2食付き 12,000円〜',
+        image: './hotels/aoni.png',
+        tags: ['硫黄泉', '立ち湯', '創作和洋ビュッフェ'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad314286%2F', rakuten: 'https://a.r10.to/h9kjO3', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00900547%252F' }
     },
     {
         id: 'h-akita-5-3',
         onsen_id: 'o-akita-5',
-        name: '水沢温泉館（たつこの湯）',
+        name: '天然温泉 田沢湖レイクリゾート',
         prefecture: 'akita',
-        type: '温泉旅館',
-        description: '田沢湖高原の水沢地区に位置し、たつこ像で名高い田沢湖を気軽に観光できる好立地の宿。単純硫黄泉の源泉掛け流し湯は乳白色に輝き、四季折々の自然を愛でながら長湯が楽しめる。秋田の郷土料理であるいぶりがっこや比内地鶏料理も充実している。',
-        price: '2食付き 13,000円〜',
-        image: './hotels/mizusawaonsenkantatsukonoyu.png',
-        tags: ['田沢湖観光', '源泉掛け流し', '比内地鶏'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉リゾート',
+        description: '田沢湖畔に建ち、愛犬と一緒に宿泊できる専用ルームやドッグランも完備した、アクティブに楽しみたい家族やグループに人気の温泉リゾート。広々とした大浴場や露天風呂では水沢温泉から引き込んだ濃厚な乳白色の湯を心ゆくまで堪能でき、夕食には秋田の旬を凝縮した豪華なバイキング形式で、握りたての寿司や揚げたての天ぷら、郷土料理の数々を賑やかに楽しめる。',
+        price: '2食付き 10,000円〜',
+        image: './hotels/tazawalakeresort.png',
+        tags: ['田沢湖畔', '源泉掛け流し', 'バイキング'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad341614%2F', rakuten: 'https://a.r10.to/hkgM0K', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00904258%252F' }
     },
 
     // ===== 銀山温泉（山形）=====
