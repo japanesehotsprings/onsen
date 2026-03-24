@@ -1670,38 +1670,86 @@ export const hotelList = [
     {
         id: 'h-yamagata-5-1',
         onsen_id: 'o-yamagata-5',
-        name: '丹泉ホテル',
+        name: '上杉の御湯 御殿守',
         prefecture: 'yamagata',
         type: '温泉ホテル',
-        description: '赤湯温泉の中心に位置する老舗ホテル。赤湯の名の由来となる鉄分豊富な赤みを帯びた含鉄泉を始め複数の泉質の湯を楽しめる多彩な浴場が自慢。山形ワインの産地・赤湯にちなみ、地元ワイナリーのワインと山形牛のペアリングが旅の楽しみの一つ。南陽の有機農業が育む食材を活かした夕食も好評。',
-        price: '2食付き 17,000円〜',
-        image: './hotels/tanizumihoteru.png',
-        tags: ['含鉄泉', '山形ワイン', '赤湯温泉の老舗'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '上杉家ゆかりの赤湯温泉で、かつて米沢藩主の別邸として愛された歴史を誇る風格ある温泉旅館。自家源泉から湧き出る豊かな湯を、日本一の大きさを誇る「原石風呂」や「龍神の湯」など十二種類の多彩な湯殿で心ゆくまで堪能でき、夕食には米沢牛のステーキや山形の旬の味覚をふんだんに盛り込んだ「上杉膳」を、歴史の面影を残す落ち着いた和の空間でゆっくりと味わえる。',
+        price: '2食付き 20,000円〜',
+        image: './hotels/gotenshu.png',
+        tags: ['上杉家ゆかり', '日本一の原石風呂', '米沢牛ステーキ'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad321384%2F', rakuten: 'https://a.r10.to/hPm2t9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00031058%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00031058%252F' }
     },
     {
         id: 'h-yamagata-5-2',
         onsen_id: 'o-yamagata-5',
-        name: '御殿守',
+        name: '旅館 大文字屋',
         prefecture: 'yamagata',
         type: '温泉旅館',
-        description: '赤湯温泉の奥に佇む隠れ家的温泉旅館。硫酸塩泉と塩化物泉を源泉掛け流しで楽しめる湯船は情緒豊かな木造造りで、肌触りの優しい湯が評判。夕食は置賜盆地産の食材を活かした会席で、南陽牛や白鷹のそばが主役。ぶどうの産地らしいフルーツデザートも充実。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/gotenshu.png',
-        tags: ['源泉掛け流し', '南陽牛料理', '隠れ家旅館'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '赤湯温泉の街中に佇み、創業以来120年以上にわたって「美肌の湯」を守り続けるアットホームで温かな老舗旅館。無色透明ながらとろりとした肌触りの天然温泉を、24時間入浴可能な大浴場や露天風呂で源泉掛け流しのまま楽しむことができ、夕食にはA5ランクの「米沢牛」や地元・南陽市の農家から届く新鮮な野菜、三陸の海の幸を盛り込んだボリュームたっぷりの手作り料理を堪能できる。',
+        price: '2食付き 14,000円〜',
+        image: './hotels/oomonjiya.png',
+        tags: ['源泉掛け流し', '南陽牛料理', '老舗旅館'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad330184%2F', rakuten: 'https://a.r10.to/h5merw', ikyu: '#', yahoo: '#' }
     },
     {
         id: 'h-yamagata-5-3',
         onsen_id: 'o-yamagata-5',
-        name: 'ニュー最上川',
+        name: '大正ロマン香る癒しの宿 丹波館',
         prefecture: 'yamagata',
         type: '温泉旅館',
-        description: '赤湯温泉街に面した利便性の高い温泉旅館。赤湯共同湯「からんころん」にも徒歩圏内で、温泉街散策の拠点として最適。肌にしっとりなじむ硫酸塩泉の内湯と趣ある露天風呂を完備し、地元のワインと置賜の山の幸・川魚を使った素朴な地料理が好評。',
+        description: '大正時代の面影を今に伝える木造建築が美しく、一歩足を踏み入れるとノスタルジックな雰囲気に包まれる全14室の温泉宿。吹き抜けが開放的な総檜造りの大浴場で赤湯の名湯を心ゆくまで楽しみ、夕食には「米沢牛」のしゃぶしゃぶや、地元の旬素材を活かした創作和食を落ち着いたお食事処で味わいながら、ステンドグラスやアンティーク家具が彩る館内で静かな時の流れをゆったりと享受できる。',
+        price: '2食付き 14,500円〜',
+        image: './hotels/tanbakann.png',
+        tags: ['大正ロマン', '米沢牛しゃぶしゃぶ', '檜造りの大浴場'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad374115%2F', rakuten: 'https://a.r10.to/hk4cFu', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00921915%252F' }
+    },
+    {
+        id: 'h-yamagata-5-4',
+        onsen_id: 'o-yamagata-5',
+        name: '鶴の湯 松島館',
+        prefecture: 'yamagata',
+        type: '温泉旅館',
+        description: '「鶴が傷を癒やした」という開湯伝説が残る赤湯温泉で、モダンな感性と伝統が融合した全10室のデザイナーズ温泉旅館。全室が趣の異なる意匠を凝らした造りとなっており、柔らかな肌触りの自家源泉を貸切風呂や露天風呂でプライベートに楽しみながら、夕食には最高級の米沢牛をメインに、地元のワインとのペアリングも楽しめる洗練された創作料理を個室スタイルのダイニングで堪能できる。',
+        price: '2食付き 24,000円〜',
+        image: './hotels/matsushimakan.png',
+        tags: ['開湯伝説', 'デザイナーズ', '米沢牛とワイン'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad390528%2F', rakuten: 'https://a.r10.to/h5LEiP', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001823%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001823%252F' }
+    },
+    {
+        id: 'h-yamagata-5-5',
+        onsen_id: 'o-yamagata-5',
+        name: '丹泉ホテル',
+        prefecture: 'yamagata',
+        type: '温泉ホテル',
+        description: '赤湯温泉の中心部に位置し、江戸時代から続く「殿様の湯」の伝統を受け継ぐ、全館畳敷きの心地よさが魅力の温泉ホテル。広々とした大浴場や岩造りの露天風呂で源泉掛け流しの名湯を心ゆくまで堪能した後は、ライブキッチンで焼き上げる米沢牛のステーキや、山形の郷土料理をふんだんに盛り込んだ彩り豊かなビュッフェ、または季節の会席料理を家族やグループで賑やかに楽しめる。',
         price: '2食付き 14,000円〜',
-        image: './hotels/nyuusaijoukawa.png',
-        tags: ['温泉街散策', '硫酸塩泉', '置賜の地料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        image: './hotels/tansenhotel.png',
+        tags: ['殿様の湯', '米沢牛ステーキ', '畳敷きの館内'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad380193%2F', rakuten: 'https://a.r10.to/hk1HI6', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00902730%252F' }
+    },
+    {
+        id: 'h-yamagata-5-6',
+        onsen_id: 'o-yamagata-5',
+        name: '森の湯',
+        prefecture: 'yamagata',
+        type: '高級温泉旅館',
+        description: '赤湯温泉の喧騒から少し離れた閑静な場所に佇む、全室に源泉掛け流しの露天風呂を完備した大人のための隠れ宿。木造平屋建ての落ち着いた造りの客室で、誰にも邪魔されずに心ゆくまで名湯を独り占めでき、夕食には米沢牛の極上ステーキや、近隣の契約農家から届く新鮮な「つや姫」、旬の山菜など、素材の持ち味を最大限に引き出した滋味豊かな里山料理を、一期一会のおもてなしと共に味わえる。',
+        price: '2食付き 16,000円〜',
+        image: './hotels/morinoyu.png',
+        tags: ['源泉掛け流し露天風呂', '米沢牛ステーキ', '里山料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad308843%2F', rakuten: 'https://a.r10.to/h54DqW', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001947%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001947%252F' }
+    },
+    {
+        id: 'h-yamagata-5-7',
+        onsen_id: 'o-yamagata-5',
+        name: '山形座 瀧波',
+        prefecture: 'yamagata',
+        type: '高級温泉旅館',
+        description: '「山形の文化を体験する」をコンセプトに、築350年の庄屋屋敷を移築した重厚な空間が広がる、全室源泉掛け流し露天風呂付きの高級温泉旅館。ライブ感あふれるオープンキッチン「1/365」で、山形の土が育んだ究極の野菜や米沢牛を芸術的な一皿へと昇華させた料理を堪能し、朝には搗きたての餅を振る舞うなど、五感で山形の豊かさを感じる至福のリトリート体験を心ゆくまで享受できる。',
+        price: '2食付き 44,000円〜',
+        image: './hotels/ryuuharyu.png',
+        tags: ['源泉掛け流し露天風呂', '米沢牛ステーキ', '里山料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad346918%2F', rakuten: 'https://a.r10.to/hkCfq5', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002496%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002496%252F' }
     },
 
     // ===== あつみ温泉（山形）=====
