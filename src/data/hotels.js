@@ -1511,35 +1511,83 @@ export const hotelList = [
         name: '蔵王国際ホテル',
         prefecture: 'yamagata',
         type: '温泉リゾートホテル',
-        description: '蔵王温泉街の中心に立つ老舗の大型温泉ホテル。強酸性の硫黄泉「蔵王の白濁湯」を広大な大浴場と半露天風呂で満喫できる。スキーシーズンはゲレンデ直結の好立地が際立ち、樹氷観賞と温泉のセットが人気。夕食は山形牛のしゃぶしゃぶや芋煮など郷土色豊かな料理が並ぶ。',
-        price: '2食付き 20,000円〜',
+        description: '蔵王温泉の高台に位置し、釘を一本も使わずに組み上げられた総檜造りの名物大浴場「八右衛門の湯」が圧巻の温泉ホテル。天井高の高い開放的な空間で、蔵王特有の乳白色の強酸性硫黄泉を源泉掛け流しで心ゆくまで堪能でき、夕食にはとろけるような「山形牛」のステーキや旬の地場産食材をふんだんに盛り込んだ彩り豊かな会席料理を、洗練されたレストランでゆっくりと味わえる。',
+        price: '2食付き 28,000円〜',
         image: './hotels/zaoukokusaihoteru.png',
-        tags: ['白濁硫黄泉', 'スキー直結', '山形牛'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        tags: ['白濁硫黄泉', '総檜造り', '山形牛'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad309590%2F', rakuten: 'https://a.r10.to/hg6pSG', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002067%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002067%252F' }
     },
     {
         id: 'h-yamagata-2-2',
         onsen_id: 'o-yamagata-2',
-        name: '松金屋 本店',
+        name: '和歌の宿 わかまつや',
         prefecture: 'yamagata',
         type: '温泉旅館',
-        description: '蔵王温泉で代々続く老舗旅館。pH1.8という強酸性の硫黄泉を源泉掛け流しで楽しめる木造の大浴場は、蔵王ならではの野趣を色濃く残す。夕食は山形の食の宝庫から集めた旬の食材による懐石料理が中心で、出羽三山の霊験あらたかな地の恵みを堪能できる。',
-        price: '2食付き 18,000円〜',
-        image: './hotels/matsuganeyahonten.png',
-        tags: ['強酸性源泉掛け流し', '老舗の風格', '懐石料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '創業380余年の歴史を誇り、歌人・斎藤茂吉ゆかりの宿として知られる、和の情緒と温かなおもてなしが息づく老舗旅館。自家源泉から引き込んだ100%掛け流しの濃厚な硫黄泉を、趣のある大浴場や24時間利用可能な貸切風呂でプライベートに楽しみ、夕食には最高ランクの山形牛を用いたすき焼きや会席料理など、郷土の味を大切にした一皿一皿を落ち着いた個室ダイニングで堪能できる。',
+        price: '2食付き 14,500円〜',
+        image: './hotels/wakanoyado.png',
+        tags: ['強酸性源泉掛け流し', '斎藤茂吉ゆかり', '山形牛'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad334773%2F', rakuten: 'https://a.r10.to/h5Wy8j', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002231%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002231%252F' }
     },
     {
         id: 'h-yamagata-2-3',
         onsen_id: 'o-yamagata-2',
-        name: 'みはらしの宿 仙峰',
+        name: '堺屋森のホテルヴァルトベルク',
         prefecture: 'yamagata',
         type: '温泉旅館',
-        description: '蔵王温泉の高台に位置し、雄大な蔵王連峰と山形盆地の夜景を望む眺望自慢の旅館。白濁した硫黄泉の露天風呂から眺める冬の樹氷は絶景そのもの。山形県産「つや姫」を使った釜飯と山形の地酒が評判で、スノーモンスターを見に訪れるリピーターも多い。',
-        price: '2食付き 16,000円〜',
-        image: './hotels/miharashinoyadosenmine.png',
+        description: '蔵王の豊かな森に抱かれ、北欧の山荘を思わせるクラシックで落ち着いた雰囲気が漂うリゾートホテル。森の中に突き出したような野趣あふれる露天風呂では、小鳥のさえずりを聞きながら乳白色の名湯を源泉掛け流しで愉しむことができ、夕食には山形の恵みを活かした和洋折衷のコースや山形牛の石焼きなど、ボリュームたっぷりの美食を暖炉のあるラウンジでのひとときと共に楽しめる。',
+        price: '2食付き 12,000円〜',
+        image: './hotels/sakaiyamori.png',
+        tags: ['森の中', '源泉掛け流し', '山形牛'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad314747%2F', rakuten: 'https://a.r10.to/hk1QIr', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00901300%252F' }
+    },
+    {
+        id: 'h-yamagata-2-4',
+        onsen_id: 'o-yamagata-2',
+        name: 'JURIN',
+        prefecture: 'yamagata',
+        type: '温泉旅館',
+        description: '蔵王のシンボル「樹氷（JURIN）」を名に冠し、ゲレンデに隣接した抜群のロケーションを誇るアクティブ派に人気の高原ホテル。高原の爽やかな風を感じる露天風呂「しおんの湯」で蔵王の強酸性泉に癒やされた後は、山形の郷土料理をアレンジした和洋バイキングや会席料理を楽しみ、客室からは四季折々の色彩を見せる蔵王連峰のパノラマビューを心ゆくまで満喫できる。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/jurinn.png',
         tags: ['樹氷展望露天', '蔵王連峰眺望', '山形地酒'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad332556%2F', rakuten: 'https://a.r10.to/hPYR3t', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00900542%252F' }
+    },
+    {
+        id: 'h-yamagata-2-5',
+        onsen_id: 'o-yamagata-2',
+        name: 'おおみや旅館',
+        prefecture: 'yamagata',
+        type: '温泉旅館',
+        description: '蔵王温泉街の最上部に位置し、大正浪漫のノスタルジックな雰囲気が漂う全館畳敷きの老舗温泉旅館。一歩足を踏み入れると懐かしい和の空間が広がり、創業以来守り続けられる源泉100%掛け流しの「玉子風呂」でとろりとした湯を堪能した後は、山形牛や季節の山の幸を贅沢に使用した「レトロモダン」な創作会席を、素足で過ごせる心地よい畳の上でゆっくりと味わえる。',
+        price: '2食付き 16,000円〜',
+        image: './hotels/oomiya.png',
+        tags: ['大正浪漫', '全館畳敷き', '山形牛'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad338565%2F', rakuten: 'https://a.r10.to/hkmIk7', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030703%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030703%252F' }
+    },
+    {
+        id: 'h-yamagata-2-6',
+        onsen_id: 'o-yamagata-2',
+        name: '蔵王四季のホテル',
+        prefecture: 'yamagata',
+        type: '温泉リゾート',
+        description: '百万人テラスを併設し、蔵王の四季を五感で楽しむことをコンセプトとした開放感あふれるモダンな温泉ホテル。ホテルから少し歩いた「離れ湯」の百花繚乱の湯処では、木々の緑に囲まれた露天風呂で乳白色の名湯を源泉掛け流しで堪能でき、夕食には「山形牛」のしゃぶしゃぶやすき焼きを選べる会席料理など、山形の美食をカジュアルかつ上質なサービスと共に心ゆくまで楽しめる。',
+        price: '2食付き 19,000円〜',
+        image: './hotels/shikihotelu.png',
+        tags: ['百万人テラス', '離れ湯', '山形牛'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad322447%2F', rakuten: 'https://a.r10.to/hg8QjO', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00003213%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00003213%252F' }
+    },
+    {
+        id: 'h-yamagata-2-7',
+        onsen_id: 'o-yamagata-2',
+        name: '深山荘 高見屋',
+        prefecture: 'yamagata',
+        type: '高級温泉旅館',
+        description: '創業300年、蔵王温泉で最も歴史ある宿の一つとして風格を放つ、数寄屋造りの贅沢な空間が広がる老舗高級旅館。歴史を刻んだ重厚な佇まいの中で、九つの趣異なる湯処を巡りながら自家源泉のピュアな硫黄泉を心ゆくまで楽しみ、最高級の「山形牛」や三陸の海の幸を芸術的な一皿へと昇華させた本格的な懐石料理を、一期一会のおもてなしと共に至福のひとときの中で堪能できる。',
+        price: '2食付き 17,000円〜',
+        image: './hotels/miyamasou.png',
+        tags: ['創業300年', '九つの湯処', '山形牛'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad321744%2F', rakuten: 'https://a.r10.to/hgChPC', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001990%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001990%252F' }
     },
 
     // ===== かみのやま温泉（山形）=====
