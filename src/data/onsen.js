@@ -1749,7 +1749,7 @@ export const onsenList = [
     },
     {
         id: 'o-okinawa-2',
-        name: '瀬長島温泉',
+        name: '琉球温泉',
         prefecture: 'okinawa',
         category: '塩化物泉',
         spring_type: '塩化物泉',

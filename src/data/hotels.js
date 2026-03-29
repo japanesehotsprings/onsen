@@ -6682,42 +6682,30 @@ export const hotelList = [
         bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
     },
 
-    // ===== 瀬長島温泉（沖縄）=====
+    // ===== 琉球温泉（沖縄）=====
     {
         id: 'h-okinawa-2-1',
         onsen_id: 'o-okinawa-2',
-        name: 'ウミカジテラス 瀬長島ホテル',
+        name: '琉球温泉 瀬長島ホテル',
         prefecture: 'okinawa',
         type: '温泉リゾートホテル',
         description: '那覇空港から車で約10分の瀬長島に建つリゾートホテル。瀬長島の天然温泉を使ったスパ施設「琉球温泉 瀬長島ホテル」で、東シナ海と飛行機の離着陸が同時に楽しめる唯一無二の体験ができる。夕食は沖縄の旬食材を使ったコース料理で、石垣牛のローストビーフ・もとぶ産の地魚お造り・海ぶどうのサラダ・沖縄産パッションフルーツのデザートが南国の旅の最後を飾る。',
-        price: '2食付き 40,000円〜',
-        image: './hotels/umikajiterasusenagashimahoteru.png',
+        price: '2食付き 17,000円〜',
+        image: './hotels/ryukyuonsensenagazhimahotel.png',
         tags: ['那覇空港10分の離島リゾート', '飛行機と夕日の絶景', '石垣牛ローストビーフ'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad352977%2F', rakuten: 'https://a.r10.to/hk5ZpN', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001909%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001909%252F' }
     },
     {
         id: 'h-okinawa-2-2',
         onsen_id: 'o-okinawa-2',
-        name: '瀬長島温泉 旅館 島の華',
+        name: 'HOTEL SAUSUI NAHA 琉球温泉 波之上の湯',
         prefecture: 'okinawa',
-        type: '温泉旅館',
-        description: '瀬長島の静かな環境に建つ温泉旅館。瀬長島の天然温泉を源泉掛け流しで楽しめ、東シナ海を望む露天風呂は那覇からの好アクセスと抜群の絶景が両立した宿として旅人に人気。夕食は沖縄の食材を使った琉球会席料理で、ゴーヤーチャンプルー・もとぶ牛のしゃぶしゃぶ・海ぶどうと地魚の刺身・沖縄そばが那覇観光と組み合わせた沖縄旅行の充実感を高める。',
-        price: '2食付き 28,000円〜',
-        image: './hotels/senagashimaonsenryokanshimanohana.png',
-        tags: ['那覇近郊の離島の宿', '源泉掛け流し', '琉球会席料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-okinawa-2-3',
-        onsen_id: 'o-okinawa-2',
-        name: '瀬長島温泉 THE SCENE',
-        prefecture: 'okinawa',
-        type: '温泉ホテル',
-        description: '瀬長島のウミカジテラス近くに建つ温泉ホテル。沖縄の天然温泉を楽しめる大浴場と露天風呂から東シナ海に沈む夕日と離着陸する飛行機の競演が楽しめる唯一のスポット。夕食は沖縄の旬食材を使った料理で、石垣産のマグロ刺身・沖縄そば・ラフテーの煮付け・島野菜の天ぷら・泡盛の入ったアイスクリームが琉球文化と自然の豊かさを体験できる会席として旅の最後を飾る。',
-        price: '2食付き 30,000円〜',
-        image: './hotels/senagashimaonsenthescene.png',
-        tags: ['夕日と飛行機の絶景', '石垣産マグロ料理', '沖縄の天然温泉'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉リゾートホテル',
+        description: '那覇空港から車で約10分、那覇市内で唯一の天然温泉と、空に溶け込むようなインフィニティプールを完備したアーバンリゾートホテル。地下500mから湧き出る「波之上の湯」は、身体を芯から温める天然温泉で、サウナや露天風呂も完備。屋上には那覇の街並みや東シナ海を見渡す絶景のプールとスカイバーがあり、夜には幻想的なライトアップと共にカクテルを楽しみながら、沖縄の風を感じる贅沢なひとときを過ごせる。',
+        price: '朝食付き 5,500円〜',
+        image: './hotels/hotelsausuinaharyukyuonsen.png',
+        tags: ['那覇市内の温泉宿', '天然温泉', 'インフィニティプール'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad353760%2F', rakuten: 'https://a.r10.to/hgFOnP', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00081986%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00081986%252F' }
     }
 ];
 
