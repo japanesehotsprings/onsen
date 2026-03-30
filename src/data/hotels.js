@@ -6458,38 +6458,38 @@ export const hotelList = [
     {
         id: 'h-miyazaki-2-1',
         onsen_id: 'o-miyazaki-2',
-        name: '青島グランドホテル',
+        name: 'ホテル 青島サンクマール',
         prefecture: 'miyazaki',
-        type: '温泉ホテル',
-        description: '太平洋と青島を一望する絶景の温泉ホテル。塩化物泉の海洋性温泉は保温効果が高く、青島の亜熱帯植物群と鬼の洗濯板の奇岩が創り出す非日常の景色を眺めながらの露天風呂が名物。夕食は日向灘の旬魚・宮崎地鶏のチキン南蛮・宮崎牛の料理が揃う宮崎会席と日向夏のデザートが南国宮崎の旅情を高める。',
-        price: '2食付き 25,000円〜',
-        image: './hotels/aoshimagurandohoteru.png',
-        tags: ['青島と太平洋の絶景', '宮崎地鶏チキン南蛮', '塩化物海洋性温泉'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉リゾートホテル',
+        description: '青島・鬼の洗濯板を眼下に望む絶景のロケーションに建ち、全客室オーシャンビューを誇る天然温泉リゾート。地下1,000メートルから湧き出る「美肌の湯」を、太平洋の水平線と一体になれる展望大浴場や露天風呂で源泉掛け流しで堪能でき、夕食には宮崎牛のステーキや、目の前の海で獲れた新鮮な伊勢海老、地元の旬素材をふんだんに盛り込んだ本格的な和食会席を心ゆくまで味わえる。',
+        price: '2食付き 19,000円〜',
+        image: './hotels/aoshimasankumaru.png',
+        tags: ['全客室オーシャンビュー', '宮崎牛のステーキ', '伊勢海老料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad324606%2F', rakuten: 'https://a.r10.to/hgXpgX', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002018%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002018%252F' }
     },
     {
         id: 'h-miyazaki-2-2',
         onsen_id: 'o-miyazaki-2',
-        name: '青島パームビーチホテル',
+        name: '青島天然温泉ルートイングランティアあおしま太陽閣',
         prefecture: 'miyazaki',
         type: '温泉リゾートホテル',
-        description: '南国ムード漂う青島温泉の温泉リゾートホテル。塩化物泉の温泉を大浴場と露天風呂で楽しみながら、太平洋の青い海と白いビーチが眼前に広がる非日常のバカンス気分が味わえる。夕食は日向灘の旬魚・宮崎牛のしゃぶしゃぶ・宮崎地鶏の炭火焼き・宮崎マンゴーを使ったスイーツが並ぶリゾート会席が南国の旅の満足感を高める。',
-        price: '2食付き 28,000円〜',
-        image: './hotels/aoshimapaamubiichihoteru.png',
-        tags: ['南国リゾートの雰囲気', '宮崎牛しゃぶしゃぶ', '日向灘の旬魚'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '青島の高台に位置し、充実したスパ施設とスポーツ・レジャーの拠点として人気の天然温泉リゾートホテル。県内最大級の広さを誇る大浴場や、サウナ、岩盤浴、漫画コーナーなどのリラクゼーション設備が充実しており、美肌効果の高い温泉でリラックスした後は、地元の郷土料理を取り入れた和洋ビュッフェや、ボリュームたっぷりの定食メニューを家族やグループで賑やかに楽しめる。',
+        price: '2食付き 6,500円〜',
+        image: './hotels/aoshimataiyokaku.png',
+        tags: ['県内最大級の大浴場', '和洋ビュッフェ', 'スポーツ・レジャー拠点'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad309928%2F', rakuten: 'https://a.r10.to/h5crjB', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00080429%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00080429%252F' }
     },
     {
         id: 'h-miyazaki-2-3',
         onsen_id: 'o-miyazaki-2',
-        name: 'シーズンホテル青島',
+        name: 'ANAホリデイ・インリゾート宮崎 by IHG',
         prefecture: 'miyazaki',
-        type: '温泉ホテル',
-        description: '青島海岸近くに建つ温泉ホテル。塩化物泉の海洋性温泉を大浴場と露天風呂で楽しめ、青島神社参拝と組み合わせた南国の旅に最適な拠点。夕食は宮崎の食材を使った会席料理で、日向灘のカンパチ・飫肥（おび）の甘い卵焼き・宮崎地鶏のたたき・宮崎マンゴーのデザートが南九州ならではの食体験として旅人の食欲を満たす。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/shiizunhoteruaoshima.png',
-        tags: ['青島神社参拝の拠点', '日向灘カンパチ料理', '宮崎マンゴーデザート'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉リゾートホテル',
+        description: '青島海岸のすぐそばに建ち、南国らしい開放感と国際基準のサービスが融合したオーシャンフロントのリゾートホテル。全室から宮古ブルーの海や青島の緑を望むことができ、地下1,000メートルから引いた炭酸水素塩泉を展望大浴場で楽しみながら、夕食にはライブキッチンを備えたレストランで宮崎産の厳選食材を和洋中様々なスタイルで楽しめる豪華なビュッフェや、洗練されたコース料理を堪能できる。',
+        price: '2食付き 14,500円〜',
+        image: './hotels/anaholidayinnresortmiyazaki.png',
+        tags: ['全室オーシャンビュー', '宮崎牛のステーキ', '伊勢海老料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad344027%2F', rakuten: 'https://a.r10.to/hP1jSd', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000976%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000976%252F' }
     },
 
     // ===== 指宿温泉（鹿児島）=====
