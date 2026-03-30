@@ -6534,38 +6534,86 @@ export const hotelList = [
     {
         id: 'h-kagoshima-2-1',
         onsen_id: 'o-kagoshima-2',
-        name: '霧島温泉 霧島ホテル',
+        name: '湯の花 MUKU',
         prefecture: 'kagoshima',
-        type: '大型温泉旅館',
-        description: '霧島連山の中腹に建つ霧島温泉の代表的な大型旅館。硫黄泉・炭酸水素塩泉など6種類の異なる泉質を誇る日本有数の多泉質温泉地の恵みを大浴場と露天風呂で存分に楽しめる。夕食は鹿児島の最高食材・かごしま黒牛のしゃぶしゃぶ・鹿児島黒豚の陶板焼き・霧島高原野菜の天ぷらが揃う豪快な会席と地酒「霧島」の組み合わせが旅情を高める。',
-        price: '2食付き 28,000円〜',
-        image: './hotels/kirishimaonsenkirishimahoteru.png',
-        tags: ['6種類の多泉質温泉', 'かごしま黒牛しゃぶしゃぶ', '霧島連山の大自然'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉旅館',
+        description: '霧島連峰を望む高台に位置し、全客室に源泉掛け流しの露天風呂を完備した、洗練されたモダンラグジュアリーな温泉宿。わずか数室のプライベート空間で、霧島の名湯を誰にも邪魔されずに独り占めできる贅沢な時間を過ごせ、夕食には地元の旬素材をアーティスティックに昇華させた創作会席を、落ち着いたダイニングで厳選された美酒と共に堪能できる。',
+        price: '2食付き 16,000円〜',
+        image: './hotels/yunohanamuku.png',
+        tags: ['全室源泉掛け流し露天風呂付', '創作会席料理', '霧島連峰の絶景'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad373750%2F', rakuten: 'https://a.r10.to/hP2AEk', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00907150%252F' }
     },
     {
         id: 'h-kagoshima-2-2',
         onsen_id: 'o-kagoshima-2',
-        name: '旅行人山荘',
+        name: 'ホテル京セラ',
         prefecture: 'kagoshima',
-        type: '温泉旅館',
-        description: '霧島連山の山腹に建つ眺望抜群の温泉旅館。霧島温泉の硫黄泉を源泉掛け流しで楽しめ、霧島の山並みと桜島・錦江湾を遠望する露天風呂が圧倒的な絶景スポット。夕食は霧島の食材を使った会席料理で、かごしま黒牛の石焼き・鹿児島黒豚のしゃぶしゃぶ・霧島高原のきのこ料理・薩摩揚げが旅人の食欲を満たす。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/ryokouhitoyamasou.png',
-        tags: ['源泉掛け流しの硫黄泉', '桜島・錦江湾の大展望', '霧島のきのこ料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉リゾートホテル',
+        description: '建築家・黒川紀章氏が設計した、圧倒的な吹き抜けの円形アトリウムが目を引く霧島エリアを代表するランドマークホテル。地下1,050メートルから湧き出る天然温泉「エデンの湯」や、古代ローマを彷彿とさせる大浴場、温水プールなど充実のスパ施設を完備し、夕食には鹿児島が誇る黒豚のしゃぶしゃぶや本格的な和洋中ビュッフェを、開放感あふれる空間で家族やグループで賑やかに楽しめる。',
+        price: '2食付き 12,000円〜',
+        image: './hotels/hoterukyosera.png',
+        tags: ['黒川紀章設計の円形アトリウム', '和洋中ビュッフェ', '充実のスパ施設'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad305754%2F', rakuten: 'https://a.r10.to/h8XgJs', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001320%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001320%252F' }
     },
     {
         id: 'h-kagoshima-2-3',
         onsen_id: 'o-kagoshima-2',
-        name: '霧島温泉 いわさきホテル',
+        name: 'ラビスタ霧島ヒルズ',
+        prefecture: 'kagoshima',
+        type: '温泉リゾートホテル',
+        description: '霧島温泉郷の最南端に位置し、南欧プロバンスの風情が漂う全室露天風呂付きのプレミアムな温泉リゾート。全客室から桜島や錦江湾を一望でき、ルーフテラスの露天風呂で霧島の名湯に癒やされた後は、ライブキッチンを備えたレストランでイタリアンをベースにした洋食フルコースを堪能でき、夜鳴きそばなどの共立リゾートならではの無料サービスも充実している。',
+        price: '2食付き 19,500円〜',
+        image: './hotels/rabistakirishimahiruzu.png',
+        tags: ['全室露天風呂付き', '桜島・錦江湾の絶景', '共立リゾートのサービス'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad393380%2F', rakuten: 'https://a.r10.to/hFHIQY', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002610%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002610%252F' }
+    },
+    {
+        id: 'h-kagoshima-2-4',
+        onsen_id: 'o-kagoshima-2',
+        name: '鳥遊ぶ森の宿 ふたり静',
+        prefecture: 'kagoshima',
+        type: '温泉旅館',
+        description: '霧島の深い森の中にひっそりと佇む、わずか5棟の離れのみで構成された、大人のための静寂と美食の隠れ宿。全室に内湯と露天風呂、さらに岩盤浴やサウナを備えた客室もあり、誰にも邪魔されない至福のリラックスタイムを過ごせ、夕食にはオーナーシェフが腕を振るう、鹿児島の食材を贅沢に使用した独創的で美しい創作フレンチ懐石を、お部屋や個室でゆっくりと味わえる。',
+        price: '2食付き 35,000円〜',
+        image: './hotels/toriasobumorinoyadofutarishizuka.png',
+        tags: ['全室露天風呂付き', '創作フレンチ懐石', '森の中の隠れ宿'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad370976%2F', rakuten: 'https://a.r10.to/h58gax', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001185%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001185%252F' }
+    },
+    {
+        id: 'h-kagoshima-2-5',
+        onsen_id: 'o-kagoshima-2',
+        name: 'AUBEGIO 霧島観光ホテル',
         prefecture: 'kagoshima',
         type: '温泉ホテル',
-        description: '霧島温泉の自然に囲まれた温泉ホテル。霧島連山に湧く豊富な温泉を大浴場と露天風呂で楽しめ、硫黄の香りが漂う名湯で旅の疲れを深く癒せる。夕食は鹿児島の食材を使った会席で、かごしま黒牛・鹿児島黒豚・霧島高原野菜・桜島大根を使った料理が霧島神宮参拝・高千穂峰登山の旅の充実感をさらに高める。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/kirishimaonseniwasakihoteru.png',
-        tags: ['霧島神宮参拝の拠点', '硫黄泉の名湯', '鹿児島黒豚料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '霧島温泉郷の高台に建ち、桜島の雄大な姿を望むパノラマビューと、霧島唯一の「展望足湯」が自慢の温泉ホテル。源泉掛け流しの露天風呂や大浴場で乳白色の名湯を心ゆくまで堪能した後は、鹿児島黒豚のせいろ蒸しや、地元の旬素材を活かした彩り豊かな郷土会席に舌鼓を打ち、モダンにリニューアルされたラウンジや客室で、霧島の自然を感じながら穏やかな休日を過ごせる。',
+        price: '2食付き 10,500円〜',
+        image: './hotels/aubegiokirishimakankohoteru.png',
+        tags: ['展望足湯', '桜島・錦江湾の絶景', '鹿児島黒豚料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad319449%2F', rakuten: 'https://a.r10.to/hYz5Hj', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030263%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030263%252F' }
+    },
+    {
+        id: 'h-kagoshima-2-6',
+        onsen_id: 'o-kagoshima-2',
+        name: '霧島ホテル',
+        prefecture: 'kagoshima',
+        type: '温泉ホテル',
+        description: '「坂本龍馬ゆかりの宿」として知られ、圧倒的なスケールを誇る巨大な大浴場「硫黄谷庭園大浴場」が圧巻の老舗温泉ホテル。1日8万リットルという驚異的な湧出量を誇り、硫黄・食塩・重曹・明礬の4つの泉質を一度に楽しめるほか、夕食には霧島山麓の山の幸や錦江湾の海の幸をふんだんに盛り込んだ「薩摩会席」を、歴史のロマンを感じる落ち着いた空間で心ゆくまで堪能できる。',
+        price: '2食付き 15,500円〜',
+        image: './hotels/kirishimahoteru.png',
+        tags: ['硫黄谷庭園大浴場', '坂本龍馬ゆかりの宿', '薩摩会席'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad311199%2F', rakuten: 'https://a.r10.to/hPvaLg', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00902174%252F' }
+    },
+    {
+        id: 'h-kagoshima-2-7',
+        onsen_id: 'o-kagoshima-2',
+        name: '料亭旅館 竹千代 霧島別邸',
+        prefecture: 'kagoshima',
+        type: '高級料亭旅館',
+        description: '霧島神宮の参道近くに佇み、かつての島津家の別邸を思わせる風格ある佇まいと、極上の「食」でもてなす格式高い料亭旅館。全室が趣の異なる贅沢な造りとなっており、柔らかな肌触りの名湯を露天風呂や大浴場で楽しみながら、夕食には熟練の職人が一皿一皿に魂を込めた、鹿児島の四季を五感で楽しむ最高級の京風懐石を、至高のおもてなしと共に至福のひとときの中で味わえる。',
+        price: '2食付き 29,000円〜',
+        image: './hotels/kirishimabettei.png',
+        tags: ['霧島神宮参拝の拠点', '京風懐石', '鹿児島黒豚料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad380064%2F', rakuten: 'https://a.r10.to/h5xSNy', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002097%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002097%252F' }
     },
 
     // ===== 桜島温泉（鹿児島）=====
@@ -6576,10 +6624,10 @@ export const hotelList = [
         prefecture: 'kagoshima',
         type: '温泉ホテル',
         description: '活火山・桜島の中腹に建ち、錦江湾を一望する圧倒的なロケーションの温泉ホテル。炭酸水素塩泉の温泉を大浴場と露天風呂で楽しめ、活火山の噴煙と錦江湾の絶景が非日常の旅体験を演出する。夕食は鹿児島の食材を使った会席で、かごしま黒牛のしゃぶしゃぶ・鹿児島黒豚の角煮・桜島大根の炊いたもの・桜島小みかんのデザートが世界最大の活動カルデラで育まれた食材の豊かさを伝える。',
-        price: '2食付き 22,000円〜',
+        price: '2食付き 12,000円〜',
         image: './hotels/sakurashimashiisaidohoteru.png',
         tags: ['活火山・桜島の絶景', '桜島大根・桜島小みかん', '錦江湾一望の露天風呂'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad346506%2F', rakuten: 'https://a.r10.to/h5gdBM', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00917567%252F' }
     },
     {
         id: 'h-kagoshima-3-2',
@@ -6588,22 +6636,10 @@ export const hotelList = [
         prefecture: 'kagoshima',
         type: '温泉旅館',
         description: '桜島の自然に囲まれた温泉旅館。炭酸水素塩泉の湯を内湯と露天風呂で楽しみながら、活火山の迫力と錦江湾の美しさを間近に感じられる希少な宿泊体験が得られる。夕食は鹿児島の食材を使った料理で、世界最大の大根・桜島大根の煮付け・桜島溶岩で焼いたかごしま黒牛のステーキ・鹿児島黒豚の料理が桜島ならではの個性ある食体験として旅人を魅了する。',
-        price: '2食付き 18,000円〜',
+        price: '2食付き 8,500円〜',
         image: './hotels/kokuminshukushareinboosakurashima.png',
         tags: ['活火山の溶岩の地', '桜島大根の煮付け', '炭酸水素塩泉'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-kagoshima-3-3',
-        onsen_id: 'o-kagoshima-3',
-        name: '桜島マグマ温泉 熔岩なぎさ旅館',
-        prefecture: 'kagoshima',
-        type: '温泉旅館',
-        description: '桜島溶岩の大地から湧く炭酸水素塩泉を引いた桜島の温泉旅館。溶岩が作り出した黒い地形の上に建つ、世界でも珍しい「活火山の温泉旅館」として注目を集める宿。夕食は桜島の地で育まれた食材・桜島大根・桜島小みかんを使った料理・かごしま黒牛の溶岩焼き・鹿児島黒豚のしゃぶしゃぶが桜島の大地の恵みを象徴する会席として旅の感動を深める。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/sakurashimamagumaonsenyougannagisaryokan.png',
-        tags: ['活火山の上に建つ温泉旅館', 'かごしま黒牛の溶岩焼き', '桜島の大地の恵み'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad304437%2F', rakuten: 'https://a.r10.to/h8GEyy', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00920424%252F' }
     },
 
     // ===== 屋久島温泉（鹿児島）=====
