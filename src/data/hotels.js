@@ -6614,34 +6614,22 @@ export const hotelList = [
         prefecture: 'kagoshima',
         type: '温泉リゾートホテル',
         description: '世界自然遺産・屋��島の海岸に建つ温泉リゾートホテル。単純泉の温泉を大浴場と露天風呂で楽しめ、東シナ海の絶景と屋久島の豊かな自然が旅人を包む。夕食は屋久島の食材を使った会席料理で、屋久サバ・首折れサバ・屋久鹿のジビエ料理・屋久島産のパッションフルーツを使ったデザートが世界自然遺産の島ならではの食体験として旅人に屋久島の豊かさを伝える。',
-        price: '2食付き 28,000円〜',
+        price: '2食付き 24,000円〜',
         image: './hotels/yakushimaiwasakihoteru.png',
         tags: ['世界自然遺産の島', '首折れサバ料理', '屋久鹿のジビエ'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad328014%2F', rakuten: 'https://a.r10.to/hgYnJ5', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000348%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000348%252F' }
     },
     {
         id: 'h-kagoshima-4-2',
         onsen_id: 'o-kagoshima-4',
-        name: '縄文の宿 まんてん',
+        name: 'samana hotel Yakushima',
         prefecture: 'kagoshima',
-        type: '温泉旅館',
-        description: '屋久島の山麓に建つ自然に溶け込む温泉旅館。単純泉の温泉を源泉掛け流しで楽しめ、屋久島の森林に包まれた露天風呂は縄文杉の息吹を感じる神聖な湯浴み体験を提供する。夕食は屋久島の旬食材・屋久サバ・首折れサバの刺身・屋久鹿のジビエ・屋久島産のたんかんを使ったデザートが世界遺産トレッキングの疲れを癒す滋養豊かな会席として旅人を満足させる。',
+        type: '温泉リゾートホテル',
+        description: '屋久島の南端、切り立った断崖の上に建つ「海と森の交差点」をコンセプトとした、圧倒的なパノラマビューを誇る全室オーシャンビューのリゾートホテル。目の前に広がる東シナ海の蒼い絶景を眺めながら、美肌効果の高いトロトロの天然温泉「尾之間温泉」を源泉掛け流しの露天風呂で堪能でき、夕食には屋久島産の首折れ鯖やトビウオ、地元の有機野菜など、島の恵みをイタリアンの技法で一皿に凝縮した「屋久島テロワール」のフルコースを心ゆくまで楽しめる。',
         price: '2食付き 22,000円〜',
-        image: './hotels/joumonnoyadomanten.png',
+        image: './hotels/samana.png',
         tags: ['縄文杉トレッキングの拠点', '首折れサバの刺身', '屋久鹿のジビエ料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-kagoshima-4-3',
-        onsen_id: 'o-kagoshima-4',
-        name: '屋久島温泉 湯泊温泉荘',
-        prefecture: 'kagoshima',
-        type: '温泉旅館',
-        description: '屋久島南部の静かな集落に湧く天然温泉を引いた旅館。単純泉の清澄な湯を源泉掛け流しで楽しめ、東シナ海を望む絶景の露天風呂が世界自然遺産の島ならではの開放的な湯浴みを演出する。夕食は屋久島産の旬食材を使った家庭的な料理で、屋久サバの刺身・屋久鹿の煮込み・屋久島産のとびうおの唐揚げ・島野菜のてんぷらが屋久島の素朴な自然の恵みを体験できる素朴な会席として旅人の心に残る。',
-        price: '2食付き 18,000円〜',
-        image: './hotels/yakushimaonsenyuhakuonsensou.png',
-        tags: ['東シナ海の露天風呂', 'とびうおの唐揚げ', '屋久島の素朴な自然'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad358603%2F', rakuten: 'https://a.r10.to/hPhHvH', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001649%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001649%252F' }
     },
 
     // ===== シギラ黄金温泉（沖縄）=====
