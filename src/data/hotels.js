@@ -6496,26 +6496,26 @@ export const hotelList = [
     {
         id: 'h-kagoshima-1-1',
         onsen_id: 'o-kagoshima-1',
-        name: '白水館',
+        name: '指宿白水館',
         prefecture: 'kagoshima',
         type: '高級温泉旅館',
-        description: '指宿温泉を代表する豪壮な老舗高級旅館。砂むし温泉発祥の地・指宿の塩化物泉の豊富な湯と錦江湾を望む大浴場・露天風呂が自慢。全国から集まる鹿児島の黒豚・かごしま黒牛・キビナゴの刺身・薩摩の地酒を使った豪華な薩摩会席は旅の感動を高め、太平洋戦争の歴史を持つ知覧特攻平和会館との組み合わせ旅行の拠点として多くの旅行者に愛される。',
-        price: '2食付き 45,000円〜',
+        description: '日本古来の伝統美と豪華な建築が融合し、まるで美術館のような風格を漂わせる指宿を代表する老舗旅館。名物の「砂むし温泉」を館内で体験できるほか、江戸時代の銭湯を再現した「元禄風呂」は圧倒的なスケールを誇り、多種多様な湯殿で名湯を心ゆくまで堪能できる。夕食には鹿児島の黒豚や新鮮な海の幸を盛り込んだ最高級の和食会席を、至高のおもてなしと共に味わえる。',
+        price: '2食付き 18,500円〜',
         image: './hotels/shirouzukan.png',
         tags: ['指宿温泉の老舗高級旅館', 'かごしま黒牛・黒豚会席', '錦江湾の大浴場'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad357348%2F', rakuten: 'https://a.r10.to/hYJM5g', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000641%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000641%252F' }
     },
     {
         id: 'h-kagoshima-1-2',
         onsen_id: 'o-kagoshima-1',
-        name: '指宿いわさきホテル',
+        name: '夫婦露天風呂の宿 吟松',
         prefecture: 'kagoshima',
-        type: '大型温泉ホテル',
-        description: '錦江湾と桜島を一望する指宿温泉の大型温泉ホテル。塩化物泉の海洋性温泉を大浴場と露天風呂で楽しめ、指宿名物の砂むし温泉も付近で体験できる。夕食は鹿児島の最高食材・かごしま黒牛のしゃぶしゃぶ・鹿児島黒豚の角煮・キビナゴの姿造り・薩摩芋料理が揃う豪快な薩摩会席が旅人の食欲を存分に満たす。',
-        price: '2食付き 30,000円〜',
-        image: './hotels/ibusukiiwasakihoteru.png',
-        tags: ['桜島・錦江湾の絶景', '砂むし温泉の近く', 'かごしま黒牛しゃぶしゃぶ'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉旅館',
+        description: '指宿の海岸沿いに位置し、その名の通り「夫婦」やカップルで過ごす大切な時間をコンセプトにした、大人のための情緒あふれる温泉宿。最上階にある天空露天風呂「雲上」からは錦江湾の絶景を眼下に望むことができ、夕食にはテーブルの真ん中で源泉が湧き出す「砂すり料理」や、揚げたてのさつま揚げなど、五感で楽しむ創意工夫に満ちた会席料理を落ち着いた個室ダイニングでゆっくりと堪能できる。',
+        price: '2食付き 22,000円〜',
+        image: './hotels/ginshou.png',
+        tags: ['夫婦で過ごす', '錦江湾の絶景', '砂すり料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad356820%2F', rakuten: 'https://a.r10.to/hPhypf', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001731%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001731%252F' }
     },
     {
         id: 'h-kagoshima-1-3',
@@ -6523,11 +6523,59 @@ export const hotelList = [
         name: '指宿フェニックスホテル',
         prefecture: 'kagoshima',
         type: '温泉リゾートホテル',
-        description: '指宿温泉の丘に建つ南国リゾート感あふれる温泉ホテル。塩化物泉の海洋性温泉を大浴場と露天風呂で楽しめ、眼前に広がる錦江湾と桜島の景色が非日常感を演出する。夕食は鹿児島の食材を使ったビュッフェスタイルの料理で、鹿児島黒豚のしゃぶしゃぶ・かごしま黒牛のステーキ・桜島大根のサラダ・さつまいもスイーツが南国の旅の満足感を高める。',
-        price: '2食付き 25,000円〜',
+        description: '指宿の高台に位置し、南国の花々に囲まれた広大な敷地と、どこまでも続く青い海を一望できるパノラマビューが自慢のリゾートホテル。館内にはオーシャンビューの砂むし温泉や、心地よい風を感じる露天風呂を備え、夕食には鹿児島のブランド肉や錦江湾で獲れた新鮮な魚介をふんだんに盛り込んだボリュームたっぷりの和食会席を、リゾート感あふれる開放的な空間で賑やかに楽しめる。',
+        price: '2食付き 15,000円〜',
         image: './hotels/ibusukifenikkusuhoteru.png',
         tags: ['南国リゾートの雰囲気', '鹿児島黒豚しゃぶしゃぶ', '桜島・錦江湾の絶景'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad329490%2F', rakuten: 'https://a.r10.to/hPAVOQ', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00908834%252F' }
+    },
+    {
+        id: 'h-kagoshima-1-4',
+        onsen_id: 'o-kagoshima-1',
+        name: '指宿ロイヤルホテル',
+        prefecture: 'kagoshima',
+        type: '温泉リゾートホテル',
+        description: '錦江湾を見下ろす断崖の上に建ち、全客室からオーシャンビューを楽しめる、女性やカップルに人気のスタイリッシュな絶景ホテル。自家源泉から引き込んだ露天風呂からは、天気が良ければ大隅半島や屋久島まで望むことができ、夕食には「身体の中から美しく」をテーマに、鹿児島の伝統野菜や黒毛和牛、新鮮な魚介をヘルシーかつ贅沢に仕上げた創作会席を、モダンなダイニングで心ゆくまで味わえる。',
+        price: '2食付き 12,500円〜',
+        image: './hotels/ibusukiryoaruhoteru.png',
+        tags: ['オーシャンビュー', '創作会席', 'モダンな雰囲気'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad334958%2F', rakuten: 'https://a.r10.to/h5YHJI', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00900399%252F' }
+    },
+    {
+        id: 'h-kagoshima-1-5',
+        onsen_id: 'o-kagoshima-1',
+        name: '指宿海上ホテル',
+        prefecture: 'kagoshima',
+        type: '温泉ホテル',
+        description: '指宿の海岸線に沿うように建ち、まるで海の上に浮かんでいるかのような圧倒的な臨場感が魅力の老舗温泉ホテル。館内にいながら波音を聞いて体験できる砂むし温泉や、錦江湾の朝焼けを一望する大浴場で名湯を満喫でき、夕食には地元の漁港から直送される新鮮な真鯛やキビナゴ、鹿児島黒豚など、郷土の旬素材を活かした伝統的な和食膳を、アットホームなおもてなしと共に堪能できる。',
+        price: '2食付き 16,500円〜',
+        image: './hotels/ibusukikaijouhoteru.png',
+        tags: ['海の上に浮かぶような', '錦江湾の朝焼け', '郷土の旬素材'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad318982%2F', rakuten: 'https://a.r10.to/h56eYs', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00902300%252F' }
+    },
+    {
+        id: 'h-kagoshima-1-6',
+        onsen_id: 'o-kagoshima-1',
+        name: '休暇村指宿',
+        prefecture: 'kagoshima',
+        type: '温泉ホテル',
+        description: '指宿温泉郷の南端、魚見岳の麓に広がる豊かな自然に包まれた、癒やしとアクティビティが融合した国立公園内の宿。自家源泉から引き込んだ温泉と館内の砂むし温泉でリラックスした後は、鹿児島の名物料理や新鮮な魚介を心ゆくまで楽しめる「ハーフビュッフェ」や、季節の会席料理に舌鼓を打ち、夜には星空観察や焚き火など、大自然を感じるプログラムを家族みんなで思い思いに満喫できる。',
+        price: '2食付き 12,000円〜',
+        image: './hotels/kyukamuraibusuki.png',
+        tags: ['国立公園内', 'ハーフビュッフェ', '焚き火'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad304520%2F', rakuten: 'https://a.r10.to/hgRZf1', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030876%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030876%252F' }
+    },
+    {
+        id: 'h-kagoshima-1-7',
+        onsen_id: 'o-kagoshima-1',
+        name: 'こらんの湯 錦江楼',
+        prefecture: 'kagoshima',
+        type: '温泉ホテル',
+        description: '指宿温泉の中でも、希少な「にごり湯」を自家源泉で堪能できる、静かな海沿いに佇む隠れ家的な温泉旅館。ナトリウムー塩化物泉の濃厚な湯を、錦江湾を望む露天風呂や大浴場で源泉掛け流しのまま楽しみ、夕食には「指宿の旬」にこだわり、地元の農家から届く新鮮な野菜や、三陸・日本海とはまた違う南国の豊かな海の幸を、熟練の職人が丁寧に仕上げた彩り豊かな会席料理としてゆっくりと味わえる。',
+        price: '2食付き 16,000円〜',
+        image: './hotels/korannoyu.png',
+        tags: ['にごり湯', '錦江湾の絶景', '旬の会席料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad361122%2F', rakuten: 'https://a.r10.to/hk4LIq', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030819%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030819%252F' }
     },
 
     // ===== 霧島温泉（鹿児島）=====
