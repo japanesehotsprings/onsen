@@ -6420,38 +6420,38 @@ export const hotelList = [
     {
         id: 'h-miyazaki-1-1',
         onsen_id: 'o-miyazaki-1',
-        name: '亀の井ホテル 京町温泉',
+        name: '京町温泉 京町観光ホテル',
         prefecture: 'miyazaki',
         type: '温泉ホテル',
-        description: '霧島連山の麓に湧く京町温泉の温泉ホテル。単純硫黄泉の硫黄の香りが漂う湯は神経痛・慢性疾患に効能があり、露天風呂から霧島連山の絶景が望める。夕食は宮崎の食材を使った会席料理で、宮崎牛のしゃぶしゃぶ・宮崎地鶏の炭火焼き・日向灘の旬魚・宮崎県産のマンゴーを使ったデザートが南九州の食の豊かさを体験できる会席として旅人を満足させる。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/kamenoihoterukyoumachionsen.png',
-        tags: ['霧島連山の麓', '宮崎牛しゃぶしゃぶ', '宮崎地鶏の炭火焼き'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: 'えびの市の京町温泉郷に位置し、古き良き温泉情緒を残しながらも、自家源泉から湧き出る「美肌の湯」を源泉掛け流しで堪能できる老舗温泉ホテル。開放感あふれる大浴場や露天風呂で、少しぬめりのある柔らかな湯に浸かりながらリラックスした後は、宮崎牛のしゃぶしゃぶや、地元の豊かな山の幸をふんだんに盛り込んだ彩り豊かな和食膳を、アットホームなおもてなしと共にゆっくりと味わえる。',
+        price: '2食付き 14,000円〜',
+        image: './hotels/kyomachikankohotel.png',
+        tags: ['美肌の湯', '宮崎牛しゃぶしゃぶ', 'アットホーム'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad345121%2F', rakuten: 'https://a.r10.to/h5qIsC', ikyu: '#', yahoo: '#' }
     },
     {
         id: 'h-miyazaki-1-2',
         onsen_id: 'o-miyazaki-1',
-        name: '京町温泉 旅館 なか',
+        name: '京町温泉 玉泉館',
         prefecture: 'miyazaki',
         type: '老舗温泉旅館',
-        description: 'えびの市に位置する京町温泉の老舗旅館。単純硫黄泉の清澄な湯を源泉掛け流しで楽しめる内湯と露天風呂は、霧島の山々に囲まれた環境で心身の疲れを深く癒す。夕食は宮崎の食材を使った郷土会席で、宮崎地鶏の炭火焼き・えびの高原産の旬野菜・日向灘の旬魚・チキン南蛮など宮崎の食文化が旅情を豊かにする。',
-        price: '2食付き 18,000円〜',
-        image: './hotels/kyoumachionsenryokannaka.png',
-        tags: ['源泉掛け流しの硫黄泉', '宮崎地鶏の炭火焼き', 'えびの高原の自然'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '創業から続く伝統と、大正浪漫の雰囲気が漂う木造建築が魅力の、静かな時間が流れる全14室の老舗温泉旅館。広瀬川のせせらぎを聞きながら浸かる露天風呂や、趣のあるタイル張りの内湯で源泉100%の新鮮な湯を心ゆくまで楽しみ、夕食には「宮崎牛」のステーキや、えびの産の美味しいお米、旬の野菜を熟練の職人が丁寧に仕上げた滋味豊かな手作り料理を、落ち着いたお部屋で心ゆくまで堪能できる。',
+        price: '2食付き 7,500円〜',
+        image: './hotels/gyokusenkan.png',
+        tags: ['大正浪漫', '宮崎牛のステーキ', '広瀬川のせせらぎ'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad365982%2F', rakuten: 'https://a.r10.to/h8rWgh', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00918295%252F' }
     },
     {
         id: 'h-miyazaki-1-3',
         onsen_id: 'o-miyazaki-1',
-        name: '京町温泉 湯之元温泉旅館',
+        name: '京町温泉 十兵衛の宿',
         prefecture: 'miyazaki',
         type: '温泉旅館',
-        description: '霧島の自然に囲まれた京町温泉の温泉旅館。単純硫黄泉の湯を内湯と露天風呂で楽しめ、霧島連山の雄大な景色が旅人の心を解放する。夕食は宮崎の旬食材を使った会席料理で、宮崎牛の陶板焼き・日向灘のカンパチ・宮崎地鶏のたたき・日向夏を使ったドレッシングが南九州の豊かな食文化を体験できる会席として旅人の食欲を満たす。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/kyoumachionsenyuyukigenonizumiryokan.png',
-        tags: ['霧島連山の絶景', '宮崎牛の陶板焼き', '日向夏料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '江戸時代の宿場町を思わせる長屋門が印象的な、全室に源泉掛け流しの内湯や露天風呂を完備したプライベート感あふれる温泉宿。併設の「十兵衛うどん」で提供されるこだわりの出汁や、宮崎のブランド肉を贅沢に使用したボリュームたっぷりの夕食が人気で、誰にも邪魔されずに客室で何度も名湯に浸かりながら、まるでもう一つの我が家のようにリラックスした至福のひとときを過ごせる。',
+        price: '2食付き 19,500円〜',
+        image: './hotels/juubee.png',
+        tags: ['全室源泉掛け流し', '宮崎牛のステーキ', '十兵衛うどん'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad357185%2F', rakuten: 'https://a.r10.to/h5HU3t', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00031208%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00031208%252F' }
     },
 
     // ===== 青島温泉（宮崎）=====
