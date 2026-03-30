@@ -6644,42 +6644,42 @@ export const hotelList = [
         bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
     },
 
-    // ===== コスタビスタ沖縄温泉（沖縄）=====
+    // ===== シギラ黄金温泉（沖縄）=====
     {
         id: 'h-okinawa-1-1',
         onsen_id: 'o-okinawa-1',
-        name: 'コスタビスタ沖縄ホテル&スパ',
+        name: 'ホテルシギラミラージュ',
         prefecture: 'okinawa',
-        type: '温泉スパリゾートホテル',
-        description: '沖縄本島中部の高台に建つラグジュアリーリゾートホテル。沖縄では珍しい天然温泉を使ったスパ施設「琉球温泉 龍神の湯」を完備し、ナトリウム塩化物泉の海洋性温泉が東シナ海の絶景とともに旅人を癒す。夕食は沖縄の食材を使ったコース料理で、もとぶ牛のステーキ・恩納産のもずく・沖縄県産グルクン（魚）の料理・沖縄の伝統菓子を使ったデザートが琉球の食文化を伝える。',
-        price: '2食付き 45,000円〜',
-        image: './hotels/kosutabisutaokinawahoterusupa.png',
-        tags: ['沖縄唯一の天然温泉スパ', '東シナ海の絶景', 'もとぶ牛のステーキ'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '高級ビーチリゾート',
+        description: '宮古島の南岸、シギラセブンマイルズリゾートの象徴としてそびえ立つ、ラグジュアリーを極めた高層アーバンリゾート。全室が11階以上の「ベイサイド」や、全室プール付きの別棟「ミラージュフロア」など、洗練されたモダンな客室からは宮古ブルーの海が一望でき、シャンパンが流れる朝食ビュッフェや、宮古島の厳選食材を五感で楽しむ鉄板焼き・イタリアンなど、至福の美食体験とともに最高峰のホスピタリティを享受できる。',
+        price: '2食付き 26,000円〜',
+        image: './hotels/hoterushigiramirage.png',
+        tags: ['全室オーシャンビュー', 'プライベートプール付き客室あり', 'シャンパンブレックファスト', 'シギラ黄金温泉'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad330808%2F', rakuten: 'https://a.r10.to/hk4qr7', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002622%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002622%252F' }
     },
     {
         id: 'h-okinawa-1-2',
         onsen_id: 'o-okinawa-1',
-        name: '恩納温泉 ホテルモントレ沖縄スパ&リゾート',
+        name: 'アラマンダ インギャーコーラルヴィレッジ',
         prefecture: 'okinawa',
-        type: '温泉リゾートホテル',
-        description: '恩納村の美しいビーチに面した温泉リゾートホテル。沖縄の海洋性温泉を使ったスパ施設で癒しを体験できる。夕食は沖縄の食材を使ったビュッフェ＆コース料理で、石垣牛のステーキ・沖縄産もずく酢・ゴーヤーチャンプルー・ラフテー（沖縄の豚の角煮）など沖縄の多様な食文化が南国リゾートの雰囲気とともに旅人を楽しませる。',
-        price: '2食付き 35,000円〜',
-        image: './hotels/onnaonsenhoterumontoreokinawasuparizooto.png',
-        tags: ['恩納ビーチの絶景', '石垣牛のステーキ', '沖縄海洋性温泉'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: 'ヴィラリゾート',
+        description: '宮古島随一のシュノーケリングポイント「インギャーマリンガーデン」に隣接し、暮らすように過ごせる全室ロフト付きのコテージ型リゾート。全客室にジャグジーを完備した開放的なプライベートテラスがあり、家族やグループで賑やかに過ごせる「遊びの拠点」として最適で、島の食材をふんだんに使ったブッフェスタイルの料理や、海遊びの後にすぐリラックスできるアットホームな空間が、自由でアクティブな島旅を叶えてくれる。',
+        price: '2食付き 21,000円〜',
+        image: './hotels/aramandaingyakoraruvirage.png',
+        tags: ['全室ジャグジー完備', 'インギャーマリンガーデン至近', 'ロフト付きの遊び心ある客室', 'ファミリーに人気'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad338156%2F', rakuten: 'https://a.r10.to/hk4omV', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002435%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002435%252F' }
     },
     {
         id: 'h-okinawa-1-3',
         onsen_id: 'o-okinawa-1',
-        name: '沖縄温泉リゾート 琉天',
+        name: 'シギラベイサイドスイート アラマンダ',
         prefecture: 'okinawa',
-        type: '温泉旅館',
-        description: '沖縄の豊かな自然に囲まれた温泉旅館。沖縄の海洋性温泉を引いた内湯と露天風呂で、東シナ海の穏やかな海景色を眺めながらの湯浴みが旅人の心を解放する。夕食は沖縄の郷土食材を使った琉球料理の会席で、島豆腐を使った沖縄料理・ソーキそば・海ぶどうの和え物・沖縄県産マンゴーのスイーツが琉球王朝の食文化への入口として旅の体験を豊かにする。',
-        price: '2食付き 25,000円〜',
-        image: './hotels/okinawaonsenrizootoryuuten.png',
-        tags: ['琉球料理の会席', '沖縄の海洋性温泉', '東シナ海の絶景'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '高級リゾートホテル',
+        description: '全室がスイートルームという贅沢な空間で、日常を忘れて南国の風に抱かれる「大人のための隠れ家」リゾート。南国植物に囲まれたプライベートプール付きの客室「プールヴィラ ロイヤルスイート」は国内屈指の広さを誇り、ウミガメが泳ぐラグーンを眺めながら味わう至極のディナーや、極上のスパ体験、そして24時間対応のコンシェルジュサービスなど、すべてが記念日やハネムーンにふさわしい最上級のプライベートタイムを演出する。',
+        price: '2食付き 32,500円〜',
+        image: './hotels/shigirabeisidosuittoaramanda.png',
+        tags: ['全室スイートルーム', '国内最大級のプールヴィラ', 'ウミガメが泳ぐラグーン', '12歳未満宿泊制限エリアあり'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad356578%2F', rakuten: 'https://a.r10.to/h8bsxD', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000998%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000998%252F' }
     },
 
     // ===== 琉球温泉（沖縄）=====

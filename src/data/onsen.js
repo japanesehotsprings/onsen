@@ -1739,12 +1739,12 @@ export const onsenList = [
     // ===== 沖縄県 =====
     {
         id: 'o-okinawa-1',
-        name: 'コスタビスタ沖縄温泉',
+        name: 'シギラ黄金温泉',
         prefecture: 'okinawa',
         category: '塩化物泉',
         spring_type: 'ナトリウム塩化物泉',
-        description: '沖縄本島中部の天然温泉。エメラルドグリーンの海を望みながら天然温泉に浸かれる南国リゾートの温泉。',
-        image: './onsen/costa.png',
+        description: '宮古島最南端の天然温泉。琥珀色の湯に包まれ、色鮮やかな花々と緑に囲まれた開放感あふれる絶景の中で寛げる南国リゾートの温泉。',
+        image: './onsen/shigira.png',
         tags: ['南国リゾート', '海の温泉', '沖縄']
     },
     {
