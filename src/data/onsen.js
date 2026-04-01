@@ -1652,16 +1652,6 @@ export const onsenList = [
         tags: ['由布岳', 'アート', 'おしゃれ', '大分']
     },
     {
-        id: 'o-oita-3',
-        name: '観海寺温泉',
-        prefecture: 'oita',
-        category: '塩化物泉',
-        spring_type: '塩化物泉',
-        description: '別府の高台にある温泉。市街と海を見下ろす眺望が魅力。',
-        image: './onsen/kankaiji.png',
-        tags: ['眺望', '高台', '別府', '大分']
-    },
-    {
         id: 'o-oita-4',
         name: '長湯温泉',
         prefecture: 'oita',

@@ -6230,38 +6230,86 @@ export const hotelList = [
     {
         id: 'h-kumamoto-4-1',
         onsen_id: 'o-kumamoto-4',
-        name: '阿蘇内牧温泉 旅館 蘇山郷',
+        name: '阿蘇内牧温泉 五岳ホテル',
         prefecture: 'kumamoto',
-        type: '高級温泉旅館',
-        description: '阿蘇外輪山を一望する絶景の高台に建つ阿蘇内牧温泉の高級旅館。単純アルカリ性泉の柔らかな湯は肌に優しく美肌効果で知られ、阿蘇の雄大なカルデラを見渡す露天風呂が日本屈指の絶景スポット。夕食は阿蘇の最高食材・阿蘇赤牛のしゃぶしゃぶ・阿蘇高原の旬野菜・熊本産の馬刺しが並ぶ会席料理が旅の感動を高める。',
-        price: '2食付き 35,000円〜',
-        image: './hotels/asouchimakionsenryokansoyamagou.png',
-        tags: ['阿蘇カルデラの絶景', '阿蘇赤牛しゃぶしゃぶ', '熊本の馬刺し'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉ホテル',
+        description: '阿蘇内牧温泉に位置し、ビジネスホテルの利便性と、老舗旅館に負けない「天然温泉」をリーズナブルに両立させた実力派のホテル。地下から自噴する100%源泉掛け流しの湯を、24時間入浴可能な大浴場で心ゆくまで堪能できるのが最大の魅力。朝食は、阿蘇産のお米や地元の食材を活かした温かな和定食を専用会場で味わえ、夕食は温泉街の飲食店を自由に開拓できる「自由な旅」の拠点として、一人旅やビジネス、阿蘇観光のゲストに幅広く支持されている。',
+        price: '2食付き 12,000円〜',
+        image: './hotels/gogakuhoteru.png',
+        tags: ['源泉掛け流し', '阿蘇五岳の絶景', 'コスパ'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad346730%2F', rakuten: 'https://a.r10.to/h5riFb', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00908484%252F' }
     },
     {
         id: 'h-kumamoto-4-2',
         onsen_id: 'o-kumamoto-4',
-        name: '阿蘇プラザホテル',
+        name: '阿蘇内牧温泉 湯巡追荘',
         prefecture: 'kumamoto',
         type: '温泉ホテル',
-        description: '阿蘇内牧温泉の中心部に位置する温泉ホテル。単純アルカリ性泉の豊富な湯量を誇る大浴場と露天風呂から阿蘇の雄大な景色が楽しめる。夕食は熊本の食材を使ったビュッフェ＆会席スタイルの料理で、阿蘇赤牛のハンバーグ・熊本産の馬刺し・阿蘇の地野菜・タカナ漬けの炒め物など熊本の食文化が旅人を満足させ、阿蘇山観光の拠点として多くの旅行者に利用される。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/asopurazahoteru.png',
-        tags: ['阿蘇山観光の拠点', '阿蘇赤牛のビュッフェ', '熊本の馬刺し'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '「エンターテインメント・リゾート」をコンセプトに、豊富な湯量と多彩なサービスで家族やグループに圧倒的な人気を誇る内牧温泉の宿。18室ある貸切家族風呂が無料で何度でも利用できるほか、夕食の豪華和洋中ビュッフェでは、霜降り和牛の焼きたてステーキや新鮮な刺身、飲み放題までがセットになっており、夜には縁日やビンゴ大会など大人から子供まで楽しめるイベントが毎日開催される。',
+        price: '2食付き 17,500円〜',
+        image: './hotels/yumeguitousou.png',
+        tags: ['貸切家族風呂無料', '和洋中ビュッフェ', '縁日・ビンゴ大会'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad321249%2F', rakuten: 'https://a.r10.to/h50sPA', ikyu: '#', yahoo: '#' }
     },
     {
         id: 'h-kumamoto-4-3',
         onsen_id: 'o-kumamoto-4',
-        name: '内牧温泉 旅館 夢しずく',
+        name: '阿蘇内牧温泉 旅館 金時',
         prefecture: 'kumamoto',
         type: '温泉旅館',
-        description: '阿蘇内牧温泉の静かな環境に佇む温泉旅館。単純アルカリ性泉の柔らかな湯を源泉掛け流しで楽しめ、阿蘇カルデラの大自然に包まれた露天風呂が旅人の心を解放する。夕食は阿蘇の地産食材・阿蘇赤牛のすき焼き・阿蘇高原産の旬野菜・熊本産の馬刺しと地酒「白岳」の組み合わせが阿蘇の大地の豊かさを伝える山里会席として旅情を高める。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/uchimakionsenryokanyumeshizuku.png',
-        tags: ['源泉掛け流し', '阿蘇赤牛のすき焼き', '阿蘇カルデラの大自然'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '阿蘇内牧温泉の街中に佇む、創業以来変わらぬ誠実なおもてなしと、阿蘇の恵みを凝縮した「食」が自慢の全8室の老舗温泉旅館。24時間入浴可能な自家源泉掛け流しの湯を堪能した後は、店主自ら厳選した最高級の「あか牛」の溶岩焼きや、自家製米、旬の山菜をふんだんに盛り込んだ彩り豊かな会席料理に舌鼓を打ち、実家に帰ってきたような心地よい静寂の中で贅沢な休息のひとときを過ごせる。',
+        price: '素泊まり 7,500円〜',
+        image: './hotels/kinjitoryoukan.png',
+        tags: ['源泉掛け流し', 'あか牛の溶岩焼き', '阿蘇の山里会席'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad307113%2F', rakuten: 'https://a.r10.to/h5XnJr', ikyu: '#', yahoo: '#' }
+    },
+    {
+        id: 'h-kumamoto-4-4',
+        onsen_id: 'o-kumamoto-4',
+        name: '阿蘇内牧温泉 蘇山郷',
+        prefecture: 'kumamoto',
+        type: '温泉旅館',
+        description: '与謝野鉄幹・晶子夫妻も訪れた歴史を誇り、「阿蘇の旬を五感で楽しむ」をテーマにした、モダンな感性が光る内牧温泉の老舗宿。源泉掛け流しの露天風呂で美肌の湯に癒やされた後は、阿蘇の広大な大地で育った「あか牛」や地元の新鮮な野菜を主役にした、目にも鮮やかな創作会席を落ち着いた個室で堪能でき、夜には屋上の「焼酎BAR」で阿蘇の星空を眺めながら厳選された美酒をゆっくりと楽しめる。',
+        price: '2食付き 46,000円〜',
+        image: './hotels/sozangou.png',
+        tags: ['源泉掛け流し', 'あか牛の創作会席', '阿蘇の星空と焼酎BAR'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad327522%2F', rakuten: 'https://a.r10.to/hPKUY8', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00003379%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00003379%252F' }
+    },
+    {
+        id: 'h-kumamoto-4-5',
+        onsen_id: 'o-kumamoto-4',
+        name: '阿蘇内牧温泉 湯の宿 入船',
+        prefecture: 'kumamoto',
+        type: '温泉旅館',
+        description: '「料理」と「お湯」に一切の妥協を許さない、全7室のこだわり抜いた隠れ宿。5つの趣異なる貸切風呂では、驚くほど濃厚な析出物が付着する源泉100%の湯を贅沢に独り占めでき、夕食には「自家栽培」の野菜や厳選された阿蘇の食材を、熟練の職人が独創的な一皿へと昇華させた創作料理として提供され、その圧倒的なクオリティに全国から美食家たちが繰り返し訪れる。',
+        price: '2食付き 16,500円〜',
+        image: './hotels/yunoyadoirifune.png',
+        tags: ['源泉掛け流し', '自家栽培野菜の創作料理', '美食家が集う隠れ宿'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad331160%2F', rakuten: 'https://a.r10.to/hYHifM', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00909031%252F' }
+    },
+    {
+        id: 'h-kumamoto-4-6',
+        onsen_id: 'o-kumamoto-4',
+        name: '阿蘇内牧温泉 御料理旅館 親和苑',
+        prefecture: 'kumamoto',
+        type: '高級温泉旅館',
+        description: '見事な日本庭園の中に佇み、「料理旅館」の名にふさわしい至高の食体験を追求する、全12室の風情豊かな温泉宿。自家農園で育てた新鮮な無農薬野菜や阿蘇のあか牛をメインにした会席料理は、素材の力強さと繊細な技が融合した芸術的な味わいで、竹林に囲まれた幻想的な露天風呂や内湯で名湯を心ゆくまで堪能した後は、静寂に包まれた離れ風の客室で至福のリラックスタイムを享受できる。',
+        price: '2食付き 18,000円〜',
+        image: './hotels/shinwaen.png',
+        tags: ['日本庭園', '自家農園野菜の創作会席', '竹林の露天風呂'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad327067%2F', rakuten: 'https://a.r10.to/hYi5iU', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00901420%252F' }
+    },
+    {
+        id: 'h-kumamoto-4-7',
+        onsen_id: 'o-kumamoto-4',
+        name: 'あその旅宿 鷹の庄',
+        prefecture: 'kumamoto',
+        type: '高級温泉旅館',
+        description: '約4,000坪の広大な敷地に、全室離れ・源泉掛け流し露天風呂付きの客室が点在する、大人のためのプライベートリゾート。古民家風の重厚な佇まいの客室で、誰にも邪魔されずに阿蘇の名湯を独り占めでき、夕食には阿蘇の恵みをふんだんに盛り込んだ「旬菜会席」や、最高級のあか牛の炭火焼きを個室のダイニングで味わいながら、夜には満天の星空の下で静かに流れる贅沢な時間を堪能できる。',
+        price: '2食付き 25,500円〜',
+        image: './hotels/takanosho.png',
+        tags: ['全室離れ', '源泉掛け流し露天風呂', '阿蘇赤牛の炭火焼き'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad344210%2F', rakuten: 'https://a.r10.to/hk7yAa', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00919579%252F' }
     },
 
     // ===== 別府温泉（大分）=====
@@ -6340,43 +6388,6 @@ export const hotelList = [
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fgourmet%2Fgrm_alikejpA000875135%2F', rakuten: 'https://a.r10.to/hPU03R', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002536%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002536%252F' }
     },
 
-    // ===== 観海寺温泉（大分）=====
-    {
-        id: 'h-oita-3-1',
-        onsen_id: 'o-oita-3',
-        name: '杉乃井ホテル',
-        prefecture: 'oita',
-        type: '大型温泉リゾートホテル',
-        description: '別府湾を一望する山の斜面に広がる日本最大級の温泉リゾートホテル。炭酸水素塩泉・塩化物泉など多様な泉質の温泉を「棚湯」「ひょうたん温泉」など多彩な施設で楽しめる。夕食は大分の最高食材・別府産のフグ・関アジ・関サバの刺身・豊後牛のしゃぶしゃぶが並ぶ大分会席と地酒「いいちこ」の組み合わせが旅の満足度を高める。',
-        price: '2食付き 28,000円〜',
-        image: './hotels/suginoihoteru.png',
-        tags: ['日本最大級の温泉リゾート', '別府湾の絶景・棚湯', '関アジ・関サバ刺身'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-oita-3-2',
-        onsen_id: 'o-oita-3',
-        name: '観海寺温泉 ホテルシーウェーブ別府',
-        prefecture: 'oita',
-        type: '温泉ホテル',
-        description: '別府湾を一望する観海寺温泉の温泉ホテル。炭酸水素塩泉の柔らかな湯を大浴場と露天風呂で楽しめ、別府湾の絶景が旅の疲れを癒す。夕食は大分の食材・豊後牛のしゃぶしゃぶ・別府産の旬魚・大分県特産のかぼすを使った料理が旅人の食欲を満たし、別府地獄めぐりや高崎山自然動物園との観光の組み合わせに最適な宿として多くの旅行者に利用される。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/kanumiteraonsenhoterushiiueebubeppu.png',
-        tags: ['別府湾の絶景', '豊後牛しゃぶしゃぶ', '地獄めぐり観光の拠点'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-oita-3-3',
-        onsen_id: 'o-oita-3',
-        name: '観海寺温泉 旅館 野上本館',
-        prefecture: 'oita',
-        type: '老舗温泉旅館',
-        description: '観海寺温泉の高台に建つ別府湾を望む老舗旅館。炭酸水素塩泉の湯を源泉掛け流しで楽しめる内湯と露天風呂から別府湾の絶景が広がる。夕食は大分の旬食材・関アジ・関サバの刺身・豊後牛のすき焼き・大分のかぼす料理が老舗ならではの丁寧な会席として提供され、別府の温泉文化と大分の食の豊かさを余すことなく体験できる。',
-        price: '2食付き 25,000円〜',
-        image: './hotels/kanumiteraonsenryokannogamihonkan.png',
-        tags: ['源泉掛け流し', '関アジ・関サバ', '別府湾の高台絶景'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
 
     // ===== 長湯温泉（大分）=====
     {
