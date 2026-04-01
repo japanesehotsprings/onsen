@@ -6192,38 +6192,38 @@ export const hotelList = [
     {
         id: 'h-kumamoto-3-1',
         onsen_id: 'o-kumamoto-3',
-        name: '杖立温泉 ひぜんや',
+        name: 'つえたて温泉ひぜんや',
         prefecture: 'kumamoto',
         type: '老舗温泉旅館',
         description: '大分・熊本の県境に湧く杖立温泉の代表的な老舗旅館。炭酸水素塩泉の湯は杖立川に沿って設けられた蒸し風呂（蒸し湯）が名物で、100度近い蒸気を使った温泉蒸しは全身の疲れを深く癒す。夕食は阿蘇・熊本の食材・阿蘇の赤牛のしゃぶしゃぶ・山鹿産の菊池牛・杖立川の鮎を使った会席が旅情を高める。',
-        price: '2食付き 25,000円〜',
+        price: '2食付き 16,000円〜',
         image: './hotels/tsuetateonsenhizenya.png',
         tags: ['温泉蒸し湯の名物', '阿蘇赤牛しゃぶしゃぶ', '杖立川の渓谷'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad328423%2F', rakuten: 'https://a.r10.to/hgj6jF', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00031019%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00031019%252F' }
     },
     {
         id: 'h-kumamoto-3-2',
         onsen_id: 'o-kumamoto-3',
-        name: '元湯旅館 吉祥亭',
+        name: '杖立温泉 純和風旅館 泉屋',
         prefecture: 'kumamoto',
         type: '温泉旅館',
-        description: '杖立温泉の元湯に近い老舗旅館。炭酸水素塩泉の豊富な湯量を誇る蒸し風呂と内湯・露天風呂が自慢で、杖立川のほとりに設けられた露天風呂からの渓谷美が格別。夕食は熊本の食材を使った会席料理で、阿蘇の赤牛・大分産のカボスを使った料理・杖立川の鮎・山菜の天ぷらが旅情を深め、大分県湯布院からもアクセスできる温泉街として旅行者に愛される。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/motoyuryokankichijoutei.png',
-        tags: ['元湯近接', '渓谷の露天風呂', '阿蘇の赤牛会席'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '杖立温泉の街中に位置し、創業時から変わらぬ温かなおもてなしと、館内に立ち込める湯けむりが情緒を誘う全16室の純和風旅館。自家源泉から直接引き込まれた高温の温泉を利用した「むし湯」は、身体の芯からデトックスできると評判。夕食には、杖立の高温の蒸気で一気に蒸し上げ、素材の旨味を凝縮させた「セイロ蒸し」や、季節の創作会席を落ち着いたお部屋や個室でゆっくりと味わえる。',
+        price: '2食付き 14,000円〜',
+        image: './hotels/tsuetateonsenjunwafuryokansumiya.png',
+        tags: ['杖立温泉の街中', 'むし湯', 'セイロ蒸し'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad365604%2F', rakuten: 'https://a.r10.to/hgFJ4u', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00920068%252F' }
     },
     {
         id: 'h-kumamoto-3-3',
         onsen_id: 'o-kumamoto-3',
-        name: 'こうのゆ 旅館三翠園',
+        name: '杖立渓流の宿大自然',
         prefecture: 'kumamoto',
         type: '温泉旅館',
-        description: '杖立温泉の豊かな渓谷に囲まれた温泉旅館。炭酸水素塩泉の温泉蒸し湯と内湯・露天風呂を備え、杖立川の清流と渓谷美に包まれた湯浴みが旅人の心身を解放する。夕食は九州の旬食材・熊本の赤牛・阿蘇産の野菜・大分産のしいたけ・杖立川の天然鮎を使った九州山地の会席料理が旅の充実感を高め、温泉蒸しで調理した料理が杖立温泉ならではの食体験として旅人を魅了する。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/kounoyuryokansansuisono.png',
-        tags: ['温泉蒸し料理', '渓谷の絶景', '阿蘇の高原野菜'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '阿蘇の奥座敷、杖立川の渓流沿いに佇む、四季折々の景観と豊富な湯量が自慢の大型温泉宿。1,800年の歴史を誇る名湯を、川のせせらぎを間近に感じる大露天風呂や、杖立名物の「むし湯」で心ゆくまで堪能できる。夕食には熊本のブランド牛「あか牛」の陶板焼きや、地元小国郷の豊かな山の幸をふんだんに盛り込んだ彩り豊かな和食会席を、落ち着いた空間で家族やグループで賑やかに楽しめる。',
+        price: '2食付き 18,000円〜',
+        image: './hotels/tsuetatekeiryunoshiodaizen.png',
+        tags: ['渓流沿い', 'むし湯', 'あか牛の陶板焼き'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad329110%2F', rakuten: 'https://a.r10.to/hkAXFR', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00918769%252F' }
     },
 
     // ===== 阿蘇内牧温泉（熊本）=====
