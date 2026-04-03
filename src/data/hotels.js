@@ -6004,12 +6004,12 @@ export const hotelList = [
         onsen_id: 'o-nagasaki-1',
         name: '雲仙温泉 青雲荘',
         prefecture: 'nagasaki',
-        type: '老舗温泉旅館',
+        type: '温泉旅館',
         description: '日本初の国立公園に指定された雲仙の豊かな自然に囲まれた老舗旅館。含硫黄酸性泉の硫黄の香りが漂う湯は殺菌・美肌・神経痛に優れた効能を持ち、雲仙の地獄谷から届く源泉は白濁した個性ある湯色が特徴。夕食は長崎の食文化を反映した料理で、長崎和牛・五島列島の旬魚・島原産の具雑煮・ハトシなど和洋折衷の長崎会席が旅情を高める。',
-        price: '2食付き 28,000円〜',
+        price: '2食付き 16,500円〜',
         image: './hotels/unzenonsenseiunsou.png',
         tags: ['日本初の国立公園', '含硫黄白濁の地獄湯', '長崎和牛会席'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad383712%2F&_gl=1*11lyos*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzUyNTUxMTkkbzUkZzEkdDE3NzUyNTc3MTckajIzJGwwJGgw', rakuten: 'https://a.r10.to/h5DDcC', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00901337%252F' }
     },
     {
         id: 'h-nagasaki-1-2',
@@ -6018,22 +6018,22 @@ export const hotelList = [
         prefecture: 'nagasaki',
         type: '温泉旅館',
         description: '雲仙温泉の中心部に建つ風格ある温泉旅館。含硫黄酸性泉の硫黄の香りと白濁した湯は雲仙の地獄谷直近の源泉から引湯し、皮膚病・神経痛・慢性疲労に優れた効能を発揮する。夕食は長崎の食材・五島うどん・島原の地野菜・長崎港の旬魚・長崎和牛の料理が卓袱料理スタイルで提供され、長崎の食文化の多様性を旅の中で体験できる。',
-        price: '2食付き 22,000円〜',
+        price: '2食付き 26,000円〜',
         image: './hotels/unzenmiyazakiryokan.png',
         tags: ['雲仙地獄谷の源泉', '卓袱料理スタイル', '五島うどん'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad347181%2F&_gl=1*1l9t2lq*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzUyNTUxMTkkbzUkZzEkdDE3NzUyNTc1NDkkajMkbDAkaDA.', rakuten: 'https://a.r10.to/h5qxjK', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000728%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000728%252F' }
     },
     {
         id: 'h-nagasaki-1-3',
         onsen_id: 'o-nagasaki-1',
-        name: '雲仙いわき旅館',
+        name: '白濁源泉掛け流し八湯めぐりの湯 雲仙温泉 民芸モダンの宿 雲仙福田屋',
         prefecture: 'nagasaki',
         type: '温泉旅館',
         description: '雲仙温泉の豊かな自然に囲まれた温泉旅館。雲仙地獄から引湯した含硫黄酸性泉の白濁した湯を源泉掛け流しで楽しめる。夕食は長崎の旬食材・島原半島産の旬野菜・諫早の鰻料理・五島列島の旬魚・長崎和牛を使った会席料理が、雲仙の圧倒的な自然景観とともに旅の充実感を高め、普賢岳の壮大な眺めとの組み合わせが旅人に長崎の大自然を体感させる。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/unzeniwakiryokan.png',
+        price: '2食付き 17,500円〜',
+        image: './hotels/unzenfukudaya.png',
         tags: ['源泉掛け流しの白濁硫黄泉', '普賢岳の眺望', '五島列島の旬魚'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad320580%2F&_gl=1*r4y5q2*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzUyNTUxMTkkbzUkZzEkdDE3NzUyNTcyNjEkajEzJGwwJGgw', rakuten: 'https://a.r10.to/h5SCve', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001761%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001761%252F' }
     },
 
     // ===== 小浜温泉（長崎）=====
