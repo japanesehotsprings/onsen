@@ -6128,36 +6128,36 @@ export const hotelList = [
         onsen_id: 'o-nagasaki-3',
         name: '島原温泉 ホテル南風楼',
         prefecture: 'nagasaki',
-        type: '温泉旅館',
-        description: '有明海を望む島原温泉の代表的な旅館。炭酸水素塩泉の柔らかな湯を有明海一望の大浴場と露天風呂で楽しめる。夕食は島原の食文化の象徴・具雑煮（ぐぞうに）・島原手延そうめん・有明海の海の幸を中心とした料理が、島原城観光とともに島原の歴史と食文化を体験できる会席として旅人を満足させる。',
-        price: '2食付き 22,000円〜',
+        type: '温泉リゾート',
+        description: '創業110余年の歴史を誇りながら、常に新しいおもてなしを追求する島原を代表する温泉リゾート。対岸の熊本まで見渡せる有明海の絶景と、1,000坪もの広大な日本庭園がゲストを迎える。海と一体になれる「インフィニティ露天風呂」や、本物のサウナ好きを唸らせる充実した設備が自慢。夕食には島原の豊かな海の幸や地元ブランド牛を活かした創作会席を堪能でき、夜にはロビーでのフリードリンクサービスや庭園のライトアップなど、滞在を彩る多彩なイベントが毎日開催される。',
+        price: '2食付き 16,000円〜',
         image: './hotels/shimabaraonsenhoteruhaerou.png',
-        tags: ['有明海の絶景', '島原の具雑煮', '炭酸水素塩泉'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        tags: ['有明海の絶景', 'オールインクルーシブ', '日本庭園'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad348552%2F&_gl=1*1ekscse*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzUyNTUxMTkkbzUkZzEkdDE3NzUyNTUyMDEkajU5JGwwJGgw', rakuten: 'https://a.r10.to/h5DB2f', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002123%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002123%252F' }
     },
     {
         id: 'h-nagasaki-3-2',
         onsen_id: 'o-nagasaki-3',
-        name: '島原温泉 白土荘',
+        name: 'HOTELシーサイド島原',
         prefecture: 'nagasaki',
-        type: '温泉旅館',
-        description: '島原城のほど近くに建つ落ち着きある温泉旅館。炭酸水素塩泉の柔らかく肌に優しい湯を源泉掛け流しで楽しめる。夕食は島原の伝統料理・島原手延そうめんの流しそうめん・具雑煮・鯉の活造り・有明海の旬魚を使った会席料理が島原の豊かな食文化を伝え、島原城と島原温泉の歴史を感じながらの旅が心に残る体験をもたらす。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/shimabaraonsenshiratosou.png',
-        tags: ['島原城近接', '源泉掛け流し', '島原手延そうめん'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉ホテル',
+        description: '島原港のすぐ近くに位置し、東館と新館で異なる魅力を持つ大型温泉ホテル。地下深くから湧き出る2種類の源泉（炭酸水素塩泉と高濃度炭酸泉）を所有し、広々とした露天風呂からは有明海のパノラマビューを独り占めできる。夕食には地元・島原の伝統料理「具雑煮」や新鮮な活魚、厳選された肉料理を、落ち着いたレストランで上質なサービスと共に味わえる。ビジネスから家族旅行まで、幅広いニーズに応える快適な設備と開放感が魅力の一軒。',
+        price: '2食付き 12,000円〜',
+        image: './hotels/hotelseasideshimabara.png',
+        tags: ['有明海のパノラマビュー', '2種類の源泉', '島原の伝統料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad326270%2F&_gl=1*1xe6nv*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzUyNTUxMTkkbzUkZzEkdDE3NzUyNTU1ODAkajYwJGwwJGgw', rakuten: 'https://a.r10.to/hgJiQ3', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00908654%252F' }
     },
     {
         id: 'h-nagasaki-3-3',
         onsen_id: 'o-nagasaki-3',
-        name: '島原温泉 旅館 いなさ',
+        name: '島原温泉 旅館海望荘',
         prefecture: 'nagasaki',
         type: '温泉旅館',
-        description: '島原温泉の有明海に面した静かな旅館。炭酸水素塩泉の柔らかな湯を内湯と露天風呂で楽しめ、有明海の豊かな自然の中での湯浴みが旅人の疲れを癒す。夕食は有明海の珍味・ムツゴロウの蒲焼き・ワラスボの天ぷら・エツの刺身など有明海ならではの個性豊かな料理と島原の具雑煮が独特の食文化体験として旅の記憶を豊かにする。',
+        description: '島原温泉の高台に位置し、その名の通り有明海の穏やかな海原を眼下に望むことができる、全12室の温かな温泉旅館。源泉掛け流しの天然温泉を、24時間入浴可能な大浴場で心ゆくまで堪能できるのが魅力。夕食には、店主自ら市場で仕入れる有明海産の「ガザミ（ワタリガニ）」や新鮮な地魚、島原産の野菜をふんだんに盛り込んだボリュームたっぷりの家庭的な海鮮会席を、落ち着いたお部屋でゆっくりと味わえる。',
         price: '2食付き 18,000円〜',
-        image: './hotels/shimabaraonsenryokaninasa.png',
-        tags: ['有明海の珍味料理', 'ムツゴロウの蒲焼き', '有明海の絶景'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        image: './hotels/shimabaraonsenryokanmibousou.png',
+        tags: ['有明海の絶景', '源泉掛け流し', '家庭的な海鮮会席'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad332706%2F&_gl=1*d7kjnx*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzUyNTUxMTkkbzUkZzEkdDE3NzUyNTU3MDQkajYwJGwwJGgw', rakuten: 'https://a.r10.to/h5dI88', ikyu: '#', yahoo: '#' }
     },
 
     // ===== 黒川温泉（熊本）=====
