@@ -5926,38 +5926,38 @@ export const hotelList = [
     {
         id: 'h-saga-1-1',
         onsen_id: 'o-saga-1',
-        name: '和多屋別荘',
+        name: '萬象閣 敷島',
         prefecture: 'saga',
-        type: '高級温泉旅館',
-        description: '日本三大美肌の湯・嬉野温泉を代表する格調ある高級旅館。重曹分豊富なナトリウム炭酸水素塩泉の湯は肌をとろけるように柔��かくする美肌効果が全国屈指で、女性旅行者に絶大な人気。夕食は嬉野茶を使ったしゃぶしゃぶ「嬉野温泉湯豆腐」・佐賀牛の石焼き・有田焼の器で供される有明海の旬魚会席が旅の品格を高める。',
-        price: '2食付き 45,000円〜',
-        image: './hotels/watayabessou.png',
-        tags: ['日本三大美肌の湯', '嬉野茶のしゃぶしゃぶ', '有田焼の器'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉旅館',
+        description: '嬉野温泉の高台に位置し、「大切な人と過ごす時間」をコンセプトにした全室趣の異なる温泉旅館。最大の特徴は、趣向を凝らした8つの貸切露天風呂。誰にも邪魔されずに、日本三大美肌の湯を贅沢に独り占めできる。夕食には、とろけるような最高級の「佐賀牛」や、嬉野名物の「とろける豆腐」をメインに、地元の旬素材を美しく盛り込んだ創作料理を、プライベートを重視した個室ダイニングで心ゆくまで堪能できる。',
+        price: '2食付き 27,000円〜',
+        image: './hotels/manshokakushikishima.png',
+        tags: ['貸切露天風呂', '佐賀牛', '美肌の湯'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad346723%2F&_gl=1*1ob1wye*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzUyNjM5OTckbzYkZzEkdDE3NzUyNjYzMTMkajEwJGwwJGgw', rakuten: 'https://a.r10.to/h5XUiZ', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000698%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000698%252F' }
     },
     {
         id: 'h-saga-1-2',
         onsen_id: 'o-saga-1',
-        name: '旅亭 半水盧',
+        name: '嬉野 八十八',
         prefecture: 'saga',
         type: '高級温泉旅館',
-        description: '嬉野川のほとりに建つ全室離れ造りの高級旅館。ナトリウム炭酸水素塩泉の肌がとろけるような美肌の湯を専用露天風呂で楽しめる贅沢な設計が旅人を魅了する。夕食は佐賀の最高食材・佐賀牛のしゃぶしゃぶ・有明海のムツゴロウ・呼子産のイカを使った佐賀会席が旅情を高め、嬉野川の清流を聞きながらの滞在が心に残る特別な体験を演出する。',
-        price: '2食付き 60,000円〜',
-        image: './hotels/tabiteihanmizuro.png',
-        tags: ['全室露天風呂付き離れ', '佐賀牛しゃぶしゃぶ', '美肌の湯'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '2023年、嬉野温泉に誕生した「お茶」をテーマにした全室源泉掛け流し露天風呂付きのラグジュアリー旅館。全36室の広々とした客室で、美肌の湯をプライベートに楽しみながら、館内の「茶専科」では専属の茶師が淹れる極上の嬉野茶を堪能できる。夕食には、佐賀の豊かな大地で育った食材を活かし、お茶とのペアリングも楽しめる革新的な会席料理を提供。伝統の温泉文化とモダンなティーセレモニーが融合した、全く新しい滞在体験を叶えてくれる。',
+        price: '2食付き 39,000円〜',
+        image: './hotels/ureshinohappyahachiju.png',
+        tags: ['お茶テーマ', '全室露天風呂付き', '茶専科'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=http%3A%2F%2Fjalan.net%2Fyad390485%2F&_gl=1*htynkf*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzUyNjM5OTckbzYkZzEkdDE3NzUyNjY0MzYkajE4JGwwJGgw', rakuten: 'https://a.r10.to/h56DtQ', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00003062%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00003062%252F' }
     },
     {
         id: 'h-saga-1-3',
         onsen_id: 'o-saga-1',
-        name: '大正屋',
+        name: '嬉野温泉 大正屋',
         prefecture: 'saga',
         type: '老舗温泉旅館',
-        description: '嬉野温泉で明治時代から続く老舗旅館。ナトリウム炭酸水素塩泉の美肌の湯を豊富な湯量で楽しめる大浴場と露天風呂が自慢。夕食は嬉野温泉の名物・温泉湯豆腐・佐賀牛の陶板焼き・有明海の幸を使った佐賀会席と地酒「天山」の組み合わせが嬉野の旅の記憶を豊かにする長年愛される老舗の品格を伝える。',
-        price: '2食付き 30,000円〜',
+        description: '大正14年創業、建築家・吉村順三氏による計算し尽くされた美空間が広がる、嬉野を代表する格式高い老舗旅館。滝が流れる庭園を望む「四季の湯」や、広々とした大浴場で、とろりとした名湯を源泉掛け流しで堪能できる。夕食には、有明海の新鮮な魚介や最高ランクの佐賀牛を主役にした、伝統と気品が漂う本格的な懐石料理を、洗練されたおもてなしと共に味わえる。歴史の重みとモダンな建築美が調和した、至高のリラックス空間がここにある。',
+        price: '2食付き 19,500円〜',
         image: './hotels/taishouya.png',
-        tags: ['明治創業の老舗', '嬉野温泉湯豆腐', '佐賀牛の陶板焼き'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        tags: ['吉村順三建築', '源泉掛け流し', '佐賀牛懐石'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad321819%2F&_gl=1*orurvd*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzUyNjM5OTckbzYkZzEkdDE3NzUyNjY1OTEkajIxJGwwJGgw', rakuten: 'https://a.r10.to/hPZGqK', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001533%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001533%252F' }
     },
 
     // ===== 武雄温泉（佐賀）=====
