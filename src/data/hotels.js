@@ -5816,34 +5816,22 @@ export const hotelList = [
         prefecture: 'fukuoka',
         type: '老舗高級旅館',
         description: '創業1600年以上、世界最古の旅館の一つとしてギネスブック申請もあった筑紫野市の名旅館。大正ロマンの風格漂う建物は国の登録有形文化財で、筑後川水系に湧くナトリウム塩化物泉の豊富な湯量を誇る大浴場は圧巻の規模。夕食は博多の旬食材・玄界灘の地魚のお造り・博多明太子の和え物・筑後平野産の旬野菜を使った博多会席が旅の格を高める。',
-        price: '2食付き 35,000円〜',
+        price: '2食付き 25,500円〜',
         image: './hotels/ryokandaimarubessou.png',
         tags: ['世界最古級の老舗旅館', '国登録有形文化財', '豊富な湯量の大浴場'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad313868%2F&_gl=1*es151k*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzUzMTE4ODQkbzgkZzEkdDE3NzUzMTE5NTMkajU5JGwwJGgw', rakuten: 'https://a.r10.to/hPJfrb', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001044%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001044%252F' }
     },
     {
         id: 'h-fukuoka-1-2',
         onsen_id: 'o-fukuoka-1',
-        name: '二日市温泉 御前湯',
+        name: '二日市温泉 大観荘',
         prefecture: 'fukuoka',
         type: '温泉旅館',
-        description: '太宰府天満宮に近い二日市温泉の老舗旅館。ナトリウム塩化物泉の「美人の湯」として知られる名湯を源泉掛け流しで楽しめる。夕食は博多の食材・玄界灘の旬魚・博多もつ鍋・筑後産の旬野菜を使った会席が太宰府参拝の旅の充実感を高め、太宰府天満宮と太宰府政庁跡の観光と組み合わせた滞在プランが人気。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/futsukaichionsenomaeyu.png',
-        tags: ['太宰府天満宮の近く', '源泉掛け流しの美人の湯', '博多もつ鍋'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-fukuoka-1-3',
-        onsen_id: 'o-fukuoka-1',
-        name: '二日市温泉 博多湯',
-        prefecture: 'fukuoka',
-        type: '温泉旅館',
-        description: '二日市温泉の静かな環境に建つ温泉旅館。ナトリウム塩化物泉の湯は美肌・疲労回復に効能があり、博多市内からのアクセスの良さも手伝って都会の疲れを癒す旅に最適。夕食は玄界灘の旬魚・博多の水炊き・筑前産の山の幸を使った会席が旅人の食欲を満たし、福岡のグルメ文化と温泉の両方を手軽に楽しめる宿として旅行者に高い評価を得ている。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/futsukaichionsenhakatayu.png',
-        tags: ['博多市内からのアクセス良好', '博多水炊き', '玄界灘の旬魚'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '万葉集にも詠われた1300年の歴史を誇る二日市温泉に佇む、昭和天皇も宿泊された格式高い老舗旅館。広大な日本庭園を囲むように配された館内では、古都太宰府の風情を感じながら、源泉掛け流しの柔らかな名湯を「次郎の湯」や「大露天風呂」で心ゆくまで堪能できる。夕食には、玄界灘の新鮮な魚介や福岡のブランド牛を主役にした、熟練の職人による繊細な本格懐石料理を、庭園を望む落ち着いた和室で至高のおもてなしと共に味わえる。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/daikansou.png',
+        tags: ['万葉集', '源泉掛け流し', '日本庭園'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad343758%2F&_gl=1*a4h4nv*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzUzMTE4ODQkbzgkZzEkdDE3NzUzMTIyMDUkajYwJGwwJGgw', rakuten: 'https://a.r10.to/hkNK9I', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00903221%252F' }
     },
 
     // ===== 原鶴温泉（福岡）=====
