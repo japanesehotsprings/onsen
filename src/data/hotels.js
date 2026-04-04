@@ -5852,36 +5852,36 @@ export const hotelList = [
         onsen_id: 'o-fukuoka-2',
         name: '原鶴温泉 泰泉閣',
         prefecture: 'fukuoka',
-        type: '老舗温泉旅館',
+        type: '温泉旅館',
         description: '筑後川のほとりに建つ原鶴温泉の代表的な老舗旅館。単純アルカリ性泉の柔らかな湯は「博多から一番近い温泉地」の名泉として知られ、筑後川の清流を眺める露天風呂が名物。夕食は筑後の旬食材・うきは産の柿と梨・筑後川の天然鮎の塩焼き・朝倉産の桃を使ったデザート・筑後牛のしゃぶしゃぶが旅情を高める筑後会席として評判。',
-        price: '2食付き 25,000円〜',
+        price: '2食付き 13,500円〜',
         image: './hotels/haratsuruonsentaisenkaku.png',
         tags: ['筑後川沿いの老舗', '筑後川の天然鮎', '単純アルカリ性泉'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad323391%2F&_gl=1*yi5if5*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzUzMDMzMDEkbzckZzEkdDE3NzUzMDQzMDckajIyJGwwJGgw', rakuten: 'https://a.r10.to/hPVuxY', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00900205%252F' }
     },
     {
         id: 'h-fukuoka-2-2',
         onsen_id: 'o-fukuoka-2',
-        name: '吉井旅館',
+        name: '原鶴温泉 ホテルパーレンス小野屋',
         prefecture: 'fukuoka',
         type: '温泉旅館',
-        description: '原鶴温泉の中心部に位置する温泉旅館。単純アルカリ性泉の清澄な湯を源泉掛け流しで楽しめ、筑後川の渓流を望む露天風呂が旅人の心を癒す。夕食は筑後の豊かな食材・あまおう苺を使ったデザート・筑後地鶏の炭火焼き・うきは産の旬果物・筑後牛のすき焼きが家族的な雰囲気の中で供され、博多から日帰りでも行ける距離が地元客にも人気の理由。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/yoshiiryokan.png',
-        tags: ['源泉掛け流し', '筑後地鶏の炭火焼き', 'あまおう苺デザート'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '創業140余年の歴史を誇り、原鶴温泉の伝統とモダンな感性が融合した「お洒落な老舗」として知られる温泉ホテル。最大の特徴は、日本庭園の中に佇む「畳敷き」の露天風呂。足元が滑りにくく、冬でも温かみのある空間で、ダブル美肌の湯を源泉掛け流しで堪能できる。夕食には、福岡の高級ブランド「福岡和牛」や有明海の地魚、さらに地元朝倉の肥沃な大地が育んだ新鮮な野菜を主役にした、目にも鮮やかな創作会席を、洗練されたダイニングで心ゆくまで味わえる。',
+        price: '2食付き 16,000円〜',
+        image: './hotels/haratsuruonsenhotelparensonoya.png',
+        tags: ['源泉掛け流し', '畳敷きの露天風呂', '福岡和牛'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad360864%2F&_gl=1*15bltav*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzUzMDMzMDEkbzckZzEkdDE3NzUzMDQ0NDQkajYwJGwwJGgw', rakuten: 'https://a.r10.to/hgjM7A', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030108%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030108%252F' }
     },
     {
         id: 'h-fukuoka-2-3',
         onsen_id: 'o-fukuoka-2',
-        name: '原鶴温泉 ほどあいの宿 ふくせんか',
+        name: '原鶴温泉 原鶴の舞',
         prefecture: 'fukuoka',
         type: '温泉旅館',
-        description: '筑後川の流れを見下ろす高台に立つ原鶴温泉の旅館。単純アルカリ性泉の柔らかな湯を内湯と露天風呂で楽しめ、筑後川の四季の移ろいを眺めながらの湯浴みが格別。夕食は筑後の旬食材を使った会席料理で、筑後川の鮎・筑後牛のしゃぶしゃぶ・うきは産の果実を使ったデザートが旅人の食欲を満たし、博多の大都市文化と里山の自然を一度に楽しめる旅の拠点として評価される。',
-        price: '2食付き 22,000円〜',
+        description: '筑後川のほとりに位置し、全客室が「源泉掛け流しの露天風呂付き」という贅沢な造りの、大人のためのプライベート隠れ宿。すべての客室が川に面したリバービューとなっており、誰にも邪魔されずに耳を澄ませば川のせせらぎと共に、とろとろの美肌湯を24時間独り占めできる。夕食には、玄界灘や有明海の厳選された魚介、佐賀牛や福岡和牛などの最高級肉を贅沢に使用し、一皿一皿に職人の技が光る本格的な懐石料理を個室の食事処で堪能でき、至高のリラックスタイムを約束してくれる。',
+        price: '2食付き 34,500円〜',
         image: './hotels/haratsuruonsenhodoainoyadofukusenka.png',
-        tags: ['筑後川の高台絶景', '筑後牛しゃぶしゃぶ', '博多近郊の温泉地'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        tags: ['源泉掛け流し', '全室露天風呂付き', '筑後川リバービュー'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad314912%2F&_gl=1*164cknc*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzUzMDMzMDEkbzckZzEkdDE3NzUzMDQ1ODUkajYwJGwwJGgw', rakuten: 'https://a.r10.to/hoV6ys', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002915%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002915%252F' }
     },
 
     // ===== 脇田温泉（福岡）=====
