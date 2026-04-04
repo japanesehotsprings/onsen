@@ -5888,38 +5888,26 @@ export const hotelList = [
     {
         id: 'h-fukuoka-3-1',
         onsen_id: 'o-fukuoka-3',
-        name: '脇田温泉 山水館',
+        name: '脇田温泉 楠水閣',
         prefecture: 'fukuoka',
         type: '温泉旅館',
         description: '遠賀川上流の山峡に湧く脇田温泉の代表的な旅館。含硫黄単純温泉の硫黄の香りが漂う湯は神経痛・皮膚病・疲労回復に効能があり、遠賀川の清流沿いに設けられた露天風呂が絶品。夕食は北九州の旬食材・玄界灘の旬魚・北九州産の旬野菜・関門の天然ふぐを使った会席が旅情を高め、遠賀川の自然の中での静かな滞在が旅人の心身を癒す。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/wakitaonsensansuikan.png',
+        price: '2食付き 18,500円〜',
+        image: './hotels/wakitaonsennansui.png',
         tags: ['含硫黄温泉の効能', '遠賀川の清流露天風呂', '関門のふぐ料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad322668%2F&_gl=1*1pr8ov2*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzUzMDMzMDEkbzckZzEkdDE3NzUzMDMzNzMkajYwJGwwJGgw', rakuten: 'https://a.r10.to/h57L53', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030654%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030654%252F' }
     },
     {
         id: 'h-fukuoka-3-2',
         onsen_id: 'o-fukuoka-3',
-        name: '旅館 やまぼうし',
+        name: 'ルートイングランティア福岡宮若－脇田温泉－',
         prefecture: 'fukuoka',
         type: '温泉旅館',
-        description: '脇田温泉の山間に佇む家族経営の温泉旅館。含硫黄単純温泉の源泉掛け流しを内湯と露天風呂で楽しめ、遠賀川の渓流美に囲まれた自然の中での湯浴みが旅人の疲れを深く癒す。夕食は北九州の食材を使った家庭的な和食会席で、遠賀川の鮎・地元産の野菜・北九州の旬魚が女将の手で丁寧に仕上げられ、アットホームな雰囲気が何度でも訪れたくなる宿。',
-        price: '2食付き 17,000円〜',
-        image: './hotels/ryokanyamaboushi.png',
-        tags: ['源泉掛け流し', '家庭的なおもてなし', '遠賀川の渓流美'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-fukuoka-3-3',
-        onsen_id: 'o-fukuoka-3',
-        name: '脇田温泉 若竹荘',
-        prefecture: 'fukuoka',
-        type: '温泉旅館',
-        description: '脇田温泉の竹林に囲まれた静かな温泉旅館。含硫黄単純温泉の清澄な湯を源泉掛け流しで楽しめ、遠賀川の渓谷美を眺めながらの露天風呂が旅の疲れを癒す。夕食は遠賀川流域の旬食材・山菜の天ぷら・地元産のきのこ料理・北九州の旬魚を使った素朴な会席が女将の温かいもてなしとともに提供され、福岡市内から1時間圏内の静かな秘湯として口コミで人気が広がっている。',
-        price: '2食付き 16,000円〜',
-        image: './hotels/wakitaonsenwakatakesou.png',
-        tags: ['竹林の宿', '源泉掛け流し', '北九州の旬魚'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '犬鳴山系の豊かな自然に囲まれた脇田温泉に位置し、広大な敷地に多彩なレジャー施設を併設した大型温泉リゾートホテル。最大の特徴は、宿泊者が無料で利用できる併設の温浴施設「「湯めぐりの宿 脇田温泉 楠水閣」との提携による豊富な湯量。露天風呂やサウナ、さらには家族風呂も充実しており、アルカリ性単純泉の柔らかな湯を心ゆくまで堪能できる。夕食には、福岡のブランド牛や玄界灘の新鮮な魚介、地元の旬野菜をふんだんに盛り込んだ和洋折衷の会席料理を、開放感あふれるレストランで家族やグループと共に賑やかに楽しめる。',
+        price: '2食付き 15,500円〜',
+        image: './hotels/ruitoingurantiafukuokamiyawakitaonsenn.png',
+        tags: ['豊富な湯量', '家族やグループで賑やかに', '犬鳴山系の豊かな自然'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad355290%2F&_gl=1*t8vdw8*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzUzMDMzMDEkbzckZzEkdDE3NzUzMDM1OTEkajkkbDAkaDA.', rakuten: 'https://a.r10.to/h5qxOb', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00080431%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00080431%252F' }
     },
 
     // ===== 嬉野温泉（佐賀）=====
