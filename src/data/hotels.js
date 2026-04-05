@@ -3506,30 +3506,6 @@ export const hotelList = [
     {
         id: 'h-ishikawa-4-1',
         onsen_id: 'o-ishikawa-4',
-        name: 'みやびの宿 加賀百万石',
-        prefecture: 'ishikawa',
-        type: '料亭旅館',
-        description: '柴山潟に面した絶景の片山津温泉を代表する料亭旅館。含芒硝食塩泉の湯は神経痛・冷え性に効能があり、潟を見渡す露天風呂が名物。夕食は地元食材にこだわった加賀料理で、能登の香箱蟹・加賀野菜の炊き合わせ・のどぐろ一夜干しが地酒と絶妙に調和する。',
-        price: '2食付き 35,000円〜',
-        image: './hotels/miyabinoyadokagahyakumangoku.png',
-        tags: ['柴山潟の絶景', '香箱蟹', '含芒硝食塩泉'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-ishikawa-4-2',
-        onsen_id: 'o-ishikawa-4',
-        name: 'ホテルアローレ',
-        prefecture: 'ishikawa',
-        type: '温泉ホテル',
-        description: '片山津温泉の湖畔に建つ開放的な温泉ホテル。柴山潟と白山連峰を同時に見渡せる展望露天風呂は四季の移ろいを楽しめる絶景スポット。含食塩泉の温泉は体が温まりやすく冷え性改善に好評で、夕食は地魚の浜焼きや加賀野菜をふんだんに使った北陸会席が並ぶ。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/hoteruaroore.png',
-        tags: ['白山連峰の展望', '地魚浜焼き', '湖畔温泉'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-ishikawa-4-3',
-        onsen_id: 'o-ishikawa-4',
         name: '片山津温泉 佳水郷',
         prefecture: 'ishikawa',
         type: '老舗温泉旅館',
@@ -5729,44 +5705,6 @@ export const hotelList = [
         price: '2食付き 16,000円〜',
         image: './hotels/donkawaonsenokudonkawasou.png',
         tags: ['四国山地の秘湯', '渓谷露天風呂', '愛媛の山の幸'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-
-    // ===== 四万十温泉（高知）=====
-    {
-        id: 'h-kochi-1-1',
-        onsen_id: 'o-kochi-1',
-        name: '四万十温泉 ホテル星羅四万十',
-        prefecture: 'kochi',
-        type: '温泉旅館',
-        description: '日本最後の清流・四万十川を望む温泉旅館。単純アルカリ性泉の柔らかな湯を四万十川の絶景を眺めながら楽しめる露天風呂が名物。夕食は四万十川の恵み・天然うなぎの白焼き・青のりの天ぷら・川えびの唐揚げ・四万十の旬野菜を使った土佐会席が旅情を高め、日本の原風景ともいえる四万十川の景色とともに忘れがたい旅体験を提供する。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/shimantoonsenhoteruseirashimanto.png',
-        tags: ['四万十川の絶景', '天然うなぎの白焼き', '四万十の青のり'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-kochi-1-2',
-        onsen_id: 'o-kochi-1',
-        name: '四万十川温泉 柏荘',
-        prefecture: 'kochi',
-        type: '老舗温泉旅館',
-        description: '四万十市中心部に近い温泉旅館。単純アルカリ性泉の清澄な湯を源泉掛け流しで楽しめ、四万十川流域の自然に囲まれた環境で心身をリセットできる。夕食は四万十川流域の旬食材・川エビの唐揚げ・鮎��塩焼き・青のりのみそ汁・沈下橋近くの農家から届く旬野菜など四万十の大自然の恵みを存分に味わえる土佐会席が旅の充実感を高める。',
-        price: '2食付き 18,000円〜',
-        image: './hotels/shimantogawaonsenkashiwasou.png',
-        tags: ['源泉掛け流し', '四万十川の川エビ・鮎', '沈下橋観光の拠点'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-kochi-1-3',
-        onsen_id: 'o-kochi-1',
-        name: '四万十温泉 あかおか',
-        prefecture: 'kochi',
-        type: '温泉旅館',
-        description: '四万十川の清流が見渡せるロケーションに建つ温泉旅館。単純アルカリ性泉の湯を内湯と露天風呂で楽しみながら、四万十川の自然を存分に体感できる。夕食は四万十の食材・天然うなぎ・川エビ・青のり・四万十栗を使った土佐会席が地元農家と漁師から届く新鮮な食材の豊かさを伝え、日本最後の清流での滞在体験が旅人の心に深く刻まれる。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/shimantoonsenakaoka.png',
-        tags: ['日本最後の清流', '天然うなぎ・青のり料理', '四万十栗のデザート'],
         bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
     },
 

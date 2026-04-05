@@ -1482,16 +1482,6 @@ export const onsenList = [
 
     // ===== 高知県 =====
     {
-        id: 'o-kochi-1',
-        name: '四万十温泉',
-        prefecture: 'kochi',
-        category: '単純泉',
-        spring_type: '単純泉',
-        description: '日本最後の清流・四万十川近くの温泉。川漁師文化と大自然の中でのんびりと湯に浸かれる秘湯。',
-        image: './onsen/shimanto.png',
-        tags: ['四万十川', '清流', '秘湯', '高知']
-    },
-    {
         id: 'o-kochi-2',
         name: 'あしずり温泉',
         prefecture: 'kochi',
