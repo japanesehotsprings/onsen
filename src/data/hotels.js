@@ -5778,34 +5778,34 @@ export const hotelList = [
         prefecture: 'kochi',
         type: '温泉ホテル',
         description: '四国最南端・足摺岬のほど近くに建つ温泉ホテル。太平洋に突き出た足摺岬の壮大な絶景を独り占めできる展望露天風呂が名物で、ナトリウム塩化物泉の海洋性温泉は体の芯から温まる。夕食は土佐の最高食材・カツオの塩たたき・四万十の青のり・高知産の柑橘を使った土佐会席と地酒「司牡丹」の組み合わせが足摺の旅の記憶を豊かにする。',
-        price: '2食付き 28,000円〜',
+        price: '2食付き 16,000円〜',
         image: './hotels/ashizurionsenashizurikokusaihoteru.png',
         tags: ['足摺岬の絶景', 'カツオの塩たたき', 'ナトリウム塩化物泉'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad321015%2F&_gl=1*fm1lm5*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzUzNDg3ODUkbzkkZzEkdDE3NzUzNDg4MzEkajE0JGwwJGgw', rakuten: 'https://a.r10.to/hP30uC', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00906877%252F' }
     },
     {
         id: 'h-kochi-2-2',
         onsen_id: 'o-kochi-2',
-        name: 'ホテル足摺園',
+        name: 'TheMana Village',
         prefecture: 'kochi',
-        type: '温泉旅館',
-        description: '足摺岬の入口に建つ温泉旅館。ナトリウム塩化物泉の海洋性温泉を大浴場と露天風呂で楽しめ、太平洋の大海原を望む絶景の湯浴みが旅人の心を解放する。夕食は土佐の旬食材・鰹のわら焼きたたき・土佐金目鯛の煮付け・高知産の地野菜を使った土佐会席が、四国八十八ヶ所お遍路の旅の疲れをしっかり癒す豊かな食体験として提供される。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/hoteruashizurisono.png',
-        tags: ['太平洋の絶景', '鰹のわら焼きたたき', 'お遍路の宿'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉リゾート',
+        description: '高知県・足摺岬の断崖に佇み、太平洋の雄大なパノラマを眼下に望む、アジア最大級の滞在型リゾート。かつての老舗旅館を大規模リノベーションし、イタリアンレストランや絶景カフェ、広大なテラスを備えた洗練された空間へと進化を遂げた。全室オーシャンビューの客室からは、朝は水平線から昇る朝日、夜は満天の星空を独り占めできる。夕食には、高知の豊かな山海の幸をイタリアンの技法で仕上げたコース料理を堪能でき、四国最南端ならではの圧倒的な自然エネルギーを全身で享受できる。',
+        price: '2食付き 59,000円〜',
+        image: './hotels/themanavillage.png',
+        tags: ['断崖絶壁', '太平洋の絶景', 'アジア最大級'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad384060%2F&_gl=1*g5rs8x*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzUzNDg3ODUkbzkkZzEkdDE3NzUzNDg5ODkkajQkbDAkaDA.', rakuten: 'https://a.r10.to/hPK5at', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00003069%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00003069%252F' }
     },
     {
         id: 'h-kochi-2-3',
         onsen_id: 'o-kochi-2',
-        name: '足摺温泉 海のホテル一禅',
+        name: 'アシズリテルメ',
         prefecture: 'kochi',
-        type: '温泉旅館',
-        description: '足摺岬の豊かな自然に囲まれた静かな温泉旅館。ナトリウム塩化物泉の海洋性温泉を源泉掛け流しで楽しめ、太平洋の荒波を眺めながらの露天風呂は足摺ならではの圧倒的なスケールの絶景が楽しめる。夕食は土佐のカツオ・高知産の清水サバ・四万十の天然うなぎを使った会席と高知の地酒の組み合わせが土佐の食の豊かさを実感させる。',
-        price: '2食付き 25,000円〜',
-        image: './hotels/ashizurionsenuminohoteruichizen.png',
-        tags: ['源泉掛け流し', '清水サバ料理', '太平洋の露天風呂'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: 'ライフスタイルホテル',
+        description: '国立公園内の高台に位置し、建築家・内藤廣氏が設計したモダンな建築美と、自然との調和が魅力のライフスタイルホテル。2021年のリブランドにより、白を基調とした地中海リゾートのような洗練されたデザインへと生まれ変わった。あえてテレビを置かない客室で、波の音と鳥のさえずりに耳を傾けながら、天然温泉の露天風呂で心身を解放できる。夕食には、地元・土佐の新鮮な魚介や「土佐あかうし」をメインにした、目にも鮮やかな創作フレンチを、落ち着いたダイニングで贅沢に味わえる。',
+        price: '2食付き 13,500円〜',
+        image: './hotels/ashizuriterume.png',
+        tags: ['建築家・内藤廣', '創作フレンチ', '土佐あかうし'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad356634%2F&_gl=1*f1acr4*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzUzNDg3ODUkbzkkZzEkdDE3NzUzNDkxODkkajE0JGwwJGgw', rakuten: 'https://a.r10.to/hP8B3T', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00919376%252F' }
     },
 
     // ===== 二日市温泉（福岡）=====
