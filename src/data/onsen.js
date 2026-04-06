@@ -1466,7 +1466,7 @@ export const onsenList = [
         category: '単純泉',
         spring_type: 'アルカリ性単純泉',
         description: '日本最古の温泉の一つ。夏目漱石「坊っちゃん」の舞台になった道後温泉本館は国の重要文化財。',
-        image: './onsen/otogo.png',
+        image: './onsen/dogo.png',
         tags: ['日本最古', '坊っちゃん', '国重要文化財', '愛媛']
     },
     {
