@@ -5674,38 +5674,38 @@ export const hotelList = [
     {
         id: 'h-ehime-2-1',
         onsen_id: 'o-ehime-2',
-        name: '鈍川温泉 ふるさと荘',
+        name: '門田旅館',
         prefecture: 'ehime',
         type: '温泉旅館',
-        description: '今治市の山間に湧く鈍川温泉の代表的な旅館。単純硫黄泉の硫黄の香り漂う湯は神経痛・皮膚病・疲労回復に優れた効能を持ち、鈍川渓谷の清流沿いの露天風呂が絶品。夕食は今治の名産・今治タオルと関連する綿花料理は珍しく、鯛の宝楽焼き・瀬戸内の旬魚・今治産のジャコを使った料理が愛媛の食文化を体験できる会席として旅情を高める。',
-        price: '2食付き 18,000円〜',
-        image: './hotels/donkawaonsenfurusatosou.png',
-        tags: ['単純硫黄泉の療養湯', '鈍川渓谷の露天風呂', '鯛の宝楽焼き'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '今治市街地の中心部に位置し、サイクリストの聖地・しまなみ海道の拠点として長く愛される全10室の老舗割烹旅館。一番の自慢は、瀬戸内海の荒波に揉まれた鮮度抜群の「来島鯛」を主役にした本格的な割烹料理。夕食には、鯛の姿造りや名物の「鯛めし」、さらには今治名物の焼き鳥や地元の旬野菜をふんだんに盛り込んだ彩り豊かな会席料理を、趣ある個室でゆっくりと味わえる。家庭的な温かいおもてなしと、旅の疲れを癒やす広々とした大浴場で、心温まる滞在を堪能できる。',
+        price: '2食付き 9,000円〜',
+        image: './hotels/kadotaryokan.png',
+        tags: ['サイクリストの聖地', '来島鯛', '鯛めし', '今治焼き鳥'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad358659%2F&_gl=1*1gcltqc*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzU0NDc5MjMkbzEwJGcxJHQxNzc1NDQ3OTY5JGoxNCRsMCRoMA..', rakuten: 'https://a.r10.to/hgwURK', ikyu: '#', yahoo: '#' }
     },
     {
         id: 'h-ehime-2-2',
         onsen_id: 'o-ehime-2',
-        name: '旅館 鈍川荘',
+        name: '鈍川温泉 皆楽荘',
         prefecture: 'ehime',
         type: '温泉旅館',
-        description: '鈍川温泉の渓谷沿いに建つ静かな温泉旅館。単純硫黄泉の透き通った湯を源泉掛け流しで楽しめ、鈍川渓谷の清流と山の緑に囲まれた環境が旅人の心身を深く癒す。夕食は今治の地産食材・瀬戸内の鯛料理・今治産の牡蠣・愛媛産のじゃこてんなど愛媛の食文化を伝える素朴な会席が女将の手で丁寧に仕上げられる。',
-        price: '2食付き 15,000円〜',
-        image: './hotels/ryokandonkawasou.png',
-        tags: ['源泉掛け流しの硫黄泉', '渓谷沿いの静寂', '瀬戸内鯛料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '「伊予の三湯」の一つに数えられ、道後温泉と並ぶ古湯・鈍川温泉の渓流沿いに佇む、昭和のノスタルジーが漂う温泉旅館。最大の特徴は、とろりとした肌触りで「美人の湯」として名高い天然温泉を、源泉掛け流しで堪能できる大浴場。夕食には、鈍川の清流が育んだ「猪肉」のぼたん鍋や、新鮮な川魚、山菜など、この土地ならではの山の幸をふんだんに盛り込んだ滋味豊かな郷土料理を味わえる。川のせせらぎを聞きながら、日常を忘れて静かに過ごしたい湯治派にも支持される一軒。',
+        price: '2食付き 12,500円〜',
+        image: './hotels/donkawaonsenkaarakusou.png',
+        tags: ['伊予の三湯', '源泉掛け流し', '猪肉のぼたん鍋', '渓流沿い'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad399032%2F&_gl=1*u5h1r9*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzU0NDc5MjMkbzEwJGcxJHQxNzc1NDQ4MjQ3JGoyJGwwJGgw', rakuten: 'https://a.r10.to/h5MaDR', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00917343%252F' }
     },
     {
         id: 'h-ehime-2-3',
         onsen_id: 'o-ehime-2',
-        name: '鈍川温泉 奥鈍川荘',
+        name: '鈍川温泉 美賀登',
         prefecture: 'ehime',
         type: '秘湯旅館',
-        description: '鈍川渓谷の最奥部に位置する秘湯旅館。今治市の山奥に湧く単純硫黄泉は効能豊かで、秘境感満点の渓谷露天風呂で入浴できる希少な体験が旅人を惹きつける。夕食は愛媛の山の幸・山菜の天ぷら・渓流の川魚料理・愛媛産のじゃこてん・鯛めしが素朴な山里の食卓として提供され、四国山地の大自然の中での静かな滞在が都会の喧騒を忘れさせる。',
-        price: '2食付き 16,000円〜',
-        image: './hotels/donkawaonsenokudonkawasou.png',
-        tags: ['四国山地の秘湯', '渓谷露天風呂', '愛媛の山の幸'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '鈍川渓谷の最も奥まった絶好のロケーションに位置し、全ての客室から渓流の絶景を望むことができる、全12室の風情豊かな温泉宿。自慢の露天風呂では、豊かな緑と清流の音に包まれながら、アルカリ性単純泉の滑らかな湯を心ゆくまで楽しめる。夕食には、今治の港で揚がったばかりの瀬戸内の魚介と、地元産の山菜や川魚を組み合わせた、山海の恵みが一度に楽しめる豪華な会席料理を提供。静寂に包まれた秘湯のような雰囲気の中で、贅沢な大人の休日を演出してくれる。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/donkawaonsenmigato.png',
+        tags: ['渓流絶景', '源泉掛け流し', '山海の幸会席', '秘湯の宿'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad334020%2F&_gl=1*17j2h2t*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzU0NDc5MjMkbzEwJGcxJHQxNzc1NDQ4NDM3JGo2MCRsMCRoMA..', rakuten: 'https://a.r10.to/h5D57f', ikyu: '#', yahoo: '#' }
     },
 
     // ===== あしずり温泉（高知）=====
