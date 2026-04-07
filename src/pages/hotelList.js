@@ -1,7 +1,9 @@
 import { hotelList } from '../data/hotels.js';
 import { prefectures } from '../data/prefectures.js';
+import { updateSEO } from '../seo.js';
 
 export function renderHotelList() {
+  updateSEO('全国の温泉宿・旅館一覧', '全国の有名温泉旅館やリゾートホテル、秘湯の宿からこだわりの宿泊先を見つけて旅行の計画を立てよう。');
   const app = document.getElementById('app');
 
   const prefMap = {};

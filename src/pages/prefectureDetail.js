@@ -6,6 +6,7 @@
 import { getPrefectureById } from '../data/prefectures.js';
 import { getOnsenByPrefecture } from '../data/onsen.js';
 import { getHotelsByOnsen } from '../data/hotels.js';
+import { updateSEO } from '../seo.js';
 
 /**
  * 都道府県詳細ページのHTMLを生成して表示する
@@ -16,6 +17,7 @@ export function renderPrefectureDetail({ params }) {
   const prefecture = getPrefectureById(params.id);
 
   if (!prefecture) {
+    updateSEO('ページが見つかりません', '');
     app.innerHTML = `
       <div class="page-header">
         <div class="container">
@@ -26,6 +28,8 @@ export function renderPrefectureDetail({ params }) {
     `;
     return;
   }
+
+  updateSEO(`${prefecture.name}の温泉地一覧`, `${prefecture.name}（${prefecture.kana}）のおすすめ温泉地・秘湯の一覧です。泉質や特徴からお気に入りの温泉旅行を見つけよう。`);
 
   const onsenItems = getOnsenByPrefecture(params.id);
 

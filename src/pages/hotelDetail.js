@@ -6,6 +6,7 @@
 import { getHotelById } from '../data/hotels.js';
 import { onsenList } from '../data/onsen.js';
 import { getPrefectureById } from '../data/prefectures.js';
+import { updateSEO } from '../seo.js';
 
 /**
  * 予約サイトのURLを生成する
@@ -56,6 +57,7 @@ export function renderHotelDetail({ params }) {
   const hotel = getHotelById(params.id);
 
   if (!hotel) {
+    updateSEO('ページが見つかりません', '');
     app.innerHTML = `
       <div class="page-header">
         <div class="container">
@@ -70,6 +72,8 @@ export function renderHotelDetail({ params }) {
   const onsen = onsenList.find(o => o.id === hotel.onsen_id);
   const prefecture = onsen ? getPrefectureById(onsen.prefecture) : null;
   const bookingLinks = buildBookingLinks(hotel);
+
+  updateSEO(`${hotel.name}（${onsen?.name || '温泉宿'}）の宿泊情報・予約`, hotel.description);
 
   app.innerHTML = `
     <div class="hotel-detail-hero">

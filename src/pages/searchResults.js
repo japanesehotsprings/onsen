@@ -7,6 +7,7 @@ import { prefectures } from '../data/prefectures.js';
 import { searchOnsen, getOnsenCategories, onsenList } from '../data/onsen.js';
 import { searchHotels } from '../data/hotels.js';
 import { navigateTo } from '../router.js';
+import { updateSEO } from '../seo.js';
 
 /**
  * 検索結果ページのHTMLを生成して表示する
@@ -15,6 +16,12 @@ import { navigateTo } from '../router.js';
 export function renderSearchResults({ query }) {
   const app = document.getElementById('app');
   const searchQuery = query.q || '';
+
+  if (searchQuery) {
+    updateSEO(`「${searchQuery}」の検索結果`, `「${searchQuery}」に関連する温泉地や宿の検索結果一覧です。`);
+  } else {
+    updateSEO('温泉検索', '全国の温泉地から温泉や宿を検索できます。');
+  }
 
   // 温泉と宿の両方を検索
   const onsenResults = searchQuery ? searchOnsen(searchQuery).map(o => ({ ...o, itemType: 'onsen' })) : [];

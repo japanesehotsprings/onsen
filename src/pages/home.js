@@ -8,6 +8,7 @@ import { regions, prefectures, getPrefecturesByRegion } from '../data/prefecture
 import { onsenList } from '../data/onsen.js';
 import { getRandomHotels } from '../data/hotels.js';
 import { navigateTo } from '../router.js';
+import { updateSEO } from '../seo.js';
 
 /**
  * おすすめ温泉をランダムに取得
@@ -22,6 +23,7 @@ function getPickupOnsen() {
  * トップページのHTMLを生成して表示する
  */
 export function renderHome() {
+  updateSEO('全国47都道府県の温泉地を探そう', '日本全国47都道府県の温泉地やおすすめの温泉宿を検索できる温泉専門メディア。泉質・地域・特徴から全国の名湯・秘湯を探そう。');
   const app = document.getElementById('app');
   const pickupOnsen = getPickupOnsen();
   const featuredHotels = getRandomHotels(8);

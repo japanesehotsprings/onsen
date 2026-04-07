@@ -6,6 +6,7 @@
 import { onsenList } from '../data/onsen.js';
 import { getHotelsByOnsen } from '../data/hotels.js';
 import { getPrefectureById } from '../data/prefectures.js';
+import { updateSEO } from '../seo.js';
 
 /**
  * 温泉地詳細ページのHTMLを生成して表示する
@@ -16,6 +17,7 @@ export function renderOnsenDetail({ params }) {
   const onsen = onsenList.find(o => o.id === params.id);
 
   if (!onsen) {
+    updateSEO('ページが見つかりません', '');
     app.innerHTML = `
       <div class="page-header">
         <div class="container">
@@ -29,6 +31,8 @@ export function renderOnsenDetail({ params }) {
 
   const prefecture = getPrefectureById(onsen.prefecture);
   const hotels = getHotelsByOnsen(onsen.id);
+
+  updateSEO(`${onsen.name}（${prefecture?.name || ''}）の温泉宿・詳細情報`, onsen.description);
 
   app.innerHTML = `
     <div class="prefecture-hero onsen-hero">

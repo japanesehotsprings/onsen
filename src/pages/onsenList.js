@@ -1,7 +1,9 @@
 import { onsenList } from '../data/onsen.js';
 import { prefectures } from '../data/prefectures.js';
+import { updateSEO } from '../seo.js';
 
 export function renderOnsenList() {
+    updateSEO('全国の温泉地一覧', '日本全国の名湯・秘湯の温泉地一覧。泉質や特徴から行きたい温泉地を探せます。');
     const app = document.getElementById('app');
 
     // 都道府県名を取得するためのマップ

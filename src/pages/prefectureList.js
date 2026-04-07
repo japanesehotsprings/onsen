@@ -4,11 +4,13 @@
  */
 
 import { regions, getPrefecturesByRegion } from '../data/prefectures.js';
+import { updateSEO } from '../seo.js';
 
 /**
  * 都道府県一覧ページのHTMLを生成して表示する
  */
 export function renderPrefectureList() {
+    updateSEO('都道府県から温泉地を探す', '47都道府県の地域別温泉地一覧。北海道から沖縄まで、人気の名湯や秘湯を見つけて旅行の計画を立てよう。');
     const app = document.getElementById('app');
 
     app.innerHTML = `
