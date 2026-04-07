@@ -1205,9 +1205,9 @@ export const onsenList = [
         prefecture: 'hyogo',
         category: '塩化物泉',
         spring_type: '含鉄ナトリウム塩化物泉（金泉）・含炭酸ラジウム泉（銀泉）',
-        description: '日本三古湯の一つ。金泉・銀泉の2種の湯が楽しめる名湯。豊臣秀吉も愛した日本最古の温泉の一つ。',
+        description: '日本三名泉の一つ。金泉・銀泉の2種の湯が楽しめる名湯。豊臣秀吉も愛した日本最古の温泉の一つ。',
         image: './onsen/arima.png',
-        tags: ['日本三古湯', '金泉', '銀泉', '兵庫']
+        tags: ['日本三名泉', '金泉', '銀泉', '兵庫']
     },
     {
         id: 'o-hyogo-2',

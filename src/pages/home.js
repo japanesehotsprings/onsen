@@ -51,6 +51,7 @@ export function renderHome() {
           <span class="hero-tag" data-q="美肌の湯">美肌の湯</span>
           <span class="hero-tag" data-q="露天風呂">露天風呂</span>
           <span class="hero-tag" data-q="日本三名泉">日本三名泉</span>
+          <span class="hero-tag" data-q="インクルーシブ">インクルーシブ</span>
         </div>
       </div>
     </section>

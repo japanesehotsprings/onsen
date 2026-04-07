@@ -5522,14 +5522,14 @@ export const hotelList = [
     {
         id: 'h-tokushima-1-1',
         onsen_id: 'o-tokushima-1',
-        name: '秘境の宿 ホテル祖谷温泉',
+        name: '渓谷の隠れ宿 祖谷美人',
         prefecture: 'tokushima',
         type: '秘境温泉旅館',
-        description: '日本三大秘境・祖谷渓の断崖をケーブルカーで下った先に湧く、アクセスそのものが旅のハイライトとなる秘境温泉旅館。炭酸水素塩泉の清澄な湯は断崖の岩盤から自噴し、祖谷渓の絶壁を見下ろしながらの露天風呂は日本屈指の秘湯体験を提供する。夕食は祖谷の山の幸・祖谷そば・阿波尾鶏・祖谷産のじゃがいもを使った祖谷料理が旅の感動を高める。',
-        price: '2食付き 35,000円〜',
-        image: './hotels/hikyounoyadohoteruiyaonsen.png',
-        tags: ['ケーブルカーでしか行けない秘湯', '断崖の露天風呂', '祖谷そば・阿波尾鶏'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '日本三大秘境・祖谷渓の断崖に突き出すように建つ、全9室すべてが「源泉掛け流し露天風呂付き」の贅沢な隠れ宿。客室のテラスからは、吸い込まれるような深い渓谷美とエメラルドグリーンの祖谷川を独り占めできる。夕食には、宿の名物である打ちたての「祖谷そば」をはじめ、阿波牛や囲炉裏でじっくり焼いた「あゆ・あめご」、郷土料理「でこまわし」など、秘境の恵みを一品ずつ丁寧に仕立てた会席料理を、個室の食事処でゆっくりと堪能できる。',
+        price: '2食付き 23,000円〜',
+        image: './hotels/keikokunokakureyaduiyabijin.png',
+        tags: ['源泉掛け流し露天風呂付き', '断崖の絶景', '祖谷そば・阿波牛'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad322959%2F&_gl=1*19bwq76*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzU1MzEwMjckbzEyJGcxJHQxNzc1NTMxMDY0JGoyMyRsMCRoMA..', rakuten: 'https://a.r10.to/hRqPOX', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001756%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001756%252F' }
     },
     {
         id: 'h-tokushima-1-2',
@@ -5537,23 +5537,23 @@ export const hotelList = [
         name: '祖谷渓温泉 和の宿 ホテル祖谷温泉',
         prefecture: 'tokushima',
         type: '温泉旅館',
-        description: '日本三大秘境の一つ・祖谷渓の入口に建つ温泉旅館。炭酸水素塩泉の柔らかな湯を露天風呂で楽しめ、祖谷渓の断崖と清流が作り出す絶景を眺めながらの湯浴みが格別。夕食は徳島の山の幸・祖谷そばのにゅう麺・阿波和牛のしゃぶしゃぶ・鮎の塩焼き・山菜の天ぷらなど祖谷の豊かな食材が旅情を高める。',
-        price: '2食付き 28,000円〜',
+        description: '祖谷渓の切り立った崖に位置し、そこから専用の「ケーブルカー」で谷底まで5分かけて下りていく、川沿いの源泉掛け流し露天風呂が全国的にも有名な宿。硫黄の香りが漂う自慢の湯は、39度前後のぬる湯で、気泡が体にまとわりつく極上の泉質。夕食には、徳島の豊かな大地が育んだ「阿波尾鶏」や山菜、新鮮な川魚をメインにした、洗練された「阿波会席」を。モダンにリニューアルされた足湯付き客室など、秘境の静寂と上質なホスピタリティが融合した至福の時間を過ごせる。',
+        price: '2食付き 25,500円〜',
         image: './hotels/iyakeionsennagonoyadohoteruiyaonsen.png',
-        tags: ['祖谷渓の絶景', '阿波和牛しゃぶしゃぶ', '炭酸水素塩泉'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        tags: ['ケーブルカーで下る秘湯', '源泉掛け流し露天風呂', '阿波尾鶏・山菜料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad336010%2F&_gl=1*vafv7x*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzU1MzEwMjckbzEyJGcxJHQxNzc1NTMxNjI1JGo2MCRsMCRoMA..', rakuten: 'https://a.r10.to/h8eGEi', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001083%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001083%252F' }
     },
     {
         id: 'h-tokushima-1-3',
         onsen_id: 'o-tokushima-1',
-        name: 'かずら橋温泉 みどりや',
+        name: '新祖谷温泉 ホテルかずら橋',
         prefecture: 'tokushima',
         type: '温泉旅館',
-        description: '祖谷のかずら橋から徒歩圏内に建つ温泉旅館。祖谷温泉の炭酸水素塩泉を引いた内湯と露天風呂から、祖谷渓の雄大な山並みが望める。夕食は徳島の山里の食材・阿波尾鶏の炭火焼き・祖谷そば・山菜のてんぷら・祖谷のこんにゃく料理など祖谷の伝統食材を使った会席が、世界的に珍しい蔦製の橋「かずら橋」観光とともに旅の充実感を高める。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/kazurahashionsenmidoriya.png',
-        tags: ['かずら橋観光の拠点', '阿波尾鶏の炭火焼き', '祖谷そば'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '名所「祖谷のかずら橋」からほど近い高台に建ち、宿専用の「スロープカー」で登った先にある「天空露天風呂」が名物の温泉宿。標高の高い位置から祖谷の山並みを一望でき、夜には満天の星空を眺めながらの湯浴みが楽しめる。夕食には、昔ながらの「囲炉裏」を囲み、炭火で焼いた「あめご」や「そば米雑炊」、郷土の滋味あふれる料理を賑やかに味わえるのが魅力。古き良き山里の温もりと、現代の快適さが調和した、家族やグループ旅行にも最適な一軒。',
+        price: '2食付き 23,000円〜',
+        image: './hotels/shiniyuaonsenhoterukazurabashi.png',
+        tags: ['かずら橋観光の拠点', '天空露天風呂', '囲炉裏料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad328584%2F&_gl=1*jdi2fp*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzU1MzEwMjckbzEyJGcxJHQxNzc1NTMxNzc4JGoyMyRsMCRoMA..', rakuten: 'https://a.r10.to/h5LEi0', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00914593%252F' }
     },
 
     // ===== 塩江温泉（香川）=====
