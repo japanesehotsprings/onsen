@@ -5560,38 +5560,38 @@ export const hotelList = [
     {
         id: 'h-kagawa-1-1',
         onsen_id: 'o-kagawa-1',
-        name: '塩江温泉 翠波',
+        name: 'いろりの宿 魚虎',
         prefecture: 'kagawa',
         type: '温泉旅館',
-        description: '香川県唯一の温泉地・塩江温泉の���表的な旅館。弱アルカリ性単純温泉の柔らかな湯は肌に優しく美肌効果で知られ、内場ダム湖を望む露天風呂が名物。夕食は讃岐うどんを主役にしたうどん会席・三豊産の讃岐牛・小豆島産オリーブオイルを使った讃岐料理など香川の食文化が楽しめる会席で、香川への旅の拠点として多くの旅行者に利用される。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/shionoeonsensuinami.png',
-        tags: ['香川唯一の温泉地', '讃岐うどん会席', '弱アルカリ性美肌湯'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '塩江温泉郷の入り口に佇み、その名の通り「囲炉裏（いろり）」を囲んで味わう滋味豊かな料理が自慢の全6室の小さなお宿。一番の魅力は、香川のブランド牛「讃岐牛」や、近くの清流で獲れた新鮮な「あまご」、地元の山菜などを炭火でじっくり焼き上げる囲炉裏会席。パチパチとはぜる火を眺めながら、どこか懐かしい空間で至福の夕食を楽しめる。美肌の湯として知られる塩泉を、こぢんまりとした大浴場でゆったりと堪能でき、心温まる家庭的なおもてなしにリピーターも多い。',
+        price: '2食付き 10,000円〜',
+        image: './hotels/irorinosukouko.png',
+        tags: ['囲炉裏会席', '讃岐牛・あまご', '家庭的なおもてなし'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad333552%2F&_gl=1*ttxgxa*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzU1MjQ4MjIkbzExJGcxJHQxNzc1NTI1OTg2JGoxMiRsMCRoMA..', rakuten: 'https://a.r10.to/hkV0vy', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00918913%252F' }
     },
     {
         id: 'h-kagawa-1-2',
         onsen_id: 'o-kagawa-1',
-        name: '塩江温泉 ことぶき旅館',
+        name: 'ハイパーリゾート ヴィラ塩江',
         prefecture: 'kagawa',
         type: '老舗温泉旅館',
-        description: '四国山地の豊かな自然に囲まれた塩江温泉の老舗旅館。弱アルカリ性単純温泉の清澄な湯を源泉掛け流しで楽しめる数少ない宿の一つ。夕食は香川の旬食材・讃岐コーチンの焼き鳥・三豊産の地野菜・小豆島産のオリーブを使った料理が女将の手で丁寧に仕上げられ、四国山地の静寂の中での静かな滞在体験が旅人の心を解放する。',
-        price: '2食付き 18,000円〜',
-        image: './hotels/shionoeonsenkotobukiryokan.png',
-        tags: ['源泉掛け流し', '讃岐コーチン料理', '四国山地の秘湯'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '内場ダムの湖畔に建つ、北欧のリゾートホテルのような開放感あふれる温泉リゾート。全室レイクビューの客室からは、四季折々に表情を変える湖と山々の絶景を一望できる。最大の特長は、多彩な温浴施設。大浴場や露天風呂はもちろん、温泉プールやサウナも完備されており、アクティブな休日にも最適。夕食には、瀬戸内の新鮮な魚介や香川の旬野菜をフレンチや和食のコースで堪能でき、夜には湖面に映る月明かりを眺めながら、静寂と癒やしのひとときを過ごせる。',
+        price: '2食付き 12,000円〜',
+        image: './hotels/hyperresortvirashioe.png',
+        tags: ['レイクビュー', '温泉プール・サウナ', 'フレンチ・和食コース'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad351208%2F&_gl=1*1bt4uqc*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzU1MjQ4MjIkbzExJGcxJHQxNzc1NTI2MDU1JGozNiRsMCRoMA..', rakuten: 'https://a.r10.to/hPx1Jq', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00902253%252F' }
     },
     {
         id: 'h-kagawa-1-3',
         onsen_id: 'o-kagawa-1',
-        name: '塩江温泉センターホテル',
+        name: '塩江温泉 新樺川観光ホテル',
         prefecture: 'kagawa',
         type: '温泉ホテル',
-        description: '塩江温泉の中心部に建つ温泉ホテル。弱アルカリ性単純温泉の豊富な湯量を誇る大浴場と露天風呂で旅の疲れを癒せる。夕食は讃岐うどん・小豆島産のそうめん・讃岐牛の陶板焼き・瀬戸内の旬魚を組み合わせた香川会席が、アクセスしやすい立地と相まって金刀比羅宮参拝と組み合わせた観光旅行の拠点として人気の宿。',
-        price: '2食付き 16,000円〜',
-        image: './hotels/shionoeonsensentaahoteru.png',
-        tags: ['アクセス便利な立地', '金刀比羅宮観光の拠点', '讃岐牛・うどん会席'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '塩江温泉の最も奥まった静かな場所に位置し、広々とした展望大浴場から「さぬきの奥座敷」の豊かな自然を望むことができる、全38室の温泉ホテル。自慢の天然温泉は、とろりとした肌触りが特徴で、露天風呂では川のせせらぎを聞きながら心ゆくまでリラックスできる。夕食には、香川名物の「讃岐うどん」や、旬の地魚、地元農家から届く新鮮な野菜をふんだんに盛り込んだボリュームたっぷりの和食膳を、上質なホスピタリティと共に賑やかに堪能できる。',
+        price: '2食付き 13,500円〜',
+        image: './hotels/shionoeonsenkarakawankankohoteru.png',
+        tags: ['展望大浴場', '川のせせらぎ', '讃岐うどん・地魚料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad386576%2F&_gl=1*jmcfjl*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzU1MjQ4MjIkbzExJGcxJHQxNzc1NTI2MTUxJGoyNSRsMCRoMA..', rakuten: 'https://a.r10.to/hkBwiP', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00900397%252F' }
     },
 
     // ===== こんぴら温泉郷（香川）=====
