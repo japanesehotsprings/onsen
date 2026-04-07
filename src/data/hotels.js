@@ -5602,10 +5602,10 @@ export const hotelList = [
         prefecture: 'kagawa',
         type: '高級温泉旅館',
         description: '金刀比羅宮の表参道沿いに建つ格調ある高級旅館。金刀比羅宮の1,368段の石段を登る旅の疲れをアルカリ性単純温泉の美肌の湯で癒せる参拝客に愛されてきた宿。夕食は讃岐の最高食材・讃岐牛のしゃぶしゃぶ・三豊産の鮮魚・小豆島産オリーブ豚の料理が並ぶ洗練された讃岐会席と地酒「悦凱陣」の組み合わせが旅の品格を高める。',
-        price: '2食付き 40,000円〜',
+        price: '2食付き 21,000円〜',
         image: './hotels/kotohirakadan.png',
         tags: ['金刀比羅宮の参道沿い', '讃岐牛しゃぶしゃぶ', 'アルカリ性美肌湯'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad340881%2F&_gl=1*rg5t5k*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzU1MjQ4MjIkbzExJGcxJHQxNzc1NTI0ODg3JGo2MCRsMCRoMA..', rakuten: 'https://a.r10.to/hFg8jY', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001454%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001454%252F' }
     },
     {
         id: 'h-kagawa-2-2',
@@ -5614,22 +5614,22 @@ export const hotelList = [
         prefecture: 'kagawa',
         type: '温泉ホテル',
         description: '金刀比羅宮を眼下に望む高台に建つこんぴら温泉郷の温泉ホテル。アルカリ性単純温泉の豊富な湯量を誇る大浴場と露天風呂から金刀比羅宮と讃岐平野の絶景が楽しめる。夕食は讃岐うどん・讃岐コーチン・瀬戸内の旬魚・小豆島のオリーブオイルを使った讃岐会席が旅人の食欲を満たし、こんぴらさん参拝と温泉を組み合わせた旅プランの最高の拠点となる。',
-        price: '2食付き 28,000円〜',
+        price: '2食付き 20,000円〜',
         image: './hotels/kotohiragurandohoterusakuranoshou.png',
         tags: ['金刀比羅宮の絶景', '讃岐うどん・コーチン料理', '観光の拠点'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad320570%2F&_gl=1*18yem2k*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzU1MjQ4MjIkbzExJGcxJHQxNzc1NTI0OTgxJGoyNyRsMCRoMA..', rakuten: 'https://a.r10.to/hYiYb9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000383%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000383%252F' }
     },
     {
         id: 'h-kagawa-2-3',
         onsen_id: 'o-kagawa-2',
-        name: 'こんぴら温泉 湯元八千代',
+        name: '湯元こんぴら温泉華の湯 紅梅亭',
         prefecture: 'kagawa',
-        type: '老舗温泉旅館',
-        description: '金刀比羅宮の参道近くに建つ老舗旅館。アルカリ性単純温泉の柔らかな湯を源泉掛け流しで楽しめる宿として参拝客に長年愛されてきた。夕食は讃岐の地産食材を使った会席料理で、讃岐牛の朴葉焼き・瀬戸内の天然鯛のお造り・金刀比羅宮縁の縁起物料理が女将の温かいもてなしとともに心に残る旅の食体験を提供する。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/konpiraonsenyumotoyachiyo.png',
-        tags: ['金刀比羅宮参道近く', '源泉掛け流し', '瀬戸内天然鯛料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉旅館',
+        description: '金刀比羅宮の参道口に位置し、館内で「15種類の湯巡り」が楽しめる贅沢な温泉旅館。2つの異なる源泉を持ち、露天風呂付き客室や、趣の異なる3つの大浴場で名湯を心ゆくまで堪能できる。夕食には、讃岐の恵みである「讃岐牛」や、瀬戸内海の新鮮な魚介をふんだんに盛り込んだ、五感で楽しむ本格会席を提供。オープンキッチンで仕上げる熱々の料理や、熟練の職人による繊細な盛り付けを、洗練されたダイニングや個室で堪能できる。',
+        price: '2食付き 20,000円〜',
+        image: './hotels/koubaitei.png',
+        tags: ['金刀比羅宮参道近く', '15種類の湯巡り', '讃岐牛・瀬戸内鮮魚'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad334063%2F&_gl=1*g639ff*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzU1MjQ4MjIkbzExJGcxJHQxNzc1NTI1MDg3JGo2MCRsMCRoMA..', rakuten: 'https://a.r10.to/h5LJP1', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000382%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000382%252F' }
     },
 
     // ===== 道後温泉（愛媛）=====
