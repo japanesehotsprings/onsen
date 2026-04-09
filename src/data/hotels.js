@@ -5446,38 +5446,38 @@ export const hotelList = [
     {
         id: 'h-yamaguchi-1-1',
         onsen_id: 'o-yamaguchi-1',
-        name: '湯田温泉 松田屋ホテル',
+        name: 'お宿Onn 湯田温泉',
         prefecture: 'yamaguchi',
-        type: '老舗高級旅館',
-        description: '創業江戸時代、幕末の志士・西郷隆盛・木戸孝允・伊藤博文ゆかりの老舗旅館。アルカリ性単純温泉の湯は歴史ある名湯として知られ、幕末維新の気概を感じる数寄屋造りの空間が旅人を特別な時間に誘う。夕食は下関のふぐ料理・長門の仙崎産ぶり・山口産のやまのいも料理など山口が誇る食材を使った長州会席が歴史の旅をより豊かにする。',
-        price: '2食付き 35,000円〜',
-        image: './hotels/yudaonsenmatsudayahoteru.png',
-        tags: ['幕末維新の志士ゆかりの宿', '下関ふぐ料理', 'アルカリ性名湯'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉旅館',
+        description: '2022年に誕生した、木のぬくもりを感じるモダンでスタイリッシュな温泉ホテル。「湯田温泉の新しいスタンダード」をコンセプトに、セルフチェックインの導入や洗練されたラウンジなど、自由で軽快な滞在を提案している。最大の魅力は、隣接する老舗旅館「湯田温泉 ユウベルホテル松政」の大浴場や露天風呂、さらには足湯などを宿泊特典として利用できる点。機能的な客室と歴史ある名湯を両立させた、ビジネスや一人旅、カップルにも最適な次世代型のライフスタイルホテル。',
+        price: '2食付き 13,500円〜',
+        image: './hotels/oyaduyudaonsen.png',
+        tags: ['2022年開業', 'セルフチェックイン', 'ユウベルホテル松政の湯'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad358670%2F&_gl=1*kl22ru*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzU3MDQ5MDAkbzE0JGcxJHQxNzc1NzA0OTkyJGo1OCRsMCRoMA..', rakuten: 'https://a.r10.to/h5HU4L', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00082472%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00082472%252F' }
     },
     {
         id: 'h-yamaguchi-1-2',
         onsen_id: 'o-yamaguchi-1',
-        name: '湯田温泉 西の雅 常盤',
+        name: '湯田温泉 湯の宿 味の宿 梅乃屋',
         prefecture: 'yamaguchi',
         type: '温泉旅館',
-        description: '山口市内に近い便利なロケーションの湯田温泉の旅館。アルカリ性単純温泉の湯を源泉掛け流しで楽しめる内湯と露天風呂が自慢。夕食は山口県の最高食材・関門の天然とらふぐ刺身・萩産の鮮魚・長門の仙崎かまぼこ・獺祭で仕上げた料理など山口の食文化を存分に体験できる会席が旅の食欲を満足させる。',
-        price: '2食付き 28,000円〜',
-        image: './hotels/yudaonsennishinomasatokiwa.png',
-        tags: ['源泉掛け流し', '関門の天然ふぐ料理', '山口市内近郊'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '「食」と「癒やし」にこだわる、全20室の心温まる温泉旅館。自慢の料理は、野菜ソムリエの資格を持つ女将と熟練の料理人が厳選した、地元産の「旬」を最大限に引き出した創作会席。山口名物のふぐはもちろん、自家農園の野菜や県産のブランド肉など、健康と美味しさを両立させた一皿が並ぶ。100%源泉掛け流しの天然温泉は、肌にまとわりつくような美肌の湯。大浴場や露天風呂でゆっくりと癒やされた後は、美味しい料理を堪能する、まさに「味の宿」としての醍醐味を味わえる。',
+        price: '2食付き 18,000円〜',
+        image: './hotels/yudaonsenminoyadoumeya.png',
+        tags: ['源泉掛け流し', '野菜ソムリエの女将', '自家農園の野菜'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad360158%2F&_gl=1*l73dqn*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzU3MDQ5MDAkbzE0JGcxJHQxNzc1NzA1MjgxJGoxMyRsMCRoMA..', rakuten: 'https://a.r10.to/h52Bwv', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00908660%252F' }
     },
     {
         id: 'h-yamaguchi-1-3',
         onsen_id: 'o-yamaguchi-1',
-        name: 'SPA&HOTEL 和今',
+        name: 'やまぐち・湯田温泉 古稀庵',
         prefecture: 'yamaguchi',
-        type: '温泉ホテル',
-        description: '湯田温泉の中心部に建つ現代的な温泉ホテル。アルカリ性単純温泉の豊富な湯量を誇る大浴場とサウナが充実。夕食は山口の食材・長門産の仙崎鮮魚・下関産のふぐ・山口県産和牛の料理が揃う和洋折衷の会席が、中原中也の生家・瑠璃光寺観光とも相性が良い山口観光の拠点として多くの旅行者に利用されている。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/spahotelwaima.png',
-        tags: ['山口市内の便利な立地', '仙崎鮮魚料理', '中原中也ゆかりの地'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '高級温泉旅館',
+        description: '約3,000坪の広大な敷地にわずか16室という贅沢を極めた、山口県を代表する最高級モダン旅館。全客室が源泉掛け流しの露天風呂付き・テラス付きのスイート仕様となっており、庭園を望む開放的な空間で至福のプライベート時間を過ごせる。夕食には、玄界灘や瀬戸内の最高級の魚介、厳選された山口和牛など、その日最も輝く食材を贅沢に使った「美食の芸術」とも呼べる懐石料理を提供。洗練された現代建築と、古き良き日本のホスピタリティが融合した、特別な日のための聖域。',
+        price: '2食付き 38,500円〜',
+        image: './hotels/yudaonsenkokian.png',
+        tags: ['露天風呂付き客室', '美食の懐石料理', 'プライベートな空間'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad372199%2F&_gl=1*twth6w*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzU3MDQ5MDAkbzE0JGcxJHQxNzc1NzA1NTg4JGo1OSRsMCRoMA..', rakuten: 'https://a.r10.to/h8iaC2', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001715%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001715%252F' }
     },
 
     // ===== 長門湯本温泉（山口）=====
