@@ -5374,10 +5374,10 @@ export const hotelList = [
         prefecture: 'hiroshima',
         type: '高級老舗旅館',
         description: '世界遺産・宮島の紅葉谷に建つ明治23年創業の格調ある老舗旅館。宮島の山中に湧くナトリウム塩化物泉の温泉は「宮島の隠れ湯」として旅人に珍重され、紅葉谷の清流を望む露天風呂が名物。夕食は瀬戸内の最高食材・宮島産の牡蠣料理・穴子の柳川鍋・広島産レモンを使った料理など瀬戸内の恵みを凝縮した会席が旅の感動を高める。',
-        price: '2食付き 45,000円〜',
+        price: '2食付き 35,000円〜',
         image: './hotels/miyajimaonsenmiyajimanoyadoiwasou.png',
         tags: ['明治23年創業・世界遺産の宿', '宮島牡蠣フルコース', '紅葉谷の露天風呂'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad360646%2F&_gl=1*1tq304j*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzU3MDk1OTgkbzE1JGcxJHQxNzc1NzA5NjcyJGo2MCRsMCRoMA..', rakuten: 'https://a.r10.to/hPeifd', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001178%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001178%252F' }
     },
     {
         id: 'h-hiroshima-1-2',
@@ -5386,22 +5386,22 @@ export const hotelList = [
         prefecture: 'hiroshima',
         type: '温泉旅館',
         description: '世界遺産・厳島神社に最も近い旅館の一つ。宮島温泉のナトリウム塩化物泉を引いた内湯と露天風呂では厳島神社の大鳥居が望める。夕食は瀬戸内の宮島産牡蠣の土手鍋・広島名物の穴子めし・瀬戸内の地魚お造りなど広島の食文化を存分に堪能できる会席が、世界遺産の島でしか味わえない特別な体験として旅人を魅了する。',
-        price: '2食付き 35,000円〜',
+        price: '2食付き 25,000円〜',
         image: './hotels/miyajimagurandohoteruarimoto.png',
         tags: ['厳島神社至近の宿', '宮島牡蠣の土手鍋', '大鳥居の絶景'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad332416%2F&_gl=1*1y2okck*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzU3MDk1OTgkbzE1JGcxJHQxNzc1NzA5ODExJGoyJGwwJGgw', rakuten: 'https://a.r10.to/hoQPSi', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000836%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000836%252F' }
     },
     {
         id: 'h-hiroshima-1-3',
         onsen_id: 'o-hiroshima-1',
-        name: '錦水館',
+        name: '宮島 錦水館',
         prefecture: 'hiroshima',
         type: '温泉旅館',
         description: '宮島の自然に囲まれた静かなロケーションに建つ温泉旅館。宮島温泉のナトリウム塩化物泉を源泉掛け流しで楽しめ、宮島ならではの自然の音に包まれた湯浴みが旅人の心を癒す。夕食は宮島の海の幸・瀬戸内産の牡蠣・広島県産のカキと穴子を使った郷土料理「牡蠣めし」・広島名物のもみじ饅頭の味噌汁など広島の食文化が旅の記憶を豊かにする。',
-        price: '2食付き 28,000円〜',
+        price: '2食付き 42,000円〜',
         image: './hotels/nishikimizukan.png',
         tags: ['源泉掛け流し', '瀬戸内牡蠣・穴子料理', '宮島の自然'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad335734%2F&_gl=1*1tsa4ag*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzU3MDk1OTgkbzE1JGcxJHQxNzc1NzA5OTcxJGo0JGwwJGgw', rakuten: 'https://a.r10.to/hPT9O9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001261%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001261%252F' }
     },
 
     // ===== 湯来温泉（広島）=====
@@ -5412,34 +5412,10 @@ export const hotelList = [
         prefecture: 'hiroshima',
         type: '温泉旅館',
         description: '広島市内から車で約1時間の山峡に湧く湯来温泉の温泉旅館。単純アルカリ性泉の柔らかな湯は美肌効果で知られ、佐伯川の清流沿いの露天風呂が旅人の心を解放する。夕食は広島の山の幸・広島産の旬野菜・佐伯川の天然鮎・広島牛の料理が素朴な山里会席として供され、大都市・広島から近い「隠れた名湯」として地元の人々に長年愛されてきた。',
-        price: '2食付き 20,000円〜',
+        price: '2食付き 15,000円〜',
         image: './hotels/yukirojji.png',
         tags: ['広島市近郊の秘湯', '佐伯川の清流露天風呂', '広島牛料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-hiroshima-2-2',
-        onsen_id: 'o-hiroshima-2',
-        name: '湯来温泉 美山荘',
-        prefecture: 'hiroshima',
-        type: '温泉旅館',
-        description: '湯来温泉の山間に佇む静かな温泉旅館。単純アルカリ性泉の柔らかく透明な湯を源泉掛け流しで楽しめる貴重な宿。夕食は広島県の山の恵み・旬の山菜の天ぷら・広島産きのこの土鍋ご飯・広島牛のしゃぶしゃぶが田舎の素朴な雰囲気の中で供され、広島市内からの日帰り客も多く訪れる都会の喧騒を忘れさせる名湯として評価されている。',
-        price: '2食付き 18,000円〜',
-        image: './hotels/yukionsenmiyamasou.png',
-        tags: ['源泉掛け流し', '山菜・きのこ料理', '��島牛しゃぶしゃぶ'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-hiroshima-2-3',
-        onsen_id: 'o-hiroshima-2',
-        name: '湯来温泉 石谷荘',
-        prefecture: 'hiroshima',
-        type: '温泉旅館',
-        description: '湯来温泉の渓谷沿いに建つアットホームな温泉旅館。単純アルカリ性泉の美肌の湯を渓谷を望む露天風呂で楽しめ、自然の中での解放感が格別。夕食は地元食材を使った家庭的な和食会席で、佐伯川の川魚・広島産の旬野菜・広島の山の幸が女将の手で丁寧に仕上げられ、大都市・広島に隣接した穴場の温泉地の真髄を体験できる。',
-        price: '2食付き 16,000円〜',
-        image: './hotels/yukionsenishigayasou.png',
-        tags: ['渓谷沿いの露天風呂', '家庭的なおもてなし', '広島近郊の穴場温泉'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad373025%2F&_gl=1*djjlud*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzU3MDQ5MDAkbzE0JGcxJHQxNzc1NzA2MzUzJGoxMCRsMCRoMA..', rakuten: 'https://a.r10.to/hkqhjQ', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00907701%252F' }
     },
 
     // ===== 湯田温泉（山口）=====
