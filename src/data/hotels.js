@@ -5332,38 +5332,38 @@ export const hotelList = [
     {
         id: 'h-okayama-2-1',
         onsen_id: 'o-okayama-2',
-        name: '奥津温泉 東和楼',
+        name: '美作三湯奥津温泉 池田屋河鹿園',
         prefecture: 'okayama',
         type: '老舗温泉旅館',
-        description: '吉井川の清流沿いに建つ奥津温泉の老舗旅館。単純アルカリ性泉の柔らかく透明な湯は「美人の湯」として知られ、川縁の露天風呂から吉井川の自然が眼前に広がる。「足踏み洗濯」の伝統文化が残る奥津温泉で、夕食は岡山の旬食材・真庭の地鶏・吉井川の天然鮎・蒜山高原の野菜を使った素朴な山里会席が旅情を深める。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/okutsuonsentouwarou.png',
-        tags: ['吉井川の清流露天風呂', '足踏み洗濯の文化', '真庭の地鶏料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '奥津川のほとりに佇む、昭和初期の風情を今に伝える純和風の温泉旅館。最大の特徴は、川のせせらぎを間近に感じるロケーションと、足元から湧き出す源泉を贅沢に使用したお風呂。夕食には、地元の清流で育った「ヤマメ」や「アユ」の川魚料理をはじめ、岡山ブランド牛、そして冬には特産の「しし鍋」など、山の恵みをふんだんに盛り込んだ郷土会席が味わえる。静かな渓谷の中で、時が止まったような穏やかなひとときを過ごしたい方に最適。',
+        price: '2食付き 18,500円〜',
+        image: './hotels/ikedayakashouen.png',
+        tags: ['川のせせらぎに包まれる客室', '足元から湧き出す源泉', '山の恵みをふんだんに盛り込んだ郷土会席'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad326193%2F&_gl=1*19iapat*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYxMzI1MjkkbzE3JGcxJHQxNzc2MTMyNjc0JGo2JGwwJGgw', rakuten: 'https://a.r10.to/h5Nim3', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00902805%252F' }
     },
     {
         id: 'h-okayama-2-2',
         onsen_id: 'o-okayama-2',
-        name: '奥津荘',
+        name: '奥津温泉 奇蹟の湯 米屋倶楽部',
         prefecture: 'okayama',
         type: '高級温泉旅館',
-        description: '奥津温泉の吉井川沿いに建つ格調ある旅館。単純アルカリ性泉の清澄な湯は美肌効果で知られ、川床に湧く源泉を直接楽しめる「足元湧出」の珍しい内湯が名物。夕食は蒜山高原産の食材と岡山の旬の食材を組み合わせた料理長自慢の山里会席で、真庭の山の幸と吉井川の川魚・天然鮎の塩焼きが四季の自然の恵みを届ける。',
-        price: '2食付き 28,000円〜',
-        image: './hotels/okutsusou.png',
-        tags: ['足元湧出の珍しい内湯', '蒜山高原の食材', '吉井川沿いの絶景'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '奥津温泉の高台に位置し、モダンな感性と「奇蹟の湯」と称される極上の泉質が融合した温泉ホテル。一度も空気に触れることなく浴槽へ注がれる「自然噴出」の源泉は、驚くほど滑らかで美肌効果が高い。夕食には、料理長が厳選した岡山の「千屋牛（ちやぎゅう）」や、地元の契約農家から届く新鮮な野菜を主役にした創作会席を堪能できる。高台ならではの開放的な眺望と、スタイリッシュな館内が、これまでの温泉旅館とは一味違う洗練された滞在を演出してくれる',
+        price: '2食付き 12,500円〜',
+        image: './hotels/komeyakurabu.png',
+        tags: ['自然噴出の源泉', '千屋牛', '高台からの眺望'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad312468%2F&_gl=1*1se929s*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYxMzI1MjkkbzE3JGcxJHQxNzc2MTMzMTUxJGoxNSRsMCRoMA..', rakuten: 'https://a.r10.to/hgQxVt', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00902753%252F' }
     },
     {
         id: 'h-okayama-2-3',
         onsen_id: 'o-okayama-2',
-        name: '奥津温泉 花美人の里',
+        name: '登録有形文化財の宿 奥津温泉 名泉鍵湯 奥津荘',
         prefecture: 'okayama',
         type: '温泉旅館',
-        description: '奥津温泉の豊かな自然に囲まれた温泉旅館。単純アルカリ性泉の「美人の湯」を源泉掛け流しで楽しめ、吉井川の渓谷美を望む露天風呂が旅人の心を解放する。夕食は岡山の山と川の食材を使った素朴な会席で、真庭産のきのこ・山菜の天ぷら・吉井川の鮎・蒜山ジャージー牛乳を使ったデザートが「花の美人の里」の名にふさわしい食体験を提供する。',
-        price: '2食付き 18,000円〜',
-        image: './hotels/okutsuonsenhanamininnosato.png',
-        tags: ['美人の湯・源泉掛け流し', '吉井川の渓谷露天風呂', '蒜山ジャージーミルク'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '昭和2年築の木造建築が国の登録有形文化財に指定されている、歴史と風格を兼ね備えた名門旅館。最大の自慢は、津山藩主が鍵をかけて独占したという伝説が残る「鍵湯」。川底から自噴する源泉をそのまま浴槽にした、まさに「本物の温泉」を体験できる。夕食には、最高級の岡山和牛や、奥津の清らかな水で育った特産品を贅沢に使った、芸術的な本格懐石を個室で提供。限られた客室数だからこそ叶う、きめ細かなおもてなしと静寂が、訪れる人を魅了してやまない。',
+        price: '2食付き 48,000円〜',
+        image: './hotels/okutsuonsentouwarou.png',
+        tags: ['登録有形文化財の宿', '鍵湯', '岡山和牛'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad331944%2F&_gl=1*w9n4x4*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYxMzI1MjkkbzE3JGcxJHQxNzc2MTMzNDI1JGo2MCRsMCRoMA..', rakuten: 'https://a.r10.to/h5ILg9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000993%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000993%252F' }
     },
 
     // ===== 宮島温泉（広島）=====
