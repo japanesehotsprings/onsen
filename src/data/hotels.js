@@ -5297,35 +5297,35 @@ export const hotelList = [
         name: '湯原温泉 八景',
         prefecture: 'okayama',
         type: '高級温泉旅館',
-        description: '日本三大露天風呂の一つ「砂湯」で名高い湯原温泉を代表する高級旅館。アルカリ性単純温泉の柔らかく美肌に優れた湯を、旭川の清流沿いに設けられた源泉かけ流しの露天風呂で楽しめる。夕食は蒜山高原産の食材・蒜山牛のステーキ・蒜山大根・真庭の地鶏を使った岡山会席と地酒「御前酒」の組み合わせが旅の品格を高める。',
-        price: '2食付き 35,000円〜',
+        description: '湯原温泉のシンボル「砂湯」を対岸に望む絶好のロケーションに位置し、「料理」と「おもてなし」で全国に名を馳せる名旅館。特に「山菜の料理長」として知られる料理人が手掛ける夕食は、驚くほど多彩な種類の山菜や地元野菜を主役にし、素材本来の生命力を引き出した、ここだけでしか味わえない唯一無二の野菜料理が自慢。川のせせらぎを聞きながら入る絶景露天風呂や、温かみのあるモダンな客室、そしてスタッフの細やかな心遣いが、心からの休息と深い感動を与えてくれる。',
+        price: '2食付き 21,500円〜',
         image: './hotels/yuharaonsenhakkei.png',
-        tags: ['日本三大露天風呂・砂湯近接', '蒜山牛ステーキ', '旭川の渓流露天風呂'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        tags: ['日本三大露天風呂・砂湯近接', '山菜料理', '旭川の渓流露天風呂'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad310477%2F&_gl=1*1lv1n8v*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYxNTkzMTIkbzE4JGcxJHQxNzc2MTU5NDA0JGo1OSRsMCRoMA..', rakuten: 'https://a.r10.to/h9S8wQ', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030327%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030327%252F' }
     },
     {
         id: 'h-okayama-1-2',
         onsen_id: 'o-okayama-1',
-        name: '旅館 つるや',
+        name: '湯原温泉 湯の蔵 つるや',
         prefecture: 'okayama',
         type: '老舗温泉旅館',
-        description: '湯原温泉の旭川沿いに建つ老舗旅館。アルカリ性単純温泉の柔らかな湯を川縁の露天風呂で楽しめ、旭川の清流と鳥のさえずりに包まれた湯浴みが心身の疲れを深く癒す。夕食は蒜山高原の旬野菜・蒜山ジャージー牛乳を使ったクリーム料理・岡山の旬魚・蒜山牛のすき焼きが地元の恵みを存分に伝える真庭会席として旅情を高める。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/ryokantsuruya.png',
+        description: '湯原温泉の旭川沿かつての「酒造」を改装して造られた、和の情緒とモダンな快適さが調和する全19室の温泉旅館。酒蔵の梁を活かした開放感のあるロビーや、落ち着いた和の空間が心地よい。自慢の温泉は、湯原の名湯を源泉掛け流しで楽しみ、季節の風を感じる露天風呂で心身を解放できる。夕食には、酒造ゆかりの宿らしく、地元の銘酒と共に、岡山の高級食材を贅沢に使った彩り豊かな創作会席を堪能。丁寧な手仕事が光る一皿一皿が、大人の隠れ家のような静かな滞在に彩りを添えてくれる。いに建つ老舗旅館。アルカリ性単純温泉の柔らかな湯を川縁の露天風呂で楽しめ、旭川の清流と鳥のさえずりに包まれた湯浴みが心身の疲れを深く癒す。夕食は蒜山高原の旬野菜・蒜山ジャージー牛乳を使ったクリーム料理・岡山の旬魚・蒜山牛のすき焼きが地元の恵みを存分に伝える真庭会席として旅情を高める。',
+        price: '2食付き 20,000円〜',
+        image: './hotels/yuharaonsenyunokuratsuruya.png',
         tags: ['旭川の渓流露天風呂', '蒜山高原の食材', 'アルカリ性単純温泉'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad347442%2F&_gl=1*jf4tih*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYxNTkzMTIkbzE4JGcxJHQxNzc2MTU5NTM4JGo2MCRsMCRoMA..', rakuten: 'https://a.r10.to/hgW5p6', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00908442%252F' }
     },
     {
         id: 'h-okayama-1-3',
         onsen_id: 'o-okayama-1',
-        name: '湯原国際観光ホテル 菊之湯',
+        name: '湯原温泉 元禄旅籠 油屋',
         prefecture: 'okayama',
-        type: '温泉ホテル',
-        description: '湯原温泉の砂湯からすぐの場所に建つ温泉ホテル。アルカリ性単純温泉の美肌の湯を豊富な湯量で大浴場と露天風呂で提供し、旭川の清流を眺めながらの湯浴みが楽しめる。夕食は岡山県の旬食材・蒜山牛の朴葉焼き・岡山特産の白桃を使ったデザート・旭川の鮎料理などが山と川の恵みを生かした会席として旅人の食欲を満たす。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/yuharakokusaikankouhoterukikuyukiyu.png',
-        tags: ['砂湯近接', '蒜山牛の朴葉焼き', '岡山白桃デザート'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉旅館',
+        description: '元禄時代に創業し、古き良き宿場町の風情を今に伝える、湯原温泉を代表する老舗旅館。映画の舞台にもなった木造の壮麗な建築が、訪れる人を江戸時代の旅籠へと誘う。最大の特徴は、自家源泉から湧き出る新鮮な名湯を、歴史を感じる大浴場や露天風呂で心ゆくまで堪能できる点。夕食には、岡山のブランド牛「千屋牛」や、蒜山高原の豊かな恵み、日本海の新鮮な幸を組み合わせた、滋味豊かな「旅籠料理」を囲炉裏の雰囲気漂う空間で味わえ、静寂と歴史に包まれた特別な夜を過ごせる。',
+        price: '夕食付き 25,000円〜',
+        image: './hotels/yuharaonsengenrokutaburaya.png',
+        tags: ['江戸時代の旅籠', '千屋牛', '囲炉裏料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad323331%2F&_gl=1*yqidko*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYxNTkzMTIkbzE4JGcxJHQxNzc2MTU5NzEzJGoyNCRsMCRoMA..', rakuten: 'https://a.r10.to/hgjYoU', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00902210%252F' }
     },
 
     // ===== 奥津温泉（岡山）=====
