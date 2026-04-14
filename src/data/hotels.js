@@ -5259,35 +5259,35 @@ export const hotelList = [
         name: '温泉津温泉 旅館 のがわや',
         prefecture: 'shimane',
         type: '老舗温泉旅館',
-        description: '世界遺産・石見銀山に近い温泉津温泉の江戸時代から続く老舗旅館。含塩化物・炭酸水素塩泉の湯は神経痛・リウマチ・皮膚病に優れた効能を持ち、ユネスコ世界遺産の温泉地として認定された名湯。石畳の温泉街を散策した後に源泉掛け流しの湯でゆっくり疲れを癒し、石見の海の幸・松葉ガニ・のどぐろの会席が滞在を豊かにする。',
-        price: '2食付き 22,000円〜',
+        description: '温泉津温泉の趣ある街並みに溶け込む、創業100余年の料理自慢の宿。ここでは「本物の温泉」にこだわり、空気に触れさせないよう独自の工夫で引湯された、鮮度抜群の源泉を24時間楽しむことができる。夕食には、店主自ら市場で厳選する「朝獲れの活魚」を主役に、冬には山陰名物のカニ、通年では脂ののった「のどぐろ」など、魚好きにはたまらない豪華な海鮮料理が並ぶ。全室に配された落ち着きのある和の空間と、温かな家族経営のおもてなしが、旅の疲れを優しく癒やしてくれる。',
+        price: '2食付き 18,000円〜',
         image: './hotels/yunotsuonsenryokannogawaya.png',
-        tags: ['ユネスコ世界遺産の温泉地', '源泉掛け流しの療養湯', 'のどぐろ会席'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        tags: ['創業100余年', '朝獲れの活魚', '家族経営のおもてなし'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad309711%2F&_gl=1*dcdo1q*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYxNzY5MjMkbzE5JGcxJHQxNzc2MTc2OTc5JGo0JGwwJGgw', rakuten: 'https://a.r10.to/h5f5AW', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00908045%252F' }
     },
     {
         id: 'h-shimane-3-2',
         onsen_id: 'o-shimane-3',
-        name: '温泉津温泉 落合荘',
+        name: '温泉津温泉 旅館 ますや',
         prefecture: 'shimane',
-        type: '温泉旅館',
-        description: '温泉津温泉の石畳の温泉街にある江戸時代の建造物を改装した風情ある旅館。世界遺産の温泉地に湧く含塩化物炭酸水素塩泉は効能豊かで、源泉掛け流しの内湯と外湯（元湯・薬師湯）めぐりを楽しめる。夕食は石見の旬食材・日本海の地魚・石見ポーク・旬の山菜を使った素朴な山陰会席が世界遺産の温泉街の雰囲気とともに旅の充実感を高める。',
-        price: '2食付き 18,000円〜',
-        image: './hotels/yunotsuonsenochiaisou.png',
-        tags: ['世界遺産の温泉街', '外湯めぐり', '石見ポーク料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '老舗温泉旅館',
+        description: '世界遺産・石見銀山の構成資産である温泉津温泉街に佇む、明治43年創業の老舗旅館。木造3階建ての重厚な建築は、一歩足を踏み入れると大正ロマンの香りが漂う。最大の自慢は、加水・加温を一切行わない「完全源泉掛け流し」の天然温泉。鉄分を含んだ茶褐色の湯は、成分が濃く薬効が高いことで知られる。夕食には、日本海で獲れたばかりの「のどぐろ」や、地元のブランド豚、島根の旬野菜を活かした、素材の味を大切にする丁寧な会席料理を、歴史を感じるお部屋で堪能できる。',
+        price: '2食付き 22,500円〜',
+        image: './hotels/yunotsuonsenryokannomasuya.png',
+        tags: ['明治43年創業', '完全源泉掛け流し', 'のどぐろ料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad350931%2F&_gl=1*15yk1oo*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYxNzY5MjMkbzE5JGcxJHQxNzc2MTc3NDQ2JGoxMCRsMCRoMA..', rakuten: 'https://a.r10.to/hgwBeB', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030712%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030712%252F' }
     },
     {
         id: 'h-shimane-3-3',
         onsen_id: 'o-shimane-3',
-        name: '薬師湯 旅館 中村屋',
+        name: '寛ぎの宿 輝雲荘',
         prefecture: 'shimane',
         type: '温泉旅館',
-        description: '温泉津温泉の外湯「薬師湯」に最も近い旅館。世界遺産に登録された温泉津温泉の含塩化物炭酸水素塩泉は重要文化財の建物に湛えられた歴史ある名湯で、湯の色が時刻によって変化する神秘の温泉として知られる。夕食は石見銀山の歴史と文化を感じる石見会席で、温泉津の漁港から届く地魚・旬の山菜・石見銀山ゆかりの郷土料理が旅情を高める。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/kusurishiyuryokannakamuraya.png',
-        tags: ['世界遺産・薬師湯の隣', '色が変わる神秘の湯', '石見銀山の食文化'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '温泉津温泉の伝統的な街並みの中で、モダンな快適さとバリアフリーにも配慮した、誰もが過ごしやすい温泉旅館。館内には広々とした大浴場だけでなく、プライベートに名湯を楽しめる「貸切風呂」も完備されており、家族やカップルに人気。夕食には、石見の海が育んだ新鮮な魚介類はもちろん、肉質の柔らかな島根和牛をメインにした会席料理を提供。伝統的な旅館の良さを残しつつ、ベッドタイプの客室も備えるなど、現代のニーズに合わせた「寛ぎ」を追求した一軒。',
+        price: '2食付き 18,000円〜',
+        image: './hotels/hiroginoyukansou.png',
+        tags: ['バリアフリー対応', '貸切風呂あり', '島根和牛料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad301992%2F&_gl=1*tgbowa*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYxNzY5MjMkbzE5JGcxJHQxNzc2MTc3NTE2JGoyMCRsMCRoMA..', rakuten: 'https://a.r10.to/h5kjaI', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00902227%252F' }
     },
 
     // ===== 湯原温泉（岡山）=====
