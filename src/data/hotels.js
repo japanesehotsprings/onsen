@@ -5180,38 +5180,38 @@ export const hotelList = [
     {
         id: 'h-shimane-1-1',
         onsen_id: 'o-shimane-1',
-        name: '玉造温泉 白石家',
+        name: '玉造温泉 湯之助の宿 長楽園',
         prefecture: 'shimane',
-        type: '高級温泉旅館',
-        description: '日本最古の美肌の湯・玉造温泉を代表する風格ある旅館。含アルカリ性硫酸塩泉の湯は古事記にも記される縁結びの神・出雲大社ゆかりの名湯で、入浴後の肌のつるつる感が格別。夕食は島根の最高食材・松葉ガニ・宍道湖のしじみ・出雲の寒しじみを使った会席が旅情を高め、日本神話の地・出雲の神秘的な雰囲気の中での滞在が忘れられない旅体験を提供する。',
-        price: '2食付き 40,000円〜',
-        image: './hotels/tamatsukurionsenshiroishiie.png',
-        tags: ['日本最古の美肌湯', '松葉ガニ・宍道湖しじみ', '縁結びの神ゆかりの温泉'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉旅館',
+        description: '創業150余年、明治元年から続く玉造温泉を代表する老舗旅館。最大の自慢は、120坪という圧倒的な広さを誇る日本最大級の混浴大露天風呂「龍宮の湯」。源泉がそのまま注がれるこの大露天風呂は、専用の湯浴み着を着用して家族やカップルで一緒に楽しめる。夕食には、島根の最高級ブランド「島根和牛」や日本海の「のどぐろ」、さらに「宍道湖のしじみ」など、山陰の旬の恵みをふんだんに盛り込んだ本格的な懐石料理を。1万坪にも及ぶ回遊式日本庭園を眺めながら、歴史と圧倒的なスケールの湯船に癒やされる。',
+        price: '2食付き 23,000円〜',
+        image: './hotels/tamatsukurionsenshiryoukan.png',
+        tags: ['日本最大級の混浴露天風呂', '島根和牛', '1万坪の日本庭園'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad323049%2F&_gl=1*z1b58s*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYyMzA2MzkkbzIyJGcxJHQxNzc2MjMwNjk0JGo1JGwwJGgw', rakuten: 'https://a.r10.to/hgWEML', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001335%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001335%252F' }
     },
     {
         id: 'h-shimane-1-2',
         onsen_id: 'o-shimane-1',
-        name: 'ホテル玉泉',
+        name: '曲水の庭 ホテル玉泉',
         prefecture: 'shimane',
-        type: '老舗温泉旅館',
-        description: '玉造温泉街の中心部に建つ老舗旅館。含アルカリ性硫酸塩泉の美肌の湯を豊富な湯量で源泉掛け流しする大浴場と露天風呂が自慢。夕食は宍道湖七珍の食材・宍道湖のしじみ汁・ヤマトシジミの酒蒸し・出雲そばなど出雲の食文化を存分に体験できる島根会席が旅人の心を豊かにする。',
-        price: '2食付き 28,000円〜',
-        image: './hotels/hoterugyokusen.png',
-        tags: ['源泉掛け流しの美肌湯', '宍道湖七珍の料理', '出雲そば'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉ホテル',
+        description: '玉造温泉の中でも最大級の規模を誇り、広大な吹き抜けロビーと、その目の前に広がる見事な日本庭園「曲水の庭」がゲストを迎える温泉ホテル。自慢の大浴場は、広々とした内湯と情緒あふれる露天風呂を備え、夜には庭園がライトアップされ幻想的な雰囲気に。夕食には、山陰の冬の味覚である「松葉ガニ」や「のどぐろ」、島根和牛など、厳選された地産食材を活かしたボリューム満点の会席料理を堪能できる。夜には館内の特設ステージで「安来節（どじょう掬い）」などの郷土芸能の上演もあり、温泉情緒を賑やかに楽しめる一軒。',
+        price: '2食付き 21,000円〜',
+        image: './hotels/kyokusuinoniwahoterugyokusen.png',
+        tags: ['日本最大級の温泉大浴場', '安来節のライブ', '松葉ガニ・のどぐろ'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad331176%2F&_gl=1*159lnbs*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYyMzA2MzkkbzIyJGcxJHQxNzc2MjMwNzUzJGoyMyRsMCRoMA..', rakuten: 'https://a.r10.to/hYhfyp', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00003409%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00003409%252F' }
     },
     {
         id: 'h-shimane-1-3',
         onsen_id: 'o-shimane-1',
-        name: '清風荘',
+        name: '星野リゾート 界 玉造',
         prefecture: 'shimane',
-        type: '温泉旅館',
-        description: '玉造温泉の温泉街に位置する落ち着きある旅館。古事記や万葉集にも登場する玉造温泉の含アルカリ性硫酸塩泉は美肌に優れ、小さな庭を眺める内湯と露天風呂で源泉の恵みをゆっくり楽しめる。夕食は松葉ガニ・宍道湖しじみ・出雲の旬野菜を使った会席料理と地酒「豊の秋」の組み合わせが出雲の自然の豊かさを実感させる。',
+        type: '高級温泉旅館',
+        description: '「いにしえの湯と出雲文化を愛でる宿」をコンセプトに、全客室が「源泉掛け流しの露天風呂付き」という贅沢な造りの温泉旅館。玉造の名湯を誰にも邪魔されずに客室で心ゆくまで堪能できる。夕食には、茶の湯の文化が根付く松江の趣を取り入れた、見た目にも鮮やかな懐石料理を提供。冬には贅を尽くした「蟹会席」も登場する。夜には島根の神話を題材にした伝統芸能「石見神楽（いわみかぐら）」の演舞を目の前で鑑賞できるなど、ただ泊まるだけでなく、出雲の歴史や文化を全身で体感できる洗練された滞在を約束してくれる。',
         price: '2食付き 22,000円〜',
-        image: './hotels/seifuusou.png',
-        tags: ['万葉集ゆかりの名湯', '松葉ガニ会席', 'アルカリ性美肌湯'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        image: './hotels/hoshinoresortkaitamatsukuri.png',
+        tags: ['全室源泉掛け流し露天風呂付き', '石見神楽の鑑賞', '茶の湯の懐石料理'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad318964%2F&_gl=1*1c11io6*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYyMzA2MzkkbzIyJGcxJHQxNzc2MjMwNzc1JGoxJGwwJGgw', rakuten: '#', ikyu: '#', yahoo: '#' }
     },
 
     // ===== 松江しんじ湖温泉（島根）=====
