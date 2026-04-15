@@ -5104,76 +5104,76 @@ export const hotelList = [
     {
         id: 'h-tottori-1-1',
         onsen_id: 'o-tottori-1',
-        name: '三朝温泉 木屋旅館',
+        name: '登録有形文化財の宿 木屋旅館',
         prefecture: 'tottori',
         type: '老舗温泉旅館',
-        description: '三朝川のほとりに建つ三朝温泉を代表する老舗旅館。世界屈指のラドン含有量を誇る放射能泉は「不思議な治癒力」を持つ名湯として国際的に知られ、痛風・リウマチ・高血圧に優れた効能を持つ。夕食は鳥取の旬食材・松葉ガニ・三朝川の鮎・大山の山の幸を使った山陰会席が旅情を高め、三朝大橋から湯煙が立ち上る温泉地の風景が心を和ませる。',
-        price: '2食付き 30,000円〜',
-        image: './hotels/misasaonsenkiyaryokan.png',
-        tags: ['世界屈指のラドン泉', '松葉ガニ会席', '三朝川沿いの老舗'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '明治元年の創業当時の面影を色濃く残し、館内の迷路のような階段や回廊が国の登録有形文化財に指定されている「生きた歴史博物館」のような宿。足元から源泉が自然湧出する「足元自噴」の家族風呂や、ミスト状の温泉成分を吸い込む「吸角（きゅうかく）」など、三朝温泉の薬効を最大限に享受できる湯治体験が叶う。夕食には、鳥取の豊かな山海の幸を活かし、素材の力を引き出した体に優しい滋味豊かな会席を提供。古き良き日本の建築美と、圧倒的な泉質に包まれる唯一無二の滞在ができる。',
+        price: '2食付き 19,000円〜',
+        image: './hotels/kiyaryokan.png',
+        tags: ['登録有形文化財', '足元自噴の湯', '吸角（きゅうかく）'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad337177%2F&_gl=1*10mksje*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYyMzQ2ODUkbzIzJGcxJHQxNzc2MjM2MDc3JGoxMSRsMCRoMA..', rakuten: 'https://a.r10.to/hPWN2E', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030645%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030645%252F' }
     },
     {
         id: 'h-tottori-1-2',
         onsen_id: 'o-tottori-1',
-        name: '旅館 大橋',
+        name: '三朝薬師の湯 万翆楼',
         prefecture: 'tottori',
         type: '温泉旅館',
-        description: '三朝温泉の三朝大橋近くに建つ人気温泉旅館。ラドン放射能泉の源泉掛け流し風呂は筋肉痛・神経痛・慢性疾患に効能があり、露天風呂から三朝川の清流と渓谷美を眺めながらの湯浴みが絶品。夕食は山陰の食材・松葉ガニ・大山地��・三朝の山菜を使った会席料理と地酒「諏訪泉」の組み合わせが三朝温泉の風情とともに旅の記憶を豊かにする。',
-        price: '2食付き 25,000円〜',
-        image: './hotels/ryokanoohashi.png',
-        tags: ['源泉掛け流しのラドン泉', '三朝川の渓谷美', '大山地鶏料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '三朝川のほとりに佇み、和の伝統美と現代的な機能性が調和した、三朝温泉を代表する格式高い老舗旅館。最大の特徴は、3つの自家源泉から引き込まれた「薬師の湯」を、趣の異なる多彩な浴槽で贅沢に掛け流しで楽しめる点。夕食には、料理長が自ら市場で厳選する日本海の「のどぐろ」や、鳥取のブランド和牛「万葉牛」をメインにした、見た目にも華やかな本格懐石を堪能できる。洗練されたサービスと、五感を満たす美食、そして名湯が三位一体となった、上質な大人の休息にふさわしい宿。',
+        price: '2食付き 23,500円〜',
+        image: './hotels/mansuirou.png',
+        tags: ['3本の自家源泉・源泉掛け流し', '三朝川を望む静寂なロケーション', '鳥取の最高級食材・万葉牛の美食'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad350895%2F&_gl=1*1mpwb7r*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYyMzQ2ODUkbzIzJGcxJHQxNzc2MjM2MTY4JGoxNCRsMCRoMA..', rakuten: 'https://a.r10.to/h5aagt', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001032%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001032%252F' }
     },
     {
         id: 'h-tottori-1-3',
         onsen_id: 'o-tottori-1',
-        name: '三朝温泉 たまわりの湯 斉木別館',
+        name: '大江戸温泉物語Premium 斉木別館',
         prefecture: 'tottori',
         type: '温泉旅館',
-        description: '三朝温泉の中心部に位置し、世界最高レベルのラドン含有量を誇る放射能泉を源泉掛け流しで楽しめる旅館。三朝川沿いの露天風呂は川面から立ち上る湯煙と紅葉の美しいコントラストが印象的。夕食は鳥取の山陰の幸・松葉ガニ・境港産の鮮魚・大山の山菜を使った会席が旅人を満足させ、三朝神社参拝と組み合わせた滞在が地域文化への理解を深める。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/misasaonsentamawarinoyusaikibekkan.png',
-        tags: ['世界最高レベルのラドン泉', '三朝川沿いの露天風呂', '境港産鮮魚'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '広大な日本庭園「翠明園」を囲むように建つ老舗宿が、大江戸温泉物語の「Premium」シリーズとしてリニューアル。歴史ある風格はそのままに、より贅沢で快適な滞在へと進化した。自慢は、庭園の緑を眺めながら浸かる開放的な露天風呂。夕食には、山陰の旬の味覚をふんだんに取り入れた和洋バイキングを、ライブキッチンから提供される熱々の料理と共に楽しめる。夜には庭園がライトアップされ、無料のラウンジでドリンクを楽しみながら、名門の趣と現代的な利便性をカジュアルに堪能できる。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/ooedoonsenpremiumsaikibekkan.png',
+        tags: ['広大な日本庭園の四季の美', 'インクルーシブ', '地産食材が並ぶ豪華バイキング'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad345166%2F&_gl=1*e4nmjq*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYyMzQ2ODUkbzIzJGcxJHQxNzc2MjM2MjI0JGoyNSRsMCRoMA..', rakuten: 'https://a.r10.to/hkcpzL', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00900691%252F' }
     },
 
     // ===== 皆生温泉（鳥取）=====
     {
         id: 'h-tottori-2-1',
         onsen_id: 'o-tottori-2',
-        name: '皆生温泉 東光園',
+        name: '皆生温泉 皆生つるや 四季を奏でるさらさの宿',
         prefecture: 'tottori',
         type: '老舗温泉旅館',
-        description: '日本海を一望する皆生温泉の高台に建つ個性的な建築で知られる老舗旅館。菊竹清訓設計の前衛的な建物は建築ファンにも名高く、日本海に沈む夕日を望む露天風呂は全国屈指の絶景スポット。ナトリウム塩化物泉の海洋性温泉は保温効果が高く、夕食は境港産の松葉ガニ・旬の山陰地魚・大山豆腐を使った豪華な山陰会席が旅人を深く満足させる。',
-        price: '2食付き 35,000円〜',
-        image: './hotels/kaikeonsentoukousono.png',
-        tags: ['名建築家・菊竹清訓の設計', '境港産松葉ガニ', '日本海の夕日露天風呂'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '皆生温泉の入り口に位置し、1953年の創業以来「おもてなしの心」を大切にしてきた、全室に趣の異なる生け花が飾られる和の情緒あふれる宿。自慢は、塩の成分を含んだ「保温・保湿」に優れた皆生の名湯を、広々とした内湯と情緒ある露天風呂で楽しめる点。夕食には、境港直送の鮮度抜群の海の幸を中心に、鳥取和牛や地元の旬野菜を盛り込んだ繊細な会席料理を提供。館内には能舞台を模したラウンジや落ち着いた和の空間が広がり、日常の喧騒を離れて穏やかなひとときを過ごすことができる。',
+        price: '2食付き 16,000円〜',
+        image: './hotels/kaikeonsenkaiketsuruya.png',
+        tags: ['全室に趣の異なる生け花', '広々とした内湯と情緒ある露天風呂', '境港直送の鮮度抜群の海の幸'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad359240%2F&_gl=1*a9zkj3*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYyMzQ2ODUkbzIzJGcxJHQxNzc2MjM0NzcyJGo1OSRsMCRoMA..', rakuten: 'https://a.r10.to/h5WWGH', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030170%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030170%252F' }
     },
     {
         id: 'h-tottori-2-2',
         onsen_id: 'o-tottori-2',
-        name: 'ホテル皆生つるや',
+        name: '皆生松月',
         prefecture: 'tottori',
-        type: '温泉ホテル',
-        description: '皆生温泉の海岸近くに建つ温泉ホテル。ナトリウム塩化物泉の海洋性温泉は三方を日本海に囲まれた皆生ならではの開放感と保温効果が特徴。大山と日本海を同時に眺められる展望露天風呂が名物で、夕食は境港の松葉ガニ・大山で育った大山鶏・のどぐろの姿焼きなど山陰の食材を使った会席が旅情を高める。',
-        price: '2食付き 25,000円〜',
-        image: './hotels/hoterukaiketsuruya.png',
-        tags: ['日本海と大山の絶景', '大山鶏料理', 'のどぐろの姿焼き'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉旅館',
+        description: '1927年創業、皆生温泉で最も歴史ある老舗の一つでありながら、全19室という限られた客室数で「一客再来」の精神を守り続ける海辺の料理宿。明治から続く伝統的な数寄屋造りの建築美が、訪れる人を静寂と気品の世界へと誘う。最大の魅力は、日本海を眼下に望む展望露天風呂と、美食家を唸らせる最高級の料理。冬は山陰の至宝「松葉ガニ」、通年では近海で獲れたばかりの活魚を、素材の味を極限まで引き出した本格懐石として堪能できる。歴史と眺望、そして食の三拍子が揃った大人の隠れ家。',
+        price: '2食付き 20,000円〜',
+        image: './hotels/kaikeshougetsu.png',
+        tags: ['全19室という限られた客室数', '明治から続く伝統的な数寄屋造りの建築美', '日本海を眼下に望む展望露天風呂'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad343767%2F&_gl=1*2ahj1j*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYyMzQ2ODUkbzIzJGcxJHQxNzc2MjM1MTE2JGoxNCRsMCRoMA..', rakuten: 'https://a.r10.to/hFNkf7', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001148%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001148%252F' }
     },
     {
         id: 'h-tottori-2-3',
         onsen_id: 'o-tottori-2',
-        name: '皆生グランドホテル天水',
+        name: '皆生游月',
         prefecture: 'tottori',
-        type: '温泉ホテル',
-        description: '皆生温泉の中心部に位置する大型温泉ホテル。ナトリウム塩化物泉の豊富な湯量を誇る大浴場と露天風呂は日本海の大パノラマが楽しめる。夕食は境港水産の松葉ガニ・日本海の旬魚のお造り・鳥取和牛の陶板焼きなど鳥取が誇る食材が並ぶビュッフェ＆会席スタイルの食事が旅行者の多様なニーズに応えている。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/kaikegurandohoterutensui.png',
-        tags: ['日本海のパノラマ', '境港松葉ガニ', '鳥取和牛'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '高級温泉リゾート',
+        description: '「海との一体感」をコンセプトに、2019年に誕生した次世代型のラグジュアリー温泉リゾート。全客室がテラスに「源泉掛け流しの露天風呂」を備えたオーシャンビュー仕様となっており、プライベートな空間で波の音を聞きながら名湯を独り占めできる。特に最上階にあるインフィニティ天空露天風呂は、空と海が溶け合うような圧倒的な開放感を誇る。夕食には、地元・境港の魚介や大山が育んだ食材を、和の技法に洋のエッセンスを融合させた、目にも鮮やかな創作料理としてダイニングで贅沢に味わえる。',
+        price: '2食付き 26,500円〜',
+        image: './hotels/kaikeyuuzuki.png',
+        tags: ['全客室テラスに源泉掛け流しの露天風呂', 'インフィニティ天空露天風呂', '境港の魚介や大山が育んだ食材'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad398764%2F&_gl=1*1jeduco*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYyMzQ2ODUkbzIzJGcxJHQxNzc2MjM1MjIwJGoxMCRsMCRoMA..', rakuten: 'https://a.r10.to/h5FHd1', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002607%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002607%252F' }
     },
 
     // ===== 玉造温泉（島根）=====
