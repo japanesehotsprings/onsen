@@ -5218,38 +5218,86 @@ export const hotelList = [
     {
         id: 'h-shimane-2-1',
         onsen_id: 'o-shimane-2',
-        name: '松江しんじ湖温泉 皆美館',
+        name: '松江しんじ湖温泉 大橋館',
         prefecture: 'shimane',
         type: '老舗高級旅館',
-        description: '明治時代創業、天皇皇后両陛下もご宿泊の格調ある老舗旅館。宍道湖を眺める日本庭園と露天風呂は四季折々の美しさで知られる。単純アルカリ性泉の美肌の湯を楽しんだ後の夕食は宍道湖七珍の最高峰・ヤマトシジミの茶碗蒸し・宍道湖産の天然うなぎ・鯛茶漬けとして知られる鯛めしが松江の食文化の粋を伝える。',
-        price: '2食付き 55,000円〜',
+        description: '松江しんじ湖温泉の入り口に位置し、明治時代から文豪・小泉八雲にも愛された歴史を持つ老舗旅館。宍道湖と大橋川の合流地点という絶好のロケーションにあり、客室からは穏やかな水辺の風景を一望できる。最大の自慢は、地下深くから湧き出る「美肌の湯」を、趣ある大浴場や露天風呂で心ゆくまで堪能できる点。夕食には、日本海の「のどぐろ」や島根和牛に加え、松江の郷土の味を盛り込んだ本格的な懐石料理を、歴史の薫り漂う空間で至高のおもてなしと共に味わえる。',
+        price: '2食付き 21,000円〜',
         image: './hotels/matsueshinjimizuumionsentomomikan.png',
-        tags: ['天皇皇后ご宿泊の老舗', '宍道湖の日本庭園', '宍道湖七珍会席'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        tags: ['文豪小泉八雲ゆかりの宿', '宍道湖と大橋川の絶景', '美肌の湯'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad376092%2F&_gl=1*xe05yd*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYyMjI4MjgkbzIxJGcxJHQxNzc2MjIyODk4JGo2MCRsMCRoMA..', rakuten: 'https://a.r10.to/hgRRsO', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00913727%252F' }
     },
     {
         id: 'h-shimane-2-2',
         onsen_id: 'o-shimane-2',
-        name: '松江温泉 ホテル一畑',
+        name: '松江しんじ湖温泉 夕景湖畔 すいてんかく',
         prefecture: 'shimane',
         type: '温泉ホテル',
-        description: '宍道湖のほとりに建つ松江しんじ湖温泉の代表的なホテル。宍道湖の夕日を眺める展望露天風呂は「日本一の夕日」ともいわれる絶景スポット。単純アルカリ性泉の美肌の湯を楽しんだ後の夕食は宍道湖のしじみ・松江産のうなぎ・隠岐の岩牡蠣・松葉ガニなど島根の食材を使ったビュッフェ＆会席スタイルの豪華な料理が旅人を満足させる。',
-        price: '2食付き 30,000円〜',
-        image: './hotels/matsueonsenhoteruichibata.png',
-        tags: ['宍道湖の夕日絶景', '宍道湖しじみ・うなぎ', '松江観光の拠点'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '宍道湖の北岸に建ち、その名の通り「夕景」を最も美しく眺めることができる絶好のロケーションを誇る温泉ホテル。館内には開放感あふれる露天風呂があり、刻一刻と表情を変える湖の色彩を眺めながら、さらりとした質感の名湯に癒やされる。夕食には、宍道湖七珍（しんじこしっちん）をはじめ、旬の海鮮を贅沢に使用した会席料理を提供。和洋が調和したモダンな客室や、湖面に沈む夕日を眺めながら過ごすひとときは、日常を忘れる特別な休息を演出してくれる。',
+        price: '2食付き 13,500円〜',
+        image: './hotels/matsueshinjimizuumionsenyuukeikohansuitenkaku.png',
+        tags: ['宍道湖の夕日絶景', '宍道湖七珍', '和洋折衷のモダンな空間'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad305893%2F&_gl=1*23nltf*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYyMjI4MjgkbzIxJGcxJHQxNzc2MjIyOTkyJGo1OSRsMCRoMA..', rakuten: 'https://a.r10.to/hPHK8c', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00902388%252F' }
     },
     {
         id: 'h-shimane-2-3',
         onsen_id: 'o-shimane-2',
+        name: '松江しんじ湖温泉 ニューアーバンホテル本館・別館',
+        prefecture: 'shimane',
+        type: '温泉旅館',
+        description: '松江市役所のすぐ近く、宍道湖のほとりに建つ、ビジネスから観光まで幅広く対応する大型ホテル。最大の特徴は、最上階にある「展望大浴場」。宿泊者は源泉掛け流しの天然温泉に浸かりながら、宍道湖のパノラマビューを一望できる。朝食には、島根の食材をふんだんに使った和洋バイキングが人気で、名物の「しじみ汁」も堪能できる。利便性と温泉の両方を求める旅に最適で、夜には周辺の飲食店街へのアクセスも非常にスムーズ。',
+        price: '2食付き 13,000円〜',
+        image: './hotels/matsueshinjimizuumionsennuua.png',
+        tags: ['展望大浴場', '宍道湖のパノラマビュー', '松江市街地の中心'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad311261%2F&_gl=1*fr2rux*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYyMjI4MjgkbzIxJGcxJHQxNzc2MjIzMTEyJGoxMyRsMCRoMA..', rakuten: 'https://a.r10.to/hYhwWI', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00902268%252F' }
+    },
+    {
+        id: 'h-shimane-2-4',
+        onsen_id: 'o-shimane-2',
         name: '松江しんじ湖温泉 なにわ一水',
         prefecture: 'shimane',
         type: '温泉旅館',
-        description: '宍道湖を望む松江しんじ湖温泉の旅館。単純アルカリ性泉の美肌の湯を引いた露天風呂から宍道湖に沈む夕日が楽しめる名物スポット。夕食は宍道湖のヤマトシジミ鍋・松江産天然うなぎの白焼き・出雲産の旬野菜・松葉ガニを使った松江会席が宍道湖の夕景とともに旅の記憶に残る食体験を提供する。',
+        description: '「全客室から宍道湖を一望」できることをコンセプトにした、洗練されたモダンな温泉旅館。特にデザイン性に優れた露天風呂付き客室が充実しており、プライベートな空間で誰にも邪魔されずに絶景と名湯を独り占めできる。夕食には、山陰の冬の味覚である「松葉ガニ」や「のどぐろ」、島根和牛など、最高級の厳選食材を五感で楽しむ創作懐石として提供。ユニバーサルデザインを取り入れた優しい設計と、現代的なラグジュアリーが融合した、特別な日のための宿。',
         price: '2食付き 25,000円〜',
         image: './hotels/matsueshinjimizuumionsennaniwaissui.png',
-        tags: ['宍道湖の夕日', '天然うなぎの白焼き', '宍道湖しじみ鍋'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        tags: ['全客室宍道湖一望', '露天風呂付き客室', '松葉ガニ・のどぐろ'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad325364%2F&_gl=1*r905g7*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYyMjI4MjgkbzIxJGcxJHQxNzc2MjIzMjI0JGoxNyRsMCRoMA..', rakuten: 'https://a.r10.to/h5tevZ', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001232%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001232%252F' }
+    },
+    {
+        id: 'h-shimane-2-5',
+        onsen_id: 'o-shimane-2',
+        name: '松江しんじ湖温泉 松平閣',
+        prefecture: 'shimane',
+        type: '温泉旅館',
+        description: '松江藩主・松平家ゆかりの地に建ち、純和風の木造建築と静謐な庭園が迎えてくれる、全室に趣の異なる木製の内風呂を備えた格式高い旅館。歴史を感じる回廊や数寄屋造りの客室が、古都松江らしい落ち着きを醸し出す。自慢の温泉は、柔らかな肌触りで心身を優しく解きほぐしてくれる。夕食には、伝統的な技法を守りつつ、四季折々の島根の幸を贅沢に盛り込んだ「松江懐石」を、個室でゆっくりと堪能。都会の喧騒を離れ、上質な静寂と日本の伝統美に浸ることができる。',
+        price: '2食付き 25,000円〜',
+        image: './hotels/matsueshinjimizuumionsenmatsudairakaku.png',
+        tags: ['松平家ゆかりの格式', '全室木製内風呂', '個室で楽しむ松江懐石'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad366512%2F&_gl=1*1pgtka6*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYyMjI4MjgkbzIxJGcxJHQxNzc2MjIzMzI0JGo1JGwwJGgw', rakuten: 'https://a.r10.to/hYb5ZC', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00907398%252F' }
+    },
+    {
+        id: 'h-shimane-2-6',
+        onsen_id: 'o-shimane-2',
+        name: '松江しんじ湖温泉 ホテル一畑',
+        prefecture: 'shimane',
+        type: '温泉旅館',
+        description: '2021年に大規模リニューアルを遂げた、宍道湖畔に佇む松江を代表する老舗名門ホテル。最上階の展望大浴場では、地上30メートルから宍道湖の絶景を眺めながらの湯浴みが楽しめ、インフィニティのような開放感を味わえる。夕食には、地元食材をライブキッチンで仕上げる豪華なバイキングや、落ち着いたレストランでの本格コースなど、旅のスタイルに合わせて選択可能。モダンでスタイリッシュな客室は機能性も高く、一人旅からカップル、家族連れまで満足度の高い滞在を約束してくれる。',
+        price: '2食付き 10,500円〜',
+        image: './hotels/matsueshinjimizuumionsenhoteruichibata.png',
+        tags: ['展望大浴場', '宍道湖のパノラマビュー', 'ライブキッチン'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad348616%2F&_gl=1*1xyoyah*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYyMjI4MjgkbzIxJGcxJHQxNzc2MjIzNTM3JGo1OSRsMCRoMA..', rakuten: 'https://a.r10.to/hkgYjM', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00031299%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00902834%252F' }
+    },
+    {
+        id: 'h-shimane-2-7',
+        onsen_id: 'o-shimane-2',
+        name: '松江しんじ湖温泉 皆美館',
+        prefecture: 'shimane',
+        type: '温泉旅館',
+        description: '創業130余年、数多くの文人墨客や皇族に愛されてきた、松江で最も名高い格式を誇る老舗旅館。最大の宝は、宍道湖を借景とした壮麗な日本庭園「枯山水」。夕食には、家伝の「鯛めし」をはじめ、日本海の幸を極限まで高めた最高峰の懐石料理を。全客室がわずか16室という贅沢な造りで、その多くが源泉掛け流しの風呂を備えている。伝統的な和の趣と、洗練された現代の快適さが完璧に調和した、島根が誇る至高の迎賓館。',
+        price: '2食付き 24,500円〜',
+        image: './hotels/matsueshinjimizuumionsenminabikan.png',
+        tags: ['創業130年', '枯山水の庭園', '家伝の鯛めし'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad316628%2F&_gl=1*td89um*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYyMjI4MjgkbzIxJGcxJHQxNzc2MjIzNjUzJGo1JGwwJGgw', rakuten: 'https://a.r10.to/hktV35', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001329%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001329%252F' }
     },
 
     // ===== 温泉津温泉（島根）=====
