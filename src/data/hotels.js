@@ -4814,14 +4814,14 @@ export const hotelList = [
     {
         id: 'h-kyoto-1-1',
         onsen_id: 'o-kyoto-1',
-        name: '星のや京都',
+        name: '翠嵐ラグジュアリーコレクションホテル京都',
         prefecture: 'kyoto',
         type: '高級リゾート旅館',
-        description: '嵐山の山懐に抱かれた船でしかたどり着けない秘境の超高級旅館。大堰川のほとりに湧くナトリウム炭酸水素塩泉の美肌の湯は、嵐山の緑と川のせせらぎに包まれた環境で心身を解放する。夕食は京野菜と湯豆腐・ぐじの煮付け・湯葉料理など京の食文化を凝縮した懐石が上質な空間で供され、世界中の旅行者が憧れる日本最高峰の旅館体験を提供する。',
-        price: '2食付き 120,000円〜',
-        image: './hotels/hoshinoyakyouto.png',
-        tags: ['船でしかたどり着けない秘境宿', 'ナトリウム炭酸水素塩泉', '京野菜懐石'],
-        bookingUrls: { jalan: '#', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F172992%2F172992.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        description: '嵐山のシンボルである渡月橋のほど近く、保津川のほとりに佇む、マリオット・インターナショナルの最高級カテゴリーに属するラグジュアリーホテル。かつて平安貴族が避暑に訪れた地で、伝統的な日本建築と現代のモダンな感性が完璧に調和した空間が広がる。最大の特長は、多くの客室に備えられた「天然温泉」の露天風呂。嵐山の四季をプライベートな空間で眺めながら、至高の湯浴みが叶う。夕食は、築100年を超える歴史的建造物を再生したレストラン「京 翠嵐」にて。フランス料理の技法と和の伝統が融合した、独創的で美しい懐石料理を堪能できる。宿泊者限定の「シャンパンディライト」など、静寂の中でシャンパンと共に夕暮れを愉しむ、圧倒的な非日常を約束する一軒。',
+        price: '2食付き 90,000円〜',
+        image: './hotels/suiranluxuarycollectionkyoto.png',
+        tags: ['築100年の邸宅を再生したレストラン', '人力車によるお迎えサービス', '保津川と渡月橋を望む'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad300340%2F&_gl=1*12gr93j*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYzNDg3MjIkbzI3JGcxJHQxNzc2MzQ4ODY4JGoxMCRsMCRoMA..', rakuten: 'https://a.r10.to/hPKaX8', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002114%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002114%252F' }
     },
     {
             id: 'h-kyoto-1-2',
@@ -4830,7 +4830,7 @@ export const hotelList = [
             prefecture: 'kyoto',
             type: '高級温泉旅館',
             description: '渡月橋のほとりに建つ嵐山温泉の人気旅館。弱アルカリ性単純温泉を引いた展望露天風呂からは嵐山の絶景を独り占めできる。客室には半露天風呂付きの「はなれ三蹊庵」も備え、洛西の旬食材を使った懐石料理は豆腐料理が名物。料理旅館の評判も高く、嵐山散策の拠点として多くの旅人に愛される嵐山温泉を代表する宿。',
-            price: '1泊2食付き 50,000円〜',
+            price: '1泊2食付き 25,500円〜',
             image: './hotels/arashiyamaonsentogetsutei.png',
             tags: ['渡月橋至近', '展望露天風呂', '嵐山懐石料理'],
             bookingUrls: {
@@ -4847,7 +4847,7 @@ export const hotelList = [
         prefecture: 'kyoto',
         type: '高級温泉旅館',
         description: '嵐山の竹林と大堰川に囲まれた静寂の中に佇む贅沢な旅館。ナトリウム炭酸水素塩泉の湯を客室専用の半露天風呂で楽しめる全室露天風呂付きの設計が女性旅行者に絶大な支持を得る。夕食は京都の伝統食材・丹波黒豆・京豆腐・賀茂茄子を使った格調ある京懐石で、嵐山の情緒あふれる空間での食事体験が特別な思い出を作る。',
-        price: '2食付き 60,000円〜',
+        price: '2食付き 25,500円〜',
         image: './hotels/arashiyamaonsenkadenshou.png',
         tags: ['全室露天風呂付き', '竹林の景観', '京懐石'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad327485%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F130702%2F130702.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001842%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001842%252F' }
@@ -4861,7 +4861,7 @@ export const hotelList = [
         prefecture: 'kyoto',
         type: '高級温泉旅館',
         description: '日本三景・天橋立を間近に望む絶好のロケーションを誇る高級旅館。含塩化物温泉の海洋性温泉は体の芯から温まる保温効果が高く、天橋立の絶景を一望する露天風呂が名物。夕食は丹後の海の幸をふんだんに使った会席で、間人ガニ・丹後のてっちり・岩牡蠣・鰆の一塩焼きなど京丹後の豊かな食材が旅人を深く感動させる料理として並ぶ。',
-        price: '2食付き 45,000円〜',
+        price: '2食付き 66,000円〜',
         image: './hotels/monjusoushourotei.png',
         tags: ['日本三景の絶景', '間人ガニ', '含塩化物温泉'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad385250%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F107701%2F107701.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001026%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001026%252F' }
@@ -4873,7 +4873,7 @@ export const hotelList = [
         prefecture: 'kyoto',
         type: '温泉ホテル',
         description: '天橋立の根元に位置し、眼前に日本三景が広がる絶景温泉ホテル。含塩化物温泉の海洋性温泉を豊富な湯量で提供する大浴場と露天風呂は天橋立観光の拠点として多くの旅行者に利用される。夕食は京丹後の旬の海の幸・松葉ガニ・宮津産の鮮魚・丹後の醤油を使った料理が充実した会席で、天橋立観光と組み合わせた旅プランに最適の宿。',
-        price: '2食付き 28,000円〜',
+        price: '2食付き 12,000円〜',
         image: './hotels/amanohashidatehoteru.png',
         tags: ['天橋立の根元', '松葉ガニ料理', '観光の拠点'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad329976%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F16816%2F16816.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
@@ -4885,7 +4885,7 @@ export const hotelList = [
         prefecture: 'kyoto',
         type: '老舗温泉旅館',
         description: '天橋立の入口に建つ江戸時代から続く老舗旅館。「日本一長い旅館」とも呼ばれる細長い建造物は天橋立に沿って建てられた独特の佇まい。含塩化物温泉の湯を引いた露天風呂から天橋立の松並木が一望できる。夕食は丹後の新鮮な魚介・宮津の牡蠣・間人のズワイガニを使った料理と地酒「宮の雪」の組み合わせが旅の満足感を高める。',
-        price: '2食付き 35,000円〜',
+        price: '2食付き 26,500円〜',
         image: './hotels/amanohashidateaburaya.png',
         tags: ['江戸時代創業の老舗', '天橋立を望む露天風呂', '丹後ズワイガニ'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad353060%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F70710%2F70710.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
@@ -4899,7 +4899,7 @@ export const hotelList = [
             prefecture: 'kyoto',
             type: '高級温泉旅館',
             description: '日本海を望む高台に位置する夕日ヶ浦温泉の大人専用旅館。全18室すべてに全景温泉露天風呂を備え、自家源泉100%かけ流しの美肌の湯を贅沢に独占できる。冬は松葉ガニ、夏は岩牡蠣など京丹後の旬の幸をふんだんに使った会席料理と夕日に染まる日本海の絶景が旅人を魅了する。',
-            price: '1泊2食付き 60,000円〜',
+            price: '1泊2食付き 31,500円〜',
             image: './hotels/yuuhikeuraonsenhanarenoyadogatsunoniwa.png',
             tags: ['全室露天風呂付き', '大人専用旅館', '松葉ガニ会席'],
             bookingUrls: {
@@ -4912,12 +4912,12 @@ export const hotelList = [
     {
             id: 'h-kyoto-3-2',
             onsen_id: 'o-kyoto-3',
-            name: '夕日ヶ浦温泉 一望館 はなれ櫂',
+            name: '夕日ヶ浦温泉 旅亭 櫂 KAI',
             prefecture: 'kyoto',
             type: '高級温泉旅館',
             description: '日本海を見下ろす絶壁の高台に建つ大人専用の純和風温泉旅館。約1,500坪の敷地にわずか15室を擁し、5つの異なる客室タイプのすべてに天然温泉露天風呂を完備。飲み物飲み放題サービスと京丹後の旬の食材を活かした会席料理が高い評価を誇り、じゃらん2024年度アワード「泊まって良かった宿」京都府2位に輝いた格調ある宿。',
-            price: '1泊2食付き 55,000円〜',
-            image: './hotels/marinparesuhoteru.png',
+            price: '1泊2食付き 27,000円〜',
+            image: './hotels/ryoteikai.png',
             tags: ['全室温泉露天風呂付き', '大人専用', '日本海一望の絶景'],
             bookingUrls: {
                 jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad377484%2F',
@@ -4929,11 +4929,11 @@ export const hotelList = [
     {
             id: 'h-kyoto-3-3',
             onsen_id: 'o-kyoto-3',
-            name: 'あまやどりの宿 雨情草庵',
+            name: 'もう一つの京都 雨情草庵',
             prefecture: 'kyoto',
             type: '高級温泉旅館',
             description: '夕日ヶ浦温泉に佇む全室離れ造りの隠れ家的大人専用旅館。5棟の独立コテージと特別棟からなり、すべての客室に温泉露天風呂・日本間・リビング・ベッドルーム・デッキテラスを完備。丹後の山海の恵みを使った会席料理は専用個室ダイニングで提供される。星降る夜空の下、露天風呂に浸かる至福の体験が旅人を虜にする。',
-            price: '1泊2食付き 80,000円〜',
+            price: '1泊2食付き 58,000円〜',
             image: './hotels/yuuhikeuraonsenkinseryokan.png',
             tags: ['全室離れ露天風呂付き', '完全プライベート', '大人専用隠れ家'],
             bookingUrls: {
