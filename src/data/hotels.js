@@ -5186,14 +5186,14 @@ export const hotelList = [
     {
         id: 'h-nara-1-1',
         onsen_id: 'o-nara-1',
-        name: '洞川温泉 みのや旅館',
+        name: '洞川温泉 光緑園西清',
         prefecture: 'nara',
         type: '老舗温泉旅館',
-        description: '大峯山龍泉寺の門前町に建つ洞川温泉の老舗旅館。アルカリ性単純温泉の清澄な湯は修験道の聖地・大峯山の神聖な山気と相まって心身を清める湯浴み体験を提供する。夕食は奥吉野の山の幸・大峯山麓の山菜料理・吉野本葛を使った鍋料理・天川村の名水で仕込んだ豆腐料理が旅情を高め、修験の旅の疲れを癒す素朴な会席が地域の文化を伝える。',
-        price: '2食付き 18,000円〜',
-        image: './hotels/doukawaonsenminoyaryokan.png',
+        description: '標高約820m、修験道の聖地・大峯山の登山口に位置する洞川（どろがわ）温泉郷にて、300年以上の歴史を紡いできた老舗旅館。伝統的な「縁側」のある建築美と、現代的なモダンデザインが融合した館内は、どこか懐かしくも洗練された空気が漂う。自慢の温泉は、名水「ごろごろ水」で知られる清らかな地から湧き出る名湯で、総檜造りの大浴場や、深山幽谷の気配を感じる露天風呂で心ゆくまで癒やされる。夕食には、名物の「名水豆腐」や、大峰山系が育んだ鹿・猪などのジビエ、さらに鮮度抜群のあまご料理など、この土地ならではの滋味深い「修験の里料理」を堪能できる。',
+        price: '2食付き 20,000円〜',
+        image: './hotels/doukawaonsenseishin.png',
         tags: ['大峯山龍泉寺の門前', '修験道の聖地', '吉野山菜料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad306855%2F&_gl=1*8i8ufg*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYzMjQyNTQkbzI1JGcxJHQxNzc2MzI1MTA5JGoxNSRsMCRoMA..', rakuten: 'https://a.r10.to/hX0lqa', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00910658%252F' }
     },
     {
         id: 'h-nara-1-2',
@@ -5202,7 +5202,7 @@ export const hotelList = [
         prefecture: 'nara',
         type: '温泉旅館',
         description: '洞川温泉街の中心部に建つ江戸時代から続く旅館。大峯山修験者の宿坊としての歴史を持つ宿で、アルカリ性単純温泉の澄んだ湯は神聖な修験の地の清らかさを感じさせる。夕食は天川村の名水を使った天川豆腐・大峯山の山菜のおひたし・奥吉野の鮎料理・洞川名物の陀羅尼助の薬膳料理など奥吉野の滋味深い食材が旅人の心と体を癒す。',
-        price: '2食付き 16,000円〜',
+        price: '2食付き 25,000円〜',
         image: './hotels/ryokankakujin.png',
         tags: ['修験者宿坊の歴史', '天川豆腐', 'アルカリ性単純温泉'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad328834%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F9273%2F9273.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
@@ -5214,7 +5214,7 @@ export const hotelList = [
         prefecture: 'nara',
         type: '温泉旅館',
         description: '大峯山の麓・洞川温泉の静かな温泉街に佇む家族経営の旅館。アルカリ性単純温泉の湯は清澄で肌に優しく、小さな内湯で心静かに湯浴みができる。夕食は地元の山の幸をふんだんに使った素朴な会席で、天川の名水で育てた山菜・きのこ・吉野の山葵・奥大和の地野菜が旅人の食欲を満たし、修験道の霊山が近くにある神聖な雰囲気の中での静かな滞在体験が心に残る。',
-        price: '2食付き 14,000円〜',
+        price: '2食付き 17,500円〜',
         image: './hotels/doukawaonsenhanayatokubyoue.png',
         tags: ['家庭的なおもてなし', '大峯山麓の山菜', '名水の里の豆腐料理'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad343142%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F8054%2F8054.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030115%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030115%252F' }
@@ -5228,7 +5228,7 @@ export const hotelList = [
         prefecture: 'nara',
         type: '温泉旅館',
         description: '熊野古道が通る十津川村に位置する、世界遺産の自然と文化に包まれた温泉旅館。含硫黄ナトリウム炭酸水素塩泉の白濁した湯は美肌・神経痛・疲労回復に優れた効能を持つ。夕食は奥吉野の山の幸・十津川鹿のジビエ料理・熊野川の天然鮎・吉野本葛を使った鍋など南大和の山里の食材が旅人の体を内側から癒す。',
-        price: '2食付き 22,000円〜',
+        price: '2食付き 21,000円〜',
         image: './hotels/totsugawaonsenhoterusubaru.png',
         tags: ['世界遺産・熊野古道', '含硫黄白濁湯', '十津川鹿のジビエ'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad305032%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F38871%2F38871.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
@@ -5240,10 +5240,10 @@ export const hotelList = [
         prefecture: 'nara',
         type: '秘湯旅館',
         description: '十津川温泉郷の最奥部に位置する「日本秘湯を守る会」会員の一軒宿。含硫黄ナトリウム炭酸水素塩泉の白濁した湯を渓流沿いの露天風呂で楽しめる秘湯中の秘湯。熊野の山深くに宿る神聖な雰囲気の中で、十津川の鮎・山菜・ジビエを使った山里料理が旅人の心を解きほぐし、熊野古道巡礼と組み合わせた深い旅体験が忘れられない記憶となる。',
-        price: '2食付き 20,000円〜',
+        price: '2食付き 12,000円〜',
         image: './hotels/ueyuonizumikamiyusou.png',
         tags: ['日本秘湯を守る会', '渓流沿いの露天風呂', '熊野古道巡礼'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad333973%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F107679%2F107679.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030612%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030612%252F' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad333973%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F107679%2F107679.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#'  }
     },
     {
             id: 'h-nara-2-3',
@@ -5252,7 +5252,7 @@ export const hotelList = [
             prefecture: 'nara',
             type: '温泉旅館',
             description: '十津川温泉郷の最奥・下湯温泉に湧く源泉のほど近くに佇む静寂の宿。含硫黄ナトリウム炭酸水素塩泉を24時間源泉掛け流しで楽しめる露天風呂・内湯・寝湯・貸切風呂など8種類の湯殿を完備。晴れた夜は露天風呂から満天の星空が広がり、夕食は十津川鹿のジビエ・熊野川の鮎・山菜を使った山里会席で心身を癒す。',
-            price: '1泊2食付き 25,000円〜',
+            price: '1泊2食付き 15,000円〜',
             image: './hotels/totsugawaonseniorinoyu.png',
             tags: ['源泉掛け流し8種類の湯', '熊野古道の秘境', '十津川ジビエ料理'],
             bookingUrls: {
