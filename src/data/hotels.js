@@ -4952,72 +4952,24 @@ export const hotelList = [
         prefecture: 'osaka',
         type: '高級温泉旅館',
         description: '大阪府が誇る唯一の源泉かけ流し旅館として名高い天見温泉の名宿。明治時代建築の趣ある建物が国の登録有形文化財に指定され、アルカリ性単純温泉の湯は肌に優しく美肌効果で知られる。夕食は大阪府内で唯一収穫される天見産の食材と、河内のいのち大根・水なすなど大阪の伝統野菜を使った季節の懐石料理が大阪近郊の秘湯として特別な体験を提供する。',
-        price: '2食付き 35,000円〜',
+        price: '2食付き 30,000円〜',
         image: './hotels/amamionsennantenen.png',
         tags: ['大阪唯一の源泉かけ流し', '国登録有形文化財の建物', '大阪伝統野菜の懐石'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad313188%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F31146%2F31146.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002120%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002120%252F' }
-    },
-    {
-        id: 'h-osaka-1-2',
-        onsen_id: 'o-osaka-1',
-        name: '天見温泉 山荘',
-        prefecture: 'osaka',
-        type: '温泉旅館',
-        description: '大阪府南河内の山間に湧く天見温泉の閑静な旅館。アルカリ性単純温泉の清澄な湯は大阪市内の喧騒を忘れさせる静寂の中で楽しめ、谷川のせせらぎを聞きながらの露天風呂が心身を深く解放する。夕食は河内の山の幸と大阪湾の海の幸を組み合わせた和食会席で、大阪の隠れた名湯として知る人ぞ知る旅人に愛されてきた宿。',
-        price: '2食付き 25,000円〜',
-        image: './hotels/amamionsensansou.png',
-        tags: ['大阪の秘湯', 'アルカリ性単純温泉', '河内の山の幸'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-osaka-1-3',
-        onsen_id: 'o-osaka-1',
-        name: '天見川温泉 旅館 玄',
-        prefecture: 'osaka',
-        type: '温泉旅館',
-        description: '大阪と奈良の境に位置する山間の温泉旅館。大阪府内では珍しい天然温泉を引いた内湯と露天風呂で、アルカリ性の柔らかな湯を源泉掛け流しで楽しめる。夕食は大阪の食材と和歌山・奈良の山の幸を融合させた創作和食会席が特徴で、大阪市内から車で1時間ほどの好アクセスながら、別世界の静寂と温泉を楽しめる貴重な宿として旅人に評価されている。',
-        price: '2食付き 18,000円〜',
-        image: './hotels/amamikawaonsenryokangen.png',
-        tags: ['大阪近郊の秘湯', '源泉掛け流し', '創作和食会席'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
     },
 
     // ===== 犬鳴山温泉（大阪）=====
     {
         id: 'h-osaka-2-1',
         onsen_id: 'o-osaka-2',
-        name: '犬鳴山温泉 山乃湯',
+        name: '犬鳴山温泉 不動口館',
         prefecture: 'osaka',
         type: '温泉旅館',
-        description: '修験道の霊場・犬鳴山の清流沿いに湧く犬鳴山温泉の老舗旅館。含重曹食塩泉のとろりとした美肌の湯は「関西の奥座敷」として知られ、渓流を望む露天風呂が絶品。夕食は大阪湾の海の幸と紀北山地の山の幸を組み合わせた和食会席で、犬鳴山七宝瀧寺への参詣と組み合���せた修験の旅の拠点として長く旅人に親しまれている。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/inunakiyamaonsenyamanoyu.png',
-        tags: ['含重曹食塩泉の美肌湯', '渓流沿いの露天風呂', '犬鳴山修験の地'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-osaka-2-2',
-        onsen_id: 'o-osaka-2',
-        name: '犬鳴山温泉 やまびこ旅館',
-        prefecture: 'osaka',
-        type: '温泉旅館',
-        description: '犬鳴川のせせらぎを聞きながら静かに過ごせる山間の温泉旅館。含重曹食塩泉の柔らかな湯を源泉掛け流しで楽しめる内湯と露天風呂が自慢。夕食は大阪泉州の新鮮な海の幸と紀北の山の幸を組み合わせた家庭的な和食会席で、大阪市内から日帰りでも訪れる常連客が多く、アクセスの良さと本格的な温泉が両立した希少な宿。',
-        price: '2食付き 18,000円〜',
-        image: './hotels/inunakiyamaonsenyamabikoryokan.png',
-        tags: ['源泉掛け流し', '大阪近郊の秘湯', '泉州の海の幸'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-osaka-2-3',
-        onsen_id: 'o-osaka-2',
-        name: '犬鳴山温泉 元湯 犬鳴山荘',
-        prefecture: 'osaka',
-        type: '温泉旅館',
-        description: '犬鳴山温泉の元湯近くに建つ温泉旅館。含重曹食塩泉の泡立ちのある美肌の湯は神経痛・リウマチ・疲労回復に効能があり、湯治目的の常連客が絶えない。渓谷美を望む露天風呂は四季折々の自然の色彩が楽しめ、夕食は地元食材を使った素朴な和食会席が女将の手で丁寧に仕上げられ、山の静寂と温泉の温もりが旅人を深く癒す。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/inunakiyamaonsenmotoyuinunakisansou.png',
-        tags: ['元湯近接', '含重曹食塩泉の療養湯', '渓谷美の四季'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '大阪市内から車で約45分という好アクセスにありながら、一歩足を踏み入れれば深い緑と静寂に包まれる「大阪の奥座敷」の温泉旅館。最大の自慢は、犬鳴川の渓流をすぐ眼下に見下ろすことができる露天風呂。せせらぎの音と季節ごとに色づく山並みが五感を癒やし、単純硫黄冷鉱泉の柔らかな湯が肌を優しく包み込む。夕食には、地元の山菜や川魚、そして大阪のブランド豚「犬鳴ポーク」や旬の地産食材をふんだんに盛り込んだ本格会席を提供。都会の喧騒を忘れ、手軽にリフレッシュできる隠れ家的な一軒。',
+        price: '2食付き 10,000円〜',
+        image: './hotels/inunakiyamaonsenfudouguchikan.png',
+        tags: ['絶景露天風呂', '大阪市内から1時間以内', '柔らかな天然温泉'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad369355%2F&_gl=1*1735ixo*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYzMzA4NTckbzI2JGcxJHQxNzc2MzMwODU4JGo1OSRsMCRoMA..', rakuten: 'https://a.r10.to/h5Cwi4', ikyu: '#', yahoo: '#' }
     },
 
     // ===== 有馬温泉（兵庫）=====
