@@ -5271,7 +5271,7 @@ export const hotelList = [
         prefecture: 'wakayama',
         type: '高級温泉旅館',
         description: '白浜温泉の高台に位置し、太平洋と白良浜の絶景を独り占めできる高級温泉旅館。含塩化物温泉の海洋性温泉は保温効果が高く、オーシャンビューの半露天風呂付き客室が女性旅行者に絶大な人気。夕食は紀州の最高食材・本マグロのトロ・クエ鍋・伊勢海老のお造り・南紀産みかんのデザートが並ぶ贅沢な会席が旅の感動を高める。',
-        price: '2食付き 60,000円〜',
+        price: '2食付き 21,500円〜',
         image: './hotels/hamachidorinoyukaishuu.png',
         tags: ['太平洋の絶景', 'クエ鍋', '半露天付き客室'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad381160%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F68224%2F68224.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001352%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001352%252F' }
@@ -5283,7 +5283,7 @@ export const hotelList = [
         prefecture: 'wakayama',
         type: '高級リゾートホテル',
         description: '外観はスペイン・バルセロナのサグラダファミリアを想起させる独創的な建築が話題の白浜温泉の象徴的なホテル。ローマ皇帝の湯殿をイメージした豪壮な大浴場は金箔を使った贅沢な空間で、含塩化物温泉の海洋性温泉を楽しめる。夕食は紀州・白浜の海の幸・天然本マグロ・クエ・伊勢海老を使った豪華な会席料理がバブル期の栄華を今に伝える。',
-        price: '2食付き 50,000円〜',
+        price: '2食付き 27,000円〜',
         image: './hotels/hoterukawakyuu.png',
         tags: ['世界各地の石材で飾られた豪壮な建築', '天然本マグロ', '伊勢海老・クエ会席'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad321757%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F14111%2F14111.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000557%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000557%252F' }
@@ -5295,7 +5295,7 @@ export const hotelList = [
         prefecture: 'wakayama',
         type: '温泉旅館',
         description: '白浜温泉の中心部に位置し、白良浜ビーチへのアクセスが良い温泉旅館。含塩化物温泉の海洋性温泉を内湯と露天風呂で楽しめ、太平洋の潮風を感じながらの湯浴みが白浜の旅らしい開放感を演出する。夕食は南紀の海の幸・クエ鍋・本マグロのお造り・南高梅を使ったドレッシングと地酒「黒牛」の組み合わせが紀州の食文化を堪能できる会席として評判。',
-        price: '2食付き 28,000円〜',
+        price: '2食付き 16,500円〜',
         image: './hotels/shirahamaonsenmusashi.png',
         tags: ['白良浜近接', 'クエ鍋', '南高梅料理'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad351500%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F19739%2F19739.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
@@ -5326,7 +5326,7 @@ export const hotelList = [
             prefecture: 'wakayama',
             type: '温泉旅館',
             description: '熊野本宮温泉郷・川湯温泉の大塔川沿いに建つ温泉旅館。川から直接温泉が湧く川湯ならではの開放的な河原露天風呂が名物で、冬は巨大な「仙人風呂」も楽しめる。源泉かけ流しを客室露天風呂で独占する贅沢も人気。夕食はハーフバイキング形式で熊野の旬食材を使った料理が並び、楽天トラベル売れ筋1位の人気を誇る。',
-            price: '1泊2食付き 28,000円〜',
+            price: '1泊2食付き 21,000円〜',
             image: './hotels/wataseonsenwatasesou.png',
             tags: ['川湯の河原露天風呂', '冬の仙人風呂', '客室露天風呂付き'],
             bookingUrls: {
@@ -5343,7 +5343,7 @@ export const hotelList = [
         prefecture: 'wakayama',
         type: '秘湯旅館',
         description: '世界遺産に登録された「つぼ湯」がある湯の峰温泉の老舗旅館。日本最古の温泉の一つとされるつぼ湯の含硫黄炭酸水素塩泉は七色に変化する神秘の湯として知られ、世界遺産の温泉で入浴できる世界唯一の場所として世界中から旅人が訪れる。夕食は熊野の山の幸を使った素朴な会席料理が聖地での特別な体験を深める。',
-        price: '2食付き 18,000円〜',
+        price: '2食付き 22,000円〜',
         image: './hotels/yunomineonsentsuboyuryokanazumaya.png',
         tags: ['世界遺産のつぼ湯', '日本最古の温泉', '七色に変化する神秘の湯'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad397532%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F129554%2F129554.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
@@ -5357,7 +5357,7 @@ export const hotelList = [
         prefecture: 'wakayama',
         type: '大型温泉ホテル',
         description: '太平洋に突き出た半島全体を使った巨大温泉ホテルで、洞窟大浴場「忘帰洞」で全国的に有名。ナトリウム塩化物泉の海洋性温泉を洞窟・日帰り・展望など多彩な温泉施設で楽しめる。夕食は本マグロの水揚げで名高い那智勝浦港の天然本マグロ・クエ鍋・伊勢海老など南紀の最高食材が揃う豪華な海の幸会席が圧倒的なボリュームで旅人を満足させる。',
-        price: '2食付き 30,000円〜',
+        price: '2食付き 17,500円〜',
         image: './hotels/hoteruurashima.png',
         tags: ['洞窟大浴場・忘帰洞', '天然本マグロの産地', '太平洋一望の絶景'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad324016%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F54556%2F54556.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030853%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030853%252F' }
@@ -5369,7 +5369,7 @@ export const hotelList = [
         prefecture: 'wakayama',
         type: '温泉ホテル',
         description: '那智勝浦湾の島に建つ船でしかたどり着けない離島の温泉ホテル。太平洋を三方から眺める絶景の展望露天風呂が名物で、ナトリウム塩化物泉の海洋性温泉は体の芯から温まる。夕食は那智勝浦港直送の天然本マグロ・クエのフルコース・伊勢海老の姿焼きなど南紀最高の海の幸が揃い、離島ならではの非日常感が旅の記憶を豊かにする。',
-        price: '2食付き 35,000円〜',
+        price: '2食付き 38,000円〜',
         image: './hotels/nakanoshimahoteru.png',
         tags: ['船でしかたどり着けない離島宿', '本マグロ・クエフルコース', '太平洋三方の絶景'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad313265%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F5335%2F5335.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002710%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002710%252F' }
@@ -5381,7 +5381,7 @@ export const hotelList = [
             prefecture: 'wakayama',
             type: '温泉ホテル',
             description: '那智勝浦の熊野灘に面した高台に建つ温泉ホテル。内湯・壺湯・岩風呂・絹肌湯の4種類の湯殿を完備し、熊野灘を見渡す開放的な露天風呂では朝日や星空を楽しめる。夕食は勝浦産の新鮮なマグロをはじめとする郷土色豊かな会席料理が好評で、世界遺産・熊野古道観光の拠点としても利便性が高い。',
-            price: '1泊2食付き 18,000円〜',
+            price: '1泊2食付き 20,000円〜',
             image: './hotels/nankikatsuuraonsenryokanshiki.png',
             tags: ['熊野灘を望む露天風呂', '勝浦マグロ料理', '熊野古道観光拠点'],
             bookingUrls: {
@@ -5400,7 +5400,7 @@ export const hotelList = [
         prefecture: 'wakayama',
         type: '老舗温泉旅館',
         description: '日本三美人の湯の一つに数えられる龍神温泉の代表旅館。重炭酸ソーダ泉の美肌効果は日本屈指とされ、入浴後の肌のしっとり感が格別。紀ノ川の源流・日高川沿いに湧く名湯を源泉掛け流しで楽しめる。夕食は龍神の山の幸・熊野牛・ジビエ料理・紀ノ川の天然鮎など奥紀州の食材を使った山里会席が旅情を深める。',
-        price: '2食付き 28,000円〜',
+        price: '2食付き 23,000円〜',
         image: './hotels/ryuujinonsenuegoten.png',
         tags: ['日本三美人の湯', '重炭酸ソーダ泉', '熊野牛会席'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad312103%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F109360%2F109360.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
@@ -5410,9 +5410,9 @@ export const hotelList = [
         onsen_id: 'o-wakayama-4',
         name: '季楽里龍神',
         prefecture: 'wakayama',
-        type: '高級温泉旅館',
+        type: '温泉旅館',
         description: '高野山・熊野古道の中間に位置する龍神温泉の格調ある旅館。日本三美人の湯として名高い重炭酸ソーダ泉の美肌の湯を全室の専用露天風呂で楽しめる贅沢な設計が女性旅行者に人気。夕食は奥紀州の厳選食材・熊野牛のしゃぶしゃぶ・ジビエ（猪・鹿）・龍神の山菜を使った山里会席が、日本有数の美肌湯の体験と相まって心に残る旅を演出する。',
-        price: '2食付き 50,000円〜',
+        price: '2食付き 16,000円〜',
         image: './hotels/kirariryuujin.png',
         tags: ['全室露天風呂付き', '日本三美人の湯', '熊野牛しゃぶしゃぶ'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad393520%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F43782%2F43782.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
@@ -5420,14 +5420,14 @@ export const hotelList = [
     {
         id: 'h-wakayama-4-3',
         onsen_id: 'o-wakayama-4',
-        name: '元湯 龍神温泉',
+        name: '龍神温泉 下御殿',
         prefecture: 'wakayama',
-        type: '温泉旅館',
-        description: '龍神温泉の発祥の地・元湯に最も近い老舗旅館。日本三美人の湯・重炭酸ソーダ泉を源泉掛け流しで楽しめる数少ない宿の一つで、湯の柔らかさと肌への浸透力は特別。夕食は龍神村の山の幸・熊野牛・山菜・きのこ・清流の鮎を使った素朴な山里会席が女将の手で丁寧に仕上げられ、奥紀州の深い自然の中での静かな滞在が旅人の心身を根本から癒す。',
+        type: '老舗温泉旅館',
+        description: '日本三大美人の湯として名高い龍神温泉のなかでも、江戸時代に紀州徳川家の藩主が宿泊するために建てられた「御宿」としての歴史を継承する老舗旅館。最大の特徴は、眼下を流れる日高川の渓流にせり出すように造られた「混浴露天風呂」。清流の音を聞きながら、とろとろとした乳液のような極上の湯を、家族やパートナーと一緒に堪能できる。夕食には、地元の山で採れた山菜や川魚、さらに和歌山が誇るブランド牛などを中心にした、山の恵みあふれる素朴ながらも贅沢な会席料理を、歴史を感じる静かなお部屋で味わえる。',
         price: '2食付き 22,000円〜',
-        image: './hotels/motoyuryuujinonsen.png',
-        tags: ['龍神温泉元湯近接', '源泉掛け流し', '奥紀州の山里会席'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        image: './hotels/ryuujinonsenshimogoten.png',
+        tags: ['日本三美人の湯', '源泉掛け流し', '奥紀州の山里会席'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad310268%2F&_gl=1*oqz18n*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzYzMjQyNTQkbzI1JGcxJHQxNzc2MzI0Mjc3JGozNyRsMCRoMA..', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F68138%2F68138.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
     },
 
     // ===== 三朝温泉（鳥取）=====
