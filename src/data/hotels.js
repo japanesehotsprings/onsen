@@ -4561,11 +4561,11 @@ export const hotelList = [
     {
         id: 'h-aichi-1-1',
         onsen_id: 'o-aichi-1',
-        name: 'はづ木ホテル',
+        name: 'はづ木',
         prefecture: 'aichi',
         type: '温泉旅館',
         description: '宇連川の清流沿いに建つ湯谷温泉の代表的な旅館。単純アルカリ性泉の肌に優しい湯を川に面した露天風呂で楽しめる。夕食は鳳来寺山周辺の山の幸と三河の食材を活かした会席料理で、三河産の名古屋コーチン・鳳来牛・天然鮎の川魚料理が旅情を高め、渓流のせせらぎを聞きながらの湯浴みが日常の疲れを忘れさせる。',
-        price: '2食付き 22,000円〜',
+        price: '2食付き 23,000円〜',
         image: './hotels/hazukihoteru.png',
         tags: ['宇連川の清流', '名古屋コーチン料理', '単純アルカリ性泉'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad376738%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F130072%2F130072.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001504%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001504%252F' }
@@ -4577,7 +4577,7 @@ export const hotelList = [
             prefecture: 'aichi',
             type: '温泉旅館',
             description: '宇連川の断崖に建つ民芸造りの風情ある旅館。庭園露天風呂・民芸ひのき風呂・鳳液泉風呂の3種類の源泉掛け流し温泉を備え、1300年の歴史を誇る湯谷温泉の名湯を心ゆくまで楽しめる。若主人こだわりの地酒と合わせた三河産鳳来牛をはじめ奥三河の旬食材を活かした創作会席は、渓谷の自然音に包まれた宿泊体験をさらに豊かに彩る。',
-            price: '1泊2食付き 40,000円〜',
+            price: '1泊2食付き 15,500円〜',
             image: './hotels/ryokanhouraikan.png',
             tags: ['民芸造りの宿', '源泉掛け流し3種', '鳳来牛会席'],
             bookingUrls: {
@@ -4590,14 +4590,14 @@ export const hotelList = [
     {
         id: 'h-aichi-1-3',
         onsen_id: 'o-aichi-1',
-        name: '湯谷観光ホテル 壱之湯',
+        name: '湯谷温泉 旅荘 みつい',
         prefecture: 'aichi',
-        type: '温泉ホテル',
-        description: '湯谷温泉の渓谷沿いに建つ温泉ホテル。アルカリ性単純温泉の豊富な湯量と適温の湯は長湯を楽しむのに最適で、渓谷美を望む展望大浴場と露天風呂が評判。三河の旬食材を使った夕食は名古屋コーチン鍋・三河産うなぎの白焼き・鳳来牛のすき焼きなど愛知県の美食文化を堪能できる豪華な会席が揃う。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/yutanikankouhoterukazuyukiyu.png',
-        tags: ['渓谷美の展望浴場', '名古屋コーチン鍋', '三河うなぎ'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉旅館',
+        description: '奥三河の秘境、鳳来峡の渓谷美を間近に望むことができる全7室の静かな温泉宿。最大の魅力は、板敷川のせせらぎが目の前に迫る露天風呂で、1300年の歴史を持つ「万病に効く」と伝わる茶褐色の源泉を掛け流しで堪能できる点。夕食には、鳳来牛や地元の山菜、清流で育った鮎やアマゴなど、奥三河の豊かな自然が育んだ食材を活かした素朴ながらも贅沢な山里料理が並ぶ。都会の喧騒から完全に切り離された、隠れ家のような空間で心ゆくまで休息を味わいたい大人にふさわしい一軒。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/yutanionsenryosoumitsui.png',
+        tags: ['全7室のプライベート', '鳳来峡の絶景を望む露天風呂', '茶褐色の名湯'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad342296%2F&_gl=1*1i8s7qv*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzY0MjA0OTEkbzMwJGcxJHQxNzc2NDIwNTM0JGoxNyRsMCRoMA..', rakuten: 'https://a.r10.to/hgIKI9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00921123%252F' }
     },
 
     // ===== 蒲郡温泉（愛知）=====
@@ -4608,7 +4608,7 @@ export const hotelList = [
         prefecture: 'aichi',
         type: '歴史的ホテル',
         description: '1934年に鉄道省が建設した国の登録有形文化財。昭和モダニズムの名建築として知られる白亜のホテルで、三河湾を一望する庭園と海辺の絶景が圧倒的な魅力。ナトリウム塩化物泉の海洋性温泉は保温効果が高く、三河湾の海の幸・矢作川の鮎・三河産のあさりを使った格調ある洋食・和食の会席が歴史的空間での特別な滞在を演出する。',
-        price: '2食付き 35,000円〜',
+        price: '2食付き 30,000円〜',
         image: './hotels/gamagoorikurashikkuhoteru.png',
         tags: ['国登録有形文化財', '昭和モダニズムの名建築', '三河湾の絶景'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad340061%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F41989%2F41989.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000673%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000673%252F' }
@@ -4620,7 +4620,7 @@ export const hotelList = [
         prefecture: 'aichi',
         type: '温泉ホテル',
         description: '竹島海岸のほど近くに建ち、三河湾と竹島の絶景を独り占めできる温泉ホテル。ナトリウム塩化物泉の温泉は三河湾の海洋性温泉で保温効果が高く、大浴場と露天風呂から竹島の神秘的な景色が楽しめる。夕食は三河産の伊勢海老・アワビ・とらふぐ料理が揃う豪華な海の幸会席で、冬のフグ料理シーズンには特に評判が高い。',
-        price: '2食付き 28,000円〜',
+        price: '2食付き 10,500円〜',
         image: './hotels/hoterutakeshima.png',
         tags: ['竹島の絶景', '伊勢海老・アワビ会席', '三河湾の海洋性温泉'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad366430%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F9701%2F9701.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
@@ -4632,7 +4632,7 @@ export const hotelList = [
         prefecture: 'aichi',
         type: '温泉旅館',
         description: '蒲郡温泉の高台に位置し三河湾を一望できる眺望抜群の温泉旅館。ナトリウム塩化物泉の保温性の高い湯は体の芯から温まり、展望露天風呂からは三河湾の海景色が広がる。夕食は蒲郡産の新鮮な魚介と三河の食材を使った会席料理で、三河産あさりの酒蒸し・伊勢海老の刺身・三河産うなぎの蒲焼きが旅人の食欲を存分に満たす。',
-        price: '2食付き 22,000円〜',
+        price: '2食付き 18,000円〜',
         image: './hotels/hoterumeisansou.png',
         tags: ['三河湾の展望', '三河うなぎ', 'ナトリウム塩化物泉'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad304106%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F39274%2F39274.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030626%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030626%252F' }
