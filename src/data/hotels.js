@@ -4646,7 +4646,7 @@ export const hotelList = [
         prefecture: 'mie',
         type: '温泉リゾートホテル',
         description: 'ナガシマリゾートに隣接する総合温泉リゾートホテル。伊勢湾の海洋性温泉を引いた「湯あみの島」の大温泉施設を完備し、多彩な浴槽で長島の旅を満喫できる。夕食は伊勢海老・松阪牛・志摩の牡蠣など三重が誇る最高食材を使ったバイキング形式の豪華な和洋ビュッフェが人気で、テーマパーク・アウトレットとの組み合わせ旅行の拠点として家族連れに絶大な人気がある。',
-        price: '2食付き 25,000円〜',
+        price: '2食付き 37,500円〜',
         image: './hotels/hoterukasuiki.png',
         tags: ['ナガシマリゾート直結', '伊勢海老・松阪牛ビュッフェ', '大温泉施設'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad341025%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F106022%2F106022.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001363%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001363%252F' }
@@ -4654,26 +4654,26 @@ export const hotelList = [
     {
         id: 'h-mie-1-2',
         onsen_id: 'o-mie-1',
-        name: '長島温泉 旅館 湯もとの宿 松の湯',
+        name: 'ガーデンホテルオリーブ',
         prefecture: 'mie',
-        type: '温泉旅館',
-        description: '長島温泉の湯元に近い老舗旅館。ナトリウム塩化物泉の海洋性温泉は三重の豊かな海を感じさせる塩分豊富な湯で、体の芯からポカポカと温まる保温効果が高い。夕食は木曽川で育った天然鰻の白焼き・伊勢の天然鯛の姿煮・志摩産の牡蠣バター焼きなど三重の食材の宝庫ならではの会席が旅情を高める。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/nagashimaonsenryokanyumotonoyadomatsunoyu.png',
-        tags: ['湯元近接', '天然鰻の白焼き', '志摩産牡蠣'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉ホテル',
+        description: 'ナガシマリゾートのオフィシャルホテルの一つであり、特にファミリーやグループ旅行に絶大な人気を誇る大型温泉ホテル。最大の魅力は、日本最大級の遊園地「ナガシマスパーランド」や、圧倒的なスケールを誇る「ジャンボ海水プール」、そして四季折々の花々が咲き誇る「なばなの里」へのアクセスが抜群で、宿泊者限定の通行特典や入場サービスが非常に充実している点。館内には広々とした大浴場があり、ナガシマの天然温泉をゆったりと堪能できる。食事は、和洋中のバラエティ豊かな「豪華バイキング」が自慢。オープンキッチンで焼きたてのステーキや揚げたての天ぷら、新鮮な魚介が並び、大人から子どもまで満足度の高い滞在を叶えてくれる。',
+        price: '2食付き 19,000円〜',
+        image: './hotels/gardenhotelolive.png',
+        tags: ['ナガシマリゾート直結', '和洋中100種類以上の豪華バイキング', '家族三世代で楽しめる'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad329246%2F&_gl=1*1duij4w*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzY0MDA5MzYkbzI5JGcxJHQxNzc2NDAxNjM5JGoyMCRsMCRoMA..', rakuten: 'https://a.r10.to/h59RzJ', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00901900%252F' }
     },
     {
         id: 'h-mie-1-3',
         onsen_id: 'o-mie-1',
-        name: '長島温泉 観光ホテル 萬松館',
+        name: 'ホテルナガシマ',
         prefecture: 'mie',
         type: '温泉ホテル',
-        description: '長島温泉の伝統ある温泉旅館として地元に愛されてきた宿。ナトリウム塩化物泉の豊富な湯量を誇る大浴場と露天風呂で、伊勢湾の自然を感じながら湯浴みが楽しめる。夕食は松阪牛の陶板焼き・伊勢海老の鬼殻焼き・伊勢湾の地魚お造りなど三重県の最高食材が揃い、旅の満足度を高める豪華な会席が旅人をもてなす。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/nagashimaonsenkankouhoterubanshoukan.png',
-        tags: ['松阪牛の陶板焼き', '伊勢海老', 'ナトリウム塩化物泉'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: 'ナガシマリゾートのオフィシャルホテルの中でも、特に「温泉」と「食」に重点を置いた、全室洋室タイプの温泉ホテル。最大の特長は、国内最大級の日帰り大浴場「湯あみの島」と専用通路で直結しており、滞在中は何度でも広大な露天風呂や内湯で天然温泉を満喫できる点。夕食・朝食ともに、広々としたレストランでの豪華なバイキング形式で提供され、ズワイガニやステーキ、地元の旬の食材を活かした多彩なメニューが並ぶ。宿泊者にはナガシマスパーランドへの入場無料や、開園10分前に入場できる「アーリーエントリー」などの特典が充実しており、リゾートをアクティブに楽しみたい層に支持されている。',
+        price: '2食付き 20,000円〜',
+        image: './hotels/hotelnagashima.png',
+        tags: ['湯あみの島直結で温泉三昧', '全室ゆったりとした洋室仕様', 'ナガシマリゾート直結'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad397378%2F&_gl=1*tjnun6*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzY0MDA5MzYkbzI5JGcxJHQxNzc2NDAxODk2JGoyNSRsMCRoMA..', rakuten: 'https://a.r10.to/h5mCZl', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00901898%252F' }
     },
 
     // ===== 湯の山温泉（三重）=====
@@ -4684,7 +4684,7 @@ export const hotelList = [
             prefecture: 'mie',
             type: '高級温泉旅館',
             description: '湯の山温泉の自然に溶け込む洗練されたラグジュアリー旅館。御在所岳の豊かな緑に抱かれた露天風呂で名湯・湯の山の美肌の湯を独占できる。アクアイグニス複合施設内に位置し、地産地消にこだわった創作料理と心尽くしの日本のおもてなしが融合した、現代的な温泉体験を提供する。',
-            price: '1泊2食付き 45,000円〜',
+            price: '1泊2食付き 56,500円〜',
             image: './hotels/kibousou.png',
             tags: ['ラグジュアリー旅館', '美肌の湯', '地産地消創作料理'],
             bookingUrls: {
@@ -4697,11 +4697,11 @@ export const hotelList = [
     {
         id: 'h-mie-2-2',
         onsen_id: 'o-mie-2',
-        name: '寿亭',
+        name: '旅館 寿亭',
         prefecture: 'mie',
         type: '老舗温泉旅館',
         description: '湯の山温泉の老舗として知られ、創業以来多くの文人墨客に愛されてきた風格ある旅館。単純アルカリ性泉の湯を引いた渓谷を望む露天風呂は御在所岳の四季を映し出す絶景スポット。夕食は松阪牛の高級会席を中心に、伊勢海老・アワビ・三重の山の幸を盛り込んだ格調ある会席が提供され、老舗ならではの丁寧なもてなしが心に残る旅を演出する。',
-        price: '2食付き 35,000円〜',
+        price: '2食付き 17,500円〜',
         image: './hotels/hisashitei.png',
         tags: ['文人墨客に愛された老舗', '渓谷露天風呂', '松阪牛の高級会席'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad325563%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F12599%2F12599.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030523%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030523%252F' }
@@ -4709,14 +4709,14 @@ export const hotelList = [
     {
         id: 'h-mie-2-3',
         onsen_id: 'o-mie-2',
-        name: '湯の山温泉 グリーンホテル',
+        name: '湯の山温泉 ホテル湯の本',
         prefecture: 'mie',
         type: '温泉ホテル',
-        description: '御在所ロープウェーの乗り場に近い便利な立地の温泉ホテル。単純アルカリ性泉の湯は柔らかく美肌効果で知られ、御在所岳の山並みを望む展望大浴場が名物。夕食は松阪牛・伊賀牛・伊勢海老などの三重ブランド食材と鈴鹿山脈の山の幸を組み合わせた会席で、ロープウェー観光や御在所岳登山の拠点として多くの旅行者に利用されている。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/yunoyamaonsenguriinhoteru.png',
+        description: '三重県・湯の山温泉の標高約400mに位置し、御在所ロープウェイ乗り場のすぐ目の前という最高の立地を誇る絶景の宿。最大の魅力は、名古屋市街や伊勢湾までをも見渡せる「展望露天風呂」。夜にはキラキラと輝く夜景を眺めながらの湯浴みが楽しめ、その開放感は格別。夕食には、三重の誇る「松阪牛」の石焼きやしゃぶしゃぶをメインに、鈴鹿山脈の恵みと伊勢湾の海の幸を織り交ぜた彩り豊かな会席料理を堪能できる。ロープウェイでの空中散歩の後に、絶景と名湯で心身を解きほぐすのに最適な一軒。',
+        price: '2食付き 15,000円〜',
+        image: './hotels/yunoyamaonsenhoteruyunomoto.png',
         tags: ['御在所ロープウェー近接', '展望大浴場', '三重ブランド食材'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=http%3A%2F%2Fjalan.net%2Fyad332971%2F&_gl=1*jpj1w4*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzY0MDA5MzYkbzI5JGcxJHQxNzc2NDAxMDA3JGo1OSRsMCRoMA..', rakuten: 'https://a.r10.to/hkBBXT', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00901306%252F' }
     },
 
     // ===== 志摩温泉（三重）=====
@@ -4727,7 +4727,7 @@ export const hotelList = [
         prefecture: 'mie',
         type: '高級リゾートホテル',
         description: '伊勢志摩サミット（2016年）のメイン会場となった格調高いクラシックホテル。英虞湾の絶景を独占できる最高のロケーションで、伊勢志摩の食材を使ったフランス料理「英虞湾フルコース」は世界の首脳をもてなした伝説の料理として名高い。志摩の天然温泉を引いたスパで疲れを癒し、伊勢海老・アワビ・クエを贅沢に使った会席も選べる。',
-        price: '2食付き 80,000円〜',
+        price: '2食付き 50,500円〜',
         image: './hotels/shimakankouhoteruzakurashikku.png',
         tags: ['G7伊勢志摩サミット会場', '英虞湾の絶景', '伊勢海老フランス料理'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad312114%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F1150%2F1150.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000801%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000801%252F' }
@@ -4739,7 +4739,7 @@ export const hotelList = [
         prefecture: 'mie',
         type: '温泉リゾートホテル',
         description: '賢島の自然に囲まれた近鉄グループの温泉リゾートホテル。志摩の天然温泉を引いた大浴場と露天風呂は英虞湾を望む絶景スポット。夕食は志摩産の真珠色のアワビ・伊勢海老のグリル・的矢の牡蠣など伊勢志摩の宝物を使ったビュッフェ＆会席が充実し、ファミリーからカップルまで幅広い旅行者が英虞湾の美景とともに豊かな食体験を楽しめる。',
-        price: '2食付き 40,000円〜',
+        price: '2食付き 18,000円〜',
         image: './hotels/hoterukintetsuakuaviraiseshima.png',
         tags: ['賢島の自然', 'アワビ・的矢牡蠣', '英虞湾の展望温泉'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad349958%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F67941%2F67941.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001675%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001675%252F' }
@@ -4751,7 +4751,7 @@ export const hotelList = [
             prefecture: 'mie',
             type: '高級リゾートホテル',
             description: '英虞湾を一望する伊勢志摩の頂点に立つ最高峰のリゾートホテル。全室スイートの贅沢な客室から英虞湾の真珠色に輝く夕景を独占できる。伊勢海老や鮑など伊勢志摩の海の恵みを極めたフランス料理は国際的にも高い評価を受けており、特別な記念日に選ばれ続けるラグジュアリーリゾート。',
-            price: '1泊2食付き 80,000円〜',
+            price: '1泊2食付き 90,000円〜',
             image: './hotels/iseshimashimaonsenryokanmatoyanoyado.png',
             tags: ['全室スイート', '英虞湾ビュー', 'フランス料理'],
             bookingUrls: {
