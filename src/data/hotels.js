@@ -4341,12 +4341,12 @@ export const hotelList = [
     {
         id: 'h-shizuoka-1-1',
         onsen_id: 'o-shizuoka-1',
-        name: '熱海ふふ',
+        name: 'ふふ熱海',
         prefecture: 'shizuoka',
         type: 'ラグジュアリー旅館',
         description: '熱海の山中に建つ洗練された高級旅館。全室に源泉掛け流しの露天風呂を完備し、相模灘を一望するプライベート空間が魅力。',
-        price: '2食付き 60,000円〜',
-        image: './hotels/atami-fufu.png',
+        price: '2食付き 53,000円〜',
+        image: './hotels/atamifufu.png',
         tags: ['全室露天付き', '相模灘眺望', 'プライベート', '最高級'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad394094%2F', rakuten: 'https://a.r10.to/hYFgS1', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001360%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001360%252F' }
     },
@@ -4357,7 +4357,7 @@ export const hotelList = [
         prefecture: 'shizuoka',
         type: '大型リゾートホテル',
         description: '相模湾を一望する断崖の上の大型温泉リゾート。地下1,000mから自噴する源泉を引いた絶景の展望大浴場が人気。',
-        price: '2食付き 20,000円〜',
+        price: '2食付き 17,000円〜',
         image: './hotels/newakao.png',
         tags: ['自噴源泉', '相模湾眺望', '大型リゾート'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad333583%2F', rakuten: 'https://a.r10.to/hYDIzH', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002976%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002976%252F' }
@@ -4369,7 +4369,7 @@ export const hotelList = [
         prefecture: 'shizuoka',
         type: '老舗旅館',
         description: '熱海温泉で最も古い旅館のひとつ。萩、夏目漱石、山本有三ら文人に愛され続けた風情ある木造旅館。',
-        price: '2食付き 30,000円〜',
+        price: '2食付き 41,500円〜',
         image: './hotels/furuya.png',
         tags: ['文人ゆかり', '老舗', '木造建築'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad334104%2F', rakuten: 'https://a.r10.to/hRwafU', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000370%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000370%252F' }
@@ -4383,7 +4383,7 @@ export const hotelList = [
         prefecture: 'shizuoka',
         type: '老舗温泉旅館',
         description: '伊豆下田の山懐に位置する老舗旅館。ナトリウム炭酸水素塩泉の柔らかく肌に優しい湯は美肌効果で知られ、女性に人気が高い。夕食は駿河湾で水揚げされた金目鯛の煮付けと活造り、稲取の深海魚料理、伊豆特産の山葵を使った海の幸会席が旅情を高め、南伊豆の自然に抱かれた静かな滞在体験が疲れた旅人の心を癒す。',
-        price: '2食付き 25,000円〜',
+        price: '2食付き 12,000円〜',
         image: './hotels/shimodayamatokan.png',
         tags: ['金目鯛の煮付け', 'ナトリウム炭酸水素塩泉', '南伊豆の自然'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad330402%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F8265%2F8265.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030632%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030632%252F' }
@@ -4395,8 +4395,8 @@ export const hotelList = [
             prefecture: 'shizuoka',
             type: '温泉ホテル',
             description: '伊豆下田の高台に建ち、相模湾を一望できる絶景の温泉宿。白浜海岸まで徒歩圏内の好立地で、源泉かけ流しの露天風呂からは青い海と空が広がる。地元の新鮮な海の幸を活かした懐石料理も好評。開放的な眺望と本格的な温泉が楽しめる、南伊豆を代表する人気宿のひとつ。',
-            price: '1泊2食付き 20,000円〜',
-            image: './hotels/yumikehamaonsenakanenoyadokokonoe.png',
+            price: '1泊2食付き 11,000円〜',
+            image: './hotels/shimodaviewhotel.png',
             tags: ['絶景海景', '海の幸会席', '源泉かけ流し'],
             bookingUrls: {
                 jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad316763%2F',
@@ -4412,7 +4412,7 @@ export const hotelList = [
             prefecture: 'shizuoka',
             type: '温泉リゾートホテル',
             description: '下田湾を望む海辺のリゾートホテル。全室オーシャンビューの客室から伊豆の青い海を独占し、天然温泉の展望露天風呂では潮風を感じながら贅沢なひとときを過ごせる。新鮮な地魚を使った創作料理と海に沈む夕日の美しさが旅の思い出を彩る大人のための隠れ家リゾート。',
-            price: '1泊2食付き 25,000円〜',
+            price: '1泊2食付き 17,000円〜',
             image: './hotels/shimodaonsenyamadayaryokan.png',
             tags: ['全室オーシャンビュー', 'リゾートホテル', '地魚料理'],
             bookingUrls: {
@@ -4431,7 +4431,7 @@ export const hotelList = [
         prefecture: 'shizuoka',
         type: '国指定重要文化財旅館',
         description: '明治期から続く風格ある老舗旅館で、国の登録有形文化財に指定された貴重な木造建築が圧倒的な存在感を放つ。修善寺温泉のナトリウム炭酸水素塩泉は「独鈷の湯」に源を発する名湯で、川縁に設けられた天然岩の露天風呂は情緒満点。夕食は伊豆の地魚料理に地元農家の旬野菜・わさびを組み合わせた伊豆会席が洗練された和の空間で供される。',
-        price: '2食付き 35,000円〜',
+        price: '2食付き 30,000円〜',
         image: './hotels/arairyokan.png',
         tags: ['国登録有形文化財', '天然岩の露天風呂', '伊豆わさび会席'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad359366%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F31865%2F31865.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000906%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000906%252F' }
@@ -4443,7 +4443,7 @@ export const hotelList = [
         prefecture: 'shizuoka',
         type: '老舗温泉旅館',
         description: '修善寺川のほとりに建つ数寄屋造りの上品な旅館。ナトリウム炭酸水素塩泉の湯は神経痛・筋肉痛・冷え性に効能があり、川を眼下に望む露天風呂と檜の内湯で心身が解放される。夕食は伊豆稲取の金目鯛・駿河湾の桜海老・修善寺産わさびを主役にした伊豆会席が季節の移ろいに合わせて変化し、独鈷山の緑と川のせせらぎが旅情を深める。',
-        price: '2食付き 28,000円〜',
+        price: '2食付き 17,000円〜',
         image: './hotels/shuzenjionsenkatsuragawa.png',
         tags: ['川沿いの露天風呂', '金目鯛・桜海老', '数寄屋造り'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad383592%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F1645%2F1645.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
@@ -4455,7 +4455,7 @@ export const hotelList = [
         prefecture: 'shizuoka',
         type: '温泉旅館',
         description: '修善寺温泉の中心部に位置し、竹林と川のせせらぎに囲まれた情緒豊かな旅館。ナトリウム炭酸水素塩泉の柔らかな湯を源泉掛け流しで楽しめ、湯上がりの肌がしっとりすると評判。夕食は伊豆の金目鯛・アワビ・伊勢海老など豪華な海の幸と修善寺産の山の幸を組み合わせた会席料理が、女将の温かいもてなしとともに心に残る旅の記憶を刻む。',
-        price: '2食付き 22,000円〜',
+        price: '2食付き 27,500円〜',
         image: './hotels/shuzenjionsenkikuya.png',
         tags: ['竹林の風情', '源泉掛け流し', '金目鯛・アワビ会席'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad306291%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F7491%2F7491.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001191%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001191%252F' }
@@ -4469,7 +4469,7 @@ export const hotelList = [
             prefecture: 'shizuoka',
             type: '温泉旅館',
             description: '伊東温泉の情緒あふれる純和風旅館。大正ロマンを感じさせる趣のある建物と丁寧なおもてなしが訪れる人々を魅了する。伊東の豊富な湯量を誇る天然温泉と、地元の食材を吟味した会席料理が好評。静かな和の空間でゆったりと過ごす、品格ある伊東温泉の宿。',
-            price: '1泊2食付き 30,000円〜',
+            price: '1泊2食付き 26,500円〜',
             image: './hotels/itouonsennagisahoteru.png',
             tags: ['純和風旅館', '会席料理', '天然温泉'],
             bookingUrls: {
@@ -4486,7 +4486,7 @@ export const hotelList = [
             prefecture: 'shizuoka',
             type: '高級温泉旅館',
             description: '伊東温泉に佇む、全室露天風呂付きのプレミアム旅館。木のぬくもりを感じる和モダンな客室では、プライベートな天然温泉を独占しながら伊豆の自然に包まれる。伊豆の恵みを贅沢に使ったお料理ときめ細やかなサービスで、心身ともにほぐれる特別な滞在を提供する。',
-            price: '1泊2食付き 40,000円〜',
+            price: '1泊2食付き 25,500円〜',
             image: './hotels/yamakiryokan.png',
             tags: ['全室露天風呂付き', '和モダン', 'プライベート温泉'],
             bookingUrls: {
@@ -4503,7 +4503,7 @@ export const hotelList = [
             prefecture: 'shizuoka',
             type: '高級温泉旅館',
             description: '伊東温泉の緑豊かな自然に囲まれた隠れ宿。源泉かけ流しの温泉と四季折々の山里料理が心を癒す。客室からは相模湾と伊豆の山並みが一望でき、都会の喧騒から解放される極上のひとときを過ごせる。少人数向けの客室でゆったりとした空間を確保し、至高のおもてなしで旅人を迎える。',
-            price: '1泊2食付き 35,000円〜',
+            price: '1泊2食付き 34,500円〜',
             image: './hotels/fukakawa.png',
             tags: ['隠れ宿', '源泉かけ流し', '絶景'],
             bookingUrls: {
@@ -4522,7 +4522,7 @@ export const hotelList = [
         prefecture: 'shizuoka',
         type: '高級温泉旅館',
         description: '岩崎弥之助の別荘を旅館に改築した国宝・名勝の庭園を持つ格調高い旅館。アルカリ性ナトリウム炭酸水素塩泉の肌に優しい湯は美肌効果で知られ、天然の岩組みを活かした露天風呂が趣深い。夕食は富士山の伏流水で育てる伊豆の本わさびを使った伊豆会席で、金目鯛・鮑・桜海老など伊豆の最高食材が贅沢に並び、格式ある空間でのもてなしが一段上の旅体験を提供する。',
-        price: '2食付き 50,000円〜',
+        price: '2食付き 50,500円〜',
         image: './hotels/sanyansou.png',
         tags: ['旧岩崎別荘の格調', '名勝庭園', '本わさび伊豆会席'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad362180%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F108565%2F108565.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000676%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000676%252F' }
@@ -4534,7 +4534,7 @@ export const hotelList = [
         prefecture: 'shizuoka',
         type: 'リゾート旅館',
         description: '伊豆長岡温泉の自然に溶け込む洗練されたリゾート旅館。ナトリウム炭酸水素塩泉の美肌の湯を半露天の客室風呂で楽しめるプランが女性客に絶大な人気。カフェ・スパ・サイクリングなどの体験アクティビティが充実し、夕食はオーガニック野菜中心のヘルシーな会席と伊豆の地魚料理が健康的な旅を演出する。',
-        price: '2食付き 40,000円〜',
+        price: '2食付き 30,000円〜',
         image: './hotels/kuranoyuhigashifuyaresort.png',
         tags: ['半露天付き客室', 'オーガニック会席', 'アクティビティ充実'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad330770%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F109062%2F109062.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001691%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001691%252F' }
@@ -4546,7 +4546,7 @@ export const hotelList = [
             prefecture: 'shizuoka',
             type: '高級温泉旅館',
             description: '伊豆長岡温泉から望む富士山の絶景が自慢の高級旅館。客室や露天風呂から富士山を一望できるロケーションは他に類を見ない。駿河湾の新鮮な海の幸と富士山麓の食材を組み合わせた会席料理も評判高く、非日常の贅沢な体験が詰まった特別な宿として多くの旅行者に選ばれている。',
-            price: '1泊2食付き 50,000円〜',
+            price: '1泊2食付き 25,000円〜',
             image: './hotels/izunagaokaonsenmiyawakiryokan.png',
             tags: ['富士山ビュー', '絶景露天風呂', '会席料理'],
             bookingUrls: {
