@@ -4217,12 +4217,12 @@ export const hotelList = [
     {
         id: 'h-gifu-2-1',
         onsen_id: 'o-gifu-2',
-        name: '穂高荘 山がの湯',
+        name: '穂高荘 山のホテル',
         prefecture: 'gifu',
         type: '高級温泉旅館',
         description: '北アルプスを望む奥飛騨温泉郷の高台に佇む高級旅館。含硫黄ナトリウム塩化物泉の湯は豊富な湯量を誇り、混浴の野天風呂からは穂高連峰の絶景が広がる。夕食は飛騨牛のしゃぶしゃぶ・鮎の塩焼き・飛騨山地の山菜を盛り込んだ飛騨会席で、地酒「久寿玉」との組み合わせが旅の思い出を深める。',
-        price: '2食付き 35,000円〜',
-        image: './hotels/hodakasouyamaganoyu.png',
+        price: '2食付き 15,500円〜',
+        image: './hotels/hodakasouyamahotel.png',
         tags: ['穂高連峰の絶景', '混浴野天風呂', '飛騨牛しゃぶしゃぶ'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad329841%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F70916%2F70916.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030706%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030706%252F' }
     },
@@ -4233,7 +4233,7 @@ export const hotelList = [
         prefecture: 'gifu',
         type: '高級旅館',
         description: '奥飛騨温泉郷の豊かな自然に溶け込む格調高い旅館。含硫黄カルシウム炭酸水素塩泉の白濁した湯を全室に専用露天風呂として備えた贅沢な設計が特長。夕食は飛騨牛の朴葉味噌焼き・飛騨里芋の煮物・岩魚の姿造りなど飛騨の食文化を現代的に昇華した会席が並び、北アルプスの山懐で過ごす至高のひとときを演出する。',
-        price: '2食付き 55,000円〜',
+        price: '2食付き 23,500円〜',
         image: './hotels/miyamasakuraiori.png',
         tags: ['全室専用露天風呂', '飛騨牛朴葉味噌焼き', '白濁硫黄泉'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad308347%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F65440%2F65440.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001354%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001354%252F' }
@@ -4245,7 +4245,7 @@ export const hotelList = [
             prefecture: 'gifu',
             type: '料理旅館',
             description: '奥飛騨温泉郷の1日5組限定の秘めやかな料理旅館。飛騨高山の名匠に認定された料理長が飛騨牛・山菜・川魚を囲炉裏で炭火焼きにする創作懐石は絶品の美食体験。古民家を改装した趣ある客室と4か所の無料貸切露天風呂（全て内湯・源泉掛け流し付き）を備え、含硫黄の北アルプス源泉でじっくり湯浴みを楽しめる。',
-            price: '1泊2食付き 48,000円〜',
+            price: '1泊2食付き 27,000円〜',
             image: './hotels/okuhidanoyukozanisshou.png',
             tags: ['飛騨牛会席', '貸切露天風呂4か所', '1日5組限定'],
             bookingUrls: {
@@ -4264,7 +4264,7 @@ export const hotelList = [
             prefecture: 'gifu',
             type: '高級温泉旅館',
             description: '平湯温泉の深い森に抱かれた全10室の大人専用の静寂な宿。全室に自家源泉の炭酸水素塩泉「山の湯」を引いた専用露天風呂を完備し、美肌の湯として名高い源泉掛け流しを24時間独占できる贅沢な滞在が叶う。夕食はA5飛騨牛をメインとした旬の奥飛騨食材による会席料理で、北アルプスの自然に包まれた極上のひとときを演出する。',
-            price: '1泊2食付き 50,000円〜',
+            price: '1泊2食付き 40,000円〜',
             image: './hotels/hirayuonsenhirayunomori.png',
             tags: ['全室源泉掛け流し露天風呂付き', '炭酸水素塩泉', 'A5飛騨牛会席'],
             bookingUrls: {
@@ -4281,7 +4281,7 @@ export const hotelList = [
         prefecture: 'gifu',
         type: '老舗温泉旅館',
         description: '平湯温泉で長年にわたり愛されてきた老舗旅館。含硫黄ナトリウム炭酸水素塩泉の清澄な湯を源泉掛け流しで楽しめ、内湯と露天風呂は四季折々に表情を変える奥飛騨の景色に囲まれている。夕食は飛騨の郷土食材を丁寧に仕上げた会席で、飛騨牛のすき焼き・山菜の天ぷら・岩魚の田楽が囲炉裏を囲む雰囲気とともに旅の充実感を高める。',
-        price: '2食付き 18,000円〜',
+        price: '2食付き 17,000円〜',
         image: './hotels/ryokanfujiya.png',
         tags: ['源泉掛け流し', '飛騨牛すき焼き', '囲炉裏料理'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad311911%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F19946%2F19946.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
@@ -4293,7 +4293,7 @@ export const hotelList = [
         prefecture: 'gifu',
         type: '温泉旅館',
         description: '平湯温泉の豊かな硫黄泉を引いた宿で、乳白色に輝く湯船が名物。含硫黄カルシウム炭酸水素塩泉は筋肉痛・神経痛・冷え性に優れた効能を持ち、登山・スキー後の湯治に最適。北アルプスの大自然を背景に、飛騨の清流で育った岩魚・飛騨牛・飛騨の山菜を組み合わせた夕食が旅人を深く満足させる。',
-        price: '2食付き 20,000円〜',
+        price: '2食付き 18,000円〜',
         image: './hotels/hirayukan.png',
         tags: ['含硫黄乳白色温泉', '登山・スキーの拠点', '岩魚・飛騨牛'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad339340%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F172138%2F172138.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030075%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030075%252F' }
@@ -4307,7 +4307,7 @@ export const hotelList = [
         prefecture: 'gifu',
         type: '老舗温泉旅館',
         description: '長良川のほとりに創業200年以上を誇る老舗旅館。長良川温泉のアルカリ性単純温泉は肌に優しく美肌効果で知られ、長良川の清流を眺めながら入る川床露天風呂が絶品。夕食は長良川の鵜飼漁による天然鮎の塩焼き・鵜匠専用鮎のお造り・飛騨牛の鍋と岐阜の誇る食材が並ぶ会席で、地酒「菊川」との組み合わせが旅情を高める。',
-        price: '2食付き 30,000円〜',
+        price: '2食付き 19,000円〜',
         image: './hotels/nagaragawaonsenjuuhachirou.png',
         tags: ['創業200年の老舗', '鵜飼鮎料理', '長良川川床露天風呂'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad312616%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F2979%2F2979.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002551%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002551%252F' }
@@ -4319,7 +4319,7 @@ export const hotelList = [
         prefecture: 'gifu',
         type: '温泉ホテル',
         description: '長良川温泉を代表する大型温泉ホテル。アルカリ性単純温泉の大浴場と露天風呂は湯量豊富で、長良川と金華山の絶景が楽しめる。夕食は長良川の天然鮎料理・飛騨牛のしゃぶしゃぶ・岐阜の伝統食材を盛り込んだ豪華な宴会料理が充実し、鵜飼見物とのセットプランも人気の観光型ホテルとして多くの旅行者に親しまれている。',
-        price: '2食付き 22,000円〜',
+        price: '2食付き 15,000円〜',
         image: './hotels/gifugurandohoteru.png',
         tags: ['長良川の絶景', '鵜飼見物', '飛騨牛しゃぶしゃぶ'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad307982%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F8385%2F8385.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001244%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001244%252F' }
@@ -4331,7 +4331,7 @@ export const hotelList = [
         prefecture: 'gifu',
         type: '温泉旅館',
         description: '代々続く鵜匠の家が営む長良川温泉の旅館。世界農業遺産に認定された長良川流域の鮎漁文化を体感できる希少な宿で、鵜匠の主人から直接聞く鵜飼の話が旅の思い出となる。長良川温泉のアルカリ性単純温泉を引いた内湯で旅の疲れを癒し、夕食には鵜飼で捕れた天然鮎の料理が全7品以上並ぶ贅沢な会席が楽しめる。',
-        price: '2食付き 35,000円〜',
+        price: '2食付き 16,500円〜',
         image: './hotels/ushounoiesugiyama.png',
         tags: ['鵜匠の宿', '天然鮎7品会席', '世界農業遺産の食文化'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad327450%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F135891%2F135891.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001997%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001997%252F' }
