@@ -4770,7 +4770,7 @@ export const hotelList = [
         prefecture: 'shiga',
         type: '大型温泉旅館',
         description: '琵琶湖を一望する雄琴温泉の代表的な大型温泉旅館。アルカリ性単純温泉の柔らかな湯は美肌効果で知られ、琵琶湖に面した大浴場と露天風呂は朝焼けと夕日の絶景スポット。夕食は琵琶湖の固有種・ビワマスの刺身と塩焼き・子持ちアユの甘露煮・近江牛のしゃぶしゃぶなど滋賀の食文化が凝縮した近江会席が旅の思い出となる。',
-        price: '2食付き 35,000円〜',
+        price: '2食付き 21,500円〜',
         image: './hotels/ogotoonsenbiwakokagaimichi.png',
         tags: ['琵琶湖の絶景', 'ビワマス料理', '近江牛しゃぶしゃぶ'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad335062%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F8798%2F8798.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001653%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001653%252F' }
@@ -4782,7 +4782,7 @@ export const hotelList = [
             prefecture: 'shiga',
             type: '温泉旅館',
             description: 'おごと温泉で琵琶湖を望む高台に立つ老舗旅館。比叡山と琵琶湖の絶景を楽しめる展望露天風呂と近江牛・琵琶湖の恵みを使った本格会席料理が自慢。館内に能舞台を設けるなど日本文化の粋を感じられる空間で、格調高い和のもてなしと雄大な自然が融合した滋賀を代表する温泉宿。',
-            price: '1泊2食付き 35,000円〜',
+            price: '1泊2食付き 26,500円〜',
             image: './hotels/suimeisou.png',
             tags: ['琵琶湖ビュー', '近江牛会席', '展望露天風呂'],
             bookingUrls: {
@@ -4799,7 +4799,7 @@ export const hotelList = [
             prefecture: 'shiga',
             type: '温泉旅館',
             description: 'おごと温泉の源泉を守り続ける温泉宿の元祖。自家源泉を持ち、湯量豊富な天然温泉は美肌・疲労回復に効果があるとして古くから愛されている。琵琶湖を望む露天風呂や家族風呂・岩風呂など多彩な浴槽が揃い、滋賀・近江の食材をふんだんに使った料理とともに本物の温泉文化を伝えている。',
-            price: '1泊2食付き 28,000円〜',
+            price: '1泊2食付き 26,500円〜',
             image: './hotels/kojoukaninreiku.png',
             tags: ['自家源泉', '美肌の湯', '多彩な浴槽'],
             bookingUrls: {
