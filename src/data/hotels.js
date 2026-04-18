@@ -3818,7 +3818,7 @@ export const hotelList = [
         prefecture: 'yamanashi',
         type: '高級温泉旅館',
         description: '甲府盆地を一望できる高台に位置する石和温泉の高級旅館。アルカリ性単純温泉のやわらかな湯は美肌効果が高く、露天風呂から富士山と南アルプスの絶景が望める。夕食は山梨ブランド牛「甲州牛」のしゃぶしゃぶ、甲州ワインビーフのステーキ、地元野菜の煮物が甲州会席を彩る。',
-        price: '2食付き 35,000円〜',
+        price: '2食付き 13,500円〜',
         image: './hotels/hanayaginoshoukeizan.png',
         tags: ['富士山の絶景', '甲州牛', 'アルカリ性美肌湯'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad360072%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F19894%2F19894.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030068%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030068%252F' }
@@ -3830,7 +3830,7 @@ export const hotelList = [
         prefecture: 'yamanashi',
         type: '老舗温泉旅館',
         description: '石和温泉発祥の地に湧く源泉を持つ老舗旅館。アルカリ性単純温泉の良質な湯を源泉掛け流しで楽しめる数少ない宿の一つ。夕食は地元産ぶどうを使ったワイン鍋と甲州郷土料理のほうとう鍋、甲府盆地産の地鶏を使った料理が信玄公の時代から続く甲州文化を体現する。',
-        price: '2食付き 20,000円〜',
+        price: '2食付き 20,500円〜',
         image: './hotels/ryokanmiyukionsen.png',
         tags: ['源泉掛け流し', 'ほうとう鍋', '甲州ワイン'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad346445%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F16067%2F16067.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030222%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030222%252F' }
@@ -3842,10 +3842,10 @@ export const hotelList = [
         prefecture: 'yamanashi',
         type: '温泉ホテル',
         description: '石和温泉街に位置し観光の拠点として便利な温泉ホテル。アルカリ性単純温泉の男女別大浴場と露天風呂で旅の疲れを癒せる。夕食は笛吹市産のもも・ぶどうを使ったフルーツスイーツと、甲州名物のほうとう・吉田うどん・信玄餅など山梨の食文化をコース仕立てで楽しめる。',
-        price: '2食付き 16,000円〜',
+        price: '2食付き 26,500円〜',
         image: './hotels/hoterukasugai.png',
         tags: ['アルカリ性単純温泉', 'フルーツ王国の恵み', '甲州郷土料理'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad318861%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F10717%2F10717.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad318861%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F10717%2F10717.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00901893%252F' }
     },
 
     // ===== 下部温泉（山梨）=====
@@ -3864,64 +3864,40 @@ export const hotelList = [
     {
         id: 'h-yamanashi-2-2',
         onsen_id: 'o-yamanashi-2',
-        name: '信玄館',
+        name: 'MAGMA RESORT Shimobe',
         prefecture: 'yamanashi',
-        type: '老舗温泉旅館',
-        description: '下部温泉の中心部に建つ江戸時代創業の老舗旅館。ラジウム放射能泉の低温の湯は神経痛・リウマチ・慢性疲労に効能があり、温めの湯でじっくり長湯が楽しめる。富士川の渓流沿いで採れる山菜と甲州名物の身延そば、郷土料理のおざらを女将が丁寧に仕上げる素朴な会席が好評。',
-        price: '2食付き 18,000円〜',
-        image: './hotels/shingenkan.png',
-        tags: ['放射能泉', '身延そば', '渓谷沿いの湯治宿'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉リゾート',
+        description: '身延山地の豊かな自然に囲まれた下部温泉郷に位置し、「体温を上げる」をコンセプトに掲げた新感覚の温活リゾート。最大の特長は、富士山の溶岩（マグマ）を敷き詰めた独自開発の「マグマスパ」を完備している点で、深部体温を効果的に高める最新のウェルネス体験を心ゆくまで享受できる。下部温泉の歴史ある名湯を引いた大浴場や露天風呂、さらにはプライベート感あふれるロウリュサウナなど、多彩なリラクゼーション設備が充実。夕食には、地元の契約農家から届く新鮮な野菜や甲州産のブランド肉を、体の内側から整える「薬膳」の考えを取り入れた創作料理として、洗練されたダイニングで味わえる。',
+        price: '2食付き 50,000円〜',
+        image: './hotels/magmaresortshimobe.png',
+        tags: ['温活リゾート', 'マグマスパ', '薬膳'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad369945%2F&_gl=1*1f91x7q*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzY0ODA3NzMkbzMyJGcxJHQxNzc2NDgwODI4JGo1JGwwJGgw', rakuten: 'https://a.r10.to/hPkZMi', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00920378%252F' }
     },
     {
         id: 'h-yamanashi-2-3',
         onsen_id: 'o-yamanashi-2',
-        name: '旅館 湯の奥',
+        name: '湯宿 梅ぞ乃',
         prefecture: 'yamanashi',
         type: '湯治旅館',
-        description: '下部温泉の最奥部に位置する秘境ムードが漂う湯治旅館。ラジウムを豊富に含む低温の放射能泉は効能が高く、長期滞在の湯治客に長年愛されてきた。囲炉裏を囲んで楽しむ山里料理は季節の山菜・川魚の岩魚・猪肉のぼたん鍋など、南アルプス山麓の滋味豊かな食材が食卓を彩る。',
-        price: '2食付き 15,000円〜',
-        image: './hotels/ryokanyunooku.png',
-        tags: ['秘境の湯治宿', 'ぼたん鍋', '放射能泉'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '下部温泉郷の静かな高台に位置し、四季折々の自然と温かなおもてなしに包まれる全12室の温泉旅館。最大の魅力は、武田信玄の隠し湯として伝えられる下部温泉の名湯を、豊かな緑に囲まれた露天風呂や檜の香り漂う内湯でゆったりと堪能できる点。夕食には、甲州名物の「ほうとう」や、清流で育った川魚、地元の新鮮な野菜をふんだんに取り入れ、素材の持ち味を大切にした手作りの山里会席を提供。静かな環境で心身を解きほぐし、まるで実家に帰ってきたような安らぎを感じられる滞在を叶えてくれる。',
+        price: '2食付き 12,000円〜',
+        image: './hotels/yadoummezono.png',
+        tags: ['隠し湯', 'ほうとう', '山里会席'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad308317%2F&_gl=1*n3unhu*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzY0ODA3NzMkbzMyJGcxJHQxNzc2NDgwODU5JGo2MCRsMCRoMA..', rakuten: 'https://a.r10.to/h5y3vx', ikyu: '#', yahoo: '#' }
     },
 
     // ===== 西山温泉（山梨）=====
     {
         id: 'h-yamanashi-3-1',
         onsen_id: 'o-yamanashi-3',
-        name: '慶雲館',
+        name: '全館源泉掛け流しの宿 西山温泉 慶雲館',
         prefecture: 'yamanashi',
         type: '老舗温泉旅館',
         description: '世界最古の温泉旅館としてギネス世界記録に認定された705年創業の歴史的旅館。南アルプス山中に湧く硫酸塩泉は1300年以上にわたり旅人を癒してきた名湯中の名湯。手付かずの自然に囲まれた渓流沿いの露天風呂と、地元猟師が調達するジビエと山菜を使った山里料理が古都の趣を伝える。',
-        price: '2食付き 45,000円〜',
+        price: '2食付き 30,000円〜',
         image: './hotels/keiunkan.png',
         tags: ['世界最古の旅館', '硫酸塩泉', 'ジビエ山里料理'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad321825%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F67121%2F67121.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001376%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001376%252F' }
-    },
-    {
-        id: 'h-yamanashi-3-2',
-        onsen_id: 'o-yamanashi-3',
-        name: '西山温泉 湯島の湯',
-        prefecture: 'yamanashi',
-        type: '温泉旅館',
-        description: '南アルプスの山懐に抱かれた秘境・西山温泉の渓流沿いに佇む静寂な旅館。硫酸塩泉の清澄な湯は神経痛・慢性疲労・冷え性に効能があり、手つかずの自然の中で心身をリセットできる。夕食は南アルプスで育まれた山菜・きのこ・川魚・甲州ジビエを使った滋味深い山里会席が旅人の五感を満たす。',
-        price: '2食付き 25,000円〜',
-        image: './hotels/nishiyamaonsenyushimanoyu.png',
-        tags: ['南アルプスの秘湯', '硫酸塩泉', '山菜きのこ料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-yamanashi-3-3',
-        onsen_id: 'o-yamanashi-3',
-        name: '奈良田温泉 白根館',
-        prefecture: 'yamanashi',
-        type: '秘湯旅館',
-        description: '西山温泉郷の最奥部・奈良田に位置する秘湯中の秘湯。白濁した含硫黄ナトリウム炭酸水素塩泉は美肌・神経痛・筋肉痛に効能が高く、湯治目的の常連客が絶えない名湯。標高820メートルの山中で楽しむ猪のぼたん鍋と岩魚の塩焼き、野草てんぷらは俗世から離れた贅沢な食体験を提供する。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/naradaonsenshironekan.png',
-        tags: ['秘湯の一軒宿', '含硫黄白濁湯', 'ぼたん鍋'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
     },
 
     // ===== 別所温泉（長野）=====
