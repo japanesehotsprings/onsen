@@ -3928,24 +3928,24 @@ export const hotelList = [
     {
         id: 'h-nagano-1-1',
         onsen_id: 'o-nagano-1',
-        name: '上松屋旅館',
+        name: '信州別所温泉 旅宿 上松や',
         prefecture: 'nagano',
         type: '老舗温泉旅館',
         description: '信州最古の温泉・別所温泉に江戸時代から続く老舗旅館。硫黄を含む弱アルカリ性の単純硫黄泉は「美人の湯」として親しまれ、肌をしっとりなめらかに整える。信州の伝統料理・野沢菜漬けと鯉料理、上田産の地鶏の陶板焼きを中心にした信州会席が旅情を高める。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/uematsuyaryokan.png',
+        price: '2食付き 15,500円〜',
+        image: './hotels/shinshubesshoonsenyukado.png',
         tags: ['信州最古の温泉', '美人の湯', '信州郷土料理'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad318066%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F6064%2F6064.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad318066%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F6064%2F6064.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00901338%252F' }
     },
     {
         id: 'h-nagano-1-2',
         onsen_id: 'o-nagano-1',
-        name: '花屋',
+        name: '別所温泉 旅館花屋',
         prefecture: 'nagano',
         type: '高級温泉旅館',
         description: '大正時代創業の格調高い別所温泉の宿。弱アルカリ性単純硫黄泉の清澄な湯は透き通った美しさで美肌効果が高く、文人墨客にも愛された名湯。信州産の松茸料理と上田・東御産のワイン、軽井沢の高原野菜を使った信州フレンチ会席は和と洋を融合した独創的な料理が旅に彩りを添える。',
-        price: '2食付き 38,000円〜',
-        image: './hotels/hanaya.png',
+        price: '2食付き 22,000円〜',
+        image: './hotels/besshoonsenyukahaya.png',
         tags: ['大正創業の格調', '単純硫黄泉', '信州松茸'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad348992%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F108580%2F108580.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001994%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001994%252F' }
     },
@@ -3956,7 +3956,7 @@ export const hotelList = [
             prefecture: 'nagano',
             type: '老舗温泉旅館',
             description: '享保年間（1716年）創業、300年の歴史を誇る全館畳敷きの純和風旅館。別所温泉の源泉100%掛け流しの七階展望大浴場からは上田の街並みと信越国立公園の峰々を望め、美肌の湯として知られる弱アルカリ性の硫黄泉を存分に楽しめる。夕食は信州牛・信州サーモン・地元高原野菜を使った信州会席で、赤ちゃんから三世代まで温かくもてなす宿。',
-            price: '1泊2食付き 17,000円〜',
+            price: '1泊2食付き 19,000円〜',
             image: './hotels/naganoyuryokan.png',
             tags: ['享保年間創業300年', '全館畳敷き', '展望大浴場'],
             bookingUrls: {
@@ -3975,7 +3975,7 @@ export const hotelList = [
         prefecture: 'nagano',
         type: '老舗温泉旅館',
         description: '野沢温泉の中心部に建つ江戸時代創業の老舗旅館。含石膏食塩泉の豊富な湯量と高い泉温が特徴で、源泉掛け流しの内湯と露天風呂で体の芯から温まれる。夕食は信州牛のすき焼き・野沢菜漬けの天ぷら・きのこの土瓶蒸しと地酒の組み合わせが長野の食の豊かさを実感させる。',
-        price: '2食付き 25,000円〜',
+        price: '2食付き 22,000円〜',
         image: './hotels/ryokansakaya.png',
         tags: ['江戸時代創業', '野沢菜の本場', '含石膏食塩泉'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad381040%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F108127%2F108127.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001696%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001696%252F' }
@@ -3987,7 +3987,7 @@ export const hotelList = [
             prefecture: 'nagano',
             type: '温泉ホテル',
             description: '野沢温泉を代表する2つの名湯「真湯」と「熊の手洗湯」を源泉掛け流しで楽しめる温泉ホテル。野沢温泉で唯一の絶景露天風呂が自慢で、5,000坪の敷地に広がる庭園と北信州の大自然を一望できる。夕食は地元産食材にこだわった「ふるさとおごっつぉ料理」で、スキー・トレッキングの拠点としても人気。',
-            price: '1泊2食付き 20,000円〜',
+            price: '1泊2食付き 15,500円〜',
             image: './hotels/hoterunyuumidorikan.png',
             tags: ['野沢温泉2源泉掛け流し', '絶景露天風呂', 'ふるさとおごっつぉ料理'],
             bookingUrls: {
@@ -4004,7 +4004,7 @@ export const hotelList = [
         prefecture: 'nagano',
         type: '温泉旅館',
         description: '野沢温泉の外湯めぐりの拠点として最適な旅館。含石膏食塩泉の自家源泉を持ち、13ある外湯とは泉質の異なる湯を宿で楽しめる。夕食は信州産きのこのバター炒め・長芋の短冊・野沢菜の煮びたしなど長野の山の恵みを活かした素朴な料理と地酒が体を優しく温める。',
-        price: '2食付き 20,000円〜',
+        price: '2食付き 19,000円〜',
         image: './hotels/nozawaonsenkawaichiyaryokan.png',
         tags: ['外湯めぐり拠点', '自家源泉', '信州きのこ料理'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad323621%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F8186%2F8186.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030157%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030157%252F' }
@@ -4018,7 +4018,7 @@ export const hotelList = [
         prefecture: 'nagano',
         type: '老舗温泉旅館',
         description: '1758年創業、国の登録有形文化財に指定された歴史的木造建築が圧倒的な存在感を放つ老舗旅館。含塩化物の硫酸塩泉を9つの外湯と宿の内湯で楽しめる。「千と千尋の神隠し」のモデルの一つとも言われ、夕食は信州牛の溶岩焼き・松茸の土瓶蒸し・信州サーモンのルイベなど信州食材の会席が評判。',
-        price: '2食付き 35,000円〜',
+        price: '2食付き 19,000円〜',
         image: './hotels/shibuonsenkanaguya.png',
         tags: ['登録有形文化財', '9つの外湯', '千と千尋の聖地'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad330740%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F32044%2F32044.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
@@ -4047,7 +4047,7 @@ export const hotelList = [
         prefecture: 'nagano',
         type: '温泉旅館',
         description: '渋温泉の石畳の街道に面した風情ある旅館。硫酸塩・塩化物泉の名湯を宿の内湯で堪能した後、浴衣姿で渋温泉の9つの外湯めぐりができる。信州りんごを使ったデザートと地獄谷の野猿に会いに行く体験ツアーが人気で、夕食の信州会席には長野県産和牛と松茸の炊き込みご飯が名物として並ぶ。',
-        price: '2食付き 22,000円〜',
+        price: '2食付き 28,000円〜',
         image: './hotels/shibuonsenaburayatousen.png',
         tags: ['外湯めぐり', '野猿公苑近接', '松茸の炊き込みご飯'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad300694%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F5141%2F5141.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001094%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001094%252F' }
@@ -4061,7 +4061,7 @@ export const hotelList = [
         prefecture: 'nagano',
         type: '老舗温泉旅館',
         description: '白骨温泉随一の名物として名高い乳白色の野天混浴風呂を持つ老舗旅館。含硫黄カルシウム・マグネシウム炭酸水素塩泉の白濁した湯は美肌と療養効果が高く、信州を代表する秘湯として江戸時代から多くの旅人を癒してきた。乗鞍岳麓の深い自然に囲まれ、夕食は山菜の天ぷら・岩魚の塩焼き・信州牛のすき焼きなど山里の食材を丁寧に仕上げた会席が並ぶ。',
-        price: '2食付き 30,000円〜',
+        price: '2食付き 27,000円〜',
         image: './hotels/awanoyuryokan.png',
         tags: ['乳白色の野天混浴風呂', '含硫黄白濁湯', '秘湯百選'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad361873%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F56929%2F56929.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001107%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001107%252F' }
@@ -4073,7 +4073,7 @@ export const hotelList = [
             prefecture: 'nagano',
             type: '温泉旅館',
             description: '白骨温泉の白樺林の中に佇む静かなこぢんまりとした10室の秘湯の宿。含硫黄炭酸水素塩泉の乳白色の湯を源泉掛け流しで楽しめ、白骨温泉で唯一の無料貸切露天風呂も完備。創作和食の夕食には岩魚の笹ぶき・そばがき・温泉粥など白骨ならではの山里の味が並び、乗鞍岳の四季の自然に包まれた極上のひとときが過ごせる。',
-            price: '1泊2食付き 22,000円〜',
+            price: '1泊2食付き 26,500円〜',
             image: './hotels/shirahoneonsensansuikanyukawasou.png',
             tags: ['白樺林の隠れ宿', '貸切露天風呂無料', '秘湯の乳白色温泉'],
             bookingUrls: {
@@ -4090,7 +4090,7 @@ export const hotelList = [
             prefecture: 'nagano',
             type: '温泉旅館',
             description: '白骨温泉の上流に位置する渓流沿いの趣ある宿。含硫黄炭酸水素塩泉の「絹の湯」と呼ばれる柔らかな白濁の湯は、美肌と療養に優れた効能を誇り、源泉掛け流しの内湯と露天風呂で心ゆくまで秘湯気分を満喫できる。夕食は信州牛・飛騨牛の食べ比べや山菜の天ぷら・岩魚料理など山里の食材を丁寧に仕立てた会席が揃う。',
-            price: '1泊2食付き 18,000円〜',
+            price: '1泊2食付き 15,500円〜',
             image: './hotels/katsurakinosato.png',
             tags: ['絹の湯白濁硫黄泉', '渓流沿いの宿', '信州牛飛騨牛食べ比べ'],
             bookingUrls: {
@@ -4109,7 +4109,7 @@ export const hotelList = [
         prefecture: 'nagano',
         type: '高級温泉旅館',
         description: '諏訪湖を一望する眺望抜群のラグジュアリー旅館。アルカリ性単純温泉の湯は柔らかく肌にやさしく、諏訪湖に面した展望露天風呂は朝霧に浮かぶ湖面が幻想的。夕食は信州諏訪産のウナギのかば焼き、高原野菜のグリル、信州牛のローストビーフなど諏訪の食文化を現代的に昇華した会席が並び、地酒「真澄」との相性も格別。',
-        price: '2食付き 50,000円〜',
+        price: '2食付き 36,500円〜',
         image: './hotels/suisuisuwamizuumi.png',
         tags: ['諏訪湖の絶景', 'アルカリ性単純温泉', '諏訪ウナギ'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad329284%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F153255%2F153255.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002345%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002345%252F' }
@@ -4121,7 +4121,7 @@ export const hotelList = [
         prefecture: 'nagano',
         type: '温泉旅館',
         description: '上諏訪温泉の中心部に位置し、諏訪湖と霧ヶ峰高原の絶景を誇る温泉旅館。アルカリ性単純温泉の大浴場と露天風呂では湖面に沈む夕日が望める。信州産の旬素材にこだわった夕食は、諏訪産ウナギ・信州サーモン・高原野菜の温野菜サラダなど山と湖の恵みが織りなす信州会席が旅の記憶に残る味を提供する。',
-        price: '2食付き 30,000円〜',
+        price: '2食付き 15,000円〜',
         image: './hotels/hoterukurenaiya.png',
         tags: ['諏訪湖の夕日', '信州サーモン', 'アルカリ性温泉'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad313852%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F2880%2F2880.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002030%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002030%252F' }
@@ -4133,7 +4133,7 @@ export const hotelList = [
             prefecture: 'nagano',
             type: '老舗温泉ホテル',
             description: '上諏訪温泉最古の歴史を持つ明治創業の老舗宿。琥珀色の自家源泉を100%掛け流しで楽しめる大浴場と露天風呂は他にない特別な湯浴みを演出し、諏訪湖を望む絶景が圧巻。夕食は「信州山ごはんプラン」として長野産の山菜・きのこ・信州牛など地産地消にこだわった和食会席を提供し、地酒「真澄」との相性も格別。',
-            price: '1泊2食付き 30,000円〜',
+            price: '1泊2食付き 19,500円〜',
             image: './hotels/suwamizuumihoteru.png',
             tags: ['上諏訪最古の宿', '琥珀色の自家源泉', '諏訪湖の絶景'],
             bookingUrls: {
@@ -4152,7 +4152,7 @@ export const hotelList = [
         prefecture: 'nagano',
         type: '温泉リゾートホテル',
         description: '北アルプス・白馬三山を正面に望む絶好のロケーションを誇る温泉リゾート。ナトリウム炭酸水素塩泉のとろっとした美肌の湯は「白馬の美人の湯」として知られ、北アルプスを一望する大浴場と露天風呂が名物。夕食は白馬産の高原野菜と信州牛のすき焼き、黒部渓谷の岩魚料理を楽しめる信州会席が評判で、登山者・スキー客を問わず愛される。',
-        price: '2食付き 25,000円〜',
+        price: '2食付き 12,500円〜',
         image: './hotels/hoteruhakuba.png',
         tags: ['北アルプスの絶景', '美人の湯', 'スキー場近接'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad327732%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F15934%2F15934.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030818%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030818%252F' }
@@ -4164,7 +4164,7 @@ export const hotelList = [
         prefecture: 'nagano',
         type: '温泉旅館',
         description: '姫川渓谷に湧く温泉を引き込んだ風情ある旅館。ナトリウム炭酸水素塩泉の柔らかな湯は肌をしっとりと潤し、渓流のせせらぎを聞きながらの露天風呂が絶品。夕食は白馬エリアの山の幸をふんだんに使った料理で、山菜・きのこ・渓流の岩魚・信州高原野菜が信州の自然の豊かさを伝える。',
-        price: '2食付き 20,000円〜',
+        price: '2食付き 14,500円〜',
         image: './hotels/himegawaonsenhoteruasahisou.png',
         tags: ['姫川渓谷', 'ナトリウム炭酸水素塩泉', '岩魚料理'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad393185%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F18842%2F18842.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
@@ -4176,8 +4176,8 @@ export const hotelList = [
             prefecture: 'nagano',
             type: '温泉リゾートホテル',
             description: '北アルプスを一望する開放感あふれる露天風呂が白馬随一と評される温泉リゾート。ナトリウム炭酸水素塩泉の柔らかな美肌の湯を宿独自の2つの大浴場で楽しめ、季節ごとの雄大な山岳景観が旅情を高める。夕食は地消地産にこだわった「信州山ごはん」形式のブッフェで、白馬高原野菜・信州産食材がふんだんに並び、登山者・スキー客を問わず愛される。',
-            price: '1泊2食付き 19,000円〜',
-            image: './hotels/hakubahappouonsenfamiriirojjitabibitoyado.png',
+            price: '1泊2食付き 13,000円〜',
+            image: './hotels/hakubahighlandhotel.png',
             tags: ['北アルプス絶景露天風呂', '地消地産山ごはん', '白馬随一の眺望'],
             bookingUrls: {
                 jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad334356%2F',
