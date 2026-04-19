@@ -3422,7 +3422,7 @@ export const hotelList = [
         prefecture: 'toyama',
         type: '老舗温泉旅館',
         description: '黒部峡谷の玄関口・宇奈月温泉を代表する老舗旅館。単純硫黄泉の清澄な湯は源泉掛け流しで、無色透明のやわらかな湯触りが特徴。夕食は富山湾の白えびや蛍烏賊の沖漬け、黒部の岩魚を使った山海の珍味が並ぶ豪華な北陸会席が楽しめる。',
-        price: '2食付き 28,000円〜',
+        price: '2食付き 46,500円〜',
         image: './hotels/unazukionsenenraku.png',
         tags: ['黒部峡谷徒歩圏', '白えび料理', '単純硫黄泉'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad327463%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F10719%2F10719.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001930%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001930%252F' }
@@ -3434,7 +3434,7 @@ export const hotelList = [
         prefecture: 'toyama',
         type: '温泉旅館',
         description: '黒部川のせせらぎを聞きながら入れる露天風呂が自慢の旅館。単純温泉のやわらかな湯は肌への刺激が少なく万人に好まれる。富山湾の宝石と称される白えびのかき揚げ、ぶりの照り焼き、越中牛のステーキを中心とした夕食が旅の満足度を高める。',
-        price: '2食付き 22,000円〜',
+        price: '2食付き 13,500円〜',
         image: './hotels/kurobeunazukionsenyamanoha.png',
         tags: ['渓流露天風呂', '越中牛', '源泉掛け流し'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad332990%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F9591%2F9591.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001017%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001017%252F' }
@@ -3446,14 +3446,14 @@ export const hotelList = [
             prefecture: 'toyama',
             type: '高級温泉旅館',
             description: '黒部峡谷を望む宇奈月温泉を代表する高級旅館。9つの湯めぐりが楽しめる多彩な浴場を備え、単純温泉の清澄な湯を源泉掛け流しで堪能できる。無料の貸切露天風呂3か所も利用可能で、富山湾の白えびや黒部の岩魚など北陸の山海の幸を丁寧に仕上げた会席料理が好評。黒部峡谷トロッコ電車乗り場まで徒歩8分。',
-            price: '1泊2食付き 40,000円〜',
+            price: '1泊2食付き 31,000円〜',
             image: './hotels/unazukikokusaihoteru.png',
             tags: ['9つの湯めぐり', '貸切露天風呂', '北陸会席'],
             bookingUrls: {
                 jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad336691%2F',
                 rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F10634%2F10634.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9',
-                ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030602%252F',
-                yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030602%252F'
+                ikyu: '#',
+                yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00914993%252F'
             }
         },
 
@@ -3465,7 +3465,7 @@ export const hotelList = [
         prefecture: 'toyama',
         type: '温泉旅館',
         description: '庄川渓谷に面した閑静な温泉旅館。含重曹食塩泉のとろみある湯は「美人の湯」として知られ、入浴後の肌のしっとり感が際立つ。夕食は砺波平野で採れた旬の地野菜と庄川で育った鮎の塩焼き、富山湾の海の幸を盛り込んだ山里会席が評判を呼んでいる。',
-        price: '2食付き 18,000円〜',
+        price: '2食付き 21,000円〜',
         image: './hotels/shougawaonsenyumetsuzuri.png',
         tags: ['美人の湯', '庄川鮎料理', '渓谷沿い'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad346176%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F52137%2F52137.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000873%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000873%252F' }
@@ -3477,7 +3477,7 @@ export const hotelList = [
             prefecture: 'toyama',
             type: '高級温泉旅館',
             description: '大正13年創業の庄川温泉郷を代表する料理旅館。「鳥越の湯」と称される2種類の源泉を持つ名湯で、美肌効果の高い重曹泉と鉄分豊富な鉄泉の両方が楽しめる。ミシュランガイド2016富山石川版で「最上級の快適」を獲得した一流の料理は地元旬食材にこだわり、じゃらん評価4.7を誇る庄川の名宿。',
-            price: '1泊2食付き 40,000円〜',
+            price: '1泊2食付き 21,500円〜',
             image: './hotels/hoteruguriinparu.png',
             tags: ['大正創業', '2種源泉', 'ミシュラン掲載'],
             bookingUrls: {
@@ -3490,14 +3490,14 @@ export const hotelList = [
     {
         id: 'h-toyama-2-3',
         onsen_id: 'o-toyama-2',
-        name: '牧場の家',
+        name: '船でしか行けない秘境の一軒宿 大牧温泉',
         prefecture: 'toyama',
-        type: '温泉民宿',
-        description: '庄川温泉郷の山間に佇む、農家民宿の温もりが感じられる宿。塩化物泉のよく温まる湯を小さな内湯で独占できる。地元農家直産の朝どれ野菜と自家製みそを使った手料理、庄川の清流で育った岩魚の刺身と塩焼きが疲れた旅人の心と体を癒す。',
-        price: '2食付き 12,000円〜',
-        image: './hotels/bokujounoie.png',
-        tags: ['家庭的な雰囲気', '地産地消料理', '岩魚料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉旅館',
+        description: '庄川峡の断崖絶壁に佇み、文字通り「船でしか辿り着けない」全国的にも稀有なロケーションを誇る秘境の宿。小牧ダムから遊覧船に揺られること約30分、深い山々とエメラルドグリーンの湖面に囲まれた孤高の空間がゲストを迎える。最大の魅力は、圧倒的な非日常感の中で楽しむ露天風呂。原生林が迫る野趣あふれる湯船からは、四季折々に色彩を変える峡谷美を独り占めできる。夕食には、富山湾から届く新鮮な海の幸や、庄川の清流が育んだ鮎、地元の山菜など、この土地ならではの旬の味覚を盛り込んだ本格的な会席料理を。外界から遮断された静寂の中で、川のせせらぎと鳥の鳴き声に耳を傾ける至福の時間を過ごせる。',
+        price: '2食付き 27,500円〜',
+        image: './hotels/oomakionsen.png',
+        tags: ['秘境', '船でしか行けない', '絶景露天風呂'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad353855%2F&_gl=1*2nkfkf*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzY1NzU1NTMkbzM1JGcxJHQxNzc2NTc4MDUwJGoyMCRsMCRoMA..', rakuten: 'https://a.r10.to/hNSoaO', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00915482%252F' }
     },
 
     // ===== 氷見温泉郷（富山）=====
@@ -3508,7 +3508,7 @@ export const hotelList = [
         prefecture: 'toyama',
         type: '温泉旅館',
         description: '富山湾を一望する絶景の温泉旅館。ナトリウム塩化物泉の保温性の高い湯は「海辺の美人の湯」として知られ、波音を聞きながらの露天風呂が人気。冬の氷見寒ぶりは全国随一の旨みで、刺身・鍋・照り焼きと多彩な調理で氷見漁港直送の海の幸を堪能できる。',
-        price: '2食付き 25,000円〜',
+        price: '2食付き 33,000円〜',
         image: './hotels/himionsenumiakari.png',
         tags: ['氷見寒ぶり', '海一望露天風呂', 'ナトリウム塩化物泉'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad382716%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F20589%2F20589.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00031048%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00031048%252F' }
@@ -3520,7 +3520,7 @@ export const hotelList = [
             prefecture: 'toyama',
             type: 'オーベルジュ旅館',
             description: '2024年夏に全館新築リニューアルした氷見の海辺に佇む小さなオーベルジュ。3室のみの完全プライベートな空間で、4代目料理人が腕を振るう海・山・里の幸を融合させた創作会席が圧巻。専用桟橋から眺める阿武島と立山連峰の絶景が特別な体験を提供する。氷見漁港直送の旬魚と富山の地酒を合わせる贅沢な滞在が楽しめる。',
-            price: '1泊2食付き 60,000円〜',
+            price: '1泊2食付き 35,500円〜',
             image: './hotels/isonokazeminshukuminato.png',
             tags: ['3室限定', '専用桟橋', '立山連峰の絶景'],
             bookingUrls: {
@@ -3537,7 +3537,7 @@ export const hotelList = [
             prefecture: 'toyama',
             type: '温泉ホテル',
             description: '氷見ICから車5分の便利な立地にある天然温泉の観光ホテル。ナトリウム塩化物強塩泉の源泉掛け流し大浴場と露天風呂「しおさいの湯」を完備し、茶かっ色の濃厚な塩泉は疲労回復・冷え性改善に効果的。氷見漁港直送の新鮮魚介と氷見牛を使った和食夕食が評判で、富山湾と立山連峰を望む絶景ロケーションが贅沢な滞在を演出する。',
-            price: '1泊2食付き 22,000円〜',
+            price: '1泊2食付き 12,000円〜',
             image: './hotels/arisodoomuonsenhoteru.png',
             tags: ['源泉掛け流し', '氷見漁港直送', '立山連峰の景観'],
             bookingUrls: {
