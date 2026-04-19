@@ -3130,10 +3130,10 @@ export const hotelList = [
         name: '石葉',
         prefecture: 'kanagawa',
         type: '高級温泉旅館',
-        description: 'わずか6室だけの小さな隠れ家旅館として知られる湯河原温泉の高級旅館。カルシウム・ナトリウム塩化物泉の源泉かけ流しを全室に露天風呂として備え、湯河原の渓谷美に包まれた静寂の中で五感を解放できる。夕食は相模湾の旬魚・伊豆の食材を使った創作懐石料理が芸術的な盛り付けで提供され、自然と一体��した建築デザインとともに各旅行メディアで最高評価を獲得し続けている。',
-        price: '2食付き 70,000円〜',
+        description: 'わずか9室だけの小さな隠れ家旅館として知られる湯河原温泉の高級旅館。カルシウム・ナトリウム塩化物泉の源泉かけ流しを全室に露天風呂として備え、湯河原の渓谷美に包まれた静寂の中で五感を解放できる。夕食は相模湾の旬魚・伊豆の食材を使った創作懐石料理が芸術的な盛り付けで提供され、自然と一体した建築デザインとともに各旅行メディアで最高評価を獲得し続けている。',
+        price: '2食付き 73,000円〜',
         image: './hotels/sekiyou.png',
-        tags: ['6室限定の隠れ家旅館', '全室源泉かけ流し露天風呂', '相模湾の旬魚創作懐石'],
+        tags: ['9室限定の隠れ家旅館', '全室源泉かけ流し露天風呂', '相模湾の旬魚創作懐石'],
         bookingUrls: { jalan: '#', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F69335%2F69335.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001168%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001168%252F' }
     },
     {
@@ -3160,7 +3160,7 @@ export const hotelList = [
             prefecture: 'kanagawa',
             type: '温泉旅館',
             description: '明治期創業の歴史的建築を現代的にリノベーションした湯河原温泉の新感覚旅館。地下250mから湧出する自家源泉かけ流しの温泉を全室に完備し、1組90分確約の貸切サウナとミストラウンジでのオールインクルーシブサービスが特徴。一休評価4.01を誇り、都会の疲れを癒す隠れ家的な温泉ステイが楽しめる。',
-            price: '1泊2食付き 28,000円〜',
+            price: '1泊2食付き 21,000円〜',
             image: './hotels/yugawaraonsenkogomenoyado.png',
             tags: ['全室源泉かけ流し露天風呂付き', '貸切サウナ90分確約', 'オールインクルーシブ'],
             bookingUrls: {
@@ -3175,14 +3175,38 @@ export const hotelList = [
     {
         id: 'h-kanagawa-3-1',
         onsen_id: 'o-kanagawa-3',
-        name: '懐石旅庵 阿しか里',
+        name: '強羅花壇',
         prefecture: 'kanagawa',
         type: '高級温泉旅館',
-        description: '2,000坪の広大な敷地にわずか17室だけを構える隠れ家的な高級旅館。全客室が源泉かけ流しの露天風呂付きで、奈良時代から万葉集に詠まれた由緒ある湯河原のカルシウム・ナトリウム塩化物泉を独占できる。ミシュランガイドに掲載される懐石料理は相模湾の鮮魚と湯河原近郊の柑橘類を組み合わせた独創的な品々で、数寄屋造りの空間での格調あるおもてなしが各予約サイトで最高評価を獲得している。',
-        price: '2食付き 55,000円〜',
-        image: './hotels/kaisekitabiioriashikasato.png',
-        tags: ['17室限定の全室露天風呂付き', '塩化物泉かけ流し', 'ミシュランガイド掲載の懐石料理'],
+        description: '旧閑院宮別邸跡地に建ち、日本を代表する最高級旅館として世界中の賓客を魅了し続ける名宿。広大な敷地に足を踏み入れると、洗練された懐石料理の香りと静謐な空気に包まれる。最大の魅力は、源泉を3本所有する贅沢な温泉と、それらを活かした露天風呂付き客室や回廊で繋がる離れの美しさ。夕食には、全国から厳選された旬の最高級食材を使い、職人が技の限りを尽くした彩り豊かな懐石料理を堪能できる。温水プールやフィットネス、スパも完備し、日本の伝統美と現代の快適性が極限まで追求された至高の滞在が叶う。',
+        price: '2食付き 59,000円〜',
+        image: './hotels/gorakadan.png',
+        tags: ['旧閑院宮別邸跡地', '源泉3本所有', '温水プール・フィットネス・スパ完備'],
         bookingUrls: { jalan: '#', rakuten: '#', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001935%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001935%252F' }
+    },
+    {
+        id: 'h-kanagawa-3-2',
+        onsen_id: 'o-kanagawa-3',
+        name: '箱根 ゆとわ',
+        prefecture: 'kanagawa',
+        type: '温泉旅館',
+        description: '「湯を囲み、輪を育む」をコンセプトに、家族や大切な人との絆を深めるための工夫が随所に凝らされた、現代的でカジュアルな温泉ホテル。館内には、焚き火を囲むウッドデッキの「ナカニワ」や、約700冊の本が並ぶ「ライブラリーラウンジ」があり、滞在中はドリンクやスナックを自由に楽しめるオールインクルーシブスタイルが魅力。自家源泉の温泉を楽しめる大浴場や、貸切風呂、さらには足湯付きのテラスなど、リラックスできる空間が充実している。夕食・朝食ともに、和洋バラエティ豊かなハーフバイキング形式で、自由度の高いスタイルで楽しめる一軒。',
+        price: '2食付き 16,000円〜',
+        image: './hotels/hakoneyutowa.png',
+        tags: ['焚き火を囲むウッドデッキ', '約700冊の本が並ぶライブラリーラウンジ', 'オールインクルーシブ'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad371765%2F&_gl=1*13nz4s5*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzY1ODQzODQkbzM2JGcxJHQxNzc2NTg0NTMxJGo2MCRsMCRoMA..', rakuten: 'https://a.r10.to/h5Fysh', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002652%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002652%252F' }
+    },
+    {
+        id: 'h-kanagawa-3-3',
+        onsen_id: 'o-kanagawa-3',
+        name: '雪月花別邸 翠雲',
+        prefecture: 'kanagawa',
+        type: '高級温泉旅館',
+        description: '強羅の名宿として知られる「雪月花」の別邸として誕生した、大人のための静かな湯宿。全客室が「天然温泉の露天風呂付き」となっており、好きな時に好きなだけ名湯を独り占めできる贅沢な造りが特長。館内には24時間利用可能なフリーラウンジがあり、ドリンクや夜食などのサービスも充実している。夕食には、二十四節気を意識した季節感あふれる和食会席を。趣の異なる貸切露天風呂も無料で利用でき、プライベート感を重視した洗練された空間の中で、心ゆくまで「おこもり」の贅沢を堪能できる。',
+        price: '2食付き 38,500円〜',
+        image: './hotels/setsugetsukabettsuisun.png',
+        tags: ['全室天然温泉の露天風呂付き', '24時間利用可能なフリーラウンジ', '趣の異なる貸切露天風呂'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad344868%2F&_gl=1*1pp4hua*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzY1ODQzODQkbzM2JGcxJHQxNzc2NTg0NjMyJGoyOSRsMCRoMA..', rakuten: 'https://a.r10.to/hRz8Yv', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002608%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002608%252F' }
     },
 
     // ===== 鶴巻温泉（神奈川）=====
@@ -3193,34 +3217,10 @@ export const hotelList = [
         prefecture: 'kanagawa',
         type: '老舗高級旅館',
         description: '大正7年（1918年）、三井財閥の別荘として創設された丹沢山麓の名旅館。将棋・囲碁300以上のタイトル戦の舞台となった歴史ある宿で、源氏物語の登場人物から名を取った全16室はすべて異なる意匠を持ち、露天風呂付き。カルシウム含有量世界有数とされる鶴巻温泉の塩化物・硫酸塩泉は美肌と引き締め効果で知られ、旬食材を使った会席料理は格調の高さで知られる。',
-        price: '2食付き 60,000円〜',
+        price: '2食付き 73,500円〜',
         image: './hotels/tsurumakionsenmotoyujinya.png',
         tags: ['大正7年創業・三井別荘起源', '全室露天風呂付き16室', '棋士の聖地・タイトル戦の舞台'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad309987%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F192432%2F192432.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00003280%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00003280%252F' }
-    },
-    {
-        id: 'h-kanagawa-4-2',
-        onsen_id: 'o-kanagawa-4',
-        name: '丹沢の宿 陣屋別邸',
-        prefecture: 'kanagawa',
-        type: '高級温泉旅館',
-        description: '元湯陣屋に連なる別邸で、丹沢の緑に包まれた全室スイートクラスの客室を擁する上質な宿。カルシウム塩化物泉の源泉かけ流しを備えた客室露天風呂では丹沢の山並みを望みながらの湯浴みが楽しめる。丹沢山麓で育った相模牛と地元秦野産の有機野菜を主役にした懐石コースは、素材の良さを引き出す職人技が光り、都心から小田急線一本でアクセスできる近さと温泉の本格的な上質さを両立した稀有な宿として高い評価を誇る。',
-        price: '2食付き 45,000円〜',
-        image: './hotels/tanzawanoshukujinyabettei.png',
-        tags: ['カルシウム塩化物泉かけ流し', '相模牛と秦野有機野菜の懐石', '小田急線一本でアクセス'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-kanagawa-4-3',
-        onsen_id: 'o-kanagawa-4',
-        name: '陣屋旅館',
-        prefecture: 'kanagawa',
-        type: '温泉旅館',
-        description: '鶴巻温泉駅から徒歩約5分の好立地に建つ、鶴巻温泉の歴史とともに歩む温泉旅館。日本有数のカルシウム含有量を誇る鶴巻の塩化物・硫酸塩泉を大浴場と露天風呂で楽しめ、湯上りの肌の引き締まる感覚が格別。貸切露天風呂も備え、プライベートな湯浴みも可能。夕食は相模湾の地魚と丹沢・秦野の山の幸を組み合わせた和食会席で、首都圏近郊ながら本格的な温泉と旬の食材の組み合わせを求める旅行者に根強い人気がある。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/jinyaryokan.png',
-        tags: ['世界有数のカルシウム塩化物泉', '駅徒歩5分の好立地', '相模湾地魚と丹沢山幸会席'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
     },
 
     // ===== 越後湯沢温泉（新潟）=====
