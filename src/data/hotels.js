@@ -3231,7 +3231,7 @@ export const hotelList = [
             prefecture: 'niigata',
             type: '温泉旅館',
             description: '越後湯沢の高台に400年以上前から佇む老舗旅館。山の岩窟から湧く源泉100％掛け流しのアルカリ性単純温泉は加水・加温・濾過・循環一切なし。開放感あふれる露天風呂から谷川連峰と新幹線が一望できる絶景が自慢。魚沼産コシヒカリを中心とした越後郷土会席を部屋食でいただける小宿。楽天トラベル評価4.52。',
-            price: '1泊2食付き 20,000円〜',
+            price: '1泊2食付き 13,000円〜',
             image: './hotels/naebapurinsuhoteru.png',
             tags: ['源泉掛け流し', '部屋食', '谷川連峰の絶景'],
             bookingUrls: {
@@ -3248,7 +3248,7 @@ export const hotelList = [
         prefecture: 'niigata',
         type: '温泉旅館',
         description: '越後湯沢駅から徒歩5分の好立地に佇む老舗旅館。アルカリ性単純温泉の美肌の湯は源泉掛け流しで、滑らかな湯触りが評判。夕食は地元食材を活かした越後会席で、魚沼産コシヒカリと雪室熟成の日本酒が旅の疲れを癒す。',
-        price: '2食付き 28,000円〜',
+        price: '2食付き 22,500円〜',
         image: './hotels/hatagoisen.png',
         tags: ['駅近', '美肌の湯', '魚沼産コシヒカリ'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad322475%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F1460%2F1460.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002053%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002053%252F' }
@@ -3260,7 +3260,7 @@ export const hotelList = [
             prefecture: 'niigata',
             type: '温泉ホテル',
             description: '越後湯沢駅から徒歩2分の好立地に位置する館内湯めぐりが楽しい温泉ホテル。趣の異なる複数の浴場を完備し、女性専用「若草の湯」やジャグジー付き岩風呂が揃う。夕食は握り寿司・海鮮浜焼き・ステーキ鉄板焼きを含む約50種の和洋中バイキングが評判。新潟県内51〜100室部門で楽天トラベル売れ筋1位を連続受賞する人気ホテル。',
-            price: '1泊2食付き 16,000円〜',
+            price: '1泊2食付き 10,000円〜',
             image: './hotels/echigoyuzawaonsenyamanoyu.png',
             tags: ['駅近', '館内湯めぐり', '和洋中バイキング'],
             bookingUrls: {
@@ -3279,7 +3279,7 @@ export const hotelList = [
         prefecture: 'niigata',
         type: '大型温泉旅館',
         description: '月岡温泉随一の規模を誇る老舗大型旅館。硫黄を豊富に含む美肌の湯は日本屈指の硫黄泉で、エメラルドグリーンに輝く湯色が特徴的。夕食は村上牛のしゃぶしゃぶと日本海の新鮮な海の幸を組み合わせた豪華会席で、新潟の地酒とともに堪能できる。',
-        price: '2食付き 35,000円〜',
+        price: '2食付き 29,000円〜',
         image: './hotels/tsukiokaonsenhanaootori.png',
         tags: ['硫黄泉', '村上牛', 'エメラルドグリーンの湯'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad367557%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F32388%2F32388.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000751%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000751%252F' }
@@ -3291,7 +3291,7 @@ export const hotelList = [
             prefecture: 'niigata',
             type: '温泉ホテル',
             description: '月岡温泉の中心に位置する大型温泉ホテル。全国2位の硫黄含有量を誇るエメラルドグリーンの源泉を使った「月岡湯香炉」と庭園大浴場の2つを備え、美肌効果の高い硫黄泉が楽しめる。佐渡産貝類や新潟銘酒が揃う創作和食バイキングも好評。楽天トラベル評価4.27を誇る安定した人気宿。',
-            price: '1泊2食付き 28,000円〜',
+            price: '1泊2食付き 20,000円〜',
             image: './hotels/haryuuryokan.png',
             tags: ['硫黄泉美肌の湯', 'バイキング食', '大型温泉ホテル'],
             bookingUrls: {
@@ -3308,7 +3308,7 @@ export const hotelList = [
         prefecture: 'niigata',
         type: '温泉旅館',
         description: '月岡温泉を代表する含硫黄ナトリウム塩化物泉の源泉掛け流し露天風呂を完備した旅館。翡翠色に輝く湯は美肌効果が高く女性に絶大な人気。新潟の銘酒と合わせる日本海のどぐろ炙り会席は格別の美味。',
-        price: '2食付き 25,000円〜',
+        price: '2食付き 23,500円〜',
         image: './hotels/tsukiokaonsenshirodamanoyuzenyoshi.png',
         tags: ['硫黄泉露天風呂', 'のどぐろ会席', '美肌効果'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad323100%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F29709%2F29709.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000834%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000834%252F' }
@@ -3318,25 +3318,25 @@ export const hotelList = [
     {
         id: 'h-niigata-3-1',
         onsen_id: 'o-niigata-3',
-        name: '大和屋ホテル',
+        name: '瀬波温泉 開湯の宿 大和屋旅館',
         prefecture: 'niigata',
         type: '温泉旅館',
         description: '日本海を望む高台に立つ瀬波温泉の老舗旅館。ナトリウム塩化物泉の黄金色の湯は「黄金の湯」とも称され、体の芯からじんわり温まる。夕食は村上の伝統料理である塩引き鮭と、荒波で育った新潟の寒ぶり刺身を中心とした会席料理が絶品。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/yamatoyahoteru.png',
+        price: '2食付き 14,000円〜',
+        image: './hotels/yamatoyaryokan.png',
         tags: ['日本海夕日', '塩引き鮭', 'ナトリウム塩化物泉'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad333527%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F108155%2F108155.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
     },
     {
         id: 'h-niigata-3-2',
         onsen_id: 'o-niigata-3',
-        name: '汐美荘',
+        name: '大江戸温泉物語Premium 汐美荘',
         prefecture: 'niigata',
         type: '温泉旅館',
-        description: '瀬波海岸に面した絶好のロケーションに立つ温泉旅館。日本海に沈む夕日を眺めながら入れる展望露天風呂が名物で、塩分豊富なナトリウム塩化物泉は保温効果が高い。地元・村上の鮭料理と新鮮な海の幸を盛り込んだ夕食は素材の旨みが際立つ。',
-        price: '2食付き 18,000円〜',
+        description: '「夕日のまち」として知られる瀬波温泉に位置し、日本海に沈む夕日の美しさを特等席で眺められるオーシャンビューの温泉ホテル。最大の特徴は、海と湯面が繋がっているかのような一体感を味わえる「インフィニティ露天風呂」。源泉掛け流しの名湯に浸かりながら、空と海が黄金色に染まりゆく圧倒的な絶景を堪能できる。食事は「Premium」シリーズならではの豪華な和洋バイキング。ライブキッチンから提供される焼きたてのステーキや、日本海の新鮮な海の幸を活かしたお刺身、さらに新潟自慢の美味しいお米など、地産地消にこだわった料理が並ぶ。夜には暖炉のあるラウンジで、フリードリンクを楽しみながら贅沢なひとときを過ごせる。',
+        price: '2食付き 13,500円〜',
         image: './hotels/shiobisou.png',
-        tags: ['夕日露天風呂', '村上鮭料理', '海岸沿い'],
+        tags: ['夕日露天風呂', '和洋バイキング', 'インクルーシブ'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad322359%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F4896%2F4896.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030507%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030507%252F' }
     },
     {
@@ -3346,8 +3346,8 @@ export const hotelList = [
             prefecture: 'niigata',
             type: '大型温泉旅館',
             description: '日本海を一望する高台に立つ瀬波温泉随一の老舗大型旅館。全室オーシャンビューで、夕陽を眺めながら入れる展望露天風呂が圧巻。ナトリウム塩化物泉の源泉掛け流しの湯は保温性が高く体の芯から温まる。村上牛のしゃぶしゃぶと日本海の鮮魚を組み合わせた豪華な山海会席が絶品で、オリコン顧客満足度3年連続1位を獲得した人気宿。',
-            price: '1泊2食付き 30,000円〜',
-            image: './hotels/ryokanishidoya.png',
+            price: '1泊2食付き 16,000円〜',
+            image: './hotels/taikansousenaminoyu.png',
             tags: ['全室オーシャンビュー', '村上牛会席', '源泉掛け流し'],
             bookingUrls: {
                 jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad313539%2F',
@@ -3365,7 +3365,7 @@ export const hotelList = [
         prefecture: 'niigata',
         type: '老舗温泉旅館',
         description: '300年以上の歴史を誇る岩室温泉最古の旅館。弥彦山の麓に湧くナトリウム塩化物・硫酸塩泉は保温効果が高く冷え性に好評。新潟平野の地野菜と越後の郷土料理、弥彦産の食材を丁寧に仕上げた会席と日本酒の組み合わせが格別。',
-        price: '2食付き 25,000円〜',
+        price: '2食付き 26,500円〜',
         image: './hotels/iwamuroonsentakashimaya.png',
         tags: ['300年の歴史', '弥彦山麓', '越後郷土会席'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad314098%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F38827%2F38827.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001419%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001419%252F' }
@@ -3377,8 +3377,8 @@ export const hotelList = [
             prefecture: 'niigata',
             type: '老舗温泉旅館',
             description: '明治時代から続く岩室温泉の元湯治場の老舗旅館。弥彦山麓に湧くナトリウム塩化物・硫酸塩泉は美肌効果が高く丸太の露天風呂やサウナを完備。旬の地元食材を使った手間をかけた会席料理と品数豊富な朝食バイキングが評判で一休.com評価4.32。フリードリンクサービスも充実し、弥彦神社参拝の拠点としても利便性が高い。',
-            price: '1泊2食付き 15,000円〜',
-            image: './hotels/futabasou.png',
+            price: '1泊2食付き 13,000円〜',
+            image: './hotels/yumotoya.png',
             tags: ['明治創業老舗', '美肌の湯', 'フリードリンクサービス'],
             bookingUrls: {
                 jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad363413%2F',
@@ -3394,7 +3394,7 @@ export const hotelList = [
         prefecture: 'niigata',
         type: '割烹旅館',
         description: '岩室温泉で料理自慢の割烹旅館として知られる老舗。ナトリウム塩化物泉の温泉は美肌効果が高く、湯上がりの肌がしっとりすると女性客に人気。日本海のどぐろ、南蛮エビ、越後もち豚など厳選食材を使った割烹料理は一流板前が腕をふるう。',
-        price: '2食付き 30,000円〜',
+        price: '2食付き 21,500円〜',
         image: './hotels/kappouryokanfujiya.png',
         tags: ['割烹料理', 'のどぐろ', '美肌の湯'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad332857%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F38824%2F38824.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030646%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030646%252F' }
@@ -3408,7 +3408,7 @@ export const hotelList = [
         prefecture: 'niigata',
         type: '温泉リゾート',
         description: '標高1,000mの絶景に浮かぶ、雲海を望むクラシックリゾート。源泉掛け流しの露天風呂から妙高高原のパノラマを眺め、歴史ある品格と至福の開放感に浸れる。',
-        price: '2食付き 51,000円〜',
+        price: '2食付き 34,000円〜',
         image: './hotels/akakurakankohotel.png',
         tags: ['絶景露天', '雲海', 'クラシックリゾート'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad312850%2F', rakuten: 'https://a.r10.to/hkbVhb', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000547%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000547%252F' }
