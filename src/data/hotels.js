@@ -3556,7 +3556,7 @@ export const hotelList = [
         prefecture: 'ishikawa',
         type: '高級温泉旅館',
         description: '加賀四湯の一つ・山代温泉の高台に位置する格調高い旅館。含硫黄ナトリウム塩化物泉の白濁した湯は総硫黄量が多く名湯の誉れ高い。夕食は加賀野菜と能登の海の幸を使った加賀料理の会席で、治部煮・香箱蟹など石川の食文化を堪能できる。',
-        price: '2食付き 45,000円〜',
+        price: '2食付き 24,500円〜',
         image: './hotels/rurikouyamadaionsen.png',
         tags: ['加賀四湯', '香箱蟹', '含硫黄泉'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad344540%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F6191%2F6191.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000544%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000544%252F' }
@@ -3564,14 +3564,14 @@ export const hotelList = [
     {
         id: 'h-ishikawa-1-2',
         onsen_id: 'o-ishikawa-1',
-        name: '旅館 加賀百万石',
+        name: 'みやびの宿 加賀百万石',
         prefecture: 'ishikawa',
         type: '温泉旅館',
         description: '山代温泉の共同浴場「古総湯」至近に位置し、江戸時代から続く温泉文化を体感できる老舗旅館。含硫黄ナトリウム塩化物泉は肌をなめらかにする美肌効果が高い。伝統工芸・九谷焼の器で供される加賀料理は、能登牡蠣や加賀れんこん、鴨治部煮など正統派の一品が揃う。',
-        price: '2食付き 30,000円〜',
+        price: '2食付き 23,500円〜',
         image: './hotels/ryokankagahyakumangoku.png',
         tags: ['古総湯近接', '九谷焼の器', '加賀料理'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad386738%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F171894%2F171894.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad386738%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F171894%2F171894.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00906993%252F' }
     },
     {
         id: 'h-ishikawa-1-3',
@@ -3580,7 +3580,7 @@ export const hotelList = [
         prefecture: 'ishikawa',
         type: '高級旅館',
         description: '山代温泉の自然に溶け込む洗練された空間で知られるラグジュアリー旅館。含硫黄ナトリウム塩化物泉の湯を贅沢な半露天の客室風呂で独占できるプランが人気。北陸の最高食材を選び抜いた現代加賀会席は、能登牛・香箱蟹・加賀野菜が織りなす芸術的な料理が宿の名声を支える。',
-        price: '2食付き 60,000円〜',
+        price: '2食付き 73,000円〜',
         image: './hotels/beniyamukau.png',
         tags: ['客室露天風呂', '能登牛', 'ラグジュアリー旅館'],
         bookingUrls: { jalan: '#', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F69307%2F69307.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001145%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001145%252F' }
@@ -3594,7 +3594,7 @@ export const hotelList = [
         prefecture: 'ishikawa',
         type: '大型温泉旅館',
         description: 'プロが選ぶ日本のホテル・旅館100選で36年連続日本一に輝いた名旅館。能登半島の七尾湾を望む絶景と、含塩化物泉の豊富な湯量が自慢。輪島塗の器に盛られた能登の海の幸会席は香箱蟹・のどぐろ・能登牡蠣など北陸最高の食材が揃い、加賀屋自慢のおもてなしとともに旅を彩る。',
-        price: '2食付き 50,000円〜',
+        price: '-',
         image: './hotels/kagaya.png',
         tags: ['日本一のおもてなし', 'のどぐろ会席', '七尾湾絶景'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad360249%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F5415%2F5415.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000360%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000360%252F' }
@@ -3606,7 +3606,7 @@ export const hotelList = [
         prefecture: 'ishikawa',
         type: '老舗温泉旅館',
         description: '七尾湾の海岸線に建つ風格ある老舗旅館。ナトリウム塩化物泉の「しおの湯」は海洋性温泉で肌への馴染みが良く美肌効果が高い。能登の豊かな食材を生かした料理は牡蠣の土手鍋、能登牛のすき焼き、七尾湾の地魚お造りと四季折々に変化し、地酒との相性が抜群。',
-        price: '2食付き 35,000円〜',
+        price: '-',
         image: './hotels/tadaya.png',
         tags: ['ナトリウム塩化物泉', '能登牡蠣鍋', '老舗の風格'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad311201%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F76364%2F76364.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001187%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001187%252F' }
@@ -3618,7 +3618,7 @@ export const hotelList = [
         prefecture: 'ishikawa',
         type: '温泉旅館',
         description: '能登の里山里海をテーマに掲げる和倉温泉の旅館。七尾湾に面した露天風呂では海に沈む夕日と星空が楽しめる。含塩化物泉の海洋性温泉は体の芯からポカポカと温まる。能登の伝統食材を使った会席はのどぐろの煮付け、能登かきフライ、能登牛のローストが名物。',
-        price: '2食付き 28,000円〜',
+        price: '-',
         image: './hotels/aenokaze.png',
         tags: ['夕日露天風呂', '能登郷土料理', '里山里海'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad314058%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F5416%2F5416.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001614%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001614%252F' }
@@ -3649,7 +3649,7 @@ export const hotelList = [
         prefecture: 'ishikawa',
         type: '高級温泉旅館',
         description: '鶴仙渓の渓谷美を独占できる贅沢なロケーションに佇む旅館。弱アルカリ性ナトリウム塩化物泉は神経痛・筋肉痛に効能があり、療養にも好まれる。客室からそのまま渓谷が見渡せる設計で、夕食の加賀会席は香箱蟹・のどぐろ・山中漆器の椀に盛られた治部煮が加賀文化の粋を伝える。',
-        price: '2食付き 50,000円〜',
+        price: '2食付き 44,000円〜',
         image: './hotels/hanamurasaki.png',
         tags: ['鶴仙渓絶景', '山中漆器', 'のどぐろ会席'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad385836%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F67297%2F67297.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001325%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001325%252F' }
@@ -3661,7 +3661,7 @@ export const hotelList = [
             prefecture: 'ishikawa',
             type: '老舗温泉旅館',
             description: '創業800年余りの歴史を誇る山中温泉最古の宿。鶴仙渓沿いに佇み、ナトリウム塩化物・硫酸塩泉の源泉掛け流し大浴場「鶴泉の湯」が絶品。2023年にリニューアルした源泉露天風呂付き特別室をはじめ全室が渓流眺望を誇る。夕食は加能ガニ・能登牛など石川の高級食材を用いた菊華会席で、地酒とともに格別の一夜を演出する。',
-            price: '1泊2食付き 37,000円〜',
+            price: '1泊2食付き 16,500円〜',
             image: './hotels/tabiteiyamashitaya.png',
             tags: ['創業800年の老舗', '源泉掛け流し', '渓流露天風呂付き特別室'],
             bookingUrls: {
@@ -3678,12 +3678,12 @@ export const hotelList = [
         onsen_id: 'o-ishikawa-4',
         name: '片山津温泉 佳水郷',
         prefecture: 'ishikawa',
-        type: '老舗温泉旅館',
-        description: '片山津温泉で長年にわたり愛され続ける老舗旅館。柴山潟を望む大浴場と露天風呂で含食塩泉の温もりが体に染み渡る。地元の食材にこだわり旬の加賀野菜と日本海の幸を組み合わせた会席料理と、加賀の地酒との組み合わせが格別で旅の満足度を高める。',
-        price: '2食付き 25,000円〜',
+        type: '温泉リゾート',
+        description: '柴山潟のほとりに建ち、すべてのお部屋から湖を一望できる絶景の温泉宿。最大の特長は、まるで湖と一体になったような感覚を味わえる大浴場と露天風呂。刻一刻と表情を変える湖面や、夜には幻想的にライトアップされる大噴水を眺めながら、片山津の名湯を心ゆくまで堪能できる。夕食には、北陸・加賀の豊かな自然が育んだ旬の食材を活かし、職人の技が光る華やかな加賀会席を提供。冬には日本海の「ズワイガニ」や「寒ブリ」、通年では白身の王様「のどぐろ」など、贅を尽くした美食の数々が特別なひとときを演出してくれる。',
+        price: '2食付き 16,000円〜',
         image: './hotels/katayamazuonsenkasuisato.png',
-        tags: ['含食塩泉', '加賀野菜会席', '老舗旅館'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad332430%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F28355%2F28355.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        tags: ['柴山潟絶景', '加賀会席', '温泉リゾート'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad332430%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F28355%2F28355.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00900966%252F' }
     },
 
     // ===== あわら温泉（福井）=====
