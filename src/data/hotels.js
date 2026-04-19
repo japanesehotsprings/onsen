@@ -2965,7 +2965,7 @@ export const hotelList = [
         price: '2食付き 20,000円〜',
         image: './hotels/okutamanokazehatonosusou.png',
         tags: ['鳩ノ巣渓谷眺望', '2種の単純泉かけ流し', '多摩産食材の創作イタリアン'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad372672%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F148933%2F148933.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad372672%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F148933%2F148933.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00903428%252F' }
     },
     {
         id: 'h-tokyo-1-2',
@@ -2974,22 +2974,10 @@ export const hotelList = [
         prefecture: 'tokyo',
         type: '温泉旅館',
         description: '多摩川の清流が敷地内を流れる、首都圏とは思えない豊かな自然に囲まれた温泉旅館。川の流れを眺望できる風情ある客室は、カップルや夫婦のロマンティックな旅に最適。奥多摩の単純弱アルカリ泉は肌に優しく、透明感のある湯が疲れた体を癒やす。春は山菜の天ぷら・秋は松茸ご飯など、四季折々の奥多摩の山の幸と多摩川で育った渓流魚料理を中心にした旬の会席が、豊かな自然とともに旅行者をもてなす。',
-        price: '2食付き 16,000円〜',
+        price: '改装休館中',
         image: './hotels/seiryuunoyadookutamamichi.png',
         tags: ['多摩川清流敷地内', '弱アルカリ単純泉', '渓流魚と山菜の旬会席'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad341745%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F134902%2F134902.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-tokyo-1-3',
-        onsen_id: 'o-tokyo-1',
-        name: '三河屋旅館',
-        prefecture: 'tokyo',
-        type: '老舗温泉旅館',
-        description: '奥多摩の深い山懐に抱かれた、多摩川沿いの静かな老舗温泉旅館。川のせせらぎを聞きながら入る単純泉の露天風呂は野趣あふれ、透明な湯が体の疲れを芯から溶かす。日原鍾乳洞からも近く、観光拠点としても人気が高い。夕食は多摩川で育った山女魚・岩魚の塩焼きや骨酒、山で採れた天然きのこの土瓶蒸しなど、都内では滅多に味わえない山河の幸を丁寧に調理した料理が旅の記憶に深く刻まれる。',
-        price: '2食付き 14,000円〜',
-        image: './hotels/mikawayaryokan.png',
-        tags: ['多摩川沿いの露天風呂', '単純泉かけ流し', '山女魚・岩魚の郷土料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad341745%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F134902%2F134902.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00901925%252F' }
     },
 
     // ===== 大島温泉（東京）=====
@@ -3000,7 +2988,7 @@ export const hotelList = [
             prefecture: 'tokyo',
             type: 'リゾートホテル',
             description: '伊豆大島の緑豊かな高台に佇む全3室だけの小さなリゾート宿。椿油を使ったエステや大島の海産物・山の幸を活かした創作料理が人気で、一休.com評価4.9という驚異的な高評価を獲得。半露天のプライベートバスで温泉を満喫しながら、大海原と三原山を望む唯一無二の大島体験が叶う隠れ家旅館。',
-            price: '1泊2食付き 38,000円〜',
+            price: '1泊2食付き 22,000円〜',
             image: './hotels/ooshimaonsenhoteru.png',
             tags: ['全3室の秘境リゾート', '椿油エステ', '大島産食材の創作料理'],
             bookingUrls: {
@@ -3013,26 +3001,14 @@ export const hotelList = [
     {
         id: 'h-tokyo-2-2',
         onsen_id: 'o-tokyo-2',
-        name: 'ホテル白岩',
-        prefecture: 'tokyo',
-        type: '温泉ホテル',
-        description: '三原山と伊豆七島・伊豆半島・富士山を一望できる眺望に優れた大島の温泉ホテル。三原山大噴火で湧出したナトリウム塩化物泉を露天風呂で楽しみながら、椿の花が咲き誇る春の絶景も堪能できる。近海で水揚げされたメダイやキンメダイ・トビウオなど大島ならではの地魚を使った島郷土料理が宿泊者を魅了する宿で、大島観光の定番として長く親しまれている。',
-        price: '2食付き 16,000円〜',
-        image: './hotels/hoterushiroiwa.png',
-        tags: ['富士山・伊豆七島の大パノラマ', '塩化物泉', '大島地魚の島料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-tokyo-2-3',
-        onsen_id: 'o-tokyo-2',
         name: 'ホテル赤門',
         prefecture: 'tokyo',
         type: '温泉旅館',
         description: '源為朝ゆかりの地に湧く温泉「為朝之湯」を楽しめる、大島の歴史と文化を伝える和風温泉宿。敷地内に湧く源泉の単純温泉を24時間入浴できる大浴場と露天風呂で楽しめ、元町港から徒歩8分という利便性も高い。夕食は大島近海で水揚げされたトビウオのたたきや金目鯛の煮付け、大島名産の明日葉の天ぷらなど島ならではの食材を活かした郷土料理が中心で、大島の独自の食文化を存分に楽しめる。',
-        price: '2食付き 14,000円〜',
+        price: '2食付き 13,000円〜',
         image: './hotels/hoteruakamon.png',
         tags: ['為朝之湯・源泉かけ流し', '大島明日葉と地魚の島料理', '元町港徒歩圏'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad314895%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F31060%2F31060.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad314895%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F31060%2F31060.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00909917%252F' }
     },
 
     // ===== 八丈島温泉（東京）=====
@@ -3043,10 +3019,10 @@ export const hotelList = [
         prefecture: 'tokyo',
         type: '温泉リゾートホテル',
         description: '赤い屋根がトレードマークの八丈島を代表するリゾートホテル。八丈富士と太平洋を一望する展望露天風呂では、八丈島の火山性ナトリウム塩化物泉を楽しめる。直営牧場のジャージー牛乳を使ったミルク鍋や、近海で水揚げされるアカサバの島料理、無農薬野菜の天ぷらが評判。屋上では天体ガイドによる星空観賞会を開催し、人工光の少ない八丈島の満天の星空と温泉の組み合わせが忘れられない体験となる。',
-        price: '2食付き 22,000円〜',
+        price: '2食付き 16,000円〜',
         image: './hotels/riidopaakurizootohachijoushima.png',
         tags: ['八丈富士望む展望露天風呂', 'ジャージー牛乳直営牧場', '天体ガイドの星空観賞会'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad342149%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F149068%2F149068.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad342149%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F149068%2F149068.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00903270%252F' }
     },
     {
         id: 'h-tokyo-3-2',
@@ -3055,22 +3031,10 @@ export const hotelList = [
         prefecture: 'tokyo',
         type: '温泉ホテル',
         description: '八丈島空港にほど近い立地に建ち、島の全景と太平洋を大パノラマで望める温泉ホテル。��丈島の塩化物泉を大浴場と展望露天風呂で楽しみながら、亜熱帯性の植物に囲まれた南国ムードの庭園を散策できる。夕食は八丈島近海の島寿司（ヅケ仕立ての地魚寿司）やアカコッコ（アカモク海藻）の料理など、本土では体験できない八丈島独自の食文化を中心にした会席料理で旅の醍醐味を演出する。',
-        price: '2食付き 18,000円〜',
+        price: '朝食付き 10,000円〜',
         image: './hotels/hachijoubyuuhoteru.png',
         tags: ['空港近くの便利な立地', '塩化物泉の展望露天風呂', '八丈島独自の島寿司料理'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad311834%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F5926%2F5926.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-tokyo-3-3',
-        onsen_id: 'o-tokyo-3',
-        name: '八丈島 やすらぎの湯 町営温泉旅館',
-        prefecture: 'tokyo',
-        type: '温泉旅館',
-        description: '八丈島の自然豊かな末吉地区に位置する、島の地熱から湧き出るナトリウム塩化物泉を楽しめる温泉旅館。みはらしの湯で有名な絶景ポイントにほど近い高台に建ち、八丈富士と海の大パノラマが広がる露天風呂が人気。夕食は島特産の明日葉をふんだんに使ったヘルシーな島料理と、近海で漁獲されたアカサバの地魚料理が中心で、島の素朴な食文化と自然の中でのんびりとした時間を過ごせる。',
-        price: '2食付き 15,000円〜',
-        image: './hotels/hachijoushimayasuraginoyumachieionsenryokan.png',
-        tags: ['末吉地区の絶景露天風呂', '塩化物泉', '明日葉料理とアカサバの島グルメ'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad311834%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F5926%2F5926.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00901539%252F' }
     },
 
     // ===== 箱根温泉（神奈川）=====
