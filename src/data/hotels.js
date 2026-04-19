@@ -3694,7 +3694,7 @@ export const hotelList = [
         prefecture: 'fukui',
         type: '大型温泉旅館',
         description: '北陸最大級の規模を誇るあわら温泉の大型旅館。アルカリ性単純温泉のやわらかな湯は肌への刺激が少なく、広大な大浴場と多彩な露天風呂が自慢。夕食は越前蟹・若狭ぐじ・越前うにを使った贅沢な北陸会席で、「福井の食の宝庫」を象徴する豪華な食材が揃う。',
-        price: '2食付き 35,000円〜',
+        price: '2食付き 27,000円〜',
         image: './hotels/gurandiahousen.png',
         tags: ['越前蟹', 'アルカリ性単純温泉', '北陸最大級の宿'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad316392%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F16207%2F16207.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000813%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000813%252F' }
@@ -3706,7 +3706,7 @@ export const hotelList = [
         prefecture: 'fukui',
         type: '老舗温泉旅館',
         description: 'あわら温泉発祥の地に建つ130年以上の歴史を誇る老舗旅館。アルカリ性単純温泉の透き通った湯は肌をしっとりと潤す。冬の越前蟹シーズンには蟹一杯丸ごとを豪快に楽しめる「蟹会席」が人気で、越前に古くから伝わる奉書焼きなど独自の調理法で蟹の旨みを引き出す。',
-        price: '2食付き 30,000円〜',
+        price: '2食付き 22,000円〜',
         image: './hotels/bishou.png',
         tags: ['越前蟹会席', '130年の歴史', '源泉掛け流し'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad327149%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F8114%2F8114.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002909%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002909%252F' }
@@ -3718,7 +3718,7 @@ export const hotelList = [
         prefecture: 'fukui',
         type: '温泉旅館',
         description: 'あわら温泉街の中心部に位置するアットホームな温泉旅館。アルカリ性単純温泉の清澄な湯を源泉掛け流しで楽しめる。若狭湾で水揚げされた新鮮な魚介と、地元農家が育てた越前野菜を使った料理は素材の味を大切にした丁寧な仕上がりで、地酒「黒龍」との相性が抜群。',
-        price: '2食付き 18,000円〜',
+        price: '2食付き 34,000円〜',
         image: './hotels/tsuruya.png',
         tags: ['源泉掛け流し', '若狭湾の魚介', 'アットホーム'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad337435%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F84652%2F84652.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001459%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001459%252F' }
@@ -3728,38 +3728,38 @@ export const hotelList = [
     {
         id: 'h-fukui-2-1',
         onsen_id: 'o-fukui-2',
-        name: '越前温泉 漁火',
+        name: '越前糸生温泉 泰澄の杜',
         prefecture: 'fukui',
         type: '温泉旅館',
-        description: '越前海岸を眼下に望む断崖上に立つ絶景温泉旅館。ナトリウム塩化物泉の海洋性温泉は塩分が豊富で体の芯から温まり、日本海の荒波を見渡しながら入る露天風呂が絶品。夕食は地元漁港水揚げの越前ガニ・甘エビ・岩ガキなど日本海の豪快な幸が食膳を飾る。',
-        price: '2食付き 30,000円〜',
-        image: './hotels/echizenonsenisaribi.png',
-        tags: ['断崖絶壁の露天風呂', '越前ガニ', '日本海の絶景'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '越前町の内陸部、緑豊かな自然に囲まれた「歴史とぶどうの里」に位置する温泉宿。広大な敷地内にはバーベキュー場やぶどう園を併設しており、季節ごとのアクティビティも充実している。最大の魅力は、泰澄大師ゆかりの地から湧き出る天然温泉。開放感あふれる露天風呂や広々とした内湯で、美肌の湯を心ゆくまで堪能できる。夕食には、冬の「越前がに」はもちろん、地元福井のブランド肉や新鮮な山菜、自家製野菜を盛り込んだ、季節感あふれる里山会席が並ぶ。',
+        price: '2食付き 12,500円〜',
+        image: './hotels/echizenitoonsen.png',
+        tags: ['泰澄大師ゆかりの地', 'バーベキュー場', 'ぶどう園'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad329879%2F&_gl=1*1ysdsgo*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzY1MjU0MDMkbzM0JGcxJHQxNzc2NTI1NDExJGo1MiRsMCRoMA..', rakuten: 'https://a.r10.to/h53Mhv', ikyu: '#', yahoo: '#' }
     },
     {
         id: 'h-fukui-2-2',
         onsen_id: 'o-fukui-2',
-        name: 'ホテル望洋楼',
+        name: '越前温泉 平成 HEISEI',
         prefecture: 'fukui',
-        type: '温泉ホテル',
-        description: '越前海岸の雄大な景色を独占できる展望抜群の温泉ホテル。ナトリウム塩化物泉の豊富な湯量を誇り、展望大浴場と絶景露天風呂から日本海に沈む夕日が望める。漁師の町らしく夕食は地魚の活造り・越前うに丼・若狭かれいの干物など海鮮中心の豪快な献立が続く。',
-        price: '2食付き 22,000円〜',
-        image: './hotels/hoterubouyourou.png',
-        tags: ['日本海の夕日', '越前うに', '展望大浴場'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        type: '温泉旅館',
+        description: '越前海岸を見下ろす高台に建ち、全客室から日本海の雄大なパノラマを一望できる絶景の宿。最大の特徴は、水平線を望む露天風呂での湯浴み。特に夕暮れ時、海一面が黄金色に染まる瞬間の美しさは格別で、源泉掛け流しの名湯と共に至福のリフレッシュを叶えてくれる。夕食には、目の前の漁港で獲れたばかりの活きの良い海鮮が主役。カニのシーズンには、タグ付きの越前がにを贅沢に味わうプランが人気で、鮮度抜群の磯料理を心ゆくまで堪能できる。',
+        price: '2食付き 21,000円〜',
+        image: './hotels/heisei.png',
+        tags: ['日本海の夕日', '越前がに', '全室から日本海の絶景を展望'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad344905%2F&_gl=1*6swm78*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzY1MjU0MDMkbzM0JGcxJHQxNzc2NTI1NTE2JGoxNyRsMCRoMA..', rakuten: 'https://a.r10.to/hPB9k5', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00906268%252F' }
     },
     {
         id: 'h-fukui-2-3',
         onsen_id: 'o-fukui-2',
-        name: 'たけだ旅館',
+        name: '旅館 はまゆう',
         prefecture: 'fukui',
         type: '漁師宿',
-        description: '漁師の里・越前町で民宿から旅館に発展した素朴な宿。海の近くに湧くナトリウム塩化物泉の温泉は源泉掛け流しで、こじんまりとした内湯ながら湯量豊富。朝獲れの越前ガニ・松葉ガニ・甘エビを使った豪快な漁師料理は、都市部からわざわざ足を運ぶファンも多い。',
-        price: '2食付き 20,000円〜',
-        image: './hotels/takedaryokan.png',
-        tags: ['漁師料理', '源泉掛け流し', '松葉ガニ'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        description: '越前海岸の波打ち際に位置し、潮騒を間近に感じながら過ごせるアットホームな温泉旅館。家庭的な温かいおもてなしと、漁師町ならではの豪快かつ繊細な磯料理が多くのリピーターを惹きつけている。自慢の温泉は、海を眺めながらゆったりと浸かれる展望風呂。夕食には、店主自ら競り落とす旬の地魚や、冬の王様・越前がになど、妥協のない食材選びによる美食の数々がテーブルを彩る。気取らない雰囲気の中で、海の恵みをダイレクトに味わいたい方に最適な一軒。',
+        price: '2食付き 13,500円〜',
+        image: './hotels/hamayu.png',
+        tags: ['漁師料理', '源泉掛け流し', '越前がに'],
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad332122%2F&_gl=1*1r1afjy*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzY1MjU0MDMkbzM0JGcxJHQxNzc2NTI1NjIzJGoxOCRsMCRoMA..', rakuten: 'https://a.r10.to/hPj3Go', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00905881%252F' }
     },
 
     // ===== 三国温泉（福井）=====
@@ -3770,9 +3770,9 @@ export const hotelList = [
             prefecture: 'fukui',
             type: '温泉旅館',
             description: '江戸時代の隠居処を約200年ぶりに和風モダンで復活させた1日3組限定の秘宿。三国温泉源泉かけ流しの檜風呂を全室に備え、日本海に沈む夕日を望む贅沢なロケーションが自慢。夕食は漁師・海女から直送された越前ガニや日本海の地魚を使った豪快な海鮮料理で、北陸の旬の幸をふんだんに堪能できる。',
-            price: '1泊2食付き 44,000円〜',
+            price: '1泊2食付き 43,000円〜',
             image: './hotels/mikunionsenyumotomikuni.png',
-            tags: ['1日3組限定', '源泉掛け流し檜風呂', '漁師直送の越前ガニ'],
+            tags: ['1日3組限定', '源泉掛け流し檜風呂', '漁師直送の越前ガニ', 'インクルーシブ'],
             bookingUrls: {
                 jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad305885%2F',
                 rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F162678%2F162678.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9',
@@ -3799,7 +3799,7 @@ export const hotelList = [
             prefecture: 'fukui',
             type: '古民家オーベルジュ',
             description: '北前船で栄えた三国湊の古民家9棟を再生したミシュランセレクテッド2025の分散型オーベルジュ。伝統的な「かぐら建て町家」を活かした全16室はそれぞれ趣が異なり、檜風呂を完備。タテルヨシノ三国湊では越前ガニや地魚を用いた本格フレンチ会席が楽しめ、港町の歴史と美食が融合した唯一無二の滞在体験を提供する。',
-            price: '1泊2食付き 40,000円〜',
+            price: '1泊2食付き 31,500円〜',
             image: './hotels/mikunionsenkaiboukan.png',
             tags: ['ミシュランセレクテッド2025', '古民家オーベルジュ', '越前ガニ地魚フレンチ'],
             bookingUrls: {
