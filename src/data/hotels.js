@@ -2666,32 +2666,20 @@ export const hotelList = [
         prefecture: 'saitama',
         type: '温泉リゾートホテル',
         description: '荒川の清流と秩父の山並みに囲まれた埼玉屈指の温泉リゾート。展望露天風呂付きルームや天然温泉の大浴場が整備され、炭酸水素塩泉の柔らかな湯は美肌効果で知られ、長瀞の奇岩・岩畳観光の拠点としても便利。夕食は武州和牛のしゃぶしゃぶや秩父産のわさびを添えたヤマメ料理など、荒川流域の豊かな食材を会席に仕立て提供する。',
-        price: '2食付き 18,000円〜',
+        price: '2食付き 12,000円〜',
         image: './hotels/kamenoihoterunagatoroyorii.png',
         tags: ['炭酸水素塩泉の美肌湯', '長瀞岩畳観光拠点', '武州和牛しゃぶしゃぶ'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad311788%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F104682%2F104682.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad311788%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F104682%2F104682.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00003423%252F' }
     },
     {
-        id: 'h-saitama-1-2',
-        onsen_id: 'o-saitama-1',
-        name: 'かんぽの宿 寄居',
-        prefecture: 'saitama',
-        type: '温泉ホテル',
-        description: '宝登山と荒川に挟まれた緑豊かな立地に建つ温泉ホテル。地下から湧き出るナトリウム塩化物泉は体を芯から温め、湯冷めしにくい効能が特徴。バリアフリー設備も充実し、ファミリーから高齢者まで幅広く利用できる。秩父名産のそばや荒川の鮎、武州豚を使った料理は素朴で温かみがあり、都心から1時間余りの近さながら十分な非日常感を味わえる。',
-        price: '2食付き 13,000円〜',
-        image: './hotels/kanponoyadoyorii.png',
-        tags: ['ナトリウム塩化物泉', 'バリアフリー完備', '秩父のそばと荒川の鮎'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad311788%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F104682%2F104682.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
-    },
-    {
-            id: 'h-saitama-1-3',
+            id: 'h-saitama-1-2',
             onsen_id: 'o-saitama-1',
             name: '小さなホテル セラヴィ',
             prefecture: 'saitama',
             type: '温泉オーベルジュ',
             description: '長瀞渓谷を望む自然の中に佇む5組限定のオーベルジュ。全5室中4室に露天風呂付き客室を備え、地元の自家農園で育てた65種以上の無農薬野菜を活かした創作料理が絶品。アンティーク家具が彩る非日常空間で贅沢なひとときを過ごせる。貸切大露天風呂「洗心」も無料で終日利用可能。',
-            price: '1泊2食付き 77,400円〜',
-            image: './hotels/nagatoroonsenuguisunoyadofukudaya.png',
+            price: '1泊2食付き 36,000円〜',
+            image: './hotels/chiisanaotelselavi.png',
             tags: ['露天風呂付き客室', 'オーベルジュ', '長瀞渓谷'],
             bookingUrls: {
                 jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad310245%2F',
@@ -2709,7 +2697,7 @@ export const hotelList = [
         prefecture: 'saitama',
         type: '高級温泉旅館',
         description: 'テレビ東京「アド街ック天国」秩父温泉郷第1位に選ばれ、埼玉おもてなし大賞特別賞を2年連続受賞した実力派の宿。全室露天風呂付き客室を誇り、秩父の山里で湧出する炭酸水素塩泉の柔らかな湯を独り占めできる贅沢さが売り。夕食は秩父産の旬野菜と武州和牛のしゃぶしゃぶ、清流で育った渓流魚の会席料理が主役で、大人の隠れ家的な静寂の中で至高のひとときを過ごせる。',
-        price: '2食付き 28,000円〜',
+        price: '2食付き 19,000円〜',
         image: './hotels/chichibuonsenhananoya.png',
         tags: ['全室露天風呂付き', '炭酸水素塩泉', 'アド街ック天国1位'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad349920%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F147685%2F147685.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
@@ -2721,7 +2709,7 @@ export const hotelList = [
         prefecture: 'saitama',
         type: '古民家リノベーションホテル',
         description: '大正・昭和初期の歴史的建物を丁寧にリノベーションした、秩父の門前町に佇む個性派ホテル。秩父神社の門前という立地を活かし、秩父礼所巡りや夜の屋台観光の拠点として人気。地元食材を使ったフレンチベースの料理に秩父の地酒「武甲正宗」が添えられる夕食は評判が高い。秩父で古くから湧く単純泉の温泉で旅の疲れを癒やし、昭和レトロと現代デザインが融合した空間での滞在は特別な思い出となる。',
-        price: '2食付き 25,000円〜',
+        price: '2食付き 31,500円〜',
         image: './hotels/nipponiachichibumonzenmachi.png',
         tags: ['古民家リノベーション', '秩父の地酒と地産フレンチ', '秩父神社門前'],
         bookingUrls: { jalan: '#', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F184555%2F184555.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00003012%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00003012%252F' }
@@ -2733,7 +2721,7 @@ export const hotelList = [
             prefecture: 'saitama',
             type: '温泉旅館',
             description: '秩父七湯のひとつ「和銅鉱泉」を引く老舗温泉旅館。横瀬川を一望する露天風呂は柔らかな湯触りと高い美肌効果が評判で、露天風呂付き客室も14室を擁する。月替わりの旬の会席料理も高評価。楽天トラベルアワードを9年連続受賞した秩父屈指の名宿で、一休.comでの評価は4.65点。',
-            price: '1泊2食付き 28,000円〜',
+            price: '1泊2食付き 24,000円〜',
             image: './hotels/chichibuonsenmangannoyu.png',
             tags: ['秩父七湯', '露天風呂付き客室', '9年連続楽天アワード受賞'],
             bookingUrls: {
@@ -2752,7 +2740,7 @@ export const hotelList = [
         prefecture: 'saitama',
         type: '老舗温泉旅館',
         description: '大正元年（1912年）創業、長瀞観光の歴史とともに歩む由緒ある老舗旅館。長瀞渓谷の岩畳と荒川の清流を望む庭園露天風呂では炭酸水素塩泉の美肌の湯を楽しめる。夕食は荒川で育った天然鮎の塩焼きと武州和牛のすき焼き、秩父産の山菜を織り交ぜた旬の会席料理で、楽天トラベルゴールドアワード受賞の実績が示す通り、おもてなしの質の高さも随一。',
-        price: '2食付き 18,000円〜',
+        price: '2食付き 22,000円〜',
         image: './hotels/nagatoroonsenhananoomotenashichouseikan.png',
         tags: ['大正元年創業の老舗', '岩畳を望む庭園露天風呂', '楽天ゴールドアワード受賞'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad329295%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F9485%2F9485.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
@@ -2764,8 +2752,8 @@ export const hotelList = [
             prefecture: 'saitama',
             type: '高級温泉旅館',
             description: '秩父・長瀞エリアの山里に位置するオールインクルーシブの大人専用宿。江戸時代から続く小鹿野の湯「大徳寺源泉」を引く3種の貸切露天風呂が利用無制限。30種以上のドリンクと手作りジェラートも含まれ、月替わりの創作会席料理は楽天トラベル食事部門首都圏1位を獲得した逸品。',
-            price: '1泊2食付き 58,000円〜',
-            image: './hotels/hanayubettei.png',
+            price: '1泊2食付き 29,000円〜',
+            image: './hotels/okinaotouan.png',
             tags: ['オールインクルーシブ', '大人専用', '貸切露天風呂'],
             bookingUrls: {
                 jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad337864%2F',
@@ -2774,18 +2762,6 @@ export const hotelList = [
                 yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030921%252F'
             }
         },
-    {
-        id: 'h-saitama-3-3',
-        onsen_id: 'o-saitama-3',
-        name: '長瀞温泉 ホテル龍勢',
-        prefecture: 'saitama',
-        type: '温泉ホテル',
-        description: '長瀞ライン下りの出発地に近い便利な立地に建つ温泉ホテル。秩父の地下深部から湧き出るナトリウム塩化物泉を大浴場と露天風呂で提供し、湯冷めしにくい効能が旅の疲れを癒やす。長瀞名物の天然氷を使ったかき氷や荒川の鮎の塩焼き、秩父の郷土料理「みそポテト」など地域の食文化を取り入れた料理が旅の楽しみを増してくれる。長瀞岩畳や宝登山神社の観光と組み合わせやすい拠点として家族連れにも人気。',
-        price: '2食付き 14,000円〜',
-        image: './hotels/nagatoroonsenhoteruryuusei.png',
-        tags: ['ナトリウム塩化物泉', '長瀞ラインくだり拠点', '天然氷かき氷と秩父郷土料理'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
 
     // ===== 犬吠埼温泉（千葉）=====
     {
