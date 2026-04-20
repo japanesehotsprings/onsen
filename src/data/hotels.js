@@ -2795,7 +2795,7 @@ export const hotelList = [
         prefecture: 'chiba',
         type: '温泉旅館',
         description: '全室オーシャンビューで、太平洋を望む露天風呂は関東最東端の日の出を湯船から迎えるという唯一無二の体験が楽しめる。銚子沖で揚がったキンメダイや伊勢海老を主役にした豪華な房総会席は、銚子エリアNo.1の評価を裏付ける充実ぶり。銚子電鉄・犬吠駅から無料送迎で約3分とアクセスも良好で、初日の出観光の宿としても全国から旅行者が訪れる名宿。',
-        price: '2食付き 20,000円〜',
+        price: '2食付き 19,000円〜',
         image: './hotels/inubouzakikankouhoteru.png',
         tags: ['全室オーシャンビュー', '関東最東端の初日の出露天風呂', '伊勢海老・キンメダイ会席'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad323552%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F40498%2F40498.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00031059%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00031059%252F' }
@@ -2807,22 +2807,10 @@ export const hotelList = [
         prefecture: 'chiba',
         type: '温泉リゾートホテル',
         description: '白亜の犬吠埼灯台を眼前に望む高台の温泉ホテル。地下1,300mから湧き出る白亜紀の地層由来のナトリウム塩化物泉「黒潮の湯」は温泉総選挙2024関東エリア歴史文化部門第1位に輝いた名湯で、美肌効果が高いとされる。太平洋を一望する展望露天風呂は元旦の初日の出スポットとしても名高く、銚子名産のキンメダイ煮付けやさんが焼きなど地魚料理も充実している。',
-        price: '2食付き 22,000円〜',
+        price: '2食付き 17,000円〜',
         image: './hotels/zekkeinoyadoinubouzakihoteru.png',
         tags: ['地下1300mの塩化物泉', '犬吠埼灯台眺望', '温泉総選挙関東第1位'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad326415%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F4691%2F4691.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-chiba-1-3',
-        onsen_id: 'o-chiba-1',
-        name: '別邸 海と森',
-        prefecture: 'chiba',
-        type: '高級リゾート旅館',
-        description: 'かつて皇族の別邸があった由緒ある地に建つ、全室オーシャンビューを誇る小規模高級宿。プライベート感の高いヴィラとホテル棟に分かれ、それぞれに太平洋の雄大な景色と犬吠埼のナトリウム塩化物泉の湯浴みが楽しめる。夕食は銚子港直送の地魚を使った創作会席で、伊勢海老・アワビ・ヒラメなど房総の海の恵みをふんだんに使った料理が記念日旅行にふさわしい格調を演出する。',
-        price: '2食付き 45,000円〜',
-        image: './hotels/betteiumitomori.png',
-        tags: ['皇族ゆかりの地の高級宿', '全室オーシャンビュー', '銚子直送地魚の創作会席'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad326415%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F4691%2F4691.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00901779%252F' }
     },
 
     // ===== 鴨川温泉（千葉）=====
@@ -2833,7 +2821,7 @@ export const hotelList = [
         prefecture: 'chiba',
         type: '高級離れ旅館',
         description: '房総屈指の景勝地・太海の海辺に佇む、1日10組限定の全室離れ客室宿。全室に露天風呂と内湯を備え、ウッドデッキから広がるインフィニティビューで太平洋を独占できる。鴨川温泉のナトリウム塩化物泉は体を温め潤す美肌の湯で知られ、夕食には外房の伊勢海老や地鯛など豊富な地魚を使った豪華な創作懐石が供される。記念日やハネムーンに特に支持が高い宿。',
-        price: '2食付き 50,000円〜',
+        price: '2食付き 55,000円〜',
         image: './hotels/kamogawaonsenriiori.png',
         tags: ['全室離れ客室・インフィニティ海景', 'ナトリウム塩化物泉', '外房伊勢海老の創作懐石'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad386262%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F184014%2F184014.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00003005%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00003005%252F' }
@@ -2845,7 +2833,7 @@ export const hotelList = [
         prefecture: 'chiba',
         type: '温泉リゾートホテル',
         description: '外房の太平洋を一望する鴨川温泉の代表的なリゾートホテル。広大な大浴場と屋外プールを備え、ナトリウム塩化物泉の豊富な湯を大露天風呂でたっぷりと楽しめる。夕食は外房の活伊勢海老・鮑・地鯛など豪快な海の幸を主役にしたバイキングスタイルで提供され、千倉や鴨川の新鮮な食材の質の高さが際立つ。家族旅行やグループ旅行に最適な施設と料理の充実ぶりが高く評価されている。',
-        price: '2食付き 22,000円〜',
+        price: '2食付き 18,000円〜',
         image: './hotels/kamogawagurandohoteru.png',
         tags: ['大型温泉リゾート', 'ナトリウム塩化物泉', '外房海鮮バイキング'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad343712%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F19151%2F19151.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030840%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030840%252F' }
@@ -2857,7 +2845,7 @@ export const hotelList = [
             prefecture: 'chiba',
             type: '温泉ホテル',
             description: '鴨川海岸に面した全室オーシャンビューの温泉ホテル。「潮騒の湯（塩化物泉）」と「なぎさの湯（硫黄含有冷鉱泉）」という2種類の自家源泉が楽しめる大浴場と、2023年開業のルーフトップ温泉「HARUKA」が人気を集める。銚子港直送の地魚を使った会席料理も高く評価される名宿。',
-            price: '1泊2食付き 30,000円〜',
+            price: '1泊2食付き 22,000円〜',
             image: './hotels/ooshanpurazasensuikaku.png',
             tags: ['全室オーシャンビュー', '2種源泉', 'ルーフトップ温泉'],
             bookingUrls: {
@@ -2876,10 +2864,10 @@ export const hotelList = [
         prefecture: 'chiba',
         type: '大型温泉リゾートホテル',
         description: '風光明媚な勝浦湾に面した大型リゾートホテルで、地上40mから太平洋を一望できる展望大浴場の天然温泉が圧巻。30種類以上のスパメニューを擁するスパドームは首都圏屈指の施設で、勝浦沖で獲れる旬の地魚60種超を揃えたオープンキッチンバイキングも評判が高い。ナトリウム塩化物泉の湯は肌をしっとりと潤し、ボウリングやカラオケなど充実のアミューズメントで家族全員が楽しめる。',
-        price: '2食付き 18,000円〜',
+        price: '2食付き 17,000円〜',
         image: './hotels/mikazukishiipaakuhoterukatsuura.png',
         tags: ['地上40mの展望大浴場', '大型スパドーム施設', '海鮮60種バイキング'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad320242%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F38961%2F38961.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad320242%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F38961%2F38961.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00901934%252F' }
     },
     {
         id: 'h-chiba-3-2',
@@ -2888,10 +2876,10 @@ export const hotelList = [
         prefecture: 'chiba',
         type: '温泉リゾートホテル',
         description: '勝浦湾を一望する高台に建つリゾート感あふれる温泉ホテル。信楽焼の湯船を備えた貸切露天風呂は特に人気が高く、プライベートな湯浴みを好む旅行者に重宝されている。勝浦近海で揚がる地魚を中心にした房総会席料理は仕入れたての新鮮さが自慢で、塩化物泉の湯上りに楽しむ金目鯛や鮑の料理は格別の旨さ。勝浦朝市や勝浦タンタンメンなど周辺の食文化も併せて楽しめる。',
-        price: '2食付き 22,000円〜',
+        price: '2食付き 12,500円〜',
         image: './hotels/katsuurahirutoppuhoterumireeniakatsuura.png',
         tags: ['信楽焼の貸切露天風呂', '勝浦湾の絶景', '房総地魚の鮮魚会席'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad326499%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F14458%2F14458.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad326499%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F14458%2F14458.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00901311%252F' }
     },
     {
         id: 'h-chiba-3-3',
@@ -2900,7 +2888,7 @@ export const hotelList = [
         prefecture: 'chiba',
         type: '温泉旅館',
         description: '勝浦湾を眼下に望む絶景オーシャンビューの宿で、チェックアウト11時以降というゆったりした滞在スタイルが人気の秘密。地下から湧き出るナトリウム塩化物泉「美人の湯」は肌をなめらかに整える効能で知られ、朝の湯浴みも十分楽しめる時間設定が評判。夕食は近港から直送される磯料理を主体にした会席で、活伊勢海老の踊り焼きや金目鯛の煮付けなど房総の海の幸を存分に味わえる。',
-        price: '2食付き 20,000円〜',
+        price: '2食付き 25,500円〜',
         image: './hotels/minamibousoukatsuurasuiumi.png',
         tags: ['チェックアウト11時以降', '塩化物泉の美人の湯', '活伊勢海老の磯料理'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad335016%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F151257%2F151257.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002280%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002280%252F' }
@@ -2914,10 +2902,10 @@ export const hotelList = [
         prefecture: 'chiba',
         type: '温泉旅館',
         description: '鏡ヶ浦とも呼ばれる穏やかな館山湾に面した情緒豊かな老舗旅館。館山の地下深部から湧き出るナトリウム塩化物泉は肌なめらかな美肌の湯として知られ、海を望む露天風呂での湯浴みは格別。自前の船と定置網で獲った鮮魚を厨房で仕立てる海鮮料理が自慢で、伊勢海老・鮑・サザエなど南房総の豊かな海の幸を余すところなく堪能できる宿として高評価を獲得している。',
-        price: '2食付き 18,000円〜',
+        price: '2食付き 12,0500円〜',
         image: './hotels/tateyamaonsenhoterunankaisou.png',
         tags: ['館山湾オーシャンビュー', 'ナトリウム塩化物泉', '自前漁船の地魚料理'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad332623%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F5846%2F5846.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad332623%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F5846%2F5846.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00900518%252F' }
     },
     {
             id: 'h-chiba-4-2',
@@ -2926,9 +2914,9 @@ export const hotelList = [
             prefecture: 'chiba',
             type: '温泉リゾートホテル',
             description: '館山湾を一望する高台に立つ温泉リゾート。房総では大変珍しいナトリウム炭酸水素塩泉の展望露天風呂と貸切露天風呂を備え、美肌効果の高さが評判。自社定置網直送の地魚2段舟盛りとお寿司・浜焼き食べ飲み放題の「オールインクルーシブハーフビュッフェ」が大人気。楽天評価4.43点。',
-            price: '1泊2食付き 47,600円〜',
+            price: '1泊2食付き 29,000円〜',
             image: './hotels/kyuukamuratateyama.png',
-            tags: ['オーシャンビュー', '炭酸水素塩泉', '食べ飲み放題'],
+            tags: ['オーシャンビュー', '炭酸水素塩泉', 'オールインクルーシブ'],
             bookingUrls: {
                 jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad394956%2F',
                 rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F147835%2F147835.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9',
@@ -2943,8 +2931,8 @@ export const hotelList = [
             prefecture: 'chiba',
             type: '温泉旅館',
             description: '南房総・館山の海辺に立つ地魚料理自慢の温泉旅館。2024年1月にリニューアルオープンし、海を望む露天風呂付き客室も誕生。地元漁港直送の伊勢海老・アワビ・地魚の豪華な舟盛り会席が名物で、一休.comの評価は4.51点。館山温泉の天然温泉でゆったりとした時間を過ごせる。',
-            price: '1泊2食付き 22,000円〜',
-            image: './hotels/nagisanoyutateyamafujimikan.png',
+            price: '1泊2食付き 18,000円〜',
+            image: './hotels/osashiminoyadotarobe.png',
             tags: ['地魚料理', '舟盛り', '2024リニューアル'],
             bookingUrls: {
                 jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad331068%2F',
