@@ -2075,35 +2075,11 @@ export const hotelList = [
         name: '思い出浪漫館',
         prefecture: 'ibaraki',
         type: '温泉旅館',
-        description: '日本三名瀑の一つ「袋田の滝」から徒歩圏の好立地に建つ温泉旅館。久慈川の清流を眺める露天風呂と内湯でアルカリ性単純温泉の美肌の湯を堪能できる。夕食は奥久慈の自然が育んだ奥久慈しゃも鍋や久慈川の天然鮎の塩焼きなど地元の食材を生かした料理が並び、茨城の地酒との相性も抜群。',
-        price: '2食付き 18,000円〜',
+        description: '日本三名瀑の一つ「袋田の滝」から徒歩圏の好立地に建つ温泉旅館。久慈川の清流を眺める露天風呂と内湯でアルカリ性単純温泉の美肌の湯を堪能できる。夕食は奥久慈の自然が育んだ奥久慈しゃも鍋や久慈川の天然鮎の塩焼きなど地元の食材を生かした料理が並び、茨城の地酒との相性も抜群。夕食、朝食、ウェルカムラウンジでのドリンクやスナックを始め、館内での様々なアクティビティが追加料金なしで楽しめる',
+        price: '2食付き 17,000円〜',
         image: './hotels/omoideroumankan.png',
-        tags: ['袋田の滝徒歩圏', '奥久慈しゃも鍋', '美肌の湯'],
+        tags: ['袋田の滝徒歩圏', 'オールインクルーシブ', '美肌の湯'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad313487%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F37878%2F37878.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030727%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030727%252F' }
-    },
-    {
-        id: 'h-ibaraki-1-2',
-        onsen_id: 'o-ibaraki-1',
-        name: '四季彩の宿 ふくろだ',
-        prefecture: 'ibaraki',
-        type: '温泉旅館',
-        description: '袋田温泉の四季折々の自然美を満喫できる中規模温泉旅館。新緑・紅葉・雪景色と表情を変える奥久慈の山々を望む露天風呂は絶景で、特に秋の紅葉シーズンは大人気。奥久慈産のリンゴやナシを使ったフルーツデザートと地元産の野菜・きのこをたっぷり使った郷土鍋が旅の記憶に残る。',
-        price: '2食付き 16,000円〜',
-        image: './hotels/shikisainoyadofukuroda.png',
-        tags: ['四季の絶景露天', '奥久慈産フルーツ', '紅葉の名所'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-ibaraki-1-3',
-        onsen_id: 'o-ibaraki-1',
-        name: '滝味の宿 豊年万作',
-        prefecture: 'ibaraki',
-        type: '温泉旅館',
-        description: '袋田の滝と大子の豊かな自然に囲まれた温泉旅館。弱アルカリ性の単純温泉は肌に優しく、疲れた体をゆっくり癒すのに最適。大子名産のリンゴを使ったアップルパイや奥久慈しゃも料理など地元食材が主役の夕食が人気で、秋のリンゴ狩り体験プランとのセット旅行も充実。',
-        price: '2食付き 14,000円〜',
-        image: './hotels/takiajinoyadohounenmansaku.png',
-        tags: ['袋田の滝', 'リンゴ狩り体験', '奥久慈の自然'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad375696%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F13660%2F13660.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002288%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002288%252F' }
     },
 
     // ===== 五浦温泉（茨城）=====
@@ -2119,67 +2095,19 @@ export const hotelList = [
         tags: ['太平洋展望露天', '常磐の海鮮', 'アンコウ鍋'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad322659%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F29989%2F29989.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00031052%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00031052%252F' }
     },
-    {
-        id: 'h-ibaraki-2-2',
-        onsen_id: 'o-ibaraki-2',
-        name: '五浦観光ホテル 別館磯の宿',
-        prefecture: 'ibaraki',
-        type: '温泉旅館',
-        description: '岡倉天心六角堂のすぐ近く、磯の香りが漂う絶好のロケーションにある別館旅館。岩礁から砕け散る波飛沫を間近に感じる露天風呂は五浦ならではの贅沢体験。地魚の活造りを始め、常磐沖で揚がった旬の魚介を素材の旨みを生かした調理で提供する夕食が評判。',
-        price: '2食付き 24,000円〜',
-        image: './hotels/itsuurakankouhoterubekkanisonoyado.png',
-        tags: ['岡倉天心ゆかり', '磯の絶景露天', '常磐地魚活造り'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-ibaraki-2-3',
-        onsen_id: 'o-ibaraki-2',
-        name: 'いきかえりの宿 旅館 涛声',
-        prefecture: 'ibaraki',
-        type: '温泉旅館',
-        description: '五浦の断崖に建ち、太平洋の波音が響く静かな温泉旅館。館名通り「生き返り」をコンセプトに掲げ、良質な温泉と非日常の海景色で疲れた体と心を根本からリセットできる。夕食には常磐の幸を贅沢に使った和食会席が並び、特に冬季限定のアンコウ鍋は食べに来る価値ありと評判。',
-        price: '2食付き 18,000円〜',
-        image: './hotels/ikikaerinoyadoryokantoukoe.png',
-        tags: ['太平洋の波音', '非日常の海景色', '冬のアンコウ鍋'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
 
     // ===== 大子温泉（茨城）=====
     {
         id: 'h-ibaraki-3-1',
         onsen_id: 'o-ibaraki-3',
-        name: 'やみぞの宿 大子温泉保養センター',
+        name: '大子温泉 やみぞホテル',
         prefecture: 'ibaraki',
         type: '温泉保養施設',
         description: '奥久慈やみぞの自然に抱かれた大子温泉の保養施設。久慈川の清流沿いに位置し、単純温泉の柔らかな湯が体を芯から温める。日帰り入浴も人気だが宿泊では連泊しながら周辺の袋田の滝や西金砂神社などを巡る滞在型観光が楽しめる。奥久慈の山の幸を活かした家庭的な食事が旅を締めくくる。',
         price: '2食付き 12,000円〜',
-        image: './hotels/yamizonoyadooogoonsenhoyousentaa.png',
+        image: './hotels/daigoonsenyamihohoteru.png',
         tags: ['久慈川沿い', '袋田の滝観光拠点', '奥久慈山の幸'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad375514%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F142195%2F142195.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-ibaraki-3-2',
-        onsen_id: 'o-ibaraki-3',
-        name: '奥久慈旅館',
-        prefecture: 'ibaraki',
-        type: '温泉旅館',
-        description: '大子温泉の里山に溶け込む小さな温泉旅館。弱アルカリ性の単純温泉はさらりとした湯触りで肌に優しく、体への負担が少ないことからシニアにも人気が高い。奥久慈名産の奥久慈しゃもの親子丼や地元農家から仕入れた旬の野菜を使った素朴な料理が好評で、アットホームな雰囲気の中で心も体もほぐれる。',
-        price: '2食付き 13,000円〜',
-        image: './hotels/okukujiryokan.png',
-        tags: ['奥久慈しゃも', '弱アルカリ温泉', '里山の宿'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
-    },
-    {
-        id: 'h-ibaraki-3-3',
-        onsen_id: 'o-ibaraki-3',
-        name: 'ホテル奥久慈',
-        prefecture: 'ibaraki',
-        type: '温泉ホテル',
-        description: '大子温泉を代表する中型温泉ホテル。奥久慈の山々を一望できる大浴場の露天風呂が自慢で、塩化物泉の温まる湯に長湯を楽しむ宿泊者が多い。大子名産のリンゴや奥久慈茶を使ったスイーツと、地元漁協から仕入れた久慈川のアユ・イワナの塩焼きが夕食のハイライト。',
-        price: '2食付き 15,000円〜',
-        image: './hotels/hoteruokukuji.png',
-        tags: ['久慈川の鮎', '奥久慈茶', '奥久慈の山眺望'],
-        bookingUrls: { jalan: '#', rakuten: '#', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad375514%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F142195%2F142195.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00918292%252F' }
     },
 
     // ===== 筑波山温泉（茨城）=====
@@ -2190,22 +2118,22 @@ export const hotelList = [
         prefecture: 'ibaraki',
         type: '温泉リゾートホテル',
         description: '筑波山中腹、ケーブルカー宮脇駅に隣接する利便性抜群のリゾートホテル。関東平野を一望する絶景の展望大浴場と露天風呂は、晴れた日には東京スカイツリーまで見渡せる圧巻の眺め。夕食は茨城のブランド食材「常陸牛」や霞ヶ浦のシラウオ料理など茨城ならではのグルメが揃うビュッフェが人気。',
-        price: '2食付き 20,000円〜',
+        price: '2食付き 12,000円〜',
         image: './hotels/tsukubasankeiseihoteru.png',
         tags: ['関東平野の絶景展望', '常陸牛', 'ケーブルカー直結'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad388119%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F128427%2F128427.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad388119%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F128427%2F128427.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00909769%252F' }
     },
     {
         id: 'h-ibaraki-4-2',
         onsen_id: 'o-ibaraki-4',
-        name: '筑波山温泉 青木屋',
+        name: '筑波山ホテル 青木屋',
         prefecture: 'ibaraki',
         type: '温泉旅館',
         description: '筑波山神社に程近い老舗温泉旅館。筑波山特有のラジウム泉を楽しめる大浴場は疲労回復・神経痛への効能が高く、登山客にも重宝される宿。夕食は霞ヶ浦名産のレンコン料理や地元農家直送の茨城産有機野菜を中心にした滋味深い会席料理が揃い、筑波山観光の拠点として最適な宿。',
-        price: '2食付き 18,000円〜',
+        price: '2食付き 17,500円〜',
         image: './hotels/tsukubasanonsenaokiya.png',
         tags: ['ラジウム泉', '筑波山神社近く', '霞ヶ浦レンコン料理'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad332930%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F13479%2F13479.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad332930%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F13479%2F13479.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00900125%252F' }
     },
     {
             id: 'h-ibaraki-4-3',
@@ -2214,7 +2142,7 @@ export const hotelList = [
             prefecture: 'ibaraki',
             type: '温泉旅館',
             description: '筑波山神社のすぐ隣に佇む創業390余年の老舗温泉旅館。pH10.18のアルカリ性単純温泉「創神の湯」は日本屈指の高アルカリ泉として知られ、美肌効果と疲労回復への効能が抜群。筑波山登山道の入口に位置し、登山後の疲れを癒すには最適の立地。夕食は茨城産の常陸牛や地元野菜をふんだんに使った創作和食を個室でゆっくりと堪能できる。',
-            price: '1泊2食付き 15,000円〜',
+            price: '2食付き 15,000円〜',
             image: './hotels/tsukubasanedoya.png',
             tags: ['筑波山神社隣接', '創業390年の老舗', 'pH10.18の美肌アルカリ泉'],
             bookingUrls: {
@@ -2298,7 +2226,7 @@ export const hotelList = [
         price: '2食付き 14,500円〜',
         image: './hotels/okunikkoukonishihoteru.png',
         tags: ['溶岩石露天風呂', '硫黄泉', 'ジビエ料理'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad337093%2F&_gl=1*a4s0fy*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzY2NjMxMTkkbzQxJGcxJHQxNzc2NjYzNzg1JGo2MCRsMCRoMA.. rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F2340%2F2340.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad337093%2F&_gl=1*a4s0fy*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzY2NjMxMTkkbzQxJGcxJHQxNzc2NjYzNzg1JGo2MCRsMCRoMA..', rakuten: 'https://a.r10.to/hPJ5Dm', ikyu: '#', yahoo: '#' }
     },
 
     // ===== 鬼怒川温泉（栃木）=====
