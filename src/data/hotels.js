@@ -2233,7 +2233,7 @@ export const hotelList = [
         prefecture: 'tochigi',
         type: '温泉リゾートホテル',
         description: '那須高原に広大な敷地を構える大型温泉リゾート。温水プールや岩盤浴、サウナまで備えた多彩な入浴施設が充実し、含硫黄の源泉掛け流し湯が白濁した湯船でゆったりとくつろげる。夕食ビュッフェは栃木の旬食材をふんだんに使い、那須御養卵や栃木の地ビールが揃う。',
-        price: '2食付き 18,000円〜',
+        price: '2食付き 13,000円〜',
         image: './hotels/hoterusanbareenasu.png',
         tags: ['硫黄源泉掛け流し', '温水プール', '大型リゾート'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad331120%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F20574%2F20574.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030794%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030794%252F' }
@@ -2245,7 +2245,7 @@ export const hotelList = [
         prefecture: 'tochigi',
         type: '高級温泉旅館',
         description: '那須温泉郷の自然に囲まれた風格ある高級温泉旅館。含硫黄の単純硫黄泉を源泉掛け流しで楽しめる広々とした大浴場と貸切露天風呂が揃う。夕食は那須高原の新鮮食材を活かした会席料理が主役で、那須黒毛和牛のしゃぶしゃぶや地元農家の無農薬野菜が旅の味覚を彩る。',
-        price: '2食付き 30,000円〜',
+        price: '2食付き 36,500円〜',
         image: './hotels/ryokansanraku.png',
         tags: ['硫黄源泉掛け流し', '那須黒毛和牛', '貸切露天風呂'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad306188%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F56935%2F56935.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000097%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000097%252F' }
@@ -2257,7 +2257,7 @@ export const hotelList = [
         prefecture: 'tochigi',
         type: '温泉旅館',
         description: '那須連山の渓流沿いに建つ趣ある温泉旅館。川を堰き止めて造った「川の湯」と呼ばれる天然露天風呂が圧倒的な存在感を放ち、硫黄泉の白濁した湯が大自然の中に流れる極上体験を提供する。夕食は那須高原の恵みを盛り込んだ和食会席で、旬の山菜や鹿肉料理が人気。',
-        price: '2食付き 25,000円〜',
+        price: '2食付き 27,500円〜',
         image: './hotels/nasuonsendaimaruonsenryokan.png',
         tags: ['川の湯・天然露天', '白濁硫黄泉', '那須高原の食材'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad382671%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F32051%2F32051.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00003311%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00003311%252F' }
@@ -2271,7 +2271,7 @@ export const hotelList = [
         prefecture: 'tochigi',
         type: '高級温泉旅館',
         description: '湯ノ湖のほとりに佇む全室露天風呂付きの宿。日光湯元の白濁した硫黄泉を源泉かけ流しで各客室に引き込み、湯煙の中で奥日光の森を独占する贅沢な湯浴みが楽しめる。夕食は栃木産の旬野菜と日光虹鱒を活かした会席料理で、ヒメマスのムニエルが絶品。冬は雪見露天風呂が幻想的で、カップルや夫婦の特別旅行に人気が高い。',
-        price: '2食付き 38,000円〜',
+        price: '2食付き 42,500円〜',
         image: './hotels/okunikkouyunomori.png',
         tags: ['全室露天風呂付き', '硫黄泉かけ流し', '雪見露天風呂'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad325293%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F54497%2F54497.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002075%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002075%252F' }
@@ -2283,7 +2283,7 @@ export const hotelList = [
         prefecture: 'tochigi',
         type: '温泉リゾートホテル',
         description: '湯ノ湖を望む絶好のロケーションに位置し、全室レイクフロントの客室から四季折々の湖景色を堪能できる。大露天風呂には乳白色に濁った硫黄泉が豊富に注がれ、湿原越しに見える男体山の稜線が壮観。栃木名産のかんぴょうや宇都宮ゆかりの餃子食材を取り込んだ和洋バイキングも好評で、ファミリーからシニアまで幅広い層に支持されている。',
-        price: '2食付き 20,000円〜',
+        price: '2食付き 12,500円〜',
         image: './hotels/kamenoihoteruokunikkouyumoto.png',
         tags: ['湖畔の宿', '乳白色硫黄泉', '展望大浴場'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad337504%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F183689%2F183689.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00031087%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00031087%252F' }
@@ -2295,10 +2295,10 @@ export const hotelList = [
         prefecture: 'tochigi',
         type: '温泉ホテル',
         description: '深い緑に包まれた森の中に建つ、男体山の溶岩石をふんだんに使った個性的な温泉ホテル。日光湯元温泉の硫黄泉を源泉から直引きし、岩肌を伝う湯の流れが野趣あふれる露天風呂は最大7名が同時に入浴できる贅沢な設え。日光山麓で育った鹿肉や岩魚を使ったジビエ料理が評判で、秋の紅葉シーズンは特に人気が高い。',
-        price: '2食付き 18,000円〜',
+        price: '2食付き 14,500円〜',
         image: './hotels/okunikkoukonishihoteru.png',
         tags: ['溶岩石露天風呂', '硫黄泉', 'ジビエ料理'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad391910%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F2340%2F2340.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad337093%2F&_gl=1*a4s0fy*_gcl_au*MTMwNzA4NDk3LjE3NzI3MDI3Njk.*_ga*NzQxMTg2ODMyLjE3Njk0OTY1NTc.*_ga_CB7M49WDK0*czE3NzY2NjMxMTkkbzQxJGcxJHQxNzc2NjYzNzg1JGo2MCRsMCRoMA.. rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F2340%2F2340.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
     },
 
     // ===== 鬼怒川温泉（栃木）=====
@@ -2309,7 +2309,7 @@ export const hotelList = [
         prefecture: 'tochigi',
         type: '大型温泉旅館',
         description: '創業130年余の老舗で、鬼怒川温泉で最も高い場所に位置する空中庭園露天風呂が名物。アルカリ性単純泉の柔らかな湯が肌をしっとりと包み、渓谷を見下ろす絶景とともに極上のひとときを過ごせる。夕食は和洋中100種超のバイキングにライブキッチンで揚げたての天ぷらや地元那須牛の鉄板焼きが加わり、じゃらんnet評価4.7を誇る高い満足度を誇る。',
-        price: '2食付き 20,000円〜',
+        price: '2食付き 21,000円〜',
         image: './hotels/kinugawaonsenasaya.png',
         tags: ['空中庭園露天風呂', 'アルカリ単純泉', '老舗旅館'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad338142%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F8643%2F8643.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030768%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030768%252F' }
@@ -2321,7 +2321,7 @@ export const hotelList = [
         prefecture: 'tochigi',
         type: 'ラグジュアリーリゾート旅館',
         description: '日本最古のクラシックホテル・日光金谷ホテルの精神を受け継ぐ、西洋と東洋の美が融合した上質なリゾート旅館。清流鬼怒川沿いの露天風呂でアルカリ性単純泉の美肌の湯を楽しんだ後は、フランス料理技法を取り入れた和食会席に舌鼓を打てる。栃木のブランド牛・とちぎ和牛や那須の旬野菜を使ったコース料理は一休.com利用者からも高く評価されている。',
-        price: '2食付き 35,000円〜',
+        price: '2食付き 51,000円〜',
         image: './hotels/kinugawakanayahoteru.png',
         tags: ['西洋×和の融合', 'アルカリ単純泉', 'とちぎ和牛会席'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad375132%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F28440%2F28440.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000299%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000299%252F' }
@@ -2329,14 +2329,14 @@ export const hotelList = [
     {
         id: 'h-tochigi-3-3',
         onsen_id: 'o-tochigi-3',
-        name: 'ホテル鬼怒川御苑',
+        name: '大江戸温泉物語 ホテル鬼怒川御苑',
         prefecture: 'tochigi',
         type: '温泉ホテル',
         description: '鬼怒川沿いに建ち、渓谷の大自然を眺める大浴場と露天風呂でアルカリ性単純泉を楽しめる中型温泉ホテル。日光東照宮・鬼怒川ライン下りなど周辺観光の拠点として抜群の利便性を誇り、夕食は栃木名物のゆば料理と日光の旬野菜を使った和食会席が自慢。温泉街の散策もでき、ファミリーからカップルまで幅広い旅行者に長く愛されている実力派の宿。',
-        price: '2食付き 16,000円〜',
+        price: '2食付き 11,000円〜',
         image: './hotels/hoterukinugawagyoen.png',
         tags: ['鬼怒川渓谷望む露天風呂', 'アルカリ単純泉', 'ゆば料理・日光旬野菜'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad324785%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F8842%2F8842.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad324785%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F8842%2F8842.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00903927%252F' }
     },
 
     // ===== 塩原温泉郷（栃木）=====
@@ -2347,7 +2347,7 @@ export const hotelList = [
         prefecture: 'tochigi',
         type: '老舗温泉旅館',
         description: '塩原十一湯の中でも濃度の高い硫黄泉を源泉かけ流しで提供する、温泉ファンが必ず訪れると評判の宿。飲泉所も備え、硫黄の香り漂う湯を体の内外から楽しめる。渓谷を望む囲炉裏焼きのダイニングでは、那須野ヶ原牛・三元豚・富山港直送の鮮魚を炭火で焼き上げ、地の恵みを余すところなく堪能できる。渓谷露天風呂からの眺めも口コミで高く評価されている。',
-        price: '2食付き 22,000円〜',
+        price: '2食付き 20,000円〜',
         image: './hotels/yumoritanakaya.png',
         tags: ['硫黄泉かけ流し', '囲炉裏焼き料理', '渓谷露天風呂'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad325127%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F31902%2F31902.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00031169%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00031169%252F' }
@@ -2359,7 +2359,7 @@ export const hotelList = [
             prefecture: 'tochigi',
             type: '温泉旅館',
             description: '箒川の清流沿いに立つ、四季折々の渓谷美が堪能できる温泉旅館。源泉100%かけ流しの美肌の湯は加温・加水なしで、肌に潤いをもたらすメタケイ酸を豊富に含む。旬の地元食材を活かした季節の懐石料理は月替わりで提供され、とちぎ和牛や地野菜など栃木の味覚を食の感動とともに味わえる。個室食事会場でのゆっくりとした食事と渓谷露天風呂が旅の醍醐味。',
-            price: '1泊2食付き 25,000円〜',
+            price: '1泊2食付き 25,500円〜',
             image: './hotels/myougayahonkan.png',
             tags: ['源泉100%かけ流し', '渓谷望む美肌の湯', '月替わり旬彩懐石'],
             bookingUrls: {
@@ -2376,8 +2376,8 @@ export const hotelList = [
             prefecture: 'tochigi',
             type: '高級温泉旅館',
             description: '箒川沿いに建つ全11室の小さな割烹旅館。全ての湯口から加温・加水なしの100%源泉かけ流し温泉が注がれ、渓谷に面した露天風呂では四季の山景色を眺めながら名湯を満喫できる。料理長こだわりの月替わり懐石は器の美しさと季節感あふれる盛り付けが評判で、夕食・朝食ともに個室食事会場でのプライベートなひとときが楽しめる。楽天トラベル総合評価4.80の塩原随一の名宿。',
-            price: '1泊2食付き 40,000円〜',
-            image: './hotels/matsumomijiroumatsuya.png',
+            price: '1泊2食付き 41,000円〜',
+            image: './hotels/yunohanasou.png',
             tags: ['源泉かけ流し露天風呂', '月替わり割烹懐石', '楽天評価4.80'],
             bookingUrls: {
                 jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad399850%2F',
@@ -2395,7 +2395,7 @@ export const hotelList = [
         prefecture: 'tochigi',
         type: '老舗温泉旅館',
         description: '1666年創業、平家落人の血脈を今に伝える湯西川温泉を代表する老舗宿。全室が清流・湯西川沿いに面し、かずら橋を渡った先の平家隠れ館ダイニングで供される囲炉裏炭火の創作会席が圧巻。弱アルカリ性単純泉の源泉かけ流し露天風呂は渓流の音色に包まれ、冬の雪かまくら期間は幻想的なライトアップの中で湯浴みを楽しめる独自の体験が人気を集める。',
-        price: '2食付き 28,000円〜',
+        price: '2食付き 27,000円〜',
         image: './hotels/yunishikawaonsenhonkehankyuu.png',
         tags: ['1666年創業', 'かずら橋・平家屋敷ダイニング', '渓流露天風呂'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad373449%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F50216%2F50216.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030223%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030223%252F' }
@@ -2407,7 +2407,7 @@ export const hotelList = [
         prefecture: 'tochigi',
         type: '歴史的温泉旅館',
         description: '享保3年（1718年）創業、桓武平氏の流れを38代にわたり継ぐ由緒ある宿。毎分319リットルという豊富な湧出量を誇る弱アルカリ性単純泉は24時間十種類の風呂めぐりが可��で、テレビ東京「アド街ック天国」温泉ランキング全国第1位に輝いた名湯。囲炉裏を囲む秘伝のかまど料理と、熊肉・鹿肉を使った平家武家料理が歴史好きや温泉通を虜にする。',
-        price: '2食付き 25,000円〜',
+        price: '2食付き 11,000円〜',
         image: './hotels/kanmuheishiyukarinoyadoageha.png',
         tags: ['1718年創業の平家旅館', '十種の源泉風呂めぐり', 'かまど武家料理'],
         bookingUrls: { jalan: '#', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F108937%2F108937.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
@@ -2419,10 +2419,10 @@ export const hotelList = [
         prefecture: 'tochigi',
         type: '秘湯旅館',
         description: '日本秘湯を守る会の会員宿で、弱アルカリ性単純泉の源泉掛け流しを満喫できる山深い秘境の宿。全室が平家屋敷の趣を持つ木造建築で、清流・湯西川の音色に包まれた野趣あふれる露天風呂が心を解放する。関東随一と評判の囲炉裏焼き料理は地元の山の幸と渓流の岩魚が主役で、炭火の香りとともに素朴な旨さが五感を満たす。冬の深雪の中での湯浴みが秘湯ファンを魅了してやまない。',
-        price: '2食付き 22,000円〜',
+        price: '2食付き 17,000円〜',
         image: './hotels/kamiyashikitairanotakafusa.png',
         tags: ['日本秘湯を守る会', '囲炉裏焼き料理', '弱アルカリ単純泉'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad317250%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F32086%2F32086.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad317250%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F32086%2F32086.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00908739%252F' }
     },
 
     // ===== 草津温泉（群馬）=====
