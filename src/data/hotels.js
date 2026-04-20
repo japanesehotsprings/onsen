@@ -1818,7 +1818,7 @@ export const hotelList = [
         prefecture: 'fukushima',
         type: '老舗温泉旅館',
         description: '明治10年創業、国指定登録有形文化財の老舗旅館。会津の伝統建築を継承した格調高い建物と手入れの行き届いた日本庭園が訪れる人を魅了する。硫酸塩泉の源泉掛け流し内湯は風情あふれる浴室で、会津の郷土料理「こづゆ」を筆頭に会津ブランドの野菜・川魚を活かした繊細な会席料理が評判。',
-        price: '2食付き 30,000円〜',
+        price: '2食付き 31,000円〜',
         image: './hotels/koutaki.png',
         tags: ['国登録有形文化財', '会津の老舗', '会津郷土料理'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad343826%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F67896%2F67896.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001041%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001041%252F' }
@@ -1830,7 +1830,7 @@ export const hotelList = [
         prefecture: 'fukushima',
         type: '温泉旅館',
         description: '会津民謡の主人公「小原庄助さん」にちなんだ名を持つ東山温泉を代表する旅館。大川渓谷を望む絶景の露天風呂と内湯は豊富な湯量の源泉掛け流し。夕食には会津の厳選食材による会席料理と会津の地酒が楽しめ、歌声喫茶や郷土芸能鑑賞など会津の文化体験プランも充実。',
-        price: '2食付き 22,000円〜',
+        price: '2食付き 23,000円〜',
         image: './hotels/shousukenoyadotakinoyu.png',
         tags: ['渓谷露天', '会津地酒', '郷土芸能体験'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad337292%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F5738%2F5738.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002214%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002214%252F' }
@@ -1842,7 +1842,7 @@ export const hotelList = [
             prefecture: 'fukushima',
             type: '温泉旅館',
             description: '東山温泉の豊かな自家源泉を持つ老舗旅館。源泉掛け流しの広大な「千人風呂」をはじめ、渓谷美を望む露天風呂、貸切風呂4室を完備。会津の食材を活かした季節ごとの会席料理は楽天トラベルで4.40以上の高評価を誇る。会津若松の観光拠点にも便利な立地で、自家源泉の豊富な湯量を存分に楽しめる信頼の宿。',
-            price: '1泊2食付き 20,000円〜',
+            price: '1泊2食付き 18,000円〜',
             image: './hotels/higashiyamagurandohoteru.png',
             tags: ['自家源泉掛け流し', '千人風呂', '貸切露天4室'],
             bookingUrls: {
@@ -1861,7 +1861,7 @@ export const hotelList = [
         prefecture: 'fukushima',
         type: '温泉リゾートホテル',
         description: '磐梯熱海温泉最大規模のリゾートホテル。塩化物泉と硫酸塩泉の2種類の源泉を持ち、広大な大浴場・露天風呂・サウナが充実。磐梯山と五色沼への観光拠点として絶好のロケーションにあり、夕食ビュッフェでは福島を代表するももや桃ジュース、会津の地鶏料理など多彩な福島グルメが楽しめる。',
-        price: '2食付き 18,000円〜',
+        price: '2食付き 22,000円〜',
         image: './hotels/hoteruhananoyu.png',
         tags: ['2種の源泉', '磐梯山観光拠点', '福島グルメビュッフェ'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad369192%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F15988%2F15988.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001131%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001131%252F' }
@@ -1873,7 +1873,7 @@ export const hotelList = [
         prefecture: 'fukushima',
         type: '温泉旅館',
         description: '磐梯熱海温泉の歴史を語る老舗旅館。「萩姫伝説」ゆかりの地に建ち、館内の至る所に萩姫にまつわる装飾や展示が施された風情ある宿。滑らかな肌触りの塩化物・硫酸塩泉の源泉掛け流し湯船が評判で、郡山近郊で採れる新鮮な山の幸と阿武隈川の川魚を主役にした会席が旅の記憶に残る。',
-        price: '2食付き 20,000円〜',
+        price: '2食付き 21,500円〜',
         image: './hotels/hagihimenoyusakaerakukan.png',
         tags: ['萩姫伝説', '源泉掛け流し', '阿武隈の川魚料理'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad316729%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F4755%2F4755.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030340%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030340%252F' }
@@ -1885,8 +1885,8 @@ export const hotelList = [
             prefecture: 'fukushima',
             type: '老舗温泉旅館',
             description: '創業百余年の歴史を誇る磐梯熱海温泉の老舗旅館。約3,000坪の美しい日本庭園「水月園」を有し、四季折々の風情を楽しみながら滞在できる。肌あたり滑らかな源泉掛け流しの美人の湯が評判で、夕食は福島牛のしゃぶしゃぶや旬の会津食材を主役にした純和食が好評。じゃらん「泊まって良かった宿大賞」3部門受賞の実力派旅館。',
-            price: '1泊2食付き 28,000円〜',
-            image: './hotels/bandaiatamionsenfujiyahoteru.png',
+            price: '1泊2食付き 27,500円〜',
+            image: './hotels/shikisaiiriki.png',
             tags: ['3,000坪の日本庭園', '源泉掛け流し', 'じゃらん大賞3部門受賞'],
             bookingUrls: {
                 jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad310152%2F',
@@ -1904,10 +1904,10 @@ export const hotelList = [
         prefecture: 'fukushima',
         type: '高級温泉旅館',
         description: '摺上川沿いに建つ飯坂温泉屈指の高級旅館。日本三大高温泉の一つに数えられる65℃超の熱湯をしっかり冷まして楽しむ源泉掛け流し露天風呂が圧巻。全室の客室から摺上川の渓谷美を眺められる贅沢な設計で、夕食には福島の四季折々の味覚と阿武隈川の天然鮎など地元の幸が盛り込まれた懐石料理が供される。',
-        price: '2食付き 30,000円〜',
+        price: '2食付き 15,000円〜',
         image: './hotels/surikamiteiootori.png',
         tags: ['高温源泉掛け流し', '渓谷ビュー客室', '天然鮎料理'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad304327%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F32116%2F32116.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad304327%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F32116%2F32116.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00904209%252F' }
     },
     {
         id: 'h-fukushima-3-2',
@@ -1916,7 +1916,7 @@ export const hotelList = [
         prefecture: 'fukushima',
         type: '温泉旅館',
         description: '飯坂温泉街の中心に位置する庶民的な温泉旅館。源泉掛け流しの熱い湯は飯坂特有の強い浴感で湯治客にも人気が高い。温泉街の共同湯「鯖湖湯」へも徒歩圏内で、湯めぐりを楽しむ旅人の宿として重宝されている。夕食はふくしまの旬の食材を使った家庭的な和食が中心。',
-        price: '2食付き 12,000円〜',
+        price: '2食付き 10,000円〜',
         image: './hotels/ryokannakamuraya.png',
         tags: ['源泉掛け流し', '温泉街の湯めぐり', '庶民的な旅館'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad390630%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F53748%2F53748.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
@@ -1928,8 +1928,8 @@ export const hotelList = [
             prefecture: 'fukushima',
             type: '温泉ホテル',
             description: '飯坂温泉を代表する温泉ホテル。3本の自家源泉から引く多彩な内湯と露天風呂は源泉掛け流しで、飯坂特有の熱い湯を楽しめる。夕食は会津馬刺しや飯坂名物の円盤餃子、阿武隈川の天然鮎など地元グルメを取り入れた会席料理が充実。楽天トラベル「ブロンズアワード2025」も受賞した人気宿。',
-            price: '1泊2食付き 16,000円〜',
-            image: './hotels/shinougiya.png',
+            price: '1泊2食付き 15,500円〜',
+            image: './hotels/iizakahoteljuraku.png',
             tags: ['3本の源泉掛け流し', '飯坂円盤餃子', '楽天アワード受賞'],
             bookingUrls: {
                 jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad323325%2F',
@@ -1947,7 +1947,7 @@ export const hotelList = [
         prefecture: 'fukushima',
         type: '温泉旅館',
         description: '荒川沿いの渓谷美を望む土湯温泉の中堅旅館。弱酸性の単純硫黄泉を源泉掛け流しで楽しめる内湯と露天風呂が揃い、乳白色に濁る湯の花漂う湯船が評判。土湯こけしの産地らしく館内に手作りこけしが飾られ、旅情を演出。夕食には福島の山の幸と阿武隈川の川魚を使った会席料理が並ぶ。',
-        price: '2食付き 16,000円〜',
+        price: '2食付き 19,000円〜',
         image: './hotels/sansuisou.png',
         tags: ['硫黄源泉掛け流し', '土湯こけし', '渓谷の宿'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad317727%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F56167%2F56167.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030595%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030595%252F' }
@@ -1959,8 +1959,8 @@ export const hotelList = [
             prefecture: 'fukushima',
             type: '高級温泉旅館',
             description: '土湯温泉に佇む全11室の小さな隠れ家宿。客室9室に専用露天風呂が設けられ、貸切風呂も予約不要で24時間利用可能。4つの源泉を混合した弱アルカリ性単純温泉は肌に優しく美肌効果が高い。夕食は安達太良和牛と会津馬刺しをメインに福島の旬素材を盛り込んだ田舎会席料理で、じゃらん総合評価4.7の高水準を誇る。',
-            price: '1泊2食付き 28,000円〜',
-            image: './hotels/tamagoyu.png',
+            price: '1泊2食付き 27,500円〜',
+            image: './hotels/harumiya.png',
             tags: ['全室露天風呂付', '貸切風呂24時間無料', '安達太良和牛料理'],
             bookingUrls: {
                 jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad322456%2F',
@@ -1976,8 +1976,8 @@ export const hotelList = [
             prefecture: 'fukushima',
             type: '高級温泉旅館',
             description: '土湯温泉の豊かな自然に溶け込む全9室の隠れ家的高級旅館。各室に専用の源泉掛け流し貸切露天風呂を備え、乳白色に輝く硫黄泉をプライベートに堪能できる。福島産の旬野菜と山の幸を主役にした繊細な会席料理は季節ごとに変わり、訪れるたびに新しい発見がある。非日常の静寂と上質なおもてなしを求める大人旅に最適。',
-            price: '1泊2食付き 40,000円〜',
-            image: './hotels/yamaguchiya.png',
+            price: '1泊2食付き 41,000円〜',
+            image: './hotels/satoyu.png',
             tags: ['全室専用源泉露天風呂', '硫黄源泉掛け流し', '旬の会席料理'],
             bookingUrls: {
                 jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad332722%2F',
@@ -1995,7 +1995,7 @@ export const hotelList = [
         prefecture: 'fukushima',
         type: '高級温泉旅館',
         description: '大川渓谷の断崖上に建ち、まるで天空に浮かぶような絶景が広がる会津屈指の高級温泉旅館。断崖から谷底を望む野天風呂「仙峡の湯」は訪れる者を圧倒する迫力で、ロープウェイで谷底へ降りるスリリングな体験が人気。夕食は会津の郷土食材を贅沢に盛り込んだ会席料理で舌鼓を打てる。',
-        price: '2食付き 35,000円〜',
+        price: '2食付き 22,000円〜',
         image: './hotels/ookawasou.png',
         tags: ['渓谷の絶景野天風呂', 'ロープウェイ温泉', '会津高級旅館'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad329092%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F12682%2F12682.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001237%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001237%252F' }
@@ -2003,32 +2003,15 @@ export const hotelList = [
     {
         id: 'h-fukushima-5-2',
         onsen_id: 'o-fukushima-5',
-        name: 'ホテル丸峰',
+        name: '丸峰観光ホテル',
         prefecture: 'fukushima',
         type: '温泉ホテル',
         description: '芦ノ牧温泉の渓谷に面した中型温泉ホテル。大川の清流を眺める露天風呂とサウナを備えた大浴場が自慢で、塩化物泉の柔らかな湯に長湯を楽しむ宿泊者も多い。夕食はビュッフェスタイルで会津のソースかつや喜多方ラーメン、地元野菜のかき揚げなど福島グルメが充実している。',
-        price: '2食付き 16,000円〜',
+        price: '2食付き 11,000円〜',
         image: './hotels/hoterumarumine.png',
         tags: ['渓谷露天', '会津グルメビュッフェ', '喜多方ラーメン'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad330922%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F20623%2F20623.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002303%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002303%252F' }
     },
-    {
-            id: 'h-fukushima-5-3',
-            onsen_id: 'o-fukushima-5',
-            name: '会津芦ノ牧温泉 四季彩の宿 丸峰',
-            prefecture: 'fukushima',
-            type: '温泉旅館',
-            description: '大川渓谷沿いに佇む純和風の温泉旅館。ランタンの灯りに照らされた情趣豊かな露天風呂と自然を一望できる展望風呂など趣の異なる湯船を楽しめる。湯量豊富な塩化物泉は体の芯から温まると評判で、夕食は会津の地産地消食材を活かした旬の料理と会津の地酒が好評。',
-            price: '1泊2食付き 15,000円〜',
-            image: './hotels/tatsumisou.png',
-            tags: ['渓谷の露天風呂', 'ランタン風呂', '会津地産地消料理'],
-            bookingUrls: {
-                jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad310865%2F',
-                rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F168656%2F168656.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9',
-                ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00002600%252F',
-                yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00002600%252F'
-            }
-        },
 
     // ===== 高湯温泉（福島）=====
     {
@@ -2038,10 +2021,10 @@ export const hotelList = [
         prefecture: 'fukushima',
         type: '老舗温泉旅館',
         description: '高湯温泉で指折りの老舗旅館。強酸性の含硫黄泉（pH2.2）を源泉100%掛け流しで楽しめる大浴場と絶景の露天風呂が揃い、白く濁る硫黄の湯は皮膚病・慢性病への効能で知られる。吾妻山の四季が映える自然美と共に過ごす夕食は、福島の高原野菜や川魚を使った滋味深い料理が中心。',
-        price: '2食付き 20,000円〜',
+        price: '2食付き 27,000円〜',
         image: './hotels/adachiyaryokan.png',
         tags: ['強酸性硫黄泉', '源泉掛け流し', '吾妻山の四季'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad369100%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F135419%2F135419.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad369100%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F135419%2F135419.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00907869%252F' }
     },
     {
         id: 'h-fukushima-6-2',
@@ -2050,10 +2033,10 @@ export const hotelList = [
         prefecture: 'fukushima',
         type: '温泉旅館',
         description: '高湯温泉の山中に佇む個性的な温泉旅館。屋号通りのユニークなキャラクターあふれる宿で、白濁した硫黄泉の野趣あふれる露天風呂が人気の秘密。自家農園の無農薬野菜と高湯の清流で育つイワナ・ヤマメの炭火焼きが夕食の主役で、健康的で素朴な料理が旅人の心と体を癒す。',
-        price: '2食付き 16,000円〜',
+        price: '2食付き 23,000円〜',
         image: './hotels/higenoie.png',
         tags: ['野趣の露天風呂', '自家農園野菜', 'イワナの炭火焼き'],
-        bookingUrls: { jalan: '#', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F192191%2F192191.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030571%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030571%252F' }
+        bookingUrls: { jalan: '#', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F192191%2F192191.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00031223%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00031223%252F' }
     },
     {
         id: 'h-fukushima-6-3',
@@ -2062,7 +2045,7 @@ export const hotelList = [
         prefecture: 'fukushima',
         type: '湯治旅館',
         description: '高湯温泉で最も古い歴史を持つ湯治の宿。かつて療養に訪れた文人墨客も愛したとされる白濁の硫黄泉は、強い酸性と豊富な成分が特徴で皮膚疾患・神経痛への効能が高い。茅葺き屋根の風情ある湯小屋で昔ながらの湯治文化に触れ、素朴な山里料理と共に体の奥からデトックスできる。',
-        price: '2食付き 13,000円〜',
+        price: '2食付き 18,000円〜',
         image: './hotels/ryokantamagoyutakayu.png',
         tags: ['湯治文化', '茅葺き湯小屋', '白濁硫黄泉'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad329904%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F67218%2F67218.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030416%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030416%252F' }
