@@ -1598,7 +1598,7 @@ export const hotelList = [
         prefecture: 'yamagata',
         type: '高級温泉旅館',
         description: '日本の宿100選に幾度も選ばれるかみのやま温泉を代表する名旅館。蔵王連峰を望む露天風呂と、独自に守り続ける窯元料理「炉端焼き会席」が極上の体験を約束する。廊下に飾られた著名芸術家の陶芸作品も見どころで、温泉・美食・芸術が三位一体となった滞在が味わえる。',
-        price: '2食付き 40,000円〜',
+        price: '2食付き 19,000円〜',
         image: './hotels/koyou.png',
         tags: ['日本の宿100選', '炉端焼き会席', '蔵王展望露天'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad315216%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F27923%2F27923.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000807%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000807%252F' }
@@ -1610,7 +1610,7 @@ export const hotelList = [
             prefecture: 'yamagata',
             type: '高級温泉旅館',
             description: '蔵王連峰を一望する丘の上に佇む、全室源泉100%内風呂付きの温泉旅館。ナトリウム・カルシウム硫酸塩泉の柔らかな湯は美肌効果で名高く、展望露天風呂からの蔵王の眺望は四季折々の絶景を誇る。夕食は山形牛や庄内浜の海の幸を活かした新日本料理を個室ダイニングで提供。かみのやま温泉駅よりタクシー約5分のアクセスも便利。',
-            price: '1泊2食付き 30,000円〜',
+            price: '2食付き 20,500円〜',
             image: './hotels/miyukisou.png',
             tags: ['全室温泉内風呂付', '蔵王展望露天', '個室ダイニング'],
             bookingUrls: {
@@ -1627,8 +1627,8 @@ export const hotelList = [
             prefecture: 'yamagata',
             type: '温泉旅館',
             description: 'かみのやま温泉の葉山地区に位置する、蔵王連峰を望む静かな温泉旅館。ナトリウム・カルシウム硫酸塩泉の源泉を使用した露天風呂では、四季の自然美を堪能できる。夕食は山形牛や地元の季節食材を使った手作り会席料理が好評で、丁寧なおもてなしと家庭的な雰囲気が旅人の心をほぐす。',
-            price: '1泊2食付き 20,000円〜',
-            image: './hotels/kajitsunooka.png',
+            price: '2食付き 45,000円〜',
+            image: './hotels/meigetsusou.png',
             tags: ['源泉露天風呂', '蔵王の眺望', '山形郷土料理'],
             bookingUrls: {
                 jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad330870%2F',
@@ -1646,7 +1646,7 @@ export const hotelList = [
         prefecture: 'yamagata',
         type: '高級温泉旅館',
         description: '天童温泉を代表する老舗高級旅館。将棋の町・天童らしく館内各所に将棋駒のアートが飾られ、人間将棋観戦ツアーとのコラボプランも人気。泉質はナトリウム・カルシウム塩化物泉で、ゆったりとした大浴場と個性豊かな貸切露天風呂が揃う。山形牛と旬の山海の幸を盛り込んだ会席料理が格調高い。',
-        price: '2食付き 35,000円〜',
+        price: '2食付き 21,000円〜',
         image: './hotels/takinoyu.png',
         tags: ['将棋の町', '貸切露天', '山形牛会席'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad399104%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F53746%2F53746.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00030865%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00030865%252F' }
@@ -1658,10 +1658,10 @@ export const hotelList = [
         prefecture: 'yamagata',
         type: '温泉ホテル',
         description: '天童温泉の中心に位置するアクセス良好な大型温泉ホテル。広々とした大浴場と複数の露天風呂を備え、源泉掛け流しの天然温泉が自慢。地元の新鮮食材を活かしたビュッフェ夕食は山形牛のローストビーフや山形産米のおにぎりコーナーが人気で、家族旅行やグループ旅行に最適。',
-        price: '2食付き 18,000円〜',
+        price: '2食付き 19,000円〜',
         image: './hotels/tendouhoteru.png',
         tags: ['源泉掛け流し', '大型ビュッフェ', 'アクセス良好'],
-        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad352092%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F5954%2F5954.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: '#' }
+        bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad352092%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F5954%2F5954.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: '#', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00900916%252F' }
     },
     {
             id: 'h-yamagata-4-3',
@@ -1670,8 +1670,8 @@ export const hotelList = [
             prefecture: 'yamagata',
             type: '高級温泉旅館',
             description: '天童温泉で唯一、2種類の源泉掛け流しを同時に堪能できる贅沢な温泉宿。1500坪の広大な敷地にわずか12室のみという隠れ家的な佇まいで、将棋の町・天童の文化を取り入れた和の空間が評判。調理長手作りの月替わり会席料理には山形産の旬食材がふんだんに使われ、素材本来の味を引き出した品々が旅の記憶に刻まれる。',
-            price: '1泊2食付き 30,000円〜',
-            image: './hotels/maizurusou.png',
+            price: '1泊2食付き 19,000円〜',
+            image: './hotels/matsunoyu.png',
             tags: ['2種の源泉掛け流し', '少室の隠れ家旅館', '山形食材会席'],
             bookingUrls: {
                 jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad329978%2F',
@@ -1775,7 +1775,7 @@ export const hotelList = [
         prefecture: 'yamagata',
         type: '老舗高級旅館',
         description: '創業350年余の歴史を誇る庄内屈指の老舗高級旅館。温海川沿いに建つ風格ある本館は、登録有形文化財にも指定された歴史的建造物。川床に面した露天風呂で楽しむ塩化物泉は「美肌の湯」として名高く、夕食には庄内浜の新鮮な海の幸と庄内米を贅沢に使った懐石料理が供される。',
-        price: '2食付き 35,000円〜',
+        price: '2食付き 16,000円〜',
         image: './hotels/bankokuya.png',
         tags: ['創業350年', '登録有形文化財', '庄内浜の海鮮懐石'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad301671%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F12577%2F12577.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000912%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000912%252F' }
@@ -1787,7 +1787,7 @@ export const hotelList = [
         prefecture: 'yamagata',
         type: '温泉旅館',
         description: '温海川のせせらぎを感じる川沿いの温泉旅館。塩化物泉の源泉掛け流し露天風呂は川の音に包まれた格別の癒し空間で、四季折々の自然美が堪能できる。夕食は地元漁港直送の庄内浜の魚介や鶴岡産だだちゃ豆など庄内食材を生かした会席料理が評判で、地酒との相性も抜群。',
-        price: '2食付き 25,000円〜',
+        price: '2食付き 17,500円〜',
         image: './hotels/tachibanaya.png',
         tags: ['川沿い露天', '庄内浜の鮮魚', 'だだちゃ豆料理'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad310710%2F', rakuten: 'https://hb.afl.rakuten.co.jp/hgc/26dabad0.a572868b.26dabad1.ff68e51f/?pc=https%3A%2F%2Ftravel.rakuten.co.jp%2FHOTEL%2F13821%2F13821.html&link_type=hybrid_url&ut=eyJwYWdlIjoidXJsIiwidHlwZSI6Imh5YnJpZF91cmwiLCJjb2wiOjF9', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001096%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001096%252F' }
@@ -1797,10 +1797,10 @@ export const hotelList = [
             onsen_id: 'o-yamagata-6',
             name: '高見屋別邸 久遠',
             prefecture: 'yamagata',
-            type: '高級温泉旅館',
+            type: '温泉旅館',
             description: '創業350余年の老舗高見屋グループが手がける全8室のモダン離れ旅館。温海川沿いに建つ風格ある設えで、塩化物泉の源泉を4種類の湯殿でプライベートに楽しめる。夕食は庄内の港から届く旬の海の幸と庄内平野の野菜を組み合わせた懐石料理で、だだちゃ豆や地酒との相性も絶品。',
-            price: '1泊2食付き 55,000円〜',
-            image: './hotels/ikoubou.png',
+            price: '2食付き 14,000円〜',
+            image: './hotels/kuon.png',
             tags: ['全室離れ', '4種の源泉湯殿', '庄内懐石料理'],
             bookingUrls: {
                 jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad391660%2F',
