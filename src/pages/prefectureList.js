@@ -17,7 +17,7 @@ export function renderPrefectureList() {
     <div class="page-header">
       <div class="container">
         <nav class="breadcrumb">
-          <a href="#/">トップ</a>
+          <a href="/onsen/">トップ</a>
           <span class="breadcrumb-separator">›</span>
           <span>都道府県一覧</span>
         </nav>
@@ -38,7 +38,7 @@ export function renderPrefectureList() {
               </h2>
               <div class="prefecture-grid">
                 ${prefs.map(p => `
-                  <a href="#/prefecture/${p.id}" class="prefecture-card">
+                  <a href="/onsen/prefecture/${p.id}" class="prefecture-card">
                     <div class="prefecture-card-image">
                       <img src="${p.image}" alt="${p.name}" loading="lazy">
                       <div class="prefecture-card-overlay"></div>
