@@ -1057,16 +1057,10 @@ ul {
   font-size: 0.6rem;
 }
 
-.result-section-icon.spot {
-  color: var(--color-spot);
-}
-
-.result-section-icon.gourmet {
-  color: var(--color-gourmet);
-}
-
+.result-section-icon.spot,
+.result-section-icon.gourmet,
 .result-section-icon.hotel {
-  color: var(--color-hotel);
+  color: var(--color-primary);
 }
 
 /* ============ ピックアップセクション ============ */
