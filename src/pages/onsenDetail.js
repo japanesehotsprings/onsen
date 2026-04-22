@@ -42,7 +42,7 @@ export function renderOnsenDetail({ params }) {
       'addressRegion': prefecture?.name || '',
       'addressCountry': 'JP'
     },
-    'touristType': '温泉'
+    'amenityFeature': { '@type': 'LocationFeatureSpecification', 'name': '温泉', 'value': true }
   });
 
   app.innerHTML = `

@@ -33,12 +33,13 @@ export function updateSEO(title, description, jsonLd = null) {
   }
 
   // 5. JSON-LD structured data の更新
-  const existing = document.querySelector('script[type="application/ld+json"]');
+  const existing = document.querySelector('script[type="application/ld+json"][data-seo-detail]');
   if (existing) existing.remove();
 
   if (jsonLd) {
     const script = document.createElement('script');
     script.type = 'application/ld+json';
+    script.setAttribute('data-seo-detail', '');
     script.textContent = JSON.stringify(jsonLd);
     document.head.appendChild(script);
   }

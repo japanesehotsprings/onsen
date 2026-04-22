@@ -21,6 +21,8 @@ const ogpTags = `
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="${BASE_URL}/ogp.png" />`;
 
+html = html.replace(/<meta\s+property="og:[^"]*"[^>]*\/?>\s*/g, '');
+html = html.replace(/<meta\s+name="twitter:[^"]*"[^>]*\/?>\s*/g, '');
 html = html.replace('</head>', `${ogpTags}\n</head>`);
 writeFileSync(indexPath, html, 'utf-8');
 console.log('✓ OGPタグを dist/index.html に注入しました');
