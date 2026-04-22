@@ -73,7 +73,18 @@ export function renderHotelDetail({ params }) {
   const prefecture = onsen ? getPrefectureById(onsen.prefecture) : null;
   const bookingLinks = buildBookingLinks(hotel);
 
-  updateSEO(`${hotel.name}（${onsen?.name || '温泉宿'}）の宿泊情報・予約`, hotel.description);
+  updateSEO(`${hotel.name}（${onsen?.name || '温泉宿'}）の宿泊情報・予約`, hotel.description, {
+    '@context': 'https://schema.org',
+    '@type': 'LodgingBusiness',
+    'name': hotel.name,
+    'description': hotel.description,
+    'priceRange': hotel.price,
+    'address': {
+      '@type': 'PostalAddress',
+      'addressRegion': prefecture?.name || '',
+      'addressCountry': 'JP'
+    }
+  });
 
   app.innerHTML = `
     <div class="hotel-detail-hero">
