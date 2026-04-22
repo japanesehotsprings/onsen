@@ -38,12 +38,12 @@ function urlEntry(loc, priority) {
 
 const urls = [
   urlEntry(`${BASE_URL}/`, '1.0'),
-  urlEntry(`${BASE_URL}/#/prefectures`, '1.0'),
-  urlEntry(`${BASE_URL}/#/onsens`, '1.0'),
-  urlEntry(`${BASE_URL}/#/hotels`, '1.0'),
-  ...prefectures.map(p => urlEntry(`${BASE_URL}/#/prefecture/${p.id}`, '0.8')),
-  ...onsenList.map(o => urlEntry(`${BASE_URL}/#/onsen/${o.id}`, '0.7')),
-  ...hotelList.map(h => urlEntry(`${BASE_URL}/#/hotel/${h.id}`, '0.6')),
+  urlEntry(`${BASE_URL}/prefectures`, '1.0'),
+  urlEntry(`${BASE_URL}/onsens`, '1.0'),
+  urlEntry(`${BASE_URL}/hotels`, '1.0'),
+  ...prefectures.map(p => urlEntry(`${BASE_URL}/prefecture/${p.id}`, '0.8')),
+  ...onsenList.map(o => urlEntry(`${BASE_URL}/onsen/${o.id}`, '0.7')),
+  ...hotelList.map(h => urlEntry(`${BASE_URL}/hotel/${h.id}`, '0.6')),
 ];
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
