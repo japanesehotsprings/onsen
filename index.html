@@ -6,7 +6,7 @@
   <script>
     (function() {
       var p = new URLSearchParams(window.location.search).get('p');
-      if (p) history.replaceState({}, '', '/onsen' + p);
+      if (p !== null) history.replaceState({}, '', '/onsen' + p);
     })();
   </script>
   <link rel="stylesheet" href="./src/style.css" />

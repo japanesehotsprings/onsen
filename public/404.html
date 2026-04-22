@@ -7,8 +7,7 @@
     var base = l.pathname.split('/').slice(0, 2).join('/');
     l.replace(
       l.origin + base + '/?p=' +
-      encodeURIComponent(l.pathname.slice(base.length) + l.search) +
-      (l.hash ? '&h=' + encodeURIComponent(l.hash) : '')
+      encodeURIComponent(l.pathname.slice(base.length) + l.search)
     );
   </script>
 </head>

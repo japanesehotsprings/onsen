@@ -115,7 +115,7 @@ export function renderSearchResults({ query }) {
 function renderSearchCard(item) {
   const isHotel = item.itemType === 'hotel';
   const prefName = prefectures.find(p => p.id === item.prefecture)?.name || '';
-  const detailUrl = isHotel ? `#/hotel/${item.id}` : `#/onsen/${item.id}`;
+  const detailUrl = isHotel ? `/onsen/hotel/${item.id}` : `/onsen/onsen/${item.id}`;
   const categoryLabel = isHotel ? item.type : item.category;
   const badgeClass = isHotel ? 'hotel' : 'onsen';
 
