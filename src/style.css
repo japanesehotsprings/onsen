@@ -7,33 +7,23 @@
 
 /* ============ カスタムプロパティ ============ */
 :root {
-  /* カラーパレット - 温泉（湯けむり）和モダンダーク */
-  --color-bg: #110e0b;
-  --color-bg-alt: #1a1410;
-  --color-surface: rgba(255, 255, 255, 0.04);
-  --color-surface-hover: rgba(255, 255, 255, 0.08);
-  --color-border: rgba(255, 255, 255, 0.08);
-  --color-border-hover: rgba(255, 255, 255, 0.18);
+  /* カラーパレット - 白×琥珀ナチュラル温泉 */
+  --color-bg: #ffffff;
+  --color-bg-alt: #fffcf7;
+  --color-bg-footer: #2a1e14;
+  --color-surface: #fdf5ec;
+  --color-surface-hover: #f5e8d4;
+  --color-border: #f0e4d4;
+  --color-border-hover: #d4a87a;
 
-  --color-text: #ede8e0;
-  --color-text-muted: #9a8e82;
-  --color-text-dim: #6a5e56;
+  --color-text: #1a1a1a;
+  --color-text-muted: #6b5c50;
+  --color-text-dim: #a89080;
 
-  /* 温泉テーマ：テラコッタ〜深紅 */
-  --color-primary: #d4845a;
-  --color-primary-light: #e8a880;
-  --color-primary-dark: #a85e38;
-  --color-accent: #7dbfb5;
-  /* 湯けむりのような青緑 */
-  --color-accent-2: #c4956e;
-  /* 温泉石の茶褐色 */
-  --color-red: #d45050;
-
-  /* 温泉カテゴリカラー */
-  --color-onsen: #d4845a;
-  --color-spot: #7dbfb5;
-  --color-gourmet: #d4845a;
-  --color-hotel: #c4956e;
+  /* 温泉テーマ：琥珀 */
+  --color-primary: #b5703a;
+  --color-primary-light: #d4956a;
+  --color-primary-dark: #8a4f24;
 
   /* フォント */
   --font-heading: 'Noto Serif JP', serif;
