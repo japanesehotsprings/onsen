@@ -15,19 +15,19 @@ export function updateSEO(title, description, jsonLd = null) {
   document.title = newTitle;
 
   // 2. meta description の更新
-  let metaDesc = document.querySelector('meta[name="description"]');
+  const metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) {
     metaDesc.setAttribute('content', description || '日本全国47都道府県の温泉地やおすすめの温泉宿を検索できる温泉専門メディア。泉質・地域・特徴から全国の名湯・秘湯を探そう。');
   }
 
   // 3. OGPタイトルの更新 (必要な場合)
-  let ogTitle = document.querySelector('meta[property="og:title"]');
+  const ogTitle = document.querySelector('meta[property="og:title"]');
   if (ogTitle) {
     ogTitle.setAttribute('content', newTitle);
   }
 
   // 4. OGP desc の更新 (必要な場合)
-  let ogDesc = document.querySelector('meta[property="og:description"]');
+  const ogDesc = document.querySelector('meta[property="og:description"]');
   if (ogDesc) {
     ogDesc.setAttribute('content', description || '日本全国47都道府県の温泉地やおすすめの温泉宿を検索できる専門サイト。地域、泉質からお気に入りの温泉を見つけよう。');
   }
