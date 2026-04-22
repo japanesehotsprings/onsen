@@ -625,8 +625,8 @@ ul {
 }
 
 .card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 32px rgba(181, 112, 58, 0.14);
   border-color: var(--color-border-hover);
 }
 
@@ -655,32 +655,20 @@ ul {
   font-weight: 600;
   padding: 0.25rem 0.65rem;
   border-radius: var(--radius-full);
+  background: rgba(181, 112, 58, 0.88);
+  color: #ffffff;
+  border: none;
   backdrop-filter: blur(8px);
 }
 
 /* 温泉バッジ */
-.card-badge.onsen {
-  background: rgba(212, 132, 90, 0.25);
-  color: var(--color-primary-light);
-  border: 1px solid rgba(212, 132, 90, 0.35);
-}
-
-.card-badge.spot {
-  background: rgba(125, 191, 181, 0.25);
-  color: var(--color-spot);
-  border: 1px solid rgba(125, 191, 181, 0.3);
-}
-
-.card-badge.gourmet {
-  background: rgba(212, 132, 90, 0.25);
-  color: var(--color-gourmet);
-  border: 1px solid rgba(212, 132, 90, 0.3);
-}
-
+.card-badge.onsen,
+.card-badge.spot,
+.card-badge.gourmet,
 .card-badge.hotel {
-  background: rgba(196, 149, 110, 0.25);
-  color: var(--color-hotel);
-  border: 1px solid rgba(196, 149, 110, 0.3);
+  background: rgba(181, 112, 58, 0.88);
+  color: #ffffff;
+  border: none;
 }
 
 .card-content {
@@ -700,15 +688,15 @@ ul {
 }
 
 .card-prefecture {
-  color: var(--color-text-dim);
+  color: var(--color-primary);
 }
 
 .card-prefecture a {
-  color: var(--color-text-dim);
+  color: var(--color-primary);
 }
 
 .card-prefecture a:hover {
-  color: var(--color-primary);
+  color: var(--color-primary-dark);
 }
 
 .card-title {
@@ -739,9 +727,9 @@ ul {
   font-size: 0.7rem;
   padding: 0.15rem 0.5rem;
   background: var(--color-surface);
-  border: 1px solid var(--color-border);
+  border: 1px solid #f0dfc8;
   border-radius: var(--radius-full);
-  color: var(--color-text-dim);
+  color: #9a7055;
 }
 
 /* ============ ページヘッダー ============ */
@@ -1101,7 +1089,7 @@ ul {
 .spring-type-badge {
   display: inline-block;
   font-size: 0.72rem;
-  color: var(--color-accent);
+  color: var(--color-text-muted);
   font-weight: 500;
   white-space: nowrap;
   overflow: hidden;
@@ -1111,7 +1099,7 @@ ul {
 
 /* 温泉カードの泉質 */
 .spring-type {
-  color: var(--color-accent);
+  color: var(--color-text-muted);
   font-size: 0.75rem;
   font-weight: 500;
   white-space: nowrap;
@@ -1166,8 +1154,8 @@ ul {
 
 /* 温泉カード強調 */
 .onsen-card:hover {
-  border-color: rgba(212, 132, 90, 0.4);
-  box-shadow: 0 16px 40px rgba(212, 132, 90, 0.08);
+  border-color: var(--color-border-hover);
+  box-shadow: 0 10px 32px rgba(181, 112, 58, 0.14);
 }
 
 /* ============ フッター ============ */
@@ -1435,9 +1423,9 @@ ul {
   font-weight: 600;
   padding: 0.25rem 0.65rem;
   border-radius: var(--radius-full);
-  background: rgba(125, 191, 181, 0.3);
-  color: var(--color-accent);
-  border: 1px solid rgba(125, 191, 181, 0.4);
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--color-primary);
+  border: 1px solid rgba(181, 112, 58, 0.3);
   backdrop-filter: blur(8px);
 }
 
