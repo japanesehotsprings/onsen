@@ -1217,7 +1217,7 @@ ul {
 .btn-primary:hover {
   background: var(--color-primary-light);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(212, 132, 90, 0.3);
+  box-shadow: 0 4px 12px rgba(181, 112, 58, 0.28);
 }
 
 /* ============ レスポンシブ ============ */
@@ -1368,9 +1368,9 @@ ul {
 }
 
 .hotel-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 16px 40px rgba(212, 132, 90, 0.12);
-  border-color: rgba(212, 132, 90, 0.35);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 28px rgba(181, 112, 58, 0.12);
+  border-color: var(--color-border-hover);
 }
 
 .hotel-card-image {
@@ -1399,9 +1399,9 @@ ul {
   font-weight: 600;
   padding: 0.25rem 0.65rem;
   border-radius: var(--radius-full);
-  background: rgba(212, 132, 90, 0.25);
-  color: var(--color-primary-light);
-  border: 1px solid rgba(212, 132, 90, 0.3);
+  background: rgba(181, 112, 58, 0.88);
+  color: #ffffff;
+  border: none;
   backdrop-filter: blur(8px);
 }
 
@@ -1426,7 +1426,7 @@ ul {
 
 .hotel-onsen-name {
   font-size: 0.78rem;
-  color: var(--color-accent);
+  color: var(--color-text-muted);
   font-weight: 500;
   margin-bottom: 0.3rem;
 }
@@ -1635,9 +1635,9 @@ ul {
   width: 100%;
   height: 100%;
   background: linear-gradient(to bottom,
-      rgba(17, 14, 11, 0.4) 0%,
-      rgba(17, 14, 11, 0.7) 50%,
-      rgba(17, 14, 11, 0.95) 100%);
+      rgba(20, 10, 3, 0.3) 0%,
+      rgba(20, 10, 3, 0.6) 50%,
+      rgba(20, 10, 3, 0.95) 100%);
 }
 
 .hotel-detail-hero-content {
@@ -1687,7 +1687,7 @@ ul {
 }
 
 .hotel-detail-card {
-  background: var(--color-surface);
+  background: #ffffff;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   padding: var(--spacing-lg);
@@ -1740,7 +1740,7 @@ ul {
 }
 
 .spring-type-highlight {
-  color: var(--color-accent);
+  color: var(--color-text-muted);
 }
 
 .hotel-info-link {
@@ -1767,9 +1767,9 @@ ul {
 }
 
 .tag-highlight {
-  background: rgba(212, 132, 90, 0.1);
+  background: rgba(181, 112, 58, 0.08);
   color: var(--color-primary);
-  border-color: rgba(212, 132, 90, 0.2);
+  border-color: rgba(181, 112, 58, 0.18);
 }
 
 .hotel-onsen-info {
@@ -1805,7 +1805,7 @@ ul {
 
 .hotel-onsen-spring {
   font-size: 0.85rem;
-  color: var(--color-accent);
+  color: var(--color-text-muted);
   margin-bottom: 0.4rem;
 }
 
@@ -1826,7 +1826,7 @@ ul {
 }
 
 .booking-card {
-  background: var(--color-surface);
+  background: #ffffff;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   overflow: hidden;
@@ -1872,7 +1872,7 @@ ul {
 }
 
 .booking-link-btn:hover {
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--color-surface);
 }
 
 .booking-link-icon {
@@ -1967,15 +1967,15 @@ ul {
   padding: 1rem;
   border-radius: var(--radius-md);
   border: 1px solid var(--color-primary);
-  color: var(--color-primary-light);
+  color: var(--color-primary);
   text-decoration: none;
   font-weight: 500;
   transition: all var(--transition-medium);
 }
 
 .btn-back-onsen:hover {
-  background: rgba(212, 132, 90, 0.1);
-  color: var(--color-primary);
+  background: rgba(181, 112, 58, 0.08);
+  color: var(--color-primary-dark);
 }
 
 .btn-back-onsen svg {
