@@ -1353,16 +1353,16 @@ ul {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--color-bg);
+  background: #f7f3ee;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--color-border);
+  background: #e0d0c0;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--color-text-dim);
+  background: var(--color-primary);
 }
 
 /* ============ 温泉宿カード ============ */
