@@ -1016,8 +1016,8 @@ ul {
   font-size: 0.85rem;
   font-weight: 500;
   color: var(--color-text-muted);
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
+  background: #ffffff;
+  border: 1.5px solid var(--color-border);
   border-radius: var(--radius-full);
   cursor: pointer;
   transition: all var(--transition-fast);
@@ -1029,7 +1029,7 @@ ul {
 }
 
 .filter-btn.active {
-  background: rgba(212, 132, 90, 0.15);
+  background: var(--color-surface);
   border-color: var(--color-primary);
   color: var(--color-primary);
 }
@@ -1153,9 +1153,9 @@ ul {
 .footer {
   padding: var(--spacing-lg) 0 var(--spacing-md);
   text-align: center;
-  color: var(--color-text-dim);
-  border-top: 1px solid var(--color-border);
-  background: var(--color-bg);
+  color: rgba(255, 255, 255, 0.45);
+  border-top: none;
+  background: #2a1e14;
 }
 
 .footer-content {
@@ -1168,12 +1168,12 @@ ul {
 .logo-footer {
   font-family: var(--font-heading);
   font-size: 1.3rem;
-  color: var(--color-text);
+  color: #f4e0c0;
 }
 
 .footer-desc {
   font-size: 0.85rem;
-  color: var(--color-text-dim);
+  color: rgba(255, 255, 255, 0.4);
   max-width: 400px;
 }
 
@@ -1184,7 +1184,7 @@ ul {
 
 .footer-links a {
   font-size: 0.85rem;
-  color: var(--color-text-muted);
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .footer-links a:hover {
@@ -1193,7 +1193,7 @@ ul {
 
 .footer-copy {
   font-size: 0.75rem;
-  color: var(--color-text-dim);
+  color: rgba(255, 255, 255, 0.3);
   margin-top: var(--spacing-xs);
 }
 
@@ -1995,7 +1995,7 @@ ul {
   justify-content: center;
   width: 36px;
   height: 36px;
-  color: #333;
+  color: rgba(255, 255, 255, 0.4);
   transition: color 0.3s;
 }
 
@@ -2005,7 +2005,7 @@ ul {
 }
 
 .social-icon:hover {
-  color: #ff6b6b;
+  color: var(--color-primary);
 }
 
 @media (max-width: 900px) {
@@ -2046,10 +2046,10 @@ ul {
   justify-content: center;
   width: 100%;
   padding: var(--spacing-sm);
-  background: var(--color-surface);
+  background: #ffffff;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   transition: transform var(--transition-medium);
 }
 
