@@ -22,7 +22,7 @@ export function renderPrefectureDetail({ params }) {
       <div class="page-header">
         <div class="container">
           <h1 class="page-title">ページが見つかりません</h1>
-          <a href="#/" class="btn btn-primary">トップに戻る</a>
+          <a href="/onsen/" class="btn btn-primary">トップに戻る</a>
         </div>
       </div>
     `;
@@ -39,9 +39,9 @@ export function renderPrefectureDetail({ params }) {
       <div class="prefecture-hero-overlay"></div>
       <div class="prefecture-hero-content">
         <nav class="breadcrumb breadcrumb-light">
-          <a href="#/">トップ</a>
+          <a href="/onsen/">トップ</a>
           <span class="breadcrumb-separator">›</span>
-          <a href="#/prefectures">都道府県一覧</a>
+          <a href="/onsen/prefectures">都道府県一覧</a>
           <span class="breadcrumb-separator">›</span>
           <span>${prefecture.name}</span>
         </nav>
@@ -89,7 +89,7 @@ export function renderPrefectureDetail({ params }) {
  */
 function renderOnsenCard(onsen, hotelCount) {
   return `
-    <a href="#/onsen/${onsen.id}" class="card onsen-card onsen-card-link">
+    <a href="/onsen/onsen/${onsen.id}" class="card onsen-card onsen-card-link">
       <div class="card-image">
         <img src="${onsen.image}" alt="${onsen.name}" loading="lazy">
         <span class="card-badge onsen">${onsen.category}</span>

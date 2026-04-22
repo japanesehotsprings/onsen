@@ -38,7 +38,7 @@ export function renderSearchResults({ query }) {
     <div class="page-header">
       <div class="container">
         <nav class="breadcrumb">
-          <a href="#/">トップ</a>
+          <a href="/onsen/">トップ</a>
           <span class="breadcrumb-separator">›</span>
           <span>検索結果</span>
         </nav>

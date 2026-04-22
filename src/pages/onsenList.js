@@ -14,7 +14,7 @@ export function renderOnsenList() {
     <div class="page-header">
       <div class="container">
         <nav class="breadcrumb">
-          <a href="#/">トップ</a>
+          <a href="/onsen/">トップ</a>
           <span class="breadcrumb-separator">›</span>
           <span>温泉地一覧</span>
         </nav>
@@ -27,7 +27,7 @@ export function renderOnsenList() {
       <div class="container">
         <div class="hotel-grid">
           ${onsenList.map(onsen => `
-            <a href="#/onsen/${onsen.id}" class="hotel-card animate-on-scroll">
+            <a href="/onsen/onsen/${onsen.id}" class="hotel-card animate-on-scroll">
               <div class="hotel-card-image">
                 <img src="${onsen.image}" alt="${onsen.name}" loading="lazy">
                 <div class="hotel-card-badge">${prefMap[onsen.prefecture] || ''}</div>

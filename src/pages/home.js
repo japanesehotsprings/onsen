@@ -75,7 +75,7 @@ export function renderHome() {
                 </div>
                 <div class="region-prefectures">
                   ${prefs.map(p => `
-                    <a href="#/prefecture/${p.id}" class="prefecture-chip">${p.name}</a>
+                    <a href="/onsen/prefecture/${p.id}" class="prefecture-chip">${p.name}</a>
                   `).join('')}
                 </div>
               </div>
@@ -93,7 +93,7 @@ export function renderHome() {
         </div>
         <div class="card-grid onsen-pickup-grid">
           ${pickupOnsen.map(onsen => `
-            <a href="#/onsen/${onsen.id}" class="card onsen-card-link">
+            <a href="/onsen/onsen/${onsen.id}" class="card onsen-card-link">
               <div class="card-image">
                 <img src="${onsen.image}" alt="${onsen.name}" loading="lazy">
                 <span class="card-badge onsen">${onsen.category}</span>
@@ -125,7 +125,7 @@ export function renderHome() {
           ${featuredHotels.map(hotel => {
     const onsen = onsenList.find(o => o.id === hotel.onsen_id);
     return `
-              <a href="#/hotel/${hotel.id}" class="hotel-card hotel-card-link">
+              <a href="/onsen/hotel/${hotel.id}" class="hotel-card hotel-card-link">
                 <div class="hotel-card-image">
                   <img src="${hotel.image}" alt="${hotel.name}" loading="lazy">
                   <span class="hotel-type-badge">${hotel.type}</span>
