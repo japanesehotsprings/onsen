@@ -27,6 +27,17 @@ document.addEventListener('DOMContentLoaded', () => {
     addRoute('/hotels', renderHotelList);
     addRoute('/search', renderSearchResults);
 
+    // 内部リンクのクリックをインターセプトしてSPA遷移
+    document.addEventListener('click', (e) => {
+        const a = e.target.closest('a');
+        if (!a) return;
+        const href = a.getAttribute('href');
+        if (href && href.startsWith('/onsen/')) {
+            e.preventDefault();
+            navigateTo(href.slice('/onsen'.length) || '/');
+        }
+    });
+
     // ルーター初期化
     initRouter();
 
