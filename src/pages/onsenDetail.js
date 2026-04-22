@@ -32,7 +32,18 @@ export function renderOnsenDetail({ params }) {
   const prefecture = getPrefectureById(onsen.prefecture);
   const hotels = getHotelsByOnsen(onsen.id);
 
-  updateSEO(`${onsen.name}（${prefecture?.name || ''}）の温泉宿・詳細情報`, onsen.description);
+  updateSEO(`${onsen.name}（${prefecture?.name || ''}）の温泉宿・詳細情報`, onsen.description, {
+    '@context': 'https://schema.org',
+    '@type': 'TouristAttraction',
+    'name': onsen.name,
+    'description': onsen.description,
+    'address': {
+      '@type': 'PostalAddress',
+      'addressRegion': prefecture?.name || '',
+      'addressCountry': 'JP'
+    },
+    'touristType': '温泉'
+  });
 
   app.innerHTML = `
     <div class="prefecture-hero onsen-hero">
