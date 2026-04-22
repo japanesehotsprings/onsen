@@ -885,7 +885,7 @@ ul {
 .prefecture-hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(15, 25, 35, 0.95) 0%, rgba(15, 25, 35, 0.3) 60%);
+  background: linear-gradient(to top, rgba(20, 10, 3, 0.92) 0%, rgba(20, 10, 3, 0.3) 60%);
   z-index: -1;
 }
 
@@ -957,7 +957,7 @@ ul {
 }
 
 .tab-btn.active .tab-count {
-  background: rgba(212, 132, 90, 0.15);
+  background: rgba(181, 112, 58, 0.12);
   color: var(--color-primary);
 }
 
@@ -1499,11 +1499,11 @@ ul {
 .onsen-hero-badge {
   display: inline-block;
   padding: 0.3rem 0.9rem;
-  background: rgba(212, 132, 90, 0.2);
-  border: 1px solid rgba(212, 132, 90, 0.35);
+  background: rgba(181, 112, 58, 0.18);
+  border: 1px solid rgba(244, 200, 130, 0.4);
   border-radius: var(--radius-full);
   font-size: 0.8rem;
-  color: var(--color-primary-light);
+  color: #f4c882;
   margin-bottom: 0.6rem;
   backdrop-filter: blur(8px);
 }
@@ -1557,8 +1557,8 @@ ul {
   flex-direction: column;
   gap: 0.2rem;
   padding: var(--spacing-sm);
-  background: rgba(212, 132, 90, 0.06);
-  border: 1px solid rgba(212, 132, 90, 0.12);
+  background: rgba(181, 112, 58, 0.05);
+  border: 1px solid rgba(181, 112, 58, 0.1);
   border-radius: var(--radius-md);
 }
 
