@@ -1644,7 +1644,7 @@ ul {
   position: relative;
   z-index: 2;
   text-align: center;
-  color: var(--color-text-inverse);
+  color: #ffffff;
   padding: 2rem;
   max-width: 800px;
 }
