@@ -37,7 +37,6 @@ export function renderArticleDetail({ params }) {
             <div class="container" style="max-width:760px">
                 <div class="article-meta">
                     <span class="article-meta-category">${article.categoryLabel}</span>
-                    <span>${article.published}</span>
                 </div>
                 <p class="article-lead">${article.description}</p>
                 <div class="article-body">
