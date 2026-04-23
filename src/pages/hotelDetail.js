@@ -175,6 +175,26 @@ export function renderHotelDetail({ params }) {
               <div class="hotel-detail-tags">
                 ${hotel.tags.map(t => `<span class="tag tag-highlight">${t}</span>`).join('')}
               </div>
+              ${hotel.source_type ? `
+              <div class="hotel-info-row" style="margin-top:1rem">
+                <span class="hotel-info-label">源泉情報</span>
+                <span class="hotel-info-value">${hotel.source_type === '源泉かけ流し' ? '♨ ' : ''}${hotel.source_type}</span>
+              </div>` : ''}
+              ${hotel.features?.length ? `
+              <div class="hotel-info-row" style="margin-top:0.75rem">
+                <span class="hotel-info-label">こだわり・設備</span>
+                <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.25rem">
+                  ${hotel.features.map(f => `<span class="tag">${f}</span>`).join('')}
+                </div>
+              </div>` : ''}
+              ${hotel.meals ? `
+              <div class="hotel-info-row" style="margin-top:0.75rem">
+                <span class="hotel-info-label">お食事</span>
+                <div style="line-height:1.8;color:var(--color-text-muted)">
+                  ${hotel.meals.dinner ? `<div>夕食: ${hotel.meals.dinner}</div>` : ''}
+                  ${hotel.meals.breakfast ? `<div>朝食: ${hotel.meals.breakfast}</div>` : ''}
+                </div>
+              </div>` : ''}
             </div>
 
             ${onsen ? `

@@ -86,10 +86,72 @@ export function renderOnsenDetail({ params }) {
               <span class="onsen-meta-label">宿泊施設数</span>
               <span class="onsen-meta-value">${hotels.length > 0 ? `${hotels.length}件掲載中` : '準備中'}</span>
             </div>
+            ${onsen.effects ? `
+            <div class="onsen-meta-item">
+              <span class="onsen-meta-label">主な効能</span>
+              <span class="onsen-meta-value">${onsen.effects.join(' / ')}</span>
+            </div>` : ''}
           </div>
         </div>
       </div>
     </section>
+
+    ${onsen.history ? `
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">歴史・由来</h2>
+        <p style="line-height:1.9;color:var(--color-text-muted);max-width:800px">${onsen.history}</p>
+      </div>
+    </section>
+    ` : ''}
+
+    ${onsen.day_trip ? `
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">日帰り入浴</h2>
+        <div class="onsen-info-card" style="max-width:600px">
+          <div class="onsen-info-meta">
+            <div class="onsen-meta-item">
+              <span class="onsen-meta-label">日帰り入浴</span>
+              <span class="onsen-meta-value">${onsen.day_trip.available ? '可能' : '不可'}</span>
+            </div>
+            ${onsen.day_trip.price ? `<div class="onsen-meta-item"><span class="onsen-meta-label">料金</span><span class="onsen-meta-value">${onsen.day_trip.price}</span></div>` : ''}
+            ${onsen.day_trip.hours ? `<div class="onsen-meta-item"><span class="onsen-meta-label">営業時間</span><span class="onsen-meta-value">${onsen.day_trip.hours}</span></div>` : ''}
+          </div>
+        </div>
+      </div>
+    </section>
+    ` : ''}
+
+    ${onsen.footbath?.available ? `
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">足湯</h2>
+        <div class="onsen-info-card" style="max-width:600px">
+          <div class="onsen-info-meta">
+            <div class="onsen-meta-item"><span class="onsen-meta-label">場所</span><span class="onsen-meta-value">${onsen.footbath.location}</span></div>
+            <div class="onsen-meta-item"><span class="onsen-meta-label">料金</span><span class="onsen-meta-value">${onsen.footbath.free ? '無料' : '有料'}</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    ` : ''}
+
+    ${onsen.access ? `
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">アクセス</h2>
+        <div class="onsen-info-card" style="max-width:700px">
+          <div class="onsen-info-meta">
+            ${onsen.access.nearest_station ? `<div class="onsen-meta-item"><span class="onsen-meta-label">最寄り駅</span><span class="onsen-meta-value">${onsen.access.nearest_station}</span></div>` : ''}
+            ${onsen.access.by_train ? `<div class="onsen-meta-item"><span class="onsen-meta-label">電車でのアクセス</span><span class="onsen-meta-value">${onsen.access.by_train}</span></div>` : ''}
+            ${onsen.access.by_car ? `<div class="onsen-meta-item"><span class="onsen-meta-label">車でのアクセス</span><span class="onsen-meta-value">${onsen.access.by_car}</span></div>` : ''}
+            <div class="onsen-meta-item"><span class="onsen-meta-label">駐車場</span><span class="onsen-meta-value">${onsen.access.parking ? 'あり' : 'なし'}</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    ` : ''}
 
     <section class="section hotel-list-section">
       <div class="container">
