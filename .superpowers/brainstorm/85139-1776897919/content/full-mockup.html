@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日本温泉 — デザインモックアップ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600&family=Noto+Serif+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Noto Sans JP', sans-serif; background: #f0ece6; color: #1a1a1a; }
+
+  /* ---- frame ---- */
+  .frame-label {
+    background: #2d2d2d; color: #ccc; font-size: 11px; padding: 8px 16px;
+    font-family: monospace; letter-spacing: 0.05em; display: flex; align-items: center; justify-content: space-between;
+  }
+  .frame-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 5px; }
+  .site-wrapper {
+    max-width: 860px; margin: 24px auto; background: #fff;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.18); border-radius: 12px; overflow: hidden;
+  }
+
+  /* ---- header ---- */
+  .hdr {
+    background: #fff; border-bottom: 1px solid #f0e4d4;
+    padding: 14px 28px; display: flex; align-items: center; justify-content: space-between;
+    position: sticky; top: 0; z-index: 100;
+  }
+  .hdr-logo { font-family: 'Noto Serif JP', serif; font-size: 17px; font-weight: 700; color: #1a1a1a; letter-spacing: 0.02em; }
+  .hdr-logo span { color: #b5703a; }
+  .hdr-search {
+    display: flex; align-items: center; border: 1.5px solid #e8d8c4; border-radius: 40px;
+    padding: 5px 6px 5px 14px; width: 220px; transition: all 0.2s;
+    background: #fdf9f5;
+  }
+  .hdr-search input { border: none; outline: none; background: none; font-size: 12px; color: #555; width: 100%; font-family: inherit; }
+  .hdr-search input::placeholder { color: #bba898; }
+  .hdr-search-btn {
+    background: #b5703a; border-radius: 50%; width: 26px; height: 26px;
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .hdr-search-btn svg { width: 13px; height: 13px; stroke: #fff; stroke-width: 2.5; fill: none; }
+  .hdr-nav { display: flex; gap: 24px; }
+  .hdr-nav a { font-size: 13px; color: #6b5c50; text-decoration: none; font-weight: 500; }
+  .hdr-nav a:hover { color: #b5703a; }
+
+  /* ---- hero ---- */
+  .hero {
+    position: relative; height: 420px; display: flex; align-items: center; justify-content: center;
+    text-align: center; overflow: hidden;
+    background: linear-gradient(160deg, #3d2a18 0%, #6b4020 35%, #9a6030 70%, #7a4a25 100%);
+  }
+  .hero::before {
+    content: ''; position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 50% 60%, rgba(255,190,100,0.22) 0%, transparent 65%),
+                linear-gradient(180deg, rgba(30,15,5,0.55) 0%, rgba(30,15,5,0.25) 50%, rgba(30,15,5,0.65) 100%);
+  }
+  /* Steam particles decoration */
+  .hero::after {
+    content: '♨'; position: absolute; bottom: 20px; right: 30px;
+    font-size: 48px; color: rgba(255,220,160,0.12); line-height: 1;
+  }
+  .hero-inner { position: relative; z-index: 1; max-width: 560px; padding: 0 20px; }
+  .hero-eyebrow {
+    display: inline-block; border: 1px solid rgba(244,200,130,0.5);
+    border-radius: 20px; padding: 4px 16px; font-size: 10px; color: rgba(244,200,130,0.9);
+    letter-spacing: 0.25em; font-weight: 500; margin-bottom: 18px;
+  }
+  .hero-title {
+    font-family: 'Noto Serif JP', serif; font-size: 34px; font-weight: 700;
+    color: #fff; line-height: 1.3; margin-bottom: 12px;
+  }
+  .hero-title em { color: #f4c882; font-style: normal; }
+  .hero-sub { font-size: 13px; color: rgba(255,255,255,0.6); line-height: 1.7; margin-bottom: 24px; }
+  .hero-search {
+    display: flex; align-items: center; background: rgba(255,255,255,0.97);
+    border-radius: 40px; padding: 6px 7px 6px 18px;
+    box-shadow: 0 6px 30px rgba(0,0,0,0.25); max-width: 460px; margin: 0 auto 16px;
+  }
+  .hero-search input { border: none; outline: none; background: none; font-size: 13px; color: #333; width: 100%; font-family: inherit; }
+  .hero-search input::placeholder { color: #bba898; }
+  .hero-search-btn {
+    background: #b5703a; border-radius: 40px; padding: 8px 20px;
+    font-size: 12px; font-weight: 600; color: #fff; white-space: nowrap; border: none; cursor: pointer; font-family: inherit;
+  }
+  .hero-tags { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+  .hero-tag {
+    padding: 4px 13px; border: 1px solid rgba(244,200,130,0.45); border-radius: 20px;
+    font-size: 11px; color: rgba(244,200,130,0.85); cursor: pointer; transition: all 0.2s;
+  }
+  .hero-tag:hover { background: rgba(244,200,130,0.15); border-color: rgba(244,200,130,0.7); }
+
+  /* ---- section commons ---- */
+  .sec { padding: 52px 36px; }
+  .sec-alt { background: #fffcf7; }
+  .sec-header { text-align: center; margin-bottom: 36px; }
+  .sec-title {
+    font-family: 'Noto Serif JP', serif; font-size: 24px; font-weight: 700;
+    color: #1a1a1a; margin-bottom: 8px;
+  }
+  .sec-title::after {
+    content: ''; display: block; width: 36px; height: 2px;
+    background: #b5703a; margin: 10px auto 0; border-radius: 2px;
+  }
+  .sec-desc { font-size: 13px; color: #8a7060; }
+  .sec-more { text-align: center; margin-top: 28px; }
+  .btn-more {
+    display: inline-block; border: 1.5px solid #b5703a; color: #b5703a;
+    border-radius: 6px; padding: 9px 28px; font-size: 13px; font-weight: 600;
+    text-decoration: none; transition: all 0.2s; cursor: pointer; background: none; font-family: inherit;
+  }
+  .btn-more:hover { background: #b5703a; color: #fff; }
+
+  /* ---- onsen cards ---- */
+  .card-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; }
+  .card {
+    background: #fff; border: 1px solid #f0e4d4; border-radius: 10px;
+    overflow: hidden; transition: all 0.25s; text-decoration: none; color: inherit; display: block;
+  }
+  .card:hover { transform: translateY(-4px); box-shadow: 0 10px 32px rgba(181,112,58,0.14); border-color: #d4a87a; }
+  .card-img { height: 160px; position: relative; overflow: hidden; }
+  .card-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
+  .card:hover .card-img img { transform: scale(1.06); }
+  .card-badge {
+    position: absolute; top: 10px; left: 10px; background: rgba(181,112,58,0.9);
+    color: #fff; font-size: 10px; font-weight: 600; padding: 3px 9px; border-radius: 20px;
+  }
+  .hotel-count {
+    position: absolute; bottom: 10px; right: 10px; background: rgba(255,255,255,0.92);
+    color: #b5703a; font-size: 10px; font-weight: 600; padding: 3px 9px; border-radius: 20px;
+  }
+  .card-body { padding: 14px; }
+  .card-meta { display: flex; align-items: center; gap: 6px; margin-bottom: 4px; font-size: 11px; }
+  .card-pref { color: #b5703a; font-weight: 500; }
+  .card-spring { color: #9a8070; }
+  .card-title { font-family: 'Noto Serif JP', serif; font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+  .card-desc { font-size: 12px; color: #7a6a60; line-height: 1.65;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 8px; }
+  .card-tags { display: flex; flex-wrap: wrap; gap: 4px; }
+  .tag {
+    font-size: 10px; padding: 2px 8px; background: #fdf5ec;
+    border: 1px solid #f0dfc8; border-radius: 20px; color: #9a7055;
+  }
+
+  /* ---- hotel cards ---- */
+  .hotel-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 16px; }
+  .hotel-card {
+    background: #fff; border: 1px solid #f0e4d4; border-radius: 10px;
+    overflow: hidden; display: flex; transition: all 0.25s; text-decoration: none; color: inherit;
+  }
+  .hotel-card:hover { box-shadow: 0 8px 28px rgba(181,112,58,0.12); border-color: #d4a87a; transform: translateY(-3px); }
+  .hotel-card-img { width: 130px; flex-shrink: 0; position: relative; overflow: hidden; }
+  .hotel-card-img img { width: 100%; height: 100%; object-fit: cover; }
+  .hotel-type-badge {
+    position: absolute; top: 8px; left: 8px; background: rgba(181,112,58,0.88);
+    color: #fff; font-size: 9px; font-weight: 600; padding: 2px 7px; border-radius: 20px;
+  }
+  .hotel-card-body { padding: 14px; flex: 1; }
+  .hotel-card-name { font-family: 'Noto Serif JP', serif; font-size: 14px; font-weight: 700; margin-bottom: 4px; }
+  .hotel-card-price { font-size: 12px; margin-bottom: 4px; }
+  .hotel-card-price .price-val { color: #b5703a; font-weight: 600; }
+  .hotel-card-desc { font-size: 11px; color: #7a6a60; line-height: 1.6;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 6px; }
+
+  /* ---- prefecture chips ---- */
+  .pref-grid { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+  .pref-chip {
+    padding: 8px 18px; background: #fff; border: 1.5px solid #f0e4d4;
+    border-radius: 8px; font-size: 13px; color: #4a3828; text-decoration: none;
+    transition: all 0.2s; font-weight: 500;
+  }
+  .pref-chip:hover { background: #fdf5ec; border-color: #b5703a; color: #b5703a; }
+
+  /* ---- footer ---- */
+  .footer {
+    background: #2a1e14; padding: 40px 36px 28px; text-align: center; color: rgba(255,255,255,0.5);
+  }
+  .footer-logo { font-family: 'Noto Serif JP', serif; font-size: 18px; font-weight: 700; color: #f4e0c0; margin-bottom: 8px; }
+  .footer-logo span { color: #b5703a; }
+  .footer-desc { font-size: 12px; margin-bottom: 20px; line-height: 1.6; }
+  .footer-links { display: flex; gap: 24px; justify-content: center; margin-bottom: 16px; }
+  .footer-links a { font-size: 12px; color: rgba(255,255,255,0.5); text-decoration: none; }
+  .footer-links a:hover { color: #b5703a; }
+  .footer-copy { font-size: 11px; }
+
+  /* placeholder images */
+  .img-onsen-1 { background: linear-gradient(135deg,#c8a880,#a07850); }
+  .img-onsen-2 { background: linear-gradient(135deg,#90a888,#6a8860); }
+  .img-onsen-3 { background: linear-gradient(135deg,#c8b8a0,#a09080); }
+  .img-hotel-1 { background: linear-gradient(135deg,#d4b890,#b09060); }
+  .img-hotel-2 { background: linear-gradient(135deg,#a8b8c0,#8098a8); }
+
+  /* select overlay hint */
+  .site-wrapper { position: relative; }
+  .select-hint {
+    position: fixed; bottom: 20px; right: 20px;
+    background: #b5703a; color: #fff; padding: 10px 20px; border-radius: 8px;
+    font-size: 13px; font-weight: 600; box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    cursor: pointer; z-index: 9999;
+  }
+</style>
+</head>
+<body>
+
+<div style="background:#2d2d2d; color:#aaa; font-size:11px; padding:10px 20px; font-family:monospace; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:999;">
+  <div>
+    <span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#e55;margin-right:5px;"></span>
+    <span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#ea5;margin-right:5px;"></span>
+    <span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#5a5;margin-right:5px;"></span>
+    日本温泉 — フルページモックアップ（白×琥珀）
+  </div>
+  <div style="color:#777;">スクロールして全体を確認してください</div>
+</div>
+
+<div class="site-wrapper">
+
+  <!-- HEADER -->
+  <header class="hdr">
+    <div class="hdr-logo">日本温泉<span>♨</span></div>
+    <div class="hdr-search">
+      <input type="text" placeholder="温泉地を検索...">
+      <div class="hdr-search-btn">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      </div>
+    </div>
+    <nav class="hdr-nav">
+      <a href="#">ホーム</a>
+      <a href="#">都道府県</a>
+      <a href="#">温泉地</a>
+      <a href="#">温泉宿</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-eyebrow">♨ JAPAN HOT SPRINGS</div>
+      <h1 class="hero-title">全国47都道府県の<br><em>温泉地</em>を探そう</h1>
+      <p class="hero-sub">秘湯から名湯まで、日本全国の温泉をご紹介します</p>
+      <div class="hero-search">
+        <input type="text" placeholder="温泉名・泉質・地域を入力...">
+        <button class="hero-search-btn">検索する</button>
+      </div>
+      <div class="hero-tags">
+        <span class="hero-tag">秘湯</span>
+        <span class="hero-tag">硫黄泉</span>
+        <span class="hero-tag">露天風呂</span>
+        <span class="hero-tag">美肌の湯</span>
+        <span class="hero-tag">混浴</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED ONSENS -->
+  <section class="sec">
+    <div class="sec-header">
+      <h2 class="sec-title">人気の温泉地</h2>
+      <p class="sec-desc">全国から選りすぐりの名湯・秘湯をご紹介</p>
+    </div>
+    <div class="card-grid">
+      <a class="card" href="#">
+        <div class="card-img img-onsen-1">
+          <div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.3);font-size:28px;">♨</div>
+          <span class="card-badge">名湯</span>
+          <span class="hotel-count">宿23件</span>
+        </div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-pref">北海道</span>
+            <span style="color:#d4b898;">·</span>
+            <span class="card-spring">♨ 硫黄泉</span>
+          </div>
+          <h3 class="card-title">登別温泉</h3>
+          <p class="card-desc">北海道最大の温泉地。地獄谷から湧き出る豊富な湯量と多彩な泉質が楽しめる。</p>
+          <div class="card-tags">
+            <span class="tag">秘湯</span><span class="tag">硫黄泉</span><span class="tag">大浴場</span>
+          </div>
+        </div>
+      </a>
+      <a class="card" href="#">
+        <div class="card-img img-onsen-2">
+          <div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.3);font-size:28px;">♨</div>
+          <span class="card-badge">秘湯</span>
+          <span class="hotel-count">宿7件</span>
+        </div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-pref">秋田県</span>
+            <span style="color:#d4b898;">·</span>
+            <span class="card-spring">♨ 単純温泉</span>
+          </div>
+          <h3 class="card-title">乳頭温泉郷</h3>
+          <p class="card-desc">乳白色の湯が美しい秘湯。田沢湖近くの山深い地に7つの湯が湧く温泉郷。</p>
+          <div class="card-tags">
+            <span class="tag">乳白色</span><span class="tag">露天風呂</span><span class="tag">混浴</span>
+          </div>
+        </div>
+      </a>
+      <a class="card" href="#">
+        <div class="card-img img-onsen-3">
+          <div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.3);font-size:28px;">♨</div>
+          <span class="card-badge">名湯</span>
+          <span class="hotel-count">宿130件</span>
+        </div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-pref">群馬県</span>
+            <span style="color:#d4b898;">·</span>
+            <span class="card-spring">♨ 酸性泉</span>
+          </div>
+          <h3 class="card-title">草津温泉</h3>
+          <p class="card-desc">「日本三名泉」のひとつ。強酸性の湯とともに湯もみ文化が受け継がれる名湯。</p>
+          <div class="card-tags">
+            <span class="tag">湯もみ</span><span class="tag">日本三名泉</span><span class="tag">酸性泉</span>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="sec-more"><button class="btn-more">温泉地を全て見る</button></div>
+  </section>
+
+  <!-- FEATURED HOTELS -->
+  <section class="sec sec-alt">
+    <div class="sec-header">
+      <h2 class="sec-title">おすすめの温泉宿</h2>
+      <p class="sec-desc">厳選した温泉旅館・ホテルをご紹介</p>
+    </div>
+    <div class="hotel-grid">
+      <a class="hotel-card" href="#">
+        <div class="hotel-card-img img-hotel-1">
+          <div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.3);font-size:22px;">🏯</div>
+          <span class="hotel-type-badge">旅館</span>
+        </div>
+        <div class="hotel-card-body">
+          <div class="hotel-card-name">第一滝本館</div>
+          <div class="hotel-card-price">参考料金：<span class="price-val">¥15,000〜</span></div>
+          <p class="hotel-card-desc">登別温泉を代表する老舗旅館。広大な浴場と多彩な泉質が自慢。</p>
+          <div class="card-tags">
+            <span class="tag">大浴場</span><span class="tag">露天風呂</span>
+          </div>
+        </div>
+      </a>
+      <a class="hotel-card" href="#">
+        <div class="hotel-card-img img-hotel-2">
+          <div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.3);font-size:22px;">🏯</div>
+          <span class="hotel-type-badge">旅館</span>
+        </div>
+        <div class="hotel-card-body">
+          <div class="hotel-card-name">鶴の湯温泉</div>
+          <div class="hotel-card-price">参考料金：<span class="price-val">¥12,000〜</span></div>
+          <p class="hotel-card-desc">乳頭温泉郷の中でも最も人気の宿。茅葺き屋根の風情ある秘湯宿。</p>
+          <div class="card-tags">
+            <span class="tag">混浴露天</span><span class="tag">茅葺き</span>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="sec-more"><button class="btn-more">温泉宿を全て見る</button></div>
+  </section>
+
+  <!-- PREFECTURE SECTION -->
+  <section class="sec">
+    <div class="sec-header">
+      <h2 class="sec-title">都道府県から探す</h2>
+      <p class="sec-desc">47都道府県の温泉地を地域から探せます</p>
+    </div>
+    <div class="pref-grid">
+      <a class="pref-chip" href="#">北海道</a>
+      <a class="pref-chip" href="#">青森</a>
+      <a class="pref-chip" href="#">岩手</a>
+      <a class="pref-chip" href="#">宮城</a>
+      <a class="pref-chip" href="#">秋田</a>
+      <a class="pref-chip" href="#">山形</a>
+      <a class="pref-chip" href="#">福島</a>
+      <a class="pref-chip" href="#">栃木</a>
+      <a class="pref-chip" href="#">群馬</a>
+      <a class="pref-chip" href="#">長野</a>
+      <a class="pref-chip" href="#">静岡</a>
+      <a class="pref-chip" href="#">石川</a>
+      <a class="pref-chip" href="#">鳥取</a>
+      <a class="pref-chip" href="#">大分</a>
+      <a class="pref-chip" href="#">熊本</a>
+      <a class="pref-chip" href="#">鹿児島</a>
+      <a class="pref-chip" href="#">全て見る →</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-logo">日本温泉<span>♨</span></div>
+    <p class="footer-desc">日本全国47都道府県の温泉地や温泉宿を紹介する温泉メディアサイトです。</p>
+    <div class="footer-links">
+      <a href="#">ホーム</a>
+      <a href="#">都道府県一覧</a>
+      <a href="#">温泉地一覧</a>
+      <a href="#">温泉宿一覧</a>
+    </div>
+    <p class="footer-copy">© 2026 日本温泉. All rights reserved.</p>
+  </footer>
+
+</div>
+
+<div class="select-hint" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑ トップに戻る</div>
+
+</body>
+</html>

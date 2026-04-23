@@ -1,0 +1,147 @@
+<h2>デザイン方向性 — どれが一番近いですか？</h2>
+<p class="subtitle">白背景・モダン・温泉らしさ。3つの方向性から選んでください。</p>
+
+<div class="cards">
+
+  <!-- A: 和モダン -->
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#fff; padding:0; overflow:hidden;">
+      <!-- Mini header -->
+      <div style="background:#fff; border-bottom:1px solid #e8e0d5; padding:10px 16px; display:flex; align-items:center; justify-content:space-between;">
+        <span style="font-family:'Noto Serif JP',serif; font-size:13px; font-weight:700; color:#1a1a1a; letter-spacing:0.05em;">日本温泉 <span style="color:#c45c2e;">♨</span></span>
+        <div style="display:flex; gap:12px;">
+          <span style="font-size:9px; color:#666;">ホーム</span>
+          <span style="font-size:9px; color:#666;">都道府県</span>
+          <span style="font-size:9px; color:#666;">温泉地</span>
+        </div>
+      </div>
+      <!-- Mini hero -->
+      <div style="background:linear-gradient(135deg,#2d3a8c 0%,#1e2760 100%); padding:20px 16px; text-align:center;">
+        <div style="font-size:8px; color:rgba(255,255,255,0.6); letter-spacing:0.3em; margin-bottom:4px;">JAPAN HOT SPRINGS</div>
+        <div style="font-family:'Noto Serif JP',serif; font-size:16px; font-weight:700; color:#fff; margin-bottom:6px;">全国の温泉を探す</div>
+        <div style="display:inline-block; background:#fff; border-radius:20px; padding:5px 16px; font-size:9px; color:#2d3a8c; font-weight:600;">検索</div>
+      </div>
+      <!-- Mini cards -->
+      <div style="padding:12px; background:#f5f3ee; display:flex; gap:8px;">
+        <div style="flex:1; background:#fff; border-radius:6px; border:1px solid #e8e0d5; padding:8px;">
+          <div style="height:36px; background:linear-gradient(135deg,#e8e0d5,#d5c9bc); border-radius:4px; margin-bottom:6px;"></div>
+          <div style="height:6px; background:#1a1a1a; border-radius:3px; width:70%; margin-bottom:3px;"></div>
+          <div style="height:5px; background:#999; border-radius:3px; width:90%;"></div>
+        </div>
+        <div style="flex:1; background:#fff; border-radius:6px; border:1px solid #e8e0d5; padding:8px;">
+          <div style="height:36px; background:linear-gradient(135deg,#c9d5e0,#b5c4d0); border-radius:4px; margin-bottom:6px;"></div>
+          <div style="height:6px; background:#1a1a1a; border-radius:3px; width:70%; margin-bottom:3px;"></div>
+          <div style="height:5px; background:#999; border-radius:3px; width:90%;"></div>
+        </div>
+      </div>
+      <!-- Color palette -->
+      <div style="padding:10px 16px; background:#fff; border-top:1px solid #e8e0d5; display:flex; gap:6px; align-items:center;">
+        <div style="width:20px;height:20px;border-radius:50%;background:#2d3a8c;" title="藍色"></div>
+        <div style="width:20px;height:20px;border-radius:50%;background:#c45c2e;" title="テラコッタ"></div>
+        <div style="width:20px;height:20px;border-radius:50%;background:#f5f3ee;" title="和紙白" style="border:1px solid #ddd;"></div>
+        <div style="width:20px;height:20px;border-radius:50%;background:#1a1a1a;" title="墨"></div>
+        <span style="font-size:9px; color:#666; margin-left:4px;">藍×テラコッタ×和紙</span>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — 和モダン</h3>
+      <p>藍色×白×テラコッタ。伝統的な日本の色使いをモダンにアレンジ。格調があり温泉の歴史・文化感が出る。</p>
+    </div>
+  </div>
+
+  <!-- B: ナチュラル湯 -->
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#fff; padding:0; overflow:hidden;">
+      <!-- Mini header -->
+      <div style="background:#fff; border-bottom:1px solid #ede5d8; padding:10px 16px; display:flex; align-items:center; justify-content:space-between;">
+        <span style="font-family:'Noto Serif JP',serif; font-size:13px; font-weight:700; color:#2c2520; letter-spacing:0.05em;">日本温泉 <span style="color:#b5703a;">♨</span></span>
+        <div style="display:flex; gap:12px;">
+          <span style="font-size:9px; color:#7a6a60;">ホーム</span>
+          <span style="font-size:9px; color:#7a6a60;">都道府県</span>
+          <span style="font-size:9px; color:#7a6a60;">温泉地</span>
+        </div>
+      </div>
+      <!-- Mini hero -->
+      <div style="background:linear-gradient(135deg,#b5703a 0%,#8a4f24 100%); padding:20px 16px; text-align:center;">
+        <div style="font-size:8px; color:rgba(255,255,255,0.65); letter-spacing:0.3em; margin-bottom:4px;">JAPAN HOT SPRINGS</div>
+        <div style="font-family:'Noto Serif JP',serif; font-size:16px; font-weight:700; color:#fff; margin-bottom:6px;">全国の温泉を探す</div>
+        <div style="display:inline-block; background:#fff; border-radius:20px; padding:5px 16px; font-size:9px; color:#b5703a; font-weight:600;">検索</div>
+      </div>
+      <!-- Mini cards -->
+      <div style="padding:12px; background:#faf6f0; display:flex; gap:8px;">
+        <div style="flex:1; background:#fff; border-radius:6px; border:1px solid #ede5d8; padding:8px;">
+          <div style="height:36px; background:linear-gradient(135deg,#e8d8c4,#d4c4a8); border-radius:4px; margin-bottom:6px;"></div>
+          <div style="height:6px; background:#2c2520; border-radius:3px; width:70%; margin-bottom:3px;"></div>
+          <div style="height:5px; background:#b5703a; border-radius:3px; width:40%;"></div>
+        </div>
+        <div style="flex:1; background:#fff; border-radius:6px; border:1px solid #ede5d8; padding:8px;">
+          <div style="height:36px; background:linear-gradient(135deg,#c8d8c8,#b4c8b4); border-radius:4px; margin-bottom:6px;"></div>
+          <div style="height:6px; background:#2c2520; border-radius:3px; width:70%; margin-bottom:3px;"></div>
+          <div style="height:5px; background:#6a8f72; border-radius:3px; width:40%;"></div>
+        </div>
+      </div>
+      <!-- Color palette -->
+      <div style="padding:10px 16px; background:#fff; border-top:1px solid #ede5d8; display:flex; gap:6px; align-items:center;">
+        <div style="width:20px;height:20px;border-radius:50%;background:#b5703a;"></div>
+        <div style="width:20px;height:20px;border-radius:50%;background:#6a8f72;"></div>
+        <div style="width:20px;height:20px;border-radius:50%;background:#faf6f0; border:1px solid #ddd;"></div>
+        <div style="width:20px;height:20px;border-radius:50%;background:#2c2520;"></div>
+        <span style="font-size:9px; color:#666; margin-left:4px;">琥珀×竹緑×乳白</span>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — ナチュラル湯</h3>
+      <p>温泉の湯色（琥珀・乳白）と竹・苔のような緑を合わせた自然派。親しみやすく温かみのある雰囲気。</p>
+    </div>
+  </div>
+
+  <!-- C: ミニマル湯気 -->
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#fff; padding:0; overflow:hidden;">
+      <!-- Mini header -->
+      <div style="background:#fff; border-bottom:1px solid #e8eceb; padding:10px 16px; display:flex; align-items:center; justify-content:space-between;">
+        <span style="font-family:'Noto Serif JP',serif; font-size:13px; font-weight:700; color:#1f1f1f; letter-spacing:0.05em;">日本温泉 <span style="color:#1a6b64;">♨</span></span>
+        <div style="display:flex; gap:12px;">
+          <span style="font-size:9px; color:#777;">ホーム</span>
+          <span style="font-size:9px; color:#777;">都道府県</span>
+          <span style="font-size:9px; color:#777;">温泉地</span>
+        </div>
+      </div>
+      <!-- Mini hero — white with teal accent line -->
+      <div style="background:#fff; border-bottom:3px solid #1a6b64; padding:20px 16px; text-align:center;">
+        <div style="font-size:8px; color:#1a6b64; letter-spacing:0.3em; margin-bottom:6px; font-weight:600;">JAPAN HOT SPRINGS</div>
+        <div style="font-family:'Noto Serif JP',serif; font-size:16px; font-weight:700; color:#1f1f1f; margin-bottom:8px;">全国の温泉を探す</div>
+        <div style="display:inline-flex; align-items:center; border:1.5px solid #e0e0e0; border-radius:20px; padding:5px 12px; gap:6px; background:#f7f7f7;">
+          <span style="font-size:9px; color:#999;">温泉名・地域を入力...</span>
+          <div style="background:#1a6b64; border-radius:50%; width:16px; height:16px; display:flex; align-items:center; justify-content:center;"><span style="color:#fff; font-size:8px;">→</span></div>
+        </div>
+      </div>
+      <!-- Mini cards -->
+      <div style="padding:12px; background:#f7f7f7; display:flex; gap:8px;">
+        <div style="flex:1; background:#fff; border-radius:8px; border:1px solid #ececec; padding:8px; box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+          <div style="height:36px; background:linear-gradient(135deg,#c8dedd,#a8cece); border-radius:5px; margin-bottom:6px;"></div>
+          <div style="height:6px; background:#1f1f1f; border-radius:3px; width:70%; margin-bottom:3px;"></div>
+          <div style="height:4px; background:#1a6b64; border-radius:3px; width:30%;"></div>
+        </div>
+        <div style="flex:1; background:#fff; border-radius:8px; border:1px solid #ececec; padding:8px; box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+          <div style="height:36px; background:linear-gradient(135deg,#e8d8b8,#d8c898); border-radius:5px; margin-bottom:6px;"></div>
+          <div style="height:6px; background:#1f1f1f; border-radius:3px; width:70%; margin-bottom:3px;"></div>
+          <div style="height:4px; background:#1a6b64; border-radius:3px; width:30%;"></div>
+        </div>
+      </div>
+      <!-- Color palette -->
+      <div style="padding:10px 16px; background:#fff; border-top:1px solid #ececec; display:flex; gap:6px; align-items:center;">
+        <div style="width:20px;height:20px;border-radius:50%;background:#1a6b64;"></div>
+        <div style="width:20px;height:20px;border-radius:50%;background:#e8c89e;"></div>
+        <div style="width:20px;height:20px;border-radius:50%;background:#f7f7f7; border:1px solid #ddd;"></div>
+        <div style="width:20px;height:20px;border-radius:50%;background:#1f1f1f;"></div>
+        <span style="font-size:9px; color:#666; margin-left:4px;">深緑×砂色×白</span>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — ミニマル湯気</h3>
+      <p>深い緑（温泉の湯気・苔）×白。余白を活かしたスカンジナビア×和の超シンプルデザイン。洗練された大人向け。</p>
+    </div>
+  </div>
+
+</div>

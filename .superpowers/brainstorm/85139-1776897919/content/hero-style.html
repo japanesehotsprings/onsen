@@ -1,0 +1,160 @@
+<h2>トップページのヒーロー — どちらのスタイルが好みですか？</h2>
+<p class="subtitle">カラーは白×琥珀で共通。ヒーローセクションの見せ方を選んでください。</p>
+
+<div class="split">
+
+  <!-- Option A: Photo hero with warm overlay -->
+  <div class="mockup" data-choice="a" onclick="toggleSelect(this)" style="cursor:pointer; transition:box-shadow 0.2s;">
+    <div class="mockup-header">A — 写真ヒーロー（温泉の情景）</div>
+    <div class="mockup-body" style="padding:0; overflow:hidden; font-family:'Noto Sans JP',sans-serif;">
+
+      <!-- Header -->
+      <div style="background:rgba(255,255,255,0.92); backdrop-filter:blur(12px); padding:10px 18px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid rgba(181,112,58,0.15);">
+        <span style="font-family:'Noto Serif JP',serif; font-size:13px; font-weight:700; color:#1a1a1a;">日本温泉 <span style="color:#b5703a;">♨</span></span>
+        <div style="display:flex; gap:14px;">
+          <span style="font-size:9px; color:#555;">ホーム</span>
+          <span style="font-size:9px; color:#555;">都道府県</span>
+          <span style="font-size:9px; color:#555;">温泉地</span>
+          <span style="font-size:9px; color:#555;">温泉宿</span>
+        </div>
+      </div>
+
+      <!-- Hero with photo feel -->
+      <div style="position:relative; background:linear-gradient(160deg,#4a3828 0%,#6b4c30 40%,#8a6040 100%); padding:32px 18px 28px; text-align:center; overflow:hidden;">
+        <!-- Subtle texture overlay -->
+        <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 60%, rgba(255,200,120,0.18) 0%, transparent 70%);"></div>
+        <div style="position:relative; z-index:1;">
+          <div style="font-size:8px; color:rgba(255,220,160,0.8); letter-spacing:0.4em; margin-bottom:8px; font-weight:500;">JAPAN HOT SPRINGS</div>
+          <div style="font-family:'Noto Serif JP',serif; font-size:20px; font-weight:700; color:#fff; line-height:1.3; margin-bottom:4px;">全国47都道府県の</div>
+          <div style="font-family:'Noto Serif JP',serif; font-size:20px; font-weight:700; color:#f4c882; line-height:1.3; margin-bottom:12px;">温泉地を探そう</div>
+          <p style="font-size:9px; color:rgba(255,255,255,0.65); margin-bottom:14px; line-height:1.6;">秘湯から名湯まで、日本全国の温泉をご紹介</p>
+          <!-- Search bar -->
+          <div style="display:flex; align-items:center; background:rgba(255,255,255,0.96); border-radius:40px; padding:5px 6px 5px 14px; max-width:280px; margin:0 auto; box-shadow:0 4px 20px rgba(0,0,0,0.2);">
+            <span style="font-size:9px; color:#aaa; flex:1;">温泉名・泉質・地域を入力...</span>
+            <div style="background:#b5703a; border-radius:50%; width:22px; height:22px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+              <span style="color:#fff; font-size:10px;">⌕</span>
+            </div>
+          </div>
+          <!-- Tags -->
+          <div style="display:flex; gap:6px; justify-content:center; margin-top:10px; flex-wrap:wrap;">
+            <span style="padding:3px 10px; border:1px solid rgba(244,200,130,0.5); border-radius:20px; font-size:8px; color:rgba(244,200,130,0.9);">秘湯</span>
+            <span style="padding:3px 10px; border:1px solid rgba(244,200,130,0.5); border-radius:20px; font-size:8px; color:rgba(244,200,130,0.9);">硫黄泉</span>
+            <span style="padding:3px 10px; border:1px solid rgba(244,200,130,0.5); border-radius:20px; font-size:8px; color:rgba(244,200,130,0.9);">露天風呂</span>
+            <span style="padding:3px 10px; border:1px solid rgba(244,200,130,0.5); border-radius:20px; font-size:8px; color:rgba(244,200,130,0.9);">美肌の湯</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cards preview -->
+      <div style="padding:14px; background:#fffcf7; display:flex; gap:8px;">
+        <div style="flex:1; background:#fff; border-radius:8px; border:1px solid #f0e8dc; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+          <div style="height:44px; background:linear-gradient(135deg,#d4b896,#c09a78); position:relative;">
+            <span style="position:absolute; top:4px; left:6px; background:rgba(181,112,58,0.85); color:#fff; font-size:7px; padding:2px 6px; border-radius:10px;">名湯</span>
+          </div>
+          <div style="padding:7px;">
+            <div style="font-size:7px; color:#b5703a; margin-bottom:2px;">北海道</div>
+            <div style="font-size:9px; font-weight:700; color:#1a1a1a; margin-bottom:3px;">登別温泉</div>
+            <div style="height:4px; background:#f0e8dc; border-radius:2px; width:90%;"></div>
+          </div>
+        </div>
+        <div style="flex:1; background:#fff; border-radius:8px; border:1px solid #f0e8dc; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+          <div style="height:44px; background:linear-gradient(135deg,#c8d4c0,#a8b898); position:relative;">
+            <span style="position:absolute; top:4px; left:6px; background:rgba(181,112,58,0.85); color:#fff; font-size:7px; padding:2px 6px; border-radius:10px;">秘湯</span>
+          </div>
+          <div style="padding:7px;">
+            <div style="font-size:7px; color:#b5703a; margin-bottom:2px;">秋田県</div>
+            <div style="font-size:9px; font-weight:700; color:#1a1a1a; margin-bottom:3px;">乳頭温泉郷</div>
+            <div style="height:4px; background:#f0e8dc; border-radius:2px; width:90%;"></div>
+          </div>
+        </div>
+        <div style="flex:1; background:#fff; border-radius:8px; border:1px solid #f0e8dc; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+          <div style="height:44px; background:linear-gradient(135deg,#d4c8b0,#c0b090); position:relative;">
+            <span style="position:absolute; top:4px; left:6px; background:rgba(181,112,58,0.85); color:#fff; font-size:7px; padding:2px 6px; border-radius:10px;">名湯</span>
+          </div>
+          <div style="padding:7px;">
+            <div style="font-size:7px; color:#b5703a; margin-bottom:2px;">群馬県</div>
+            <div style="font-size:9px; font-weight:700; color:#1a1a1a; margin-bottom:3px;">草津温泉</div>
+            <div style="height:4px; background:#f0e8dc; border-radius:2px; width:90%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Option B: Clean white hero, minimal -->
+  <div class="mockup" data-choice="b" onclick="toggleSelect(this)" style="cursor:pointer; transition:box-shadow 0.2s;">
+    <div class="mockup-header">B — クリーン白ヒーロー（ミニマル）</div>
+    <div class="mockup-body" style="padding:0; overflow:hidden; font-family:'Noto Sans JP',sans-serif;">
+
+      <!-- Header -->
+      <div style="background:#fff; padding:10px 18px; display:flex; align-items:center; justify-content:space-between; border-bottom:2px solid #b5703a;">
+        <span style="font-family:'Noto Serif JP',serif; font-size:13px; font-weight:700; color:#1a1a1a;">日本温泉 <span style="color:#b5703a;">♨</span></span>
+        <div style="display:flex; gap:14px;">
+          <span style="font-size:9px; color:#555;">ホーム</span>
+          <span style="font-size:9px; color:#555;">都道府県</span>
+          <span style="font-size:9px; color:#555;">温泉地</span>
+          <span style="font-size:9px; color:#555;">温泉宿</span>
+        </div>
+      </div>
+
+      <!-- Clean white hero -->
+      <div style="background:#fff; padding:28px 18px 24px; text-align:center; border-bottom:1px solid #f0e8dc;">
+        <div style="display:inline-block; background:#fdf5ec; border:1px solid #f0dfc8; border-radius:20px; padding:3px 12px; font-size:8px; color:#b5703a; font-weight:600; letter-spacing:0.15em; margin-bottom:12px;">♨ JAPAN HOT SPRINGS</div>
+        <div style="font-family:'Noto Serif JP',serif; font-size:20px; font-weight:700; color:#1a1a1a; line-height:1.3; margin-bottom:4px;">全国47都道府県の</div>
+        <div style="font-family:'Noto Serif JP',serif; font-size:20px; font-weight:700; color:#b5703a; line-height:1.3; margin-bottom:10px;">温泉地を探そう</div>
+        <p style="font-size:9px; color:#888; margin-bottom:14px; line-height:1.6;">秘湯から名湯まで、日本全国の温泉をご紹介</p>
+        <!-- Search bar -->
+        <div style="display:flex; align-items:center; background:#fff; border:1.5px solid #e0d4c4; border-radius:40px; padding:5px 6px 5px 14px; max-width:280px; margin:0 auto; box-shadow:0 2px 12px rgba(181,112,58,0.12);">
+          <span style="font-size:9px; color:#bbb; flex:1;">温泉名・泉質・地域を入力...</span>
+          <div style="background:#b5703a; border-radius:50%; width:22px; height:22px; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+            <span style="color:#fff; font-size:10px;">⌕</span>
+          </div>
+        </div>
+        <!-- Tags -->
+        <div style="display:flex; gap:6px; justify-content:center; margin-top:10px; flex-wrap:wrap;">
+          <span style="padding:3px 10px; border:1px solid #e0d4c4; border-radius:20px; font-size:8px; color:#b5703a; background:#fdf5ec;">秘湯</span>
+          <span style="padding:3px 10px; border:1px solid #e0d4c4; border-radius:20px; font-size:8px; color:#b5703a; background:#fdf5ec;">硫黄泉</span>
+          <span style="padding:3px 10px; border:1px solid #e0d4c4; border-radius:20px; font-size:8px; color:#b5703a; background:#fdf5ec;">露天風呂</span>
+          <span style="padding:3px 10px; border:1px solid #e0d4c4; border-radius:20px; font-size:8px; color:#b5703a; background:#fdf5ec;">美肌の湯</span>
+        </div>
+      </div>
+
+      <!-- Cards preview on white -->
+      <div style="padding:14px; background:#f7f5f2; display:flex; gap:8px;">
+        <div style="flex:1; background:#fff; border-radius:8px; border:1px solid #ece4d8; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+          <div style="height:44px; background:linear-gradient(135deg,#d4b896,#c09a78); position:relative;">
+            <span style="position:absolute; top:4px; left:6px; background:rgba(181,112,58,0.85); color:#fff; font-size:7px; padding:2px 6px; border-radius:10px;">名湯</span>
+          </div>
+          <div style="padding:7px;">
+            <div style="font-size:7px; color:#b5703a; margin-bottom:2px;">北海道</div>
+            <div style="font-size:9px; font-weight:700; color:#1a1a1a; margin-bottom:3px;">登別温泉</div>
+            <div style="height:4px; background:#f0e8dc; border-radius:2px; width:90%;"></div>
+          </div>
+        </div>
+        <div style="flex:1; background:#fff; border-radius:8px; border:1px solid #ece4d8; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+          <div style="height:44px; background:linear-gradient(135deg,#c8d4c0,#a8b898); position:relative;">
+            <span style="position:absolute; top:4px; left:6px; background:rgba(181,112,58,0.85); color:#fff; font-size:7px; padding:2px 6px; border-radius:10px;">秘湯</span>
+          </div>
+          <div style="padding:7px;">
+            <div style="font-size:7px; color:#b5703a; margin-bottom:2px;">秋田県</div>
+            <div style="font-size:9px; font-weight:700; color:#1a1a1a; margin-bottom:3px;">乳頭温泉郷</div>
+            <div style="height:4px; background:#f0e8dc; border-radius:2px; width:90%;"></div>
+          </div>
+        </div>
+        <div style="flex:1; background:#fff; border-radius:8px; border:1px solid #ece4d8; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.06);">
+          <div style="height:44px; background:linear-gradient(135deg,#d4c8b0,#c0b090); position:relative;">
+            <span style="position:absolute; top:4px; left:6px; background:rgba(181,112,58,0.85); color:#fff; font-size:7px; padding:2px 6px; border-radius:10px;">名湯</span>
+          </div>
+          <div style="padding:7px;">
+            <div style="font-size:7px; color:#b5703a; margin-bottom:2px;">群馬県</div>
+            <div style="font-size:9px; font-weight:700; color:#1a1a1a; margin-bottom:3px;">草津温泉</div>
+            <div style="height:4px; background:#f0e8dc; border-radius:2px; width:90%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<p class="subtitle" style="margin-top:1.5rem;">クリックして選ぶか、「Aをベースに写真は残したい」「Bで写真は大きく」などコメントでもOKです。</p>
