@@ -7,6 +7,8 @@
 import { regions, prefectures, getPrefecturesByRegion } from '../data/prefectures.js';
 import { onsenList } from '../data/onsen.js';
 import { getRandomHotels } from '../data/hotels.js';
+import { specialList } from '../data/specials.js';
+import { articleList } from '../data/articles.js';
 import { navigateTo } from '../router.js';
 import { updateSEO } from '../seo.js';
 
@@ -142,6 +144,57 @@ export function renderHome() {
               </a>
             `;
   }).join('')}
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="specials">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">特集・テーマ別温泉</h2>
+          <p class="section-desc">季節やシーンで選ぶ、とっておきの温泉旅行</p>
+        </div>
+        <div class="hotel-grid">
+          ${specialList.slice(0, 4).map(s => `
+            <a href="/onsen/special/${s.id}" class="hotel-card hotel-card-link">
+              <div class="hotel-card-image" style="background:${s.color}33;display:flex;align-items:center;justify-content:center;min-height:160px">
+                <span style="font-size:3.5rem">${s.icon}</span>
+              </div>
+              <div class="hotel-card-body">
+                <span style="font-size:0.75rem;color:var(--color-text-muted)">${s.subtitle}</span>
+                <h3 class="hotel-card-name">${s.title}</h3>
+              </div>
+            </a>
+          `).join('')}
+        </div>
+        <div style="text-align:center;margin-top:1.5rem">
+          <a href="/onsen/specials" class="btn btn-outline">特集をもっと見る</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="articles">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">温泉コラム・記事</h2>
+          <p class="section-desc">温泉の楽しみ方をもっと深く知る</p>
+        </div>
+        <div class="hotel-grid">
+          ${articleList.slice(0, 4).map(a => `
+            <a href="/onsen/article/${a.id}" class="hotel-card hotel-card-link">
+              <div class="hotel-card-image">
+                <img src="${a.image}" alt="${a.title}" loading="lazy">
+                <span class="hotel-type-badge">${a.categoryLabel}</span>
+              </div>
+              <div class="hotel-card-body">
+                <span style="font-size:0.75rem;color:var(--color-text-muted)">${a.published}</span>
+                <h3 class="hotel-card-name" style="font-size:0.9rem">${a.title}</h3>
+              </div>
+            </a>
+          `).join('')}
+        </div>
+        <div style="text-align:center;margin-top:1.5rem">
+          <a href="/onsen/articles" class="btn btn-outline">記事をもっと見る</a>
         </div>
       </div>
     </section>

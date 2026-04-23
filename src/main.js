@@ -12,6 +12,15 @@ import { renderOnsenDetail } from './pages/onsenDetail.js';
 import { renderHotelDetail } from './pages/hotelDetail.js';
 import { renderOnsenList } from './pages/onsenList.js';
 import { renderHotelList } from './pages/hotelList.js';
+import { renderSpringTypeList } from './pages/springTypeList.js';
+import { renderSpringTypeDetail } from './pages/springTypeDetail.js';
+import { renderSpecialList } from './pages/specialList.js';
+import { renderSpecialDetail } from './pages/specialDetail.js';
+import { renderGuide } from './pages/guide.js';
+import { renderCourseList } from './pages/courseList.js';
+import { renderCourseDetail } from './pages/courseDetail.js';
+import { renderArticleList } from './pages/articleList.js';
+import { renderArticleDetail } from './pages/articleDetail.js';
 
 // DOMの準備完了後に初期化
 document.addEventListener('DOMContentLoaded', () => {
@@ -26,6 +35,15 @@ document.addEventListener('DOMContentLoaded', () => {
     addRoute('/onsens', renderOnsenList);
     addRoute('/hotels', renderHotelList);
     addRoute('/search', renderSearchResults);
+    addRoute('/spring-types', renderSpringTypeList);
+    addRoute('/spring-type/:id', renderSpringTypeDetail);
+    addRoute('/specials', renderSpecialList);
+    addRoute('/special/:id', renderSpecialDetail);
+    addRoute('/guide', renderGuide);
+    addRoute('/courses', renderCourseList);
+    addRoute('/course/:id', renderCourseDetail);
+    addRoute('/articles', renderArticleList);
+    addRoute('/article/:id', renderArticleDetail);
 
     // 内部リンクのクリックをインターセプトしてSPA遷移
     document.addEventListener('click', (e) => {
