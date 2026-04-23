@@ -188,7 +188,6 @@ export function renderHome() {
                 <span class="hotel-type-badge">${a.categoryLabel}</span>
               </div>
               <div class="hotel-card-body">
-                <span style="font-size:0.75rem;color:var(--color-text-muted)">${a.published}</span>
                 <h3 class="hotel-card-name" style="font-size:0.9rem">${a.title}</h3>
               </div>
             </a>

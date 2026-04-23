@@ -29,7 +29,6 @@ export function renderArticleDetail({ params }) {
                 </nav>
                 <div class="onsen-hero-badge">📝 ${article.categoryLabel}</div>
                 <h1 class="prefecture-hero-title" style="font-size:clamp(1.2rem,3vw,1.8rem)">${article.title}</h1>
-                <p class="prefecture-hero-kana">${article.published}</p>
             </div>
         </div>
 
