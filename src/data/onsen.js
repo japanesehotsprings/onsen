@@ -13,7 +13,13 @@ export const onsenList = [
         spring_type: '硫黄泉・食塩泉など9種',
         description: '日本屈指の温泉地。地獄谷の迫力ある噴気孔と多様な泉質が魅力。クマ牧場でも有名。',
         image: './onsen/noboribetsu.png',
-        tags: ['硫黄泉', '地獄谷', '名湯', '北海道']
+        tags: ['硫黄泉', '地獄谷', '名湯', '北海道'],
+        effects: ['疲労回復', '慢性皮膚病', '神経痛', '関節痛'],
+        history: '明治元年（1868年）に温泉宿が開かれた。アイヌの人々が「ヌプルペツ」（色彩のある川）と呼んでいた地で、古くから薬湯として知られていた。',
+        day_trip: { available: true, price: '1,500円〜', hours: '10:00-16:00' },
+        access: { nearest_station: '登別駅（JR室蘭本線）', by_train: '登別駅からバス約13分', by_car: '道央道・登別東ICから約10分', parking: true },
+        drinkable: false,
+        footbath: { available: true, location: '地獄谷周辺', free: true }
     },
     {
         id: 'o-hokkaido-2',
@@ -23,7 +29,13 @@ export const onsenList = [
         spring_type: '単純温泉',
         description: '洞爺湖畔に広がるリゾート温泉。湖面に映る有珠山と花火大会が絵になる景勝地。',
         image: './onsen/toyako.png',
-        tags: ['湖畔', '花火', 'リゾート', '北海道']
+        tags: ['湖畔', '花火', 'リゾート', '北海道'],
+        effects: ['疲労回復', '神経痛', '筋肉痛'],
+        history: '明治31年（1898年）の有珠山噴火後に温泉が湧出。昭和の時代に観光地として発展し、2008年にはG8洞爺湖サミットの舞台となった。',
+        day_trip: { available: true, price: '800円〜', hours: '11:00-21:00' },
+        access: { nearest_station: '洞爺駅（JR室蘭本線）', by_train: '洞爺駅からバス約20分', by_car: '道央道・虻田洞爺湖ICから約5分', parking: true },
+        drinkable: false,
+        footbath: { available: true, location: '湖畔公園', free: true }
     },
     {
         id: 'o-hokkaido-3',
@@ -531,7 +543,13 @@ export const onsenList = [
         spring_type: '酸性硫黄泉（含石膏）',
         description: '日本を代表する名湯。街の中心にある湯畑と時間湯が草津のシンボル。日本三名泉の一つ。',
         image: './onsen/kusatsu.png',
-        tags: ['湯畑', '時間湯', '日本三名泉', '群馬']
+        tags: ['湯畑', '時間湯', '日本三名泉', '群馬'],
+        effects: ['疲労回復', '慢性皮膚病', '糖尿病', '高血圧', '動脈硬化'],
+        history: '源頼朝が発見したと伝えられる日本三名泉のひとつ。江戸時代から湯治場として栄え、年間300万人超が訪れる日本最大級の温泉地。',
+        day_trip: { available: true, price: '無料〜', hours: '終日（公共浴場）' },
+        access: { nearest_station: '長野原草津口駅（JR吾妻線）', by_train: '長野原草津口駅からバス約25分', by_car: '関越道・渋川伊香保ICから約60分', parking: true },
+        drinkable: false,
+        footbath: { available: true, location: '湯畑周辺', free: true }
     },
     {
         id: 'o-gunma-2',
@@ -699,7 +717,13 @@ export const onsenList = [
         spring_type: '硫黄泉・塩化物泉など多様',
         description: '富士山を望む日本最大級の温泉リゾート。17の温泉地からなり泉質も多様。芦ノ湖や大涌谷も楽しめる。',
         image: './onsen/hakone.png',
-        tags: ['リゾート', '富士山', '芦ノ湖', '神奈川']
+        tags: ['リゾート', '富士山', '芦ノ湖', '神奈川'],
+        effects: ['疲労回復', '神経痛', '筋肉痛', '美肌'],
+        history: '奈良時代から知られる古湯。江戸時代の東海道・箱根関所の宿場町として栄え、明治以降は外国人旅行者にも親しまれた国際的リゾート温泉地。',
+        day_trip: { available: true, price: '1,000円〜', hours: '施設により異なる' },
+        access: { nearest_station: '箱根湯本駅（箱根登山鉄道）', by_train: '新宿から小田急ロマンスカーで約85分', by_car: '東名高速・厚木ICから約60分', parking: true },
+        drinkable: false,
+        footbath: { available: true, location: '箱根湯本駅周辺', free: false }
     },
     {
         id: 'o-kanagawa-2',
@@ -1207,7 +1231,13 @@ export const onsenList = [
         spring_type: '含鉄ナトリウム塩化物泉（金泉）・含炭酸ラジウム泉（銀泉）',
         description: '日本三名泉の一つ。金泉・銀泉の2種の湯が楽しめる名湯。豊臣秀吉も愛した日本最古の温泉の一つ。',
         image: './onsen/arima.png',
-        tags: ['日本三名泉', '金泉', '銀泉', '兵庫']
+        tags: ['日本三名泉', '金泉', '銀泉', '兵庫'],
+        effects: ['疲労回復', '皮膚病', '神経痛', '関節炎', '美肌'],
+        history: '日本書紀にも登場する日本最古の温泉地のひとつ。豊臣秀吉が愛した「太閤の湯」として有名。鉄分を含む赤褐色の「金泉」と無色透明の「銀泉」の2種が名物。',
+        day_trip: { available: true, price: '650〜800円', hours: '8:00-22:00' },
+        access: { nearest_station: '有馬温泉駅（神戸電鉄有馬線）', by_train: '三宮から神戸電鉄で約30分', by_car: '阪神高速・北神戸線・有馬口ICから約10分', parking: true },
+        drinkable: false,
+        footbath: { available: true, location: '太閤通周辺', free: true }
     },
     {
         id: 'o-hyogo-2',
@@ -1629,7 +1659,13 @@ export const onsenList = [
         spring_type: '硫黄泉・食塩泉・単純泉など多様',
         description: '日本一の源泉数と湧出量を誇る温泉都市。カラフルな地獄めぐりと多彩な泉質が楽しめる世界的温泉地。',
         image: './onsen/beppu.png',
-        tags: ['日本一の源泉数', '地獄めぐり', '大分']
+        tags: ['日本一の源泉数', '地獄めぐり', '大分'],
+        effects: ['疲労回復', '神経痛', '筋肉痛', '慢性皮膚病', '慢性消化器病'],
+        history: '大正時代に油屋熊八が「地獄めぐり」を観光資源として整備し発展。8つの地獄を持つ「地獄蒸し」文化や多様な泉質（8種）で世界的に知られる日本最大の温泉地。',
+        day_trip: { available: true, price: '100〜400円（市営温泉）', hours: '6:30-22:30（施設により異なる）' },
+        access: { nearest_station: '別府駅（JR日豊本線）', by_train: '大分空港から車約60分、大分駅から特急で約15分', by_car: '大分道・別府ICから約10分', parking: true },
+        drinkable: false,
+        footbath: { available: true, location: '竹瓦温泉前・駅前', free: true }
     },
     {
         id: 'o-oita-2',
@@ -1639,7 +1675,13 @@ export const onsenList = [
         spring_type: '単純泉・炭酸水素塩泉',
         description: '由布岳を望む風光明媚な温泉地。アート・カフェ・おしゃれな雑貨店が立ち並び若い世代にも人気。',
         image: './onsen/yufuin.png',
-        tags: ['由布岳', 'アート', 'おしゃれ', '大分']
+        tags: ['由布岳', 'アート', 'おしゃれ', '大分'],
+        effects: ['疲労回復', '美肌', '神経痛', '筋肉疲労'],
+        history: '江戸時代から湯治場として知られていたが、昭和50年代に「由布院モデル」として地域主導の観光まちづくりを推進。温泉だけでなく文化・芸術・食も楽しめる洗練されたリゾートとして全国区の人気を誇る。',
+        day_trip: { available: true, price: '500〜800円', hours: '施設により異なる' },
+        access: { nearest_station: '由布院駅（JR久大本線）', by_train: '博多から「ゆふいんの森」で約2時間', by_car: '大分道・由布ICから約10分', parking: true },
+        drinkable: false,
+        footbath: { available: true, location: '由布院駅前', free: true }
     },
     {
         id: 'o-oita-4',
