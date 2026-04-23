@@ -22,7 +22,7 @@ export function renderSpringTypeList() {
                     ${springTypeList.map(st => `
                         <a href="/onsen/spring-type/${st.id}" class="hotel-card hotel-card-link">
                             ${st.image
-                                ? `<div class="hotel-card-image"><img src="${st.image}" alt="${st.name}" loading="lazy"><span class="hotel-type-badge">${st.icon} ${st.name}</span></div>`
+                                ? `<div class="hotel-card-image"><img src="${st.image}" alt="${st.name}" loading="lazy"><span class="hotel-type-badge">${st.name}</span></div>`
                                 : `<div class="hotel-card-image" style="background:linear-gradient(135deg,${st.color}18 0%,${st.color}40 100%);display:flex;align-items:center;justify-content:center;height:200px;"><span style="font-size:4.5rem;filter:drop-shadow(0 6px 16px ${st.color}88)">${st.icon}</span></div>`
                             }
                             <div class="hotel-card-body">
