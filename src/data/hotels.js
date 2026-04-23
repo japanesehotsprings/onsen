@@ -15,6 +15,10 @@ export const hotelList = [
         price: '2食付き 22,000円〜',
         image: './hotels/daiichitaki.png',
         tags: ['源泉掛け流し', '露天風呂', '大型旅館', '地獄谷徒歩圏'],
+        source_type: '源泉かけ流し',
+        features: ['展望露天風呂', '24時間入浴可', '貸切風呂'],
+        meals: { dinner: '北海道産食材を使った和洋バイキング', breakfast: '和洋バイキング' },
+        scenes: ['家族', 'カップル'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad364904%2F', rakuten: 'https://a.r10.to/hkkqqH', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000587%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000587%252F' }
     },
     {
@@ -27,6 +31,10 @@ export const hotelList = [
         price: '2食付き 18,000円〜',
         image: './hotels/noboribetsugrand.png',
         tags: ['展望露天', '5種の湯', 'リゾート'],
+        source_type: '源泉かけ流し',
+        features: ['展望露天風呂', '5種の湯'],
+        meals: { dinner: '北海道の恵みを活かした会席料理', breakfast: '和朝食' },
+        scenes: ['カップル', '一人旅'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad331184%2F', rakuten: 'https://a.r10.to/hPp6LH', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000583%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000583%252F' }
     },
     {
@@ -39,6 +47,10 @@ export const hotelList = [
         price: '2食付き 28,000円〜',
         image: './hotels/takinoya.png',
         tags: ['老舗旅館', '純和風', '美食', 'おもてなし'],
+        source_type: '源泉かけ流し',
+        features: ['源泉かけ流し', '部屋食', '露天風呂'],
+        meals: { dinner: '北海道の旬食材を使った懐石料理', breakfast: '和朝食（部屋食）' },
+        scenes: ['カップル', '一人旅', '女子旅'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad320864%2F', rakuten: 'https://a.r10.to/h5yL0p', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00001424', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00001424' }
     },
 
@@ -53,6 +65,10 @@ export const hotelList = [
         price: '2食付き 70,000円〜',
         image: './hotels/thewindsorhoteldoya.png',
         tags: ['G8サミット', 'ラグジュアリー', '絶景', '世界級'],
+        source_type: '加水あり',
+        features: ['展望露天風呂', '露天付き客室', 'スパ'],
+        meals: { dinner: 'フレンチ・和食など複数レストラン', breakfast: 'ブッフェ' },
+        scenes: ['カップル', '女子旅'],
         bookingUrls: { jalan: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1GE6SA+14CS+BW8O2&a8ejpredirect=https%3A%2F%2Fwww.jalan.net%2Fyad301556%2F', rakuten: 'https://a.r10.to/h5cNCc', ikyu: 'https://px.a8.net/svt/ejp?a8mat=3N8796+1KK80Q+1OK+BW0YB&a8ejpredirect=https%3A%2F%2Fwww.ikyu.com%2FikCo.ashx%3Fcosid%3Da8ikyu%26surl%3Dhttps%253A%252F%252Fwww.ikyu.com%252F00000440%252F', yahoo: 'https://px.a8.net/svt/ejp?a8mat=4AZ9C4+7JHPEI+4ZCO+BW0YB&a8ejpredirect=https%3A%2F%2Ftravel.yahoo.co.jp%2FikCo.ashx%3Fcosid%3Dy_a8net%26surl%3Dhttps%253A%252F%252Ftravel.yahoo.co.jp%252F00000440%252F' }
     },
     {
