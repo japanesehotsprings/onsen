@@ -21,7 +21,8 @@ export function renderSpecialDetail({ params }) {
     ).slice(0, 6);
 
     app.innerHTML = `
-        <div class="prefecture-hero onsen-hero" style="background:${special.color}44">
+        <div class="prefecture-hero onsen-hero" style="${special.image ? '' : `background:${special.color}44`}">
+            ${special.image ? `<img src="${special.image}" alt="${special.title}" class="prefecture-hero-bg">` : ''}
             <div class="prefecture-hero-overlay"></div>
             <div class="prefecture-hero-content">
                 <nav class="breadcrumb breadcrumb-light">

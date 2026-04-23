@@ -49,13 +49,13 @@ export function renderCourseDetail({ params }) {
             <div class="container" style="max-width:800px">
                 <h2 class="section-title">スケジュール</h2>
                 ${course.itinerary.map(day => `
-                    <div style="margin-bottom:2rem">
-                        <h3 style="color:var(--color-primary);margin-bottom:1rem">${day.day}日目</h3>
-                        <div style="border-left:2px solid var(--color-primary);padding-left:1.5rem">
+                    <div style="margin-bottom:3rem">
+                        <h3 style="color:var(--color-primary);margin-bottom:1.25rem;font-family:var(--font-heading);font-size:1.05rem;padding-bottom:0.75rem;border-bottom:1px solid var(--color-border)">${day.day}日目</h3>
+                        <div style="border-left:3px solid var(--color-primary);padding-left:2rem;display:flex;flex-direction:column;gap:1.25rem">
                             ${day.items.map(item => `
-                                <div style="margin-bottom:1rem;display:flex;gap:1rem">
-                                    <span style="min-width:3.5rem;color:var(--color-primary);font-weight:600">${item.time}</span>
-                                    <span style="color:var(--color-text-muted)">${item.label}</span>
+                                <div style="display:flex;gap:1.25rem;align-items:baseline">
+                                    <span style="min-width:3.5rem;color:var(--color-primary);font-weight:600;font-size:0.85rem;flex-shrink:0">${item.time}</span>
+                                    <span style="color:var(--color-text);line-height:1.65">${item.label}</span>
                                 </div>
                             `).join('')}
                         </div>

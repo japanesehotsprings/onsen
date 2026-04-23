@@ -34,8 +34,13 @@ export function renderArticleDetail({ params }) {
         </div>
 
         <section class="section">
-            <div class="container" style="max-width:800px">
-                <div style="line-height:1.9;color:var(--color-text-muted)">
+            <div class="container" style="max-width:760px">
+                <div class="article-meta">
+                    <span class="article-meta-category">${article.categoryLabel}</span>
+                    <span>${article.published}</span>
+                </div>
+                <p class="article-lead">${article.description}</p>
+                <div class="article-body">
                     ${article.body}
                 </div>
             </div>

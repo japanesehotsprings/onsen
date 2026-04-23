@@ -157,11 +157,12 @@ export function renderHome() {
         <div class="hotel-grid">
           ${specialList.slice(0, 4).map(s => `
             <a href="/onsen/special/${s.id}" class="hotel-card hotel-card-link">
-              <div class="hotel-card-image" style="background:${s.color}33;display:flex;align-items:center;justify-content:center;min-height:160px">
-                <span style="font-size:3.5rem">${s.icon}</span>
-              </div>
+              ${s.image
+                ? `<div class="hotel-card-image"><img src="${s.image}" alt="${s.title}" loading="lazy"><span class="hotel-type-badge">${s.subtitle}</span></div>`
+                : `<div class="hotel-card-image" style="background:linear-gradient(135deg,${s.color}18 0%,${s.color}44 100%);display:flex;align-items:center;justify-content:center;height:200px;"><span style="font-size:4.5rem;filter:drop-shadow(0 6px 16px ${s.color}88)">${s.icon}</span></div>`
+              }
               <div class="hotel-card-body">
-                <span style="font-size:0.75rem;color:var(--color-text-muted)">${s.subtitle}</span>
+                <span style="font-size:0.72rem;color:var(--color-primary);font-weight:600;letter-spacing:0.06em">${s.subtitle}</span>
                 <h3 class="hotel-card-name">${s.title}</h3>
               </div>
             </a>

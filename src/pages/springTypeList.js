@@ -21,9 +21,10 @@ export function renderSpringTypeList() {
                 <div class="hotel-grid">
                     ${springTypeList.map(st => `
                         <a href="/onsen/spring-type/${st.id}" class="hotel-card hotel-card-link">
-                            <div class="hotel-card-image" style="background:${st.color}22;display:flex;align-items:center;justify-content:center;min-height:160px">
-                                <span style="font-size:4rem">${st.icon}</span>
-                            </div>
+                            ${st.image
+                                ? `<div class="hotel-card-image"><img src="${st.image}" alt="${st.name}" loading="lazy"><span class="hotel-type-badge">${st.icon} ${st.name}</span></div>`
+                                : `<div class="hotel-card-image" style="background:linear-gradient(135deg,${st.color}18 0%,${st.color}40 100%);display:flex;align-items:center;justify-content:center;height:200px;"><span style="font-size:4.5rem;filter:drop-shadow(0 6px 16px ${st.color}88)">${st.icon}</span></div>`
+                            }
                             <div class="hotel-card-body">
                                 <h3 class="hotel-card-name">${st.name}</h3>
                                 <p class="hotel-card-desc">${st.description.slice(0, 60)}…</p>

@@ -20,7 +20,8 @@ export function renderSpringTypeDetail({ params }) {
     ).slice(0, 6);
 
     app.innerHTML = `
-        <div class="prefecture-hero onsen-hero" style="background:${st.color}33">
+        <div class="prefecture-hero onsen-hero" style="${st.image ? '' : `background:${st.color}33`}">
+            ${st.image ? `<img src="${st.image}" alt="${st.name}" class="prefecture-hero-bg">` : ''}
             <div class="prefecture-hero-overlay"></div>
             <div class="prefecture-hero-content">
                 <nav class="breadcrumb breadcrumb-light">

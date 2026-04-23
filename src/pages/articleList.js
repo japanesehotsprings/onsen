@@ -26,8 +26,8 @@ export function renderArticleList() {
                                 <span class="hotel-type-badge">${a.categoryLabel}</span>
                             </div>
                             <div class="hotel-card-body">
-                                <span style="font-size:0.75rem;color:var(--color-text-muted)">${a.published}</span>
-                                <h3 class="hotel-card-name" style="font-size:0.95rem">${a.title}</h3>
+                                <span style="font-size:0.72rem;color:var(--color-text-dim);letter-spacing:0.04em">${a.published}</span>
+                                <h3 class="hotel-card-name" style="font-size:0.98rem;line-height:1.5">${a.title}</h3>
                                 <p class="hotel-card-desc">${a.description.slice(0, 60)}…</p>
                             </div>
                         </a>

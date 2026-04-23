@@ -26,7 +26,7 @@ export function renderCourseList() {
                                 <span class="hotel-type-badge">${c.days}日間</span>
                             </div>
                             <div class="hotel-card-body">
-                                <span style="font-size:0.75rem;color:var(--color-text-muted)">${c.subtitle}</span>
+                                <span style="font-size:0.72rem;color:var(--color-primary);font-weight:600;letter-spacing:0.06em">${c.subtitle}</span>
                                 <h3 class="hotel-card-name">${c.title}</h3>
                                 <p class="hotel-card-desc">${c.description.slice(0, 60)}…</p>
                             </div>
