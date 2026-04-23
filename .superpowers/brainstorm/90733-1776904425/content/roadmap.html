@@ -1,0 +1,125 @@
+<h2>全15項目 実装ロードマップ</h2>
+<p class="subtitle">既存データへの追記から始め、新ページ → 特集コンテンツの順に段階的に強化する</p>
+
+<div class="section">
+  <h3 style="color:#4caf7d;margin-bottom:0.5rem">⚡ フェーズ1 — データ追記（すぐできる・効果大）</h3>
+  <p style="font-size:0.85rem;opacity:0.7;margin-bottom:1rem">既存の hotels.js / onsen.js にフィールドを追加するだけ。新しいページ不要。</p>
+  <div class="mockup">
+    <div class="mockup-header">追加するデータフィールドと表示例</div>
+    <div class="mockup-body" style="display:grid;gap:1rem">
+
+      <div style="border-left:3px solid #4caf7d;padding-left:1rem">
+        <div class="label">A2 — 効能バッジ</div>
+        <p>onsen.js に <code>effects: ['美肌', '疲労回復', '神経痛']</code> フィールドを追加。温泉地・宿カードにバッジ表示。検索・フィルターにも活用。</p>
+      </div>
+
+      <div style="border-left:3px solid #4caf7d;padding-left:1rem">
+        <div class="label">B1 — 源泉かけ流し情報</div>
+        <p>hotels.js に <code>source: '源泉かけ流し'</code>（or '加水あり' / '循環式'）を追加。宿詳細ページに明示表示。</p>
+      </div>
+
+      <div style="border-left:3px solid #4caf7d;padding-left:1rem">
+        <div class="label">B2 — 日帰り入浴情報</div>
+        <p>onsen.js に <code>dayTrip: { available: true, price: '800円〜', hours: '10:00-15:00' }</code> を追加。温泉地詳細ページに掲載。</p>
+      </div>
+
+      <div style="border-left:3px solid #4caf7d;padding-left:1rem">
+        <div class="label">B3 — こだわりバッジ（宿の特徴）</div>
+        <p>hotels.js に <code>features: ['露天付き客室', '貸切風呂', '展望風呂', '24時間入浴可']</code> を追加。宿カードにアイコン付きで表示。</p>
+      </div>
+
+      <div style="border-left:3px solid #4caf7d;padding-left:1rem">
+        <div class="label">B6 — アクセス情報</div>
+        <p>onsen.js に <code>access: { nearest_station: '草津温泉バスターミナル', by_train: '新幹線+バス約2時間', parking: true }</code> を追加。</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3 style="color:#c97d4e;margin-bottom:0.5rem">🏗 フェーズ2 — 新ページ・コンテンツ追加（中規模）</h3>
+  <p style="font-size:0.85rem;opacity:0.7;margin-bottom:1rem">新しいデータファイルとページコンポーネントを作成する。</p>
+  <div class="mockup">
+    <div class="mockup-header">新規ページ・データ</div>
+    <div class="mockup-body" style="display:grid;gap:1rem">
+
+      <div style="border-left:3px solid #c97d4e;padding-left:1rem">
+        <div class="label">A1 — 泉質詳細ページ</div>
+        <p>新規 springTypes.js データファイル + 泉質詳細ページ。URL例: <code>/spring-type/sulfur</code>。効能・特徴・代表温泉地一覧を掲載。</p>
+      </div>
+
+      <div style="border-left:3px solid #c97d4e;padding-left:1rem">
+        <div class="label">A3 — 泉質別おすすめ一覧</div>
+        <p>「硫黄泉の名湯一覧」など、泉質でフィルターした温泉地リストページ。既存データのフィルタリングで実装可能。</p>
+      </div>
+
+      <div style="border-left:3px solid #c97d4e;padding-left:1rem">
+        <div class="label">A4 — 飲泉・足湯情報 / B4 — 食事情報 / B5 — 歴史・由来</div>
+        <p>各データファイルへのフィールド追加と、詳細ページへの表示追加。<br>
+        onsen.js: <code>history</code>, <code>drinkable</code>, <code>footbath</code><br>
+        hotels.js: <code>meals</code>（夕食・朝食の特徴）</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3 style="color:#8a6eaf;margin-bottom:0.5rem">📰 フェーズ3 — 特集・編集コンテンツ（大きな差別化）</h3>
+  <p style="font-size:0.85rem;opacity:0.7;margin-bottom:1rem">新しいコンテンツ種別の設計が必要。最も差別化になる。</p>
+  <div class="mockup">
+    <div class="mockup-header">特集コンテンツ</div>
+    <div class="mockup-body" style="display:grid;gap:1rem">
+
+      <div style="border-left:3px solid #8a6eaf;padding-left:1rem">
+        <div class="label">C1 — 季節別特集ページ</div>
+        <p>新規 specials.js（特集データ）+ 特集一覧・詳細ページ。「雪見露天」「紅葉×温泉」「夏の避暑」など。既存の温泉地データをタグで紐づけ。</p>
+      </div>
+
+      <div style="border-left:3px solid #8a6eaf;padding-left:1rem">
+        <div class="label">C2 — シーン別おすすめ</div>
+        <p>「一人旅」「カップル」「家族」「女子旅」などのシーンタグを宿データに追加 + シーン別フィルターページ。</p>
+      </div>
+
+      <div style="border-left:3px solid #8a6eaf;padding-left:1rem">
+        <div class="label">C3 — 初めての温泉旅行ガイド</div>
+        <p>新規ガイドページ。温泉の入り方・マナー・持ち物・泉質の選び方など。SEO流入の入口として機能。</p>
+      </div>
+
+      <div style="border-left:3px solid #8a6eaf;padding-left:1rem">
+        <div class="label">C4 — エリア別モデルコース</div>
+        <p>新規 courses.js + モデルコースページ。既存のグルメ・観光スポットデータを組み合わせて「1泊2日プラン」を構成。</p>
+      </div>
+
+      <div style="border-left:3px solid #8a6eaf;padding-left:1rem">
+        <div class="label">C5 — 特集記事・ランキング</div>
+        <p>新規 articles.js + 記事一覧・詳細ページ。「関東から日帰りできる温泉10選」などのキュレーション記事。SNSシェア・ブックマーク誘導。</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="section" style="margin-top:1.5rem;padding:1rem;background:rgba(255,255,255,0.05);border-radius:8px">
+  <h3>フェーズごとの優先度の考え方</h3>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;margin-top:0.75rem">
+    <div style="text-align:center">
+      <div style="font-size:2rem">⚡</div>
+      <div class="label">フェーズ1</div>
+      <p style="font-size:0.85rem">データ追記のみ<br>工数：小<br>効果：大</p>
+    </div>
+    <div style="text-align:center">
+      <div style="font-size:2rem">🏗</div>
+      <div class="label">フェーズ2</div>
+      <p style="font-size:0.85rem">新ページ追加<br>工数：中<br>効果：大</p>
+    </div>
+    <div style="text-align:center">
+      <div style="font-size:2rem">📰</div>
+      <div class="label">フェーズ3</div>
+      <p style="font-size:0.85rem">編集コンテンツ<br>工数：大<br>差別化：最大</p>
+    </div>
+  </div>
+</div>
+
+<p class="subtitle" style="margin-top:1.5rem">このロードマップでよければターミナルで「OK」と教えてください。デザインドキュメントにまとめて、実装計画に進みます。</p>
