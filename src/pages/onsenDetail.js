@@ -1,17 +1,8 @@
-/**
- * 温泉地詳細ページ
- * 特定の温泉地に属する宿一覧を表示する
- */
-
 import { onsenList } from '../data/onsen.js';
 import { getHotelsByOnsen } from '../data/hotels.js';
 import { getPrefectureById } from '../data/prefectures.js';
 import { updateSEO } from '../seo.js';
 
-/**
- * 温泉地詳細ページのHTMLを生成して表示する
- * @param {object} context - ルーターから渡されるコンテキスト
- */
 export function renderOnsenDetail({ params }) {
   const app = document.getElementById('app');
   const onsen = onsenList.find(o => o.id === params.id);
@@ -45,6 +36,9 @@ export function renderOnsenDetail({ params }) {
     'amenityFeature': { '@type': 'LocationFeatureSpecification', 'name': '温泉', 'value': true }
   });
 
+  const hasDayTrip = onsen.day_trip?.available;
+  const hasFootbath = onsen.footbath?.available;
+
   app.innerHTML = `
     <div class="prefecture-hero onsen-hero">
       <img src="${onsen.image}" alt="${onsen.name}" class="prefecture-hero-bg">
@@ -60,98 +54,135 @@ export function renderOnsenDetail({ params }) {
         <div class="onsen-hero-badge">♨ ${onsen.category}</div>
         <h1 class="prefecture-hero-title">${onsen.name}</h1>
         <p class="prefecture-hero-kana">${onsen.spring_type}</p>
+        <div class="onsen-hero-badges">
+          ${hasDayTrip ? '<span class="onsen-feature-badge">日帰り入浴可</span>' : ''}
+          ${hasFootbath ? '<span class="onsen-feature-badge">足湯あり</span>' : ''}
+          ${onsen.drinkable ? '<span class="onsen-feature-badge">飲泉可</span>' : ''}
+        </div>
       </div>
     </div>
 
-    <section class="section onsen-info-section">
+    <section class="section onsen-detail-section">
       <div class="container">
-        <div class="onsen-info-card">
-          <div class="onsen-info-text">
-            <h2 class="onsen-info-title">この温泉地について</h2>
-            <p class="onsen-info-desc">${onsen.description}</p>
-            <div class="onsen-info-tags">
-              ${onsen.tags.map(t => `<span class="tag">${t}</span>`).join('')}
+        <div class="onsen-detail-grid">
+
+          <div class="onsen-detail-main">
+            <div class="onsen-detail-card">
+              <h2 class="onsen-detail-heading">この温泉地について</h2>
+              <p class="onsen-detail-desc">${onsen.description}</p>
+              <div class="onsen-info-tags">
+                ${onsen.tags.map(t => `<span class="tag">${t}</span>`).join('')}
+              </div>
             </div>
+
+            ${onsen.history ? `
+            <div class="onsen-detail-card">
+              <h2 class="onsen-detail-heading">
+                <span class="onsen-heading-icon">📜</span>歴史・由来
+              </h2>
+              <p class="onsen-detail-history">${onsen.history}</p>
+            </div>
+            ` : ''}
           </div>
-          <div class="onsen-info-meta">
-            <div class="onsen-meta-item">
-              <span class="onsen-meta-label">泉質</span>
-              <span class="onsen-meta-value">♨ ${onsen.spring_type}</span>
+
+          <div class="onsen-detail-sidebar">
+            <div class="onsen-sidebar-card">
+              <h3 class="onsen-sidebar-title">基本情報</h3>
+              <div class="onsen-info-list">
+                <div class="onsen-info-row">
+                  <span class="onsen-info-label">泉質</span>
+                  <span class="onsen-info-value">♨ ${onsen.spring_type}</span>
+                </div>
+                <div class="onsen-info-row">
+                  <span class="onsen-info-label">エリア</span>
+                  <span class="onsen-info-value">${prefecture?.name || ''}</span>
+                </div>
+                ${onsen.effects ? `
+                <div class="onsen-info-row">
+                  <span class="onsen-info-label">主な効能</span>
+                  <span class="onsen-info-value onsen-effects">${onsen.effects.map(e => `<span class="effect-tag">${e}</span>`).join('')}</span>
+                </div>` : ''}
+                <div class="onsen-info-row">
+                  <span class="onsen-info-label">掲載宿</span>
+                  <span class="onsen-info-value">${hotels.length > 0 ? `${hotels.length}件` : '準備中'}</span>
+                </div>
+              </div>
             </div>
-            <div class="onsen-meta-item">
-              <span class="onsen-meta-label">エリア</span>
-              <span class="onsen-meta-value">${prefecture?.name || ''}</span>
+
+            ${hasDayTrip ? `
+            <div class="onsen-sidebar-card onsen-sidebar-card--highlight">
+              <h3 class="onsen-sidebar-title">
+                <span class="onsen-heading-icon">🛁</span>日帰り入浴
+              </h3>
+              <div class="onsen-info-list">
+                <div class="onsen-info-row">
+                  <span class="onsen-info-label">利用</span>
+                  <span class="onsen-info-value onsen-available">利用可能</span>
+                </div>
+                ${onsen.day_trip.price ? `
+                <div class="onsen-info-row">
+                  <span class="onsen-info-label">料金</span>
+                  <span class="onsen-info-value">${onsen.day_trip.price}</span>
+                </div>` : ''}
+                ${onsen.day_trip.hours ? `
+                <div class="onsen-info-row">
+                  <span class="onsen-info-label">時間</span>
+                  <span class="onsen-info-value">${onsen.day_trip.hours}</span>
+                </div>` : ''}
+              </div>
             </div>
-            <div class="onsen-meta-item">
-              <span class="onsen-meta-label">宿泊施設数</span>
-              <span class="onsen-meta-value">${hotels.length > 0 ? `${hotels.length}件掲載中` : '準備中'}</span>
+            ` : ''}
+
+            ${hasFootbath ? `
+            <div class="onsen-sidebar-card">
+              <h3 class="onsen-sidebar-title">
+                <span class="onsen-heading-icon">🦶</span>足湯
+              </h3>
+              <div class="onsen-info-list">
+                <div class="onsen-info-row">
+                  <span class="onsen-info-label">場所</span>
+                  <span class="onsen-info-value">${onsen.footbath.location}</span>
+                </div>
+                <div class="onsen-info-row">
+                  <span class="onsen-info-label">料金</span>
+                  <span class="onsen-info-value">${onsen.footbath.free ? '<span class="onsen-free">無料</span>' : '有料'}</span>
+                </div>
+              </div>
             </div>
-            ${onsen.effects ? `
-            <div class="onsen-meta-item">
-              <span class="onsen-meta-label">主な効能</span>
-              <span class="onsen-meta-value">${onsen.effects.join(' / ')}</span>
-            </div>` : ''}
+            ` : ''}
+
+            ${onsen.access ? `
+            <div class="onsen-sidebar-card">
+              <h3 class="onsen-sidebar-title">
+                <span class="onsen-heading-icon">🚃</span>アクセス
+              </h3>
+              <div class="onsen-info-list">
+                ${onsen.access.nearest_station ? `
+                <div class="onsen-info-row">
+                  <span class="onsen-info-label">最寄り駅</span>
+                  <span class="onsen-info-value">${onsen.access.nearest_station}</span>
+                </div>` : ''}
+                ${onsen.access.by_train ? `
+                <div class="onsen-info-row">
+                  <span class="onsen-info-label">電車</span>
+                  <span class="onsen-info-value">${onsen.access.by_train}</span>
+                </div>` : ''}
+                ${onsen.access.by_car ? `
+                <div class="onsen-info-row">
+                  <span class="onsen-info-label">車</span>
+                  <span class="onsen-info-value">${onsen.access.by_car}</span>
+                </div>` : ''}
+                <div class="onsen-info-row">
+                  <span class="onsen-info-label">駐車場</span>
+                  <span class="onsen-info-value">${onsen.access.parking ? 'あり' : 'なし'}</span>
+                </div>
+              </div>
+            </div>
+            ` : ''}
           </div>
         </div>
       </div>
     </section>
-
-    ${onsen.history ? `
-    <section class="section">
-      <div class="container">
-        <h2 class="section-title">歴史・由来</h2>
-        <p style="line-height:1.9;color:var(--color-text-muted);max-width:800px">${onsen.history}</p>
-      </div>
-    </section>
-    ` : ''}
-
-    ${onsen.day_trip ? `
-    <section class="section">
-      <div class="container">
-        <h2 class="section-title">日帰り入浴</h2>
-        <div class="onsen-info-card" style="max-width:600px">
-          <div class="onsen-info-meta">
-            <div class="onsen-meta-item">
-              <span class="onsen-meta-label">日帰り入浴</span>
-              <span class="onsen-meta-value">${onsen.day_trip.available ? '可能' : '不可'}</span>
-            </div>
-            ${onsen.day_trip.price ? `<div class="onsen-meta-item"><span class="onsen-meta-label">料金</span><span class="onsen-meta-value">${onsen.day_trip.price}</span></div>` : ''}
-            ${onsen.day_trip.hours ? `<div class="onsen-meta-item"><span class="onsen-meta-label">営業時間</span><span class="onsen-meta-value">${onsen.day_trip.hours}</span></div>` : ''}
-          </div>
-        </div>
-      </div>
-    </section>
-    ` : ''}
-
-    ${onsen.footbath?.available ? `
-    <section class="section">
-      <div class="container">
-        <h2 class="section-title">足湯</h2>
-        <div class="onsen-info-card" style="max-width:600px">
-          <div class="onsen-info-meta">
-            <div class="onsen-meta-item"><span class="onsen-meta-label">場所</span><span class="onsen-meta-value">${onsen.footbath.location}</span></div>
-            <div class="onsen-meta-item"><span class="onsen-meta-label">料金</span><span class="onsen-meta-value">${onsen.footbath.free ? '無料' : '有料'}</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
-    ` : ''}
-
-    ${onsen.access ? `
-    <section class="section">
-      <div class="container">
-        <h2 class="section-title">アクセス</h2>
-        <div class="onsen-info-card" style="max-width:700px">
-          <div class="onsen-info-meta">
-            ${onsen.access.nearest_station ? `<div class="onsen-meta-item"><span class="onsen-meta-label">最寄り駅</span><span class="onsen-meta-value">${onsen.access.nearest_station}</span></div>` : ''}
-            ${onsen.access.by_train ? `<div class="onsen-meta-item"><span class="onsen-meta-label">電車でのアクセス</span><span class="onsen-meta-value">${onsen.access.by_train}</span></div>` : ''}
-            ${onsen.access.by_car ? `<div class="onsen-meta-item"><span class="onsen-meta-label">車でのアクセス</span><span class="onsen-meta-value">${onsen.access.by_car}</span></div>` : ''}
-            <div class="onsen-meta-item"><span class="onsen-meta-label">駐車場</span><span class="onsen-meta-value">${onsen.access.parking ? 'あり' : 'なし'}</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
-    ` : ''}
 
     <section class="section hotel-list-section">
       <div class="container">
@@ -159,7 +190,6 @@ export function renderOnsenDetail({ params }) {
           <h2 class="section-title">${onsen.name}の温泉宿</h2>
           <p class="section-desc">${hotels.length > 0 ? `${hotels.length}件の宿をご紹介` : 'この温泉地の宿情報は近日公開予定です'}</p>
         </div>
-
         ${hotels.length > 0 ? `
           <div class="hotel-grid">
             ${hotels.map(hotel => renderHotelCard(hotel)).join('')}
@@ -168,9 +198,7 @@ export function renderOnsenDetail({ params }) {
           <div class="empty-state-container">
             <div class="empty-state-icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                <path d="M3 21h18"/>
-                <path d="M5 21V7l8-4 8 4v14"/>
-                <path d="M9 21v-4h6v4"/>
+                <path d="M3 21h18"/><path d="M5 21V7l8-4 8 4v14"/><path d="M9 21v-4h6v4"/>
               </svg>
             </div>
             <h3>宿情報は近日公開予定です</h3>
@@ -181,17 +209,10 @@ export function renderOnsenDetail({ params }) {
     </section>
   `;
 
-  // アニメーション設定
   setupDetailAnimations();
-  // ページトップにスクロール
   window.scrollTo(0, 0);
 }
 
-/**
- * 温泉宿カードのHTMLを生成
- * @param {object} hotel - 宿データ
- * @returns {string} カードのHTML文字列
- */
 function renderHotelCard(hotel) {
   return `
     <a href="/onsen/hotel/${hotel.id}" class="hotel-card hotel-card-link">
@@ -199,8 +220,8 @@ function renderHotelCard(hotel) {
         <img src="${hotel.image}" alt="${hotel.name}" loading="lazy">
         <span class="hotel-type-badge">${hotel.type}</span>
       </div>
-      <div class="hotel-card-content">
-        <h3 class="hotel-card-title">${hotel.name}</h3>
+      <div class="hotel-card-body">
+        <h3 class="hotel-card-name">${hotel.name}</h3>
         <p class="hotel-card-price">
           <span class="price-label">参考料金：</span>
           <span class="price-value">${hotel.price}</span>
@@ -214,9 +235,6 @@ function renderHotelCard(hotel) {
   `;
 }
 
-/**
- * カードのアニメーション設定
- */
 function setupDetailAnimations() {
   const cards = document.querySelectorAll('.hotel-card');
   cards.forEach((card, i) => {
