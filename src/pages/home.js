@@ -60,6 +60,22 @@ export function renderHome() {
       </div>
     </section>
 
+    <section class="section diagnosis-banner-section" id="diagnosis">
+      <div class="container">
+        <div class="diagnosis-banner">
+          <div class="diagnosis-banner-body">
+            <div class="diagnosis-icon">♨</div>
+            <div class="diagnosis-text">
+              <span class="diagnosis-label">温泉診断</span>
+              <h2 class="diagnosis-title">あなたに合った温泉スタイルを診断</h2>
+              <p class="diagnosis-desc">7問・約1分で、おすすめ温泉地タイプが分かります</p>
+            </div>
+          </div>
+          <a href="https://onsen-diagnosis-app.vercel.app/" target="_blank" rel="noopener noreferrer" class="diagnosis-btn">診断する →</a>
+        </div>
+      </div>
+    </section>
+
     <section class="section region-section" id="regions">
       <div class="container">
         <div class="section-header">
