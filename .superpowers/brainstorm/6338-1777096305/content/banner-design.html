@@ -1,0 +1,74 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&family=Noto+Serif+JP:wght@400;600;700&display=swap');
+  .demo { font-family: 'Noto Sans JP', sans-serif; max-width: 680px; margin: 0 auto; }
+  .demo-label { font-size: 0.7rem; color: #999; text-align: center; margin-bottom: 6px; letter-spacing: 0.08em; text-transform: uppercase; }
+  .demo-wrap { margin-bottom: 28px; }
+</style>
+
+<h2>バナーのデザインを選んでください</h2>
+<p class="subtitle">サイトの琥珀カラーに合わせた3つのスタイル</p>
+
+<div class="options">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>琥珀グラデーション（温かみ重視）</h3>
+      <p>サイトのプライマリカラーを使った温かみのあるグラデーション。和のプレミアム感。</p>
+      <div class="demo">
+        <div style="background:linear-gradient(135deg,#b5703a,#8a4f24);padding:32px 28px;border-radius:12px;color:white;display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:12px">
+          <div>
+            <p style="font-size:0.72rem;opacity:0.85;margin:0 0 6px;letter-spacing:0.12em">✨ あなたにぴったりの温泉を見つけよう</p>
+            <h3 style="font-family:'Noto Serif JP',serif;font-size:1.2rem;margin:0 0 8px;font-weight:700">温泉スタイル診断</h3>
+            <p style="font-size:0.78rem;opacity:0.88;margin:0;line-height:1.5">7つの質問で、あなたにぴったりの<br>温泉地タイプが分かります</p>
+          </div>
+          <div style="flex-shrink:0">
+            <button style="background:white;color:#b5703a;border:none;padding:10px 20px;border-radius:999px;font-weight:700;cursor:pointer;font-size:0.85rem;white-space:nowrap">診断スタート →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>白地カード（クリーン・モダン）</h3>
+      <p>白背景に琥珀のアクセント。他セクションと統一感があり、落ち着いた印象。</p>
+      <div class="demo">
+        <div style="background:#fffcf7;border:2px solid #b5703a;border-radius:12px;padding:28px;display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:12px">
+          <div style="display:flex;align-items:flex-start;gap:16px">
+            <div style="font-size:2.4rem;line-height:1">♨</div>
+            <div>
+              <p style="font-size:0.7rem;color:#b5703a;font-weight:600;margin:0 0 4px;letter-spacing:0.1em">温泉診断</p>
+              <h3 style="font-family:'Noto Serif JP',serif;font-size:1.1rem;margin:0 0 6px;color:#1a1a1a">あなたに合った温泉スタイルを診断</h3>
+              <p style="font-size:0.78rem;color:#6b5c50;margin:0;line-height:1.5">7問・約1分で、おすすめ温泉地タイプが分かります</p>
+            </div>
+          </div>
+          <div style="flex-shrink:0">
+            <button style="background:#b5703a;color:white;border:none;padding:10px 20px;border-radius:999px;font-weight:700;cursor:pointer;font-size:0.85rem;white-space:nowrap">診断する →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>ダーク和風（インパクト重視）</h3>
+      <p>フッターと同じ深い焦げ茶×琥珀テキストで高級感と和のムードを演出。</p>
+      <div class="demo">
+        <div style="background:#2a1e14;padding:32px 28px;border-radius:12px;display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:12px">
+          <div>
+            <p style="font-size:0.72rem;color:#d4956a;margin:0 0 6px;letter-spacing:0.14em">✦ ONSEN DIAGNOSIS ✦</p>
+            <h3 style="font-family:'Noto Serif JP',serif;font-size:1.2rem;margin:0 0 8px;color:#fdf5ec;font-weight:700">あなたの温泉スタイルを診断</h3>
+            <p style="font-size:0.78rem;color:#a89080;margin:0;line-height:1.5">7つの設問から理想の湯を導き出します</p>
+          </div>
+          <div style="flex-shrink:0">
+            <button style="background:#b5703a;color:white;border:none;padding:10px 20px;border-radius:999px;font-weight:700;cursor:pointer;font-size:0.85rem;white-space:nowrap">診断スタート →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

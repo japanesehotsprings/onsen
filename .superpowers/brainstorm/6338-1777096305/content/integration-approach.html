@@ -1,0 +1,64 @@
+<h2>温泉診断をどう組み込みますか？</h2>
+<p class="subtitle">3つの統合アプローチから選んでください</p>
+
+<div class="options">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>CTAバナーセクション（外部リンク）</h3>
+      <p>トップページに魅力的な診断バナーセクションを追加し、ボタンクリックで診断アプリ（外部URL）を新しいタブで開く。実装がシンプルで、診断アプリ本体の更新が自動で反映される。</p>
+      <div class="mockup" style="margin-top:12px">
+        <div class="mockup-body" style="background:linear-gradient(135deg,#1a4a6b,#2d7a6b);padding:24px;border-radius:8px;color:white;text-align:center">
+          <p style="font-size:0.8rem;opacity:0.8;margin:0 0 6px">✨ あなたに合った温泉を見つけよう</p>
+          <h3 style="margin:0 0 8px;font-size:1.1rem">温泉スタイル診断</h3>
+          <p style="font-size:0.75rem;opacity:0.85;margin:0 0 14px">7つの質問で、あなたにぴったりの温泉地が分かる</p>
+          <button style="background:white;color:#1a4a6b;border:none;padding:8px 20px;border-radius:20px;font-weight:bold;cursor:pointer;font-size:0.85rem">診断スタート →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>iframeで埋め込み</h3>
+      <p>トップページ内に診断アプリをiframeで直接埋め込む。ユーザーがページを離れずに診断体験できる。ただしCSSの競合やレスポンシブ対応に注意が必要で、外部サービスの埋め込み許可が必要。</p>
+      <div class="mockup" style="margin-top:12px">
+        <div class="mockup-body" style="border:2px dashed #aaa;border-radius:8px;padding:12px;background:#f5f5f5;text-align:center">
+          <p style="color:#666;font-size:0.75rem;margin:0 0 6px">── iframe ──</p>
+          <div style="background:white;border:1px solid #ddd;border-radius:6px;padding:20px 12px">
+            <p style="font-size:0.85rem;font-weight:bold;margin:0 0 6px">あなたにぴったりの温泉地を見つけよう</p>
+            <p style="font-size:0.75rem;color:#666;margin:0 0 10px">Q1 / 7：体の声を聞いてみよう</p>
+            <div style="display:flex;flex-direction:column;gap:6px">
+              <div style="border:1px solid #ddd;border-radius:4px;padding:6px 10px;font-size:0.75rem;text-align:left">肩も腰もガチガチ。とにかく休みたい</div>
+              <div style="border:1px solid #ddd;border-radius:4px;padding:6px 10px;font-size:0.75rem;text-align:left">毎日同じ景色に飽き飽きしている</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>モーダル（ポップアップ）で開く</h3>
+      <p>ヒーローセクションにボタンを置き、クリックするとモーダルウィンドウで診断アプリをiframeで表示。ページを離れずに体験でき、視覚的にインパクトがある。モバイルでも使いやすい。</p>
+      <div class="mockup" style="margin-top:12px">
+        <div class="mockup-body" style="position:relative;background:#e8f4f0;padding:16px;border-radius:8px">
+          <p style="font-size:0.8rem;text-align:center;margin:0 0 8px;color:#666">ヒーローセクション内</p>
+          <div style="text-align:center">
+            <button style="background:#2d7a6b;color:white;border:none;padding:8px 18px;border-radius:20px;font-size:0.85rem;cursor:pointer">♨ 温泉診断を試す</button>
+          </div>
+          <div style="margin-top:10px;background:white;border:1px solid #ddd;border-radius:6px;padding:12px;box-shadow:0 4px 16px rgba(0,0,0,0.15)">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+              <p style="font-size:0.8rem;font-weight:bold;margin:0">温泉スタイル診断</p>
+              <span style="cursor:pointer;color:#666;font-size:0.85rem">✕ 閉じる</span>
+            </div>
+            <p style="font-size:0.7rem;color:#666;margin:0">（診断アプリがここに表示）</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

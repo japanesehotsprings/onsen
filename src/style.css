@@ -2344,7 +2344,7 @@ ul {
 
 /* ============ 温泉診断バナー ============ */
 .diagnosis-banner-section {
-  padding: var(--spacing-sm) 0;
+  padding: var(--spacing-lg) 0 var(--spacing-sm);
 }
 
 .diagnosis-banner {
