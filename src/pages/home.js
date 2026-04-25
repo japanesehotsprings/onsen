@@ -67,7 +67,7 @@ export function renderHome() {
             <div class="diagnosis-icon">♨</div>
             <div class="diagnosis-text">
               <span class="diagnosis-label">温泉診断</span>
-              <p class="diagnosis-title">あなたに合った温泉スタイルを診断</p>
+              <h2 class="diagnosis-title">あなたに合った温泉スタイルを診断</h2>
               <p class="diagnosis-desc">7問・約1分で、おすすめ温泉地タイプが分かります</p>
             </div>
           </div>
