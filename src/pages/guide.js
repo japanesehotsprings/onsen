@@ -11,7 +11,7 @@ export function renderGuide() {
                     <span class="breadcrumb-separator">›</span>
                     <span>温泉旅行ガイド</span>
                 </nav>
-                <h1 class="page-title">♨ 初めての温泉旅行ガイド</h1>
+                <h1 class="page-title">初めての温泉旅行ガイド</h1>
                 <p class="page-desc">温泉の入り方・マナー・持ち物・泉質の選び方を徹底解説</p>
             </div>
         </div>
@@ -21,7 +21,7 @@ export function renderGuide() {
 
                 <div class="onsen-info-card" style="margin-bottom:2rem">
                     <div class="onsen-info-text">
-                        <h2 class="onsen-info-title">🛁 温泉の入り方・基本マナー</h2>
+                        <h2 class="onsen-info-title">温泉の入り方・基本マナー</h2>
                         <ol style="line-height:2;padding-left:1.5rem;color:var(--color-text-muted)">
                             <li><strong>かけ湯をする</strong> — 浴槽に入る前に、洗い場のお湯を全身にかけて身体を慣らす。清潔のためでもあり、心臓への負担を減らすためでもある。</li>
                             <li><strong>タオルは浴槽に入れない</strong> — タオルは浴槽の外に置くか、頭の上に乗せる。湯の汚染を防ぐため。</li>
@@ -35,7 +35,7 @@ export function renderGuide() {
 
                 <div class="onsen-info-card" style="margin-bottom:2rem">
                     <div class="onsen-info-text">
-                        <h2 class="onsen-info-title">🎒 温泉旅行の持ち物リスト</h2>
+                        <h2 class="onsen-info-title">温泉旅行の持ち物リスト</h2>
                         <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;color:var(--color-text-muted)">
                             <div>
                                 <strong>必需品</strong>
@@ -62,7 +62,7 @@ export function renderGuide() {
 
                 <div class="onsen-info-card" style="margin-bottom:2rem">
                     <div class="onsen-info-text">
-                        <h2 class="onsen-info-title">🌿 泉質の選び方</h2>
+                        <h2 class="onsen-info-title">泉質の選び方</h2>
                         <p style="color:var(--color-text-muted);margin-bottom:1rem">温泉の種類（泉質）によって、効能や適した人が異なります。目的に合わせて選びましょう。</p>
                         <div style="display:grid;gap:0.75rem">
                             <div style="padding:0.75rem;border-left:3px solid var(--color-primary);background:rgba(255,255,255,0.03)">
@@ -86,7 +86,7 @@ export function renderGuide() {
 
                 <div class="onsen-info-card">
                     <div class="onsen-info-text">
-                        <h2 class="onsen-info-title">📋 温泉宿の選び方ポイント</h2>
+                        <h2 class="onsen-info-title">温泉宿の選び方ポイント</h2>
                         <ul style="line-height:2.2;padding-left:1.5rem;color:var(--color-text-muted)">
                             <li><strong>源泉かけ流しか確認する</strong> — 湯の新鮮さと成分の濃さが異なる。こだわるなら源泉かけ流し指定で検索。</li>
                             <li><strong>日帰り入浴で下見する</strong> — 泊まる前に日帰り入浴で宿の雰囲気を確認できる宿も多い。</li>
