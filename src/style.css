@@ -2341,3 +2341,91 @@ ul {
   color: #1a7a40;
   font-weight: 600;
 }
+
+/* ============ 温泉診断バナー ============ */
+.diagnosis-banner-section {
+  padding: var(--spacing-sm) 0;
+}
+
+.diagnosis-banner {
+  background: var(--color-bg-alt);
+  border: 2px solid var(--color-primary);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-md) var(--spacing-lg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-md);
+}
+
+.diagnosis-banner-body {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.diagnosis-icon {
+  font-size: 2.5rem;
+  color: var(--color-primary);
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.diagnosis-label {
+  display: block;
+  font-size: 0.7rem;
+  color: var(--color-primary);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  margin-bottom: 4px;
+}
+
+.diagnosis-title {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  color: var(--color-text);
+  margin: 0 0 4px;
+}
+
+.diagnosis-desc {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.diagnosis-btn {
+  display: inline-block;
+  background: var(--color-primary);
+  color: white;
+  padding: 10px 22px;
+  border-radius: var(--radius-full);
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background var(--transition-fast);
+  flex-shrink: 0;
+}
+
+.diagnosis-btn:hover {
+  background: var(--color-primary-dark);
+  color: white;
+}
+
+@media (max-width: 640px) {
+  .diagnosis-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: var(--spacing-md);
+  }
+
+  .diagnosis-banner-body {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .diagnosis-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
