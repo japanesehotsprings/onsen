@@ -8,7 +8,7 @@ export function renderCourseList() {
         <div class="page-header">
             <div class="container">
                 <nav class="breadcrumb">
-                    <a href="/onsen/">ホーム</a>
+                    <a href="/">ホーム</a>
                     <span class="breadcrumb-separator">›</span>
                     <span>モデルコース</span>
                 </nav>
@@ -20,7 +20,7 @@ export function renderCourseList() {
             <div class="container">
                 <div class="hotel-grid">
                     ${courseList.map(c => `
-                        <a href="/onsen/course/${c.id}" class="hotel-card hotel-card-link">
+                        <a href="/course/${c.id}" class="hotel-card hotel-card-link">
                             <div class="hotel-card-image">
                                 <img src="${c.image}" alt="${c.title}" loading="lazy">
                                 <span class="hotel-type-badge">${c.days}日間</span>

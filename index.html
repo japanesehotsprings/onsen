@@ -3,13 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <base href="/onsen/" />
-  <script>
-    (function() {
-      var p = new URLSearchParams(window.location.search).get('p');
-      if (p !== null) history.replaceState({}, '', '/onsen' + p);
-    })();
-  </script>
+  <base href="/" />
   <link rel="stylesheet" href="./src/style.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="日本全国47都道府県の温泉地やおすすめの温泉宿を検索できる温泉専門メディア。泉質・地域・特徴から全国の名湯・秘湯を探そう。" />
@@ -19,16 +13,16 @@
   <meta property="og:site_name" content="日本温泉" />
   <meta name="twitter:card" content="summary_large_image" />
   <title>日本温泉 - 全国47都道府県の温泉地を探そう</title>
-  <link rel="icon" href="https://raw.githubusercontent.com/japanesehotsprings/onsen/main/public/favicon.ico">
+  <link rel="icon" href="/favicon.ico">
   <link rel="apple-touch-icon"
-    href="https://raw.githubusercontent.com/japanesehotsprings/onsen/main/public/favicon.ico">
+    href="/favicon.ico">
   <meta name="google-site-verification" content="dZ-zsDO352zX3prcfNZn5h3h8rBFAjHVjJAzrMTLsA0" />
 </head>
 
 <body>
   <header id="header">
     <nav class="container nav-container">
-      <a href="/onsen/" class="logo">日本温泉<span class="logo-dot">♨</span></a>
+      <a href="/" class="logo">日本温泉<span class="logo-dot">♨</span></a>
       <div class="header-search">
         <input type="text" id="header-search-input" class="header-search-input" placeholder="温泉地を検索...">
         <button id="header-search-btn" class="header-search-btn" aria-label="検索">
@@ -39,13 +33,13 @@
         </button>
       </div>
       <ul class="nav-links">
-        <li><a href="/onsen/">ホーム</a></li>
-        <li><a href="/onsen/prefectures">都道府県一覧</a></li>
-        <li><a href="/onsen/onsens">温泉地一覧</a></li>
-        <li><a href="/onsen/hotels">温泉宿一覧</a></li>
-        <li><a href="/onsen/spring-types">泉質から探す</a></li>
-        <li><a href="/onsen/specials">特集</a></li>
-        <li><a href="/onsen/articles">コラム</a></li>
+        <li><a href="/">ホーム</a></li>
+        <li><a href="/prefectures">都道府県一覧</a></li>
+        <li><a href="/onsens">温泉地一覧</a></li>
+        <li><a href="/hotels">温泉宿一覧</a></li>
+        <li><a href="/spring-types">泉質から探す</a></li>
+        <li><a href="/specials">特集</a></li>
+        <li><a href="/articles">コラム</a></li>
       </ul>
       <button class="menu-toggle" aria-label="メニューを開く">
         <span></span>
@@ -95,18 +89,18 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-content">
-        <a href="/onsen/" class="logo-footer">日本温泉<span class="logo-dot">♨</span></a>
+        <a href="/" class="logo-footer">日本温泉<span class="logo-dot">♨</span></a>
         <p class="footer-desc">日本全国47都道府県の温泉地や温泉宿を紹介する温泉メディアサイトです。</p>
         <div class="footer-links">
-          <a href="/onsen/">ホーム</a>
-          <a href="/onsen/prefectures">都道府県一覧</a>
-          <a href="/onsen/onsens">温泉地一覧</a>
-          <a href="/onsen/hotels">温泉宿一覧</a>
-          <a href="/onsen/spring-types">泉質から探す</a>
-          <a href="/onsen/specials">特集</a>
-          <a href="/onsen/guide">温泉ガイド</a>
-          <a href="/onsen/courses">モデルコース</a>
-          <a href="/onsen/articles">コラム</a>
+          <a href="/">ホーム</a>
+          <a href="/prefectures">都道府県一覧</a>
+          <a href="/onsens">温泉地一覧</a>
+          <a href="/hotels">温泉宿一覧</a>
+          <a href="/spring-types">泉質から探す</a>
+          <a href="/specials">特集</a>
+          <a href="/guide">温泉ガイド</a>
+          <a href="/courses">モデルコース</a>
+          <a href="/articles">コラム</a>
         </div>
         <div class="footer-social-links">
           <a href="https://www.instagram.com/japanese_hot_springs1/" target="_blank" rel="noopener noreferrer"

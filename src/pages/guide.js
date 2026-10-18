@@ -7,7 +7,7 @@ export function renderGuide() {
         <div class="page-header">
             <div class="container">
                 <nav class="breadcrumb">
-                    <a href="/onsen/">ホーム</a>
+                    <a href="/">ホーム</a>
                     <span class="breadcrumb-separator">›</span>
                     <span>温泉旅行ガイド</span>
                 </nav>
@@ -79,7 +79,7 @@ export function renderGuide() {
                             </div>
                         </div>
                         <p style="margin-top:1rem">
-                            <a href="/onsen/spring-types" style="color:var(--color-primary)">→ 泉質から温泉を探す</a>
+                            <a href="/spring-types" style="color:var(--color-primary)">→ 泉質から温泉を探す</a>
                         </p>
                     </div>
                 </div>

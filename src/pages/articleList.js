@@ -8,7 +8,7 @@ export function renderArticleList() {
         <div class="page-header">
             <div class="container">
                 <nav class="breadcrumb">
-                    <a href="/onsen/">ホーム</a>
+                    <a href="/">ホーム</a>
                     <span class="breadcrumb-separator">›</span>
                     <span>コラム・記事</span>
                 </nav>
@@ -20,7 +20,7 @@ export function renderArticleList() {
             <div class="container">
                 <div class="hotel-grid">
                     ${articleList.map(a => `
-                        <a href="/onsen/article/${a.id}" class="hotel-card hotel-card-link">
+                        <a href="/article/${a.id}" class="hotel-card hotel-card-link">
                             <div class="hotel-card-image">
                                 <img src="${a.image}" alt="${a.title}" loading="lazy">
                                 <span class="hotel-type-badge">${a.categoryLabel}</span>

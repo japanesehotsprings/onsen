@@ -7,7 +7,7 @@ export function renderSpringTypeDetail({ params }) {
     const st = getSpringTypeById(params.id);
 
     if (!st) {
-        app.innerHTML = `<div class="page-header"><div class="container"><h1 class="page-title">ページが見つかりません</h1><a href="/onsen/spring-types" class="btn btn-primary">泉質一覧へ</a></div></div>`;
+        app.innerHTML = `<div class="page-header"><div class="container"><h1 class="page-title">ページが見つかりません</h1><a href="/spring-types" class="btn btn-primary">泉質一覧へ</a></div></div>`;
         return;
     }
 
@@ -25,9 +25,9 @@ export function renderSpringTypeDetail({ params }) {
             <div class="prefecture-hero-overlay"></div>
             <div class="prefecture-hero-content">
                 <nav class="breadcrumb breadcrumb-light">
-                    <a href="/onsen/">ホーム</a>
+                    <a href="/">ホーム</a>
                     <span class="breadcrumb-separator">›</span>
-                    <a href="/onsen/spring-types">泉質から探す</a>
+                    <a href="/spring-types">泉質から探す</a>
                     <span class="breadcrumb-separator">›</span>
                     <span>${st.name}</span>
                 </nav>
@@ -71,7 +71,7 @@ export function renderSpringTypeDetail({ params }) {
                 </div>
                 <div class="hotel-grid">
                     ${relatedOnsen.map(o => `
-                        <a href="/onsen/onsen/${o.id}" class="hotel-card hotel-card-link">
+                        <a href="/onsen/${o.id}" class="hotel-card hotel-card-link">
                             <div class="hotel-card-image">
                                 <img src="${o.image}" alt="${o.name}" loading="lazy">
                                 <span class="hotel-type-badge">${o.category}</span>

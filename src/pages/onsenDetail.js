@@ -1,7 +1,7 @@
 import { onsenList } from '../data/onsen.js';
 import { getHotelsByOnsen } from '../data/hotels.js';
 import { getPrefectureById } from '../data/prefectures.js';
-import { updateSEO } from '../seo.js';
+import { updateSEO, absolute_url } from '../seo.js';
 
 export function renderOnsenDetail({ params }) {
   const app = document.getElementById('app');
@@ -13,7 +13,7 @@ export function renderOnsenDetail({ params }) {
       <div class="page-header">
         <div class="container">
           <h1 class="page-title">ページが見つかりません</h1>
-          <a href="/onsen/" class="btn btn-primary">トップに戻る</a>
+          <a href="/" class="btn btn-primary">トップに戻る</a>
         </div>
       </div>
     `;
@@ -33,8 +33,9 @@ export function renderOnsenDetail({ params }) {
       'addressRegion': prefecture?.name || '',
       'addressCountry': 'JP'
     },
+    'image': absolute_url(onsen.image),
     'amenityFeature': { '@type': 'LocationFeatureSpecification', 'name': '温泉', 'value': true }
-  });
+  }, { image: onsen.image });
 
   const hasDayTrip = onsen.day_trip?.available;
   const hasFootbath = onsen.footbath?.available;
@@ -45,9 +46,9 @@ export function renderOnsenDetail({ params }) {
       <div class="prefecture-hero-overlay"></div>
       <div class="prefecture-hero-content">
         <nav class="breadcrumb breadcrumb-light">
-          <a href="/onsen/">トップ</a>
+          <a href="/">トップ</a>
           <span class="breadcrumb-separator">›</span>
-          <a href="/onsen/prefecture/${onsen.prefecture}">${prefecture?.name || ''}の温泉</a>
+          <a href="/prefecture/${onsen.prefecture}">${prefecture?.name || ''}の温泉</a>
           <span class="breadcrumb-separator">›</span>
           <span>${onsen.name}</span>
         </nav>
@@ -215,7 +216,7 @@ export function renderOnsenDetail({ params }) {
 
 function renderHotelCard(hotel) {
   return `
-    <a href="/onsen/hotel/${hotel.id}" class="hotel-card hotel-card-link">
+    <a href="/hotel/${hotel.id}" class="hotel-card hotel-card-link">
       <div class="hotel-card-image">
         <img src="${hotel.image}" alt="${hotel.name}" loading="lazy">
         <span class="hotel-type-badge">${hotel.type}</span>

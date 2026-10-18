@@ -10,11 +10,11 @@ export function renderCourseDetail({ params }) {
     const course = getCourseById(params.id);
 
     if (!course) {
-        app.innerHTML = `<div class="page-header"><div class="container"><h1 class="page-title">ページが見つかりません</h1><a href="/onsen/courses" class="btn btn-primary">コース一覧へ</a></div></div>`;
+        app.innerHTML = `<div class="page-header"><div class="container"><h1 class="page-title">ページが見つかりません</h1><a href="/courses" class="btn btn-primary">コース一覧へ</a></div></div>`;
         return;
     }
 
-    updateSEO(course.title, course.description);
+    updateSEO(course.title, course.description, null, { image: course.image });
 
     const onsen = onsenList.find(o => o.id === course.onsen_id);
     const hotel = getHotelById(course.hotel_id);
@@ -27,9 +27,9 @@ export function renderCourseDetail({ params }) {
             <div class="prefecture-hero-overlay"></div>
             <div class="prefecture-hero-content">
                 <nav class="breadcrumb breadcrumb-light">
-                    <a href="/onsen/">ホーム</a>
+                    <a href="/">ホーム</a>
                     <span class="breadcrumb-separator">›</span>
-                    <a href="/onsen/courses">モデルコース</a>
+                    <a href="/courses">モデルコース</a>
                     <span class="breadcrumb-separator">›</span>
                     <span>${course.title}</span>
                 </nav>
@@ -68,7 +68,7 @@ export function renderCourseDetail({ params }) {
         <section class="section">
             <div class="container">
                 <h2 class="section-title">温泉地</h2>
-                <a href="/onsen/onsen/${onsen.id}" class="hotel-card hotel-card-link" style="max-width:400px;display:block">
+                <a href="/onsen/${onsen.id}" class="hotel-card hotel-card-link" style="max-width:400px;display:block">
                     <div class="hotel-card-image">
                         <img src="${onsen.image}" alt="${onsen.name}" loading="lazy">
                         <span class="hotel-type-badge">${onsen.category}</span>
@@ -86,7 +86,7 @@ export function renderCourseDetail({ params }) {
         <section class="section">
             <div class="container">
                 <h2 class="section-title">おすすめの宿</h2>
-                <a href="/onsen/hotel/${hotel.id}" class="hotel-card hotel-card-link" style="max-width:400px;display:block">
+                <a href="/hotel/${hotel.id}" class="hotel-card hotel-card-link" style="max-width:400px;display:block">
                     <div class="hotel-card-image">
                         <img src="${hotel.image}" alt="${hotel.name}" loading="lazy">
                         <span class="hotel-type-badge">${hotel.type}</span>

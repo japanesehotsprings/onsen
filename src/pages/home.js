@@ -93,7 +93,7 @@ export function renderHome() {
                 </div>
                 <div class="region-prefectures">
                   ${prefs.map(p => `
-                    <a href="/onsen/prefecture/${p.id}" class="prefecture-chip">${p.name}</a>
+                    <a href="/prefecture/${p.id}" class="prefecture-chip">${p.name}</a>
                   `).join('')}
                 </div>
               </div>
@@ -111,7 +111,7 @@ export function renderHome() {
         </div>
         <div class="card-grid onsen-pickup-grid">
           ${pickupOnsen.map(onsen => `
-            <a href="/onsen/onsen/${onsen.id}" class="card onsen-card-link">
+            <a href="/onsen/${onsen.id}" class="card onsen-card-link">
               <div class="card-image">
                 <img src="${onsen.image}" alt="${onsen.name}" loading="lazy">
                 <span class="card-badge onsen">${onsen.category}</span>
@@ -143,7 +143,7 @@ export function renderHome() {
           ${featuredHotels.map(hotel => {
     const onsen = onsenList.find(o => o.id === hotel.onsen_id);
     return `
-              <a href="/onsen/hotel/${hotel.id}" class="hotel-card hotel-card-link">
+              <a href="/hotel/${hotel.id}" class="hotel-card hotel-card-link">
                 <div class="hotel-card-image">
                   <img src="${hotel.image}" alt="${hotel.name}" loading="lazy">
                   <span class="hotel-type-badge">${hotel.type}</span>
@@ -172,7 +172,7 @@ export function renderHome() {
         </div>
         <div class="hotel-grid">
           ${specialList.slice(0, 4).map(s => `
-            <a href="/onsen/special/${s.id}" class="hotel-card hotel-card-link">
+            <a href="/special/${s.id}" class="hotel-card hotel-card-link">
               ${s.image
                 ? `<div class="hotel-card-image"><img src="${s.image}" alt="${s.title}" loading="lazy"><span class="hotel-type-badge">${s.subtitle}</span></div>`
                 : `<div class="hotel-card-image" style="background:linear-gradient(135deg,${s.color}18 0%,${s.color}44 100%);display:flex;align-items:center;justify-content:center;height:200px;"><span style="font-size:4.5rem;filter:drop-shadow(0 6px 16px ${s.color}88)">${s.icon}</span></div>`
@@ -185,7 +185,7 @@ export function renderHome() {
           `).join('')}
         </div>
         <div style="text-align:center;margin-top:1.5rem">
-          <a href="/onsen/specials" class="btn btn-outline">特集をもっと見る</a>
+          <a href="/specials" class="btn btn-outline">特集をもっと見る</a>
         </div>
       </div>
     </section>
@@ -198,7 +198,7 @@ export function renderHome() {
         </div>
         <div class="hotel-grid">
           ${articleList.slice(0, 4).map(a => `
-            <a href="/onsen/article/${a.id}" class="hotel-card hotel-card-link">
+            <a href="/article/${a.id}" class="hotel-card hotel-card-link">
               <div class="hotel-card-image">
                 <img src="${a.image}" alt="${a.title}" loading="lazy">
                 <span class="hotel-type-badge">${a.categoryLabel}</span>
@@ -210,7 +210,7 @@ export function renderHome() {
           `).join('')}
         </div>
         <div style="text-align:center;margin-top:1.5rem">
-          <a href="/onsen/articles" class="btn btn-outline">記事をもっと見る</a>
+          <a href="/articles" class="btn btn-outline">記事をもっと見る</a>
         </div>
       </div>
     </section>

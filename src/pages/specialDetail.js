@@ -8,7 +8,7 @@ export function renderSpecialDetail({ params }) {
     const special = getSpecialById(params.id);
 
     if (!special) {
-        app.innerHTML = `<div class="page-header"><div class="container"><h1 class="page-title">ページが見つかりません</h1><a href="/onsen/specials" class="btn btn-primary">特集一覧へ</a></div></div>`;
+        app.innerHTML = `<div class="page-header"><div class="container"><h1 class="page-title">ページが見つかりません</h1><a href="/specials" class="btn btn-primary">特集一覧へ</a></div></div>`;
         return;
     }
 
@@ -26,9 +26,9 @@ export function renderSpecialDetail({ params }) {
             <div class="prefecture-hero-overlay"></div>
             <div class="prefecture-hero-content">
                 <nav class="breadcrumb breadcrumb-light">
-                    <a href="/onsen/">ホーム</a>
+                    <a href="/">ホーム</a>
                     <span class="breadcrumb-separator">›</span>
-                    <a href="/onsen/specials">特集</a>
+                    <a href="/specials">特集</a>
                     <span class="breadcrumb-separator">›</span>
                     <span>${special.title}</span>
                 </nav>
@@ -51,7 +51,7 @@ export function renderSpecialDetail({ params }) {
                 </div>
                 <div class="hotel-grid">
                     ${relatedOnsen.map(o => `
-                        <a href="/onsen/onsen/${o.id}" class="hotel-card hotel-card-link">
+                        <a href="/onsen/${o.id}" class="hotel-card hotel-card-link">
                             <div class="hotel-card-image">
                                 <img src="${o.image}" alt="${o.name}" loading="lazy">
                                 <span class="hotel-type-badge">${o.category}</span>
@@ -75,7 +75,7 @@ export function renderSpecialDetail({ params }) {
                 </div>
                 <div class="hotel-grid">
                     ${relatedHotels.map(h => `
-                        <a href="/onsen/hotel/${h.id}" class="hotel-card hotel-card-link">
+                        <a href="/hotel/${h.id}" class="hotel-card hotel-card-link">
                             <div class="hotel-card-image">
                                 <img src="${h.image}" alt="${h.name}" loading="lazy">
                                 <span class="hotel-type-badge">${h.type}</span>

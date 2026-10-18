@@ -3,56 +3,25 @@
  * ルーターの初期化とページの切り替えを管理する
  */
 
-import { addRoute, initRouter, navigateTo } from './router.js';
-import { renderHome } from './pages/home.js';
-import { renderPrefectureList } from './pages/prefectureList.js';
-import { renderPrefectureDetail } from './pages/prefectureDetail.js';
-import { renderSearchResults } from './pages/searchResults.js';
-import { renderOnsenDetail } from './pages/onsenDetail.js';
-import { renderHotelDetail } from './pages/hotelDetail.js';
-import { renderOnsenList } from './pages/onsenList.js';
-import { renderHotelList } from './pages/hotelList.js';
-import { renderSpringTypeList } from './pages/springTypeList.js';
-import { renderSpringTypeDetail } from './pages/springTypeDetail.js';
-import { renderSpecialList } from './pages/specialList.js';
-import { renderSpecialDetail } from './pages/specialDetail.js';
-import { renderGuide } from './pages/guide.js';
-import { renderCourseList } from './pages/courseList.js';
-import { renderCourseDetail } from './pages/courseDetail.js';
-import { renderArticleList } from './pages/articleList.js';
-import { renderArticleDetail } from './pages/articleDetail.js';
+import { addRoute, initRouter, navigateTo, setNotFound } from './router.js';
+import { route_table, renderNotFoundPage } from './routes.js';
 
 // DOMの準備完了後に初期化
 document.addEventListener('DOMContentLoaded', () => {
     console.log('日本温泉 - 起動');
 
-    // ルート定義
-    addRoute('/', renderHome);
-    addRoute('/prefectures', renderPrefectureList);
-    addRoute('/prefecture/:id', renderPrefectureDetail);
-    addRoute('/onsen/:id', renderOnsenDetail);
-    addRoute('/hotel/:id', renderHotelDetail);
-    addRoute('/onsens', renderOnsenList);
-    addRoute('/hotels', renderHotelList);
-    addRoute('/search', renderSearchResults);
-    addRoute('/spring-types', renderSpringTypeList);
-    addRoute('/spring-type/:id', renderSpringTypeDetail);
-    addRoute('/specials', renderSpecialList);
-    addRoute('/special/:id', renderSpecialDetail);
-    addRoute('/guide', renderGuide);
-    addRoute('/courses', renderCourseList);
-    addRoute('/course/:id', renderCourseDetail);
-    addRoute('/articles', renderArticleList);
-    addRoute('/article/:id', renderArticleDetail);
+    // ルート定義（routes.js がビルド時の静的HTML書き出しと共通の正本）
+    route_table.forEach(r => addRoute(r.path, r.handler));
+    setNotFound(renderNotFoundPage);
 
     // 内部リンクのクリックをインターセプトしてSPA遷移
     document.addEventListener('click', (e) => {
         const a = e.target.closest('a');
         if (!a) return;
         const href = a.getAttribute('href');
-        if (href && href.startsWith('/onsen/')) {
+        if (href && href.startsWith('/') && !href.startsWith('//') && !a.target) {
             e.preventDefault();
-            navigateTo(href.slice('/onsen'.length) || '/');
+            navigateTo(href);
         }
     });
 

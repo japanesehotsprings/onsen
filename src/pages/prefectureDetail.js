@@ -22,14 +22,14 @@ export function renderPrefectureDetail({ params }) {
       <div class="page-header">
         <div class="container">
           <h1 class="page-title">ページが見つかりません</h1>
-          <a href="/onsen/" class="btn btn-primary">トップに戻る</a>
+          <a href="/" class="btn btn-primary">トップに戻る</a>
         </div>
       </div>
     `;
     return;
   }
 
-  updateSEO(`${prefecture.name}の温泉地一覧`, `${prefecture.name}（${prefecture.kana}）のおすすめ温泉地・秘湯の一覧です。泉質や特徴からお気に入りの温泉旅行を見つけよう。`);
+  updateSEO(`${prefecture.name}の温泉地一覧`, `${prefecture.name}（${prefecture.kana}）のおすすめ温泉地・秘湯の一覧です。泉質や特徴からお気に入りの温泉旅行を見つけよう。`, null, { image: prefecture.image });
 
   const onsenItems = getOnsenByPrefecture(params.id);
 
@@ -39,9 +39,9 @@ export function renderPrefectureDetail({ params }) {
       <div class="prefecture-hero-overlay"></div>
       <div class="prefecture-hero-content">
         <nav class="breadcrumb breadcrumb-light">
-          <a href="/onsen/">トップ</a>
+          <a href="/">トップ</a>
           <span class="breadcrumb-separator">›</span>
-          <a href="/onsen/prefectures">都道府県一覧</a>
+          <a href="/prefectures">都道府県一覧</a>
           <span class="breadcrumb-separator">›</span>
           <span>${prefecture.name}</span>
         </nav>
@@ -89,7 +89,7 @@ export function renderPrefectureDetail({ params }) {
  */
 function renderOnsenCard(onsen, hotelCount) {
   return `
-    <a href="/onsen/onsen/${onsen.id}" class="card onsen-card onsen-card-link">
+    <a href="/onsen/${onsen.id}" class="card onsen-card onsen-card-link">
       <div class="card-image">
         <img src="${onsen.image}" alt="${onsen.name}" loading="lazy">
         <span class="card-badge onsen">${onsen.category}</span>

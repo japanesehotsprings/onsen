@@ -1,17 +1,26 @@
 import { getArticleById } from '../data/articles.js';
 import { onsenList } from '../data/onsen.js';
-import { updateSEO } from '../seo.js';
+import { updateSEO, absolute_url } from '../seo.js';
 
 export function renderArticleDetail({ params }) {
     const app = document.getElementById('app');
     const article = getArticleById(params.id);
 
     if (!article) {
-        app.innerHTML = `<div class="page-header"><div class="container"><h1 class="page-title">ページが見つかりません</h1><a href="/onsen/articles" class="btn btn-primary">記事一覧へ</a></div></div>`;
+        app.innerHTML = `<div class="page-header"><div class="container"><h1 class="page-title">ページが見つかりません</h1><a href="/articles" class="btn btn-primary">記事一覧へ</a></div></div>`;
         return;
     }
 
-    updateSEO(article.title, article.description);
+    updateSEO(article.title, article.description, {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      'headline': article.title,
+      'description': article.description,
+      'image': absolute_url(article.image),
+      'inLanguage': 'ja',
+      ...(article.published ? { 'datePublished': article.published } : {}),
+      'publisher': { '@type': 'Organization', 'name': '日本温泉' }
+    }, { image: article.image });
 
     const relatedOnsen = onsenList.filter(o => article.onsen_ids.includes(o.id));
 
@@ -21,9 +30,9 @@ export function renderArticleDetail({ params }) {
             <div class="prefecture-hero-overlay"></div>
             <div class="prefecture-hero-content">
                 <nav class="breadcrumb breadcrumb-light">
-                    <a href="/onsen/">ホーム</a>
+                    <a href="/">ホーム</a>
                     <span class="breadcrumb-separator">›</span>
-                    <a href="/onsen/articles">コラム・記事</a>
+                    <a href="/articles">コラム・記事</a>
                     <span class="breadcrumb-separator">›</span>
                     <span>${article.categoryLabel}</span>
                 </nav>
@@ -50,7 +59,7 @@ export function renderArticleDetail({ params }) {
                 <h2 class="section-title">この記事で紹介した温泉地</h2>
                 <div class="hotel-grid">
                     ${relatedOnsen.map(o => `
-                        <a href="/onsen/onsen/${o.id}" class="hotel-card hotel-card-link">
+                        <a href="/onsen/${o.id}" class="hotel-card hotel-card-link">
                             <div class="hotel-card-image">
                                 <img src="${o.image}" alt="${o.name}" loading="lazy">
                                 <span class="hotel-type-badge">${o.category}</span>

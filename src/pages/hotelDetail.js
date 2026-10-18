@@ -6,7 +6,7 @@
 import { getHotelById } from '../data/hotels.js';
 import { onsenList } from '../data/onsen.js';
 import { getPrefectureById } from '../data/prefectures.js';
-import { updateSEO } from '../seo.js';
+import { updateSEO, absolute_url } from '../seo.js';
 
 /**
  * 予約サイトのURLを生成する
@@ -62,7 +62,7 @@ export function renderHotelDetail({ params }) {
       <div class="page-header">
         <div class="container">
           <h1 class="page-title">ページが見つかりません</h1>
-          <a href="/onsen/" class="btn btn-primary">トップに戻る</a>
+          <a href="/" class="btn btn-primary">トップに戻る</a>
         </div>
       </div>
     `;
@@ -79,12 +79,14 @@ export function renderHotelDetail({ params }) {
     'name': hotel.name,
     'description': hotel.description,
     'priceRange': hotel.price,
+    'image': absolute_url(hotel.image),
     'address': {
       '@type': 'PostalAddress',
       'addressRegion': prefecture?.name || '',
       'addressCountry': 'JP'
-    }
-  });
+    },
+    ...(onsen ? { 'containedInPlace': { '@type': 'TouristAttraction', 'name': onsen.name } } : {})
+  }, { image: hotel.image });
 
   app.innerHTML = `
     <div class="hotel-detail-hero">
@@ -92,10 +94,10 @@ export function renderHotelDetail({ params }) {
       <div class="hotel-detail-hero-overlay"></div>
       <div class="hotel-detail-hero-content">
         <nav class="breadcrumb breadcrumb-light">
-          <a href="/onsen/">トップ</a>
+          <a href="/">トップ</a>
           <span class="breadcrumb-separator">›</span>
-          ${prefecture ? `<a href="/onsen/prefecture/${onsen.prefecture}">${prefecture.name}の温泉</a><span class="breadcrumb-separator">›</span>` : ''}
-          ${onsen ? `<a href="/onsen/onsen/${onsen.id}">${onsen.name}</a><span class="breadcrumb-separator">›</span>` : ''}
+          ${prefecture ? `<a href="/prefecture/${onsen.prefecture}">${prefecture.name}の温泉</a><span class="breadcrumb-separator">›</span>` : ''}
+          ${onsen ? `<a href="/onsen/${onsen.id}">${onsen.name}</a><span class="breadcrumb-separator">›</span>` : ''}
           <span>${hotel.name}</span>
         </nav>
         <div class="hotel-detail-type-badge">${hotel.type}</div>
@@ -140,7 +142,7 @@ export function renderHotelDetail({ params }) {
                     温泉地
                   </span>
                   <span class="hotel-info-value">
-                    <a href="/onsen/onsen/${onsen.id}" class="hotel-info-link">${onsen.name}</a>
+                    <a href="/onsen/${onsen.id}" class="hotel-info-link">${onsen.name}</a>
                   </span>
                 </div>
                 <div class="hotel-info-row">
@@ -162,7 +164,7 @@ export function renderHotelDetail({ params }) {
                     エリア
                   </span>
                   <span class="hotel-info-value">
-                    <a href="/onsen/prefecture/${onsen.prefecture}" class="hotel-info-link">${prefecture.name}</a>
+                    <a href="/prefecture/${onsen.prefecture}" class="hotel-info-link">${prefecture.name}</a>
                   </span>
                 </div>
                 ` : ''}
@@ -204,7 +206,7 @@ export function renderHotelDetail({ params }) {
                 <img src="${onsen.image}" alt="${onsen.name}" class="hotel-onsen-thumb">
                 <div class="hotel-onsen-text">
                   <h3 class="hotel-onsen-name">
-                    <a href="/onsen/onsen/${onsen.id}">${onsen.name}</a>
+                    <a href="/onsen/${onsen.id}">${onsen.name}</a>
                   </h3>
                   <p class="hotel-onsen-spring">♨ ${onsen.spring_type}</p>
                   <p class="hotel-onsen-desc">${onsen.description}</p>
@@ -249,7 +251,7 @@ export function renderHotelDetail({ params }) {
 
             ${onsen ? `
             <div class="back-to-onsen">
-              <a href="/onsen/onsen/${onsen.id}" class="btn-back-onsen">
+              <a href="/onsen/${onsen.id}" class="btn-back-onsen">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                   <polyline points="15 18 9 12 15 6"/>
                 </svg>

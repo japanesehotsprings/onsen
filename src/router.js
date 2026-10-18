@@ -4,10 +4,12 @@ export function addRoute(path, handler) {
     routes.push({ path, handler });
 }
 
-const BASE = '/onsen';
+const BASE = '';
 
 function getCurrentPath() {
-    const path = window.location.pathname;
+    // 静的HTML（/onsen/xxx.html や末尾スラッシュ）でも同じルートに当たるよう正規化する
+    let path = window.location.pathname.replace(/\.html$/, '').replace(/\/index$/, '/');
+    if (path.length > 1) path = path.replace(/\/$/, '');
     const stripped = path.startsWith(BASE) ? path.slice(BASE.length) || '/' : '/';
     return stripped + window.location.search;
 }
@@ -52,7 +54,17 @@ export function resolveRoute() {
         }
     }
 
-    navigateTo('/');
+    renderNotFound();
+}
+
+// どのルートにも当たらないときは404表示（トップへ飛ばさない）
+function renderNotFound() {
+    if (notFoundHandler) notFoundHandler();
+}
+
+let notFoundHandler = null;
+export function setNotFound(handler) {
+    notFoundHandler = handler;
 }
 
 export function navigateTo(path) {

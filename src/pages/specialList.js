@@ -12,7 +12,7 @@ export function renderSpecialList() {
         <div class="page-header">
             <div class="container">
                 <nav class="breadcrumb">
-                    <a href="/onsen/">ホーム</a>
+                    <a href="/">ホーム</a>
                     <span class="breadcrumb-separator">›</span>
                     <span>特集</span>
                 </nav>
@@ -58,7 +58,7 @@ function renderSpecialCard(s) {
                <span style="font-size:4.5rem;filter:drop-shadow(0 6px 16px ${s.color}88)">${s.icon}</span>
            </div>`;
     return `
-        <a href="/onsen/special/${s.id}" class="hotel-card hotel-card-link">
+        <a href="/special/${s.id}" class="hotel-card hotel-card-link">
             ${imageArea}
             <div class="hotel-card-body">
                 <span style="font-size:0.72rem;color:var(--color-primary);font-weight:600;letter-spacing:0.06em">${s.subtitle}</span>
