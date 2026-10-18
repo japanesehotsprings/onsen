@@ -1,4 +1,6 @@
-name: Deploy Vite site to GitHub Pages
+name: Deploy redirect pages to GitHub Pages
+
+# 本体は Cloudflare Pages（deploy.sh）へ移行済み。GitHub Pages には旧URLから新サイトへの転送ページだけを置く
 
 on:
   push:
@@ -25,13 +27,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
 
-      - name: Install
-        run: npm install
-
-      - name: Build
-        run: npm run build
+      - name: Build redirect pages
+        run: node scripts/github-redirect.mjs
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -39,7 +37,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./dist-github
 
   deploy:
     environment:

@@ -28,3 +28,4 @@ dist-ssr
 
 # 画像変換のキャッシュ
 .cache/
+dist-github/

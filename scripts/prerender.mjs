@@ -15,28 +15,11 @@ const dist = resolve(root, 'dist');
 
 const { SITE_URL, SITE_NAME } = await import('../src/config.js');
 const { route_table, renderNotFoundPage } = await import('../src/routes.js');
-const { prefectures } = await import('../src/data/prefectures.js');
-const { onsenList } = await import('../src/data/onsen.js');
-const { hotelList } = await import('../src/data/hotels.js');
-const { springTypeList } = await import('../src/data/springTypes.js');
-const { specialList } = await import('../src/data/specials.js');
-const { courseList } = await import('../src/data/courses.js');
-const { articleList } = await import('../src/data/articles.js');
+const { page_paths } = await import('../src/page_list.js');
 
 const template = readFileSync(resolve(dist, 'index.html'), 'utf-8');
 const today = new Date().toISOString().split('T')[0];
-
-// 書き出すページ（検索ページは中身が検索語しだいなので書き出さない）
-const pages = [
-  '/', '/prefectures', '/onsens', '/hotels', '/spring-types', '/specials', '/guide', '/courses', '/articles',
-  ...prefectures.map(p => `/prefecture/${p.id}`),
-  ...onsenList.map(o => `/onsen/${o.id}`),
-  ...hotelList.map(h => `/hotel/${h.id}`),
-  ...springTypeList.map(s => `/spring-type/${s.id}`),
-  ...specialList.map(s => `/special/${s.id}`),
-  ...courseList.map(c => `/course/${c.id}`),
-  ...articleList.map(a => `/article/${a.id}`),
-];
+const pages = page_paths();
 
 function match_route(pattern, path) {
   const a = pattern.split('/');
