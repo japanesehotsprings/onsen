@@ -161,4 +161,39 @@ console.log(`✓ sitemap.xml（${indexable.length} URLs）`);
 writeFileSync(resolve(dist, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /search\n\nSitemap: ${SITE_URL}/sitemap.xml\n`, 'utf-8');
 console.log('✓ robots.txt');
 
+// llms.txt（AIアシスタント向けのサイト案内。主要ページと温泉地・コラムへのリンク）
+{
+  const { prefectures } = await import('../src/data/prefectures.js');
+  const { onsenList } = await import('../src/data/onsen.js');
+  const { articleList } = await import('../src/data/articles.js');
+  const { springTypeList } = await import('../src/data/springTypes.js');
+  const pref_name = Object.fromEntries(prefectures.map(p => [p.id, p.name]));
+  const lines = [
+    `# ${SITE_NAME}`,
+    '',
+    '> 日本全国47都道府県の温泉地と温泉宿を紹介する温泉専門メディア。温泉地ごとに泉質・効能・日帰り入浴・足湯・アクセス・掲載宿をまとめ、泉質の解説やコラムも掲載しています。',
+    '',
+    '温泉地・温泉宿・都道府県のページには「要点」（要約と早見表）と「よくある質問」があります。料金・営業時間は変わることがあるため、最新情報は各施設の公式情報で確認してください。',
+    '',
+    '## 主なページ',
+    `- [都道府県から探す](${SITE_URL}/prefectures): 47都道府県別の温泉地一覧`,
+    `- [温泉地一覧](${SITE_URL}/onsens): 全国${onsenList.length}か所の温泉地`,
+    `- [温泉宿一覧](${SITE_URL}/hotels): 掲載している温泉宿`,
+    `- [泉質から探す](${SITE_URL}/spring-types): 泉質ごとの特徴・効能・注意点`,
+    `- [初めての温泉旅行ガイド](${SITE_URL}/guide): 入り方・マナー・持ち物`,
+    '',
+    '## 泉質',
+    ...springTypeList.map(s => `- [${s.name}](${SITE_URL}/spring-type/${s.id}): ${s.description}`),
+    '',
+    '## 温泉地',
+    ...onsenList.map(o => `- [${o.name}（${pref_name[o.prefecture] || ''}）](${SITE_URL}/onsen/${o.id}): 泉質 ${o.spring_type}。${o.description}`),
+    '',
+    '## コラム',
+    ...articleList.map(a => `- [${a.title}](${SITE_URL}/article/${a.id}): ${a.description}`),
+    '',
+  ];
+  writeFileSync(resolve(dist, 'llms.txt'), lines.join('\n'), 'utf-8');
+  console.log('✓ llms.txt');
+}
+
 process.exit(0);

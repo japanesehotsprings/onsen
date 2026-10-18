@@ -1,6 +1,7 @@
 import { getSpringTypeById } from '../data/springTypes.js';
 import { onsenList } from '../data/onsen.js';
 import { updateSEO } from '../seo.js';
+import { faq_section, faq_ld, sentence } from '../components/answer.js';
 
 export function renderSpringTypeDetail({ params }) {
     const app = document.getElementById('app');
@@ -11,13 +12,15 @@ export function renderSpringTypeDetail({ params }) {
         return;
     }
 
-    updateSEO(`${st.name}とは？効能・特徴・おすすめ温泉地`, st.description);
 
     const relatedOnsen = onsenList.filter(o =>
         st.onsen_ids.includes(o.id) ||
         o.spring_type?.includes(st.name.split('（')[0]) ||
         o.category?.includes(st.name.split('（')[0])
     ).slice(0, 6);
+
+    const faqs = build_spring_faqs(st, relatedOnsen);
+    updateSEO(`${st.name}とは？効能・特徴・おすすめ温泉地`, st.description, faq_ld(faqs));
 
     app.innerHTML = `
         <div class="prefecture-hero onsen-hero" style="${st.image ? '' : `background:${st.color}33`}">
@@ -86,6 +89,29 @@ export function renderSpringTypeDetail({ params }) {
             </div>
         </section>
         ` : ''}
+
+        <section class="section">
+            <div class="container">${faq_section(`${st.name}のよくある質問`, faqs)}</div>
+        </section>
     `;
     window.scrollTo(0, 0);
+}
+
+/**
+ * 泉質ページのよくある質問をデータから組み立てる
+ */
+function build_spring_faqs(st, relatedOnsen) {
+  const faqs = [
+    { q: `${st.name}とはどんな温泉ですか？`, a: sentence(st.description) },
+    { q: `${st.name}の効能は？`, a: `一般的な適応症として${st.effects.join('・')}が挙げられます。効き方には個人差があり、持病のある方は医師に相談してください。` },
+  ];
+  if (st.suitable_for) faqs.push({ q: `${st.name}はどんな人に向いていますか？`, a: sentence(`${st.suitable_for}に向いています`) });
+  if (st.caution) faqs.push({ q: `${st.name}に入るときの注意点は？`, a: sentence(st.caution) });
+  if (relatedOnsen.length) {
+    faqs.push({
+      q: `${st.name}が楽しめる温泉地は？`,
+      a: `日本温泉では${relatedOnsen.slice(0, 8).map(o => o.name).join('、')}${relatedOnsen.length > 8 ? ' など' : ''}を紹介しています。`,
+    });
+  }
+  return faqs;
 }

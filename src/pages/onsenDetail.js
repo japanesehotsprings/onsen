@@ -2,6 +2,8 @@ import { onsenList } from '../data/onsen.js';
 import { getHotelsByOnsen } from '../data/hotels.js';
 import { getPrefectureById } from '../data/prefectures.js';
 import { updateSEO, absolute_url } from '../seo.js';
+import { springTypeList } from '../data/springTypes.js';
+import { summary_box, faq_section, faq_ld, sentence, PRICE_NOTE } from '../components/answer.js';
 
 export function renderOnsenDetail({ params }) {
   const app = document.getElementById('app');
@@ -23,7 +25,9 @@ export function renderOnsenDetail({ params }) {
   const prefecture = getPrefectureById(onsen.prefecture);
   const hotels = getHotelsByOnsen(onsen.id);
 
-  updateSEO(`${onsen.name}（${prefecture?.name || ''}）の温泉宿・詳細情報`, onsen.description, {
+  const answer = build_onsen_answer(onsen, prefecture, hotels);
+
+  updateSEO(`${onsen.name}（${prefecture?.name || ''}）の温泉宿・詳細情報`, onsen.description, [{
     '@context': 'https://schema.org',
     '@type': 'TouristAttraction',
     'name': onsen.name,
@@ -35,7 +39,7 @@ export function renderOnsenDetail({ params }) {
     },
     'image': absolute_url(onsen.image),
     'amenityFeature': { '@type': 'LocationFeatureSpecification', 'name': '温泉', 'value': true }
-  }, { image: onsen.image });
+  }, faq_ld(answer.faqs)].filter(Boolean), { image: onsen.image });
 
   const hasDayTrip = onsen.day_trip?.available;
   const hasFootbath = onsen.footbath?.available;
@@ -68,6 +72,8 @@ export function renderOnsenDetail({ params }) {
         <div class="onsen-detail-grid">
 
           <div class="onsen-detail-main">
+            ${summary_box(`${onsen.name}の要点`, answer.lead, answer.facts, PRICE_NOTE)}
+
             <div class="onsen-detail-card">
               <h2 class="onsen-detail-heading">この温泉地について</h2>
               <p class="onsen-detail-desc">${onsen.description}</p>
@@ -84,6 +90,8 @@ export function renderOnsenDetail({ params }) {
               <p class="onsen-detail-history">${onsen.history}</p>
             </div>
             ` : ''}
+
+            ${faq_section(`${onsen.name}のよくある質問`, answer.faqs)}
           </div>
 
           <div class="onsen-detail-sidebar">
@@ -247,4 +255,73 @@ function setupDetailAnimations() {
       card.style.transform = 'translateY(0)';
     }, i * 100);
   });
+}
+
+/**
+ * 温泉地ページの要約・早見表・よくある質問をデータから組み立てる
+ */
+function build_onsen_answer(onsen, prefecture, hotels) {
+  const pref = prefecture?.name || '';
+  const st = springTypeList.find(s => s.onsen_ids?.includes(onsen.id));
+  const dt = onsen.day_trip || {};
+  const ac = onsen.access || {};
+  const fb = onsen.footbath || {};
+
+  const lead = `${onsen.name}は${pref}にある温泉地で、泉質は${onsen.spring_type}です。` + sentence(onsen.description);
+
+  const effects = onsen.effects?.length
+    ? onsen.effects.join('・')
+    : (st ? `${st.effects.join('・')}（${st.name}の一般的な適応症）` : '');
+
+  const facts = [
+    { label: '所在地', value: pref },
+    { label: '泉質', value: onsen.spring_type },
+    { label: '主な効能', value: effects },
+    { label: '日帰り入浴', value: dt.available ? ['可', dt.price, dt.hours].filter(Boolean).join('・') : '' },
+    { label: '足湯', value: fb.available ? `${fb.location || 'あり'}（${fb.free ? '無料' : '有料'}）` : '' },
+    { label: '飲泉', value: onsen.drinkable ? '可' : '' },
+    { label: '最寄り駅', value: ac.nearest_station },
+    { label: '電車', value: ac.by_train },
+    { label: '車', value: ac.by_car },
+    { label: '掲載宿', value: hotels.length ? `${hotels.length}軒` : '' },
+  ];
+
+  const faqs = [];
+  faqs.push({
+    q: `${onsen.name}の泉質は何ですか？`,
+    a: `${onsen.name}の泉質は${onsen.spring_type}です。` + (st ? sentence(`${st.name}は、${st.description}`) : ''),
+  });
+  if (dt.available) {
+    faqs.push({
+      q: `${onsen.name}は日帰り入浴できますか？`,
+      a: `できます。` + [dt.price && `料金は${dt.price}`, dt.hours && `時間は${dt.hours}`].filter(Boolean).join('、') + (dt.price || dt.hours ? 'が目安です（施設によって異なります）。' : ''),
+    });
+  }
+  if (ac.by_train || ac.by_car) {
+    const parts = [];
+    if (ac.by_train) parts.push(`電車なら${ac.by_train}${ac.nearest_station ? `（最寄り駅：${ac.nearest_station}）` : ''}。`);
+    if (ac.by_car) parts.push(`車なら${ac.by_car}。`);
+    if (typeof ac.parking === 'boolean') parts.push(ac.parking ? '駐車場があります。' : '駐車場の情報はありません。');
+    faqs.push({ q: `${onsen.name}へのアクセス方法は？`, a: parts.join('') });
+  }
+  if (fb.available) {
+    faqs.push({
+      q: `${onsen.name}に足湯はありますか？`,
+      a: `あります。${fb.location ? `${fb.location}にあり、` : ''}${fb.free ? '無料' : '有料'}で利用できます。`,
+    });
+  }
+  if (effects) {
+    faqs.push({ q: `${onsen.name}の効能は？`, a: `主な効能は${effects}です。体調に不安がある方は、入浴前に医師に相談してください。` });
+  }
+  if (onsen.history) {
+    faqs.push({ q: `${onsen.name}にはどんな歴史がありますか？`, a: sentence(onsen.history) });
+  }
+  if (hotels.length) {
+    const names = hotels.slice(0, 5).map(h => h.name).join('、');
+    faqs.push({
+      q: `${onsen.name}でおすすめの宿は？`,
+      a: `日本温泉では${onsen.name}の宿を${hotels.length}軒掲載しています（${names}${hotels.length > 5 ? ' など' : ''}）。料金の目安や特徴は各宿のページで確認できます。`,
+    });
+  }
+  return { lead, facts, faqs };
 }

@@ -7,6 +7,8 @@ import { getHotelById } from '../data/hotels.js';
 import { onsenList } from '../data/onsen.js';
 import { getPrefectureById } from '../data/prefectures.js';
 import { updateSEO, absolute_url } from '../seo.js';
+import { getHotelsByOnsen } from '../data/hotels.js';
+import { summary_box, faq_section, faq_ld, sentence, PRICE_NOTE } from '../components/answer.js';
 
 /**
  * 予約サイトのURLを生成する
@@ -73,7 +75,9 @@ export function renderHotelDetail({ params }) {
   const prefecture = onsen ? getPrefectureById(onsen.prefecture) : null;
   const bookingLinks = buildBookingLinks(hotel);
 
-  updateSEO(`${hotel.name}（${onsen?.name || '温泉宿'}）の宿泊情報・予約`, hotel.description, {
+  const answer = build_hotel_answer(hotel, onsen, prefecture, bookingLinks);
+
+  updateSEO(`${hotel.name}（${onsen?.name || '温泉宿'}）の宿泊情報・予約`, hotel.description, [{
     '@context': 'https://schema.org',
     '@type': 'LodgingBusiness',
     'name': hotel.name,
@@ -86,7 +90,7 @@ export function renderHotelDetail({ params }) {
       'addressCountry': 'JP'
     },
     ...(onsen ? { 'containedInPlace': { '@type': 'TouristAttraction', 'name': onsen.name } } : {})
-  }, { image: hotel.image });
+  }, faq_ld(answer.faqs)].filter(Boolean), { image: hotel.image });
 
   app.innerHTML = `
     <div class="hotel-detail-hero">
@@ -112,6 +116,8 @@ export function renderHotelDetail({ params }) {
 
           <!-- 基本情報カード -->
           <div class="hotel-detail-main">
+            ${summary_box(`${hotel.name}の要点`, answer.lead, answer.facts, PRICE_NOTE)}
+
             <div class="hotel-detail-card">
               <h2 class="hotel-detail-card-title">基本情報</h2>
               <div class="hotel-info-list">
@@ -214,6 +220,7 @@ export function renderHotelDetail({ params }) {
               </div>
             </div>
             ` : ''}
+            ${faq_section(`${hotel.name}のよくある質問`, answer.faqs)}
           </div>
 
           <!-- サイドバー：予約リンク -->
@@ -287,4 +294,58 @@ function setupAnimations() {
       card.style.transform = 'translateY(0)';
     }, i * 100);
   });
+}
+
+/**
+ * 宿ページの要約・早見表・よくある質問をデータから組み立てる
+ */
+function build_hotel_answer(hotel, onsen, prefecture, bookingLinks) {
+  const pref = prefecture?.name || '';
+  const ac = onsen?.access || {};
+  const lead = `${hotel.name}は${pref}${onsen ? `・${onsen.name}` : ''}にある${hotel.type}です。` + sentence(hotel.description);
+
+  const facts = [
+    { label: '宿のタイプ', value: hotel.type },
+    { label: '料金の目安', value: hotel.price },
+    { label: '温泉地', value: onsen ? `${onsen.name}（${pref}）` : pref },
+    { label: '泉質', value: onsen?.spring_type },
+    { label: '源泉', value: hotel.source_type },
+    { label: '特徴', value: (hotel.features?.length ? hotel.features : hotel.tags).join('・') },
+    { label: '向いている旅', value: hotel.scenes?.join('・') },
+    { label: '最寄り駅', value: ac.nearest_station },
+  ];
+
+  const faqs = [];
+  faqs.push({
+    q: `${hotel.name}の料金の目安は？`,
+    a: `${hotel.price}が目安です。時期・部屋・プランで変わるため、最新の料金は予約サイトで確認してください。`,
+  });
+  if (onsen) {
+    faqs.push({
+      q: `${hotel.name}はどこの温泉地にありますか？`,
+      a: `${pref}の${onsen.name}にあります。${onsen.name}の泉質は${onsen.spring_type}です。`,
+    });
+  }
+  if (ac.by_train || ac.by_car) {
+    faqs.push({
+      q: `${hotel.name}への行き方は？`,
+      a: `${onsen.name}へは、` + [ac.by_train && `電車なら${ac.by_train}`, ac.by_car && `車なら${ac.by_car}`].filter(Boolean).join('、') + 'が目安です。宿までの送迎や詳しい道順は宿にご確認ください。',
+    });
+  }
+  if (hotel.meals) {
+    const m = [hotel.meals.dinner && `夕食は${hotel.meals.dinner}`, hotel.meals.breakfast && `朝食は${hotel.meals.breakfast}`].filter(Boolean).join('、');
+    if (m) faqs.push({ q: `${hotel.name}の食事は？`, a: `${m}です。` });
+  }
+  faqs.push({
+    q: `${hotel.name}はどこで予約できますか？`,
+    a: `${bookingLinks.map(b => b.name).join('・')}で空室と料金を確認できます。このページの「予約サイトで確認」から各サイトへ移動できます。`,
+  });
+  const others = onsen ? getHotelsByOnsen(onsen.id).filter(h => h.id !== hotel.id) : [];
+  if (others.length) {
+    faqs.push({
+      q: `${onsen.name}にはほかにどんな宿がありますか？`,
+      a: `日本温泉では${others.slice(0, 5).map(h => h.name).join('、')}${others.length > 5 ? ' など' : ''}も掲載しています。`,
+    });
+  }
+  return { lead, facts, faqs };
 }

@@ -7,6 +7,7 @@ import { getPrefectureById } from '../data/prefectures.js';
 import { getOnsenByPrefecture } from '../data/onsen.js';
 import { getHotelsByOnsen } from '../data/hotels.js';
 import { updateSEO } from '../seo.js';
+import { summary_box, faq_section, faq_ld } from '../components/answer.js';
 
 /**
  * 都道府県詳細ページのHTMLを生成して表示する
@@ -29,9 +30,10 @@ export function renderPrefectureDetail({ params }) {
     return;
   }
 
-  updateSEO(`${prefecture.name}の温泉地一覧`, `${prefecture.name}（${prefecture.kana}）のおすすめ温泉地・秘湯の一覧です。泉質や特徴からお気に入りの温泉旅行を見つけよう。`, null, { image: prefecture.image });
-
   const onsenItems = getOnsenByPrefecture(params.id);
+  const answer = build_prefecture_answer(prefecture, onsenItems);
+
+  updateSEO(`${prefecture.name}の温泉地一覧`, `${prefecture.name}（${prefecture.kana}）のおすすめ温泉地・秘湯の一覧です。泉質や特徴からお気に入りの温泉旅行を見つけよう。`, faq_ld(answer.faqs), { image: prefecture.image });
 
   app.innerHTML = `
     <div class="prefecture-hero">
@@ -53,6 +55,7 @@ export function renderPrefectureDetail({ params }) {
     <section class="section prefecture-detail-section">
       <div class="container">
         ${onsenItems.length > 0 ? `
+          <div style="margin-bottom: var(--spacing-lg)">${summary_box(`${prefecture.name}の温泉の要点`, answer.lead, answer.facts)}</div>
           <div class="card-grid">
             ${onsenItems.map(onsen => {
     const hotels = getHotelsByOnsen(onsen.id);
@@ -71,6 +74,7 @@ export function renderPrefectureDetail({ params }) {
             <p>この都道府県の温泉情報は近日公開予定です</p>
           </div>
         `}
+        <div style="margin-top: var(--spacing-lg)">${faq_section(`${prefecture.name}の温泉のよくある質問`, answer.faqs)}</div>
       </div>
     </section>
   `;
@@ -124,4 +128,68 @@ function setupDetailAnimations() {
       card.style.transform = 'translateY(0)';
     }, i * 100);
   });
+}
+
+// 泉質の傾向を一言で（同数の泉質があるときに「最も多い」と言わない）
+function spring_phrase(springs) {
+  if (springs.length === 1) return `泉質はすべて${springs[0][0]}で、`;
+  const max = springs[0][1];
+  const top = springs.filter(([, v]) => v === max).map(([k]) => k);
+  if (top.length === 1) return `泉質は${top[0]}が最も多く、`;
+  return `泉質は${top.join('・')}がそれぞれ${max}か所で、`;
+}
+
+// 名前の列挙（多いときは先頭だけ＋「など」）
+function list_names(items, max = 6) {
+  return items.slice(0, max).map(o => o.name).join('、') + (items.length > max ? ' など' : '');
+}
+
+/**
+ * 都道府県ページの要約・早見表・よくある質問をデータから組み立てる
+ */
+function build_prefecture_answer(prefecture, onsenItems) {
+  const pref = prefecture.name;
+  if (!onsenItems.length) return { lead: '', facts: [], faqs: [] };
+
+  // 泉質の内訳（多い順）
+  const counts = {};
+  onsenItems.forEach(o => { counts[o.category] = (counts[o.category] || 0) + 1; });
+  const springs = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+  const spring_text = springs.map(([k, v]) => `${k}${v}か所`).join('・');
+
+  const day_trip = onsenItems.filter(o => o.day_trip?.available);
+  const footbath = onsenItems.filter(o => o.footbath?.available);
+  const hotel_count = onsenItems.reduce((n, o) => n + getHotelsByOnsen(o.id).length, 0);
+
+  const lead = `${pref}で日本温泉が紹介している温泉地は${onsenItems.length}か所です（${list_names(onsenItems)}）。`
+    + spring_phrase(springs) + (day_trip.length ? `日帰り入浴できる温泉地が${day_trip.length}か所あります。` : '');
+
+  const facts = [
+    { label: '掲載温泉地', value: `${onsenItems.length}か所` },
+    { label: '主な温泉地', value: list_names(onsenItems) },
+    { label: '泉質の内訳', value: spring_text },
+    { label: '日帰り入浴', value: day_trip.length ? `${day_trip.length}か所（${list_names(day_trip, 4)}）` : '' },
+    { label: '足湯', value: footbath.length ? `${footbath.length}か所（${list_names(footbath, 4)}）` : '' },
+    { label: '掲載宿', value: hotel_count ? `${hotel_count}軒` : '' },
+  ];
+
+  const faqs = [];
+  faqs.push({
+    q: `${pref}にはどんな温泉地がありますか？`,
+    a: `日本温泉では${pref}の温泉地を${onsenItems.length}か所紹介しています。` + onsenItems.slice(0, 4).map(o => `${o.name}（${o.category}）は${o.description}`).join(' ') ,
+  });
+  faqs.push({ q: `${pref}の温泉はどんな泉質が多いですか？`, a: `掲載している温泉地では、${spring_text}です。` });
+  if (day_trip.length) {
+    faqs.push({
+      q: `${pref}で日帰り入浴できる温泉は？`,
+      a: day_trip.slice(0, 6).map(o => `${o.name}${o.day_trip.price ? `（${o.day_trip.price}）` : ''}`).join('、') + `${day_trip.length > 6 ? ' など' : ''}で日帰り入浴ができます。料金は施設によって異なります。`,
+    });
+  }
+  if (footbath.length) {
+    faqs.push({
+      q: `${pref}で足湯がある温泉地は？`,
+      a: footbath.slice(0, 6).map(o => `${o.name}${o.footbath.location ? `（${o.footbath.location}）` : ''}`).join('、') + `${footbath.length > 6 ? ' など' : ''}に足湯があります。`,
+    });
+  }
+  return { lead, facts, faqs };
 }
