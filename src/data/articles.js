@@ -1,3 +1,5 @@
+import { articles_added } from './articles_added.js';
+
 export const articleList = [
     {
         id: 'nihon-sanmeisen',
@@ -810,6 +812,9 @@ export const articleList = [
         `
     }
 ];
+
+// 追加コラム（articles_added.js）を新しい順で先頭に
+articleList.unshift(...articles_added);
 
 export function getArticleById(id) {
     return articleList.find(a => a.id === id);

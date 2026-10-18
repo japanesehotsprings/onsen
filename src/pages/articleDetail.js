@@ -1,6 +1,7 @@
 import { getArticleById } from '../data/articles.js';
 import { onsenList } from '../data/onsen.js';
 import { updateSEO, absolute_url } from '../seo.js';
+import { faq_section, faq_ld, esc } from '../components/answer.js';
 
 export function renderArticleDetail({ params }) {
     const app = document.getElementById('app');
@@ -11,7 +12,7 @@ export function renderArticleDetail({ params }) {
         return;
     }
 
-    updateSEO(article.title, article.description, {
+    const article_ld = {
       '@context': 'https://schema.org',
       '@type': 'Article',
       'headline': article.title,
@@ -19,8 +20,19 @@ export function renderArticleDetail({ params }) {
       'image': absolute_url(article.image),
       'inLanguage': 'ja',
       ...(article.published ? { 'datePublished': article.published } : {}),
+      ...(article.updated || article.published ? { 'dateModified': article.updated || article.published } : {}),
+      ...(article.sources?.length ? { 'citation': article.sources.map(src => ({ '@type': 'CreativeWork', 'name': src.name, 'url': src.url })) } : {}),
       'publisher': { '@type': 'Organization', 'name': '日本温泉' }
-    }, { image: article.image });
+    };
+    const faqs = article.faqs || [];
+    updateSEO(article.title, article.description, faqs.length ? [article_ld, faq_ld(faqs)] : article_ld, { image: article.image });
+
+    // 公開日・更新日（YYYY-MM-DD → YYYY年M月D日）
+    const fmt_date = d => d ? d.replace(/^(\d{4})-0?(\d{1,2})-0?(\d{1,2})$/, '$1年$2月$3日') : '';
+    const date_text = [
+      article.published && `公開 ${fmt_date(article.published)}`,
+      article.updated && article.updated !== article.published && `更新 ${fmt_date(article.updated)}`,
+    ].filter(Boolean).join('・');
 
     const relatedOnsen = onsenList.filter(o => article.onsen_ids.includes(o.id));
 
@@ -45,11 +57,20 @@ export function renderArticleDetail({ params }) {
             <div class="container" style="max-width:760px">
                 <div class="article-meta">
                     <span class="article-meta-category">${article.categoryLabel}</span>
+                    ${date_text ? `<span class="article-meta-date">${date_text}</span>` : ''}
                 </div>
                 <p class="article-lead">${article.description}</p>
                 <div class="article-body">
                     ${article.body}
                 </div>
+                ${faq_section('よくある質問', faqs)}
+                ${article.sources?.length ? `
+                <section class="article-sources">
+                    <h2 class="article-sources-title">参考資料</h2>
+                    <ul>
+                        ${article.sources.map(src => `<li><a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.name)}</a></li>`).join('')}
+                    </ul>
+                </section>` : ''}
             </div>
         </section>
 

@@ -2681,3 +2681,49 @@ ul {
   .inn-price { gap: 1.5rem; }
   .inn-cta-main, .inn-cta-sub { width: 100%; }
 }
+
+/* ===== 記事: h2・表・参考資料（2026-10 追加コラム用） ===== */
+.article-body h2 {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  color: var(--color-text);
+  margin: 3rem 0 1.1rem;
+  padding: 0.2rem 0 0.2rem 0.9rem;
+  border-left: 4px solid var(--color-primary);
+  line-height: 1.5;
+}
+.article-body h2:first-child { margin-top: 0; }
+.article-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 1.75rem;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  display: block;
+  overflow-x: auto;
+}
+.article-body th,
+.article-body td {
+  border: 1px solid var(--color-border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+  text-align: left;
+}
+.article-body thead th {
+  background: var(--color-surface);
+  color: var(--color-text);
+  white-space: nowrap;
+}
+.article-body td a { color: var(--color-primary-dark); font-weight: 600; }
+.article-meta-date { margin-left: auto; }
+.article-sources {
+  margin-top: var(--spacing-lg);
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--color-border);
+}
+.article-sources-title {
+  font-size: 1rem;
+  margin: 0 0 0.6rem;
+}
+.article-sources ul { margin: 0; padding-left: 1.2rem; font-size: 0.85rem; line-height: 1.8; }
+.article-sources a { color: var(--color-text-muted); text-decoration: underline; word-break: break-all; }
