@@ -19,6 +19,7 @@ import { renderCourseList } from './pages/courseList.js';
 import { renderCourseDetail } from './pages/courseDetail.js';
 import { renderArticleList } from './pages/articleList.js';
 import { renderArticleDetail } from './pages/articleDetail.js';
+import { renderForInns } from './pages/forInns.js';
 import { updateSEO } from './seo.js';
 
 export const route_table = [
@@ -39,6 +40,7 @@ export const route_table = [
     { path: '/course/:id', handler: renderCourseDetail },
     { path: '/articles', handler: renderArticleList },
     { path: '/article/:id', handler: renderArticleDetail },
+    { path: '/for-inns', handler: renderForInns },
 ];
 
 // どのルートにも当たらないページ

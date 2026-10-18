@@ -9,6 +9,7 @@ import { getPrefectureById } from '../data/prefectures.js';
 import { updateSEO, absolute_url } from '../seo.js';
 import { getHotelsByOnsen } from '../data/hotels.js';
 import { summary_box, faq_section, faq_ld, sentence, PRICE_NOTE } from '../components/answer.js';
+import { inn_owner_note } from './forInns.js';
 
 /**
  * 予約サイトのURLを生成する
@@ -221,6 +222,7 @@ export function renderHotelDetail({ params }) {
             </div>
             ` : ''}
             ${faq_section(`${hotel.name}のよくある質問`, answer.faqs)}
+            ${inn_owner_note(hotel.name)}
           </div>
 
           <!-- サイドバー：予約リンク -->

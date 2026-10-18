@@ -2532,3 +2532,152 @@ ul {
   .answer-box { padding: 1.2rem 1.1rem; }
   .answer-box-table th { width: 5.5em; white-space: normal; }
 }
+
+/* ===== 宿の方へ（YADO WEB） ===== */
+.inn-container { max-width: 880px; }
+.inn-hero-card {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border-hover);
+  border-radius: var(--radius-lg);
+  padding: 2.25rem 2rem;
+  text-align: center;
+}
+.inn-eyebrow {
+  color: var(--color-primary);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  margin: 0 0 0.5rem;
+}
+.inn-hero-title {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin: 0 0 1rem;
+}
+.inn-hero-text {
+  color: var(--color-text-muted);
+  line-height: 1.95;
+  text-align: left;
+  margin: 0 auto 1.5rem;
+  max-width: 680px;
+}
+.inn-price {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.inn-price > div { display: flex; flex-direction: column; align-items: center; }
+.inn-price-label { font-size: 0.8rem; color: var(--color-text-muted); }
+.inn-price-value {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  color: var(--color-primary-dark);
+  line-height: 1.3;
+}
+.inn-price-value small { font-size: 0.95rem; margin-left: 0.15em; }
+.inn-price-note, .inn-cta-note, .inn-small {
+  font-size: 0.82rem;
+  color: var(--color-text-dim);
+  margin: 0.25rem 0 0;
+}
+.inn-cta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 1.5rem 0 0.5rem;
+}
+.inn-cta-main { min-width: 14em; }
+.inn-cta-sub {
+  background: #fff;
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary-dark);
+}
+.inn-heading {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  margin: var(--spacing-lg) 0 1rem;
+}
+.inn-grid { display: grid; gap: 1rem; }
+.inn-grid-3 { grid-template-columns: repeat(3, 1fr); }
+.inn-card {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+}
+.inn-card h3 { font-size: 1rem; margin: 0 0 0.5rem; line-height: 1.6; }
+.inn-card p { font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.8; margin: 0; }
+.inn-includes {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+.inn-includes li, .inn-flow li {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 0.9rem 1.1rem;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+.inn-includes strong, .inn-flow strong {
+  display: block;
+  color: var(--color-text);
+  font-size: 0.98rem;
+}
+.inn-flow {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  counter-reset: flow;
+  display: grid;
+  gap: 0.75rem;
+}
+.inn-flow li { counter-increment: flow; padding-left: 3.2rem; position: relative; }
+.inn-flow li::before {
+  content: counter(flow);
+  position: absolute;
+  left: 1rem;
+  top: 0.95rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inn-bottom-cta {
+  margin-top: var(--spacing-lg);
+  text-align: center;
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  padding: 2rem 1.5rem;
+}
+.inn-bottom-cta p { line-height: 1.9; margin: 0 0 1rem; }
+.inn-note {
+  margin-top: var(--spacing-md);
+  border: 1px dashed var(--color-border-hover);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.2rem;
+  background: var(--color-bg-alt);
+}
+.inn-note-title { font-weight: 600; font-size: 0.92rem; margin: 0 0 0.35rem; }
+.inn-note-text { font-size: 0.85rem; color: var(--color-text-muted); line-height: 1.8; margin: 0 0 0.5rem; }
+.inn-note-link { font-size: 0.88rem; color: var(--color-primary-dark); font-weight: 600; }
+@media (max-width: 768px) {
+  .pc-only { display: none; }
+  .inn-hero-card { padding: 1.75rem 1.1rem; }
+  .inn-hero-title { font-size: 1.3rem; }
+  .inn-grid-3, .inn-includes { grid-template-columns: 1fr; }
+  .inn-price { gap: 1.5rem; }
+  .inn-cta-main, .inn-cta-sub { width: 100%; }
+}

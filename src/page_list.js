@@ -12,7 +12,7 @@ import { articleList } from './data/articles.js';
 
 export function page_paths() {
   return [
-    '/', '/prefectures', '/onsens', '/hotels', '/spring-types', '/specials', '/guide', '/courses', '/articles',
+    '/', '/prefectures', '/onsens', '/hotels', '/spring-types', '/specials', '/guide', '/courses', '/articles', '/for-inns',
     ...prefectures.map(p => `/prefecture/${p.id}`),
     ...onsenList.map(o => `/onsen/${o.id}`),
     ...hotelList.map(h => `/hotel/${h.id}`),

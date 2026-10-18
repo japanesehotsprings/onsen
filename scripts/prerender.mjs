@@ -181,6 +181,7 @@ console.log('✓ robots.txt');
     `- [温泉宿一覧](${SITE_URL}/hotels): 掲載している温泉宿`,
     `- [泉質から探す](${SITE_URL}/spring-types): 泉質ごとの特徴・効能・注意点`,
     `- [初めての温泉旅行ガイド](${SITE_URL}/guide): 入り方・マナー・持ち物`,
+    `- [旅館・ホテルの方へ](${SITE_URL}/for-inns): 日本温泉が運営する宿専門のホームページ制作「YADO WEB」（初期費用0円・月額10,000円税込）`,
     '',
     '## 泉質',
     ...springTypeList.map(s => `- [${s.name}](${SITE_URL}/spring-type/${s.id}): ${s.description}`),
