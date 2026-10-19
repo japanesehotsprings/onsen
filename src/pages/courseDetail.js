@@ -89,11 +89,11 @@ export function renderCourseDetail({ params }) {
                 <a href="/hotel/${hotel.id}" class="hotel-card hotel-card-link" style="max-width:400px;display:block">
                     <div class="hotel-card-image">
                         <img src="${hotel.image}" alt="${hotel.name}" loading="lazy">
-                        <span class="hotel-type-badge">${hotel.type}</span>
+                        ${hotel.type ? `<span class="hotel-type-badge">${hotel.type}</span>` : ''}
                     </div>
                     <div class="hotel-card-body">
                         <h3 class="hotel-card-name">${hotel.name}</h3>
-                        <p class="hotel-card-desc">${hotel.description.slice(0, 60)}…</p>
+                        <p class="hotel-card-desc">${hotel.description}</p>
                     </div>
                 </a>
             </div>

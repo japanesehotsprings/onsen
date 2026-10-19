@@ -33,7 +33,8 @@ export function renderHotelList() {
               </div>
               <div class="hotel-card-content">
                 <h3 class="hotel-card-name">${hotel.name}</h3>
-                <p class="hotel-card-type">${hotel.type}</p>
+        ${hotel.notice ? `<p class="hotel-card-notice">休業中</p>` : ''}
+                ${hotel.type ? `<p class="hotel-card-type">${hotel.type}</p>` : ''}
                 <div class="hotel-card-tags">
                   ${hotel.tags.slice(0, 3).map(tag => `<span class="tag">${tag}</span>`).join('')}
                 </div>

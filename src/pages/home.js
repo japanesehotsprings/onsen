@@ -146,12 +146,12 @@ export function renderHome() {
               <a href="/hotel/${hotel.id}" class="hotel-card hotel-card-link">
                 <div class="hotel-card-image">
                   <img src="${hotel.image}" alt="${hotel.name}" loading="lazy">
-                  <span class="hotel-type-badge">${hotel.type}</span>
+                  ${hotel.type ? `<span class="hotel-type-badge">${hotel.type}</span>` : ''}
                 </div>
                 <div class="hotel-card-content">
                   <p class="hotel-onsen-name">♨ ${onsen?.name || '温泉地'}</p>
                   <h3 class="hotel-card-title">${hotel.name}</h3>
-                  <p class="hotel-card-price">${hotel.price}</p>
+                  ${hotel.price ? `<p class="hotel-card-price">${hotel.price}</p>` : ''}
                   <p class="hotel-card-desc">${hotel.description}</p>
                   <div class="hotel-card-tags">
                     ${hotel.tags.slice(0, 3).map(t => `<span class="tag">${t}</span>`).join('')}

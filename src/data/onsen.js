@@ -1567,7 +1567,7 @@ export const onsenList = [
         prefecture: "ishikawa",
         category: "塩化物泉",
         spring_type: "ナトリウム・カルシウム-塩化物泉",
-        description: "能登半島の七尾湾に面した海の温泉。海から湧く温泉として知られ、湾沿いに旅館が立ち並ぶ。",
+        description: "能登半島の七尾湾に面した海の温泉。海から湧く温泉として知られる。2024年の能登半島地震の影響で、休業が続いている宿もある（2026年6月時点）。",
         image: "./onsen/wakura.png",
         tags: [
             "海の温泉",

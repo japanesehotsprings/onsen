@@ -1,0 +1,355 @@
+{"id": "h-hokkaido-1-1", "status": 200, "final": "https://www.ikyu.com/00000587/", "title": "第一滝本館 - 宿泊予約 - 一休.com", "ldname": "第一滝本館", "addr": "登別市登別温泉町55"}
+{"id": "h-hokkaido-1-2", "status": 200, "final": "https://www.ikyu.com/00000583/", "title": "祝いの宿　登別グランドホテル - 宿泊予約 - 一休.com", "ldname": "祝いの宿　登別グランドホテル", "addr": "登別市登別温泉町154"}
+{"id": "h-hokkaido-1-3", "status": 200, "final": "https://www.ikyu.com/00001424/", "title": "登別温泉郷　滝乃家 - 宿泊予約 - 一休.com", "ldname": "登別温泉郷　滝乃家", "addr": "登別市登別温泉町162番地"}
+{"id": "h-hokkaido-2-1", "status": 200, "final": "https://www.ikyu.com/00000440/", "title": "ザ・ウィンザーホテル洞爺 ヴィニェットコレクション by IHG - 宿泊予約 - 一休.com", "ldname": "ザ・ウィンザーホテル洞爺 ヴィニェットコレクション by IHG", "addr": "虻田郡洞爺湖町清水"}
+{"id": "h-hokkaido-2-2", "status": 200, "final": "https://www.ikyu.com/00030990/", "title": "洞爺湖万世閣ホテルレイクサイドテラス - 宿泊予約 - 一休.com", "ldname": "洞爺湖万世閣ホテルレイクサイドテラス", "addr": "虻田郡洞爺湖町洞爺湖温泉21番地"}
+{"id": "h-hokkaido-3-1", "status": 200, "final": "https://www.ikyu.com/00030433/", "title": "定山渓万世閣ホテルミリオーネ - 宿泊予約 - 一休.com", "ldname": "定山渓万世閣ホテルミリオーネ", "addr": "札幌市南区定山渓温泉東3丁目"}
+{"id": "h-hokkaido-3-2", "status": 200, "final": "https://www.ikyu.com/00001659/", "title": "定山渓鶴雅リゾートスパ 森の謌 - 宿泊予約 - 一休.com", "ldname": "定山渓鶴雅リゾートスパ 森の謌", "addr": "札幌市南区定山渓温泉東3-192"}
+{"id": "h-hokkaido-3-3", "status": 200, "final": "https://www.ikyu.com/00002589/", "title": "奥定山渓温泉　佳松御苑 - 宿泊予約 - 一休.com", "ldname": "奥定山渓温泉　佳松御苑", "addr": "札幌市南区定山渓857"}
+{"id": "h-hokkaido-4-1", "status": 200, "final": "https://www.ikyu.com/00030778/", "title": "ニュー阿寒ホテル（グランベルホテルズ&リゾーツ） - 宿泊予約 - 一休.com", "ldname": "ニュー阿寒ホテル（グランベルホテルズ&リゾーツ）", "addr": "釧路市阿寒町阿寒湖温泉2丁目8-8"}
+{"id": "h-hokkaido-4-2", "status": 200, "final": "https://www.ikyu.com/00000872/", "title": "あかん遊久の里鶴雅 - 宿泊予約 - 一休.com", "ldname": "あかん遊久の里鶴雅", "addr": "釧路市阿寒町阿寒湖温泉4-6-10"}
+{"id": "h-hokkaido-4-3", "status": 200, "final": "https://www.ikyu.com/00000900/", "title": "あかん鶴雅別荘　鄙の座 - 宿泊予約 - 一休.com", "ldname": "あかん鶴雅別荘　鄙の座", "addr": "釧路市阿寒町阿寒湖温泉2丁目8番1号"}
+{"id": "h-hokkaido-5-1", "status": 200, "final": "https://www.ikyu.com/00001617/", "title": "ホテル大雪 ONSEN & CANYON RESORT - 宿泊予約 - 一休.com", "ldname": "ホテル大雪 ONSEN & CANYON RESORT", "addr": "上川郡上川町層雲峡"}
+{"id": "h-hokkaido-6-2", "status": 200, "final": "https://www.ikyu.com/00080441/", "title": "十勝幕別天然温泉「華のゆ」　十勝幕別温泉グランヴィリオホテル -ルートインホテルズ- - 宿泊予約 - 一休.com", "ldname": "十勝幕別天然温泉「華のゆ」　十勝幕別温泉グランヴィリオホテル -ルートインホテルズ-", "addr": "中川郡幕別町字依田384"}
+{"id": "h-hokkaido-6-3", "status": 200, "final": "https://www.ikyu.com/00000844/", "title": "観月苑 - 宿泊予約 - 一休.com", "ldname": "観月苑", "addr": "河東郡音更町十勝川温泉南14-2"}
+{"id": "h-hokkaido-6-4", "status": 200, "final": "https://www.ikyu.com/00000877/", "title": "十勝川温泉 第一ホテル - 宿泊予約 - 一休.com", "ldname": "十勝川温泉 第一ホテル", "addr": "河東郡音更町十勝川温泉南12"}
+{"id": "h-hokkaido-6-6", "status": 200, "final": "https://www.ikyu.com/00000857/", "title": "十勝川温泉　三余庵 - 宿泊予約 - 一休.com", "ldname": "十勝川温泉　三余庵", "addr": "河東郡音更町十勝川温泉南13丁目1"}
+{"id": "h-hokkaido-6-7", "status": 200, "final": "https://www.ikyu.com/00003001/", "title": "全室源泉かけ流し露天風呂付きの宿　清寂房《十勝川モール温泉》 - 宿泊予約 - 一休.com", "ldname": "全室源泉かけ流し露天風呂付きの宿　清寂房《十勝川モール温泉》", "addr": "河東郡音更町十勝川温泉南16丁目1-19"}
+{"id": "h-hokkaido-7-1", "status": 200, "final": "https://www.ikyu.com/00001596/", "title": "北海道の全室温泉付きホテル　レイクサイドヴィラ翠明閣 - 宿泊予約 - 一休.com", "ldname": "北海道の全室温泉付きホテル　レイクサイドヴィラ翠明閣", "addr": "千歳市支笏湖温泉番外地"}
+{"id": "h-hokkaido-7-2", "status": 200, "final": "https://www.ikyu.com/00001011/", "title": "支笏湖第一寶亭留・翠山亭 - 宿泊予約 - 一休.com", "ldname": "支笏湖第一寶亭留・翠山亭", "addr": "千歳市支笏湖温泉"}
+{"id": "h-hokkaido-7-3", "status": 200, "final": "https://www.ikyu.com/00030878/", "title": "休暇村 支笏湖 - 宿泊予約 - 一休.com", "ldname": "休暇村 支笏湖", "addr": "千歳市支笏湖温泉番外地"}
+{"id": "h-hokkaido-7-4", "status": 200, "final": "https://www.ikyu.com/00001280/", "title": "雨ノ日と夕やけ - 宿泊予約 - 一休.com", "ldname": "雨ノ日と夕やけ", "addr": "千歳市支笏湖温泉"}
+{"id": "h-hokkaido-7-5", "status": 200, "final": "https://www.ikyu.com/00030323/", "title": "奥札幌の秘湯　湖畔の宿支笏湖　丸駒温泉旅館 - 宿泊予約 - 一休.com", "ldname": "奥札幌の秘湯　湖畔の宿支笏湖　丸駒温泉旅館", "addr": "千歳市幌美内7番地"}
+{"id": "h-hokkaido-7-6", "status": 200, "final": "https://www.ikyu.com/00001526/", "title": "しこつ湖鶴雅リゾートスパ　水の謌 - 宿泊予約 - 一休.com", "ldname": "しこつ湖鶴雅リゾートスパ　水の謌", "addr": "千歳市支笏湖温泉"}
+{"id": "h-hokkaido-7-7", "status": 200, "final": "https://www.ikyu.com/00002593/", "title": "しこつ湖鶴雅別荘　碧の座 - 宿泊予約 - 一休.com", "ldname": "しこつ湖鶴雅別荘　碧の座", "addr": "千歳市支笏湖温泉"}
+{"id": "h-hokkaido-9-1", "status": 200, "final": "https://www.ikyu.com/00002961/", "title": "雪ニセコ - 宿泊予約 - 一休.com", "ldname": "雪ニセコ", "addr": "虻田郡倶知安町ニセコひらふ1条2丁目6番9号"}
+{"id": "h-hokkaido-9-2", "status": 200, "final": "https://www.ikyu.com/00002492/", "title": "綾ニセコ - 宿泊予約 - 一休.com", "ldname": "綾ニセコ", "addr": "虻田郡倶知安町ニセコひらふ1条4丁目4番5号"}
+{"id": "h-hokkaido-9-3", "status": 200, "final": "https://www.ikyu.com/00000934/", "title": "ニセコノーザンリゾート・アンヌプリ - 宿泊予約 - 一休.com", "ldname": "ニセコノーザンリゾート・アンヌプリ", "addr": "虻田郡ニセコ町字ニセコ480-1"}
+{"id": "h-hokkaido-9-4", "status": 200, "final": "https://www.ikyu.com/00002602/", "title": "スカイニセコ - 宿泊予約 - 一休.com", "ldname": "スカイニセコ", "addr": "虻田郡倶知安町ニセコひらふ1条3丁目11-4"}
+{"id": "h-hokkaido-9-5", "status": 200, "final": "https://www.ikyu.com/00002132/", "title": "木ニセコ - 宿泊予約 - 一休.com", "ldname": "木ニセコ", "addr": "虻田郡倶知安町ニセコひらふ1条3丁目8-5"}
+{"id": "h-hokkaido-9-7", "status": 200, "final": "https://www.ikyu.com/00001928/", "title": "ニセコ昆布温泉 鶴雅別荘 杢の抄 - 宿泊予約 - 一休.com", "ldname": "ニセコ昆布温泉 鶴雅別荘 杢の抄", "addr": "虻田郡ニセコ町字ニセコ393"}
+{"id": "h-aomori-1-2", "status": 200, "final": "https://www.ikyu.com/00001037/", "title": "八甲田ホテル - 宿泊予約 - 一休.com", "ldname": "八甲田ホテル", "addr": "青森市大字荒川字南荒川山1-1"}
+{"id": "h-aomori-1-3", "status": 200, "final": "https://www.ikyu.com/00001811/", "title": "八甲田城ヶ倉温泉 ホテル城ヶ倉-HOTEL Jogakura- - 宿泊予約 - 一休.com", "ldname": "八甲田城ヶ倉温泉 ホテル城ヶ倉-HOTEL Jogakura-", "addr": "青森市大字荒川八甲田山中"}
+{"id": "h-aomori-2-2", "status": 200, "final": "https://www.ikyu.com/00001692/", "title": "割烹旅館　さつき - 宿泊予約 - 一休.com", "ldname": "割烹旅館　さつき", "addr": "青森市浅虫蛍谷71-7"}
+{"id": "h-aomori-2-3", "status": 200, "final": "https://www.ikyu.com/00030735/", "title": "津軽藩本陣の宿 柳の湯 - 宿泊予約 - 一休.com", "ldname": "津軽藩本陣の宿 柳の湯", "addr": "青森市大字浅虫字山下236"}
+{"id": "h-aomori-2-7", "status": 200, "final": "https://www.ikyu.com/00001631/", "title": "浅虫温泉　南部屋・海扇閣 - 宿泊予約 - 一休.com", "ldname": "浅虫温泉　南部屋・海扇閣", "addr": "青森市大字浅虫字蛍谷31"}
+{"id": "h-aomori-4-1", "status": 200, "final": "https://www.ikyu.com/00031057/", "title": "黄金崎不老ふ死温泉 - 宿泊予約 - 一休.com", "ldname": "黄金崎不老ふ死温泉", "addr": "西津軽郡深浦町舮作下清滝15"}
+{"id": "h-iwate-1-1", "status": 200, "final": "https://www.ikyu.com/00001949/", "title": "山の神温泉　優香苑 - 宿泊予約 - 一休.com", "ldname": "山の神温泉　優香苑", "addr": "花巻市下シ沢字中野53-1"}
+{"id": "h-iwate-1-4", "status": 200, "final": "https://www.ikyu.com/00002131/", "title": "藤三旅館・別邸　鉛温泉　心の刻　十三月 - 宿泊予約 - 一休.com", "ldname": "藤三旅館・別邸　鉛温泉　心の刻　十三月", "addr": "花巻市鉛字中平75-1"}
+{"id": "h-iwate-1-5", "status": 200, "final": "https://www.ikyu.com/00001130/", "title": "游泉　志だて - 宿泊予約 - 一休.com", "ldname": "游泉　志だて", "addr": "花巻市湯口字志戸平11-2"}
+{"id": "h-iwate-1-6", "status": 200, "final": "https://www.ikyu.com/00002807/", "title": "山の神温泉　別墅　清流館 - 宿泊予約 - 一休.com", "ldname": "山の神温泉　別墅　清流館", "addr": "花巻市下シ沢字中野66番地"}
+{"id": "h-iwate-1-7", "status": 200, "final": "https://www.ikyu.com/00000478/", "title": "花巻温泉　佳松園 - 宿泊予約 - 一休.com", "ldname": "花巻温泉　佳松園", "addr": "花巻市湯本1-125-2"}
+{"id": "h-iwate-3-1", "status": 200, "final": "https://www.ikyu.com/00001341/", "title": "盛岡つなぎ温泉　四季亭 - 宿泊予約 - 一休.com", "ldname": "盛岡つなぎ温泉　四季亭", "addr": "盛岡市繋字湯ノ舘137-1"}
+{"id": "h-iwate-3-2", "status": 200, "final": "https://www.ikyu.com/00001197/", "title": "盛岡つなぎ温泉　ホテル紫苑 - 宿泊予約 - 一休.com", "ldname": "盛岡つなぎ温泉　ホテル紫苑", "addr": "盛岡市繋字湯ノ館74-2"}
+{"id": "h-iwate-4-1", "status": 200, "final": "https://www.ikyu.com/00001634/", "title": "山人-yamado- - 宿泊予約 - 一休.com", "ldname": "山人-yamado-", "addr": "和賀郡西和賀町湯川52地割71-10"}
+{"id": "h-iwate-4-2", "status": 200, "final": "https://www.ikyu.com/00030998/", "title": "四季彩の宿　ふる里 - 宿泊予約 - 一休.com", "ldname": "四季彩の宿　ふる里", "addr": "和賀郡西和賀町湯川52-17"}
+{"id": "h-iwate-5-1", "status": 200, "final": "https://www.ikyu.com/00030432/", "title": "八幡平ハイツ - 宿泊予約 - 一休.com", "ldname": "八幡平ハイツ", "addr": "八幡平市松尾寄木1-590-4"}
+{"id": "h-iwate-5-7", "status": 200, "final": "https://www.ikyu.com/00001773/", "title": "安比八幡平の食の宿　四季館彩冬 - 宿泊予約 - 一休.com", "ldname": "安比八幡平の食の宿　四季館彩冬", "addr": "八幡平市赤坂田254-9"}
+{"id": "h-miyagi-1-2", "status": 200, "final": "https://www.ikyu.com/00002491/", "title": "鳴子温泉　湯元　吉祥（共立リゾート） - 宿泊予約 - 一休.com", "ldname": "鳴子温泉　湯元　吉祥（共立リゾート）", "addr": "大崎市鳴子温泉湯元58-10"}
+{"id": "h-miyagi-1-3", "status": 200, "final": "https://www.ikyu.com/00030142/", "title": "旅館　大沼 - 宿泊予約 - 一休.com", "ldname": "旅館　大沼", "addr": "大崎市鳴子温泉赤湯34"}
+{"id": "h-miyagi-1-7", "status": 200, "final": "https://www.ikyu.com/00001530/", "title": "鳴子ホテル - 宿泊予約 - 一休.com", "ldname": "鳴子ホテル", "addr": "大崎市鳴子温泉字湯元36"}
+{"id": "h-miyagi-2-1", "status": 200, "final": "https://www.ikyu.com/00002612/", "title": "仙台・作並温泉 ゆづくしSalon一の坊 - 宿泊予約 - 一休.com", "ldname": "仙台・作並温泉 ゆづくしSalon一の坊", "addr": "仙台市青葉区作並字長原3"}
+{"id": "h-miyagi-3-1", "status": 200, "final": "https://www.ikyu.com/00030857/", "title": "TAOYA秋保 - 宿泊予約 - 一休.com", "ldname": "TAOYA秋保", "addr": "仙台市太白区秋保町湯元字薬師107"}
+{"id": "h-miyagi-3-2", "status": 200, "final": "https://www.ikyu.com/00030776/", "title": "秋保温泉　ホテル華乃湯 - 宿泊予約 - 一休.com", "ldname": "秋保温泉　ホテル華乃湯", "addr": "仙台市太白区秋保町湯元字除33-1"}
+{"id": "h-miyagi-3-3", "status": 200, "final": "https://www.ikyu.com/00002196/", "title": "仙台 秋保温泉 篝火の湯 緑水亭 - 宿泊予約 - 一休.com", "ldname": "仙台 秋保温泉 篝火の湯 緑水亭", "addr": "仙台市太白区秋保町湯元上原27"}
+{"id": "h-miyagi-3-4", "status": 200, "final": "https://www.ikyu.com/00002434/", "title": "秋保温泉　ホテル瑞鳳 - 宿泊予約 - 一休.com", "ldname": "秋保温泉　ホテル瑞鳳", "addr": "仙台市太白区秋保町湯元字除26-1"}
+{"id": "h-miyagi-3-6", "status": 200, "final": "https://www.ikyu.com/00000598/", "title": "伝承千年の宿　佐勘 - 宿泊予約 - 一休.com", "ldname": "伝承千年の宿　佐勘", "addr": "仙台市太白区秋保町湯元字薬師28番地"}
+{"id": "h-miyagi-3-7", "status": 200, "final": "https://www.ikyu.com/00003277/", "title": "仙台　秋保温泉　迎賓館 櫻離宮 - 宿泊予約 - 一休.com", "ldname": "仙台　秋保温泉　迎賓館 櫻離宮", "addr": "仙台市太白区秋保町湯元除26-1"}
+{"id": "h-miyagi-4-1", "status": 200, "final": "https://www.ikyu.com/00030985/", "title": "ホテル松島大観荘 - 宿泊予約 - 一休.com", "ldname": "ホテル松島大観荘", "addr": "宮城郡松島町松島字犬田10-76"}
+{"id": "h-miyagi-4-2", "status": 200, "final": "https://www.ikyu.com/00000684/", "title": "松島温泉 小松館 好風亭 - 宿泊予約 - 一休.com", "ldname": "松島温泉 小松館 好風亭", "addr": "宮城郡松島町松島字仙随35-2"}
+{"id": "h-miyagi-4-3", "status": 200, "final": "https://www.ikyu.com/00002294/", "title": "松島温泉　松島一の坊 - 宿泊予約 - 一休.com", "ldname": "松島温泉　松島一の坊", "addr": "宮城郡松島町高城字浜1-4"}
+{"id": "h-miyagi-5-2", "status": 200, "final": "https://www.ikyu.com/00000799/", "title": "温泉山荘だいこんの花 - 宿泊予約 - 一休.com", "ldname": "温泉山荘だいこんの花", "addr": "刈田郡蔵王町遠刈田温泉字遠刈田北山21-7"}
+{"id": "h-miyagi-5-3", "status": 200, "final": "https://www.ikyu.com/00030143/", "title": "かっぱの宿 旅館三治郎 - 宿泊予約 - 一休.com", "ldname": "かっぱの宿 旅館三治郎", "addr": "刈田郡蔵王町遠刈田温泉本町3"}
+{"id": "h-miyagi-5-4", "status": 200, "final": "https://www.ikyu.com/00003279/", "title": "旬菜湯宿　大忠 - 宿泊予約 - 一休.com", "ldname": "旬菜湯宿　大忠", "addr": "刈田郡蔵王町遠刈田温泉旭町1"}
+{"id": "h-miyagi-5-5", "status": 200, "final": "https://www.ikyu.com/00001285/", "title": "別邸　山風木 - 宿泊予約 - 一休.com", "ldname": "別邸　山風木", "addr": "刈田郡蔵王町遠刈田温泉字小妻坂21－70"}
+{"id": "h-miyagi-5-6", "status": 200, "final": "https://www.ikyu.com/00002861/", "title": "ゆと森倶楽部 - 宿泊予約 - 一休.com", "ldname": "ゆと森倶楽部", "addr": "刈田郡蔵王町遠刈田温泉字上ノ原128"}
+{"id": "h-miyagi-5-7", "status": 200, "final": "https://www.ikyu.com/00001607/", "title": "竹泉荘 CHIKUSENSO ONSEN - 宿泊予約 - 一休.com", "ldname": "竹泉荘 CHIKUSENSO ONSEN", "addr": "刈田郡蔵王町遠刈田温泉字上ノ原88-11"}
+{"id": "h-akita-1-2", "status": 200, "final": "https://www.ikyu.com/00001101/", "title": "乳頭温泉郷　妙乃湯 - 宿泊予約 - 一休.com", "ldname": "乳頭温泉郷　妙乃湯", "addr": "仙北市田沢湖生保内字駒ヶ岳2-1"}
+{"id": "h-akita-3-3", "status": 200, "final": "https://www.ikyu.com/00000911/", "title": "男鹿温泉　結いの宿　別邸つばき - 宿泊予約 - 一休.com", "ldname": "男鹿温泉　結いの宿　別邸つばき", "addr": "男鹿市北浦湯本字中里81"}
+{"id": "h-akita-4-3", "status": 200, "final": "https://www.ikyu.com/00001604/", "title": "縄文のふる里　大湯温泉　ホテル鹿角 - 宿泊予約 - 一休.com", "ldname": "縄文のふる里　大湯温泉　ホテル鹿角", "addr": "鹿角市十和田大湯字中谷地5-1"}
+{"id": "h-yamagata-1-1", "status": 200, "final": "https://www.ikyu.com/00001357/", "title": "旅館　藤屋 - 宿泊予約 - 一休.com", "ldname": "旅館　藤屋", "addr": "尾花沢市大字銀山新畑443"}
+{"id": "h-yamagata-1-3", "status": 200, "final": "https://www.ikyu.com/00002061/", "title": "銀山温泉　仙峡の宿　銀山荘 - 宿泊予約 - 一休.com", "ldname": "銀山温泉　仙峡の宿　銀山荘", "addr": "尾花沢市大字銀山新畑85"}
+{"id": "h-yamagata-2-1", "status": 200, "final": "https://www.ikyu.com/00002067/", "title": "八右衛門の湯　蔵王国際ホテル - 宿泊予約 - 一休.com", "ldname": "八右衛門の湯　蔵王国際ホテル", "addr": "山形市蔵王温泉933"}
+{"id": "h-yamagata-2-2", "status": 200, "final": "https://www.ikyu.com/00002231/", "title": "蔵王温泉　和歌（うた）の宿　わかまつや - 宿泊予約 - 一休.com", "ldname": "蔵王温泉　和歌（うた）の宿　わかまつや", "addr": "山形市蔵王温泉951-1"}
+{"id": "h-yamagata-2-5", "status": 200, "final": "https://www.ikyu.com/00030703/", "title": "おおみや旅館 - 宿泊予約 - 一休.com", "ldname": "おおみや旅館", "addr": "山形市蔵王温泉46"}
+{"id": "h-yamagata-2-6", "status": 200, "final": "https://www.ikyu.com/00003213/", "title": "蔵王四季のホテル - 宿泊予約 - 一休.com", "ldname": "蔵王四季のホテル", "addr": "山形市蔵王温泉1272"}
+{"id": "h-yamagata-2-7", "status": 200, "final": "https://www.ikyu.com/00001990/", "title": "深山荘高見屋 - 宿泊予約 - 一休.com", "ldname": "深山荘高見屋", "addr": "山形市蔵王温泉54"}
+{"id": "h-yamagata-3-1", "status": 200, "final": "https://www.ikyu.com/00000807/", "title": "日本の宿　古窯 - 宿泊予約 - 一休.com", "ldname": "日本の宿　古窯", "addr": "上山市葉山5-20"}
+{"id": "h-yamagata-3-2", "status": 200, "final": "https://www.ikyu.com/00002341/", "title": "葉山舘 - 宿泊予約 - 一休.com", "ldname": "葉山舘", "addr": "上山市葉山5-10"}
+{"id": "h-yamagata-3-3", "status": 200, "final": "https://www.ikyu.com/00000972/", "title": "名月荘 - 宿泊予約 - 一休.com", "ldname": "名月荘", "addr": "上山市葉山5-50"}
+{"id": "h-yamagata-4-1", "status": 200, "final": "https://www.ikyu.com/00030865/", "title": "ほほえみの宿滝の湯 - 宿泊予約 - 一休.com", "ldname": "ほほえみの宿滝の湯", "addr": "天童市鎌田本町1-1-30"}
+{"id": "h-yamagata-4-3", "status": 200, "final": "https://www.ikyu.com/00001213/", "title": "湯の香　松の湯 - 宿泊予約 - 一休.com", "ldname": "湯の香　松の湯", "addr": "天童市鎌田本町2-2-54"}
+{"id": "h-yamagata-5-1", "status": 200, "final": "https://www.ikyu.com/00031058/", "title": "赤湯温泉 上杉の御湯 御殿守 - 宿泊予約 - 一休.com", "ldname": "赤湯温泉 上杉の御湯 御殿守", "addr": "南陽市赤湯989"}
+{"id": "h-yamagata-5-4", "status": 200, "final": "https://www.ikyu.com/00001823/", "title": "鶴の湯　松島館 - 宿泊予約 - 一休.com", "ldname": "鶴の湯　松島館", "addr": "南陽市赤湯725"}
+{"id": "h-yamagata-5-6", "status": 200, "final": "https://www.ikyu.com/00001947/", "title": "赤湯温泉　森の湯 - 宿泊予約 - 一休.com", "ldname": "赤湯温泉　森の湯", "addr": "南陽市赤湯548"}
+{"id": "h-yamagata-5-7", "status": 200, "final": "https://www.ikyu.com/00002496/", "title": "山形座 瀧波 - 宿泊予約 - 一休.com", "ldname": "山形座 瀧波", "addr": "南陽市赤湯3005"}
+{"id": "h-yamagata-6-1", "status": 200, "final": "https://www.ikyu.com/00000912/", "title": "萬国屋 - 宿泊予約 - 一休.com", "ldname": "萬国屋", "addr": "鶴岡市湯温海丁1"}
+{"id": "h-yamagata-6-2", "status": 200, "final": "https://www.ikyu.com/00001096/", "title": "たちばなや - 宿泊予約 - 一休.com", "ldname": "たちばなや", "addr": "鶴岡市湯温海丁3"}
+{"id": "h-yamagata-6-3", "status": 200, "final": "https://www.ikyu.com/00030858/", "title": "あつみ温泉高見屋別邸 久遠 - 宿泊予約 - 一休.com", "ldname": "あつみ温泉高見屋別邸 久遠", "addr": "鶴岡市湯温海字湯之尻83-3"}
+{"id": "h-fukushima-1-1", "status": 200, "final": "https://www.ikyu.com/00001041/", "title": "会津東山温泉　向瀧 - 宿泊予約 - 一休.com", "ldname": "会津東山温泉　向瀧", "addr": "会津若松市東山町大字湯本字川向200"}
+{"id": "h-fukushima-1-2", "status": 200, "final": "https://www.ikyu.com/00002214/", "title": "庄助の宿　瀧の湯 - 宿泊予約 - 一休.com", "ldname": "庄助の宿　瀧の湯", "addr": "会津若松市東山町湯本滝ノ湯108番地（東山温泉108番地）"}
+{"id": "h-fukushima-1-3", "status": 200, "final": "https://www.ikyu.com/00030308/", "title": "自家源泉の宿　原瀧 - 宿泊予約 - 一休.com", "ldname": "自家源泉の宿　原瀧", "addr": "会津若松市東山町大字湯本字下原235"}
+{"id": "h-fukushima-2-1", "status": 200, "final": "https://www.ikyu.com/00001131/", "title": "ホテル華の湯 - 宿泊予約 - 一休.com", "ldname": "ホテル華の湯", "addr": "郡山市熱海町熱海5-8-60"}
+{"id": "h-fukushima-2-2", "status": 200, "final": "https://www.ikyu.com/00030340/", "title": "萩姫の湯　栄楽館 - 宿泊予約 - 一休.com", "ldname": "萩姫の湯　栄楽館", "addr": "郡山市熱海町熱海４丁目４７番地"}
+{"id": "h-fukushima-2-3", "status": 200, "final": "https://www.ikyu.com/00000914/", "title": "四季彩一力　～磐梯熱海温泉　創業百余年の老舗旅館～ - 宿泊予約 - 一休.com", "ldname": "四季彩一力　～磐梯熱海温泉　創業百余年の老舗旅館～", "addr": "郡山市熱海町熱海4-161"}
+{"id": "h-fukushima-3-3", "status": 200, "final": "https://www.ikyu.com/00030791/", "title": "飯坂ホテルジュラク - 宿泊予約 - 一休.com", "ldname": "飯坂ホテルジュラク", "addr": "福島市飯坂町字西滝ノ町27"}
+{"id": "h-fukushima-4-1", "status": 200, "final": "https://www.ikyu.com/00030595/", "title": "水織音の宿 　山水荘 - 宿泊予約 - 一休.com", "ldname": "水織音の宿 　山水荘", "addr": "福島市土湯温泉町字油畑55"}
+{"id": "h-fukushima-4-2", "status": 200, "final": "https://www.ikyu.com/00002015/", "title": "はるみや旅館 - 宿泊予約 - 一休.com", "ldname": "はるみや旅館", "addr": "福島市土湯温泉町杉の下72番地"}
+{"id": "h-fukushima-4-3", "status": 200, "final": "https://www.ikyu.com/00001149/", "title": "土湯別邸　里の湯 - 宿泊予約 - 一休.com", "ldname": "土湯別邸　里の湯", "addr": "福島市土湯温泉町悪戸尻27-2"}
+{"id": "h-fukushima-5-1", "status": 200, "final": "https://www.ikyu.com/00001237/", "title": "大川荘 - 宿泊予約 - 一休.com", "ldname": "大川荘", "addr": "会津若松市大戸町大字芦ノ牧字下平984"}
+{"id": "h-fukushima-5-2", "status": 200, "final": "https://www.ikyu.com/00002303/", "title": "丸峰観光ホテル - 宿泊予約 - 一休.com", "ldname": "丸峰観光ホテル", "addr": "会津若松市大戸町大字芦ノ牧字下夕平1128"}
+{"id": "h-fukushima-6-2", "status": 200, "final": "https://www.ikyu.com/00031223/", "title": "高湯温泉 旅館ひげの家 - 宿泊予約 - 一休.com", "ldname": "高湯温泉 旅館ひげの家", "addr": "福島市町庭坂字高湯15-1"}
+{"id": "h-fukushima-6-3", "status": 200, "final": "https://www.ikyu.com/00030416/", "title": "旅館玉子湯 - 宿泊予約 - 一休.com", "ldname": "旅館玉子湯", "addr": "福島市町庭坂字高湯７"}
+{"id": "h-ibaraki-1-1", "status": 200, "final": "https://www.ikyu.com/00030727/", "title": "袋田温泉 思い出浪漫館 - 宿泊予約 - 一休.com", "ldname": "袋田温泉 思い出浪漫館", "addr": "久慈郡大子町袋田978"}
+{"id": "h-ibaraki-2-1", "status": 200, "final": "https://www.ikyu.com/00031052/", "title": "五浦観光ホテル本館／別館大観荘 - 宿泊予約 - 一休.com", "ldname": "五浦観光ホテル本館／別館大観荘", "addr": "北茨城市大津町722"}
+{"id": "h-ibaraki-4-3", "status": 200, "final": "https://www.ikyu.com/00030520/", "title": "筑波山江戸屋 - 宿泊予約 - 一休.com", "ldname": "筑波山江戸屋", "addr": "つくば市筑波728"}
+{"id": "h-tochigi-1-1", "status": 200, "final": "https://www.ikyu.com/00030794/", "title": "ホテルサンバレー那須 - 宿泊予約 - 一休.com", "ldname": "ホテルサンバレー那須", "addr": "那須郡那須町湯本203"}
+{"id": "h-tochigi-1-2", "status": 200, "final": "https://www.ikyu.com/00000097/", "title": "那須温泉　山楽 - 宿泊予約 - 一休.com", "ldname": "那須温泉　山楽", "addr": "那須郡那須町湯本206"}
+{"id": "h-tochigi-1-3", "status": 200, "final": "https://www.ikyu.com/00003311/", "title": "大丸温泉旅館 - 宿泊予約 - 一休.com", "ldname": "大丸温泉旅館", "addr": "那須郡那須町大字湯本269"}
+{"id": "h-tochigi-2-1", "status": 200, "final": "https://www.ikyu.com/00002075/", "title": "奥日光　ゆの森 - 宿泊予約 - 一休.com", "ldname": "奥日光　ゆの森", "addr": "日光市湯元温泉"}
+{"id": "h-tochigi-2-2", "status": 200, "final": "https://www.ikyu.com/00031087/", "title": "亀の井ホテル 奥日光湯元 - 宿泊予約 - 一休.com", "ldname": "亀の井ホテル 奥日光湯元", "addr": "日光市湯元2519"}
+{"id": "h-tochigi-3-1", "status": 200, "final": "https://www.ikyu.com/00030768/", "title": "鬼怒川温泉 あさや - 宿泊予約 - 一休.com", "ldname": "鬼怒川温泉 あさや", "addr": "日光市鬼怒川温泉滝813"}
+{"id": "h-tochigi-3-2", "status": 200, "final": "https://www.ikyu.com/00000299/", "title": "鬼怒川金谷ホテル - 宿泊予約 - 一休.com", "ldname": "鬼怒川金谷ホテル", "addr": "日光市鬼怒川温泉大原1394"}
+{"id": "h-tochigi-4-1", "status": 200, "final": "https://www.ikyu.com/00031169/", "title": "湯守田中屋 - 宿泊予約 - 一休.com", "ldname": "湯守田中屋", "addr": "那須塩原市塩原6番地"}
+{"id": "h-tochigi-4-2", "status": 200, "final": "https://www.ikyu.com/00002014/", "title": "塩原温泉 人・季・想をつむぐ宿 彩つむぎ - 宿泊予約 - 一休.com", "ldname": "塩原温泉 人・季・想をつむぐ宿 彩つむぎ", "addr": "那須塩原市塩原265"}
+{"id": "h-tochigi-4-3", "status": 200, "final": "https://www.ikyu.com/00002090/", "title": "湯の花荘 - 宿泊予約 - 一休.com", "ldname": "湯の花荘", "addr": "那須塩原市塩原323"}
+{"id": "h-tochigi-5-1", "status": 200, "final": "https://www.ikyu.com/00030223/", "title": "本家伴久　～時空を渡るかずら橋～ - 宿泊予約 - 一休.com", "ldname": "本家伴久　～時空を渡るかずら橋～", "addr": "日光市湯西川749"}
+{"id": "h-gunma-1-1", "status": 200, "final": "https://www.ikyu.com/00030757/", "title": "草津温泉 ホテルヴィレッジ - 宿泊予約 - 一休.com", "ldname": "草津温泉 ホテルヴィレッジ", "addr": "吾妻郡草津町大字草津618番地"}
+{"id": "h-gunma-1-2", "status": 200, "final": "https://www.ikyu.com/00001641/", "title": "奈良屋 - 宿泊予約 - 一休.com", "ldname": "奈良屋", "addr": "吾妻郡草津町草津396番地"}
+{"id": "h-gunma-1-3", "status": 200, "final": "https://www.ikyu.com/00002446/", "title": "草津温泉　ホテル櫻井 - 宿泊予約 - 一休.com", "ldname": "草津温泉　ホテル櫻井", "addr": "吾妻郡草津町大字草津465-4"}
+{"id": "h-gunma-1-4", "status": 200, "final": "https://www.ikyu.com/00002049/", "title": "草津温泉　望雲 - 宿泊予約 - 一休.com", "ldname": "草津温泉　望雲", "addr": "吾妻郡草津町433"}
+{"id": "h-gunma-2-1", "status": 200, "final": "https://www.ikyu.com/00000902/", "title": "福一 - 宿泊予約 - 一休.com", "ldname": "福一", "addr": "渋川市伊香保町伊香保香湯5-4"}
+{"id": "h-gunma-2-2", "status": 200, "final": "https://www.ikyu.com/00030812/", "title": "ホテル天坊 - 宿泊予約 - 一休.com", "ldname": "ホテル天坊", "addr": "渋川市伊香保町伊香保396-20"}
+{"id": "h-gunma-3-1", "status": 200, "final": "https://www.ikyu.com/00030972/", "title": "白鐡の湯　万座亭 - 宿泊予約 - 一休.com", "ldname": "白鐡の湯　万座亭", "addr": "吾妻郡嬬恋村大字干俣2401万座温泉"}
+{"id": "h-gunma-3-2", "status": 200, "final": "https://www.ikyu.com/00030793/", "title": "万座ホテルジュラク - 宿泊予約 - 一休.com", "ldname": "万座ホテルジュラク", "addr": "吾妻郡嬬恋村万座温泉（万座ホテルジュラク）"}
+{"id": "h-gunma-4-1", "status": 200, "final": "https://www.ikyu.com/00030390/", "title": "積善館（本館） - 宿泊予約 - 一休.com", "ldname": "積善館（本館）", "addr": "吾妻郡中之条町大字四万甲4236"}
+{"id": "h-gunma-4-2", "status": 200, "final": "https://www.ikyu.com/00030023/", "title": "四万温泉 柏屋旅館 - 宿泊予約 - 一休.com", "ldname": "四万温泉 柏屋旅館", "addr": "吾妻郡中之条町四万3829"}
+{"id": "h-gunma-4-3", "status": 200, "final": "https://www.ikyu.com/00030252/", "title": "四万温泉　やまぐち館 - 宿泊予約 - 一休.com", "ldname": "四万温泉　やまぐち館", "addr": "吾妻郡中之条町大字四万甲3876-1"}
+{"id": "h-gunma-5-1", "status": 200, "final": "https://www.ikyu.com/00000604/", "title": "別邸　仙寿庵 - 宿泊予約 - 一休.com", "ldname": "別邸　仙寿庵", "addr": "利根郡みなかみ町谷川614"}
+{"id": "h-gunma-5-2", "status": 200, "final": "https://www.ikyu.com/00000591/", "title": "旅館たにがわ - 宿泊予約 - 一休.com", "ldname": "旅館たにがわ", "addr": "利根郡みなかみ町谷川524-1"}
+{"id": "h-gunma-5-3", "status": 200, "final": "https://www.ikyu.com/00000995/", "title": "金盛館　せせらぎ - 宿泊予約 - 一休.com", "ldname": "金盛館　せせらぎ", "addr": "利根郡みなかみ町谷川544"}
+{"id": "h-gunma-6-3", "status": 200, "final": "https://www.ikyu.com/00030581/", "title": "源泉湯の宿　紫翠亭 - 宿泊予約 - 一休.com", "ldname": "源泉湯の宿　紫翠亭", "addr": "沼田市利根町老神550"}
+{"id": "h-saitama-1-2", "status": 200, "final": "https://www.ikyu.com/00002069/", "title": "小さなホテル セラヴィ - 宿泊予約 - 一休.com", "ldname": "小さなホテル セラヴィ", "addr": "秩父郡長瀞町井戸419-1"}
+{"id": "h-saitama-2-2", "status": 200, "final": "https://www.ikyu.com/00003012/", "title": "NIPPONIA 秩父 門前町 - 宿泊予約 - 一休.com", "ldname": "NIPPONIA 秩父 門前町", "addr": "秩父市宮側町17-5（MARUJU棟）"}
+{"id": "h-saitama-2-3", "status": 200, "final": "https://www.ikyu.com/00001078/", "title": "和銅鉱泉　ゆの宿　和どう - 宿泊予約 - 一休.com", "ldname": "和銅鉱泉　ゆの宿　和どう", "addr": "秩父市黒谷813"}
+{"id": "h-saitama-3-2", "status": 200, "final": "https://www.ikyu.com/00030921/", "title": "おきなとおうなの住むところ　御宿　竹取物語 - 宿泊予約 - 一休.com", "ldname": "おきなとおうなの住むところ　御宿　竹取物語", "addr": "秩父市荒川上田野56"}
+{"id": "h-chiba-1-1", "status": 200, "final": "https://www.ikyu.com/00031059/", "title": "犬吠埼観光ホテル - 宿泊予約 - 一休.com", "ldname": "犬吠埼観光ホテル", "addr": "銚子市犬吠埼10293"}
+{"id": "h-chiba-2-1", "status": 200, "final": "https://www.ikyu.com/00003005/", "title": "鴨川温泉 璃庵 - 宿泊予約 - 一休.com", "ldname": "鴨川温泉 璃庵", "addr": "鴨川市天面442"}
+{"id": "h-chiba-2-2", "status": 200, "final": "https://www.ikyu.com/00030840/", "title": "鴨川グランドホテル - 宿泊予約 - 一休.com", "ldname": "鴨川グランドホテル", "addr": "鴨川市広場820番地"}
+{"id": "h-chiba-2-3", "status": 200, "final": "https://www.ikyu.com/00000929/", "title": "鴨川館 - 宿泊予約 - 一休.com", "ldname": "鴨川館", "addr": "鴨川市西町1179"}
+{"id": "h-chiba-3-3", "status": 200, "final": "https://www.ikyu.com/00002280/", "title": "南房総　勝浦　翠海 - 宿泊予約 - 一休.com", "ldname": "南房総　勝浦　翠海", "addr": "勝浦市興津久保山台1990"}
+{"id": "h-chiba-4-2", "status": 200, "final": "https://www.ikyu.com/00002485/", "title": "たてやま温泉　千里の風 - 宿泊予約 - 一休.com", "ldname": "たてやま温泉　千里の風", "addr": "館山市藤原1495-1"}
+{"id": "h-chiba-4-3", "status": 200, "final": "https://www.ikyu.com/00030014/", "title": "おさしみの宿 たろべ - 宿泊予約 - 一休.com", "ldname": "おさしみの宿 たろべ", "addr": "館山市塩見225"}
+{"id": "h-tokyo-2-1", "status": 200, "final": "https://www.ikyu.com/00001288/", "title": "伊豆大島 ホテル＆リゾート マシオ - 宿泊予約 - 一休.com", "ldname": "伊豆大島 ホテル＆リゾート マシオ", "addr": "大島町元町大洞492-1"}
+{"id": "h-kanagawa-1-1", "status": 200, "final": "https://www.ikyu.com/00002449/", "title": "箱根・芦ノ湖　はなをり（オリックス ホテルズ＆リゾーツ） - 宿泊予約 - 一休.com", "ldname": "箱根・芦ノ湖　はなをり（オリックス ホテルズ＆リゾーツ）", "addr": "足柄下郡箱根町元箱根桃源台160"}
+{"id": "h-kanagawa-1-2", "status": 200, "final": "https://www.ikyu.com/00000689/", "title": "箱根芦ノ湖温泉　和心亭　豊月 - 宿泊予約 - 一休.com", "ldname": "箱根芦ノ湖温泉　和心亭　豊月", "addr": "足柄下郡箱根町元箱根90-42"}
+{"id": "h-kanagawa-1-3", "status": 200, "final": "https://www.ikyu.com/00001254/", "title": "ハイアット リージェンシー 箱根 リゾート＆スパ - 宿泊予約 - 一休.com", "ldname": "ハイアット リージェンシー 箱根 リゾート＆スパ", "addr": "足柄下郡箱根町強羅1320番地"}
+{"id": "h-kanagawa-1-4", "status": 200, "final": "https://www.ikyu.com/00001670/", "title": "箱根　花紋 - 宿泊予約 - 一休.com", "ldname": "箱根　花紋", "addr": "足柄下郡箱根町湯本435"}
+{"id": "h-kanagawa-2-1", "status": 200, "final": "https://www.ikyu.com/00001168/", "title": "石葉 - 宿泊予約 - 一休.com", "ldname": "石葉", "addr": "足柄下郡湯河原町宮上749"}
+{"id": "h-kanagawa-2-2", "status": 200, "final": "https://www.ikyu.com/00001746/", "title": "湯河原温泉 美食の宿 おやど瑞月 - 宿泊予約 - 一休.com", "ldname": "湯河原温泉 美食の宿 おやど瑞月", "addr": "足柄下郡湯河原町宮上759-68"}
+{"id": "h-kanagawa-2-3", "status": 200, "final": "https://www.ikyu.com/00003027/", "title": "巛-sen-湯河原 - 宿泊予約 - 一休.com", "ldname": "巛-sen-湯河原", "addr": "足柄下郡湯河原町宮上517"}
+{"id": "h-kanagawa-3-1", "status": 200, "final": "https://www.ikyu.com/00001935/", "title": "強羅花壇 - 宿泊予約 - 一休.com", "ldname": "強羅花壇", "addr": "足柄下郡箱根町強羅1300"}
+{"id": "h-kanagawa-3-2", "status": 200, "final": "https://www.ikyu.com/00002652/", "title": "箱根 ゆとわ - 宿泊予約 - 一休.com", "ldname": "箱根 ゆとわ", "addr": "足柄下郡箱根町強羅1300－27"}
+{"id": "h-kanagawa-3-3", "status": 200, "final": "https://www.ikyu.com/00002608/", "title": "雪月花別邸　翠雲（共立リゾート） - 宿泊予約 - 一休.com", "ldname": "雪月花別邸　翠雲（共立リゾート）", "addr": "足柄下郡箱根町強羅1300-61"}
+{"id": "h-kanagawa-4-1", "status": 200, "final": "https://www.ikyu.com/00003280/", "title": "元湯　陣屋 - 宿泊予約 - 一休.com", "ldname": "元湯　陣屋", "addr": "秦野市鶴巻北2-8-24"}
+{"id": "h-niigata-1-1", "status": 200, "final": "https://www.ikyu.com/00030006/", "title": "越後湯沢温泉 一望千里 御湯宿 中屋 - 宿泊予約 - 一休.com", "ldname": "越後湯沢温泉 一望千里 御湯宿 中屋", "addr": "南魚沼郡湯沢町湯沢924"}
+{"id": "h-niigata-1-2", "status": 200, "final": "https://www.ikyu.com/00002053/", "title": "越後湯澤 HATAGO井仙 - 宿泊予約 - 一休.com", "ldname": "越後湯澤 HATAGO井仙", "addr": "南魚沼郡湯沢町大字湯沢2455"}
+{"id": "h-niigata-1-3", "status": 200, "final": "https://www.ikyu.com/00030577/", "title": "湯沢グランドホテル - 宿泊予約 - 一休.com", "ldname": "湯沢グランドホテル", "addr": "南魚沼郡湯沢町湯沢2494"}
+{"id": "h-niigata-2-1", "status": 200, "final": "https://www.ikyu.com/00000751/", "title": "白玉の湯　華鳳 - 宿泊予約 - 一休.com", "ldname": "白玉の湯　華鳳", "addr": "新発田市月岡温泉134"}
+{"id": "h-niigata-2-2", "status": 200, "final": "https://www.ikyu.com/00000878/", "title": "ホテル清風苑 - 宿泊予約 - 一休.com", "ldname": "ホテル清風苑", "addr": "新発田市月岡温泉278-2"}
+{"id": "h-niigata-2-3", "status": 200, "final": "https://www.ikyu.com/00000834/", "title": "白玉の湯　泉慶 - 宿泊予約 - 一休.com", "ldname": "白玉の湯　泉慶", "addr": "新発田市月岡温泉453番地"}
+{"id": "h-niigata-3-2", "status": 200, "final": "https://www.ikyu.com/00030507/", "title": "大江戸温泉物語Premium 汐美荘 - 宿泊予約 - 一休.com", "ldname": "大江戸温泉物語Premium 汐美荘", "addr": "村上市瀬波温泉２丁目９番３６号"}
+{"id": "h-niigata-3-3", "status": 200, "final": "https://www.ikyu.com/00030514/", "title": "大観荘せなみの湯 - 宿泊予約 - 一休.com", "ldname": "大観荘せなみの湯", "addr": "村上市瀬波温泉2-10-24"}
+{"id": "h-niigata-4-1", "status": 200, "final": "https://www.ikyu.com/00001419/", "title": "高志の宿　高島屋 - 宿泊予約 - 一休.com", "ldname": "高志の宿　高島屋", "addr": "新潟市西蒲区岩室温泉678-甲"}
+{"id": "h-niigata-4-2", "status": 200, "final": "https://www.ikyu.com/00002046/", "title": "新潟・岩室温泉　ゆもとや - 宿泊予約 - 一休.com", "ldname": "新潟・岩室温泉　ゆもとや", "addr": "新潟市西蒲区岩室温泉91-1"}
+{"id": "h-niigata-4-3", "status": 200, "final": "https://www.ikyu.com/00030646/", "title": "新潟 岩室温泉 自家源泉の宿 富士屋 - 宿泊予約 - 一休.com", "ldname": "新潟 岩室温泉 自家源泉の宿 富士屋", "addr": "新潟市西蒲区岩室温泉693"}
+{"id": "h-niigata-5-1", "status": 200, "final": "https://www.ikyu.com/00000547/", "title": "赤倉観光ホテル - 宿泊予約 - 一休.com", "ldname": "赤倉観光ホテル", "addr": "妙高市田切216"}
+{"id": "h-toyama-1-1", "status": 200, "final": "https://www.ikyu.com/00001930/", "title": "宇奈月温泉　延楽 - 宿泊予約 - 一休.com", "ldname": "宇奈月温泉　延楽", "addr": "黒部市宇奈月温泉347-1"}
+{"id": "h-toyama-1-2", "status": 200, "final": "https://www.ikyu.com/00001017/", "title": "黒部・宇奈月温泉　やまのは（オリックス ホテルズ＆リゾーツ） - 宿泊予約 - 一休.com", "ldname": "黒部・宇奈月温泉　やまのは（オリックス ホテルズ＆リゾーツ）", "addr": "黒部市宇奈月温泉352-7"}
+{"id": "h-toyama-2-1", "status": 200, "final": "https://www.ikyu.com/00000873/", "title": "庄川温泉風流味道座敷　ゆめつづり - 宿泊予約 - 一休.com", "ldname": "庄川温泉風流味道座敷　ゆめつづり", "addr": "砺波市庄川町金屋 3531"}
+{"id": "h-toyama-2-2", "status": 200, "final": "https://www.ikyu.com/00001286/", "title": "鳥越の宿 三楽園 - 宿泊予約 - 一休.com", "ldname": "鳥越の宿 三楽園", "addr": "砺波市庄川町金屋839"}
+{"id": "h-toyama-3-1", "status": 200, "final": "https://www.ikyu.com/00031048/", "title": "氷見温泉郷くつろぎの宿うみあかり - 宿泊予約 - 一休.com", "ldname": "氷見温泉郷くつろぎの宿うみあかり", "addr": "氷見市宇波10-1"}
+{"id": "h-toyama-3-2", "status": 200, "final": "https://www.ikyu.com/00030309/", "title": "きらめく海と特別な時間 氷見オーベルジュ Hashimotoya - 宿泊予約 - 一休.com", "ldname": "きらめく海と特別な時間 氷見オーベルジュ Hashimotoya", "addr": "氷見市中田733"}
+{"id": "h-toyama-3-3", "status": 200, "final": "https://www.ikyu.com/00080547/", "title": "氷見天然温泉「しおさいの湯」　ルートイングランティア氷見　和蔵の宿 - 宿泊予約 - 一休.com", "ldname": "氷見天然温泉「しおさいの湯」　ルートイングランティア氷見　和蔵の宿", "addr": "氷見市加納443-5"}
+{"id": "h-ishikawa-1-1", "status": 200, "final": "https://www.ikyu.com/00000544/", "title": "瑠璃光 - 宿泊予約 - 一休.com", "ldname": "瑠璃光", "addr": "加賀市山代温泉19-58-1"}
+{"id": "h-ishikawa-1-3", "status": 200, "final": "https://www.ikyu.com/00001145/", "title": "べにや無何有 - 宿泊予約 - 一休.com", "ldname": "べにや無何有", "addr": "加賀市山代温泉55-1-3"}
+{"id": "h-ishikawa-2-1", "status": 200, "final": "https://www.ikyu.com/00000360/", "title": "加賀屋 - 宿泊予約 - 一休.com", "ldname": "加賀屋", "addr": "七尾市和倉町ヨ部80番地"}
+{"id": "h-ishikawa-2-2", "status": 200, "final": "https://www.ikyu.com/00001187/", "title": "多田屋 - 宿泊予約 - 一休.com", "ldname": "多田屋", "addr": "七尾市奥原町3-29-2"}
+{"id": "h-ishikawa-2-3", "status": 200, "final": "https://www.ikyu.com/00001614/", "title": "加賀屋姉妹館　あえの風 - 宿泊予約 - 一休.com", "ldname": "加賀屋姉妹館　あえの風", "addr": "七尾市和倉町和歌崎8の1"}
+{"id": "h-ishikawa-3-1", "status": 200, "final": "https://www.ikyu.com/00001194/", "title": "山中温泉 胡蝶 - 宿泊予約 - 一休.com", "ldname": "山中温泉 胡蝶", "addr": "加賀市山中温泉河鹿町ホの1番地"}
+{"id": "h-ishikawa-3-2", "status": 200, "final": "https://www.ikyu.com/00001325/", "title": "山中温泉　花紫 - 宿泊予約 - 一休.com", "ldname": "山中温泉　花紫", "addr": "加賀市山中温泉東町1丁目ホ17-1"}
+{"id": "h-ishikawa-3-3", "status": 200, "final": "https://www.ikyu.com/00030277/", "title": "白鷺湯たわらや - 宿泊予約 - 一休.com", "ldname": "白鷺湯たわらや", "addr": "加賀市山中温泉東町2丁目ヘー1"}
+{"id": "h-fukui-1-1", "status": 200, "final": "https://www.ikyu.com/00000813/", "title": "あわら温泉　グランディア芳泉 - 宿泊予約 - 一休.com", "ldname": "あわら温泉　グランディア芳泉", "addr": "あわら市舟津43-26"}
+{"id": "h-fukui-1-2", "status": 200, "final": "https://www.ikyu.com/00002909/", "title": "北陸　福井　あわら温泉　美松 - 宿泊予約 - 一休.com", "ldname": "北陸　福井　あわら温泉　美松", "addr": "あわら市舟津26-10"}
+{"id": "h-fukui-1-3", "status": 200, "final": "https://www.ikyu.com/00001459/", "title": "越前あわら温泉　つるや - 宿泊予約 - 一休.com", "ldname": "越前あわら温泉　つるや", "addr": "あわら市温泉4丁目601番地"}
+{"id": "h-fukui-3-1", "status": 200, "final": "https://www.ikyu.com/00081454/", "title": "みくに隠居処 - 宿泊予約 - 一休.com", "ldname": "みくに隠居処", "addr": "坂井市三国町宿3-7-22"}
+{"id": "h-fukui-3-2", "status": 200, "final": "https://www.ikyu.com/00001722/", "title": "あわら温泉　まつや千千 - 宿泊予約 - 一休.com", "ldname": "あわら温泉　まつや千千", "addr": "あわら市舟津31-24"}
+{"id": "h-fukui-3-3", "status": 200, "final": "https://www.ikyu.com/00003174/", "title": "オーベルジュほまち 三國湊 - 宿泊予約 - 一休.com", "ldname": "オーベルジュほまち 三國湊", "addr": "福井県坂井市三国町南本町三丁目4-39"}
+{"id": "h-yamanashi-1-1", "status": 200, "final": "https://www.ikyu.com/00030068/", "title": "華やぎの章　慶山 - 宿泊予約 - 一休.com", "ldname": "華やぎの章　慶山", "addr": "笛吹市石和町市部822"}
+{"id": "h-yamanashi-1-2", "status": 200, "final": "https://www.ikyu.com/00030222/", "title": "旅館　深雪温泉 - 宿泊予約 - 一休.com", "ldname": "旅館　深雪温泉", "addr": "笛吹市石和町市部822"}
+{"id": "h-yamanashi-2-1", "status": 200, "final": "https://www.ikyu.com/00030623/", "title": "下部ホテル - 宿泊予約 - 一休.com", "ldname": "下部ホテル", "addr": "南巨摩郡身延町上之平1900"}
+{"id": "h-yamanashi-3-1", "status": 200, "final": "https://www.ikyu.com/00001376/", "title": "全館源泉掛け流しの宿　西山温泉　慶雲館 - 宿泊予約 - 一休.com", "ldname": "全館源泉掛け流しの宿　西山温泉　慶雲館", "addr": "南巨摩郡早川町湯島白沢８３"}
+{"id": "h-nagano-1-2", "status": 200, "final": "https://www.ikyu.com/00001994/", "title": "別所温泉　旅館花屋 - 宿泊予約 - 一休.com", "ldname": "別所温泉　旅館花屋", "addr": "上田市別所温泉169番地"}
+{"id": "h-nagano-1-3", "status": 200, "final": "https://www.ikyu.com/00030141/", "title": "旅館　中松屋 - 宿泊予約 - 一休.com", "ldname": "旅館　中松屋", "addr": "上田市別所温泉1627"}
+{"id": "h-nagano-2-1", "status": 200, "final": "https://www.ikyu.com/00001696/", "title": "旅館さかや - 宿泊予約 - 一休.com", "ldname": "旅館さかや", "addr": "下高井郡野沢温泉村豊郷9329"}
+{"id": "h-nagano-2-2", "status": 200, "final": "https://www.ikyu.com/00002048/", "title": "野沢グランドホテル - 宿泊予約 - 一休.com", "ldname": "野沢グランドホテル", "addr": "下高井郡野沢温泉村大字豊郷8888"}
+{"id": "h-nagano-2-3", "status": 200, "final": "https://www.ikyu.com/00030157/", "title": "野沢温泉　河一屋旅館 - 宿泊予約 - 一休.com", "ldname": "野沢温泉　河一屋旅館", "addr": "下高井郡野沢温泉村大字豊郷8923-1"}
+{"id": "h-nagano-3-2", "status": 200, "final": "https://www.ikyu.com/00030203/", "title": "渋温泉 春蘭の宿 さかえや - 宿泊予約 - 一休.com", "ldname": "渋温泉 春蘭の宿 さかえや", "addr": "下高井郡山ノ内町大字平穏2171"}
+{"id": "h-nagano-3-3", "status": 200, "final": "https://www.ikyu.com/00001094/", "title": "あぶらや燈千 - 宿泊予約 - 一休.com", "ldname": "あぶらや燈千", "addr": "下高井郡山ノ内町大字佐野2586-5"}
+{"id": "h-nagano-4-1", "status": 200, "final": "https://www.ikyu.com/00001107/", "title": "白骨の名湯　泡の湯 - 宿泊予約 - 一休.com", "ldname": "白骨の名湯　泡の湯", "addr": "松本市安曇4181"}
+{"id": "h-nagano-4-2", "status": 200, "final": "https://www.ikyu.com/00002337/", "title": "白骨温泉　小梨の湯　笹屋 - 宿泊予約 - 一休.com", "ldname": "白骨温泉　小梨の湯　笹屋", "addr": "松本市安曇4182－1"}
+{"id": "h-nagano-4-3", "status": 200, "final": "https://www.ikyu.com/00030629/", "title": "白骨温泉　お宿つるや（旧：つるや旅館） - 宿泊予約 - 一休.com", "ldname": "白骨温泉　お宿つるや（旧：つるや旅館）", "addr": "松本市安曇白骨4202-6"}
+{"id": "h-nagano-5-1", "status": 200, "final": "https://www.ikyu.com/00002345/", "title": "寛ぎの諏訪の湯宿　萃sui-諏訪湖 - 宿泊予約 - 一休.com", "ldname": "寛ぎの諏訪の湯宿　萃sui-諏訪湖", "addr": "諏訪市湖岸通り2-5-27"}
+{"id": "h-nagano-5-2", "status": 200, "final": "https://www.ikyu.com/00002030/", "title": "上諏訪温泉　ホテル紅や - 宿泊予約 - 一休.com", "ldname": "上諏訪温泉　ホテル紅や", "addr": "諏訪市湖岸通り２－７－２１"}
+{"id": "h-nagano-5-3", "status": 200, "final": "https://www.ikyu.com/00001268/", "title": "信州・上諏訪温泉 琥珀色の自家源泉を持つ宿「ホテル鷺乃湯」 - 宿泊予約 - 一休.com", "ldname": "信州・上諏訪温泉 琥珀色の自家源泉を持つ宿「ホテル鷺乃湯」", "addr": "諏訪市湖岸通り3-2-14"}
+{"id": "h-nagano-6-1", "status": 200, "final": "https://www.ikyu.com/00030818/", "title": "ホテル白馬 - 宿泊予約 - 一休.com", "ldname": "ホテル白馬", "addr": "北安曇郡白馬村北城5470-1"}
+{"id": "h-nagano-6-3", "status": 200, "final": "https://www.ikyu.com/00030805/", "title": "白馬姫川温泉　白馬ハイランドホテル - 宿泊予約 - 一休.com", "ldname": "白馬姫川温泉　白馬ハイランドホテル", "addr": "北安曇郡白馬村北城21582"}
+{"id": "h-gifu-1-1", "status": 200, "final": "https://www.ikyu.com/00000551/", "title": "下呂温泉 水明館 - 宿泊予約 - 一休.com", "ldname": "下呂温泉 水明館", "addr": "下呂市幸田1268"}
+{"id": "h-gifu-1-2", "status": 200, "final": "https://www.ikyu.com/00001171/", "title": "下呂温泉 こころをなでる静寂 みやこ - 宿泊予約 - 一休.com", "ldname": "下呂温泉 こころをなでる静寂 みやこ", "addr": "下呂市森2505"}
+{"id": "h-gifu-2-1", "status": 200, "final": "https://www.ikyu.com/00030706/", "title": "穂高荘 山のホテル - 宿泊予約 - 一休.com", "ldname": "穂高荘 山のホテル", "addr": "高山市奥飛騨温泉郷神坂577-13"}
+{"id": "h-gifu-2-2", "status": 200, "final": "https://www.ikyu.com/00001354/", "title": "匠の宿　深山桜庵（共立リゾート） - 宿泊予約 - 一休.com", "ldname": "匠の宿　深山桜庵（共立リゾート）", "addr": "高山市奥飛騨温泉郷平湯229"}
+{"id": "h-gifu-2-3", "status": 200, "final": "https://www.ikyu.com/00001660/", "title": "料理旅館　奥飛騨山草庵　饗家（きょうや） - 宿泊予約 - 一休.com", "ldname": "料理旅館　奥飛騨山草庵　饗家（きょうや）", "addr": "高山市奥飛騨温泉郷一重ケ根212-84"}
+{"id": "h-gifu-3-1", "status": 200, "final": "https://www.ikyu.com/00001992/", "title": "もずも - 宿泊予約 - 一休.com", "ldname": "もずも", "addr": "高山市奥飛騨温泉郷平湯579-1"}
+{"id": "h-gifu-3-3", "status": 200, "final": "https://www.ikyu.com/00030075/", "title": "深山桜庵別館　湯めぐりの宿　平湯館（共立リゾート） - 宿泊予約 - 一休.com", "ldname": "深山桜庵別館　湯めぐりの宿　平湯館（共立リゾート）", "addr": "高山市奥飛騨温泉郷平湯726"}
+{"id": "h-gifu-4-1", "status": 200, "final": "https://www.ikyu.com/00002551/", "title": "十八楼 - 宿泊予約 - 一休.com", "ldname": "十八楼", "addr": "岐阜市湊町10番地"}
+{"id": "h-gifu-4-2", "status": 200, "final": "https://www.ikyu.com/00001244/", "title": "長良川温泉　岐阜グランドホテル - 宿泊予約 - 一休.com", "ldname": "長良川温泉　岐阜グランドホテル", "addr": "岐阜市長良648番地"}
+{"id": "h-gifu-4-3", "status": 200, "final": "https://www.ikyu.com/00001997/", "title": "鵜匠の家 すぎ山 - 宿泊予約 - 一休.com", "ldname": "鵜匠の家 すぎ山", "addr": "岐阜市長良73-1"}
+{"id": "h-shizuoka-1-1", "status": 200, "final": "https://www.ikyu.com/00001360/", "title": "ふふ 熱海 - 宿泊予約 - 一休.com", "ldname": "ふふ 熱海", "addr": "熱海市水口町11-48"}
+{"id": "h-shizuoka-1-2", "status": 200, "final": "https://www.ikyu.com/00002976/", "title": "ホテルニューアカオ - 宿泊予約 - 一休.com", "ldname": "ホテルニューアカオ", "addr": "熱海市熱海1993-65"}
+{"id": "h-shizuoka-1-3", "status": 200, "final": "https://www.ikyu.com/00000370/", "title": "熱海　古屋旅館 - 宿泊予約 - 一休.com", "ldname": "熱海　古屋旅館", "addr": "熱海市東海岸町5-24"}
+{"id": "h-shizuoka-2-1", "status": 200, "final": "https://www.ikyu.com/00030632/", "title": "伊豆下田温泉　下田大和館 - 宿泊予約 - 一休.com", "ldname": "伊豆下田温泉　下田大和館", "addr": "下田市吉佐美2048"}
+{"id": "h-shizuoka-2-2", "status": 200, "final": "https://www.ikyu.com/00030760/", "title": "伊豆下田温泉 日本有数の絶景 下田ビューホテル - 宿泊予約 - 一休.com", "ldname": "伊豆下田温泉 日本有数の絶景 下田ビューホテル", "addr": "下田市柿崎633"}
+{"id": "h-shizuoka-2-3", "status": 200, "final": "https://www.ikyu.com/00000282/", "title": "下田ベイクロシオ - 宿泊予約 - 一休.com", "ldname": "下田ベイクロシオ", "addr": "下田市柿崎4-1"}
+{"id": "h-shizuoka-3-1", "status": 200, "final": "https://www.ikyu.com/00000906/", "title": "文化財の宿　新井旅館 - 宿泊予約 - 一休.com", "ldname": "文化財の宿　新井旅館", "addr": "伊豆市修善寺970"}
+{"id": "h-shizuoka-3-3", "status": 200, "final": "https://www.ikyu.com/00001191/", "title": "湯回廊　菊屋（共立リゾート） - 宿泊予約 - 一休.com", "ldname": "湯回廊　菊屋（共立リゾート）", "addr": "伊豆市修善寺874-1"}
+{"id": "h-shizuoka-4-1", "status": 200, "final": "https://www.ikyu.com/00000269/", "title": "青山やまと - 宿泊予約 - 一休.com", "ldname": "青山やまと", "addr": "伊東市岡203"}
+{"id": "h-shizuoka-4-2", "status": 200, "final": "https://www.ikyu.com/00001433/", "title": "伊東遊季亭 - 宿泊予約 - 一休.com", "ldname": "伊東遊季亭", "addr": "伊東市宝町1-8"}
+{"id": "h-shizuoka-4-3", "status": 200, "final": "https://www.ikyu.com/00002104/", "title": "伊東 緑涌（藤田観光リゾート） - 宿泊予約 - 一休.com", "ldname": "伊東 緑涌（藤田観光リゾート）", "addr": "伊東市広野2-2-5"}
+{"id": "h-shizuoka-5-1", "status": 200, "final": "https://www.ikyu.com/00000676/", "title": "三養荘　プリンスホテルズ＆リゾーツ - 宿泊予約 - 一休.com", "ldname": "三養荘　プリンスホテルズ＆リゾーツ", "addr": "伊豆の国市ままの上270"}
+{"id": "h-shizuoka-5-2", "status": 200, "final": "https://www.ikyu.com/00001691/", "title": "東府やResort＆Spa－Izu - 宿泊予約 - 一休.com", "ldname": "東府やResort＆Spa－Izu", "addr": "伊豆市吉奈98番地"}
+{"id": "h-shizuoka-5-3", "status": 200, "final": "https://www.ikyu.com/00031083/", "title": "富嶽はなぶさ - 宿泊予約 - 一休.com", "ldname": "富嶽はなぶさ", "addr": "伊豆の国市古奈407"}
+{"id": "h-aichi-1-1", "status": 200, "final": "https://www.ikyu.com/00001504/", "title": "はづ木 - 宿泊予約 - 一休.com", "ldname": "はづ木", "addr": "新城市豊岡字滝上45-1"}
+{"id": "h-aichi-1-2", "status": 200, "final": "https://www.ikyu.com/00030967/", "title": "はづ別館 - 宿泊予約 - 一休.com", "ldname": "はづ別館", "addr": "新城市豊岡滝上11-4"}
+{"id": "h-aichi-2-1", "status": 200, "final": "https://www.ikyu.com/00000673/", "title": "蒲郡クラシックホテル - 宿泊予約 - 一休.com", "ldname": "蒲郡クラシックホテル", "addr": "蒲郡市竹島町15-1"}
+{"id": "h-aichi-2-3", "status": 200, "final": "https://www.ikyu.com/00030626/", "title": "海と空と風の宿　ホテル明山荘 - 宿泊予約 - 一休.com", "ldname": "海と空と風の宿　ホテル明山荘", "addr": "蒲郡市三谷町鳶欠14-1"}
+{"id": "h-mie-1-1", "status": 200, "final": "https://www.ikyu.com/00001363/", "title": "ホテル花水木 - 宿泊予約 - 一休.com", "ldname": "ホテル花水木", "addr": "桑名市長島町浦安333"}
+{"id": "h-mie-2-1", "status": 200, "final": "https://www.ikyu.com/00002832/", "title": "湯の山 素粋居 - 宿泊予約 - 一休.com", "ldname": "湯の山 素粋居", "addr": "三重郡菰野町菰野4842-1"}
+{"id": "h-mie-2-2", "status": 200, "final": "https://www.ikyu.com/00030523/", "title": "旅館　寿亭 - 宿泊予約 - 一休.com", "ldname": "旅館　寿亭", "addr": "三重郡菰野町菰野8585"}
+{"id": "h-mie-3-1", "status": 200, "final": "https://www.ikyu.com/00000801/", "title": "志摩観光ホテル ザ クラシック - 宿泊予約 - 一休.com", "ldname": "志摩観光ホテル ザ クラシック", "addr": "志摩市阿児町神明731（賢島）"}
+{"id": "h-mie-3-2", "status": 200, "final": "https://www.ikyu.com/00001675/", "title": "都リゾート 奥志摩 アクアフォレスト - 宿泊予約 - 一休.com", "ldname": "都リゾート 奥志摩 アクアフォレスト", "addr": "志摩市大王町船越3238-1"}
+{"id": "h-mie-3-3", "status": 200, "final": "https://www.ikyu.com/00001400/", "title": "志摩観光ホテル ザ ベイスイート - 宿泊予約 - 一休.com", "ldname": "志摩観光ホテル ザ ベイスイート", "addr": "志摩市阿児町神明731（賢島）"}
+{"id": "h-shiga-1-1", "status": 200, "final": "https://www.ikyu.com/00001653/", "title": "びわ湖花街道 - 宿泊予約 - 一休.com", "ldname": "びわ湖花街道", "addr": "大津市雄琴一丁目1-3"}
+{"id": "h-shiga-1-2", "status": 200, "final": "https://www.ikyu.com/00002098/", "title": "おごと温泉　びわこ緑水亭 - 宿泊予約 - 一休.com", "ldname": "おごと温泉　びわこ緑水亭", "addr": "大津市雄琴6-1-6"}
+{"id": "h-shiga-1-3", "status": 200, "final": "https://www.ikyu.com/00001839/", "title": "おごと温泉　湯元館 - 宿泊予約 - 一休.com", "ldname": "おごと温泉　湯元館", "addr": "大津市苗鹿2丁目30‐7"}
+{"id": "h-kyoto-1-1", "status": 200, "final": "https://www.ikyu.com/00002114/", "title": "翠嵐 ラグジュアリーコレクションホテル 京都 - 宿泊予約 - 一休.com", "ldname": "翠嵐 ラグジュアリーコレクションホテル 京都", "addr": "京都市右京区嵯峨天龍寺芒ノ馬場町12"}
+{"id": "h-kyoto-1-2", "status": 200, "final": "https://www.ikyu.com/00001075/", "title": "嵐山温泉　彩四季の宿　花筏 - 宿泊予約 - 一休.com", "ldname": "嵐山温泉　彩四季の宿　花筏", "addr": "京都市西京区嵐山中尾下町57"}
+{"id": "h-kyoto-1-3", "status": 200, "final": "https://www.ikyu.com/00001842/", "title": "京都　嵐山温泉　花伝抄（共立リゾート） - 宿泊予約 - 一休.com", "ldname": "京都　嵐山温泉　花伝抄（共立リゾート）", "addr": "京都市西京区嵐山西一川町5-4"}
+{"id": "h-kyoto-2-1", "status": 200, "final": "https://www.ikyu.com/00001026/", "title": "松露亭 - 宿泊予約 - 一休.com", "ldname": "松露亭", "addr": "宮津市字文珠466"}
+{"id": "h-kyoto-3-1", "status": 200, "final": "https://www.ikyu.com/00001878/", "title": "佳松苑　別邸ふうか - 宿泊予約 - 一休.com", "ldname": "佳松苑　別邸ふうか", "addr": "京丹後市網野町木津247（佳松苑隣接）"}
+{"id": "h-kyoto-3-2", "status": 200, "final": "https://www.ikyu.com/00002261/", "title": "夕日ヶ浦温泉　旅亭 櫂‐KAI‐ - 宿泊予約 - 一休.com", "ldname": "夕日ヶ浦温泉　旅亭 櫂‐KAI‐", "addr": "京丹後市網野町浜詰669"}
+{"id": "h-kyoto-3-3", "status": 200, "final": "https://www.ikyu.com/00001462/", "title": "もう一つの京都 雨情草庵 - 宿泊予約 - 一休.com", "ldname": "もう一つの京都 雨情草庵", "addr": "京丹後市網野町木津247（佳松苑隣）"}
+{"id": "h-osaka-1-1", "status": 200, "final": "https://www.ikyu.com/00002120/", "title": "あまみ温泉　南天苑 - 宿泊予約 - 一休.com", "ldname": "あまみ温泉　南天苑", "addr": "河内長野市天見158"}
+{"id": "h-hyogo-1-1", "status": 200, "final": "https://www.ikyu.com/00001453/", "title": "陶泉　御所坊 - 宿泊予約 - 一休.com", "ldname": "陶泉　御所坊", "addr": "神戸市北区有馬町858"}
+{"id": "h-hyogo-1-2", "status": 200, "final": "https://www.ikyu.com/00000734/", "title": "兵衛向陽閣 - 宿泊予約 - 一休.com", "ldname": "兵衛向陽閣", "addr": "神戸市北区有馬町1904"}
+{"id": "h-hyogo-1-3", "status": 200, "final": "https://www.ikyu.com/00030243/", "title": "有馬温泉　ねぎや陵楓閣 - 宿泊予約 - 一休.com", "ldname": "有馬温泉　ねぎや陵楓閣", "addr": "神戸市北区有馬町1537-2"}
+{"id": "h-hyogo-2-1", "status": 200, "final": "https://www.ikyu.com/00001423/", "title": "佳泉郷 井づつや - 宿泊予約 - 一休.com", "ldname": "佳泉郷 井づつや", "addr": "美方郡新温泉町湯1535番地"}
+{"id": "h-hyogo-2-2", "status": 200, "final": "https://www.ikyu.com/00001218/", "title": "湯村温泉　朝野家 - 宿泊予約 - 一休.com", "ldname": "湯村温泉　朝野家", "addr": "美方郡新温泉町湯1269"}
+{"id": "h-hyogo-2-3", "status": 200, "final": "https://www.ikyu.com/00002170/", "title": "山陰湯村温泉　湧泉の宿　ゆあむ - 宿泊予約 - 一休.com", "ldname": "山陰湯村温泉　湧泉の宿　ゆあむ", "addr": "美方郡新温泉町湯1610"}
+{"id": "h-hyogo-3-1", "status": 200, "final": "https://www.ikyu.com/00000476/", "title": "西村屋本館 - 宿泊予約 - 一休.com", "ldname": "西村屋本館", "addr": "豊岡市城崎町湯島469"}
+{"id": "h-hyogo-3-2", "status": 200, "final": "https://www.ikyu.com/00001712/", "title": "ときわ別館 - 宿泊予約 - 一休.com", "ldname": "ときわ別館", "addr": "豊岡市城崎町湯島1013"}
+{"id": "h-hyogo-3-3", "status": 200, "final": "https://www.ikyu.com/00002006/", "title": "城崎温泉　登録有形文化財の宿　三木屋 - 宿泊予約 - 一休.com", "ldname": "城崎温泉　登録有形文化財の宿　三木屋", "addr": "豊岡市城崎町湯島487"}
+{"id": "h-hyogo-4-1", "status": 200, "final": "https://www.ikyu.com/00001638/", "title": "ホテルニューアワジ - 宿泊予約 - 一休.com", "ldname": "ホテルニューアワジ", "addr": "洲本市小路谷20番地"}
+{"id": "h-hyogo-4-2", "status": 200, "final": "https://www.ikyu.com/00001007/", "title": "ホテルニューアワジ別亭 淡路夢泉景 - 宿泊予約 - 一休.com", "ldname": "ホテルニューアワジ別亭 淡路夢泉景", "addr": "洲本市小路谷1052-2（古茂江海岸）"}
+{"id": "h-hyogo-4-3", "status": 200, "final": "https://www.ikyu.com/00030552/", "title": "淡路島洲本温泉　海月館 - 宿泊予約 - 一休.com", "ldname": "淡路島洲本温泉　海月館", "addr": "洲本市海岸通1-3-11"}
+{"id": "h-nara-1-3", "status": 200, "final": "https://www.ikyu.com/00030115/", "title": "宿 花屋徳兵衛 - 宿泊予約 - 一休.com", "ldname": "宿 花屋徳兵衛", "addr": "吉野郡天川村洞川217"}
+{"id": "h-nara-2-3", "status": 200, "final": "https://www.ikyu.com/00030370/", "title": "静響の宿　山水 - 宿泊予約 - 一休.com", "ldname": "静響の宿　山水", "addr": "吉野郡十津川村平谷946-1"}
+{"id": "h-wakayama-1-1", "status": 200, "final": "https://www.ikyu.com/00001352/", "title": "浜千鳥の湯　海舟（共立リゾート） - 宿泊予約 - 一休.com", "ldname": "浜千鳥の湯　海舟（共立リゾート）", "addr": "西牟婁郡白浜町1698-1"}
+{"id": "h-wakayama-1-2", "status": 200, "final": "https://www.ikyu.com/00000557/", "title": "ホテル川久 - 宿泊予約 - 一休.com", "ldname": "ホテル川久", "addr": "西牟婁郡白浜町3745"}
+{"id": "h-wakayama-2-1", "status": 200, "final": "https://www.ikyu.com/00030120/", "title": "大露天の宿　わたらせ温泉　ホテルやまゆり - 宿泊予約 - 一休.com", "ldname": "大露天の宿　わたらせ温泉　ホテルやまゆり", "addr": "田辺市本宮町渡瀬４５－１"}
+{"id": "h-wakayama-2-2", "status": 200, "final": "https://www.ikyu.com/00030854/", "title": "山水館　川湯みどりや - 宿泊予約 - 一休.com", "ldname": "山水館　川湯みどりや", "addr": "田辺市本宮町川湯13"}
+{"id": "h-wakayama-3-1", "status": 200, "final": "https://www.ikyu.com/00030853/", "title": "ホテル浦島 - 宿泊予約 - 一休.com", "ldname": "ホテル浦島", "addr": "東牟婁郡那智勝浦町勝浦1165-2"}
+{"id": "h-wakayama-3-2", "status": 200, "final": "https://www.ikyu.com/00002710/", "title": "碧き島の宿　熊野別邸　中の島 - 宿泊予約 - 一休.com", "ldname": "碧き島の宿　熊野別邸　中の島", "addr": "東牟婁郡那智勝浦町勝浦1179-9"}
+{"id": "h-wakayama-3-3", "status": 200, "final": "https://www.ikyu.com/00030875/", "title": "休暇村 南紀勝浦 - 宿泊予約 - 一休.com", "ldname": "休暇村 南紀勝浦", "addr": "東牟婁郡那智勝浦町宇久井719"}
+{"id": "h-tottori-1-1", "status": 200, "final": "https://www.ikyu.com/00030645/", "title": "登録有形文化財の宿 木屋旅館 - 宿泊予約 - 一休.com", "ldname": "登録有形文化財の宿 木屋旅館", "addr": "東伯郡三朝町三朝895番地"}
+{"id": "h-tottori-1-2", "status": 200, "final": "https://www.ikyu.com/00001032/", "title": "三朝薬師の湯　万翆楼 - 宿泊予約 - 一休.com", "ldname": "三朝薬師の湯　万翆楼", "addr": "東伯郡三朝町山田5"}
+{"id": "h-tottori-2-1", "status": 200, "final": "https://www.ikyu.com/00030170/", "title": "皆生温泉　皆生つるや　四季を奏でるさらさの宿 - 宿泊予約 - 一休.com", "ldname": "皆生温泉　皆生つるや　四季を奏でるさらさの宿", "addr": "米子市皆生温泉2丁目5番1号"}
+{"id": "h-tottori-2-2", "status": 200, "final": "https://www.ikyu.com/00001148/", "title": "皆生松月 - 宿泊予約 - 一休.com", "ldname": "皆生松月", "addr": "米子市皆生温泉3-4-25"}
+{"id": "h-tottori-2-3", "status": 200, "final": "https://www.ikyu.com/00002607/", "title": "皆生游月 - 宿泊予約 - 一休.com", "ldname": "皆生游月", "addr": "米子市皆生温泉3-11-1"}
+{"id": "h-shimane-1-1", "status": 200, "final": "https://www.ikyu.com/00001335/", "title": "玉造温泉 湯之助の宿 長楽園 - 宿泊予約 - 一休.com", "ldname": "玉造温泉 湯之助の宿 長楽園", "addr": "松江市玉湯町玉造323番地"}
+{"id": "h-shimane-1-2", "status": 200, "final": "https://www.ikyu.com/00003409/", "title": "曲水の庭　ホテル玉泉 - 宿泊予約 - 一休.com", "ldname": "曲水の庭　ホテル玉泉", "addr": "松江市玉湯町玉造53-2"}
+{"id": "h-shimane-2-4", "status": 200, "final": "https://www.ikyu.com/00001232/", "title": "なにわ一水 - 宿泊予約 - 一休.com", "ldname": "なにわ一水", "addr": "松江市千鳥町63"}
+{"id": "h-shimane-2-6", "status": 200, "final": "https://www.ikyu.com/00031299/", "title": "ホテル一畑 - 宿泊予約 - 一休.com", "ldname": "ホテル一畑", "addr": "松江市千鳥町30"}
+{"id": "h-shimane-2-7", "status": 200, "final": "https://www.ikyu.com/00001329/", "title": "皆美館 - 宿泊予約 - 一休.com", "ldname": "皆美館", "addr": "松江市末次本町14番地"}
+{"id": "h-shimane-3-2", "status": 200, "final": "https://www.ikyu.com/00030712/", "title": "旅館ますや - 宿泊予約 - 一休.com", "ldname": "旅館ますや", "addr": "大田市温泉津町温泉津ロ32"}
+{"id": "h-okayama-1-1", "status": 200, "final": "https://www.ikyu.com/00030327/", "title": "八景 - 宿泊予約 - 一休.com", "ldname": "八景", "addr": "真庭市豊栄1572"}
+{"id": "h-okayama-2-3", "status": 200, "final": "https://www.ikyu.com/00000993/", "title": "登録有形文化財の宿　名泉鍵湯　奥津荘 - 宿泊予約 - 一休.com", "ldname": "登録有形文化財の宿　名泉鍵湯　奥津荘", "addr": "苫田郡鏡野町奥津48"}
+{"id": "h-hiroshima-1-1", "status": 200, "final": "https://www.ikyu.com/00001178/", "title": "みやじまの宿 岩惣 - 宿泊予約 - 一休.com", "ldname": "みやじまの宿 岩惣", "addr": "廿日市市宮島町３４５－１"}
+{"id": "h-hiroshima-1-2", "status": 200, "final": "https://www.ikyu.com/00000836/", "title": "宮島グランドホテル有もと - 宿泊予約 - 一休.com", "ldname": "宮島グランドホテル有もと", "addr": "廿日市市宮島町南町364番地"}
+{"id": "h-hiroshima-1-3", "status": 200, "final": "https://www.ikyu.com/00001261/", "title": "宮島　錦水館 - 宿泊予約 - 一休.com", "ldname": "宮島　錦水館", "addr": "廿日市市宮島町1133番地"}
+{"id": "h-yamaguchi-1-1", "status": 200, "final": "https://www.ikyu.com/00082472/", "title": "お宿Onn　湯田温泉 - 宿泊予約 - 一休.com", "ldname": "お宿Onn　湯田温泉", "addr": "山口市湯田温泉4-5-2"}
+{"id": "h-yamaguchi-1-3", "status": 200, "final": "https://www.ikyu.com/00001715/", "title": "やまぐち・湯田温泉　古稀庵 - 宿泊予約 - 一休.com", "ldname": "やまぐち・湯田温泉　古稀庵", "addr": "山口市湯田温泉2-7-1"}
+{"id": "h-yamaguchi-2-3", "status": 200, "final": "https://www.ikyu.com/00030527/", "title": "山村別館 - 宿泊予約 - 一休.com", "ldname": "山村別館", "addr": "長門市深川湯本５３３－１"}
+{"id": "h-yamaguchi-2-6", "status": 200, "final": "https://www.ikyu.com/00001303/", "title": "別邸　音信 - 宿泊予約 - 一休.com", "ldname": "別邸　音信", "addr": "長門市湯本温泉"}
+{"id": "h-yamaguchi-2-7", "status": 200, "final": "https://www.ikyu.com/00000731/", "title": "大谷山荘 - 宿泊予約 - 一休.com", "ldname": "大谷山荘", "addr": "長門市深川湯本2208番地"}
+{"id": "h-tokushima-1-1", "status": 200, "final": "https://www.ikyu.com/00001756/", "title": "渓谷の隠れ宿　祖谷美人 - 宿泊予約 - 一休.com", "ldname": "渓谷の隠れ宿　祖谷美人", "addr": "三好市西祖谷山村善徳9-3"}
+{"id": "h-tokushima-1-2", "status": 200, "final": "https://www.ikyu.com/00001083/", "title": "和の宿　ホテル祖谷温泉 - 宿泊予約 - 一休.com", "ldname": "和の宿　ホテル祖谷温泉", "addr": "三好市池田町松尾字松本367-28"}
+{"id": "h-kagawa-2-1", "status": 200, "final": "https://www.ikyu.com/00001454/", "title": "琴平花壇 - 宿泊予約 - 一休.com", "ldname": "琴平花壇", "addr": "仲多度郡琴平町1241－5"}
+{"id": "h-kagawa-2-2", "status": 200, "final": "https://www.ikyu.com/00000383/", "title": "琴平グランドホテル　桜の抄 - 宿泊予約 - 一休.com", "ldname": "琴平グランドホテル　桜の抄", "addr": "仲多度郡琴平町977-1"}
+{"id": "h-kagawa-2-3", "status": 200, "final": "https://www.ikyu.com/00000382/", "title": "湯元こんぴら温泉華の湯　紅梅亭 - 宿泊予約 - 一休.com", "ldname": "湯元こんぴら温泉華の湯　紅梅亭", "addr": "仲多度郡琴平町556-1"}
+{"id": "h-ehime-1-1", "status": 200, "final": "https://www.ikyu.com/00001154/", "title": "道後舘 - 宿泊予約 - 一休.com", "ldname": "道後舘", "addr": "松山市道後多幸町7-26"}
+{"id": "h-ehime-1-2", "status": 200, "final": "https://www.ikyu.com/00000462/", "title": "道後温泉　ふなや - 宿泊予約 - 一休.com", "ldname": "道後温泉　ふなや", "addr": "松山市道後湯之町1-33"}
+{"id": "h-ehime-1-3", "status": 200, "final": "https://www.ikyu.com/00000663/", "title": "大和屋本店 - 宿泊予約 - 一休.com", "ldname": "大和屋本店", "addr": "松山市道後湯之町20-8"}
+{"id": "h-kochi-2-2", "status": 200, "final": "https://www.ikyu.com/00003069/", "title": "TheMana Village - 宿泊予約 - 一休.com", "ldname": "TheMana Village", "addr": "土佐清水市足摺岬783"}
+{"id": "h-fukuoka-1-1", "status": 200, "final": "https://www.ikyu.com/00001044/", "title": "大丸別荘 - 宿泊予約 - 一休.com", "ldname": "大丸別荘", "addr": "筑紫野市湯町1丁目20-1"}
+{"id": "h-fukuoka-2-2", "status": 200, "final": "https://www.ikyu.com/00030108/", "title": "原鶴温泉　パーレンス小野屋 - 宿泊予約 - 一休.com", "ldname": "原鶴温泉　パーレンス小野屋", "addr": "朝倉市杷木久喜宮1841-1"}
+{"id": "h-fukuoka-2-3", "status": 200, "final": "https://www.ikyu.com/00002915/", "title": "原鶴温泉　原鶴の舞 - 宿泊予約 - 一休.com", "ldname": "原鶴温泉　原鶴の舞", "addr": "朝倉市杷木志波1-3"}
+{"id": "h-fukuoka-3-1", "status": 200, "final": "https://www.ikyu.com/00030654/", "title": "湯めぐりの宿 楠水閣 - 宿泊予約 - 一休.com", "ldname": "湯めぐりの宿 楠水閣", "addr": "宮若市脇田507"}
+{"id": "h-fukuoka-3-2", "status": 200, "final": "https://www.ikyu.com/00080431/", "title": "脇田天然温泉「華の湯」　ルートイングランティア福岡宮若 - 宿泊予約 - 一休.com", "ldname": "脇田天然温泉「華の湯」　ルートイングランティア福岡宮若", "addr": "宮若市脇田778-1"}
+{"id": "h-saga-1-1", "status": 200, "final": "https://www.ikyu.com/00000698/", "title": "萬象閣敷島 - 宿泊予約 - 一休.com", "ldname": "萬象閣敷島", "addr": "嬉野市嬉野町大字岩屋川内甲114-1"}
+{"id": "h-saga-1-2", "status": 200, "final": "https://www.ikyu.com/00003062/", "title": "嬉野 八十八 - 宿泊予約 - 一休.com", "ldname": "嬉野 八十八", "addr": "嬉野市嬉野町大字下宿丙2400-30"}
+{"id": "h-saga-1-3", "status": 200, "final": "https://www.ikyu.com/00001533/", "title": "大正屋 - 宿泊予約 - 一休.com", "ldname": "大正屋", "addr": "嬉野市嬉野町下宿乙2276-1"}
+{"id": "h-saga-2-2", "status": 200, "final": "https://www.ikyu.com/00003206/", "title": "OND HOTEL（オンドホテル） - 宿泊予約 - 一休.com", "ldname": "OND HOTEL（オンドホテル）", "addr": "武雄市武雄町大字永島18091番地"}
+{"id": "h-saga-2-3", "status": 200, "final": "https://www.ikyu.com/00031114/", "title": "星の華 - 宿泊予約 - 一休.com", "ldname": "星の華", "addr": "武雄市武雄町大字武雄3688"}
+{"id": "h-saga-2-4", "status": 200, "final": "https://www.ikyu.com/00002690/", "title": "懐石宿　扇屋 - 宿泊予約 - 一休.com", "ldname": "懐石宿　扇屋", "addr": "武雄市武雄町武雄7399"}
+{"id": "h-saga-2-5", "status": 200, "final": "https://www.ikyu.com/00003079/", "title": "うらり 武雄　Garden Terrace Spa Resorts - 宿泊予約 - 一休.com", "ldname": "うらり 武雄　Garden Terrace Spa Resorts", "addr": "武雄市武雄町大字永島15750-1"}
+{"id": "h-saga-2-6", "status": 200, "final": "https://www.ikyu.com/00031090/", "title": "御船山楽園ホテル - 宿泊予約 - 一休.com", "ldname": "御船山楽園ホテル", "addr": "武雄市武雄町武雄4100"}
+{"id": "h-saga-2-7", "status": 200, "final": "https://www.ikyu.com/00002001/", "title": "奥武雄温泉　風の森 - 宿泊予約 - 一休.com", "ldname": "奥武雄温泉　風の森", "addr": "武雄市西川登町小田志17275"}
+{"id": "h-nagasaki-1-2", "status": 200, "final": "https://www.ikyu.com/00000728/", "title": "雲仙宮崎旅館-Unzen Miyazaki Ryokan- - 宿泊予約 - 一休.com", "ldname": "雲仙宮崎旅館-Unzen Miyazaki Ryokan-", "addr": "雲仙市小浜町雲仙320番地"}
+{"id": "h-nagasaki-1-3", "status": 200, "final": "https://www.ikyu.com/00001761/", "title": "白濁源泉掛け流し八湯めぐりの湯　雲仙温泉　民芸モダンの宿　雲仙福田屋 - 宿泊予約 - 一休.com", "ldname": "白濁源泉掛け流し八湯めぐりの湯　雲仙温泉　民芸モダンの宿　雲仙福田屋", "addr": "雲仙市小浜町雲仙380-2"}
+{"id": "h-nagasaki-2-2", "status": 200, "final": "https://www.ikyu.com/00002088/", "title": "小浜温泉 旅館 國崎 - 宿泊予約 - 一休.com", "ldname": "小浜温泉 旅館 國崎", "addr": "雲仙市小浜町南本町10-8"}
+{"id": "h-nagasaki-3-1", "status": 200, "final": "https://www.ikyu.com/00002123/", "title": "ホテル南風楼 - 宿泊予約 - 一休.com", "ldname": "ホテル南風楼", "addr": "島原市弁天町2-7331ー1"}
+{"id": "h-kumamoto-1-1", "status": 200, "final": "https://www.ikyu.com/00002068/", "title": "黒川温泉　お宿　のし湯 - 宿泊予約 - 一休.com", "ldname": "黒川温泉　お宿　のし湯", "addr": "阿蘇郡南小国町満願寺6591-1"}
+{"id": "h-kumamoto-1-2", "status": 200, "final": "https://www.ikyu.com/00001390/", "title": "旅館こうの湯 - 宿泊予約 - 一休.com", "ldname": "旅館こうの湯", "addr": "阿蘇郡南小国町大字満願寺6784"}
+{"id": "h-kumamoto-1-3", "status": 200, "final": "https://www.ikyu.com/00001801/", "title": "黒川温泉　山あいの宿　山みず木 - 宿泊予約 - 一休.com", "ldname": "黒川温泉　山あいの宿　山みず木", "addr": "阿蘇郡南小国町奥黒川温泉　山みず木"}
+{"id": "h-kumamoto-2-1", "status": 200, "final": "https://www.ikyu.com/00031193/", "title": "国登録有形文化財の宿 人吉温泉 芳野旅館 - 宿泊予約 - 一休.com", "ldname": "国登録有形文化財の宿 人吉温泉 芳野旅館", "addr": "人吉市上青井町180"}
+{"id": "h-kumamoto-2-2", "status": 200, "final": "https://www.ikyu.com/00030663/", "title": "人吉旅館 - 宿泊予約 - 一休.com", "ldname": "人吉旅館", "addr": "人吉市上青井町160"}
+{"id": "h-kumamoto-2-4", "status": 200, "final": "https://www.ikyu.com/00001080/", "title": "人吉温泉 あゆの里 - 宿泊予約 - 一休.com", "ldname": "人吉温泉 あゆの里", "addr": "人吉市九日町30番地"}
+{"id": "h-kumamoto-2-5", "status": 200, "final": "https://www.ikyu.com/00030677/", "title": "旅館 翠嵐楼 - 宿泊予約 - 一休.com", "ldname": "旅館 翠嵐楼", "addr": "人吉市温泉町2461-1"}
+{"id": "h-kumamoto-2-7", "status": 200, "final": "https://www.ikyu.com/00003301/", "title": "人吉温泉　石野乃湯　ICHIFUJI RYOKAN - 宿泊予約 - 一休.com", "ldname": "人吉温泉　石野乃湯　ICHIFUJI RYOKAN", "addr": "人吉市赤池原町字石野1489-1"}
+{"id": "h-kumamoto-3-1", "status": 200, "final": "https://www.ikyu.com/00031019/", "title": "つえたて温泉ひぜんや - 宿泊予約 - 一休.com", "ldname": "つえたて温泉ひぜんや", "addr": "阿蘇郡小国町大字下城4223"}
+{"id": "h-kumamoto-4-4", "status": 200, "final": "https://www.ikyu.com/00003379/", "title": "蘇る山と故郷　阿蘇内牧温泉　蘇山郷 - 宿泊予約 - 一休.com", "ldname": "蘇る山と故郷　阿蘇内牧温泉　蘇山郷", "addr": "阿蘇市内牧145-1"}
+{"id": "h-oita-1-1", "status": 200, "final": "https://www.ikyu.com/00001104/", "title": "別府温泉　杉乃井ホテル（オリックス ホテルズ＆リゾーツ） - 宿泊予約 - 一休.com", "ldname": "別府温泉　杉乃井ホテル（オリックス ホテルズ＆リゾーツ）", "addr": "別府市観海寺1"}
+{"id": "h-oita-2-1", "status": 200, "final": "https://www.ikyu.com/00002470/", "title": "亀の井別荘 - 宿泊予約 - 一休.com", "ldname": "亀の井別荘", "addr": "由布市湯布院町川上2633-1"}
+{"id": "h-oita-2-2", "status": 200, "final": "https://www.ikyu.com/00003248/", "title": "山荘　無量塔 - 宿泊予約 - 一休.com", "ldname": "山荘　無量塔", "addr": "由布市湯布院町川上1264-2"}
+{"id": "h-oita-2-3", "status": 200, "final": "https://www.ikyu.com/00002536/", "title": "由布院 玉の湯 - 宿泊予約 - 一休.com", "ldname": "由布院 玉の湯", "addr": "由布市湯布院町大字川上2731-1"}
+{"id": "h-oita-4-6", "status": 200, "final": "https://www.ikyu.com/00002544/", "title": "丸長旅館 - 宿泊予約 - 一休.com", "ldname": "丸長旅館", "addr": "竹田市直入町大字長湯7995-2"}
+{"id": "h-miyazaki-1-3", "status": 200, "final": "https://www.ikyu.com/00031208/", "title": "十兵衛の宿 - 宿泊予約 - 一休.com", "ldname": "十兵衛の宿", "addr": "えびの市向江212-1"}
+{"id": "h-miyazaki-2-1", "status": 200, "final": "https://www.ikyu.com/00002018/", "title": "ホテル　青島サンクマール - 宿泊予約 - 一休.com", "ldname": "ホテル　青島サンクマール", "addr": "宮崎市大字折生迫7408"}
+{"id": "h-miyazaki-2-2", "status": 200, "final": "https://www.ikyu.com/00080429/", "title": "青島天然温泉「華の湯」　ルートイングランティアあおしま太陽閣 - 宿泊予約 - 一休.com", "ldname": "青島天然温泉「華の湯」　ルートイングランティアあおしま太陽閣", "addr": "宮崎市青島西1-16-2"}
+{"id": "h-miyazaki-2-3", "status": 200, "final": "https://www.ikyu.com/00000976/", "title": "ANAホリデイ・イン リゾート宮崎 by IHG - 宿泊予約 - 一休.com", "ldname": "ANAホリデイ・イン リゾート宮崎 by IHG", "addr": "宮崎市青島1-16-1"}
+{"id": "h-kagoshima-1-1", "status": 200, "final": "https://www.ikyu.com/00000641/", "title": "鹿児島　砂むし温泉　指宿白水館 - 宿泊予約 - 一休.com", "ldname": "鹿児島　砂むし温泉　指宿白水館", "addr": "指宿市東方12126-12"}
+{"id": "h-kagoshima-1-2", "status": 200, "final": "https://www.ikyu.com/00001731/", "title": "夫婦露天風呂の宿　吟松 - 宿泊予約 - 一休.com", "ldname": "夫婦露天風呂の宿　吟松", "addr": "指宿市湯の浜5丁目26-29"}
+{"id": "h-kagoshima-1-6", "status": 200, "final": "https://www.ikyu.com/00030876/", "title": "休暇村 指宿 - 宿泊予約 - 一休.com", "ldname": "休暇村 指宿", "addr": "指宿市東方10445"}
+{"id": "h-kagoshima-1-7", "status": 200, "final": "https://www.ikyu.com/00030819/", "title": "指宿温泉こらんの湯錦江楼 - 宿泊予約 - 一休.com", "ldname": "指宿温泉こらんの湯錦江楼", "addr": "指宿市西方4507"}
+{"id": "h-kagoshima-2-2", "status": 200, "final": "https://www.ikyu.com/00001320/", "title": "ホテル京セラ - 宿泊予約 - 一休.com", "ldname": "ホテル京セラ", "addr": "霧島市隼人町見次1409番地1"}
+{"id": "h-kagoshima-2-3", "status": 200, "final": "https://www.ikyu.com/00002610/", "title": "ラビスタ霧島ヒルズ（共立リゾート） - 宿泊予約 - 一休.com", "ldname": "ラビスタ霧島ヒルズ（共立リゾート）", "addr": "霧島市牧園町高千穂3812-6"}
+{"id": "h-kagoshima-2-4", "status": 200, "final": "https://www.ikyu.com/00001185/", "title": "鳥遊ぶ森の宿　ふたり静 - 宿泊予約 - 一休.com", "ldname": "鳥遊ぶ森の宿　ふたり静", "addr": "霧島市牧園町高千穂3620-4"}
+{"id": "h-kagoshima-2-5", "status": 200, "final": "https://www.ikyu.com/00030263/", "title": "霧島観光ホテル - 宿泊予約 - 一休.com", "ldname": "霧島観光ホテル", "addr": "霧島市牧園町高千穂3885"}
+{"id": "h-kagoshima-2-7", "status": 200, "final": "https://www.ikyu.com/00002097/", "title": "料亭旅館　竹千代　霧島別邸 - 宿泊予約 - 一休.com", "ldname": "料亭旅館　竹千代　霧島別邸", "addr": "霧島市霧島田口2465番地"}
+{"id": "h-kagoshima-4-1", "status": 200, "final": "https://www.ikyu.com/00000348/", "title": "屋久島いわさきホテル - 宿泊予約 - 一休.com", "ldname": "屋久島いわさきホテル", "addr": "熊毛郡屋久島町尾之間1306"}
+{"id": "h-kagoshima-4-2", "status": 200, "final": "https://www.ikyu.com/00001649/", "title": "samana hotel Yakushima（旧・ホテル屋久島） - 宿泊予約 - 一休.com", "ldname": "samana hotel Yakushima（旧・ホテル屋久島）", "addr": "熊毛郡屋久島町尾之間136-2"}
+{"id": "h-okinawa-1-1", "status": 200, "final": "https://www.ikyu.com/00002622/", "title": "ホテルシギラミラージュ - 宿泊予約 - 一休.com", "ldname": "ホテルシギラミラージュ", "addr": "宮古島市上野字新里1405-201"}
+{"id": "h-okinawa-1-2", "status": 200, "final": "https://www.ikyu.com/00002435/", "title": "アラマンダ インギャーコーラルヴィレッジ - 宿泊予約 - 一休.com", "ldname": "アラマンダ インギャーコーラルヴィレッジ", "addr": "宮古島市城辺友利542"}
+{"id": "h-okinawa-1-3", "status": 200, "final": "https://www.ikyu.com/00000998/", "title": "シギラベイサイドスイート アラマンダ - 宿泊予約 - 一休.com", "ldname": "シギラベイサイドスイート アラマンダ", "addr": "沖縄県宮古島市上野新里926-25"}
+{"id": "h-okinawa-2-1", "status": 200, "final": "https://www.ikyu.com/00001909/", "title": "琉球温泉 瀬長島ホテル - 宿泊予約 - 一休.com", "ldname": "琉球温泉 瀬長島ホテル", "addr": "豊見城市字瀬長174-5"}
+{"id": "h-okinawa-2-2", "status": 200, "final": "https://www.ikyu.com/00081986/", "title": "HOTEL SANSUI NAHA 波の上温泉 - 宿泊予約 - 一休.com", "ldname": "HOTEL SANSUI NAHA 波の上温泉", "addr": "那覇市辻2-25-1"}

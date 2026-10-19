@@ -78,11 +78,11 @@ export function renderSpecialDetail({ params }) {
                         <a href="/hotel/${h.id}" class="hotel-card hotel-card-link">
                             <div class="hotel-card-image">
                                 <img src="${h.image}" alt="${h.name}" loading="lazy">
-                                <span class="hotel-type-badge">${h.type}</span>
+                                ${h.type ? `<span class="hotel-type-badge">${h.type}</span>` : ''}
                             </div>
                             <div class="hotel-card-body">
                                 <h3 class="hotel-card-name">${h.name}</h3>
-                                <p class="hotel-card-desc">${h.description.slice(0, 60)}…</p>
+                                <p class="hotel-card-desc">${h.description}</p>
                             </div>
                         </a>
                     `).join('')}

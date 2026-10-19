@@ -8,7 +8,7 @@ import { onsenList } from '../data/onsen.js';
 import { getPrefectureById } from '../data/prefectures.js';
 import { updateSEO, absolute_url } from '../seo.js';
 import { getHotelsByOnsen } from '../data/hotels.js';
-import { summary_box, faq_section, faq_ld, sentence, PRICE_NOTE } from '../components/answer.js';
+import { summary_box, faq_section, faq_ld } from '../components/answer.js';
 import { inn_owner_note } from './forInns.js';
 
 /**
@@ -18,7 +18,8 @@ import { inn_owner_note } from './forInns.js';
  */
 function buildBookingLinks(hotel) {
   const encoded = encodeURIComponent(hotel.name);
-  const urls = hotel.bookingUrls || {};
+  // 未設定（空・"#"）のリンクは各サイトの宿名検索にする
+  const urls = Object.fromEntries(Object.entries(hotel.bookingUrls || {}).filter(([, u]) => u && u !== '#'));
   return [
     {
       name: 'じゃらん',
@@ -83,7 +84,7 @@ export function renderHotelDetail({ params }) {
     '@type': 'LodgingBusiness',
     'name': hotel.name,
     'description': hotel.description,
-    'priceRange': hotel.price,
+    ...(hotel.address ? { 'address': { '@type': 'PostalAddress', 'streetAddress': hotel.address, 'addressRegion': prefecture?.name || '', 'addressCountry': 'JP' } } : {}),
     'image': absolute_url(hotel.image),
     'address': {
       '@type': 'PostalAddress',
@@ -105,7 +106,7 @@ export function renderHotelDetail({ params }) {
           ${onsen ? `<a href="/onsen/${onsen.id}">${onsen.name}</a><span class="breadcrumb-separator">›</span>` : ''}
           <span>${hotel.name}</span>
         </nav>
-        <div class="hotel-detail-type-badge">${hotel.type}</div>
+        ${hotel.type ? `<div class="hotel-detail-type-badge">${hotel.type}</div>` : ''}
         <h1 class="hotel-detail-title">${hotel.name}</h1>
         ${onsen ? `<p class="hotel-detail-onsen">♨ ${onsen.name}（${onsen.spring_type}）</p>` : ''}
       </div>
@@ -117,94 +118,8 @@ export function renderHotelDetail({ params }) {
 
           <!-- 基本情報カード -->
           <div class="hotel-detail-main">
-            ${summary_box(`${hotel.name}の要点`, answer.lead, answer.facts, PRICE_NOTE)}
-
-            <div class="hotel-detail-card">
-              <h2 class="hotel-detail-card-title">基本情報</h2>
-              <div class="hotel-info-list">
-                <div class="hotel-info-row">
-                  <span class="hotel-info-label">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <path d="M3 21h18"/><path d="M5 21V7l8-4 8 4v14"/><path d="M9 21v-4h6v4"/>
-                    </svg>
-                    宿の種類
-                  </span>
-                  <span class="hotel-info-value">${hotel.type}</span>
-                </div>
-                <div class="hotel-info-row">
-                  <span class="hotel-info-label">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
-                    </svg>
-                    参考料金
-                  </span>
-                  <span class="hotel-info-value price-highlight">${hotel.price}</span>
-                </div>
-                ${onsen ? `
-                <div class="hotel-info-row">
-                  <span class="hotel-info-label">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <path d="M8 2h8l2 6-10 4-10-4 2-6z"/><path d="M12 12v10"/>
-                    </svg>
-                    温泉地
-                  </span>
-                  <span class="hotel-info-value">
-                    <a href="/onsen/${onsen.id}" class="hotel-info-link">${onsen.name}</a>
-                  </span>
-                </div>
-                <div class="hotel-info-row">
-                  <span class="hotel-info-label">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <path d="M12 2C8 2 4 5.5 4 10c0 3 1.5 5.5 4 7v3h8v-3c2.5-1.5 4-4 4-7 0-4.5-4-8-8-8z"/>
-                    </svg>
-                    泉質
-                  </span>
-                  <span class="hotel-info-value spring-type-highlight">♨ ${onsen.spring_type}</span>
-                </div>
-                ` : ''}
-                ${prefecture ? `
-                <div class="hotel-info-row">
-                  <span class="hotel-info-label">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
-                    </svg>
-                    エリア
-                  </span>
-                  <span class="hotel-info-value">
-                    <a href="/prefecture/${onsen.prefecture}" class="hotel-info-link">${prefecture.name}</a>
-                  </span>
-                </div>
-                ` : ''}
-              </div>
-            </div>
-
-            <div class="hotel-detail-card">
-              <h2 class="hotel-detail-card-title">宿の紹介</h2>
-              <p class="hotel-detail-desc">${hotel.description}</p>
-              <div class="hotel-detail-tags">
-                ${hotel.tags.map(t => `<span class="tag tag-highlight">${t}</span>`).join('')}
-              </div>
-              ${hotel.source_type ? `
-              <div class="hotel-info-row" style="margin-top:1rem">
-                <span class="hotel-info-label">源泉情報</span>
-                <span class="hotel-info-value">${hotel.source_type === '源泉かけ流し' ? '♨ ' : ''}${hotel.source_type}</span>
-              </div>` : ''}
-              ${hotel.features?.length ? `
-              <div class="hotel-info-row" style="margin-top:0.75rem">
-                <span class="hotel-info-label">こだわり・設備</span>
-                <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.25rem">
-                  ${hotel.features.map(f => `<span class="tag">${f}</span>`).join('')}
-                </div>
-              </div>` : ''}
-              ${hotel.meals ? `
-              <div class="hotel-info-row" style="margin-top:0.75rem">
-                <span class="hotel-info-label">お食事</span>
-                <div style="line-height:1.8;color:var(--color-text-muted)">
-                  ${hotel.meals.dinner ? `<div>夕食: ${hotel.meals.dinner}</div>` : ''}
-                  ${hotel.meals.breakfast ? `<div>朝食: ${hotel.meals.breakfast}</div>` : ''}
-                </div>
-              </div>` : ''}
-            </div>
+            ${hotel.notice ? `<p class="hotel-notice" role="note">${hotel.notice}</p>` : ''}
+            ${summary_box(`${hotel.name}の要点`, answer.lead, answer.facts, '料金・空室・設備は予約サイトや宿の公式情報でご確認ください。')}
 
             ${onsen ? `
             <div class="hotel-detail-card hotel-detail-onsen-card">
@@ -247,16 +162,10 @@ export function renderHotelDetail({ params }) {
                 `).join('')}
               </div>
               <p class="booking-notice">
-                ※ 料金・空室はリンク先予約サイトにてご確認ください。
-                表示価格は参考価格（税別・サービス料別の場合あり）です。
+                ※ 料金・空室はリンク先の予約サイトでご確認ください。
               </p>
             </div>
 
-            <div class="hotel-price-card">
-              <h3 class="hotel-price-card-title">参考料金</h3>
-              <p class="hotel-price-large">${hotel.price}</p>
-              <p class="hotel-price-note">※ 1名あたり・シーズン・プランにより変動します</p>
-            </div>
 
             ${onsen ? `
             <div class="back-to-onsen">
@@ -300,32 +209,26 @@ function setupAnimations() {
 
 /**
  * 宿ページの要約・早見表・よくある質問をデータから組み立てる
+ * 宿名と所在地はじゃらんの宿ページで確認したもの。料金・設備などの裏取りできない項目は載せない
  */
 function build_hotel_answer(hotel, onsen, prefecture, bookingLinks) {
   const pref = prefecture?.name || '';
   const ac = onsen?.access || {};
-  const lead = `${hotel.name}は${pref}${onsen ? `・${onsen.name}` : ''}にある${hotel.type}です。` + sentence(hotel.description);
+  const place = onsen ? `${pref}の${onsen.name}${hotel.near ? 'の周辺' : ''}` : pref;
+  const lead = `${hotel.name}は${place}にある宿です。` + (hotel.address ? `所在地は${hotel.address}。` : '') + (hotel.notice ? hotel.notice : '');
 
   const facts = [
-    { label: '宿のタイプ', value: hotel.type },
-    { label: '料金の目安', value: hotel.price },
-    { label: '温泉地', value: onsen ? `${onsen.name}（${pref}）` : pref },
-    { label: '泉質', value: onsen?.spring_type },
-    { label: '源泉', value: hotel.source_type },
-    { label: '特徴', value: (hotel.features?.length ? hotel.features : hotel.tags).join('・') },
-    { label: '向いている旅', value: hotel.scenes?.join('・') },
+    { label: '温泉地', value: onsen ? `${onsen.name}${hotel.near ? 'の周辺' : ''}（${pref}）` : pref },
+    { label: '所在地', value: hotel.address },
+    { label: '温泉地の泉質', value: onsen?.category && !hotel.near ? onsen.spring_type : '' },
     { label: '最寄り駅', value: ac.nearest_station },
   ];
 
   const faqs = [];
-  faqs.push({
-    q: `${hotel.name}の料金の目安は？`,
-    a: `${hotel.price}が目安です。時期・部屋・プランで変わるため、最新の料金は予約サイトで確認してください。`,
-  });
   if (onsen) {
     faqs.push({
       q: `${hotel.name}はどこの温泉地にありますか？`,
-      a: `${pref}の${onsen.name}にあります。${onsen.name}の泉質は${onsen.spring_type}です。`,
+      a: `${place}にあります。` + (hotel.address ? `所在地は${hotel.address}です。` : '') + (onsen.category && !hotel.near ? `${onsen.name}の泉質は${onsen.spring_type}です（宿によって源泉が異なる場合があります）。` : ''),
     });
   }
   if (ac.by_train) {
@@ -334,13 +237,9 @@ function build_hotel_answer(hotel, onsen, prefecture, bookingLinks) {
       a: `${onsen.name}へは、${ac.by_train.replace(/。$/, '')}が目安です。宿までの送迎や詳しい道順は宿にご確認ください。`,
     });
   }
-  if (hotel.meals) {
-    const m = [hotel.meals.dinner && `夕食は${hotel.meals.dinner}`, hotel.meals.breakfast && `朝食は${hotel.meals.breakfast}`].filter(Boolean).join('、');
-    if (m) faqs.push({ q: `${hotel.name}の食事は？`, a: `${m}です。` });
-  }
   faqs.push({
-    q: `${hotel.name}はどこで予約できますか？`,
-    a: `${bookingLinks.map(b => b.name).join('・')}で空室と料金を確認できます。このページの「予約サイトで確認」から各サイトへ移動できます。`,
+    q: `${hotel.name}の料金や空室はどこで確認できますか？`,
+    a: `${bookingLinks.map(b => b.name).join('・')}で最新の料金と空室を確認できます。このページの「予約サイトで確認」から各サイトへ移動できます。`,
   });
   const others = onsen ? getHotelsByOnsen(onsen.id).filter(h => h.id !== hotel.id) : [];
   if (others.length) {

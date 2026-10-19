@@ -228,14 +228,12 @@ function renderHotelCard(hotel) {
     <a href="/hotel/${hotel.id}" class="hotel-card hotel-card-link">
       <div class="hotel-card-image">
         <img src="${hotel.image}" alt="${hotel.name}" loading="lazy">
-        <span class="hotel-type-badge">${hotel.type}</span>
+        ${hotel.type ? `<span class="hotel-type-badge">${hotel.type}</span>` : ''}
       </div>
       <div class="hotel-card-body">
         <h3 class="hotel-card-name">${hotel.name}</h3>
-        <p class="hotel-card-price">
-          <span class="price-label">参考料金：</span>
-          <span class="price-value">${hotel.price}</span>
-        </p>
+        ${hotel.notice ? `<p class="hotel-card-notice">休業中</p>` : ''}
+        ${hotel.price ? `<p class="hotel-card-price"><span class="price-label">参考料金：</span><span class="price-value">${hotel.price}</span></p>` : ''}
         <p class="hotel-card-desc">${hotel.description}</p>
         <div class="hotel-card-tags">
           ${hotel.tags.map(t => `<span class="tag">${t}</span>`).join('')}
