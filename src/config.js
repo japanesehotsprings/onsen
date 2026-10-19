@@ -12,3 +12,6 @@ export const YADO_WEB_FORM = 'https://forms.gle/h5PweVPeUYJi7w6C6';
 export function yado_web_url(campaign) {
   return `https://yado-web.pages.dev/?utm_source=japan-onsen&utm_medium=referral&utm_campaign=${encodeURIComponent(campaign)}`;
 }
+
+// Googleアナリティクス（GA4）の測定ID。空のあいだは計測タグを入れない
+export const GA_ID = 'G-K111343186';

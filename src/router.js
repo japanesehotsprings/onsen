@@ -70,6 +70,16 @@ export function setNotFound(handler) {
 export function navigateTo(path) {
     history.pushState({}, '', BASE + path);
     resolveRoute();
+    track_page_view();
+}
+
+// サイト内で画面を切り替えたときも、GA4にページ閲覧を送る
+function track_page_view() {
+    if (typeof window.gtag !== 'function') return;
+    window.gtag('event', 'page_view', {
+        page_location: window.location.href,
+        page_title: document.title,
+    });
 }
 
 export function initRouter() {

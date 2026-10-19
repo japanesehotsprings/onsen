@@ -149,7 +149,7 @@ export function renderHotelDetail({ params }) {
               </div>
               <div class="booking-links">
                 ${bookingLinks.map(link => `
-                  <a href="${link.url}" target="_blank" rel="noopener noreferrer" class="booking-link-btn" style="--booking-color: ${link.color};">
+                  <a href="${link.url}" target="_blank" rel="noopener noreferrer" class="booking-link-btn" data-site="${link.name}" style="--booking-color: ${link.color};">
                     <div class="booking-link-info">
                       <span class="booking-link-name">${link.name}</span>
                       <span class="booking-link-desc">${link.desc}</span>

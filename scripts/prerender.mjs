@@ -13,11 +13,17 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = resolve(__dirname, '..');
 const dist = resolve(root, 'dist');
 
-const { SITE_URL, SITE_NAME } = await import('../src/config.js');
+const { SITE_URL, SITE_NAME, GA_ID } = await import('../src/config.js');
 const { route_table, renderNotFoundPage } = await import('../src/routes.js');
 const { page_paths } = await import('../src/page_list.js');
 
-const template = readFileSync(resolve(dist, 'index.html'), 'utf-8');
+let template = readFileSync(resolve(dist, 'index.html'), 'utf-8');
+// GA4 の計測タグ（測定IDがあるときだけ）
+if (GA_ID) {
+  template = template.replace('</head>', `<script async src="https://www.googletagmanager.com/gtag/js?id=${GA_ID}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');</script>
+</head>`);
+}
 const today = new Date().toISOString().split('T')[0];
 const pages = page_paths();
 

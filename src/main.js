@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('click', (e) => {
         const a = e.target.closest('a');
         if (!a) return;
+        track_click(a);
         const href = a.getAttribute('href');
         if (href && href.startsWith('/') && !href.startsWith('//') && !a.target) {
             e.preventDefault();
@@ -93,6 +94,28 @@ function setupHeaderSearch() {
         btn.addEventListener('click', doSearch);
         input.addEventListener('keydown', (e) => {
             if (e.key === 'Enter') doSearch();
+        });
+    }
+}
+
+/**
+ * 予約サイト・YADO WEB へのクリックを GA4 のイベントとして送る
+ * - booking_click: 宿ページの予約ボタン（予約サイト名・宿名つき）
+ * - yado_web_click: 宿の方へページ・宿ページの YADO WEB 案内
+ */
+function track_click(a) {
+    if (typeof window.gtag !== 'function') return;
+    if (a.classList.contains('booking-link-btn')) {
+        window.gtag('event', 'booking_click', {
+            booking_site: a.dataset.site || '',
+            hotel_name: document.querySelector('h1')?.textContent.trim() || '',
+            page_path: window.location.pathname,
+        });
+    } else if (a.closest('.inn-cta, .inn-bottom-cta, .inn-note')) {
+        window.gtag('event', 'yado_web_click', {
+            link_text: a.textContent.trim(),
+            link_url: a.href,
+            page_path: window.location.pathname,
         });
     }
 }
