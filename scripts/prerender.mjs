@@ -154,10 +154,13 @@ console.log(`✓ 静的HTMLを書き出しました（${count} ページ）`);
   console.log('✓ 404.html を書き出しました');
 }
 
-// sitemap.xml
+// sitemap.xml（コラムは記事の更新日、それ以外はビルド日を lastmod にする）
+const { articleList: sitemap_articles } = await import('../src/data/articles.js');
+const article_dates = Object.fromEntries(sitemap_articles.map(a => [`/article/${a.id}`, a.updated || a.published]));
+const lastmod_of = p => article_dates[p] || today;
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${indexable.map(p => `  <url><loc>${SITE_URL}${p}</loc><lastmod>${today}</lastmod></url>`).join('\n')}
+${indexable.map(p => `  <url><loc>${SITE_URL}${p}</loc><lastmod>${lastmod_of(p)}</lastmod></url>`).join('\n')}
 </urlset>
 `;
 writeFileSync(resolve(dist, 'sitemap.xml'), sitemap, 'utf-8');
@@ -173,24 +176,29 @@ console.log('✓ robots.txt');
   const { onsenList } = await import('../src/data/onsen.js');
   const { articleList } = await import('../src/data/articles.js');
   const { springTypeList } = await import('../src/data/springTypes.js');
+  const { specialList } = await import('../src/data/specials.js');
   const pref_name = Object.fromEntries(prefectures.map(p => [p.id, p.name]));
   const lines = [
     `# ${SITE_NAME}`,
     '',
-    '> 日本全国47都道府県の温泉地と温泉宿を紹介する温泉専門メディア。温泉地ごとに泉質・効能・日帰り入浴・足湯・アクセス・掲載宿をまとめ、泉質の解説やコラムも掲載しています。',
+    '> 日本全国47都道府県の温泉地と温泉宿を紹介する温泉専門メディア。温泉地ごとに泉質・最寄り駅・行き方・掲載宿をまとめ、泉質の解説・季節や泉質別の特集・コラムも掲載しています。掲載内容は公式情報や一次資料で裏取りしたものです。',
     '',
-    '温泉地・温泉宿・都道府県のページには「要点」（要約と早見表）と「よくある質問」があります。料金・営業時間は変わることがあるため、最新情報は各施設の公式情報で確認してください。',
+    '温泉地・温泉宿・都道府県・特集のページには「要点」（要約と早見表）と「よくある質問」があります。料金・営業時間は変わることがあるため、最新情報は各施設の公式情報で確認してください。',
     '',
     '## 主なページ',
     `- [都道府県から探す](${SITE_URL}/prefectures): 47都道府県別の温泉地一覧`,
     `- [温泉地一覧](${SITE_URL}/onsens): 全国${onsenList.length}か所の温泉地`,
     `- [温泉宿一覧](${SITE_URL}/hotels): 掲載している温泉宿`,
     `- [泉質から探す](${SITE_URL}/spring-types): 泉質ごとの特徴・効能・注意点`,
+    `- [特集](${SITE_URL}/specials): 季節・シーン・泉質別の温泉特集`,
     `- [初めての温泉旅行ガイド](${SITE_URL}/guide): 入り方・マナー・持ち物`,
     `- [旅館・ホテルの方へ](${SITE_URL}/for-inns): 日本温泉が運営する宿専門のホームページ制作「YADO WEB」（初期費用0円・月額10,000円税込）`,
     '',
     '## 泉質',
     ...springTypeList.map(s => `- [${s.name}](${SITE_URL}/spring-type/${s.id}): ${s.description}`),
+    '',
+    '## 特集',
+    ...specialList.map(s => `- [${s.title}](${SITE_URL}/special/${s.id}): ${s.description}`),
     '',
     '## 温泉地',
     ...onsenList.map(o => `- [${o.name}（${pref_name[o.prefecture] || ''}）](${SITE_URL}/onsen/${o.id}): 泉質 ${o.spring_type}。${o.description}`),

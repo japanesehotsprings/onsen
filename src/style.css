@@ -2749,3 +2749,7 @@ ul {
   padding: 0.1rem 0.6rem;
   margin: 0.25rem 0;
 }
+
+/* 温泉地ページの「載っている特集・コラム」 */
+.onsen-related-links { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.5rem; }
+.onsen-related-links a { color: var(--color-primary); text-decoration: underline; text-underline-offset: 3px; line-height: 1.6; }

@@ -2,6 +2,8 @@ import { getArticleById } from '../data/articles.js';
 import { onsenList } from '../data/onsen.js';
 import { updateSEO, absolute_url } from '../seo.js';
 import { faq_section, faq_ld, esc } from '../components/answer.js';
+import { specialList } from '../data/specials.js';
+import { SITE_URL } from '../config.js';
 
 export function renderArticleDetail({ params }) {
     const app = document.getElementById('app');
@@ -22,10 +24,14 @@ export function renderArticleDetail({ params }) {
       ...(article.published ? { 'datePublished': article.published } : {}),
       ...(article.updated || article.published ? { 'dateModified': article.updated || article.published } : {}),
       ...(article.sources?.length ? { 'citation': article.sources.map(src => ({ '@type': 'CreativeWork', 'name': src.name, 'url': src.url })) } : {}),
-      'publisher': { '@type': 'Organization', 'name': '日本温泉' }
+      'mainEntityOfPage': `${SITE_URL}/article/${article.id}`,
+      'author': { '@type': 'Organization', 'name': '日本温泉 編集部', 'url': SITE_URL },
+      'publisher': { '@type': 'Organization', 'name': '日本温泉', 'url': SITE_URL, 'logo': { '@type': 'ImageObject', 'url': absolute_url('/ogp.png') } }
     };
+    // このコラムを関連に挙げている特集
+    const relatedSpecials = specialList.filter(s => s.article_ids?.includes(article.id));
     const faqs = article.faqs || [];
-    updateSEO(article.title, article.description, faqs.length ? [article_ld, faq_ld(faqs)] : article_ld, { image: article.image });
+    updateSEO(article.title, article.description, [article_ld, faq_ld(faqs)].filter(Boolean), { image: article.image });
 
     // 公開日・更新日（YYYY-MM-DD → YYYY年M月D日）
     const fmt_date = d => d ? d.replace(/^(\d{4})-0?(\d{1,2})-0?(\d{1,2})$/, '$1年$2月$3日') : '';
@@ -69,6 +75,13 @@ export function renderArticleDetail({ params }) {
                     <h2 class="article-sources-title">参考資料</h2>
                     <ul>
                         ${article.sources.map(src => `<li><a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.name)}</a></li>`).join('')}
+                    </ul>
+                </section>` : ''}
+                ${relatedSpecials.length ? `
+                <section class="article-sources">
+                    <h2 class="article-sources-title">関連する特集</h2>
+                    <ul>
+                        ${relatedSpecials.map(s => `<li><a href="/special/${s.id}">${esc(s.title)}</a></li>`).join('')}
                     </ul>
                 </section>` : ''}
             </div>

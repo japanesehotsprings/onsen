@@ -2,11 +2,12 @@ import { specialList } from '../data/specials.js';
 import { updateSEO } from '../seo.js';
 
 export function renderSpecialList() {
-    updateSEO('特集・テーマ別温泉', '季節・シーン別の温泉特集。雪見露天・紅葉温泉・一人旅・カップル向けなど目的別に温泉地・温泉宿を紹介。');
+    updateSEO('特集・テーマ別温泉', '季節・シーン・泉質別の温泉特集。雪見露天・紅葉・一人旅・カップル向けのほか、国民保養温泉地・硫黄泉・アルカリ性単純温泉・海辺の温泉など目的別に温泉地を紹介。');
     const app = document.getElementById('app');
 
     const seasonal = specialList.filter(s => s.season);
     const scene = specialList.filter(s => s.scene);
+    const theme = specialList.filter(s => s.theme);
 
     app.innerHTML = `
         <div class="page-header">
@@ -41,6 +42,18 @@ export function renderSpecialList() {
                 </div>
                 <div class="hotel-grid">
                     ${scene.map(s => renderSpecialCard(s)).join('')}
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">泉質・テーマ別特集</h2>
+                    <p class="section-desc">泉質や立地で選ぶ温泉</p>
+                </div>
+                <div class="hotel-grid">
+                    ${theme.map(s => renderSpecialCard(s)).join('')}
                 </div>
             </div>
         </section>

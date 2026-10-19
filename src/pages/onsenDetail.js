@@ -3,7 +3,9 @@ import { getHotelsByOnsen } from '../data/hotels.js';
 import { getPrefectureById } from '../data/prefectures.js';
 import { updateSEO, absolute_url } from '../seo.js';
 import { springTypeList } from '../data/springTypes.js';
-import { summary_box, faq_section, faq_ld, sentence, ACCESS_NOTE } from '../components/answer.js';
+import { summary_box, faq_section, faq_ld, sentence, esc, ACCESS_NOTE } from '../components/answer.js';
+import { specialList } from '../data/specials.js';
+import { articleList } from '../data/articles.js';
 
 export function renderOnsenDetail({ params }) {
   const app = document.getElementById('app');
@@ -40,6 +42,10 @@ export function renderOnsenDetail({ params }) {
     'image': absolute_url(onsen.image),
     'amenityFeature': { '@type': 'LocationFeatureSpecification', 'name': '温泉', 'value': true }
   }, faq_ld(answer.faqs)].filter(Boolean), { image: onsen.image });
+
+  // この温泉地が載っている特集・コラム（内部リンク）
+  const in_specials = specialList.filter(s => s.onsen_ids.includes(onsen.id));
+  const in_articles = articleList.filter(a => a.onsen_ids?.includes(onsen.id));
 
   const hasDayTrip = onsen.day_trip?.available;
   const hasFootbath = onsen.footbath?.available;
@@ -92,6 +98,18 @@ export function renderOnsenDetail({ params }) {
             ` : ''}
 
             ${faq_section(`${onsen.name}のよくある質問`, answer.faqs)}
+
+            ${in_specials.length || in_articles.length ? `
+            <div class="onsen-detail-card">
+              <h2 class="onsen-detail-heading">
+                <span class="onsen-heading-icon">🔖</span>${onsen.name}が載っている特集・コラム
+              </h2>
+              <ul class="onsen-related-links">
+                ${in_specials.map(s => `<li><a href="/special/${s.id}">特集：${esc(s.title)}</a></li>`).join('')}
+                ${in_articles.map(a => `<li><a href="/article/${a.id}">コラム：${esc(a.title)}</a></li>`).join('')}
+              </ul>
+            </div>
+            ` : ''}
           </div>
 
           <div class="onsen-detail-sidebar">
