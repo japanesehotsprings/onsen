@@ -54,7 +54,7 @@ export function renderSpecialDetail({ params }) {
                         <a href="/onsen/${o.id}" class="hotel-card hotel-card-link">
                             <div class="hotel-card-image">
                                 <img src="${o.image}" alt="${o.name}" loading="lazy">
-                                <span class="hotel-type-badge">${o.category}</span>
+                                ${o.category ? `<span class="hotel-type-badge">${o.category}</span>` : ''}
                             </div>
                             <div class="hotel-card-body">
                                 <h3 class="hotel-card-name">${o.name}</h3>

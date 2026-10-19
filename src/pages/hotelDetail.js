@@ -328,10 +328,10 @@ function build_hotel_answer(hotel, onsen, prefecture, bookingLinks) {
       a: `${pref}の${onsen.name}にあります。${onsen.name}の泉質は${onsen.spring_type}です。`,
     });
   }
-  if (ac.by_train || ac.by_car) {
+  if (ac.by_train) {
     faqs.push({
       q: `${hotel.name}への行き方は？`,
-      a: `${onsen.name}へは、` + [ac.by_train && `電車なら${ac.by_train}`, ac.by_car && `車なら${ac.by_car}`].filter(Boolean).join('、') + 'が目安です。宿までの送迎や詳しい道順は宿にご確認ください。',
+      a: `${onsen.name}へは、${ac.by_train.replace(/。$/, '')}が目安です。宿までの送迎や詳しい道順は宿にご確認ください。`,
     });
   }
   if (hotel.meals) {

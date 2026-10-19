@@ -13,11 +13,8 @@ export function renderSpringTypeDetail({ params }) {
     }
 
 
-    const relatedOnsen = onsenList.filter(o =>
-        st.onsen_ids.includes(o.id) ||
-        o.spring_type?.includes(st.name.split('（')[0]) ||
-        o.category?.includes(st.name.split('（')[0])
-    ).slice(0, 6);
+    // 掲載温泉地は springTypes.js の onsen_ids（裏取り済みの泉質から自動割り当て）だけを使う
+    const relatedOnsen = onsenList.filter(o => st.onsen_ids.includes(o.id)).slice(0, 6);
 
     const faqs = build_spring_faqs(st, relatedOnsen);
     updateSEO(`${st.name}とは？効能・特徴・おすすめ温泉地`, st.description, faq_ld(faqs));
@@ -49,7 +46,7 @@ export function renderSpringTypeDetail({ params }) {
                     </div>
                     <div class="onsen-info-meta">
                         <div class="onsen-meta-item">
-                            <span class="onsen-meta-label">主な効能</span>
+                            <span class="onsen-meta-label">泉質別の適応症（浴用）</span>
                             <span class="onsen-meta-value">${st.effects.join(' / ')}</span>
                         </div>
                         <div class="onsen-meta-item">
@@ -77,7 +74,7 @@ export function renderSpringTypeDetail({ params }) {
                         <a href="/onsen/${o.id}" class="hotel-card hotel-card-link">
                             <div class="hotel-card-image">
                                 <img src="${o.image}" alt="${o.name}" loading="lazy">
-                                <span class="hotel-type-badge">${o.category}</span>
+                                ${o.category ? `<span class="hotel-type-badge">${o.category}</span>` : ''}
                             </div>
                             <div class="hotel-card-body">
                                 <h3 class="hotel-card-name">${o.name}</h3>
@@ -103,7 +100,9 @@ export function renderSpringTypeDetail({ params }) {
 function build_spring_faqs(st, relatedOnsen) {
   const faqs = [
     { q: `${st.name}とはどんな温泉ですか？`, a: sentence(st.description) },
-    { q: `${st.name}の効能は？`, a: `一般的な適応症として${st.effects.join('・')}が挙げられます。効き方には個人差があり、持病のある方は医師に相談してください。` },
+    { q: `${st.name}の効能は？`, a: st.effects[0].startsWith('（')
+        ? `環境省の掲示基準では、${st.name}に泉質別の浴用の適応症はありません。${st.effects.slice(1).join('、')}が挙げられています。`
+        : `環境省の掲示基準では、泉質別の浴用の適応症として${st.effects.join('・')}が挙げられています。効き方には個人差があり、持病のある方は医師に相談してください。` },
   ];
   if (st.suitable_for) faqs.push({ q: `${st.name}はどんな人に向いていますか？`, a: sentence(`${st.suitable_for}に向いています`) });
   if (st.caution) faqs.push({ q: `${st.name}に入るときの注意点は？`, a: sentence(st.caution) });

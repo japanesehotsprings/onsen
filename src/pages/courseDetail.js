@@ -71,7 +71,7 @@ export function renderCourseDetail({ params }) {
                 <a href="/onsen/${onsen.id}" class="hotel-card hotel-card-link" style="max-width:400px;display:block">
                     <div class="hotel-card-image">
                         <img src="${onsen.image}" alt="${onsen.name}" loading="lazy">
-                        <span class="hotel-type-badge">${onsen.category}</span>
+                        ${onsen.category ? `<span class="hotel-type-badge">${onsen.category}</span>` : ''}
                     </div>
                     <div class="hotel-card-body">
                         <h3 class="hotel-card-name">${onsen.name}</h3>

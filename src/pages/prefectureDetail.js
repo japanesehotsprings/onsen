@@ -96,7 +96,7 @@ function renderOnsenCard(onsen, hotelCount) {
     <a href="/onsen/${onsen.id}" class="card onsen-card onsen-card-link">
       <div class="card-image">
         <img src="${onsen.image}" alt="${onsen.name}" loading="lazy">
-        <span class="card-badge onsen">${onsen.category}</span>
+        ${onsen.category ? `<span class="card-badge onsen">${onsen.category}</span>` : ''}
         ${hotelCount > 0 ? `<span class="hotel-count-badge">宿 ${hotelCount}件</span>` : ''}
       </div>
       <div class="card-content">
@@ -131,12 +131,15 @@ function setupDetailAnimations() {
 }
 
 // 泉質の傾向を一言で（同数の泉質があるときに「最も多い」と言わない）
-function spring_phrase(springs) {
-  if (springs.length === 1) return `泉質はすべて${springs[0][0]}で、`;
+function spring_phrase(springs, unknown = 0) {
+  if (!springs.length) return '泉質は施設によって異なります。';
+  const prefix = unknown ? '泉質を確認できた温泉地では、' : '';
+  const note = unknown ? `（ほか${unknown}か所は施設により異なる）` : '';
+  if (springs.length === 1) return unknown ? `${prefix}${springs[0][0]}です${note}。` : `泉質はすべて${springs[0][0]}です。`;
   const max = springs[0][1];
   const top = springs.filter(([, v]) => v === max).map(([k]) => k);
-  if (top.length === 1) return `泉質は${top[0]}が最も多く、`;
-  return `泉質は${top.join('・')}がそれぞれ${max}か所で、`;
+  if (top.length === 1) return `${prefix || '泉質は'}${prefix ? top[0] + 'が最も多くなっています' : top[0] + 'が最も多くなっています'}${note}。`;
+  return `${prefix || '泉質は'}${top.join('・')}がそれぞれ${max}か所です${note}。`;
 }
 
 // 名前の列挙（多いときは先頭だけ＋「など」）
@@ -153,43 +156,27 @@ function build_prefecture_answer(prefecture, onsenItems) {
 
   // 泉質の内訳（多い順）
   const counts = {};
-  onsenItems.forEach(o => { counts[o.category] = (counts[o.category] || 0) + 1; });
+  onsenItems.filter(o => o.category).forEach(o => { counts[o.category] = (counts[o.category] || 0) + 1; });
   const springs = Object.entries(counts).sort((a, b) => b[1] - a[1]);
   const spring_text = springs.map(([k, v]) => `${k}${v}か所`).join('・');
 
-  const day_trip = onsenItems.filter(o => o.day_trip?.available);
-  const footbath = onsenItems.filter(o => o.footbath?.available);
   const hotel_count = onsenItems.reduce((n, o) => n + getHotelsByOnsen(o.id).length, 0);
 
   const lead = `${pref}で日本温泉が紹介している温泉地は${onsenItems.length}か所です（${list_names(onsenItems)}）。`
-    + spring_phrase(springs) + (day_trip.length ? `日帰り入浴できる温泉地が${day_trip.length}か所あります。` : '');
+    + spring_phrase(springs, onsenItems.filter(o => !o.category).length);
 
   const facts = [
     { label: '掲載温泉地', value: `${onsenItems.length}か所` },
     { label: '主な温泉地', value: list_names(onsenItems) },
     { label: '泉質の内訳', value: spring_text },
-    { label: '日帰り入浴', value: day_trip.length ? `${day_trip.length}か所（${list_names(day_trip, 4)}）` : '' },
-    { label: '足湯', value: footbath.length ? `${footbath.length}か所（${list_names(footbath, 4)}）` : '' },
     { label: '掲載宿', value: hotel_count ? `${hotel_count}軒` : '' },
   ];
 
   const faqs = [];
   faqs.push({
     q: `${pref}にはどんな温泉地がありますか？`,
-    a: `日本温泉では${pref}の温泉地を${onsenItems.length}か所紹介しています。` + onsenItems.slice(0, 4).map(o => `${o.name}（${o.category}）は${o.description}`).join(' ') ,
+    a: `日本温泉では${pref}の温泉地を${onsenItems.length}か所紹介しています。` + onsenItems.slice(0, 4).map(o => `${o.name}${o.category ? `（${o.category}）` : ''}は、${o.description}`).join(' ') ,
   });
-  faqs.push({ q: `${pref}の温泉はどんな泉質が多いですか？`, a: `掲載している温泉地では、${spring_text}です。` });
-  if (day_trip.length) {
-    faqs.push({
-      q: `${pref}で日帰り入浴できる温泉は？`,
-      a: day_trip.slice(0, 6).map(o => `${o.name}${o.day_trip.price ? `（${o.day_trip.price}）` : ''}`).join('、') + `${day_trip.length > 6 ? ' など' : ''}で日帰り入浴ができます。料金は施設によって異なります。`,
-    });
-  }
-  if (footbath.length) {
-    faqs.push({
-      q: `${pref}で足湯がある温泉地は？`,
-      a: footbath.slice(0, 6).map(o => `${o.name}${o.footbath.location ? `（${o.footbath.location}）` : ''}`).join('、') + `${footbath.length > 6 ? ' など' : ''}に足湯があります。`,
-    });
-  }
+  if (springs.length) faqs.push({ q: `${pref}の温泉はどんな泉質が多いですか？`, a: `掲載している温泉地では、${spring_text}です（泉質が施設ごとに異なる温泉地を除く）。` });
   return { lead, facts, faqs };
 }

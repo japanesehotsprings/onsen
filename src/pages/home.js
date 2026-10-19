@@ -114,7 +114,7 @@ export function renderHome() {
             <a href="/onsen/${onsen.id}" class="card onsen-card-link">
               <div class="card-image">
                 <img src="${onsen.image}" alt="${onsen.name}" loading="lazy">
-                <span class="card-badge onsen">${onsen.category}</span>
+                ${onsen.category ? `<span class="card-badge onsen">${onsen.category}</span>` : ''}
               </div>
               <div class="card-content">
                 <div class="card-meta">

@@ -31,7 +31,7 @@ export const articleList = [
                 <li><strong>歴史・文化体験を重視するなら</strong>：有馬（金泉・銀泉・太閤ゆかりの地）</li>
                 <li><strong>美肌・ゆったり湯治なら</strong>：下呂（アルカリ性単純泉）</li>
             </ul>
-            <img src="./onsen/sanmeisen.png" alt="日本三名泉">
+            <img src="./articles/japan3.png" alt="日本三名泉">
         `
     },
     {
@@ -68,7 +68,7 @@ export const articleList = [
 
             <h3>かけ流しでも加水・加温が必要な場合がある</h3>
             <p>源泉温度が90℃を超える高温泉や、逆に30℃以下の低温泉では、入浴できる温度に調整するため加水・加温が必要になることがある。この場合も「最低限の加水のみ」で循環・消毒を行わないなら、かけ流しと呼べる場合が多い。大切なのは、循環とろ過・塩素消毒の有無だ。</p>
-            <img src="./onsen/kakenagashi.png" alt="かけ流し">
+            <img src="./articles/gensenkakenagashi.png" alt="かけ流し">
         `
     },
     {
@@ -418,7 +418,7 @@ export const articleList = [
         categoryLabel: '旅行ガイド',
         published: '2026-04-24',
         description: '温泉の入り方・マナー・持ち物・泉質の選び方を徹底解説。初めての温泉旅行をスムーズに楽しむための完全ガイド。',
-        image: './onsen/sanmeisen.png',
+        image: './articles/japan3.png',
         onsen_ids: [],
         body: `
             <p>「温泉に行ってみたいけれど、何を持っていけばいい？」「入り方にマナーはある？」——そんな疑問を持つ温泉初心者のために、基本から丁寧に解説する。この記事を読めば、初めての温泉旅行も自信を持って楽しめるはずだ。</p>

@@ -1,0 +1,990 @@
+{
+ "o-hokkaido-1": {
+  "spring_type": "硫黄泉・塩化物泉・含鉄泉など9種類",
+  "category": "硫黄泉",
+  "nearest_station": "登別駅（JR室蘭本線）",
+  "by_train": "登別駅からバスで約15分",
+  "src": "visit-hokkaido.jp detail_10614 / nippon.com"
+ },
+ "o-hokkaido-2": {
+  "spring_type": "ナトリウム・カルシウム-塩化物泉など",
+  "category": "塩化物泉",
+  "by_train": "洞爺駅からバスで約20分",
+  "src": "rurubu / onsen.nifty"
+ },
+ "o-hokkaido-3": {
+  "spring_type": "ナトリウム-塩化物泉",
+  "category": "塩化物泉",
+  "nearest_station": "札幌駅（JR）",
+  "by_train": "札幌駅から直行バスで約1時間〜1時間40分（便により異なる）",
+  "src": "nta.co.jp / airtrip"
+ },
+ "o-hokkaido-4": {
+  "spring_type": "単純温泉・硫黄泉など",
+  "category": "単純泉",
+  "nearest_station": "釧路駅（JR根室本線）",
+  "by_train": "釧路駅からバスで約2時間",
+  "src": "jtb.co.jp akanko_onsen / jorudan"
+ },
+ "o-hokkaido-5": {
+  "spring_type": "単純温泉・硫黄泉など",
+  "category": "単純泉",
+  "by_train": "上川駅からバスで約30〜35分",
+  "src": "visit-hokkaido detail_10611 / jtb"
+ },
+ "o-hokkaido-6": {
+  "spring_type": "ナトリウム-塩化物・炭酸水素塩泉（モール温泉）",
+  "category": "重曹泉",
+  "nearest_station": "帯広駅（JR根室本線）",
+  "by_train": "帯広駅からバスで約30分",
+  "src": "nta.co.jp tokachigawa / onsen.nifty"
+ },
+ "o-hokkaido-7": {
+  "spring_type": "炭酸水素塩泉・塩化物泉など（宿により異なる）",
+  "by_train": "千歳駅からバスで約40〜50分",
+  "src": "visit-hokkaido detail_10607 / onsen.nifty"
+ },
+ "o-hokkaido-8": {
+  "spring_type": "酸性・含硫黄・鉄(II)-ナトリウム-硫酸塩・塩化物泉など",
+  "category": "酸性泉",
+  "by_train": "川湯温泉駅からバスで約10分",
+  "src": "jorudan 615 / rurubu"
+ },
+ "o-hokkaido-9": {
+  "spring_type": "硫黄泉・塩化物泉・炭酸水素塩泉など（源泉により異なる）",
+  "nearest_station": "ニセコ駅・倶知安駅（JR函館本線）",
+  "by_train": "ニセコ駅または倶知安駅からバス・タクシー（行き先の温泉により異なる）",
+  "src": "visit-hokkaido detail_10606 / onsen.nifty"
+ },
+ "o-aomori-1": {
+  "spring_type": "酸性・含鉄・硫黄-アルミニウム-硫酸塩・塩化物泉",
+  "category": "酸性泉",
+  "nearest_station": "青森駅（JR）",
+  "by_train": "青森駅からJRバスで約1時間〜1時間20分",
+  "src": "rurubu 70001061 / onsen.nifty / travelist"
+ },
+ "o-aomori-2": {
+  "spring_type": "ナトリウム・カルシウム-硫酸塩・塩化物泉など",
+  "nearest_station": "浅虫温泉駅（青い森鉄道）",
+  "by_train": "浅虫温泉駅から徒歩約3分〜",
+  "src": "rurubu 70001075 / jtb / onsen.nifty",
+  "description": "陸奥湾を望む温泉地。新鮮な海の幸と温泉を一緒に楽しめる「青森の奥座敷」。"
+ },
+ "o-aomori-4": {
+  "spring_type": "含鉄-ナトリウム・マグネシウム-塩化物強塩泉",
+  "nearest_station": "ウェスパ椿山駅（JR五能線）",
+  "by_train": "ウェスパ椿山駅から送迎バスで約5分（艫作駅からは徒歩約20分）",
+  "src": "rurubu 70001083 / yuru-to"
+ },
+ "o-aomori-5": {
+  "spring_type": "硫黄泉（酸性）",
+  "category": "硫黄泉",
+  "by_train": "弘前駅からバスで約50〜55分",
+  "src": "rurubu 70001082 / tohokukanko"
+ },
+ "o-aomori-3": {
+  "spring_type": null,
+  "by_train": "大鰐温泉駅（JR奥羽本線）から徒歩圏内",
+  "src": "onsen.nifty（施設と駅の距離）。泉質は一次情報で確認できず"
+ },
+ "o-iwate-1": {
+  "spring_type": "単純温泉など（温泉地により異なる）",
+  "category": "単純泉",
+  "nearest_station": "花巻駅（JR東北本線）",
+  "by_train": "花巻駅からバスで約20〜30分（花巻温泉）",
+  "description": "宮沢賢治ゆかりの花巻の温泉郷。花巻温泉・大沢温泉・鉛温泉など、趣の異なる温泉地が北上川の支流沿いに点在する。",
+  "src": "rurubu 70001120 / jorudan 1360"
+ },
+ "o-iwate-2": {
+  "spring_type": "単純硫黄泉など（宿により異なる）",
+  "category": "硫黄泉",
+  "nearest_station": "盛岡駅（JR）",
+  "by_train": "盛岡駅からバスで約1時間50分",
+  "description": "岩手山の西側、八幡平の山中に湧く硫黄泉の秘湯。白濁した湯と山の静けさが魅力。",
+  "src": "onsen.nifty / rakuten"
+ },
+ "o-iwate-3": {
+  "spring_type": "単純硫黄泉・アルカリ性単純温泉",
+  "category": "硫黄泉",
+  "by_train": "盛岡駅からバスで約30〜35分",
+  "src": "jtb tsunagi_onsen / rurubu 70001107"
+ },
+ "o-iwate-4": {
+  "spring_type": "ナトリウム・カルシウム-塩化物泉など（源泉により異なる）",
+  "category": "塩化物泉",
+  "nearest_station": "北上駅（JR東北新幹線・東北本線）",
+  "by_train": "北上駅からバスで約1時間（冬季は休業・運休）",
+  "src": "jorudan 1380 / jreast the-onsen geto"
+ },
+ "o-iwate-5": {
+  "spring_type": "単純硫黄泉・硫黄泉など",
+  "by_train": "盛岡駅からバスで約80〜90分",
+  "src": "jtb hachimantai_onsen / rurubu 70001104"
+ },
+ "o-miyagi-1": {
+  "spring_type": "硫黄泉・炭酸水素塩泉など多様（旧分類で9種類）",
+  "nearest_station": "鳴子温泉駅（JR陸羽東線）",
+  "by_train": "古川駅からJR陸羽東線で約45分",
+  "description": "多彩な泉質が集まる「温泉の宝庫」。旧分類では9種類の泉質が湧くとされる。こけしの産地としても知られる。",
+  "src": "jreast otona naruko / rurubu 24681 / jtb"
+ },
+ "o-miyagi-2": {
+  "spring_type": "ナトリウム・カルシウム-硫酸塩・塩化物泉など",
+  "category": "塩化物泉",
+  "by_train": "仙台駅からJR仙山線で約40分の作並駅から、バスまたは宿の送迎。仙台駅からの直通バスもある",
+  "src": "jtb sakunami_onsen / jorudan 1263"
+ },
+ "o-miyagi-3": {
+  "spring_type": "ナトリウム・カルシウム-塩化物泉など（施設により異なる）",
+  "nearest_station": "仙台駅（JR）",
+  "by_train": "仙台駅からバスで約40〜60分",
+  "src": "jtb akiu_onsen / rurubu 70001175"
+ },
+ "o-miyagi-4": {
+  "spring_type": "単純温泉・ナトリウム-塩化物泉など（源泉により異なる）",
+  "nearest_station": "松島海岸駅（JR仙石線）・松島駅（JR東北本線）",
+  "by_train": "宿により松島海岸駅から徒歩すぐ〜、松島駅から徒歩約15分など",
+  "description": "日本三景・松島エリアの温泉。松島湾の島々の景色と海の幸が魅力。",
+  "src": "jtb matsushima_onsen / wikid / jalan"
+ },
+ "o-miyagi-5": {
+  "spring_type": "塩化物泉・硫酸塩泉など（施設により異なる）",
+  "by_train": "白石蔵王駅からバスで約45〜50分",
+  "src": "rurubu 70001178 / jalan"
+ },
+ "o-akita-1": {
+  "spring_type": "硫黄泉・炭酸水素塩泉など（宿により異なる）",
+  "by_train": "田沢湖駅からバスで約40〜50分",
+  "description": "田沢湖の西、ブナの森に一軒宿が点在する秘湯の温泉郷。宿ごとに泉質が異なり、湯めぐりが楽しめる。",
+  "src": "jtb nyutou_onsen / rurubu 70001250"
+ },
+ "o-akita-2": {
+  "spring_type": "酸性泉（強酸性）",
+  "by_train": "田沢湖駅からバスで約65〜80分（冬期は経路・運行が変わる）",
+  "description": "強い酸性の湯で知られる温泉。湯治文化が今も息づき、長期滞在の湯治客が多い。",
+  "src": "onsen.nifty tamagawa / jorudan 655"
+ },
+ "o-akita-3": {
+  "spring_type": "ナトリウム-塩化物泉",
+  "by_train": "男鹿駅からバスで約45〜50分",
+  "src": "jtb oga_onsen / rurubu 70001151"
+ },
+ "o-akita-4": {
+  "spring_type": "塩化物泉など（源泉により異なる）",
+  "category": "塩化物泉",
+  "nearest_station": "十和田南駅（JR花輪線）",
+  "by_train": "十和田南駅からバスで約20分",
+  "src": "rurubu 70001093 / jtb ooyu_onsen_akita"
+ },
+ "o-akita-5": {
+  "spring_type": "硫黄泉・硫酸塩泉・単純温泉など（施設により異なる）",
+  "category": "硫黄泉",
+  "by_train": "田沢湖駅からバスで約30〜40分",
+  "src": "tohokukanko detail_1007145 / rurubu 70001143"
+ },
+ "o-yamagata-1": {
+  "spring_type": "含硫黄-ナトリウム-塩化物・硫酸塩泉",
+  "by_train": "大石田駅からバスで約40〜45分",
+  "description": "銀山川沿いに木造多層の旅館が立ち並ぶ温泉街。ガス灯がともる夜の景色で知られる。",
+  "src": "knt S060014 / jorudan 2131"
+ },
+ "o-yamagata-2": {
+  "spring_type": "酸性・含硫黄-アルミニウム-硫酸塩・塩化物泉など（強酸性）",
+  "category": "酸性泉",
+  "by_train": "山形駅からバスで約40分",
+  "src": "convention.or.jp umaibe / jalan / yuru-to"
+ },
+ "o-yamagata-3": {
+  "spring_type": "ナトリウム・カルシウム-塩化物・硫酸塩泉",
+  "by_train": "かみのやま温泉駅から徒歩約15〜30分（宿により異なる）",
+  "src": "jtb kaminoyama_onsen / rurubu 70001182"
+ },
+ "o-yamagata-4": {
+  "spring_type": "ナトリウム・カルシウム-硫酸塩泉など",
+  "category": "硫酸塩泉",
+  "by_train": "天童駅から徒歩約15〜20分",
+  "src": "rurubu 70001183 / jtb tendo_onsen"
+ },
+ "o-yamagata-5": {
+  "spring_type": "含硫黄-ナトリウム・カルシウム-塩化物泉",
+  "category": "塩化物泉",
+  "by_train": "赤湯駅から車で約5〜10分",
+  "description": "南陽市の古湯。ぶどう畑やワイナリーが近く、落ち着いた温泉街が広がる。",
+  "src": "jtb akayu_onsen / rurubu 70001280"
+ },
+ "o-yamagata-6": {
+  "spring_type": "ナトリウム・カルシウム-塩化物・硫酸塩泉など",
+  "nearest_station": "あつみ温泉駅（JR羽越本線）",
+  "by_train": "あつみ温泉駅からバスで約5分",
+  "src": "鶴岡市 あつみ温泉パンフ / yuru-to"
+ },
+ "o-fukushima-1": {
+  "spring_type": "ナトリウム・カルシウム-硫酸塩・塩化物泉",
+  "category": "硫酸塩泉",
+  "by_train": "会津若松駅からバスで約15〜20分",
+  "src": "onsen.nifty higashiyama / knt"
+ },
+ "o-fukushima-2": {
+  "spring_type": "アルカリ性単純温泉",
+  "category": "単純泉",
+  "by_train": "磐梯熱海駅から徒歩約3〜5分",
+  "description": "郡山の奥座敷と呼ばれる温泉地。pHの高いアルカリ性単純温泉で、肌あたりのやわらかい湯が特徴。",
+  "src": "onsen.nifty banndaiatami / tohokukanko 1005567"
+ },
+ "o-fukushima-3": {
+  "spring_type": "単純温泉（アルカリ性単純温泉の源泉もある）",
+  "nearest_station": "飯坂温泉駅（福島交通飯坂線）",
+  "by_train": "福島駅から福島交通飯坂線で約21〜25分",
+  "description": "福島市の奥座敷。共同浴場めぐりが楽しめる歴史ある温泉街で、松尾芭蕉も訪れたとされる。",
+  "src": "rurubu 70001203 / media.jreast 2965"
+ },
+ "o-fukushima-4": {
+  "spring_type": "単純温泉・炭酸水素塩泉など（源泉により異なる）",
+  "category": "単純泉",
+  "by_train": "福島駅からバスで約40分",
+  "src": "onsen.nifty tsuchiyu / jorudan 1407"
+ },
+ "o-fukushima-5": {
+  "spring_type": "ナトリウム・カルシウム-硫酸塩・塩化物泉など",
+  "category": "硫酸塩泉",
+  "nearest_station": "芦ノ牧温泉駅（会津鉄道）",
+  "by_train": "芦ノ牧温泉駅からタクシーで約5〜7分（宿の送迎がある場合も）",
+  "src": "skyticket / onsen.nifty ashinomaki"
+ },
+ "o-fukushima-6": {
+  "spring_type": "酸性・含硫黄-アルミニウム・カルシウム-硫酸塩泉など（硫黄泉）",
+  "by_train": "福島駅からバスで約30〜40分",
+  "description": "吾妻連峰の山中に湧く白濁の硫黄泉。濃い硫黄泉を源泉かけ流しで楽しめる宿が多い。",
+  "src": "jorudan 684 / media.jreast 2965 / 環境省 hoyo_017"
+ },
+ "o-ibaraki-1": {
+  "spring_type": "アルカリ性単純温泉など",
+  "category": "単純泉",
+  "by_train": "袋田駅からバスで約5〜8分",
+  "src": "jtb ibaraki / onsen.nifty fukuroda"
+ },
+ "o-ibaraki-2": {
+  "spring_type": "ナトリウム・カルシウム-塩化物泉",
+  "by_train": "大津港駅からタクシー・送迎で約5分",
+  "src": "rurubu 70001421 / knt S080002"
+ },
+ "o-ibaraki-3": {
+  "spring_type": "アルカリ性単純温泉など（施設により異なる）",
+  "category": "単純泉",
+  "by_train": "常陸大子駅から徒歩すぐ〜車で約10分（施設により異なる）",
+  "src": "rurubu 70001497 / onsen.nifty daigo"
+ },
+ "o-ibaraki-4": {
+  "spring_type": "アルカリ性単純温泉など",
+  "by_train": "つくば駅から筑波山シャトルバスで約40分",
+  "src": "jtb tsukubasan_onsen / asoview"
+ },
+ "o-tochigi-1": {
+  "spring_type": "単純酸性硫黄泉・単純温泉など（温泉地により異なる）",
+  "by_train": "那須塩原駅からバスで約45分〜1時間15分（行き先により異なる）",
+  "src": "rurubu 70001407 / jalan yad339815"
+ },
+ "o-tochigi-2": {
+  "spring_type": "含硫黄-カルシウム・ナトリウム-硫酸塩・炭酸水素塩泉（硫化水素型）",
+  "nearest_station": "東武日光駅・JR日光駅",
+  "by_train": "東武日光駅からバスで約70〜80分",
+  "src": "jorudan 2600 / 環境省 hoyo_019 / jtb nikkoyumoto_onsen"
+ },
+ "o-tochigi-3": {
+  "spring_type": "アルカリ性単純温泉",
+  "by_train": "浅草駅から東武特急で約2時間",
+  "src": "nta.co.jp kinugawa / rurubu 24504"
+ },
+ "o-tochigi-4": {
+  "spring_type": "塩化物泉・炭酸水素塩泉・硫黄泉など（温泉地により異なる）",
+  "nearest_station": "那須塩原駅（JR東北新幹線）",
+  "by_train": "那須塩原駅からJRバスで約1時間（塩原温泉バスターミナル）",
+  "description": "箒川沿いに泉質の異なる温泉地が点在する温泉郷。「塩原十一湯」と呼ばれ、渓谷美と紅葉の散策が楽しめる。",
+  "src": "nippon.com gu005008 / rurubu 70001465 70001460"
+ },
+ "o-tochigi-5": {
+  "spring_type": "アルカリ性単純温泉",
+  "nearest_station": "湯西川温泉駅（野岩鉄道会津鬼怒川線）",
+  "by_train": "湯西川温泉駅からバスで約20〜25分",
+  "src": "gltjp 15797 / knt S090052"
+ },
+ "o-gunma-1": {
+  "spring_type": "酸性・含硫黄-アルミニウム-硫酸塩・塩化物泉など（強酸性）",
+  "category": "酸性泉",
+  "by_train": "長野原草津口駅からバスで約25分",
+  "src": "群馬県資料 40545.pdf / nippon.com gu005002"
+ },
+ "o-gunma-2": {
+  "spring_type": "硫酸塩泉（黄金の湯）など。無色透明の「白銀の湯」もある",
+  "by_train": "渋川駅からバスで約20〜25分",
+  "src": "nta.co.jp ikaho / knt S100111"
+ },
+ "o-gunma-3": {
+  "spring_type": "酸性・含硫黄-マグネシウム・ナトリウム-硫酸塩泉、単純硫黄泉など",
+  "nearest_station": "万座・鹿沢口駅（JR吾妻線）",
+  "by_train": "万座・鹿沢口駅からバスで約40分",
+  "src": "jtb manza_onsen / rurubu 70001386"
+ },
+ "o-gunma-4": {
+  "spring_type": "ナトリウム・カルシウム-塩化物・硫酸塩泉",
+  "by_train": "中之条駅からバスで約40分",
+  "src": "rurubu 24906 / jorudan 611"
+ },
+ "o-gunma-5": {
+  "spring_type": null,
+  "nearest_station": "水上駅（JR上越線）",
+  "by_train": null,
+  "src": "泉質・所要時間は一次情報で確認できず"
+ },
+ "o-gunma-6": {
+  "spring_type": "アルカリ性単純温泉・単純硫黄泉など",
+  "by_train": "沼田駅からバスで約45〜50分",
+  "src": "rurubu 70001400 / jalan yad324185"
+ },
+ "o-saitama-1": {
+  "spring_type": null,
+  "by_train": null,
+  "flag": "温泉地としての実体を確認できず",
+  "src": "検索で該当する温泉地なし",
+  "description": "埼玉県寄居町、荒川沿いの温泉地。"
+ },
+ "o-saitama-2": {
+  "spring_type": "塩化物冷鉱泉・アルカリ性単純温泉など（施設により異なる）",
+  "nearest_station": "西武秩父駅（西武秩父線）",
+  "by_train": "西武秩父駅に駅前温泉（祭の湯）が隣接",
+  "src": "walkerplus 祭の湯 / jalan OSN_50913"
+ },
+ "o-saitama-3": {
+  "spring_type": null,
+  "by_train": "長瀞駅から徒歩約3分の宿もある",
+  "flag": "温泉地としての泉質を確認できず",
+  "src": "knt S110016"
+ },
+ "o-chiba-1": {
+  "spring_type": "ナトリウム-塩化物強塩泉など（施設により異なる）",
+  "by_train": "犬吠駅から徒歩約7分（宿により異なる）",
+  "description": "犬吠埼灯台の近く、太平洋に面した温泉。山頂と離島を除くと日本でいちばん早く初日の出が見られる場所として知られる。",
+  "src": "rurubu 70001427 / jorudan 1917"
+ },
+ "o-chiba-2": {
+  "spring_type": "ナトリウム-塩化物泉・炭酸水素塩泉など（宿により異なる）",
+  "by_train": "安房鴨川駅から徒歩約15分〜（宿により異なる）",
+  "src": "rurubu 70001442 / tabiiro"
+ },
+ "o-chiba-3": {
+  "spring_type": "炭酸水素塩泉・塩化物泉など（施設により異なる）",
+  "category": "重曹泉",
+  "by_train": "勝浦駅から徒歩約5分〜（施設により異なる）",
+  "src": "rurubu 70002616 / jalan yad326499"
+ },
+ "o-chiba-4": {
+  "spring_type": "ナトリウム-塩化物泉など（施設により異なる）",
+  "by_train": null,
+  "src": "館山温泉組合パンフ（tateyamacity.com）/ onsen.nifty"
+ },
+ "o-tokyo-1": {
+  "spring_type": "メタほう酸・ふっ素を含む温泉（もえぎの湯）",
+  "category": "その他",
+  "by_train": "奥多摩駅から徒歩約10分（もえぎの湯）",
+  "description": "東京都奥多摩町の温泉。多摩川上流の渓谷に近く、奥多摩駅から歩いて行ける日帰り温泉がある。",
+  "src": "gltjp 14132 / jorudan 1531"
+ },
+ "o-tokyo-2": {
+  "spring_type": "ナトリウム・カルシウム-塩化物泉など",
+  "nearest_station": "元町港（東海汽船）",
+  "by_train": "元町港から徒歩圏内に日帰り温泉（浜の湯・御神火温泉）がある",
+  "src": "rurubu 80012741 / tabi-mag tk0182"
+ },
+ "o-tokyo-3": {
+  "spring_type": "ナトリウム-塩化物強塩泉など（施設により異なる）",
+  "by_train": null,
+  "src": "tabi-mag tk1522 tk1523"
+ },
+ "o-kanagawa-1": {
+  "spring_type": "アルカリ性単純温泉・ナトリウム-塩化物泉など（約20種類）",
+  "category": "単純泉",
+  "by_train": "新宿駅から小田急ロマンスカーで約85〜90分（箱根湯本駅）",
+  "description": "富士山を望む日本有数の温泉リゾート。多くの温泉地からなり、泉質も多彩。芦ノ湖や大涌谷の観光と合わせて楽しめる。",
+  "src": "rurubu 70001292 / nta hakone / hakonenavi"
+ },
+ "o-kanagawa-2": {
+  "spring_type": "ナトリウム・カルシウム-塩化物・硫酸塩泉（弱アルカリ性）",
+  "by_train": "湯河原駅からバスで約10分",
+  "src": "rurubu 70001306 / nta yugawara"
+ },
+ "o-kanagawa-3": {
+  "spring_type": "酸性硫酸塩泉・ナトリウム-塩化物泉・カルシウム硫酸塩泉・単純温泉（宿により異なる）",
+  "by_train": "箱根湯本駅から箱根登山電車で約45分（強羅駅）",
+  "src": "jtb goura_onsen / rurubu 70001298"
+ },
+ "o-kanagawa-4": {
+  "spring_type": "カルシウム・ナトリウム-塩化物泉（弱アルカリ性）",
+  "category": "塩化物泉",
+  "by_train": "鶴巻温泉駅から徒歩約2分（弘法の里湯）",
+  "description": "小田急線の駅から歩いて行ける温泉地。日帰り温泉「弘法の里湯」があり、都心からの日帰り利用にも便利。",
+  "src": "jorudan 2620 / 秦野市観光パンフ"
+ },
+ "o-niigata-1": {
+  "spring_type": "単純温泉・ナトリウム・カルシウム-塩化物泉など（施設により異なる）",
+  "category": "単純泉",
+  "by_train": "越後湯沢駅から徒歩圏内（施設により異なる）",
+  "src": "rurubu 70001667 / jalan OSN_50217"
+ },
+ "o-niigata-2": {
+  "spring_type": "含硫黄-ナトリウム-塩化物泉",
+  "nearest_station": "豊栄駅（JR白新線）",
+  "by_train": "豊栄駅からシャトルバスで約20分",
+  "src": "rurubu 70001653 / niigata-kankou 41807"
+ },
+ "o-niigata-3": {
+  "spring_type": "ナトリウム-塩化物泉",
+  "by_train": "村上駅からバスで約10分",
+  "src": "niigata-kankou 30977 / jtb senami_onsen"
+ },
+ "o-niigata-4": {
+  "spring_type": "含硫黄-ナトリウム・カルシウム-塩化物泉など",
+  "category": "硫黄泉",
+  "by_train": "岩室駅からバスで約10分",
+  "src": "rurubu 70001661 / onsen.nifty iwamuro"
+ },
+ "o-niigata-5": {
+  "spring_type": "硫黄泉・単純温泉・炭酸水素塩泉など（温泉地により異なる）",
+  "nearest_station": "妙高高原駅",
+  "by_train": "妙高高原駅からバスで約15〜20分（赤倉温泉など）",
+  "src": "onsen.nifty myoukou / jtb akakura_onsen / niigata-kankou blog 687"
+ },
+ "o-toyama-1": {
+  "spring_type": "弱アルカリ性単純温泉",
+  "by_train": "電鉄富山駅から富山地方鉄道で約70分〜（宇奈月温泉駅）",
+  "src": "jtb unazuki_onsen / 富山県 温泉資料",
+  "description": "黒部峡谷の入口に広がる温泉地。トロッコ電車で渓谷の景色を楽しめる。"
+ },
+ "o-toyama-2": {
+  "spring_type": "炭酸水素塩泉など",
+  "category": "重曹泉",
+  "by_train": "砺波駅からバスで約30分",
+  "src": "jorudan 1739"
+ },
+ "o-toyama-3": {
+  "spring_type": "ナトリウム-塩化物泉",
+  "by_train": "氷見駅からバスで約15〜20分（温泉により異なる）",
+  "src": "rurubu 70000482 / asoview 5796"
+ },
+ "o-ishikawa-1": {
+  "spring_type": "ナトリウム・カルシウム-硫酸塩・塩化物泉など",
+  "by_train": "加賀温泉駅からバスで約11〜15分",
+  "src": "rurubu 70001697 / jorudan 1261"
+ },
+ "o-ishikawa-2": {
+  "spring_type": "ナトリウム・カルシウム-塩化物泉",
+  "by_train": "金沢駅から特急で約1時間〜1時間20分（和倉温泉駅）",
+  "description": "能登半島の七尾湾に面した海の温泉。海から湧く温泉として知られ、湾沿いに旅館が立ち並ぶ。",
+  "src": "jtb wakura_onsen / rurubu 70001709"
+ },
+ "o-ishikawa-3": {
+  "spring_type": "カルシウム・ナトリウム-硫酸塩泉",
+  "by_train": "加賀温泉駅からバスで約25〜30分",
+  "src": "nta kaga / jorudan 1481"
+ },
+ "o-ishikawa-4": {
+  "spring_type": "ナトリウム・カルシウム-塩化物泉",
+  "by_train": "加賀温泉駅からバスで約10〜30分（路線により異なる）",
+  "src": "jtb katayamazu_onsen / jorudan 2268"
+ },
+ "o-fukui-1": {
+  "spring_type": "ナトリウム・カルシウム-塩化物泉など（旅館ごとに源泉が異なる）",
+  "by_train": "芦原温泉駅からバスで約13〜19分",
+  "description": "明治16年（1883年）、灌漑用の井戸を掘った際に湧いたのが始まりとされる温泉地。旅館ごとに自家源泉を持ち、北陸を代表する温泉街として知られる。",
+  "src": "rurubu 70001713 / 福井県 幕末明治秘話55"
+ },
+ "o-fukui-2": {
+  "spring_type": null,
+  "nearest_station": "武生駅（ハピラインふくい）",
+  "by_train": "武生駅からバスで約1時間（道の駅越前）",
+  "description": "越前海岸沿いの温泉。日本海に面した露天風呂があり、冬は越前がにの季節として人気が高い。",
+  "src": "tabi-mag hu0031。泉質は施設により異なり一次情報で確認できず"
+ },
+ "o-fukui-3": {
+  "spring_type": null,
+  "by_train": "三国港駅から徒歩約5分（施設により異なる）",
+  "src": "allabout 103680 / knt S180015。泉質名は確認できず"
+ },
+ "o-yamanashi-1": {
+  "spring_type": "アルカリ性単純温泉",
+  "by_train": "石和温泉駅の周辺に宿が集まる",
+  "description": "昭和36年（1961年）、ぶどう畑から高温の湯が湧いて誕生した温泉地。甲府盆地のワイナリーや果樹園の観光と合わせて楽しめる。",
+  "src": "山梨県企業局 県営温泉事業 / rurubu 70001339"
+ },
+ "o-yamanashi-2": {
+  "spring_type": "単純温泉（高アルカリの源泉もある）",
+  "nearest_station": "下部温泉駅（JR身延線）",
+  "by_train": "下部温泉駅から徒歩約5〜20分（宿により異なる）",
+  "description": "武田信玄の隠し湯と伝わる温泉地。ぬるめの源泉と沸かし湯の2つの浴槽を備える宿が多く、静かに湯治気分で過ごせる。",
+  "src": "jtb shimobe_onsen / rurubu 70001354 / onsen.nifty"
+ },
+ "o-yamanashi-3": {
+  "spring_type": null,
+  "by_train": "身延駅からバスで約90分",
+  "src": "jtb 4453001 / nta。泉質は温泉地として確認できず"
+ },
+ "o-nagano-1": {
+  "spring_type": "単純硫黄泉",
+  "by_train": "上田駅から上田電鉄別所線で別所温泉駅へ",
+  "description": "「信州の鎌倉」と呼ばれる古湯。北向観音や安楽寺の八角三重塔など、歴史ある寺院が点在する。",
+  "src": "rurubu 70001376 / onsen.nifty bessho",
+  "category": "硫黄泉"
+ },
+ "o-nagano-2": {
+  "spring_type": "単純硫黄泉など（外湯ごとに異なる）",
+  "nearest_station": "飯山駅（JR北陸新幹線・飯山線）",
+  "by_train": "飯山駅からバスで約25〜40分",
+  "src": "nippon.com gu005005 / rurubu 70001565"
+ },
+ "o-nagano-3": {
+  "spring_type": null,
+  "nearest_station": "湯田中駅（長野電鉄長野線）",
+  "by_train": "湯田中駅からバスで約5〜10分",
+  "src": "onsen.nifty shibu / newt。泉質は源泉ごとに異なり確認できず"
+ },
+ "o-nagano-4": {
+  "spring_type": "炭酸水素塩泉（硫黄成分を含む白濁の湯）",
+  "by_train": "新島々駅からバスで約40〜70分（便により異なる）",
+  "src": "jtb shirahone_onsen / knt S200261"
+ },
+ "o-nagano-5": {
+  "spring_type": "単純温泉",
+  "by_train": "上諏訪駅から徒歩約5〜10分（駅のホームに足湯もある）",
+  "src": "nta kamisuwa / rurubu 70001857 / tabi-mag nn156"
+ },
+ "o-nagano-6": {
+  "spring_type": null,
+  "by_train": null,
+  "src": "名称は白馬ハイランドホテルの源泉名として使われている。温泉地としての泉質・行き方は確認できず"
+ },
+ "o-gifu-1": {
+  "spring_type": "アルカリ性単純温泉",
+  "by_train": "名古屋駅から特急ひだで約1時間30〜40分",
+  "src": "nta gero / kankou-gifu detail_295 / rurubu 24486"
+ },
+ "o-gifu-2": {
+  "spring_type": "単純温泉など（宿により異なる）",
+  "nearest_station": "高山駅（JR高山本線）",
+  "by_train": "高山駅からバスで約1時間（平湯温泉）",
+  "description": "北アルプスの山麓にある、平湯・福地・新平湯・栃尾・新穂高の5つの温泉地からなる温泉郷。露天風呂の多さで知られる。",
+  "src": "nippon.com gu005006 / jtb okuhida_onsen"
+ },
+ "o-gifu-3": {
+  "spring_type": null,
+  "by_train": "高山駅からバスで約1時間",
+  "src": "nippon.com gu005006（アクセス）。平湯温泉単独の泉質は確認できず",
+  "description": "奥飛騨温泉郷の玄関口にある温泉地。上高地や乗鞍方面への拠点にもなる。"
+ },
+ "o-gifu-4": {
+  "spring_type": "単純鉄冷鉱泉（含鉄泉）",
+  "category": "含鉄泉",
+  "by_train": "岐阜駅からバスで約15〜20分",
+  "src": "jtb nagaragawa_onsen / kankou-gifu blog 397"
+ },
+ "o-shizuoka-1": {
+  "spring_type": "ナトリウム・カルシウム-塩化物泉・硫酸塩泉・単純温泉など（源泉により異なる）",
+  "by_train": "東京駅から東海道新幹線で約40〜50分",
+  "src": "rurubu 70001307 / allabout 103181"
+ },
+ "o-shizuoka-2": {
+  "spring_type": "単純温泉など（施設により異なる）",
+  "category": "単純泉",
+  "by_train": "東京駅から特急踊り子で約2時間40〜45分（伊豆急下田駅）",
+  "src": "jtb shimoda_onsen / nta 4130-102"
+ },
+ "o-shizuoka-3": {
+  "spring_type": "アルカリ性単純温泉",
+  "by_train": "修善寺駅からバスで約8〜10分",
+  "src": "rurubu 70001877 / jorudan 1274"
+ },
+ "o-shizuoka-4": {
+  "spring_type": "単純温泉・ナトリウム-塩化物泉など",
+  "nearest_station": "伊東駅（JR伊東線）",
+  "by_train": "東京駅から特急踊り子で約1時間45分（伊東駅）",
+  "src": "jtb ito_onsen / media.jreast 5175"
+ },
+ "o-shizuoka-5": {
+  "spring_type": "アルカリ性単純温泉など",
+  "nearest_station": "伊豆長岡駅（伊豆箱根鉄道駿豆線）",
+  "by_train": "三島駅から伊豆箱根鉄道で約20分。伊豆長岡駅からバスで約5〜10分",
+  "src": "jtb izunagaoka_onsen / rurubu 70001324"
+ },
+ "o-aichi-1": {
+  "spring_type": "ナトリウム・カルシウム-塩化物泉",
+  "category": "塩化物泉",
+  "nearest_station": "湯谷温泉駅（JR飯田線）",
+  "by_train": "豊橋駅でJR飯田線に乗り換え、湯谷温泉駅から徒歩すぐ",
+  "src": "Aichi Now spots 189 / rurubu 70001739"
+ },
+ "o-aichi-2": {
+  "spring_type": "アルカリ性単純温泉（蒲郡温泉）",
+  "category": "単純泉",
+  "by_train": "蒲郡駅から徒歩約15分",
+  "src": "Aichi Now / jorudan 1446"
+ },
+ "o-mie-1": {
+  "spring_type": null,
+  "by_train": "桑名駅からバスで約25分（名鉄バスセンターから高速バスで約50分）",
+  "src": "nta 6401-101 / rakuten。泉質は一次情報で確認できず"
+ },
+ "o-mie-2": {
+  "spring_type": "アルカリ性のラジウム泉とされる",
+  "category": "放射能泉",
+  "by_train": "近鉄四日市駅から近鉄湯の山線で約25分（湯の山温泉駅）",
+  "src": "aumo 28213 / jalan yad332971"
+ },
+ "o-mie-3": {
+  "spring_type": null,
+  "by_train": "賢島駅から送迎で約3分（宿により異なる）",
+  "src": "knt S240098。泉質は確認できず"
+ },
+ "o-shiga-1": {
+  "spring_type": "アルカリ性単純温泉",
+  "nearest_station": "おごと温泉駅（JR湖西線）",
+  "by_train": "京都駅からJR湖西線で約20分（おごと温泉駅）",
+  "description": "琵琶湖の西岸に位置する温泉地（おごと温泉）。京都駅から電車で約20分と近く、湖を望む宿が多い。",
+  "src": "jalan OSN_50334 / onsen.nifty ogoto"
+ },
+ "o-kyoto-1": {
+  "spring_type": "弱アルカリ性単純温泉",
+  "nearest_station": "嵐山駅（京福電鉄・阪急）",
+  "by_train": "嵐山駅から徒歩約5〜8分（施設により異なる）",
+  "src": "rurubu 70001991 / jalan OSN_50490"
+ },
+ "o-kyoto-2": {
+  "spring_type": "ナトリウム-塩化物泉など",
+  "by_train": "京都駅から特急はしだてで約2時間10〜20分（天橋立駅）",
+  "src": "allabout 103885 / nap-camp 18097"
+ },
+ "o-kyoto-3": {
+  "spring_type": "アルカリ性単純温泉",
+  "category": "単純泉",
+  "nearest_station": "夕日ヶ浦木津温泉駅（京都丹後鉄道）",
+  "by_train": "夕日ヶ浦木津温泉駅から宿の送迎で約5〜8分",
+  "src": "knt S260230 S260632"
+ },
+ "o-osaka-1": {
+  "spring_type": "単純弱放射能冷鉱泉（ラドン）",
+  "category": "放射能泉",
+  "by_train": "天見駅から徒歩約1〜2分（南天苑）",
+  "src": "rurubu 70002009 / osaka-info amami-onsen-nanten-en",
+  "description": "南河内の山あいにある温泉。天見駅のすぐそばに一軒宿（南天苑）が建つ。"
+ },
+ "o-osaka-2": {
+  "spring_type": "単純硫黄泉（冷鉱泉）",
+  "category": "硫黄泉",
+  "by_train": "日根野駅からバスで約15〜20分",
+  "src": "rurubu 70002007 / 大阪府資料"
+ },
+ "o-hyogo-1": {
+  "spring_type": "金泉（含鉄・塩化物泉）・銀泉（二酸化炭素泉・放射能泉）",
+  "by_train": "三宮から地下鉄・神戸電鉄で約30〜40分（有馬温泉駅）",
+  "src": "nta arima / rurubu 24806",
+  "category": "塩化物泉"
+ },
+ "o-hyogo-2": {
+  "spring_type": "ナトリウム-炭酸水素塩・塩化物・硫酸塩泉など",
+  "nearest_station": "浜坂駅（JR山陰本線）",
+  "by_train": "浜坂駅からバスで約25分",
+  "description": "98℃の源泉「荒湯」で知られる温泉地。荒湯では卵や野菜をゆでることができ、慈覚大師が発見したと伝わる。",
+  "src": "hyogo-tourism / jtb yumura_onsen / rurubu 80031173"
+ },
+ "o-hyogo-3": {
+  "spring_type": "ナトリウム・カルシウム-塩化物泉",
+  "by_train": "大阪駅から特急こうのとりで約2時間40分（城崎温泉駅）",
+  "src": "rurubu 70001962 / matcha 5887"
+ },
+ "o-hyogo-4": {
+  "spring_type": "アルカリ性単純温泉・ナトリウム-炭酸水素塩泉など（源泉により異なる）",
+  "category": "単純泉",
+  "nearest_station": "洲本バスセンター（高速バス）",
+  "by_train": "三宮から高速バスで約1時間35分（洲本バスセンター）",
+  "src": "jtb sumoto_onsen / allabout 115103 / 兵庫県資料"
+ },
+ "o-nara-1": {
+  "spring_type": "単純温泉",
+  "category": "単純泉",
+  "by_train": "下市口駅からバスで約70〜80分",
+  "src": "jtb dorogawa_onsen / rurubu 70002023"
+ },
+ "o-nara-2": {
+  "spring_type": "ナトリウム-炭酸水素塩泉",
+  "category": "重曹泉",
+  "by_train": "五条駅からバスで約2時間30分（十津川村役場）",
+  "description": "2004年に村内すべての温泉施設が「源泉かけ流し宣言」をした温泉郷。吊り橋や山里の景色も魅力。",
+  "src": "環境省 hoyo_041 / rurubu 70000754"
+ },
+ "o-wakayama-1": {
+  "spring_type": "ナトリウム-塩化物泉・ナトリウム-炭酸水素塩・塩化物泉など（源泉により異なる）",
+  "by_train": "白浜駅からバスで約10〜15分",
+  "description": "日本三古湯のひとつに数えられる温泉地。白い砂浜と青い海に面したリゾートで、源泉ごとに泉質が異なる。",
+  "src": "nta shirahama / mlit 観光ページ"
+ },
+ "o-wakayama-2": {
+  "spring_type": null,
+  "nearest_station": "新宮駅（JR紀勢本線）",
+  "by_train": "新宮駅からバスで本宮温泉郷へ",
+  "description": "熊野本宮大社の近く、湯の峰・川湯・渡瀬の3つの温泉からなる温泉郷。湯の峰温泉の「つぼ湯」は世界遺産の一部で、川湯温泉は川底から湯が湧く。",
+  "src": "livejapan a2000319 / 南海 260325.pdf"
+ },
+ "o-wakayama-3": {
+  "spring_type": "含硫黄-ナトリウム・カルシウム-塩化物泉など（源泉により異なる）",
+  "by_train": null,
+  "src": "rurubu 70002039 / jorudan 1431"
+ },
+ "o-wakayama-4": {
+  "spring_type": "ナトリウム-炭酸水素塩泉",
+  "nearest_station": "紀伊田辺駅（JRきのくに線）",
+  "by_train": "紀伊田辺駅からバスで約75〜85分",
+  "description": "日本三美人の湯のひとつとして知られる、山あいの川沿いの温泉。とろりとした湯ざわりが特徴。",
+  "src": "rurubu 70002057 / allabout 114097"
+ },
+ "o-tottori-1": {
+  "spring_type": "放射能泉（単純弱放射能泉・含放射能-ナトリウム-塩化物泉など）",
+  "by_train": "倉吉駅からバスで約20〜25分",
+  "description": "三徳川沿いに旅館が並ぶ、ラドンを含む放射能泉で知られる温泉地。開湯は800年以上前と伝わる。",
+  "src": "jtb misasa_onsen / rurubu 70002180"
+ },
+ "o-tottori-2": {
+  "spring_type": "ナトリウム・カルシウム-塩化物泉",
+  "by_train": "米子駅からバスで約20分",
+  "src": "gltjp 16445 / rurubu 70002179"
+ },
+ "o-shimane-1": {
+  "spring_type": "ナトリウム・カルシウム-硫酸塩・塩化物泉",
+  "by_train": "玉造温泉駅からバスで約6分（徒歩約25分）",
+  "description": "『出雲国風土記』で「神の湯」とたたえられた歴史ある温泉地。玉湯川沿いに旅館が並び、出雲観光の拠点にもなる。",
+  "src": "jtb tamatsukuri_onsen / rurubu 70002192"
+ },
+ "o-shimane-2": {
+  "spring_type": "ナトリウム・カルシウム-塩化物・硫酸塩泉など",
+  "nearest_station": "松江しんじ湖温泉駅（一畑電車）",
+  "by_train": "松江しんじ湖温泉駅から徒歩約4分。松江駅からバスで約10〜15分",
+  "src": "jorudan 1187 / knt S320007"
+ },
+ "o-shimane-3": {
+  "spring_type": "ナトリウム・カルシウム-塩化物泉",
+  "by_train": "温泉津駅からバスで約8分（徒歩約15〜20分）",
+  "src": "tabi-mag sm0118 sm0280"
+ },
+ "o-okayama-1": {
+  "spring_type": "アルカリ性単純温泉",
+  "by_train": "中国勝山駅からバスで約30〜35分",
+  "description": "旭川沿いの温泉地。無料で入れる露天風呂「砂湯」は露天風呂番付で西の横綱に選ばれている。",
+  "src": "rurubu 70002112 / okayama-kanko feature onsen 1"
+ },
+ "o-okayama-2": {
+  "spring_type": "アルカリ性単純温泉",
+  "by_train": "津山駅からバスで約50〜60分",
+  "description": "吉井川の上流、奥津渓に近い温泉地。川の湯で布を足で踏んで洗う「足踏み洗濯」の風習が残る。",
+  "src": "rurubu 70002114 / okayama-kanko feature onsen 3"
+ },
+ "o-hiroshima-1": {
+  "spring_type": null,
+  "by_train": "宮島口桟橋からフェリーで約10分（宮島桟橋）",
+  "description": "世界遺産・厳島神社がある宮島の温泉。島内には天然温泉を備えた宿がある。",
+  "src": "jalan yad340781 / gltjp 14836。泉質は施設により記載が異なり確認できず"
+ },
+ "o-hiroshima-2": {
+  "spring_type": "アルカリ性単純弱放射能温泉（ラドン）",
+  "category": "放射能泉",
+  "nearest_station": "五日市駅（JR山陽本線）",
+  "by_train": "五日市駅からバスで約70分",
+  "src": "osusume.mynavi 8364 / onsen.nifty yurai"
+ },
+ "o-yamaguchi-1": {
+  "spring_type": "アルカリ性単純温泉",
+  "by_train": "湯田温泉駅から徒歩約15分",
+  "src": "rurubu 70002157 / jtb yuda_onsen / yamaguchi-tourism"
+ },
+ "o-yamaguchi-2": {
+  "spring_type": "アルカリ性単純温泉",
+  "by_train": "長門湯本駅から徒歩約10分",
+  "src": "rurubu 80035266 / jorudan 2398"
+ },
+ "o-tokushima-1": {
+  "spring_type": "アルカリ性単純硫黄泉",
+  "category": "硫黄泉",
+  "by_train": "大歩危駅からバスで約35分（祖谷温泉前）",
+  "description": "祖谷渓の谷底にある露天風呂へ、宿のケーブルカーで下りて入る温泉（ホテル祖谷温泉）。",
+  "src": "rurubu 70002262 / bepal 33997"
+ },
+ "o-kagawa-1": {
+  "spring_type": "単純温泉・ナトリウム-炭酸水素塩泉など（施設により異なる）",
+  "category": "単純泉",
+  "by_train": "高松駅からバスで約60〜70分",
+  "description": "天平年間に行基が開き、弘法大師が広めたと伝わる温泉郷。高松市の山あいにあり、渓谷沿いの景色が楽しめる。",
+  "src": "jtb shionoe_onsen / tabiiro / jalan yad386576"
+ },
+ "o-kagawa-2": {
+  "spring_type": "カルシウム・ナトリウム-炭酸水素塩・塩化物泉、単純弱放射能冷鉱泉など",
+  "by_train": "琴平駅から徒歩約5分〜",
+  "src": "jtb konpira_onsen / knt S370023"
+ },
+ "o-ehime-1": {
+  "spring_type": "アルカリ性単純温泉など",
+  "by_train": "JR松山駅から伊予鉄道の路面電車で道後温泉駅へ",
+  "src": "rurubu 70002230 / nta dogo"
+ },
+ "o-ehime-2": {
+  "spring_type": "アルカリ性単純温泉（冷鉱泉）",
+  "by_train": "今治駅からバスで約25〜30分",
+  "src": "jorudan 1209 / knt S380007"
+ },
+ "o-kochi-2": {
+  "spring_type": "単純弱放射能泉",
+  "category": "放射能泉",
+  "nearest_station": "中村駅（土佐くろしお鉄道）",
+  "by_train": "中村駅からバスで約1時間30〜45分（足摺岬）",
+  "src": "rurubu 70002274 / knt S390024"
+ },
+ "o-fukuoka-1": {
+  "spring_type": "アルカリ性単純温泉",
+  "by_train": "二日市駅から徒歩約10〜15分（博多駅から電車で約20分）",
+  "description": "太宰府天満宮に近い筑紫野市の温泉。博多駅から電車で約20分とアクセスがよい。",
+  "src": "crossroadfukuoka feature futsukaichi_onsen / rurubu 70002468"
+ },
+ "o-fukuoka-2": {
+  "spring_type": "アルカリ性単純温泉・硫黄泉",
+  "category": "単純泉",
+  "by_train": "筑後吉井駅からタクシー・送迎で約10分",
+  "description": "筑後川沿いの温泉地。アルカリ性単純温泉と硫黄泉の2つの泉質があり「ダブル美肌の湯」と呼ばれる。",
+  "src": "onsen.nifty haraduru / knt yadolist"
+ },
+ "o-fukuoka-3": {
+  "spring_type": "アルカリ性単純温泉",
+  "nearest_station": "博多駅（JR九州バス）",
+  "by_train": "博多駅からJR九州バス（直方行）で約50分〜1時間",
+  "description": "犬鳴山の東麓、犬鳴川の清流沿いに数軒の宿が並ぶ温泉地。",
+  "src": "rurubu 70002470 / crossroadfukuoka wakita_onsen"
+ },
+ "o-saga-1": {
+  "spring_type": "ナトリウム-炭酸水素塩・塩化物泉など",
+  "by_train": "嬉野温泉駅からタクシーで約5〜10分（武雄温泉駅からはバスで約30分）",
+  "description": "日本三大美肌の湯のひとつとして知られる、とろりとした湯の温泉地。温泉湯どうふや嬉野茶も名物。",
+  "src": "rurubu 70002440 / jtb ureshino_onsen / allabout 115483"
+ },
+ "o-saga-2": {
+  "spring_type": "弱アルカリ性単純温泉",
+  "by_train": "武雄温泉駅から徒歩約10分（博多駅から特急で約1時間〜1時間10分）",
+  "description": "辰野金吾が設計した楼門（国の重要文化財）がシンボルの温泉。駅から歩いて行ける。",
+  "src": "jtb takeo_onsen / allabout 103865"
+ },
+ "o-nagasaki-1": {
+  "spring_type": null,
+  "by_train": "諫早駅からバスで約60〜80分",
+  "description": "雲仙岳の噴気地帯「雲仙地獄」に近い温泉地。日本で最初に国立公園に指定された地域にある。",
+  "src": "travelist p1050 / jtb unzen_onsen。泉質は施設により異なり確認できず"
+ },
+ "o-nagasaki-2": {
+  "spring_type": "ナトリウム-塩化物泉など",
+  "by_train": "諫早駅からバスで約50分〜1時間",
+  "description": "橘湾に面した海辺の温泉地。源泉温度105℃にちなんだ長さ105mの足湯「ほっとふっと105」がある。",
+  "src": "jtb obama_onsen / onsen.nifty 019358"
+ },
+ "o-nagasaki-3": {
+  "spring_type": "炭酸水素塩泉など",
+  "category": "重曹泉",
+  "by_train": "諫早駅から島原鉄道で約1時間20分（島原駅）",
+  "src": "rurubu 80039475 / travelist p1059"
+ },
+ "o-kumamoto-1": {
+  "spring_type": "硫黄泉・単純温泉・塩化物泉・炭酸水素塩泉など7種類",
+  "nearest_station": "熊本駅（九州横断バス）",
+  "by_train": "熊本駅から九州横断バスで黒川温泉へ",
+  "description": "ひとつの温泉地で7種類の泉質が湧く山あいの温泉。宿の露天風呂を3か所めぐれる「入湯手形」を全国に先駆けて始めた。",
+  "src": "nippon.com gu005010 / kumanichi 692714"
+ },
+ "o-kumamoto-2": {
+  "spring_type": "弱アルカリ性単純温泉・ナトリウム-炭酸水素塩・塩化物泉など",
+  "by_train": "人吉駅から徒歩約3〜15分（施設により異なる）",
+  "description": "球磨川のほとりに湧く温泉。人吉城跡のある城下町の風情と、清流の景色をあわせて楽しめる。",
+  "src": "jtb hitoyoshi_onsen / gltjp 18712"
+ },
+ "o-kumamoto-3": {
+  "spring_type": "弱アルカリ性単純温泉・塩化物泉など",
+  "by_train": "日田駅からバスで約40〜50分",
+  "description": "杖立川沿いの谷あいに湯けむりが立ちのぼる温泉街。源泉が高温で、蒸し湯のある宿が多い。春は川の上を泳ぐ鯉のぼりが名物。",
+  "src": "jorudan 1228 / gltjp 14164 / mapple 83383"
+ },
+ "o-kumamoto-4": {
+  "spring_type": "硫酸塩泉など（源泉により異なる）",
+  "category": "硫酸塩泉",
+  "by_train": "阿蘇駅からバスで約15〜20分",
+  "src": "rurubu 70002371 / allabout 116614"
+ },
+ "o-oita-1": {
+  "spring_type": "単純温泉・塩化物泉・炭酸水素塩泉・硫黄泉など多様",
+  "category": "その他",
+  "by_train": "別府駅から市内各地の温泉へバスで移動",
+  "description": "源泉数・湧出量ともに日本一とされる温泉地。地獄めぐりや市営温泉など、多彩な泉質と湯めぐりが楽しめる。",
+  "src": "nta beppu / mlit 001543282 / tabi-mag ot0026"
+ },
+ "o-oita-2": {
+  "spring_type": "単純温泉（アルカリ性単純温泉が中心）",
+  "by_train": "別府駅から特急で約1時間5分（由布院駅）",
+  "src": "onsen.nifty yufuin / gltjp 12815 / 大分県資料",
+  "category": "単純泉"
+ },
+ "o-oita-4": {
+  "spring_type": "炭酸水素塩泉（炭酸ガスを多く含む）",
+  "category": "炭酸泉",
+  "by_train": "豊後竹田駅からバスで約40〜50分",
+  "description": "炭酸ガスを多く含む湯で知られる温泉。湯の中で肌に細かな泡がつく。",
+  "src": "rurubu 70002352 / nippon.com gu005011"
+ },
+ "o-miyazaki-1": {
+  "spring_type": "単純温泉など（源泉により異なる）",
+  "nearest_station": "京町温泉駅（JR吉都線）",
+  "by_train": "京町温泉駅から徒歩約5〜10分（施設により異なる）",
+  "description": "えびの市の温泉地。駅の周辺に旅館や日帰り入浴施設が集まり、気軽に湯めぐりができる。",
+  "src": "rurubu 70002487 / onsen.nifty ebino"
+ },
+ "o-miyazaki-2": {
+  "spring_type": "アルカリ性単純温泉など",
+  "by_train": "青島駅（JR日南線）から徒歩約3分の宿もある",
+  "src": "onsen.nifty aoshima / knt S450045 / jalan yad324606",
+  "category": "単純泉"
+ },
+ "o-kagoshima-1": {
+  "spring_type": "ナトリウム-塩化物泉",
+  "by_train": "指宿駅からバスで約5分（徒歩約20分）",
+  "description": "海岸に湧く温泉で温めた砂に横たわる「砂むし」で知られる温泉地。日帰りで砂むしを体験できる施設もある。",
+  "src": "rurubu 70002530 / matcha 4310"
+ },
+ "o-kagoshima-2": {
+  "spring_type": "硫黄泉・単純温泉・炭酸水素塩泉など（温泉地により異なる）",
+  "by_train": "霧島神宮駅からバスで約30〜40分（丸尾）",
+  "description": "霧島連山の山腹に温泉地が点在する温泉郷。泉質が多彩で、飲める温泉もある。",
+  "src": "rurubu 70002496 70000868 / nta kirishima"
+ },
+ "o-kagoshima-3": {
+  "spring_type": "ナトリウム-塩化物泉",
+  "nearest_station": "桜島港（桜島フェリー）",
+  "by_train": "鹿児島港から桜島フェリーで約15分。桜島港から徒歩約8分",
+  "description": "活火山・桜島にある温泉。地下深くから湧く茶褐色のにごり湯で知られる。",
+  "src": "rurubu 70002507 / jalan yad304437 / jorudan 2235"
+ },
+ "o-kagoshima-4": {
+  "spring_type": "単純硫黄泉など（尾之間温泉）",
+  "by_train": "鹿児島港から高速船で約1時間50分（宮之浦港）。宮之浦港から尾之間温泉へは車で約50分",
+  "src": "rurubu 70000874 / 鹿児島県 熊毛支庁 交通資料"
+ },
+ "o-okinawa-1": {
+  "spring_type": "ナトリウム-塩化物泉",
+  "by_train": "宮古空港から車で約15分",
+  "description": "宮古島の南部、リゾート内にある天然温泉。地下1,250mから湧く湯を南国の緑に囲まれて楽しめる。",
+  "src": "rurubu 70002577 / jorudan 71"
+ },
+ "o-okinawa-2": {
+  "spring_type": "ナトリウム-塩化物強塩泉",
+  "nearest_station": "那覇空港",
+  "by_train": "那覇空港から車で約15分（瀬長島）",
+  "description": "那覇空港近くの瀬長島にある天然温泉（琉球温泉 瀬長島ホテル）。地下1,000mから湧く高温の湯で、宿泊しなくても入浴できる。",
+  "src": "jalan yad352977 / knt S470170"
+ }
+}

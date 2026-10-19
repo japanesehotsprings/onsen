@@ -77,3 +77,5 @@ export function faq_ld(faqs) {
 }
 
 export const PRICE_NOTE = '料金・営業時間は変わることがあります。お出かけ前に公式情報でご確認ください。';
+
+export const ACCESS_NOTE = '行き方やバスの所要時間・運行は変わることがあります。お出かけ前に公式情報でご確認ください。';
