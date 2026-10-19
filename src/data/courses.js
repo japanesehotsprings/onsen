@@ -7,7 +7,7 @@ export const courseList = [
         days: 2,
         onsen_id: 'o-hokkaido-1',
         hotel_id: 'h-hokkaido-1-1',
-        spot_ids: ['s-hokkaido-3'],
+        spot_ids: [],
         gourmet_ids: ['g-hokkaido-1', 'g-hokkaido-2'],
         description: '日本屈指の温泉地・登別温泉でゆっくり過ごす1泊2日プラン。地獄谷散策と多彩な温泉を楽しもう。',
         image: './onsen/noboribetsu.png',
@@ -36,10 +36,10 @@ export const courseList = [
         prefecture: 'hokkaido',
         days: 2,
         onsen_id: 'o-hokkaido-2',
-        hotel_id: 'h-hokkaido-2-1',
+        hotel_id: null,
         spot_ids: [],
         gourmet_ids: ['g-hokkaido-2'],
-        description: '洞爺湖畔に立つ絶景温泉リゾートで過ごす優雅な1泊2日。湖面に映る有珠山と花火の絶景。',
+        description: '洞爺湖畔の温泉街で過ごす1泊2日。湖畔の散策と、例年4月下旬〜10月に毎夜打ち上がる花火を楽しむプラン。',
         image: './onsen/toyako.png',
         itinerary: [
             { day: 1, items: [
@@ -47,10 +47,10 @@ export const courseList = [
                 { time: '13:00', label: 'ランチ後チェックイン' },
                 { time: '15:00', label: '湖畔散策・足湯体験' },
                 { time: '18:00', label: '夕食（湖を眺めながら）' },
-                { time: '20:45', label: '夜の定期花火大会（4〜10月）' }
+                { time: '20:45', label: '洞爺湖ロングラン花火大会（例年4月下旬〜10月、20:45から約20分）' }
             ]},
             { day: 2, items: [
-                { time: '7:00', label: '朝の露天風呂（洞爺湖一望）' },
+                { time: '7:00', label: '朝風呂' },
                 { time: '9:00', label: '朝食後チェックアウト' },
                 { time: '10:00', label: '有珠山ロープウェイ（オプション）' },
                 { time: '13:00', label: '帰路' }
@@ -78,7 +78,7 @@ export const courseList = [
                 { time: '20:00', label: '夜の湯畑ライトアップ散策' }
             ]},
             { day: 2, items: [
-                { time: '9:00', label: '時間湯体験（要予約）' },
+                { time: '9:00', label: '時間湯の見学・体験（千代の湯・地蔵の湯。実施状況は事前に確認）' },
                 { time: '11:00', label: '西の河原公園・露天風呂' },
                 { time: '13:00', label: 'ランチ（舞茸そば・上州牛）' },
                 { time: '15:00', label: '光泉寺・草津熱帯圏を散策' },
@@ -113,10 +113,10 @@ export const courseList = [
                 { time: '13:00', label: '大涌谷見学・黒たまご' },
                 { time: '14:30', label: '芦ノ湖遊覧船' },
                 { time: '16:00', label: 'チェックイン・温泉三昧' },
-                { time: '18:30', label: '夕食（相模の海鮮会席）' }
+                { time: '18:30', label: '夕食' }
             ]},
             { day: 2, items: [
-                { time: '7:00', label: '朝風呂（富士山ビュー）' },
+                { time: '7:00', label: '朝風呂' },
                 { time: '9:00', label: '朝食・チェックアウト' },
                 { time: '10:30', label: 'ポーラ美術館または箱根美術館' },
                 { time: '13:00', label: '日帰り温泉「天山湯治郷」' },
@@ -135,7 +135,7 @@ export const courseList = [
         hotel_id: null,
         spot_ids: [],
         gourmet_ids: [],
-        description: '豊臣秀吉も愛した日本最古の名湯・有馬温泉。赤褐色の「金泉」と無色透明の「銀泉」、2種類の源泉を持つ稀有な温泉地を1泊2日で堪能するプラン。',
+        description: '豊臣秀吉も愛したといわれる、日本最古の温泉のひとつ・有馬温泉。赤褐色の「金泉」と無色透明の「銀泉」、2種類の源泉を持つ稀有な温泉地を1泊2日で堪能するプラン。',
         image: './onsen/arima.png',
         itinerary: [
             { day: 1, items: [
@@ -145,7 +145,7 @@ export const courseList = [
                 { time: '14:00', label: '銀の湯で無色透明の銀泉を体験' },
                 { time: '15:00', label: '温泉街・石畳散策' },
                 { time: '16:00', label: 'チェックイン・夕食前に宿の温泉へ' },
-                { time: '18:30', label: '夕食（但馬牛・松葉蟹）' }
+                { time: '18:30', label: '夕食' }
             ]},
             { day: 2, items: [
                 { time: '7:30', label: '朝風呂（金泉）' },
@@ -189,7 +189,7 @@ export const courseList = [
             { day: 3, items: [
                 { time: '7:30', label: '朝の共同浴場（浜脇温泉）' },
                 { time: '9:00', label: '朝食・チェックアウト' },
-                { time: '10:00', label: '由布院へ移動（JR約50分）' },
+                { time: '10:00', label: '由布院へ移動（JR特急で約1時間）' },
                 { time: '11:00', label: '由布院温泉・金鱗湖散策' },
                 { time: '14:00', label: '大分空港または博多へ帰路' }
             ]}
@@ -205,7 +205,7 @@ export const courseList = [
         hotel_id: null,
         spot_ids: [],
         gourmet_ids: [],
-        description: '由布岳を望む高原温泉リゾート・由布院。アートとカフェ、温泉が融合した洗練された温泉地で過ごす1泊2日。早朝の金鱗湖の霧が幻想的。',
+        description: '由布岳を望む高原温泉リゾート・由布院。アートとカフェ、温泉が融合した洗練された温泉地で過ごす1泊2日。早朝の金鱗湖も見どころ。',
         image: './onsen/yufuin.png',
         itinerary: [
             { day: 1, items: [
@@ -213,15 +213,15 @@ export const courseList = [
                 { time: '11:30', label: '湯の坪街道・雑貨・カフェ散策' },
                 { time: '13:00', label: 'ランチ（地鶏・豊後牛バーガー）' },
                 { time: '14:30', label: '金鱗湖畔散策' },
-                { time: '15:30', label: '由布院アートギャラリー巡り' },
+                { time: '15:30', label: '美術館・ギャラリーめぐり' },
                 { time: '16:00', label: 'チェックイン・貸切露天風呂' },
                 { time: '18:30', label: '夕食（大分郷土料理・地鶏等）' }
             ]},
             { day: 2, items: [
-                { time: '6:30', label: '早朝の金鱗湖（朝霧の絶景）' },
+                { time: '6:30', label: '早朝の金鱗湖（秋〜冬の朝は霧が見られることも）' },
                 { time: '8:00', label: '朝食・宿の温泉を堪能' },
                 { time: '10:00', label: 'チェックアウト・お土産購入' },
-                { time: '11:30', label: '由布院地ビール・柚子コショウ購入' },
+                { time: '11:30', label: 'お土産選び' },
                 { time: '13:00', label: '帰路（大分・博多方面）' }
             ]}
         ]
@@ -229,20 +229,20 @@ export const courseList = [
     {
         id: 'dogo-1night',
         title: '道後温泉 1泊2日モデルコース',
-        subtitle: '日本最古の温泉と松山城を巡る',
+        subtitle: '日本最古の温泉のひとつと松山城を巡る',
         prefecture: 'ehime',
         days: 2,
         onsen_id: 'o-ehime-1',
         hotel_id: null,
         spot_ids: [],
         gourmet_ids: [],
-        description: '3,000年の歴史を持つ日本最古の温泉・道後温泉。重要文化財の本館での入浴・松山城・坊っちゃん列車など松山の文化を満喫する1泊2日プラン。',
+        description: '日本最古の温泉のひとつといわれる道後温泉。重要文化財の本館での入浴・松山城・路面電車など松山の文化を満喫する1泊2日プラン。',
         image: './onsen/dogo.png',
         itinerary: [
             { day: 1, items: [
                 { time: '11:00', label: '松山着（飛行機・新幹線＋特急）' },
                 { time: '12:00', label: '松山城見学（ロープウェイ）' },
-                { time: '14:00', label: '坊っちゃん列車で道後温泉へ' },
+                { time: '14:00', label: '路面電車で道後温泉へ（坊っちゃん列車の運行日は事前に確認）' },
                 { time: '14:30', label: '道後温泉本館（重要文化財）に入浴' },
                 { time: '16:00', label: '道後商店街・アーケード散策' },
                 { time: '17:00', label: 'チェックイン' },
@@ -279,7 +279,7 @@ export const courseList = [
                 { time: '20:30', label: '御所の湯・鴻の湯を夜に入浴' }
             ]},
             { day: 2, items: [
-                { time: '7:00', label: 'さとの湯で朝風呂（最大・最新の外湯）' },
+                { time: '7:00', label: 'さとの湯で朝風呂' },
                 { time: '9:00', label: '朝食・チェックアウト' },
                 { time: '10:00', label: '残りの外湯スタンプ完成を目指す' },
                 { time: '11:30', label: '城崎みやげ（かに・但馬牛カレー）' },
@@ -304,12 +304,12 @@ export const courseList = [
                 { time: '10:00', label: '松本駅着（特急あずさ）' },
                 { time: '11:00', label: 'アルピコバスで上高地へ' },
                 { time: '12:30', label: '上高地・大正池〜河童橋散策' },
-                { time: '15:00', label: 'バスで白骨温泉へ移動（約50分）' },
+                { time: '15:00', label: 'バスを乗り継いで白骨温泉へ（便が少ないので事前に確認）' },
                 { time: '16:00', label: 'チェックイン・乳白色の露天風呂' },
                 { time: '18:30', label: '夕食（山の幸・岩魚料理）' }
             ]},
             { day: 2, items: [
-                { time: '7:00', label: '朝の白骨・原生林の朝風呂' },
+                { time: '7:00', label: '朝風呂' },
                 { time: '9:00', label: '朝食・チェックアウト' },
                 { time: '10:30', label: '乗鞍高原散策（オプション）' },
                 { time: '13:00', label: '松本市内でランチ（信州そば）' },
@@ -327,12 +327,12 @@ export const courseList = [
         hotel_id: null,
         spot_ids: [],
         gourmet_ids: [],
-        description: '大正ロマンの洋風建築が川沿いに立ち並ぶ銀山温泉。ガス灯に照らされた夜の温泉街は幻想的で全国随一の景観を誇る。山形の食も楽しむ1泊2日プラン。',
+        description: '大正ロマンの洋風建築が川沿いに立ち並ぶ銀山温泉。ガス灯に照らされた夜の温泉街が見どころ。山形の食も楽しむ1泊2日プラン。',
         image: './onsen/ginzan.png',
         itinerary: [
             { day: 1, items: [
                 { time: '12:00', label: '大石田駅着（山形新幹線）' },
-                { time: '12:30', label: 'バスで銀山温泉へ（約30分）' },
+                { time: '12:30', label: 'バスで銀山温泉へ（約40〜45分）' },
                 { time: '13:30', label: '銀山川沿いの洋館建築を散策' },
                 { time: '14:30', label: '延沢銀山跡・白銀の滝を見学' },
                 { time: '16:00', label: 'チェックイン・外湯「しろがね湯」' },
@@ -358,19 +358,19 @@ export const courseList = [
         hotel_id: null,
         spot_ids: [],
         gourmet_ids: [],
-        description: '7つの秘湯一軒宿が点在する乳頭温泉郷を「湯めぐり手形」で3日間かけてじっくり巡るプラン。田沢湖・角館とも組み合わせた秋田の王道旅。',
+        description: '7つの秘湯一軒宿が点在する乳頭温泉郷を宿泊者限定の「湯めぐり帖」で3日間かけてじっくり巡るプラン。田沢湖・角館とも組み合わせた秋田の王道旅。',
         image: './onsen/nyuto.png',
         itinerary: [
             { day: 1, items: [
                 { time: '11:00', label: '田沢湖駅着（秋田新幹線こまち）' },
                 { time: '12:00', label: '田沢湖観光・たつこ像' },
                 { time: '14:00', label: 'バスで乳頭温泉郷へ（約50分）' },
-                { time: '15:00', label: '湯めぐり手形を購入' },
-                { time: '16:00', label: '鶴の湯温泉（最古・最有名）入浴' },
-                { time: '18:30', label: 'チェックイン・秘湯の夕食（山菜・きりたんぽ）' }
+                { time: '15:00', label: 'チェックイン・湯めぐり帖（宿泊者限定）を購入' },
+                { time: '16:00', label: '鶴の湯温泉に入浴' },
+                { time: '18:30', label: '秘湯の夕食（山菜・きりたんぽ）' }
             ]},
             { day: 2, items: [
-                { time: '7:00', label: '朝の混浴露天風呂（乳白色）' },
+                { time: '7:00', label: '朝風呂' },
                 { time: '9:00', label: '朝食後・孫六温泉へ徒歩移動' },
                 { time: '10:00', label: '蟹場温泉・大釜温泉を入浴' },
                 { time: '13:00', label: '乳頭山トレッキング（オプション）' },
@@ -378,7 +378,7 @@ export const courseList = [
                 { time: '19:00', label: '夕食・地酒「新政」を味わう' }
             ]},
             { day: 3, items: [
-                { time: '8:00', label: '妙の湯・黒湯温泉を制覇' },
+                { time: '8:00', label: '妙乃湯・黒湯温泉に入浴' },
                 { time: '11:00', label: '田沢湖駅へ移動' },
                 { time: '12:00', label: '角館へ（武家屋敷・さくら並木）' },
                 { time: '14:00', label: '角館散策・稲庭うどんランチ' },
@@ -406,7 +406,7 @@ export const courseList = [
                 { time: '15:00', label: '石段の湯（黄金の湯）で入浴' },
                 { time: '16:00', label: 'チェックイン・宿の温泉' },
                 { time: '18:30', label: '夕食（上州牛・豚肉料理）' },
-                { time: '20:00', label: '夜の石段・温泉ライトアップ散策' }
+                { time: '20:00', label: '夜の石段街を散策' }
             ]},
             { day: 2, items: [
                 { time: '7:30', label: '朝風呂（露天風呂）' },
