@@ -8,7 +8,7 @@ export const articleList = [
         categoryLabel: 'おすすめ特集',
         published: '2026-04-20',
         description: '日本を代表する三大温泉地「草津・有馬・下呂」。歴史・泉質・景観の三拍子を徹底比較。はじめての温泉旅にも最適な三名泉を深掘りする。',
-        image: './onsen/kusatsu.png',
+        image: './thumbs/nihon-sanmeisen.png',
         updated: '2026-10-19',
         onsen_ids: ['o-gunma-1', 'o-hyogo-1', 'o-gifu-1'],
         body: `
@@ -42,7 +42,7 @@ export const articleList = [
         categoryLabel: '泉質ガイド',
         published: '2026-04-19',
         description: '「源泉かけ流し」の正確な意味と循環式との違いを解説。本物の源泉かけ流しを選ぶための見分け方と、全国のおすすめかけ流し温泉も紹介。',
-        image: './onsen/nyuto.png',
+        image: './thumbs/gensenkakenagashi-guide.png',
         updated: '2026-10-19',
         sources: [{ name: '環境省 報道発表「温泉法施行規則の一部を改正する省令の公布について」', url: 'https://www.env.go.jp/press/5743.html' }, { name: '東京都保健医療局「温泉の成分等の掲示について」', url: 'https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/hotspring_seibunkeiji_kaisetu' }],
         onsen_ids: ['o-akita-1', 'o-akita-2', 'o-gunma-1', 'o-nagano-4'],
@@ -81,7 +81,7 @@ export const articleList = [
         categoryLabel: 'おすすめ特集',
         published: '2026-04-18',
         description: '一人でも予約しやすく、静かにゆったり過ごせる温泉地を厳選。銀山・城崎・渋温泉など、情緒豊かな湯の街で一人旅を満喫しよう。',
-        image: './onsen/ginzan.png',
+        image: './thumbs/solo-travel-onsen.png',
         updated: '2026-10-19',
         onsen_ids: ['o-yamagata-1', 'o-hyogo-3', 'o-nagano-3', 'o-tochigi-5', 'o-iwate-2', 'o-akita-1', 'o-gifu-1', 'o-oita-2', 'o-gunma-1', 'o-ehime-1'],
         body: `
@@ -132,7 +132,7 @@ export const articleList = [
         categoryLabel: '旅行ガイド',
         published: '2026-04-17',
         description: '雄大な富士山・日本海の水平線・深山の峡谷を眺めながら浸かれる絶景露天風呂を持つ温泉地を厳選紹介。非日常の体験ができる温泉旅を計画しよう。',
-        image: './onsen/hakone.png',
+        image: './thumbs/zekke-rotenburo-guide.png',
         updated: '2026-10-19',
         onsen_ids: ['o-kanagawa-1', 'o-shizuoka-1', 'o-nagano-4', 'o-gunma-3', 'o-yamanashi-3'],
         body: `
@@ -168,7 +168,7 @@ export const articleList = [
         categoryLabel: 'おすすめ特集',
         published: '2026-04-16',
         description: '東京・横浜から電車・車で2時間以内の日帰り温泉を厳選5選。本格的な泉質の温泉に日帰りで浸かれるスポットをシーン別に紹介。',
-        image: './onsen/nasu.png',
+        image: './thumbs/kanto-hirogari-onsen.png',
         updated: '2026-10-19',
         onsen_ids: ['o-tochigi-1', 'o-tochigi-3', 'o-kanagawa-2', 'o-gunma-2', 'o-gunma-4'],
         body: `
@@ -205,7 +205,7 @@ export const articleList = [
         categoryLabel: 'おすすめ特集',
         published: '2026-04-15',
         description: '乳頭温泉郷・銀山温泉・鳴子温泉郷など、東北が誇る秘湯・名湯を紹介。雪深い大地が育てた濃厚な泉質と、素朴な湯治文化の魅力を解説。',
-        image: './onsen/naruko.png',
+        image: './thumbs/tohoku-meito-hito.png',
         updated: '2026-10-19',
         onsen_ids: ['o-akita-1', 'o-akita-2', 'o-yamagata-1', 'o-miyagi-1', 'o-iwate-4'],
         body: `
@@ -234,7 +234,7 @@ export const articleList = [
         categoryLabel: '泉質ガイド',
         published: '2026-04-14',
         description: '泉質ごとの適応症と、入浴の回数・時間・温度の目安を、環境省の掲示基準（平成26年改訂）にもとづいてまとめました。',
-        image: './onsen/arima.png',
+        image: './thumbs/onsen-kenko-nyuyokuho.png',
         updated: '2026-10-19',
         sources: [{ name: '山形県「温泉の成分等の掲示（浴用）」（平成26年改訂の掲示基準に基づく様式）', url: 'https://www.pref.yamagata.jp/documents/2339/kaisei_yokuyo.pdf' }],
         onsen_ids: ['o-hyogo-1', 'o-akita-2', 'o-gunma-1'],
@@ -276,7 +276,7 @@ export const articleList = [
         categoryLabel: '旅行ガイド',
         published: '2026-04-13',
         description: '湧出量が多く、個性的な温泉地がそろう九州の温泉を解説。別府の地獄めぐり・由布院の高原リゾート・黒川の露天風呂めぐり・指宿の砂蒸し風呂まで完全網羅。',
-        image: './onsen/beppu.png',
+        image: './thumbs/kyushu-onsen-guide.png',
         updated: '2026-10-19',
         onsen_ids: ['o-oita-1', 'o-oita-2', 'o-kumamoto-1', 'o-kagoshima-1', 'o-nagasaki-1'],
         body: `
@@ -313,7 +313,7 @@ export const articleList = [
         categoryLabel: 'おすすめ特集',
         published: '2026-04-12',
         description: '野沢温泉・渋温泉・白骨温泉・別所温泉など長野県内の名湯を徹底紹介。高原リゾート・スキー場・古湯まで、信州の温泉の多様な魅力を解説。',
-        image: './onsen/nozawa.png',
+        image: './thumbs/shinshu-nagano-onsen.png',
         updated: '2026-10-19',
         onsen_ids: ['o-nagano-2', 'o-nagano-3', 'o-nagano-4', 'o-nagano-1'],
         body: `
@@ -347,7 +347,7 @@ export const articleList = [
         categoryLabel: '旅行ガイド',
         published: '2026-04-11',
         description: '温泉だけでなく食事も旅の醍醐味。蟹・飛騨牛・海鮮など地元の食材を活かした料理と温泉で二度おいしい旅ができる温泉地を厳選紹介。',
-        image: './onsen/yufuin.png',
+        image: './thumbs/onsen-gurume-travel.png',
         updated: '2026-10-19',
         onsen_ids: ['o-oita-2', 'o-hyogo-3', 'o-gifu-1', 'o-ishikawa-1', 'o-hokkaido-1'],
         body: `
@@ -384,7 +384,7 @@ export const articleList = [
         categoryLabel: 'おすすめ特集',
         published: '2026-04-23',
         description: '北海道には登別・洞爺湖・定山渓など個性豊かな温泉地が揃う。泉質・景色・アクセスを総合評価したおすすめ5選を紹介。',
-        image: './onsen/noboribetsu.png',
+        image: './thumbs/hokkaido-onsen-top5.png',
         updated: '2026-10-19',
         onsen_ids: ['o-hokkaido-1', 'o-hokkaido-2', 'o-hokkaido-3', 'o-hokkaido-4', 'o-hokkaido-5'],
         body: `
@@ -408,7 +408,7 @@ export const articleList = [
         categoryLabel: '泉質ガイド',
         published: '2026-04-23',
         description: '「美肌の湯」と呼ばれることの多い泉質の特徴と、美肌の湯で知られる温泉地5か所を紹介します。',
-        image: './onsen/tokachigawa.png',
+        image: './thumbs/bijin-no-yu-guide.png',
         updated: '2026-10-19',
         sources: [{ name: '山形県「温泉の成分等の掲示（浴用）」（平成26年改訂の掲示基準に基づく様式）', url: 'https://www.pref.yamagata.jp/documents/2339/kaisei_yokuyo.pdf' }, { name: '環境省「鉱泉分析法指針（平成26年改訂）」', url: 'https://www.env.go.jp/nature/onsen/pdf/2-5_p_14.pdf' }],
         onsen_ids: ['o-hokkaido-6', 'o-hokkaido-7'],
@@ -435,7 +435,7 @@ export const articleList = [
         categoryLabel: '旅行ガイド',
         published: '2026-04-24',
         description: '温泉の入り方・マナー・持ち物・泉質の選び方を徹底解説。初めての温泉旅行をスムーズに楽しむための完全ガイド。',
-        image: './articles/japan3.png',
+        image: './thumbs/hajimete-onsen-guide.png',
         updated: '2026-10-19',
         sources: [{ name: '山形県「温泉の成分等の掲示（浴用）」（平成26年改訂の掲示基準に基づく様式）', url: 'https://www.pref.yamagata.jp/documents/2339/kaisei_yokuyo.pdf' }],
         onsen_ids: [],
@@ -497,7 +497,7 @@ export const articleList = [
         categoryLabel: 'モデルコース',
         published: '2026-04-24',
         description: '東京から約90分。富士山・芦ノ湖の絶景と多彩な泉質が楽しめる箱根温泉の王道1泊2日プランを紹介。',
-        image: './onsen/hakone.png',
+        image: './thumbs/course-hakone-1night.png',
         updated: '2026-10-19',
         onsen_ids: ['o-kanagawa-1'],
         body: `
@@ -530,7 +530,7 @@ export const articleList = [
         categoryLabel: 'モデルコース',
         published: '2026-04-24',
         description: '日本三名泉のひとつ、草津温泉。湯畑散策・時間湯体験・周辺観光を組み合わせた充実の2泊3日プラン。',
-        image: './onsen/kusatsu.png',
+        image: './thumbs/course-kusatsu-2night.png',
         updated: '2026-10-19',
         onsen_ids: ['o-gunma-1'],
         body: `
@@ -568,7 +568,7 @@ export const articleList = [
         categoryLabel: 'モデルコース',
         published: '2026-04-24',
         description: '日本最古の温泉のひとつ・有馬と古都・京都を組み合わせた2泊3日プラン。金泉・銀泉の二刀流が楽しめる。',
-        image: './onsen/arima.png',
+        image: './thumbs/course-arima-kyoto-2night.png',
         updated: '2026-10-19',
         onsen_ids: ['o-hyogo-1'],
         body: `
@@ -605,7 +605,7 @@ export const articleList = [
         categoryLabel: 'モデルコース',
         published: '2026-04-24',
         description: '日本最大の湧出量を誇る別府と、おしゃれな高原温泉・由布院を組み合わせた九州温泉旅行の決定版。',
-        image: './onsen/beppu.png',
+        image: './thumbs/course-beppu-yufuin-3night.png',
         updated: '2026-10-19',
         onsen_ids: ['o-oita-1', 'o-oita-2'],
         body: `
@@ -645,7 +645,7 @@ export const articleList = [
         categoryLabel: 'モデルコース',
         published: '2026-04-24',
         description: '秘境感あふれる乳頭温泉郷（秋田）・大正浪漫の銀山温泉（山形）・多彩な泉質の鳴子温泉（宮城）を巡る東北温泉旅。',
-        image: './onsen/nyuto.png',
+        image: './thumbs/course-tohoku-hito-3night.png',
         updated: '2026-10-19',
         onsen_ids: ['o-akita-1', 'o-yamagata-1', 'o-miyagi-5'],
         body: `
@@ -687,7 +687,7 @@ export const articleList = [
         categoryLabel: 'モデルコース',
         published: '2026-04-24',
         description: '北海道を代表する温泉地・登別・洞爺湖・定山渓を巡る道央温泉旅。雄大な大自然と本格温泉の組み合わせ。',
-        image: './onsen/noboribetsu.png',
+        image: './thumbs/course-hokkaido-onsen-3night.png',
         updated: '2026-10-19',
         onsen_ids: ['o-hokkaido-1', 'o-hokkaido-2', 'o-hokkaido-5'],
         body: `
@@ -729,7 +729,7 @@ export const articleList = [
         categoryLabel: 'モデルコース',
         published: '2026-04-24',
         description: '伊豆半島の多彩な温泉地を日帰りで楽しむプラン。熱海・修善寺・伊東など、東京近郊の温泉を効率よく回る。',
-        image: './onsen/atami.png',
+        image: './thumbs/course-izu-daytrip.png',
         updated: '2026-10-19',
         onsen_ids: ['o-shizuoka-1', 'o-shizuoka-2', 'o-shizuoka-3'],
         body: `
@@ -770,7 +770,7 @@ export const articleList = [
         categoryLabel: 'モデルコース',
         published: '2026-04-24',
         description: '北陸新幹線で一気にアクセスできる石川県の加賀温泉郷。山代・山中・片山津の3温泉地と金沢観光を組み合わせた旅。',
-        image: './onsen/yamanaka.png',
+        image: './thumbs/course-kaga-noto-2night.png',
         updated: '2026-10-19',
         onsen_ids: ['o-ishikawa-1', 'o-ishikawa-3'],
         body: `
@@ -805,7 +805,7 @@ export const articleList = [
         categoryLabel: 'モデルコース',
         published: '2026-04-24',
         description: '浴衣と下駄で7つの外湯をめぐる城崎温泉。大阪駅から特急で約2時間40分。外湯めぐりの温泉文化を楽しむ1泊2日プラン。',
-        image: './onsen/kinosaki.png',
+        image: './thumbs/course-kinosaki-1night.png',
         updated: '2026-10-19',
         onsen_ids: ['o-hyogo-3'],
         body: `

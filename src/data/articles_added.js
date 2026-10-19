@@ -33,7 +33,7 @@ export const articles_added = [
     published: '2026-10-19',
     updated: '2026-10-19',
     description: '以前は温泉の禁忌症に「妊娠中」と書かれていましたが、環境省が平成26年に掲示基準を見直し、この項目は削除されました。いま掲示されている内容と、妊娠中に温泉へ行くときに気をつけたいことをまとめます。',
-    image: './onsen/yufuin.png',
+    image: './thumbs/ninshinchu-onsen.png',
     onsen_ids: [],
     sources: [SRC_KEIJI_KIJUN, SRC_HIROSHIMA_KEIJI],
     faqs: [
@@ -88,7 +88,7 @@ export const articles_added = [
     published: '2026-10-19',
     updated: '2026-10-19',
     description: '温泉宿の明細に入っている「入湯税」は、地方税法で決められた市町村の税金です。標準の税率は1人1日150円。何に使われるのか、日帰り入浴や子どもにもかかるのかを、法律と自治体の案内をもとにまとめました。',
-    image: './onsen/kusatsu.png',
+    image: './thumbs/nyutozei-guide.png',
     onsen_ids: [],
     sources: [SRC_CHIHOZEI, SRC_SAKAI_NYUTO, SRC_BUNKYO_NYUTO],
     faqs: [
@@ -135,7 +135,7 @@ export const articles_added = [
     published: '2026-10-19',
     updated: '2026-10-19',
     description: '国民保養温泉地は、温泉の効果が期待でき、健全な保養地として使える温泉地を環境大臣が指定する制度です。指定の基準と、全国の指定数、日本温泉で紹介している指定温泉地をまとめました。',
-    image: './onsen/shiman.png',
+    image: './thumbs/kokumin-hoyo-onsenchi-guide.png',
     onsen_ids: ['o-aomori-1', 'o-miyagi-1', 'o-yamagata-1', 'o-yamagata-2', 'o-tochigi-2', 'o-gunma-4', 'o-nagano-4', 'o-gifu-2', 'o-wakayama-4', 'o-okayama-1', 'o-oita-4', 'o-oita-2'],
     sources: [SRC_HOYO],
     faqs: [
@@ -197,7 +197,7 @@ export const articles_added = [
     published: '2026-10-19',
     updated: '2026-10-19',
     description: '温泉は入るだけでなく、決められた場所では飲むこともできます。環境省の基準にある、1回・1日の量の目安や15歳以下の人の扱い、持ち帰ってはいけない理由など、飲泉の前に知っておきたいルールをまとめました。',
-    image: './onsen/nagayu.png',
+    image: './thumbs/insen-guide.png',
     onsen_ids: [],
     sources: [SRC_KEIJI_KIJUN, SRC_HIROSHIMA_KEIJI],
     faqs: [
@@ -247,7 +247,7 @@ export const articles_added = [
     published: '2026-10-19',
     updated: '2026-10-19',
     description: '日本三古湯は、道後温泉（愛媛県）・有馬温泉（兵庫県）・白浜温泉（和歌山県）の3つ。いずれも古代の天皇の行幸が伝わる温泉です。それぞれの歴史と、いま訪ねるときのポイントを自治体や観光協会の資料をもとに紹介します。',
-    image: './onsen/dogo.png',
+    image: './thumbs/nihon-sankoto.png',
     onsen_ids: ['o-ehime-1', 'o-hyogo-1', 'o-wakayama-1'],
     sources: [SRC_DOGO_MANYO, SRC_ARIMA_HISTORY, SRC_SHIRAHAMA_SAKINOYU],
     faqs: [
@@ -292,7 +292,7 @@ export const articles_added = [
     published: '2026-10-19',
     updated: '2026-10-19',
     description: '温泉の泉質は、環境省の基準で10種類に分けられます。それぞれの基準と浴用の適応症を一覧にし、温泉分析書の泉質名の読み方と、自分に合う泉質の選び方をまとめました。',
-    image: './spring-types/iou.png',
+    image: './thumbs/onsen-sensitsu-10-types.png',
     onsen_ids: [],
     sources: [SRC_GUIDELINE, SRC_KEIJI, SRC_KEIJI_LAW],
     faqs: [
@@ -369,7 +369,7 @@ export const articles_added = [
     published: '2026-10-19',
     updated: '2026-10-19',
     description: 'タトゥーがある人の入浴の扱いは、施設ごとに違います。観光庁が施設向けに示した対応事例をもとに、行く前に確認すること、シールや貸切風呂など入りやすい方法をまとめました。',
-    image: './onsen/kusatsu.png',
+    image: './thumbs/tattoo-onsen-guide.png',
     onsen_ids: [],
     sources: [SRC_TATTOO],
     faqs: [
@@ -422,7 +422,7 @@ export const articles_added = [
     published: '2026-10-19',
     updated: '2026-10-19',
     description: '子どもが異性の親と一緒に入れる年齢は、国の目安が「7歳未満」に下がり、自治体の条例で決まります。混浴の年齢、子どもと入るときの注意、宿や日帰り温泉の選び方をまとめました。',
-    image: './onsen/kusatsu.png',
+    image: './thumbs/kids-onsen-guide.png',
     onsen_ids: [],
     sources: [SRC_KONYOKU, SRC_KONYOKU_SHIZUOKA, SRC_KEIJI],
     faqs: [
@@ -471,7 +471,7 @@ export const articles_added = [
     published: '2026-10-19',
     updated: '2026-10-19',
     description: '温泉は1日に何回、何分まで入っていいのか。環境省が改訂した掲示基準にもとづく入浴回数・時間の目安、入浴前後の注意、湯あたりの症状と対策をまとめました。',
-    image: './onsen/nyuto.png',
+    image: './thumbs/onsen-nyuyoku-kaisu-jikan.png',
     onsen_ids: [],
     sources: [SRC_KEIJI, SRC_KEIJI_LAW, SRC_CAA],
     faqs: [
@@ -528,7 +528,7 @@ export const articles_added = [
     published: '2026-10-19',
     updated: '2026-10-19',
     description: '雪景色を眺めながら入る露天風呂は冬の温泉旅のいちばんの楽しみ。雪の多い地域にある温泉地から7か所を、泉質と行き方とあわせて紹介します。冬の入浴で気をつけたいことも。',
-    image: './onsen/hirayu.png',
+    image: './thumbs/yukimi-rotenburo-onsen.png',
     onsen_ids: ['o-gifu-3', 'o-fukushima-6', 'o-tochigi-5', 'o-niigata-1', 'o-iwate-5', 'o-hokkaido-5', 'o-hokkaido-9'],
     sources: [SRC_CAA, { name: 'るるぶ&more「湯西川温泉 かまくら祭」', url: 'https://rurubu.jp/andmore/article/9414' }, { name: 'nippon.com「奥飛騨温泉郷」', url: 'https://www.nippon.com/ja/guide-to-japan/gu005006/' }, { name: '環境省 国民保養温泉地「高湯温泉」', url: 'https://www.env.go.jp/nature/onsen/area/pdf/hoyo_017.pdf' }],
     faqs: [
