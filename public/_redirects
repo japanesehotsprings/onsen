@@ -6,3 +6,6 @@
 /hotel/h-yamanashi-2-1 /onsen/o-yamanashi-2 301
 /hotel/h-kyoto-2-3 /onsen/o-kyoto-2 301
 /hotel/h-kagoshima-2-2 /onsen/o-kagoshima-2 301
+
+# Search Console の確認ファイル（.html のまま 200 で返す）
+/google829ff16b32aa99bd.html /google829ff16b32aa99bd 200
