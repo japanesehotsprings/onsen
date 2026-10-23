@@ -92,7 +92,11 @@ export function renderHotelDetail({ params }) {
       'addressCountry': 'JP'
     },
     ...(onsen ? { 'containedInPlace': { '@type': 'TouristAttraction', 'name': onsen.name } } : {})
-  }, faq_ld(answer.faqs)].filter(Boolean), { image: hotel.image });
+  }, faq_ld(answer.faqs)].filter(Boolean), {
+    image: hotel.image,
+    // 宿の固有情報（公式で裏取りした特徴など）を足して indexable: true を付けた宿だけ検索に出す（2026-10-23）
+    noindex: !hotel.indexable,
+  });
 
   app.innerHTML = `
     <div class="hotel-detail-hero">
