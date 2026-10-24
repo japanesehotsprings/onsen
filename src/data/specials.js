@@ -17,7 +17,7 @@ const SRC_GUIDELINE = { name: '環境省「鉱泉分析法指針（平成26年�
 export const specialList = [
     {
         id: 'yukimi-roten',
-        article_ids: ['yukimi-rotenburo-onsen', 'onsen-nyuyoku-kaisu-jikan'],
+        article_ids: ['yukimi-rotenburo-onsen', 'fuyu-nyuyoku-jiko', 'onsen-nyuyoku-kaisu-jikan'],
         title: '雪の季節に訪ねたい温泉地',
         subtitle: '冬の絶景温泉',
         season: 'winter',
@@ -140,7 +140,7 @@ export const specialList = [
         description: '国民保養温泉地は、温泉の効果が期待でき、健全な保養地として使える温泉地を、温泉法にもとづいて環境大臣が指定するものです。日本温泉で紹介している温泉地のうち、環境省の一覧に載っている温泉地を集めました。',
         onsen_ids: ['o-hokkaido-9', 'o-aomori-1', 'o-iwate-5', 'o-miyagi-1', 'o-akita-5', 'o-yamagata-1', 'o-yamagata-2', 'o-yamagata-6', 'o-fukushima-4', 'o-fukushima-6', 'o-tochigi-2', 'o-gunma-4', 'o-niigata-4', 'o-yamanashi-2', 'o-nagano-4', 'o-gifu-2', 'o-nara-2', 'o-wakayama-2', 'o-wakayama-4', 'o-okayama-1', 'o-okayama-2', 'o-hiroshima-2', 'o-kagawa-1', 'o-oita-2', 'o-oita-4', 'o-kagoshima-2'],
         hotel_ids: [],
-        article_ids: ['kokumin-hoyo-onsenchi-guide', 'onsen-nyuyoku-kaisu-jikan'],
+        article_ids: ['kokumin-hoyo-onsenchi-guide', 'gensensu-ranking', 'onsen-nyuyoku-kaisu-jikan'],
         note: '環境省の一覧では、複数の温泉地をまとめて1か所として指定している場合があります（例：土湯・高湯温泉郷、湯布院温泉郷）。ここでは、日本温泉に掲載している温泉地名で載せています。',
         sources: [SRC_HOYO],
         faqs: [
@@ -162,7 +162,7 @@ export const specialList = [
         description: '泉質に硫黄を含む温泉地を集めました。硫黄泉は、温泉1kgに総硫黄を2mg以上含む療養泉です。温泉地の中でも源泉や宿によって泉質が違うことがあるので、入る施設の掲示で確かめましょう。',
         onsen_ids: by_spring(/硫黄(?!成分)/),
         hotel_ids: [],
-        article_ids: ['onsen-sensitsu-10-types', 'onsen-nyuyoku-kaisu-jikan'],
+        article_ids: ['onsen-sensitsu-10-types', 'onsen-bunsekisho-mikata', 'onsen-nyuyoku-kaisu-jikan'],
         spring_type_id: 'sulfur',
         sources: [SRC_GUIDELINE],
         faqs: [
@@ -184,7 +184,7 @@ export const specialList = [
         description: '泉質にアルカリ性単純温泉を含む温泉地を集めました。アルカリ性単純温泉は、溶けている成分が1kgあたり1,000mg未満で25℃以上の単純温泉のうち、湧き出た場所で測ったpHが8.5以上のものです。',
         onsen_ids: by_spring(/(?<!弱)アルカリ性単純温泉/),
         hotel_ids: [],
-        article_ids: ['onsen-sensitsu-10-types', 'bijin-no-yu-guide'],
+        article_ids: ['onsen-sensitsu-10-types', 'onsen-bunsekisho-mikata', 'bijin-no-yu-guide'],
         spring_type_id: 'alkaline',
         sources: [SRC_GUIDELINE],
         faqs: [

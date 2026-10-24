@@ -549,6 +549,137 @@ export const scenes = {
     `<path d="M380 700 q60 -40 120 0 q60 40 120 0" stroke="#ffffff" stroke-width="8" fill="none" opacity="0.6"/>`,
   ].join(''),
 
+  // 温泉とは（定義）：地層の断面。地下深くの熱で温まった水が湧き上がる
+  'onsen-teigi': ctx => {
+    const parts = [P.sky(ctx, ['#9fcbe6', '#dcecf3'])];
+    parts.push(P.ridge(ctx, { base: 260, amp: 80, color: '#7fae94', seed: 201 }));
+    parts.push(`<rect x="0" y="330" width="${W}" height="${H - 330}" fill="#6f8f5a"/>`);
+    // 地層（帯）
+    const layers = ['#9a7b55', '#b08d62', '#8a6a48', '#a1825c', '#6f5640'];
+    layers.forEach((c, i) => {
+      const y = 360 + i * 110;
+      parts.push(`<path d="M0 ${y} Q400 ${y - 20} 800 ${y + 10} T1600 ${y - 5} L1600 ${H} L0 ${H} Z" fill="${c}"/>`);
+    });
+    // 地下の熱
+    parts.push(`<ellipse cx="800" cy="1060" rx="900" ry="200" fill="url(#${P.rad(ctx, [['#ff7a3a', 0.9], ['#ff7a3a', 0]])})"/>`);
+    // 湧き上がる湯の道
+    parts.push(`<path d="M780 980 C 700 860 900 760 820 640 C 760 540 860 460 800 360" stroke="#7fd0e0" stroke-width="34" fill="none" stroke-linecap="round"/>`);
+    parts.push(`<path d="M780 980 C 700 860 900 760 820 640 C 760 540 860 460 800 360" stroke="#c9f0f6" stroke-width="10" fill="none" stroke-linecap="round" stroke-dasharray="20 26"/>`);
+    // 地表の湯
+    parts.push(P.pool(ctx, { cx: 800, cy: 345, rx: 230, ry: 46, water: ['#e8f7f8', '#7fc6cf'], rock: '#5f5a54', seed: 3 }));
+    parts.push(P.steam(ctx, { x: 800, y: 320, h: 260, n: 5, spread: 260, width: 40, opacity: 0.55 }));
+    parts.push(P.cedars(ctx, { y: 340, from: 60, to: 420, h: 150, color: '#3f6b55', seed: 2 }));
+    parts.push(P.cedars(ctx, { y: 340, from: 1200, to: 1560, h: 150, color: '#3f6b55', seed: 4 }));
+    return parts.join('');
+  },
+
+  // 温泉分析書の見方：湯殿の壁の掲示と虫めがね、pHの色見本
+  'onsen-bunsekisho-mikata': ctx => [
+    P.sky(ctx, ['#efe6d6', '#e4d8c2']),
+    ...Array.from({ length: 16 }, (_, i) => `<rect x="${i * 104}" y="0" width="98" height="${H}" fill="${i % 2 ? '#d9c5a2' : '#dfcca9'}"/>`),
+    // 掲示板
+    `<rect x="300" y="120" width="620" height="760" fill="#6b4a33"/><rect x="330" y="150" width="560" height="700" fill="#f7f2e6"/>`,
+    `<rect x="380" y="190" width="460" height="34" fill="#3b4d6b"/>`,
+    ...Array.from({ length: 11 }, (_, i) => `<rect x="380" y="${260 + i * 44}" width="${[420, 360, 400, 300, 440, 380, 260, 420, 340, 400, 300][i]}" height="12" rx="6" fill="#b9b2a5"/>`),
+    `<rect x="380" y="770" width="180" height="40" fill="none" stroke="#c8402e" stroke-width="5"/>`,
+    // 虫めがね
+    `<circle cx="830" cy="560" r="130" fill="#ffffff" opacity="0.35" stroke="#2f2f2f" stroke-width="22"/>`,
+    `<rect x="920" y="640" width="46" height="220" rx="20" transform="rotate(-40 920 640)" fill="#7a4a2a"/>`,
+    // pHの色見本（酸性→アルカリ性）
+    ...['#e2563a', '#ec9a3a', '#c9c94a', '#5fae7a', '#4a7ec4'].map((c, i) => `<rect x="${1080 + i * 84}" y="300" width="70" height="300" rx="12" fill="${c}"/>`),
+    `<rect x="1060" y="280" width="450" height="340" rx="22" fill="none" stroke="#6b4a33" stroke-width="10"/>`,
+    `<rect x="0" y="880" width="${W}" height="${H - 880}" fill="#8f877c"/>`,
+    P.yuoke(ctx, 1280, 860, 150, '#d6a46a'),
+  ].join(''),
+
+  // 加水・加温・循環・消毒：湯船につながる水・湯・循環の管
+  'kasui-kaon-junkan': ctx => [
+    P.sky(ctx, ['#e3eef0', '#f3f6f3']),
+    `<rect x="0" y="0" width="${W}" height="${H}" fill="#d9e2e0"/>`,
+    ...Array.from({ length: 12 }, (_, r) => Array.from({ length: 20 }, (_, c) => `<rect x="${c * 80 + 3}" y="${r * 80 + 3}" width="74" height="74" fill="#e8eeec"/>`).join('')),
+    `<rect x="0" y="700" width="${W}" height="${H - 700}" fill="#8f9a98"/>`,
+    P.wood_tub(ctx, { x: 460, y: 470, w: 680, h: 260, wood: '#cf9f66', water: ['#e9f6f3', '#86c4c0'] }),
+    P.steam(ctx, { x: 800, y: 470, h: 300, n: 6, spread: 600, width: 50, opacity: 0.35 }),
+    // 水（青）の管と蛇口
+    `<path d="M120 200 L300 200 L300 420 L470 420" stroke="#4a8fd0" stroke-width="34" fill="none" stroke-linejoin="round"/>`,
+    `<circle cx="210" cy="200" r="38" fill="#2f6fa8"/><path d="M470 400 q24 0 24 30" stroke="#4a8fd0" stroke-width="20" fill="none"/>`,
+    `<path d="M494 440 q-10 30 0 40 q10 -10 0 -40" fill="#9fd0f0"/>`,
+    // 湯（赤）の管
+    `<path d="M1480 200 L1300 200 L1300 420 L1130 420" stroke="#d9573a" stroke-width="34" fill="none" stroke-linejoin="round"/>`,
+    `<rect x="1380" y="150" width="120" height="100" rx="14" fill="#b8402e"/>`,
+    ...[0, 1, 2].map(i => `<path d="M${1405 + i * 34} 190 q10 -14 0 -28 q-10 -14 0 -28" stroke="#ffd2a0" stroke-width="7" fill="none"/>`),
+    // 循環（下を回る管と矢印）
+    `<path d="M520 740 Q520 900 800 900 Q1080 900 1080 740" stroke="#5aa37a" stroke-width="30" fill="none"/>`,
+    `<polygon points="1080,700 1110,760 1050,760" fill="#5aa37a"/>`,
+    `<rect x="740" y="860" width="120" height="80" rx="14" fill="#3f7a5a"/>`,
+  ].join(''),
+
+  // 源泉数ランキング：表彰台の上で湯けむりを上げる三つの湯
+  'gensensu-ranking': ctx => {
+    const parts = [P.sky(ctx, ['#f4c58a', '#f8e3c2', '#eef0e6'])];
+    parts.push(P.ridge(ctx, { base: 430, amp: 90, color: '#a98a7a', seed: 211 }));
+    [140, 300, 1300, 1460].forEach((x, i) => parts.push(P.steam(ctx, { x, y: 470, h: 260, n: 3, spread: 50, width: 36, opacity: 0.45, seed: i + 30 })));
+    parts.push(`<rect x="0" y="470" width="${W}" height="${H - 470}" fill="#8a7a62"/>`);
+    // 表彰台
+    const podium = [[560, 480, 400, '#d9b45a'], [180, 620, 380, '#b9bcc2'], [960, 680, 380, '#c98a52']];
+    podium.forEach(([x, y, w, c]) => {
+      parts.push(`<rect x="${x}" y="${y}" width="${w}" height="${H - y}" fill="${c}"/><rect x="${x}" y="${y}" width="${w}" height="18" fill="${P.shade(c, 0.2)}"/>`);
+    });
+    parts.push(P.round_tub(ctx, { cx: 760, cy: 450, rx: 150, ry: 44, water: ['#f3e4c8', '#c99a5a'] }));
+    parts.push(P.round_tub(ctx, { cx: 370, cy: 592, rx: 130, ry: 40, water: ['#eef6f6', '#9fd0d6'] }));
+    parts.push(P.round_tub(ctx, { cx: 1150, cy: 652, rx: 130, ry: 40, water: ['#eef0e6', '#b9c98f'] }));
+    parts.push(P.steam(ctx, { x: 760, y: 420, h: 340, n: 5, spread: 200, width: 46, opacity: 0.55 }));
+    parts.push(P.steam(ctx, { x: 370, y: 570, h: 260, n: 3, spread: 150, width: 40, opacity: 0.5 }));
+    parts.push(P.steam(ctx, { x: 1150, y: 630, h: 240, n: 3, spread: 150, width: 40, opacity: 0.5 }));
+    // 星（1位）
+    parts.push(`<polygon points="760,150 778,200 832,200 788,232 805,284 760,252 715,284 732,232 688,200 742,200" fill="#f2d06a"/>`);
+    return parts.join('');
+  },
+
+  // 冬の入浴事故を防ぐ：暖めた脱衣所（暖房の灯り）と、雪の夜の窓
+  'fuyu-nyuyoku-jiko': ctx => [
+    P.sky(ctx, ['#3a2e2a', '#4a3a30']),
+    `<rect x="0" y="0" width="${W}" height="${H}" fill="#c9ab84"/>`,
+    ...Array.from({ length: 16 }, (_, i) => `<rect x="${i * 104}" y="0" width="98" height="680" fill="${i % 2 ? '#c2a37a' : '#cbad85'}"/>`),
+    // 窓（雪の夜）
+    `<rect x="880" y="120" width="560" height="400" fill="url(#${P.lin(ctx, ['#1a2a48', '#34507a'])})"/>`,
+    ...(() => { const r = P.rng(61); return Array.from({ length: 46 }, () => `<circle cx="${(900 + r() * 520).toFixed(1)}" cy="${(140 + r() * 330).toFixed(1)}" r="${(2.5 + r() * 5).toFixed(1)}" fill="#ffffff" opacity="${(0.55 + r() * 0.4).toFixed(2)}"/>`); })(),
+    `<path d="M880 470 Q1160 430 1440 480 L1440 520 L880 520 Z" fill="#eef2f7"/>`,
+    `<rect x="880" y="120" width="560" height="400" fill="none" stroke="#5a3b28" stroke-width="18"/><rect x="1152" y="120" width="16" height="400" fill="#5a3b28"/>`,
+    // 暖房（あたたかい光）
+    `<circle cx="380" cy="520" r="320" fill="url(#${P.rad(ctx, [['#ffb45a', 0.55], ['#ffb45a', 0]])})"/>`,
+    `<rect x="250" y="380" width="260" height="300" rx="20" fill="#e9e1d2"/>`,
+    ...[0, 1, 2, 3].map(i => `<rect x="280" y="${420 + i * 52}" width="200" height="26" rx="12" fill="#ff8a3a"/>`),
+    `<rect x="0" y="680" width="${W}" height="${H - 680}" fill="#9a7a58"/>`,
+    ...Array.from({ length: 6 }, (_, i) => `<line x1="0" y1="${700 + i * 55}" x2="${W}" y2="${700 + i * 55}" stroke="#86684a" stroke-width="3"/>`),
+    // 籠とたたんだ浴衣、水の入ったコップ
+    `<rect x="700" y="720" width="300" height="130" rx="18" fill="#b58a52"/>`,
+    ...[0, 1, 2, 3, 4, 5].map(i => `<line x1="${720 + i * 50}" y1="725" x2="${720 + i * 50}" y2="845" stroke="#8a6438" stroke-width="5"/>`),
+    `<rect x="720" y="700" width="260" height="50" rx="10" fill="#2c4a7a"/>`,
+    `<path d="M1150 720 L1230 720 L1220 840 L1160 840 Z" fill="#e6f3f6" opacity="0.85" stroke="#9ab7bf" stroke-width="4"/><path d="M1156 770 L1224 770 L1220 840 L1160 840 Z" fill="#a9d6e3"/>`,
+  ].join(''),
+
+  // 温泉・銭湯・スーパー銭湯：銭湯の富士山のペンキ絵とタイルの湯船
+  'sento-onsen-chigai': ctx => [
+    P.sky(ctx, ['#f3efe6', '#ece6d8']),
+    // ペンキ絵
+    `<rect x="120" y="80" width="1360" height="480" fill="url(#${P.lin(ctx, ['#7fb6e0', '#cfe6f4'])})"/>`,
+    P.fuji(ctx, 800, 520, 1000, 380, '#4f6fa8'),
+    `<path d="M120 500 Q500 470 800 510 T1480 495 L1480 560 L120 560 Z" fill="#3f7a5a"/>`,
+    `<path d="M120 540 Q600 520 1480 545 L1480 560 L120 560 Z" fill="#5a9ac4"/>`,
+    P.pine(ctx, 260, 560, 260, '#2e5a40'), P.pine(ctx, 1340, 560, 240, '#2e5a40'),
+    `<rect x="120" y="80" width="1360" height="480" fill="none" stroke="#e9e1d2" stroke-width="16"/>`,
+    // タイルの壁と湯船
+    `<rect x="0" y="560" width="${W}" height="${H - 560}" fill="#dfe8ea"/>`,
+    ...Array.from({ length: 6 }, (_, r) => Array.from({ length: 27 }, (_, c) => `<rect x="${c * 60 + 2}" y="${560 + r * 60 + 2}" width="56" height="56" fill="${(r + c) % 7 === 0 ? '#b9d4dc' : '#eef4f5'}"/>`).join('')),
+    `<rect x="160" y="640" width="1280" height="200" fill="#6fa8bc"/>`,
+    `<rect x="140" y="620" width="1320" height="30" fill="#c9d6d8"/>`,
+    `<rect x="160" y="650" width="1280" height="190" fill="url(#${P.lin(ctx, ['#d6f0f4', '#7fbccc'])})"/>`,
+    P.steam(ctx, { x: 800, y: 650, h: 260, n: 6, spread: 1100, width: 54, opacity: 0.35 }),
+    P.yuoke(ctx, 300, 960, 120, '#f2e6c8', '#d8c050'),
+    P.yuoke(ctx, 1300, 960, 120, '#f2e6c8', '#d8c050'),
+  ].join(''),
+
 };
 
 // ── この絵だけで使う部品 ─────────────────────────────
