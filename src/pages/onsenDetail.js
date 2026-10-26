@@ -29,11 +29,12 @@ export function renderOnsenDetail({ params }) {
 
   const answer = build_onsen_answer(onsen, prefecture, hotels);
 
-  updateSEO(`${onsen.name}（${prefecture?.name || ''}）の温泉宿・詳細情報`, onsen.description, [{
+  const meta_description = onsen.meta_description || onsen.description;
+  updateSEO(`${onsen.name}（${prefecture?.name || ''}）の温泉宿・詳細情報`, meta_description, [{
     '@context': 'https://schema.org',
     '@type': 'TouristAttraction',
     'name': onsen.name,
-    'description': onsen.description,
+    'description': meta_description,
     'address': {
       '@type': 'PostalAddress',
       'addressRegion': prefecture?.name || '',
@@ -82,7 +83,7 @@ export function renderOnsenDetail({ params }) {
 
             <div class="onsen-detail-card">
               <h2 class="onsen-detail-heading">この温泉地について</h2>
-              <p class="onsen-detail-desc">${onsen.description}</p>
+              <p class="onsen-detail-desc">${onsen.intro || onsen.description}</p>
               <div class="onsen-info-tags">
                 ${onsen.tags.map(t => `<span class="tag">${t}</span>`).join('')}
               </div>
@@ -97,6 +98,29 @@ export function renderOnsenDetail({ params }) {
             </div>
             ` : ''}
 
+            ${onsen.highlights?.length ? `
+            <div class="onsen-detail-card">
+              <h2 class="onsen-detail-heading">
+                <span class="onsen-heading-icon">📍</span>${onsen.name}の見どころ
+              </h2>
+              <dl class="onsen-point-list">
+                ${onsen.highlights.map(h => `<dt>${esc(h.name)}</dt><dd>${esc(h.note)}</dd>`).join('')}
+              </dl>
+            </div>
+            ` : ''}
+
+            ${onsen.day_trip?.places?.length ? `
+            <div class="onsen-detail-card">
+              <h2 class="onsen-detail-heading">
+                <span class="onsen-heading-icon">🛁</span>日帰り入浴できる施設
+              </h2>
+              <dl class="onsen-point-list">
+                ${onsen.day_trip.places.map(d => `<dt>${esc(d.name)}</dt><dd>${esc(d.note)}</dd>`).join('')}
+              </dl>
+              <p class="onsen-point-note">料金・営業時間・休館日は変わることがあります。各施設の公式案内で確認してください。</p>
+            </div>
+            ` : ''}
+
             ${faq_section(`${onsen.name}のよくある質問`, answer.faqs)}
 
             ${in_specials.length || in_articles.length ? `
@@ -107,6 +131,17 @@ export function renderOnsenDetail({ params }) {
               <ul class="onsen-related-links">
                 ${in_specials.map(s => `<li><a href="/special/${s.id}">特集：${esc(s.title)}</a></li>`).join('')}
                 ${in_articles.map(a => `<li><a href="/article/${a.id}">コラム：${esc(a.title)}</a></li>`).join('')}
+              </ul>
+            </div>
+            ` : ''}
+
+            ${onsen.sources?.length ? `
+            <div class="onsen-detail-card onsen-sources">
+              <h2 class="onsen-detail-heading">
+                <span class="onsen-heading-icon">📚</span>参考にした公式情報
+              </h2>
+              <ul class="onsen-related-links">
+                ${onsen.sources.map(r => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a></li>`).join('')}
               </ul>
             </div>
             ` : ''}
@@ -193,6 +228,16 @@ export function renderOnsenDetail({ params }) {
                 <div class="onsen-info-row">
                   <span class="onsen-info-label">電車</span>
                   <span class="onsen-info-value">${onsen.access.by_train}</span>
+                </div>` : ''}
+                ${onsen.access.from_tokyo ? `
+                <div class="onsen-info-row">
+                  <span class="onsen-info-label">東京から</span>
+                  <span class="onsen-info-value">${onsen.access.from_tokyo}</span>
+                </div>` : ''}
+                ${onsen.access.from_osaka ? `
+                <div class="onsen-info-row">
+                  <span class="onsen-info-label">大阪から</span>
+                  <span class="onsen-info-value">${onsen.access.from_osaka}</span>
                 </div>` : ''}
                 ${onsen.access.by_car ? `
                 <div class="onsen-info-row">
@@ -309,6 +354,14 @@ function build_onsen_answer(onsen, prefecture, hotels) {
       a: [ac.by_train && sentence(ac.by_train), ac.nearest_station && `最寄り駅は${ac.nearest_station}です。`].filter(Boolean).join(''),
     });
   }
+  if (onsen.day_trip?.places?.length) {
+    faqs.push({
+      q: `${onsen.name}は日帰りで入浴できますか？`,
+      a: `${onsen.day_trip.places.map(d => d.name).join('・')}などで日帰り入浴できます。` + (onsen.day_trip.faq_note ? sentence(onsen.day_trip.faq_note) : '') + '料金・営業時間は各施設の公式案内で確認してください。',
+    });
+  }
+  if (ac.from_tokyo) faqs.push({ q: `東京から${onsen.name}への行き方は？`, a: sentence(ac.from_tokyo) });
+  if (ac.from_osaka) faqs.push({ q: `大阪から${onsen.name}への行き方は？`, a: sentence(ac.from_osaka) });
   if (hotels.length) {
     const names = hotels.slice(0, 5).map(h => h.name).join('、');
     faqs.push({

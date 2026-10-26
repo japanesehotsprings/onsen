@@ -1,3 +1,4 @@
+import { onsenEnrich } from './onsen_enrich.js';
 /**
  * 47都道府県の温泉データ
  * 各温泉地の詳細情報を管理するモジュール
@@ -3219,6 +3220,15 @@ export const onsenList = [
         source_note: "jalan yad352977 / knt S470170"
     }
 ];
+
+// 温泉地ページの追加情報（onsen_enrich.js）を同じ id の温泉地に足す
+for (const o of onsenList) {
+    const e = onsenEnrich[o.id];
+    if (!e) continue;
+    const { access, ...rest } = e;
+    Object.assign(o, rest);
+    if (access) o.access = { ...o.access, ...access };
+}
 
 export function getOnsenByPrefecture(prefectureId) {
     return onsenList.filter(o => o.prefecture === prefectureId);
