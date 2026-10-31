@@ -131,8 +131,8 @@ export function renderHotelDetail({ params }) {
 
             ${onsen ? `
             <div class="hotel-detail-card hotel-detail-onsen-card">
-              <h2 class="hotel-detail-card-title">温泉地情報</h2>
-              <div class="hotel-onsen-info">
+              <h2 class="hotel-detail-card-title">${card_icon('onsen')}<span>温泉地情報</span></h2>
+              <div class="hotel-detail-card-body hotel-onsen-info">
                 <img src="${onsen.image}" alt="${onsen.name}" class="hotel-onsen-thumb">
                 <div class="hotel-onsen-text">
                   <h3 class="hotel-onsen-name">
@@ -200,13 +200,32 @@ export function renderHotelDetail({ params }) {
 }
 
 /**
- * 見出し＋本文（または項目のチップ）のカード
+ * 項目ごとの小さなアイコン（線画のSVG）
  */
-function info_card(title, body) {
+const CARD_ICONS = {
+  bath: '<path d="M3 12h18v2a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5v-2z"/><path d="M8 8c0-1.5 1-1.5 1-3M12 8c0-1.5 1-1.5 1-3M16 8c0-1.5 1-1.5 1-3"/>',
+  meal: '<path d="M3 11h18a9 9 0 0 1-18 0z"/><path d="M8 4l2 5M14 3l-1 6"/>',
+  access: '<path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/>',
+  facility: '<path d="M4 21V9l8-5 8 5v12"/><path d="M9 21v-6h6v6"/>',
+  room: '<path d="M3 18V8M21 18v-5a3 3 0 0 0-3-3h-8v8"/><path d="M3 14h18"/><circle cx="6.5" cy="11" r="1.5"/>',
+  care: '<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>',
+  gift: '<rect x="3" y="9" width="18" height="12" rx="1"/><path d="M12 9v12M3 13h18M12 9c-2-4-6-4-6-1.5S10 9 12 9zM12 9c2-4 6-4 6-1.5S14 9 12 9z"/>',
+  onsen: '<path d="M4 15c0 3 3.6 5 8 5s8-2 8-5"/><path d="M8 12c0-2 1.5-2 1.5-4S8 6 8 4M12 12c0-2 1.5-2 1.5-4S12 6 12 4M16 12c0-2 1.5-2 1.5-4S16 6 16 4"/>',
+};
+
+function card_icon(icon) {
+  if (!CARD_ICONS[icon]) return '';
+  return `<span class="hotel-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${CARD_ICONS[icon]}</svg></span>`;
+}
+
+/**
+ * 見出し＋本文（または項目のチップ）のカード。見出しは淡い色の帯にアイコンを添える
+ */
+function info_card(title, body, icon = '') {
   return `
     <div class="hotel-detail-card">
-      <h2 class="hotel-detail-card-title">${title}</h2>
-      ${body}
+      <h2 class="hotel-detail-card-title">${card_icon(icon)}<span>${title}</span></h2>
+      <div class="hotel-detail-card-body">${body}</div>
     </div>
   `;
 }
@@ -240,18 +259,18 @@ function hotel_tagline(hotel) {
 function hotel_info_sections(hotel) {
   if (!hotel.rooms && !hotel.baths?.length) return '';
   const meals = [
-    hotel.breakfast?.length ? `<p class="hotel-info-text"><strong>朝食：</strong>${hotel.breakfast.join('、')}</p>` : '',
-    hotel.dinner?.length ? `<p class="hotel-info-text"><strong>夕食：</strong>${hotel.dinner.join('、')}</p>` : '',
+    hotel.breakfast?.length ? `<div class="hotel-meal"><span class="hotel-meal-label">朝食</span><p class="hotel-meal-text">${hotel.breakfast.join('、')}</p></div>` : '',
+    hotel.dinner?.length ? `<div class="hotel-meal"><span class="hotel-meal-label">夕食</span><p class="hotel-meal-text">${hotel.dinner.join('、')}</p></div>` : '',
   ].join('');
   return [
-    hotel.inclusive ? info_card(hotel.inclusive, `<p class="hotel-info-text">${hotel.inclusive_note}</p>`) : '',
-    hotel.baths?.length ? info_card('お風呂', chip_list(hotel.baths)) : '',
-    meals ? info_card('お食事', meals) : '',
-    hotel.access?.length ? info_card('アクセス', `<ul class="hotel-access-list">${hotel.access.map(x => `<li>${x}</li>`).join('')}</ul>`) : '',
-    hotel.facilities?.length ? info_card('館内の設備・サービス', chip_list(hotel.facilities)) : '',
-    hotel.room_items?.length ? info_card('客室の設備・備品', chip_list(hotel.room_items)) : '',
-    hotel.barrier?.length ? info_card('バリアフリー・配慮', chip_list(hotel.barrier)) : '',
-    hotel.privilege ? info_card('宿泊特典', `<p class="hotel-info-text">${hotel.privilege}</p>`) : '',
+    hotel.inclusive ? info_card(hotel.inclusive, `<p class="hotel-info-text">${hotel.inclusive_note}</p>`, 'care') : '',
+    hotel.baths?.length ? info_card('お風呂', chip_list(hotel.baths), 'bath') : '',
+    meals ? info_card('お食事', `<div class="hotel-meals">${meals}</div>`, 'meal') : '',
+    hotel.access?.length ? info_card('アクセス', `<ul class="hotel-access-list">${hotel.access.map(x => `<li>${x}</li>`).join('')}</ul>`, 'access') : '',
+    hotel.facilities?.length ? info_card('館内の設備・サービス', chip_list(hotel.facilities), 'facility') : '',
+    hotel.room_items?.length ? info_card('客室の設備・備品', chip_list(hotel.room_items), 'room') : '',
+    hotel.barrier?.length ? info_card('バリアフリー・配慮', chip_list(hotel.barrier), 'care') : '',
+    hotel.privilege ? info_card('宿泊特典', `<p class="hotel-info-text">${hotel.privilege}</p>`, 'gift') : '',
     `<p class="hotel-info-source">この情報は楽天トラベルの掲載情報（${HOTEL_DETAILS_FETCHED_AT.replaceAll('-', '/')} 時点）をもとにしています。変更されている場合があるため、最新の内容は宿や予約サイトでご確認ください。</p>`,
   ].join('');
 }

@@ -1196,10 +1196,13 @@ ul {
 
 .footer-links {
   display: flex;
-  gap: var(--spacing-md);
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem var(--spacing-md);
 }
 
 .footer-links a {
+  white-space: nowrap;
   font-size: 0.85rem;
   color: rgba(255, 255, 255, 0.4);
 }
@@ -1818,7 +1821,7 @@ ul {
 
 .hotel-detail-info-section {
   padding: var(--spacing-xl) 0;
-  background: var(--color-bg);
+  background: linear-gradient(180deg, var(--color-bg) 0, var(--color-bg-alt) 240px);
 }
 
 .hotel-detail-grid {
@@ -1832,20 +1835,50 @@ ul {
   margin-bottom: var(--spacing-lg);
 }
 
+/* 宿の各項目（お風呂・お食事・アクセスなど）のカード */
 .hotel-detail-card {
   background: #ffffff;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
-  padding: var(--spacing-lg);
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(90, 55, 25, 0.06);
 }
 
 .hotel-detail-card-title {
-  font-size: 1.25rem;
-  color: var(--color-text);
-  margin-bottom: var(--spacing-md);
-  padding-bottom: var(--spacing-sm);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0.9rem var(--spacing-md);
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  letter-spacing: 0.06em;
+  color: var(--color-primary-dark);
+  background: linear-gradient(90deg, var(--color-surface) 0%, #fffaf3 70%, #ffffff 100%);
   border-bottom: 1px solid var(--color-border);
+}
+
+.hotel-card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid var(--color-border-hover);
+  color: var(--color-primary);
+}
+
+.hotel-card-icon svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.hotel-detail-card-body {
+  padding: var(--spacing-md);
 }
 
 .hotel-info-text {
@@ -1873,17 +1906,85 @@ ul {
 }
 
 .hotel-chip-list li {
-  padding: 0.25rem 0.75rem;
-  background: var(--color-bg);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.85rem;
+  background: var(--color-bg-alt);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-full);
   font-size: 0.875rem;
+  color: var(--color-text);
 }
 
-.hotel-access-list {
-  padding-left: 1.25rem;
+.hotel-chip-list li::before {
+  content: '';
+  flex: none;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background: var(--color-primary-light);
+}
+
+/* お食事：朝食・夕食を並べた小さなパネル */
+.hotel-meals {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 0.75rem;
+}
+
+.hotel-meal {
+  padding: 0.9rem 1rem;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.hotel-meal-label {
+  display: inline-block;
+  margin-bottom: 0.4rem;
+  padding: 0.1rem 0.7rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+  background: var(--color-primary);
+  border-radius: var(--radius-full);
+}
+
+.hotel-meal-text {
   margin: 0;
-  line-height: 1.8;
+  line-height: 1.7;
+}
+
+/* アクセス：経路ごとに淡い帯で区切る */
+.hotel-access-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.hotel-access-list li {
+  position: relative;
+  padding: 0.7rem 1rem 0.7rem 2.1rem;
+  background: var(--color-bg-alt);
+  border-left: 3px solid var(--color-primary-light);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.hotel-access-list li::before {
+  content: '';
+  position: absolute;
+  left: 0.85rem;
+  top: 1.25rem;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  border: 2px solid var(--color-primary);
 }
 
 .hotel-info-list {
