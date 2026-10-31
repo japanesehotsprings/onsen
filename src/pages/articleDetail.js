@@ -3,6 +3,7 @@ import { onsenList } from '../data/onsen.js';
 import { updateSEO, absolute_url } from '../seo.js';
 import { faq_section, faq_ld, esc } from '../components/answer.js';
 import { specialList } from '../data/specials.js';
+import { articlePhotos } from '../data/article_photos.js';
 import { SITE_URL } from '../config.js';
 
 export function renderArticleDetail({ params }) {
@@ -41,10 +42,12 @@ export function renderArticleDetail({ params }) {
     ].filter(Boolean).join('・');
 
     const relatedOnsen = onsenList.filter(o => article.onsen_ids.includes(o.id));
+    // サムネ写真の説明とクレジット
+    const photo = articlePhotos[article.id];
 
     app.innerHTML = `
         <div class="prefecture-hero onsen-hero">
-            <img src="${article.image}" alt="${article.title}" class="prefecture-hero-bg">
+            <img src="${article.image}" alt="${esc(photo?.alt || article.title)}" class="prefecture-hero-bg">
             <div class="prefecture-hero-overlay"></div>
             <div class="prefecture-hero-content">
                 <nav class="breadcrumb breadcrumb-light">
@@ -84,6 +87,8 @@ export function renderArticleDetail({ params }) {
                         ${relatedSpecials.map(s => `<li><a href="/special/${s.id}">${esc(s.title)}</a></li>`).join('')}
                     </ul>
                 </section>` : ''}
+                ${photo ? `
+                <p class="article-photo-credit">写真: <a href="${esc(photo.page)}" target="_blank" rel="noopener">${esc(photo.artist)}（Wikimedia Commons）</a>、${photo.license_url ? `<a href="${esc(photo.license_url)}" target="_blank" rel="noopener">${esc(photo.license)}</a>` : esc(photo.license)}。サイズを縮小して掲載しています。</p>` : ''}
             </div>
         </section>
 

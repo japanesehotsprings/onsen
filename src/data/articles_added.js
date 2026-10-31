@@ -39,7 +39,7 @@ export const articles_added = [
     published: '2026-10-25',
     updated: '2026-10-25',
     description: '日本の「温泉」は温泉法で決められています。湧き出たときに25℃以上か、決められた19の成分のどれかを基準量以上含めば温泉です。冷たくても温泉になる理由、療養泉との違い、施設の掲示で確かめる方法を法律の条文をもとにまとめました。',
-    image: './thumbs/onsen-teigi.png',
+    image: './article-photos/onsen-teigi.webp',
     onsen_ids: [],
     sources: [SRC_ONSENHO, SRC_GUIDELINE],
     faqs: [
@@ -103,7 +103,7 @@ export const articles_added = [
     published: '2026-10-25',
     updated: '2026-10-25',
     description: '脱衣所に貼られた温泉分析書（成分の掲示）には、泉質名のほかに泉温・pH・浸透圧が書かれています。環境省の鉱泉分析法指針の区分をもとに、「低張性・弱アルカリ性・高温泉」のような表記の意味と、掲示で確かめたいポイントを解説します。',
-    image: './thumbs/onsen-bunsekisho-mikata.png',
+    image: './article-photos/onsen-bunsekisho-mikata.webp',
     onsen_ids: [],
     sources: [SRC_GUIDELINE, SRC_ONSENHO_KISOKU, SRC_ONSENHO_REI],
     faqs: [
@@ -184,7 +184,7 @@ export const articles_added = [
     published: '2026-10-25',
     updated: '2026-10-25',
     description: '温泉施設の掲示には、水を加えているか（加水）、温めているか（加温）、循環させているか、入浴剤や消毒を使っているかが書かれます。温泉法施行規則で決められた表示の中身と、源泉かけ流しの湯を探すときの見方をまとめました。',
-    image: './thumbs/kasui-kaon-junkan.png',
+    image: './article-photos/kasui-kaon-junkan.webp',
     onsen_ids: [],
     sources: [SRC_ONSENHO_KISOKU, SRC_ONSENHO],
     faqs: [
@@ -231,7 +231,7 @@ export const articles_added = [
     published: '2026-10-25',
     updated: '2026-10-25',
     description: '源泉の数が日本一多いのは大分県、温泉地の数が一番多いのは北海道です。環境省「令和6年度温泉利用状況」（令和7年3月末現在）から、源泉数・温泉地数・湧出量・宿泊利用者数の上位10都道府県と全国の数字をまとめました。',
-    image: './thumbs/gensensu-ranking.png',
+    image: './article-photos/gensensu-ranking.webp',
     onsen_ids: ['o-oita-1', 'o-oita-2', 'o-kagoshima-1', 'o-hokkaido-1', 'o-nagano-2', 'o-shizuoka-1'],
     sources: [SRC_RIYO_R6],
     faqs: [
@@ -300,7 +300,7 @@ export const articles_added = [
     published: '2026-10-25',
     updated: '2026-10-25',
     description: '高齢者の入浴中の事故は11月から4月の冬に多く起きています。消費者庁が呼びかける「湯温41℃以下・10分まで」などの5つの対策と、温泉旅行で気をつけたいこと（露天風呂・飲酒・ひとりの入浴）をまとめました。',
-    image: './thumbs/fuyu-nyuyoku-jiko.png',
+    image: './article-photos/fuyu-nyuyoku-jiko.webp',
     onsen_ids: [],
     sources: [SRC_CAA, SRC_KEIJI_KIJUN],
     faqs: [
@@ -348,7 +348,7 @@ export const articles_added = [
     published: '2026-10-25',
     updated: '2026-10-25',
     description: '「温泉」は湯の種類を決める言葉で、「銭湯」「スーパー銭湯」は浴場の種類を表す言葉です。温泉法と公衆浴場法をもとに、それぞれの違いと、天然温泉の銭湯やスーパー銭湯の見分け方を解説します。',
-    image: './thumbs/sento-onsen-chigai.png',
+    image: './article-photos/sento-onsen-chigai.webp',
     onsen_ids: [],
     sources: [SRC_ONSENHO, SRC_MHLW_YOKUJO, SRC_RIYO_R6],
     faqs: [
@@ -394,7 +394,7 @@ export const articles_added = [
     published: '2026-10-19',
     updated: '2026-10-19',
     description: '以前は温泉の禁忌症に「妊娠中」と書かれていましたが、環境省が平成26年に掲示基準を見直し、この項目は削除されました。いま掲示されている内容と、妊娠中に温泉へ行くときに気をつけたいことをまとめます。',
-    image: './thumbs/ninshinchu-onsen.png',
+    image: './article-photos/ninshinchu-onsen.webp',
     onsen_ids: [],
     sources: [SRC_KEIJI_KIJUN, SRC_HIROSHIMA_KEIJI],
     faqs: [
@@ -449,7 +449,7 @@ export const articles_added = [
     published: '2026-10-19',
     updated: '2026-10-19',
     description: '温泉宿の明細に入っている「入湯税」は、地方税法で決められた市町村の税金です。標準の税率は1人1日150円。何に使われるのか、日帰り入浴や子どもにもかかるのかを、法律と自治体の案内をもとにまとめました。',
-    image: './thumbs/nyutozei-guide.png',
+    image: './article-photos/nyutozei-guide.webp',
     onsen_ids: [],
     sources: [SRC_CHIHOZEI, SRC_SAKAI_NYUTO, SRC_BUNKYO_NYUTO],
     faqs: [
@@ -496,7 +496,7 @@ export const articles_added = [
     published: '2026-10-19',
     updated: '2026-10-19',
     description: '国民保養温泉地は、温泉の効果が期待でき、健全な保養地として使える温泉地を環境大臣が指定する制度です。指定の基準と、全国の指定数、日本温泉で紹介している指定温泉地をまとめました。',
-    image: './thumbs/kokumin-hoyo-onsenchi-guide.png',
+    image: './article-photos/kokumin-hoyo-onsenchi-guide.webp',
     onsen_ids: ['o-aomori-1', 'o-miyagi-1', 'o-yamagata-1', 'o-yamagata-2', 'o-tochigi-2', 'o-gunma-4', 'o-nagano-4', 'o-gifu-2', 'o-wakayama-4', 'o-okayama-1', 'o-oita-4', 'o-oita-2'],
     sources: [SRC_HOYO],
     faqs: [
@@ -558,7 +558,7 @@ export const articles_added = [
     published: '2026-10-19',
     updated: '2026-10-19',
     description: '温泉は入るだけでなく、決められた場所では飲むこともできます。環境省の基準にある、1回・1日の量の目安や15歳以下の人の扱い、持ち帰ってはいけない理由など、飲泉の前に知っておきたいルールをまとめました。',
-    image: './thumbs/insen-guide.png',
+    image: './article-photos/insen-guide.webp',
     onsen_ids: [],
     sources: [SRC_KEIJI_KIJUN, SRC_HIROSHIMA_KEIJI],
     faqs: [
@@ -608,7 +608,7 @@ export const articles_added = [
     published: '2026-10-19',
     updated: '2026-10-19',
     description: '日本三古湯は、道後温泉（愛媛県）・有馬温泉（兵庫県）・白浜温泉（和歌山県）の3つ。いずれも古代の天皇の行幸が伝わる温泉です。それぞれの歴史と、いま訪ねるときのポイントを自治体や観光協会の資料をもとに紹介します。',
-    image: './thumbs/nihon-sankoto.png',
+    image: './article-photos/nihon-sankoto.webp',
     onsen_ids: ['o-ehime-1', 'o-hyogo-1', 'o-wakayama-1'],
     sources: [SRC_DOGO_MANYO, SRC_ARIMA_HISTORY, SRC_SHIRAHAMA_SAKINOYU],
     faqs: [
@@ -653,7 +653,7 @@ export const articles_added = [
     published: '2026-10-19',
     updated: '2026-10-19',
     description: '温泉の泉質は、環境省の基準で10種類に分けられます。それぞれの基準と浴用の適応症を一覧にし、温泉分析書の泉質名の読み方と、自分に合う泉質の選び方をまとめました。',
-    image: './thumbs/onsen-sensitsu-10-types.png',
+    image: './article-photos/onsen-sensitsu-10-types.webp',
     onsen_ids: [],
     sources: [SRC_GUIDELINE, SRC_KEIJI, SRC_KEIJI_LAW],
     faqs: [
@@ -730,7 +730,7 @@ export const articles_added = [
     published: '2026-10-19',
     updated: '2026-10-19',
     description: 'タトゥーがある人の入浴の扱いは、施設ごとに違います。観光庁が施設向けに示した対応事例をもとに、行く前に確認すること、シールや貸切風呂など入りやすい方法をまとめました。',
-    image: './thumbs/tattoo-onsen-guide.png',
+    image: './article-photos/tattoo-onsen-guide.webp',
     onsen_ids: [],
     sources: [SRC_TATTOO],
     faqs: [
@@ -783,7 +783,7 @@ export const articles_added = [
     published: '2026-10-19',
     updated: '2026-10-19',
     description: '子どもが異性の親と一緒に入れる年齢は、国の目安が「7歳未満」に下がり、自治体の条例で決まります。混浴の年齢、子どもと入るときの注意、宿や日帰り温泉の選び方をまとめました。',
-    image: './thumbs/kids-onsen-guide.png',
+    image: './article-photos/kids-onsen-guide.webp',
     onsen_ids: [],
     sources: [SRC_KONYOKU, SRC_KONYOKU_SHIZUOKA, SRC_KEIJI],
     faqs: [
@@ -832,7 +832,7 @@ export const articles_added = [
     published: '2026-10-19',
     updated: '2026-10-19',
     description: '温泉は1日に何回、何分まで入っていいのか。環境省が改訂した掲示基準にもとづく入浴回数・時間の目安、入浴前後の注意、湯あたりの症状と対策をまとめました。',
-    image: './thumbs/onsen-nyuyoku-kaisu-jikan.png',
+    image: './article-photos/onsen-nyuyoku-kaisu-jikan.webp',
     onsen_ids: [],
     sources: [SRC_KEIJI, SRC_KEIJI_LAW, SRC_CAA],
     faqs: [
@@ -889,7 +889,7 @@ export const articles_added = [
     published: '2026-10-19',
     updated: '2026-10-19',
     description: '雪景色を眺めながら入る露天風呂は冬の温泉旅のいちばんの楽しみ。雪の多い地域にある温泉地から7か所を、泉質と行き方とあわせて紹介します。冬の入浴で気をつけたいことも。',
-    image: './thumbs/yukimi-rotenburo-onsen.png',
+    image: './article-photos/yukimi-rotenburo-onsen.webp',
     onsen_ids: ['o-gifu-3', 'o-fukushima-6', 'o-tochigi-5', 'o-niigata-1', 'o-iwate-5', 'o-hokkaido-5', 'o-hokkaido-9'],
     sources: [SRC_CAA, { name: 'るるぶ&more「湯西川温泉 かまくら祭」', url: 'https://rurubu.jp/andmore/article/9414' }, { name: 'nippon.com「奥飛騨温泉郷」', url: 'https://www.nippon.com/ja/guide-to-japan/gu005006/' }, { name: '環境省 国民保養温泉地「高湯温泉」', url: 'https://www.env.go.jp/nature/onsen/area/pdf/hoyo_017.pdf' }],
     faqs: [

@@ -2865,6 +2865,12 @@ ul {
   padding-top: 1.25rem;
   border-top: 1px solid var(--color-border);
 }
+.article-photo-credit {
+  margin: var(--spacing-lg) 0 0;
+  font-size: 0.75rem;
+  color: var(--color-text-light, #777);
+  overflow-wrap: anywhere;
+}
 .article-sources-title {
   font-size: 1rem;
   margin: 0 0 0.6rem;
