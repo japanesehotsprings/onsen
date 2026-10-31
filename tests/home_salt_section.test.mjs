@@ -8,13 +8,33 @@ import { render_with_dom } from './helpers/dom.mjs';
 const mk = (id, onsen_ids) => ({ id, tier: 2, onsen_ids });
 const res = { item_code: 's:1', image_url: '', affiliate_url: 'https://hb.afl.rakuten.co.jp/a', fetched_at: '2026-11-01' };
 
-test('home_section_links_corner_without_affiliate', () => {
+test('home_section_links_corner', () => {
   const html = salt_home_section([mk('a', ['o-oita-1', 'o-gunma-1']), mk('b', ['o-oita-1'])], { a: res, b: res });
   assert.match(html, /家で入る名湯/);
   assert.ok(html.includes('href="/nyuyokuzai"'));
   assert.ok(html.indexOf('/nyuyokuzai/o-oita-1') < html.indexOf('/nyuyokuzai/o-gunma-1'));
   for (const t of ['本物の温泉成分', '温泉地公認の再現', '名前と香り・色']) assert.ok(html.includes(t));
-  assert.ok(!html.includes('hb.afl.rakuten'));
+});
+
+test('home_section_shows_product_images_with_pr', () => {
+  const img = { ...res, image_url: 'https://thumbnail.image.rakuten.co.jp/x.jpg' };
+  const salts = [1, 1, 2, 2, 2, 2, 3, 3, 3].map((t, i) => ({ ...mk(`s${i}`, ['o-oita-1']), tier: t, name: `商品${i}` }));
+  const resolved = Object.fromEntries(salts.map(s => [s.id, img]));
+  const html = salt_home_section(salts, resolved);
+  const tiles = html.match(/class="salt-home-item"/g) || [];
+  assert.equal(tiles.length, 6);
+  // 区分ごとに 1・3・2 点（①は1点、②3点、③2点）
+  assert.deepEqual(['商品0', '商品2', '商品3', '商品4', '商品6', '商品7'].map(n => html.includes(n)), [true, true, true, true, true, true]);
+  assert.match(html, /<img[^>]+thumbnail\.image\.rakuten/);
+  assert.match(html, /rel="sponsored noopener"/);
+  assert.match(html, /class="pr-label"/);
+  assert.match(html, /広告（楽天アフィリエイト）/);
+});
+
+test('home_section_skips_items_without_image', () => {
+  const html = salt_home_section([mk('a', ['o-oita-1'])], { a: res });
+  assert.equal((html.match(/class="salt-home-item"/g) || []).length, 0);
+  assert.ok(!html.includes('pr-label'));
 });
 
 test('home_section_hidden_when_no_products', () => {
