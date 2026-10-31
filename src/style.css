@@ -1198,6 +1198,15 @@ ul {
   margin-top: var(--spacing-sm);
 }
 
+.footer-credit {
+  font-size: 0.7rem;
+  margin-top: var(--spacing-xs);
+}
+
+.footer-credit a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
 /* 枠の見出し横の「PR」 */
 .pr-label {
   display: inline-block;

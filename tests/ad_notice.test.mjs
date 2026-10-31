@@ -21,3 +21,8 @@ test('hotel_page_has_notice', () => {
   const doc = render_with_dom(renderHotelDetail, { id: hotelList[0].id });
   assert.match(doc.querySelector('.booking-card').textContent, /広告/);
 });
+
+test('footer_has_rakuten_credit', () => {
+  const html = readFileSync(new URL('../index.html', import.meta.url), 'utf-8');
+  assert.ok(html.includes('<a href="https://developers.rakuten.com/" target="_blank">Supported by Rakuten Developers</a>'));
+});

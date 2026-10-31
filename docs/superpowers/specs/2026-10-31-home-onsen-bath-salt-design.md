@@ -80,6 +80,7 @@
 - 商品画像は楽天の商品検索APIで取る。アフィリエイトリンクと一緒に載せる使い方で、規約は着手時に確認する
 - 楽天アフィリエイトIDは、日本温泉のThreads運用で使っている既存のIDを使う
 - 接続の確認（2026-10-31 済み）：エンドポイント `https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701`。`applicationId` はクエリで、`accessKey` はヘッダーで渡し、`Origin: https://japan-onsen-web.pages.dev` を付ける（Referer だけだと403、旧版20220601だと400）。キーは `.env`（gitignore済み）の `RAKUTEN_APP_ID` / `RAKUTEN_ACCESS_KEY` / `RAKUTEN_AFFILIATE_ID`
+- 画像とクレジット（2026-11-01 確認）：楽天のクレジット表示ページでは、APIを使うサイトはクレジット表示が必須で、配布のHTMLを改変せずに使う決まり（https://webservice.rakuten.co.jp/guide/credit）。フッターにテキスト版「Supported by Rakuten Developers」を入れた。商品画像の掲載条件は規約（https://webservice.rakuten.co.jp/guide/rule）にもクレジットのページにも個別の記載がない。APIが返す画像URLをそのまま表示し、保存・加工はしない〔Claude判断〕
 - アプリは楽天市場APIに加えて楽天トラベルAPIのスコープも登録済み（宿リンクの改善に将来使う）
 - リンクは特定の出品（itemCode）に張る。1店の掲載終了で商品が消えないよう、候補を複数持つ〔Claude判断〕
 - ビルド時にAPIで `rakuten_item_codes` を上から順に引き、最初に買える出品の画像URLとアフィリエイトURLを使う。結果はキャッシュし、APIが落ちていてもビルドは止めない
