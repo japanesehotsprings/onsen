@@ -2,7 +2,7 @@
  * 入浴剤コーナーの商品画像・アフィリエイトURLを楽天APIから取って、src/data/bath_salts_resolved.js に書き出す
  * 使い方: node --env-file-if-exists=.env scripts/fetch_bath_salts.mjs（npm run build の最初に自動で走る）
  *
- * - キー（.env の RAKUTEN_APP_ID / RAKUTEN_ACCESS_KEY / RAKUTEN_AFFILIATE_ID）がなければ取得を飛ばし、前回の結果を使う
+ * - キー（.env の RAKUTEN_APP_ID / RAKUTEN_ACCESS_KEY / RAKUTEN_AFFILIATE_ID）のどれかがなければ取得を飛ばし、前回の結果を使う
  * - APIが落ちていても止めない。その商品は前回の結果を使う
  * - 出品の候補（rakuten_item_codes）を上から順に引き、最初に買えるものを使う。全部だめなら null（ページに出さない）
  * - キーの値はログにもファイルにも出さない
@@ -46,7 +46,7 @@ async function call_api(params) {
   const q = new URLSearchParams({
     format: 'json', formatVersion: '2', hits: '5',
     applicationId: process.env.RAKUTEN_APP_ID,
-    affiliateId: process.env.RAKUTEN_AFFILIATE_ID || '',
+    affiliateId: process.env.RAKUTEN_AFFILIATE_ID,
     ...params,
   });
   await sleep(WAIT_MS);
@@ -84,7 +84,8 @@ export const bathSaltResolved = ${JSON.stringify(sorted, null, 2)};
 }
 
 async function main() {
-  if (!process.env.RAKUTEN_APP_ID || !process.env.RAKUTEN_ACCESS_KEY) {
+  // アフィリエイトIDがないと成果の付かない普通のURLに置き換わるので、IDなしでも取得しない
+  if (!process.env.RAKUTEN_APP_ID || !process.env.RAKUTEN_ACCESS_KEY || !process.env.RAKUTEN_AFFILIATE_ID) {
     console.log('楽天APIのキーがないため取得を飛ばしました（前回の結果を使います）');
     return;
   }

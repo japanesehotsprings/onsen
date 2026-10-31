@@ -42,3 +42,13 @@ test('missing_env_skips_fetch', () => {
   assert.match(out, /楽天APIのキーがないため取得を飛ばしました/);
   assert.equal(readFileSync(file, 'utf-8'), before);
 });
+
+test('missing_affiliate_id_skips_fetch', () => {
+  const file = new URL('../src/data/bath_salts_resolved.js', import.meta.url);
+  const before = readFileSync(file, 'utf-8');
+  const out = execFileSync('node', ['scripts/fetch_bath_salts.mjs'], {
+    env: { ...process.env, RAKUTEN_APP_ID: 'dummy', RAKUTEN_ACCESS_KEY: 'dummy', RAKUTEN_AFFILIATE_ID: '' }, encoding: 'utf-8',
+  });
+  assert.match(out, /楽天APIのキーがないため取得を飛ばしました/);
+  assert.equal(readFileSync(file, 'utf-8'), before);
+});
