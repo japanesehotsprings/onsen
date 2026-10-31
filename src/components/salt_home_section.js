@@ -36,7 +36,7 @@ export function salt_home_section(salts = bathSaltList, resolved = bathSaltResol
       <div class="container">
         <div class="section-header">
           <h2 class="section-title">家で入る名湯${items.length ? pr_label() : ''}</h2>
-          <p class="section-desc">温泉地の名前がついた入浴剤・湯の花を、本物の温泉に近い順に比べる</p>
+          <p class="section-desc">自宅で温泉気分を楽しむ入浴剤・湯の花</p>
         </div>
         ${items.length ? `
         <div class="salt-home-items">
