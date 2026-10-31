@@ -12,7 +12,7 @@ const NOTES = {
 export function salt_tiers_svg() {
   const rows = [1, 2, 3].map((t, i) => `
     <g transform="translate(0 ${i * 70})">
-      <rect class="salt-svg-bar salt-svg-bar-${t}" x="0" y="0" width="${340 - i * 60}" height="56" rx="8"/>
+      <rect class="salt-svg-bar salt-svg-bar-${t}" x="0" y="0" width="360" height="56" rx="8"/>
       <text class="salt-svg-title" x="16" y="24">${'①②③'[i]} ${TIER_LABELS[t]}</text>
       <text class="salt-svg-note" x="16" y="44">${NOTES[t]}</text>
     </g>`).join('');

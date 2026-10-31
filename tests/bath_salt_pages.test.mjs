@@ -75,3 +75,10 @@ test('page_list_includes_corner', () => {
   assert.ok(paths.includes('/nyuyokuzai'));
   assert.ok(!paths.includes('/nyuyokuzai/o-xxx-9'));
 });
+
+test('tier_svg_bars_same_width', async () => {
+  const { salt_tiers_svg } = await import('../src/components/salt_tiers_svg.js');
+  const widths = [...salt_tiers_svg().matchAll(/<rect[^>]*width="(\d+)"/g)].map(m => m[1]);
+  assert.equal(widths.length, 3);
+  assert.equal(new Set(widths).size, 1);
+});
