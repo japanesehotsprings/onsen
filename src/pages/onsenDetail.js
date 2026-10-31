@@ -6,6 +6,26 @@ import { springTypeList } from '../data/springTypes.js';
 import { summary_box, faq_section, faq_ld, sentence, esc, ACCESS_NOTE } from '../components/answer.js';
 import { specialList } from '../data/specials.js';
 import { articleList } from '../data/articles.js';
+import { bathSaltList } from '../data/bath_salts.js';
+import { bathSaltResolved } from '../data/bath_salts_resolved.js';
+import { get_salts_by_onsen } from '../data/bath_salts_lib.js';
+import { visible_salts, salt_card } from '../components/salt_card.js';
+import { pr_label } from '../components/ad_notice.js';
+
+// 「家で味わうなら」枠：本物に近い順に2点と、比較ページへのリンク。商品がなければ出さない
+export function salt_box(onsen, salts = bathSaltList, resolved = bathSaltResolved) {
+  const shown = visible_salts(get_salts_by_onsen(onsen.id, salts), resolved).slice(0, 2);
+  if (!shown.length) return '';
+  return `
+    <div class="onsen-detail-card salt-box">
+      <h2 class="onsen-detail-heading">
+        <span class="onsen-heading-icon">🛀</span>家で味わうなら${pr_label()}
+      </h2>
+      <div class="salt-grid">${shown.map(s => salt_card(s, resolved[s.id])).join('')}</div>
+      <a href="/nyuyokuzai/${onsen.id}" class="salt-box-more">${esc(onsen.name)}の入浴剤・湯の花をすべて見る →</a>
+    </div>
+  `;
+}
 
 export function renderOnsenDetail({ params }) {
   const app = document.getElementById('app');
@@ -120,6 +140,8 @@ export function renderOnsenDetail({ params }) {
               <p class="onsen-point-note">料金・営業時間・休館日は変わることがあります。各施設の公式案内で確認してください。</p>
             </div>
             ` : ''}
+
+            ${salt_box(onsen)}
 
             ${faq_section(`${onsen.name}のよくある質問`, answer.faqs)}
 
