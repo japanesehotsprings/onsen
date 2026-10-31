@@ -68,7 +68,7 @@ export function build_detail_html(onsen, salts, resolved) {
         <div class="onsen-detail-card">
           <h2 class="onsen-detail-heading">本物に行くなら</h2>
           <p>${esc(onsen.name)}の見どころ・日帰り入浴・宿は、温泉地のページにまとめています。</p>
-          <a href="/onsen/${onsen.id}" class="btn btn-primary">${esc(onsen.name)}のページへ</a>
+          <a href="/onsen/${onsen.id}" class="btn btn-primary salt-go-real">${esc(onsen.name)}のページへ</a>
         </div>
 
         <div class="onsen-detail-card onsen-sources">

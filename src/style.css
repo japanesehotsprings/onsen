@@ -2850,7 +2850,8 @@ ul {
 
 .salt-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  /* 1枚 400px 以上を保つ（PCの比較ページで2列、温泉地ページの枠や狭い画面では1列） */
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 400px), 1fr));
   gap: var(--spacing-md);
 }
 
@@ -2864,9 +2865,9 @@ ul {
 }
 
 .salt-card-img {
-  flex: 0 0 96px;
-  width: 96px;
-  height: 96px;
+  flex: 0 0 120px;
+  width: 120px;
+  height: 120px;
   object-fit: contain;
   background: #fff;
   border-radius: var(--radius-sm);
@@ -2894,6 +2895,13 @@ ul {
 
 .salt-box .salt-grid { margin-top: var(--spacing-sm); }
 .salt-box-more { display: inline-block; margin-top: var(--spacing-sm); }
+.salt-go-real { display: inline-block; margin-top: var(--spacing-md); }
+
+/* スマホでは画像を上、文字を下にして、文字の幅を広く取る */
+@media (max-width: 600px) {
+  .salt-card { flex-direction: column; }
+  .salt-card-img { flex: none; width: 100%; height: 160px; }
+}
 
 .salt-home-tiers {
   display: flex;
