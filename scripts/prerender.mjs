@@ -25,6 +25,18 @@ if (GA_ID) {
 </head>`);
 }
 const today = new Date().toISOString().split('T')[0];
+// 入浴剤データの誤り（出典なし・存在しない温泉地など）があれば、書き出す前に止める
+{
+  const { bathSaltList } = await import('../src/data/bath_salts.js');
+  const { validate_salts } = await import('../src/data/bath_salts_lib.js');
+  const { onsenList } = await import('../src/data/onsen.js');
+  const errors = validate_salts(bathSaltList, new Set(onsenList.map(o => o.id)));
+  if (errors.length) {
+    console.error('✗ 入浴剤データに誤りがあります:\n  ' + errors.join('\n  '));
+    process.exit(1);
+  }
+}
+
 const pages = page_paths();
 
 function match_route(pattern, path) {
