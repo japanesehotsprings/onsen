@@ -121,6 +121,7 @@ function build(hotel, row, keyword_nos) {
   const description = `${hotel.name}は${place}にある${rooms}${type}です。${incl ? (incl === KEYWORD_ONLY ? 'インクルーシブプランの検索に該当する宿です。' : incl[1]) : ''}${bath_sentence}${dinner_sentence}`;
 
   return {
+    indexable: true, // 詳細情報を足した宿は検索に出す（2026-10-31 CEO判断）
     type,
     description,
     tags,
