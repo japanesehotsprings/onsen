@@ -4,6 +4,7 @@ import { readFileSync } from 'node:fs';
 import { salt_box, renderOnsenDetail } from '../src/pages/onsenDetail.js';
 import { onsenList } from '../src/data/onsen.js';
 import { render_with_dom } from './helpers/dom.mjs';
+import { bathSaltList } from '../src/data/bath_salts.js';
 
 const kusatsu = onsenList.find(o => o.id === 'o-gunma-1');
 const mk = (id, tier) => ({
@@ -23,7 +24,8 @@ test('box_shown_with_salts', () => {
 
 test('box_hidden_without_salts', () => {
   assert.equal(salt_box(kusatsu, [mk('a', 1)], { a: null }), '');
-  const doc = render_with_dom(renderOnsenDetail, { id: 'o-gunma-1' });
+  const empty = onsenList.find(o => !bathSaltList.some(s => s.onsen_ids.includes(o.id)));
+  const doc = render_with_dom(renderOnsenDetail, { id: empty.id });
   assert.ok(!doc.getElementById('app').textContent.includes('家で味わうなら'));
 });
 
