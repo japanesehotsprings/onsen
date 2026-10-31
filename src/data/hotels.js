@@ -1,3 +1,5 @@
+import { hotelDetails } from './hotel_details.js';
+
 /**
  * 温泉宿データ
  * 宿名と所在地はじゃらんの宿ページ（または検索）で確認したもの（2026-10-19 点検）。
@@ -9509,6 +9511,12 @@ export const hotelList = [
     }
 ];
 
+// 詳細情報（hotel_details.js）を同じ id の宿に足す
+hotelList.forEach(h => {
+    const d = hotelDetails[h.id];
+    if (d) Object.assign(h, d);
+});
+
 /**
  * おすすめの宿を取得（特定のタグを持つものなどを優先）
  * @param {number} count - 取得件数
@@ -9551,7 +9559,7 @@ export function searchHotels(conditions = {}) {
             h.name.toLowerCase().includes(q) ||
             h.description.toLowerCase().includes(q) ||
             h.type.toLowerCase().includes(q) ||
-            (h.tags && h.tags.some(t => t.toLowerCase() === q)) // タグは完全一致
+            (h.tags && h.tags.some(t => t.toLowerCase().includes(q))) // 「インクルーシブ」で各区分のタグに当たるよう部分一致
         );
     }
 

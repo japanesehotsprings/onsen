@@ -115,7 +115,7 @@ export function renderSearchResults({ query }) {
 function renderSearchCard(item) {
   const isHotel = item.itemType === 'hotel';
   const prefName = prefectures.find(p => p.id === item.prefecture)?.name || '';
-  const detailUrl = isHotel ? `/onsen/hotel/${item.id}` : `/onsen/onsen/${item.id}`;
+  const detailUrl = isHotel ? `/hotel/${item.id}` : `/onsen/${item.id}`;
   const categoryLabel = isHotel ? item.type : item.category;
   const badgeClass = isHotel ? 'hotel' : 'onsen';
 
@@ -124,12 +124,12 @@ function renderSearchCard(item) {
       <a href="${detailUrl}" class="card-link">
         <div class="card-image">
           <img src="${item.image}" alt="${item.name}" loading="lazy">
-          <span class="card-badge ${badgeClass}">${categoryLabel}</span>
+          ${categoryLabel ? `<span class="card-badge ${badgeClass}">${categoryLabel}</span>` : ''}
         </div>
         <div class="card-content">
           <div class="card-meta">
             <span class="card-prefecture">${prefName}</span>
-            ${!isHotel ? `<span class="spring-type-badge">♨ ${item.spring_type}</span>` : `<span class="price-badge">${item.price}</span>`}
+            ${!isHotel ? `<span class="spring-type-badge">♨ ${item.spring_type}</span>` : (item.price ? `<span class="price-badge">${item.price}</span>` : '')}
           </div>
           <h3 class="card-title">${item.name}</h3>
           <p class="card-desc">${item.description}</p>

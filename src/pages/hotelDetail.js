@@ -10,6 +10,7 @@ import { updateSEO, absolute_url } from '../seo.js';
 import { getHotelsByOnsen } from '../data/hotels.js';
 import { summary_box, faq_section, faq_ld } from '../components/answer.js';
 import { inn_owner_note } from './forInns.js';
+import { HOTEL_DETAILS_FETCHED_AT } from '../data/hotel_details.js';
 
 /**
  * 予約サイトのURLを生成する
@@ -124,6 +125,7 @@ export function renderHotelDetail({ params }) {
           <div class="hotel-detail-main">
             ${hotel.notice ? `<p class="hotel-notice" role="note">${hotel.notice}</p>` : ''}
             ${summary_box(`${hotel.name}の要点`, answer.lead, answer.facts, '料金・空室・設備は予約サイトや宿の公式情報でご確認ください。')}
+            ${hotel_info_sections(hotel)}
 
             ${onsen ? `
             <div class="hotel-detail-card hotel-detail-onsen-card">
@@ -196,6 +198,45 @@ export function renderHotelDetail({ params }) {
 }
 
 /**
+ * 見出し＋本文（または項目のチップ）のカード
+ */
+function info_card(title, body) {
+  return `
+    <div class="hotel-detail-card">
+      <h2 class="hotel-detail-card-title">${title}</h2>
+      ${body}
+    </div>
+  `;
+}
+
+function chip_list(list) {
+  return `<ul class="hotel-chip-list">${list.map(x => `<li>${x}</li>`).join('')}</ul>`;
+}
+
+/**
+ * 宿ごとの詳細（楽天トラベルの掲載情報）。情報がない項目のカードは出さない
+ */
+function hotel_info_sections(hotel) {
+  if (!hotel.rooms && !hotel.baths?.length) return '';
+  const meals = [
+    hotel.breakfast?.length ? `<p class="hotel-info-text"><strong>朝食：</strong>${hotel.breakfast.join('、')}</p>` : '',
+    hotel.dinner?.length ? `<p class="hotel-info-text"><strong>夕食：</strong>${hotel.dinner.join('、')}</p>` : '',
+  ].join('');
+  return [
+    hotel.inclusive ? info_card(hotel.inclusive, `<p class="hotel-info-text">${hotel.inclusive_note}</p>`) : '',
+    hotel.quote ? info_card('宿の紹介', `<p class="hotel-info-text">「${hotel.quote}」</p><p class="hotel-info-source">楽天トラベルの宿紹介より</p>`) : '',
+    hotel.baths?.length ? info_card('お風呂', chip_list(hotel.baths)) : '',
+    meals ? info_card('お食事', meals) : '',
+    hotel.access?.length ? info_card('アクセス', `<ul class="hotel-access-list">${hotel.access.map(x => `<li>${x}</li>`).join('')}</ul>`) : '',
+    hotel.facilities?.length ? info_card('館内の設備・サービス', chip_list(hotel.facilities)) : '',
+    hotel.room_items?.length ? info_card('客室の設備・備品', chip_list(hotel.room_items)) : '',
+    hotel.barrier?.length ? info_card('バリアフリー・配慮', chip_list(hotel.barrier)) : '',
+    hotel.privilege ? info_card('宿泊特典', `<p class="hotel-info-text">${hotel.privilege}</p>`) : '',
+    `<p class="hotel-info-source">この情報は楽天トラベルの掲載情報（${HOTEL_DETAILS_FETCHED_AT.replaceAll('-', '/')} 時点）をもとにしています。変更されている場合があるため、最新の内容は宿や予約サイトでご確認ください。</p>`,
+  ].join('');
+}
+
+/**
  * フェードインアニメーション設定
  */
 function setupAnimations() {
@@ -219,13 +260,23 @@ function build_hotel_answer(hotel, onsen, prefecture, bookingLinks) {
   const pref = prefecture?.name || '';
   const ac = onsen?.access || {};
   const place = onsen ? `${pref}の${onsen.name}${hotel.near ? 'の周辺' : ''}` : pref;
-  const lead = `${hotel.name}は${place}にある宿です。` + (hotel.address ? `所在地は${hotel.address}。` : '') + (hotel.notice ? hotel.notice : '');
+  const lead = hotel.rooms
+    ? hotel.description + (hotel.notice ? hotel.notice : '')
+    : `${hotel.name}は${place}にある宿です。` + (hotel.address ? `所在地は${hotel.address}。` : '') + (hotel.notice ? hotel.notice : '');
 
   const facts = [
     { label: '温泉地', value: onsen ? `${onsen.name}${hotel.near ? 'の周辺' : ''}（${pref}）` : pref },
+    { label: '宿のタイプ', value: hotel.type },
+    { label: '客室数', value: hotel.rooms ? `${hotel.rooms}室` : '' },
+    { label: 'インクルーシブ', value: hotel.inclusive },
     { label: '所在地', value: hotel.address },
     { label: '温泉地の泉質', value: onsen?.category && !hotel.near ? onsen.spring_type : '' },
     { label: '最寄り駅', value: ac.nearest_station },
+    { label: 'チェックイン', value: hotel.checkin ? `${hotel.checkin}${hotel.last_checkin ? `（最終 ${hotel.last_checkin}）` : ''}` : '' },
+    { label: 'チェックアウト', value: hotel.checkout },
+    { label: '駐車場', value: hotel.parking },
+    { label: '送迎', value: hotel.shuttle ? '送迎バスあり（条件は宿にご確認ください）' : '' },
+    { label: '外国語対応', value: hotel.language },
   ];
 
   const faqs = [];
@@ -240,6 +291,24 @@ function build_hotel_answer(hotel, onsen, prefecture, bookingLinks) {
       q: `${hotel.name}への行き方は？`,
       a: `${onsen.name}へは、${ac.by_train.replace(/。$/, '')}が目安です。宿までの送迎や詳しい道順は宿にご確認ください。`,
     });
+  }
+  if (hotel.inclusive) {
+    faqs.push({ q: `${hotel.name}はインクルーシブの宿ですか？`, a: hotel.inclusive_note });
+  }
+  if (hotel.checkin && hotel.checkout) {
+    faqs.push({
+      q: `${hotel.name}のチェックイン・チェックアウトは何時ですか？`,
+      a: `チェックインは${hotel.checkin}から、チェックアウトは${hotel.checkout}までです（プランによって異なる場合があります）。`,
+    });
+  }
+  if (hotel.baths?.length) {
+    faqs.push({
+      q: `${hotel.name}のお風呂の種類は？`,
+      a: `${hotel.baths.join('、')}があります。`,
+    });
+  }
+  if (hotel.parking) {
+    faqs.push({ q: `${hotel.name}に駐車場はありますか？`, a: `掲載情報では「${hotel.parking}」です。` });
   }
   faqs.push({
     q: `${hotel.name}の料金や空室はどこで確認できますか？`,
