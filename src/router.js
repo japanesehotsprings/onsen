@@ -70,6 +70,11 @@ export function setNotFound(handler) {
 export function navigateTo(path) {
     history.pushState({}, '', BASE + path);
     resolveRoute();
+    // 新しいページは一番上から見せる（#付きならその見出しへ）。ページ側で戻し忘れても効くようにここで行う
+    // html の scroll-behavior: smooth だと元の位置から流れて見えるので、瞬時に移動する
+    const anchor = window.location.hash && document.getElementById(decodeURIComponent(window.location.hash.slice(1)));
+    if (anchor) anchor.scrollIntoView({ behavior: 'instant' });
+    else window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
     track_page_view();
 }
 
