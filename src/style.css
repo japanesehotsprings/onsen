@@ -1673,8 +1673,8 @@ ul {
 /* ============ 宿詳細ページ (hotelDetail.js) ============ */
 .hotel-detail-hero {
   position: relative;
-  height: 50vh;
-  min-height: 400px;
+  /* 宿名が長くても切れないよう高さは固定せず、中身に合わせて伸ばす */
+  min-height: clamp(360px, 50vh, 520px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1707,21 +1707,40 @@ ul {
   z-index: 2;
   text-align: center;
   color: #ffffff;
-  padding: 2rem;
+  padding: 2rem 16px;
+  width: 100%;
   max-width: 800px;
+}
+
+/* 紹介の箱が写真に重なる分だけ、下に空きを作って文字とぶつからないようにする */
+.hotel-detail-hero:has(+ .hotel-tagline-wrap) .hotel-detail-hero-content {
+  padding-bottom: 6.5rem;
+}
+
+.hotel-detail-hero .breadcrumb {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.15rem 0.4rem;
+  font-size: 0.75rem;
+  line-height: 1.6;
+  margin-bottom: 0.9rem;
 }
 
 .hotel-detail-title {
   font-family: var(--font-heading);
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(1.6rem, 4.5vw, 2.6rem);
   font-weight: 700;
-  margin-bottom: 0.5rem;
+  line-height: 1.35;
+  margin-bottom: 0.6rem;
   color: #ffffff; /* h1 の共通色（濃い文字色）に負けないよう白を指定する */
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.75);
+  overflow-wrap: anywhere;
 }
 
 .hotel-detail-onsen {
-  font-size: 1.1rem;
+  font-size: clamp(0.9rem, 2.4vw, 1.1rem);
+  line-height: 1.6;
+  margin: 0;
   color: #ffe6c7;
   text-shadow: 0 1px 8px rgba(0, 0, 0, 0.75);
 }
@@ -1807,6 +1826,10 @@ ul {
   grid-template-columns: 2fr 1fr;
   gap: var(--spacing-xl);
   align-items: start;
+}
+
+.hotel-detail-main .answer-box {
+  margin-bottom: var(--spacing-lg);
 }
 
 .hotel-detail-card {
