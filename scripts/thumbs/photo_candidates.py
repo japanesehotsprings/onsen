@@ -44,6 +44,11 @@ QUERIES = {
  'course-izu-daytrip': ['Shuzenji bamboo forest', '修善寺 竹林の小径', 'Tokko no yu Shuzenji'],
  'course-kaga-noto-2night': ['Yamashiro Onsen Kosoyu', '山代温泉 古総湯', 'Yamanaka Onsen Kakusenkei'],
  'course-kinosaki-1night': ['Kinosaki Onsen', '城崎温泉'],
+ # 特集（泉質・テーマ別）のサムネ
+ 'special-kokumin-hoyo-onsenchi': ['Shima Onsen Sekizenkan', '四万温泉', 'Nikko Yumoto onsen', '日光湯元温泉', 'Shirahone Onsen'],
+ 'special-iousen-onsenchi': ['Manza Onsen', '万座温泉', 'Noboribetsu Jigokudani', 'Kusatsu Yubatake sulfur'],
+ 'special-alkaline-simple-onsen': ['Gero Onsen', '下呂温泉', 'Kinugawa Onsen', '鬼怒川温泉', 'Yunishigawa Onsen'],
+ 'special-umibe-onsen': ['Shirahama Sakinoyu', '崎の湯 白浜', 'Furofushi Onsen', '不老ふ死温泉', 'Ibusuki onsen sea'],
 }
 UA = 'JapanOnsenMedia/1.0 (https://japan-onsen-web.pages.dev; info@tech-village.co.jp)'
 OK = re.compile(r'^(cc0|pd|public domain|cc[- ]by(-sa)?[- ]?[\d.]*)', re.I)

@@ -7,8 +7,16 @@ import { articleList } from '../data/articles.js';
 import { updateSEO, absolute_url } from '../seo.js';
 import { SITE_URL } from '../config.js';
 import { summary_box, faq_section, faq_ld, esc, ACCESS_NOTE } from '../components/answer.js';
+import { specialPhotos } from '../data/special_photos.js';
 
 const pref_name = Object.fromEntries(prefectures.map(p => [p.id, p.name]));
+
+// サムネ写真の出典（コモンズの作者・許諾。コラムと同じ書き方）
+function photo_credit(photo) {
+    if (!photo) return '';
+    const license = photo.license_url ? `<a href="${esc(photo.license_url)}" target="_blank" rel="noopener">${esc(photo.license)}</a>` : esc(photo.license);
+    return `<p class="article-photo-credit">写真: <a href="${esc(photo.page)}" target="_blank" rel="noopener">${esc(photo.artist)}（Wikimedia Commons）</a>、${license}。サイズを縮小して掲載しています。</p>`;
+}
 
 // 特集の要点・よくある質問（掲載データから組み立てる。新しい事実は足さない）
 function build_special_answer(special, onsens) {
@@ -75,7 +83,7 @@ export function renderSpecialDetail({ params }) {
 
     app.innerHTML = `
         <div class="prefecture-hero onsen-hero" style="${special.image ? '' : `background:${special.color}44`}">
-            ${special.image ? `<img src="${special.image}" alt="${esc(special.title)}" class="prefecture-hero-bg">` : ''}
+            ${special.image ? `<img src="${special.image}" alt="${esc(specialPhotos[special.id]?.alt || special.title)}" class="prefecture-hero-bg">` : ''}
             <div class="prefecture-hero-overlay"></div>
             <div class="prefecture-hero-content">
                 <nav class="breadcrumb breadcrumb-light">
@@ -172,6 +180,7 @@ export function renderSpecialDetail({ params }) {
                         ${otherSpecials.map(s => `<li><a href="/special/${s.id}">${esc(s.title)}</a></li>`).join('')}
                     </ul>
                 </section>
+                ${photo_credit(specialPhotos[special.id])}
             </div>
         </section>
     `;

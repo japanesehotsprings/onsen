@@ -1,5 +1,6 @@
 """選んだ写真をコモンズから取得して public/article-photos に保存し、クレジットのデータを書き出す
-使い方: python3 scripts/thumbs/fetch_photos.py <picked.json> <alts.json>
+使い方: python3 scripts/thumbs/fetch_photos.py <picked.json> <alts.json> [article|special]
+  special を付けると特集のサムネとして public/special-photos と src/data/special_photos.js に書き出す
 """
 import io, json, re, sys, time, urllib.request
 from pathlib import Path
@@ -7,7 +8,8 @@ from PIL import Image
 
 UA = 'JapanOnsenMedia/1.0 (https://japan-onsen-web.pages.dev; info@tech-village.co.jp)'
 ROOT = Path(__file__).resolve().parents[2]
-OUT = ROOT / 'public/article-photos'
+KIND = sys.argv[3] if len(sys.argv) > 3 else 'article'
+OUT = ROOT / f'public/{KIND}-photos'
 # 作者欄が機械的に崩れているものだけ手で直す
 ARTIST = {'gensensu-ranking': 'FIND/47', 'onsen-bunsekisho-mikata': 'Soica2001', 'onsen-nyuyoku-kaisu-jikan': 'Soica2001',
           'zekke-rotenburo-guide': 'Hitachi-Train', 'course-kaga-noto-2night': 'Maarten Heerlien'}
@@ -43,4 +45,5 @@ for k, c in picked.items():
     print(k, f.stat().st_size // 1024, 'KB', flush=True)
 
 body = ',\n'.join(f"  '{k}': {json.dumps(v, ensure_ascii=False)}" for k, v in data.items())
-(ROOT / 'src/data/article_photos.js').write_text('// コラムのサムネ写真のクレジット（scripts/thumbs/fetch_photos.py が生成）\nexport const articlePhotos = {\n' + body + ',\n};\n', encoding='utf-8')
+label, var = {'article': ('コラム', 'articlePhotos'), 'special': ('特集', 'specialPhotos')}[KIND]
+(ROOT / f'src/data/{KIND}_photos.js').write_text(f'// {label}のサムネ写真のクレジット（scripts/thumbs/fetch_photos.py が生成）\nexport const {var} = {{\n' + body + ',\n};\n', encoding='utf-8')
