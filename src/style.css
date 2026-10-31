@@ -1192,6 +1192,26 @@ ul {
   color: var(--color-primary);
 }
 
+.footer-ad-notice {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: var(--spacing-sm);
+}
+
+/* 枠の見出し横の「PR」 */
+.pr-label {
+  display: inline-block;
+  margin-left: 0.5em;
+  padding: 0 0.4em;
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--color-text-light, #666);
+  border: 1px solid currentColor;
+  border-radius: 3px;
+  vertical-align: middle;
+}
+
 .footer-copy {
   font-size: 0.75rem;
   color: rgba(255, 255, 255, 0.3);

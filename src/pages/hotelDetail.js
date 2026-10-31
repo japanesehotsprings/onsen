@@ -166,7 +166,7 @@ export function renderHotelDetail({ params }) {
                 `).join('')}
               </div>
               <p class="booking-notice">
-                ※ 料金・空室はリンク先の予約サイトでご確認ください。
+                ※ 料金・空室はリンク先の予約サイトでご確認ください。リンクの一部は広告（アフィリエイト）です。
               </p>
             </div>
 
