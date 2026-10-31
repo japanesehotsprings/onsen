@@ -61,12 +61,87 @@ const items = (list, key = 'item') => (list || []).map(x => x[key]).filter(Boole
 const uniq = a => [...new Set(a)];
 
 // 宿の紹介文から、期間限定の案内・受賞歴・装飾を除く
-const PROMO = /\d+[\/月]\d*|\d{4}年|迄|まで|受賞|アワード|楽天|OPEN|オープン|リニューアル|キャンペーン|フェア|円|%|％|無料|半額|衛生|消毒|クーポン|クチコミ|口コミ|配布|限定プラン|プラン|★認定/i;
+const PROMO = /\d+[\/月]\d*|\d{4}年|迄|まで|受賞|アワード|楽天|OPEN|オープン|リニューアル|キャンペーン|フェア|円|%|％|無料|半額|衛生|消毒|効果|効能|美白|クーポン|クチコミ|口コミ|配布|限定プラン|プラン|★認定/i;
 function hotel_quote(text) {
   const parts = clean(text).replace(/[★☆◆◇■□●○◎※♪～〜]/g, ' ').split(/[。!！?？\/／|｜【】≪≫《》<>]/).map(s => s.trim()).filter(s => s.length >= 8);
-  const kept = parts.filter(s => !PROMO.test(s));
-  const joined = kept.join('。');
-  return joined.length >= 12 ? `${joined.slice(0, 90)}${joined.length > 90 ? '…' : ''}` : '';
+  // 文の途中で切れた断片（助詞で始まる・句読点で終わる）も除く
+  const kept = parts.filter(s => !PROMO.test(s) && !/^[のをにがはでと、,:]/.test(s)).map(s => s.replace(/^[・\s]+/, '').replace(/[、,:\s]+$/, ''));
+  let joined = '';
+  for (const part of kept) {
+    if ((joined + part).length > 80) break;
+    joined += (joined ? '。' : '') + part;
+  }
+  return joined.length >= 12 ? joined : '';
+}
+
+// 宿の掲載文に書かれている特徴。上から順に2つまで使う（s=文、m=名詞の前に置く形）
+const FEATURES = [
+  [/全(?:客)?室.{0,14}露天|全室に?.{0,8}半露天/, { s: '全室に露天風呂が付いていて、部屋にいながら湯を楽しめます。', m: '全室に露天風呂が付いた' }],
+  [/全(?:客)?室.{0,6}源泉/, { s: '全室で源泉かけ流しの湯を楽しめます。', m: '全室で源泉かけ流しの湯を楽しめる' }],
+  [/全室(?:が)?離れ|離れ(?:宿|の客室|\d+室)/, { s: '離れの客室で、周りを気にせず過ごせます。', m: '離れの客室で過ごす' }],
+  [/登録有形|文化財/, { s: '文化財にも登録された建物に泊まれるのが、この宿ならではの魅力です。', m: '文化財の建物に泊まれる' }],
+  [/オーシャン|海を(?:望|一望|眺)|海一望|波打ち際|海辺|海まで|全室海側/, { s: '海がすぐそばにあり、景色も楽しみのひとつです。', m: '海の景色を楽しめる' }],
+  [/湖畔|湖を(?:望|一望|眺)|湖一望|湖のほとり/, { s: '湖のほとりの景色も、この宿の楽しみです。', m: '湖の景色を楽しめる' }],
+  [/渓流|川沿い|清流|せせらぎ|渓谷/, { s: '川や渓谷のそばにあり、水の音を感じながら過ごせます。', m: '川のそばで過ごす' }],
+  [/森の|高原|ブナ林|大自然/, { s: '自然に囲まれた環境で、静かな時間を過ごせます。', m: '自然に囲まれた' }],
+  [/自家源泉/, { s: '自家源泉を持つのも特徴です。', m: '自家源泉を持つ' }],
+  [/源泉.{0,3}(?:かけ|掛)/, { s: '源泉かけ流しの湯が自慢の宿です。', m: '源泉かけ流しの湯を楽しめる' }],
+  [/老舗|創業/, { s: '長い歴史を持つ宿で、年月を重ねた雰囲気も魅力です。', m: '長い歴史を持つ' }],
+  [/露天風呂付/, { s: '露天風呂付きの客室もあり、部屋で湯を楽しむ滞在もできます。', m: '露天風呂付きの客室がある' }],
+  [/かに料理|蟹|カニ/, { s: 'かに料理も楽しみのひとつです。', m: 'かに料理を楽しめる' }],
+  [/海鮮|海の幸|魚介|地魚/, { s: '海の幸を使った料理が楽しみのひとつです。', m: '海の幸を味わえる' }],
+  [/和牛|米沢牛|飛騨牛|山形牛|佐賀牛/, { s: '地元の牛肉を使った料理も楽しみのひとつです。', m: '地元の牛肉を味わえる' }],
+  [/会席|懐石|料理自慢|料理宿|美食/, { s: '料理に力を入れていて、食事を目当てに選ぶのも良さそうです。', m: '料理に力を入れた' }],
+  [/絶景|眺望|一望/, { s: '眺めの良さも、この宿の魅力です。', m: '眺めの良さが魅力の' }],
+];
+
+function hotel_features(text) {
+  const t = clean(text);
+  return FEATURES.filter(([re]) => re.test(t)).map(([, f]) => f);
+}
+
+function scale_phrase(rooms, type) {
+  if (!rooms) return type;
+  if (rooms <= 15) return `全${rooms}室の小さな${type === '旅館' ? '宿' : type}`;
+  if (rooms >= 150) return `全${rooms}室の大きな${type}`;
+  return `全${rooms}室の${type}`;
+}
+
+function bath_sentence(baths) {
+  const others = ['露天風呂', '大浴場', 'サウナ', 'ジャグジー', '岩盤浴'].filter(x => baths.includes(x));
+  const private_bath = baths.includes('貸切風呂（家族風呂）');
+  if (private_bath) return others.length ? `お風呂は${others.slice(0, 3).join('、')}に加えて貸切風呂もあり、家族や二人だけで湯に浸かれます。` : '貸切風呂があり、家族や二人だけで湯に浸かれます。';
+  return others.length ? `お風呂は${others.slice(0, 3).join('、')}を楽しめます。` : '';
+}
+
+function meal_sentence(dinner) {
+  if (dinner.includes('お部屋')) return '夕食はお部屋でゆっくり味わえるプランもあります。';
+  if (dinner.includes('個室')) return '夕食は個室で落ち着いて味わえるプランもあります。';
+  if (dinner.includes('レストラン（バイキング）')) return '夕食は好きなものを選べるバイキングがあります。';
+  const places = dinner.filter(x => x !== 'コンベンションホール');
+  return places.length ? `夕食は${places.slice(0, 2).join('や')}でいただきます。` : '';
+}
+
+function facility_sentence(raw) {
+  const names = { '湯上がりサロン': '湯上がりサロン', 'ラウンジ': 'ラウンジ', 'バー': 'バー', '夜食コーナー': '夜食コーナー', 'エステサロン': 'エステ', '屋外プール': 'プール', 'プール(通年)': 'プール', '卓球': '卓球', '貸自転車': '貸自転車' };
+  const found = uniq(Object.keys(names).filter(k => raw.includes(k)).map(k => names[k]));
+  return found.length ? `館内には${found.slice(0, 3).join('、')}もあり、館内での時間も楽しめます。` : '';
+}
+
+// 駅から歩ける宿は、車がなくても行けることを伝える
+function access_sentence(access, shuttle) {
+  const m = clean(access).match(/([^\s、。,・/「」]{1,12}駅)[^。、/]{0,8}?徒歩(?:で)?約?(\d+)分/);
+  if (m && Number(m[2]) <= 15) return `${m[1].split(/線|:|『|分|から|より|\(|】|★|◆|電鉄|私鉄|電車は|バス|終点/).pop().replace(/^JR/, '')}から徒歩${m[2]}分と、車がなくても行きやすい立地です。`;
+  return shuttle ? '送迎バスもあります（条件は宿にご確認ください）。' : '';
+}
+
+function suits_sentence(baths, dinner, raw, barrier, rooms, text) {
+  if (/大人(?:限定|専用|の|だけ)/.test(text)) return '大人だけで静かに過ごしたい旅に向いています。';
+  if (/お子様|キッズ|ファミリー|赤ちゃん/.test(text) || raw.some(x => /プール|ゲームコーナー|児童遊園/.test(x))) return '家族旅行にも向いています。';
+  if (barrier.includes('バリアフリールーム')) return '親子三世代の旅行にも選びやすい宿です。';
+  if (rooms && rooms <= 15) return '少ない部屋数で、落ち着いて過ごしたい旅に向いています。';
+  if (dinner.includes('お部屋') || dinner.includes('個室')) return '二人旅や記念日の旅行にも向いています。';
+  return '';
 }
 
 function parse_access(text) {
@@ -116,9 +191,25 @@ function build(hotel, row, keyword_nos) {
 
   const rooms = f.hotelRoomNum ? `全${f.hotelRoomNum}室の` : '';
   const bath_words = baths.filter(x => !['水風呂', '温泉', '天然温泉'].includes(x)).slice(0, 4);
-  const bath_sentence = bath_words.length ? `お風呂は${join_words(bath_words)}があります。` : '';
+  const bath_short = bath_words.length ? `お風呂は${join_words(bath_words)}があります。` : '';
   const dinner_sentence = dinner.length ? `夕食の場所は${join_words(dinner.slice(0, 3))}です。` : '';
-  const description = `${hotel.name}は${place}にある${rooms}${type}です。${incl ? (incl === KEYWORD_ONLY ? 'インクルーシブプランの検索に該当する宿です。' : incl[1]) : ''}${bath_sentence}${dinner_sentence}`;
+  const description = `${hotel.name}は${place}にある${rooms}${type}です。${incl ? (incl === KEYWORD_ONLY ? 'インクルーシブプランの検索に該当する宿です。' : incl[1]) : ''}${bath_short}${dinner_sentence}`;
+
+  // 要点の説明文。掲載文の特徴＋お風呂＋食事＋館内＋行きやすさ＋向いている旅の順
+  const features = hotel_features(`${b.hotelSpecial} ${b.hotelName}`);
+  const quote = hotel_quote(b.hotelSpecial);
+  const intro = [
+    `${hotel.name}は、${place}にある${scale_phrase(f.hotelRoomNum, type)}です。`,
+    incl ? (incl === KEYWORD_ONLY ? 'インクルーシブのプランが見つかる宿です（含まれる範囲は予約時にご確認ください）。' : incl[1]) : '',
+    ...features.slice(0, 2).map(x => x.s),
+    bath_sentence(baths),
+    meal_sentence(dinner),
+    facility_sentence(raw_facilities),
+    access_sentence(b.access, raw_facilities.includes('送迎バス')),
+    suits_sentence(baths, dinner, raw_facilities, barrier, f.hotelRoomNum, clean(b.hotelSpecial)),
+  ].join('');
+  // 掲載文から一言が作れない宿は、特徴から一言を作る（出典表記は付けない）
+  const tagline = quote || `${features[0]?.m || (baths.includes('貸切風呂（家族風呂）') ? '貸切風呂で湯に浸かれる' : '湯と食事を楽しむ')}、${onsen?.name || pref}の${type === '旅館' ? '宿' : type}`;
 
   return {
     indexable: true, // 詳細情報を足した宿は検索に出す（2026-10-31 CEO判断）
@@ -127,7 +218,9 @@ function build(hotel, row, keyword_nos) {
     tags,
     ...(hotel.address ? {} : { address: `${b.address1}${clean(b.address2)}` }),
     rooms: f.hotelRoomNum || 0,
-    quote: hotel_quote(b.hotelSpecial),
+    intro,
+    tagline,
+    tagline_is_quote: Boolean(quote),
     checkin: d.checkinTime || '',
     last_checkin: d.lastCheckinTime || '',
     checkout: d.checkoutTime || '',

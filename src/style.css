@@ -1738,6 +1738,65 @@ ul {
   backdrop-filter: blur(8px);
 }
 
+/* 宿の紹介の一言（写真に重なる帯） */
+.hotel-tagline-wrap {
+  position: relative;
+  z-index: 3;
+  max-width: 860px;
+  margin: -4.5rem auto 0;
+  padding: 0 16px;
+}
+
+.hotel-tagline {
+  margin: 0;
+  padding: 2.25rem clamp(1.25rem, 5vw, 3.5rem) 1.75rem;
+  background: #fffdf9;
+  border: 1px solid var(--color-border);
+  border-top: 3px solid var(--color-primary);
+  border-radius: 4px;
+  box-shadow: 0 18px 40px rgba(60, 35, 15, 0.14);
+  text-align: center;
+}
+
+.hotel-tagline-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+  margin-bottom: 1.1rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.3em;
+  color: var(--color-primary-dark);
+}
+
+.hotel-tagline-label::before,
+.hotel-tagline-label::after {
+  content: '';
+  width: 2.5rem;
+  height: 1px;
+  background: var(--color-primary-light);
+}
+
+.hotel-tagline-text {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: clamp(1.15rem, 3.2vw, 1.6rem);
+  font-weight: 600;
+  line-height: 1.75;
+  letter-spacing: 0.04em;
+  color: var(--color-text);
+}
+
+.hotel-tagline-text span {
+  display: block;
+}
+
+.hotel-tagline-source {
+  margin: 1rem 0 0;
+  font-size: 0.75rem;
+  color: var(--color-text-dim);
+}
+
 .hotel-detail-info-section {
   padding: var(--spacing-xl) 0;
   background: var(--color-bg);

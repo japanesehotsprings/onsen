@@ -117,6 +117,8 @@ export function renderHotelDetail({ params }) {
       </div>
     </div>
 
+    ${hotel_tagline(hotel)}
+
     <section class="section hotel-detail-info-section">
       <div class="container">
         <div class="hotel-detail-grid">
@@ -214,6 +216,25 @@ function chip_list(list) {
 }
 
 /**
+ * ページ最上部の「宿の紹介」の一言。文ごとに改行して見せる
+ */
+function hotel_tagline(hotel) {
+  if (!hotel.tagline) return '';
+  const lines = hotel.tagline.split('。').filter(Boolean);
+  return `
+    <div class="hotel-tagline-wrap">
+      <figure class="hotel-tagline">
+        <figcaption class="hotel-tagline-label">宿の紹介</figcaption>
+        <blockquote class="hotel-tagline-text">
+          ${lines.map(line => `<span>${line}</span>`).join('')}
+        </blockquote>
+        ${hotel.tagline_is_quote ? '<p class="hotel-tagline-source">楽天トラベルの宿紹介より</p>' : ''}
+      </figure>
+    </div>
+  `;
+}
+
+/**
  * 宿ごとの詳細（楽天トラベルの掲載情報）。情報がない項目のカードは出さない
  */
 function hotel_info_sections(hotel) {
@@ -224,7 +245,6 @@ function hotel_info_sections(hotel) {
   ].join('');
   return [
     hotel.inclusive ? info_card(hotel.inclusive, `<p class="hotel-info-text">${hotel.inclusive_note}</p>`) : '',
-    hotel.quote ? info_card('宿の紹介', `<p class="hotel-info-text">「${hotel.quote}」</p><p class="hotel-info-source">楽天トラベルの宿紹介より</p>`) : '',
     hotel.baths?.length ? info_card('お風呂', chip_list(hotel.baths)) : '',
     meals ? info_card('お食事', meals) : '',
     hotel.access?.length ? info_card('アクセス', `<ul class="hotel-access-list">${hotel.access.map(x => `<li>${x}</li>`).join('')}</ul>`) : '',
@@ -260,8 +280,8 @@ function build_hotel_answer(hotel, onsen, prefecture, bookingLinks) {
   const pref = prefecture?.name || '';
   const ac = onsen?.access || {};
   const place = onsen ? `${pref}の${onsen.name}${hotel.near ? 'の周辺' : ''}` : pref;
-  const lead = hotel.rooms
-    ? hotel.description + (hotel.notice ? hotel.notice : '')
+  const lead = hotel.intro
+    ? hotel.intro + (hotel.notice ? hotel.notice : '')
     : `${hotel.name}は${place}にある宿です。` + (hotel.address ? `所在地は${hotel.address}。` : '') + (hotel.notice ? hotel.notice : '');
 
   const facts = [
