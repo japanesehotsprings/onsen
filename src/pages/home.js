@@ -11,6 +11,7 @@ import { specialList } from '../data/specials.js';
 import { articleList } from '../data/articles.js';
 import { navigateTo } from '../router.js';
 import { updateSEO } from '../seo.js';
+import { salt_home_section } from '../components/salt_home_section.js';
 
 /**
  * おすすめ温泉をランダムに取得
@@ -189,6 +190,8 @@ export function renderHome() {
         </div>
       </div>
     </section>
+
+    ${salt_home_section()}
 
     <section class="section" id="articles">
       <div class="container">

@@ -262,9 +262,25 @@ ul {
 .nav-links a {
   font-size: 0.9rem;
   font-weight: 500;
+  white-space: nowrap;
   color: var(--color-text-muted);
   position: relative;
   padding: 0.25rem 0;
+}
+
+/* PCでも幅の狭い画面では、メニューが1行に収まるように詰める */
+@media (min-width: 769px) and (max-width: 1199px) {
+  .header-search { width: 150px; }
+  .header-search:focus-within { width: 190px; }
+  .nav-links { gap: 0.75rem; }
+  .nav-links a { font-size: 0.8rem; }
+}
+
+@media (min-width: 769px) and (max-width: 899px) {
+  .header-search { width: 110px; }
+  .header-search:focus-within { width: 150px; }
+  .nav-links { gap: 0.5rem; }
+  .nav-links a { font-size: 0.75rem; }
 }
 
 .nav-links a:hover {
@@ -2878,3 +2894,13 @@ ul {
 
 .salt-box .salt-grid { margin-top: var(--spacing-sm); }
 .salt-box-more { display: inline-block; margin-top: var(--spacing-sm); }
+
+.salt-home-tiers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-md);
+}
+
+.salt-home-onsens { justify-content: center; }
