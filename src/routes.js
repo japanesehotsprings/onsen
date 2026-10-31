@@ -20,6 +20,8 @@ import { renderCourseDetail } from './pages/courseDetail.js';
 import { renderArticleList } from './pages/articleList.js';
 import { renderArticleDetail } from './pages/articleDetail.js';
 import { renderForInns } from './pages/forInns.js';
+import { renderBathSaltList } from './pages/bathSaltList.js';
+import { renderBathSaltDetail } from './pages/bathSaltDetail.js';
 import { updateSEO } from './seo.js';
 
 export const route_table = [
@@ -41,6 +43,8 @@ export const route_table = [
     { path: '/articles', handler: renderArticleList },
     { path: '/article/:id', handler: renderArticleDetail },
     { path: '/for-inns', handler: renderForInns },
+    { path: '/nyuyokuzai', handler: renderBathSaltList },
+    { path: '/nyuyokuzai/:id', handler: renderBathSaltDetail },
 ];
 
 // どのルートにも当たらないページ

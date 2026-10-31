@@ -1215,7 +1215,7 @@ ul {
   font-size: 0.7rem;
   font-weight: 600;
   line-height: 1.6;
-  color: var(--color-text-light, #666);
+  color: var(--color-text-muted);
   border: 1px solid currentColor;
   border-radius: 3px;
   vertical-align: middle;
@@ -2788,3 +2788,93 @@ ul {
 .onsen-point-list dt { font-weight: 700; color: var(--color-text); }
 .onsen-point-list dd { margin: 0.2rem 0 0; line-height: 1.8; color: var(--color-text-muted); }
 .onsen-point-note { margin: 1rem 0 0; font-size: 0.85rem; color: var(--color-text-muted); }
+
+/* ============ 家で入る名湯（入浴剤コーナー） ============ */
+.ad-notice {
+  margin-top: var(--spacing-sm);
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.salt-intro .salt-tiers-svg {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  margin: var(--spacing-md) auto;
+}
+
+.salt-svg-bar-1 { fill: var(--color-primary); }
+.salt-svg-bar-2 { fill: var(--color-primary-light); }
+.salt-svg-bar-3 { fill: var(--color-bg-alt); stroke: var(--color-border); }
+.salt-svg-title { font-size: 15px; font-weight: 700; fill: var(--color-text); }
+.salt-svg-note { font-size: 11px; fill: var(--color-text); }
+.salt-svg-bar-1 + .salt-svg-title,
+.salt-svg-bar-1 + .salt-svg-title + .salt-svg-note { fill: #fff; }
+
+.salt-tier-list {
+  max-width: 720px;
+  margin: 0 auto;
+  padding-left: 1.2em;
+  line-height: 1.9;
+}
+
+.salt-note {
+  margin-top: var(--spacing-sm);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+.salt-pref { margin-bottom: var(--spacing-md); }
+.salt-pref-name { font-size: 1rem; margin-bottom: var(--spacing-xs); }
+.salt-pref-onsens { display: flex; flex-wrap: wrap; gap: var(--spacing-xs); }
+
+.salt-section-title { margin: var(--spacing-lg) 0 var(--spacing-md); }
+
+.salt-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.salt-card {
+  display: flex;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-md);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.salt-card-img {
+  flex: 0 0 96px;
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: var(--radius-sm);
+}
+
+.salt-card-body { flex: 1; min-width: 0; }
+.salt-card-name { font-size: 1rem; margin: var(--spacing-xs) 0 2px; line-height: 1.5; }
+.salt-card-maker { font-size: 0.8rem; color: var(--color-text-muted); }
+.salt-card-basis, .salt-card-note { font-size: 0.85rem; margin-top: var(--spacing-xs); line-height: 1.7; }
+.salt-card-link { margin-top: var(--spacing-sm); font-size: 0.85rem; padding: 0.4em 1em; }
+
+.salt-badge {
+  display: inline-block;
+  padding: 0.1em 0.6em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: var(--radius-full);
+}
+.salt-badge-1 { background: var(--color-primary); color: #fff; }
+.salt-badge-2 { background: var(--color-primary-light); color: var(--color-text); }
+.salt-badge-3 { background: var(--color-bg-alt); color: var(--color-text); border: 1px solid var(--color-border); }
+
+.salt-detail .onsen-detail-card { margin-top: var(--spacing-lg); }
+.salt-real-spring { font-weight: 700; margin-bottom: var(--spacing-xs); }
+
+.salt-box .salt-grid { margin-top: var(--spacing-sm); }
+.salt-box-more { display: inline-block; margin-top: var(--spacing-sm); }
