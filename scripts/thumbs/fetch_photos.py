@@ -6,7 +6,7 @@ import io, json, re, sys, time, urllib.request
 from pathlib import Path
 from PIL import Image
 
-UA = 'JapanOnsenMedia/1.0 (https://japan-onsen-web.pages.dev; info@tech-village.co.jp)'
+UA = 'JapanOnsenMedia/1.0 (https://japan-onsen-web.pages.dev)'
 ROOT = Path(__file__).resolve().parents[2]
 KIND = sys.argv[3] if len(sys.argv) > 3 else 'article'
 OUT = ROOT / f'public/{KIND}-photos'

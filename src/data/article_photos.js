@@ -38,4 +38,6 @@ export const articlePhotos = {
   'course-izu-daytrip': {"alt": "修善寺温泉の独鈷の湯と桂川", "artist": "Batholith", "license": "Public domain", "license_url": "", "page": "https://commons.wikimedia.org/wiki/File:Tokko-no-yu_20110919.jpg"},
   'course-kaga-noto-2night': {"alt": "ステンドグラスが映る山代温泉の古総湯の浴室", "artist": "Maarten Heerlien", "license": "CC BY 2.0", "license_url": "https://creativecommons.org/licenses/by/2.0/deed.ja", "page": "https://commons.wikimedia.org/wiki/File:Japan_2024-05-04_(53893040353).jpg"},
   'course-kinosaki-1night': {"alt": "夜の城崎温泉の大谿川", "artist": "663highland", "license": "CC BY 2.5", "license_url": "https://creativecommons.org/licenses/by/2.5/deed.ja", "page": "https://commons.wikimedia.org/wiki/File:161029_Kinosaki_Onsen_Toyooka_Hyogo_pref_Japan01s.jpg"},
+  'shin-toji-guide': {"alt": "岩手県・大沢温泉の湯治屋", "artist": "掬茶", "license": "CC BY-SA 4.0", "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.ja", "page": "https://commons.wikimedia.org/wiki/File:Osawa_Onsen_Toujiya.jpg"},
+  'onsen-mark-yurai': {"alt": "磯部温泉にある「日本最古の温泉記号」の碑", "artist": "Abasaa", "license": "Public domain", "license_url": "", "page": "https://commons.wikimedia.org/wiki/File:Birthplace_of_Onsen_Mark_monument.JPG"},
 };

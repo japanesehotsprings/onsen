@@ -6,6 +6,8 @@ import io, json, os, re, sys, time, urllib.parse, urllib.request
 from PIL import Image, ImageDraw
 
 QUERIES = {
+ 'shin-toji-guide': ['Hijiori onsen street', '肘折温泉 温泉街', 'Osawa Onsen Iwate', '大沢温泉 岩手', 'Namari Onsen', '鉛温泉 藤三旅館', 'Shibu Onsen street', 'Yunomine onsen Tsuboyu'],
+ 'onsen-mark-yurai': ['温泉記号', '温泉マーク', 'onsen symbol sign', 'hot spring symbol Japan', '磯部温泉', 'Isobe Onsen', '♨'],
  'onsen-teigi': ['Kannawa onsen steam', '温泉 源泉 湯けむり', 'hot spring source Japan steam'],
  'onsen-bunsekisho-mikata': ['温泉分析書', 'onsen analysis certificate', '温泉 掲示 成分'],
  'kasui-kaon-junkan': ['内湯 温泉 湯船', 'indoor bath ryokan Japan', 'onsen indoor bath', '大浴場 温泉', 'hot spring bath interior Japan wooden'],
@@ -50,7 +52,7 @@ QUERIES = {
  'special-alkaline-simple-onsen': ['Gero Onsen', '下呂温泉', 'Kinugawa Onsen', '鬼怒川温泉', 'Yunishigawa Onsen'],
  'special-umibe-onsen': ['Shirahama Sakinoyu', '崎の湯 白浜', 'Furofushi Onsen', '不老ふ死温泉', 'Ibusuki onsen sea'],
 }
-UA = 'JapanOnsenMedia/1.0 (https://japan-onsen-web.pages.dev; info@tech-village.co.jp)'
+UA = 'JapanOnsenMedia/1.0 (https://japan-onsen-web.pages.dev)'
 OK = re.compile(r'^(cc0|pd|public domain|cc[- ]by(-sa)?[- ]?[\d.]*)', re.I)
 
 def get(url, binary=False):
